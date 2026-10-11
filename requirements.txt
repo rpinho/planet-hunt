@@ -1,0 +1,9 @@
+# Versions this kit was built and validated with (2026-10-11, Python 3.12)
+lightkurve==2.6.0
+astropy==8.0.1
+astroquery==0.4.11
+numpy==2.5.4
+pandas==2.3.3
+scipy==1.18.1
+matplotlib==3.11.2
+transitleastsquares==2.0.1   # optional; installed cleanly, not used by default
