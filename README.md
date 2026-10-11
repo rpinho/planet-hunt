@@ -19,13 +19,15 @@ All downloads and library caches go to `./cache` (`planet_hunt/config.py`
 redirects astropy, astroquery and lightkurve there). Delete `./cache` to free
 the space. One sector of 150 stars is about 300 MB.
 
-## The four steps
+## The steps
 
 ```bash
 .venv/bin/python validate.py                  # 1. recover a known planet (pi Men c, sector 1)
 .venv/bin/python hunt.py --sector 90 --n 150  # 2+3. search a sector, vet, cross-match
 .venv/bin/python followup.py --sector 90      # 3b. re-check survivors in the star's other sectors
+.venv/bin/python vet.py --sector 90           # 3c. on this star? transits agree? did SPOC see it?
 .venv/bin/python report.py --sector 90        # 4. reports/planet_hunt_sector_0090.html
+.venv/bin/python combined_report.py --sectors 104 105 106 107   # 4b. one report, many sectors
 ```
 
 | Script | What it does | Output |
@@ -33,6 +35,8 @@ the space. One sector of 150 stars is about 300 MB.
 | `validate.py` | Blind BLS search of pi Mensae c (TOI-144.01). Compares period, depth and duration with the NASA Exoplanet Archive. `--tic/--planet/--sector` to try another planet. | `runs/validation/<planet>/` |
 | `hunt.py` | Picks bright FGK dwarfs (Tmag < 11) with SPOC 2-min data in the sector, plus 15 known-TOI hosts as positive controls. Downloads the PDCSAP light curves, detrends them, runs BLS (twice per star: find, mask, search again), measures SNR, applies the vetting flags and labels every signal against the catalogs. | `runs/sector_NNNN/results.csv`, `summary.json`, `lc/*.npz` |
 | `followup.py` | For clean uncatalogued signals, checks the star's other TESS sectors and stitches the nearby ones. A real planet's SNR grows about as the square root of the number of sectors; noise does not. | `runs/sector_NNNN/followup/*.json` |
+| `vet.py` | For the same signals: flux-weighted centroid shift in transit and TIC neighbours bright enough to fake the depth (`planet_hunt/centroid.py`), a transit-by-transit depth consistency test, and a lookup of SPOC's own threshold-crossing events in the public DV reports (`planet_hunt/spoc.py`). `--borderline` also re-checks signals whose only red flag is one transit at a gap edge. | `runs/sector_NNNN/vet/*.json` |
+| `combined_report.py` | One report across several sectors that leads with the answer: stars, signals, survivors, the best candidates, then every uncatalogued signal and its fate. `--lead` for your own opening paragraph. | `reports/planet_hunt_sectors_*.html` |
 | `report.py` | Builds one HTML report (validation, numbers, controls, the full signal table, candidate cards with figures, rejects, next steps). Optional `runs/sector_NNNN/notes.json` adds your own notes to the cards. | `reports/planet_hunt_sector_NNNN.html` |
 
 ## Re-running on another sector
@@ -64,6 +68,27 @@ Check catalog coverage with `cache/catalogs/toi.csv` (`Sectors` column).
 - **Red flags** (probably not a planet): depth > 3%; implied radius > 2 RJup; odd/even depth difference > 3 sigma; secondary eclipse at phase 0.5; V-shape; mostly sinusoidal signal (spots, pulsation, contact binary); the same period coming back after masking; transits at data-gap edges; transit times shared with other stars (spacecraft systematic).
 - **Amber flags**: duration implausible for the star, period near TESS's 13.7-d orbit, a modest periodogram peak.
 - **Catalogs** (`catalogs.py`): ExoFOP TOI list, ExoFOP CTOI list and NASA Exoplanet Archive `pscomppars`. Matching uses the TIC ID plus the period, including 2x, 1/2, 3x, 1/3 and 1/4 aliases. All are public and cached for 3 days.
+
+## Results so far
+
+| Run | Stars | Signals | Known re-found | Uncatalogued, fully checked | Survive |
+|---|---|---|---|---|---|
+| Sector 90 (mature TOI list) | 150 | 33 | 10 | 4 | 0 |
+| Sectors 104-107 (May-Sep 2026, no TOIs yet) | 600 | 135 | 63 (48/60 controls) | 18 | 4, all at SNR 7-8 |
+
+In the newest sectors the best survivor (TIC 11528365, 8.17 d, 814 ppm) is a
+watch-list item, not a candidate: it sits at the detection threshold, SPOC did
+not raise a TCE for it, and the star's earlier sector does not clearly show it.
+The lesson: "no TOI yet" does not mean "unexamined". SPOC's search and DV
+reports for new sectors are public within weeks and catch nearly every real
+signal on bright stars, so the better hunting ground is fainter stars, M
+dwarfs and single transits. Also: the gap-edge rule is harsh (it rejected the
+known planet TOI-262 b), hence `--borderline`.
+
+The checks are calibrated on known objects: the transit-by-transit test flags
+none of 71 re-found known planets/TOIs (except one caught at half its period);
+the centroid test calls TOI-409.01, a known centroid false positive, only
+"marginal", so treat it as coarse.
 
 ## Be honest about "NEW"
 

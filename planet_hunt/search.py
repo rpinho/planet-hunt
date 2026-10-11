@@ -197,6 +197,7 @@ def transit_stats(lc: CleanLC, period: float, t0: float, duration: float) -> dic
             "depth_ppm": depth * 1e6, "depth_err_ppm": depth_err * 1e6,
             "snr": snr, "snr_white": snr_white, "snr_red": snr_red,
             "n_transits": n_tr, "n_edge": n_edge, "n_in": n_in, "sigma_ppm": sigma * 1e6,
+            "sigma_dur_ppm": sigma_dur * 1e6,
             "depth_odd_ppm": d_odd * 1e6, "depth_even_ppm": d_even * 1e6,
             "oe_sigma": oe_sigma, "depth_sec_ppm": d_sec * 1e6,
             "sec_sigma": sec_sigma, "shape": shape, "sin_ratio": sin_ratio, "rp_earth": rp_earth,
@@ -260,3 +261,62 @@ def analyze(lc0: CleanLC, raw_lc, meta, pmin=0.5, pmax=15.0) -> dict:
              tce=bool(s["snr"] >= SNR_MIN and s["n_transits"] >= 2
                       and b["sde"] >= SDE_MIN))
     return {"stats": s, "bls": b, "lc": lc}
+
+
+def followup_targets(res, borderline: bool = False):
+    """Rows of results.csv worth re-checking: TCEs not in any catalog (or on a
+    known host at another period) with no red flag. With `borderline`, also
+    those whose ONLY red flag is the gap-edge rule with at least one transit
+    clear of the gaps: e.g. a 10-day planet seen twice in a sector, once
+    next to the mid-sector downlink gap. That rule is deliberately harsh, so
+    it can hide real long-period planets."""
+    import re
+    flags = res["eb_flags"].fillna("")
+    only_edge = flags.apply(lambda f: bool(re.fullmatch(r"(\d+)/(\d+) transits at data-gap edges", f))
+                            and int(f.split("/")[0]) < int(f.split("/")[1].split()[0]))
+    ok = (flags == "") | (only_edge if borderline else False)
+    return res[res["tce"] & ok & res["catalog_status"].isin(["new", "host_other"])]
+
+
+def per_transit_check(t, flat, period: float, t0: float, duration: float) -> dict:
+    """Do the individual transits agree? A planet's dips all have the same
+    depth; one big event plus noise (a systematic, a flare-dip, a single
+    eclipse of something else) does not. Error bars are inflated by the
+    red-noise factor (scatter of transit-length averages vs white noise)."""
+    from scipy import stats
+    intr = in_transit(t, period, t0, duration)
+    oot = ~in_transit(t, period, t0, duration, widen=2.0)
+    level = np.median(flat[oot])
+    sig = 1.4826 * np.median(np.abs(flat[oot] - level))
+    cad = np.median(np.diff(t))
+    nb = max(1, int(round(duration / cad)))
+    ro = flat[oot] - level
+    binned = np.convolve(ro, np.ones(nb) / nb, mode="valid")[::nb]
+    beta = max(1.0, np.std(binned) / (sig / np.sqrt(nb))) if len(binned) > 5 else 1.0
+    epoch = np.round((t - t0) / period).astype(int)
+    rows = []
+    for e in np.unique(epoch[intr]):
+        m = intr & (epoch == e)
+        if m.sum() >= 0.5 * duration / cad:
+            rows.append((int(e), float(level - flat[m].mean()) * 1e6,
+                         float(beta * sig / np.sqrt(m.sum())) * 1e6))
+    if len(rows) < 2:
+        return {"ok": False, "depths": rows, "verdict": "fewer than 2 transits with data"}
+    d = np.array([r[1] for r in rows]); e = np.array([r[2] for r in rows])
+    w = 1 / e ** 2
+    mean = float(np.sum(w * d) / np.sum(w))
+    chi2 = float(np.sum(((d - mean) / e) ** 2))
+    p = float(stats.chi2.sf(chi2, len(d) - 1))
+    worst = float(np.max(np.abs(d - mean) / e))
+    # Calibrated on 71 known planets/TOIs re-found in sectors 90 and 104-107:
+    # requiring BOTH a very small p and a >30% relative deviation flags none
+    # of them except one caught at half its true period (a genuine mismatch).
+    # (p < 1e-3 alone wrongly flagged WASP-97 b, whose partial transit has tiny
+    # error bars, HR 858 b and TOI-6850.01.)
+    rel = float(np.max(np.abs(d - mean)) / abs(mean)) if mean != 0 else np.inf
+    bad = p < 1e-6 and rel > 0.3
+    verdict = ((f"INCONSISTENT: individual depths {', '.join(f'{x:.0f}' for x in d)} ppm "
+                f"(±{np.median(e):.0f}); chi2 p = {p:.1e}: not a steady transit") if bad else
+               f"consistent: {len(d)} transits agree (chi2 p = {p:.2f})")
+    return {"ok": True, "depths": rows, "mean_ppm": mean, "chi2": chi2, "p": p, "max_rel_dev": rel,
+            "worst_sigma": worst, "beta": float(beta), "consistent": not bad, "verdict": verdict}

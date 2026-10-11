@@ -22,6 +22,7 @@ import numpy as np
 import pandas as pd
 
 from planet_hunt import config
+from planet_hunt.catalogs import toi_coverage
 from planet_hunt.data import CleanLC
 from planet_hunt.plots import candidate_figure, fig_to_jpeg
 
@@ -95,8 +96,34 @@ def followup_html(fu: dict) -> str:
             f'<th class="num">SNR</th><th class="num">SNR if real</th></tr>{rows}</table></div>'
             f'<p><small>Per-sector rows: the best peak within ±1.5% of the period, so noise always finds '
             f'<i>something</i> at SNR ~4-5; a real planet sits at the same period every time. '
-            f'“SNR if real” is the optimistic (white-noise) SNR the candidate depth would have there.</small></p>'
+            f'“SNR if real” is the SNR the candidate depth would have there, with that sector’s noise (lower of the white- and red-noise estimates, as for detection).</small></p>'
             f'</details></div>')
+
+
+def vet_html(vt: dict) -> str:
+    """'Is the dip on this star?' box (from vet.py)."""
+    c, nb = vt.get("centroid", {}), vt.get("neighbours", {})
+    v = c.get("verdict", "not measured")
+    cls = "bad" if v.startswith("SHIFT") else ("warn" if v.startswith(("MARGINAL", "inconclusive", "not"))
+                                               else "ok")
+    if "n_able" in nb:
+        names = ", ".join(f"TIC {a['tic']} (T={a['Tmag']:.1f}, {a['sep_arcsec']:.0f}\")"
+                          for a in nb["able"][:4])
+        nbt = (f"{nb['n_able']} of {nb['n_within']} TIC neighbours within {nb['radius_arcsec']:.0f}\" are bright "
+               f"enough (Δmag &lt; {nb['dmag_limit']:.1f}) to produce this depth if fully eclipsed"
+               + (f": {esc(names)}." if names else ".") + f" Target share of the light: {100 * nb['dilution']:.0f}%.")
+        if nb["n_able"] == 0:
+            cls = "ok" if cls == "ok" or v.startswith("inconclusive") else cls
+    else:
+        nbt = "neighbour query failed."
+    tv = vt.get("transits", {}).get("verdict")
+    if tv and tv.startswith("INCONSISTENT"):
+        cls = "bad"
+    trt = f'<br><b>Transit by transit:</b> {esc(tv)}.' if tv else ""
+    sp = vt.get("spoc", {}).get("verdict")
+    spt = f'<br><b>NASA pipeline:</b> {esc(sp)}.' if sp else ""
+    return (f'<div class="fu {cls}"><b>On this star?</b> Centroid: {esc(v)}.<br>'
+            f'<small>Neighbours: {nbt}</small>{trt}{spt}</div>')
 
 
 def auto_read(r) -> str:
@@ -126,6 +153,39 @@ def auto_read(r) -> str:
     else:
         bits.append("Re-discovery of a catalogued signal: the pipeline is doing its job.")
     return " ".join(bits)
+
+
+def signal_card(run: Path, r, notes: dict, followups: dict, vets: dict | None = None,
+                extra_title: str = "") -> str:
+    """One signal card: numbers, flags, auto read, follow-up/vet boxes, figure."""
+    lc, bls = load_signal(run, r)
+    st = r.to_dict()
+    title = (f"TIC {r.tic}" + (f" signal {r.signal}" if r.signal > 1 else "")
+             + f"  P={r.period:.4f} d  depth={r.depth_ppm:,.0f} ppm  [{STATUS[r.catalog_status][0]}]")
+    jpeg = fig_to_jpeg(candidate_figure(lc, bls, st, title))
+    note = notes.get(f"{r.tic}_{r.signal}")
+    fu = followups.get(f"{r.tic}_{r.signal}")
+    vt = (vets or {}).get(f"{r.tic}_{r.signal}")
+    links = (f'<a href="https://exofop.ipac.caltech.edu/tess/target.php?id={r.tic}">ExoFOP</a> · '
+             f'<a href="https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html?searchQuery=TIC%20{r.tic}">MAST</a>')
+    return f"""
+<div class="card" id="tic{r.tic}_{r.signal}">
+  <h3>{extra_title}TIC {r.tic}{f' · signal {r.signal}' if r.signal > 1 else ''}{' · positive control' if r.control else ''}
+  {status_chip(r.catalog_status, r.catalog_label)}</h3>
+  <div>{flags_html(r.eb_flags, r.caution_flags)}</div>
+  <div class="kv">
+    <div><span>Period</span> {r.period:.4f} d</div><div><span>Depth</span> {r.depth_ppm:,.0f} ± {r.depth_err_ppm:,.0f} ppm</div>
+    <div><span>Duration</span> {r.duration_h:.2f} h</div><div><span>SNR / SDE</span> {r.snr:.1f} / {r.sde:.1f}</div>
+    <div><span>Tmag</span> {fmt(r.Tmag, 2)}</div><div><span>Star</span> {fmt(r.Teff, 0)} K, {fmt(r.star_rad, 2)} R☉</div>
+    <div><span>Odd/even</span> {fmt(r.oe_sigma)}σ</div><div><span>Secondary</span> {fmt(r.depth_sec_ppm, 0)} ppm ({fmt(r.sec_sigma)}σ)</div>
+  </div>
+  <p>{'' if r.catalog_status == 'new' else esc(r.catalog_label) + '. '}{esc(auto_read(r))}</p>
+  {followup_html(fu) if fu else ''}
+  {vet_html(vt) if vt else ''}
+  {f'<div class="note"><b>Analyst note:</b> {esc(note)}</div>' if note else ''}
+  <p><small>{links}</small></p>
+  {img_tag(jpeg, f'diagnostics for TIC {r.tic}')}
+</div>"""
 
 
 CSS = """
@@ -214,6 +274,7 @@ def main():
     summ = json.loads((run / "summary.json").read_text())
     notes = json.loads((run / "notes.json").read_text()) if (run / "notes.json").exists() else {}
     followups = {p.stem: json.loads(p.read_text()) for p in (run / "followup").glob("*.json")}
+    vets = {p.stem: json.loads(p.read_text()) for p in (run / "vet").glob("*.json")}
     res["eb_flags"] = res["eb_flags"].fillna("")
     res["caution_flags"] = res["caution_flags"].fillna("")
     tce = res[res["tce"]].copy()
@@ -264,38 +325,18 @@ def main():
         if len(m) and len(rejects) < 3:
             rejects.append(m.iloc[0])
 
-    def card(r, kind="cand") -> str:
-        lc, bls = load_signal(run, r)
-        st = r.to_dict()
-        title = (f"TIC {r.tic}" + (f" signal {r.signal}" if r.signal > 1 else "")
-                 + f"  P={r.period:.4f} d  depth={r.depth_ppm:,.0f} ppm  [{STATUS[r.catalog_status][0]}]")
-        jpeg = fig_to_jpeg(candidate_figure(lc, bls, st, title))
-        note = notes.get(f"{r.tic}_{r.signal}")
-        fu = followups.get(f"{r.tic}_{r.signal}")
-        links = (f'<a href="https://exofop.ipac.caltech.edu/tess/target.php?id={r.tic}">ExoFOP</a> · '
-                 f'<a href="https://mast.stsci.edu/portal/Mashup/Clients/Mast/Portal.html?searchQuery=TIC%20{r.tic}">MAST</a>')
-        return f"""
-<div class="card" id="tic{r.tic}_{r.signal}">
-  <h3>TIC {r.tic}{f' · signal {r.signal}' if r.signal > 1 else ''}{' · positive control' if r.control else ''}
-  {status_chip(r.catalog_status, r.catalog_label)}</h3>
-  <div>{flags_html(r.eb_flags, r.caution_flags)}</div>
-  <div class="kv">
-    <div><span>Period</span> {r.period:.4f} d</div><div><span>Depth</span> {r.depth_ppm:,.0f} ± {r.depth_err_ppm:,.0f} ppm</div>
-    <div><span>Duration</span> {r.duration_h:.2f} h</div><div><span>SNR / SDE</span> {r.snr:.1f} / {r.sde:.1f}</div>
-    <div><span>Tmag</span> {fmt(r.Tmag, 2)}</div><div><span>Star</span> {fmt(r.Teff, 0)} K, {fmt(r.star_rad, 2)} R☉</div>
-    <div><span>Odd/even</span> {fmt(r.oe_sigma)}σ</div><div><span>Secondary</span> {fmt(r.depth_sec_ppm, 0)} ppm ({fmt(r.sec_sigma)}σ)</div>
-  </div>
-  <p>{'' if r.catalog_status == 'new' else esc(r.catalog_label) + '. '}{esc(auto_read(r))}</p>
-  {followup_html(fu) if fu else ''}
-  {f'<div class="note"><b>Analyst note:</b> {esc(note)}</div>' if note else ''}
-  <p><small>{links}</small></p>
-  {img_tag(jpeg, f'diagnostics for TIC {r.tic}')}
-</div>"""
-
-    cards_html = "\n".join(card(r) for _, r in cards_df.iterrows())
-    rejects_html = "\n".join(card(r, "reject") for r in rejects)
+    cards_html = "\n".join(signal_card(run, r, notes, followups, vets) for _, r in cards_df.iterrows())
+    rejects_html = "\n".join(signal_card(run, r, notes, followups, vets) for r in rejects)
 
     s = summ
+    n_toi = toi_coverage().get(args.sector, 0)
+    if n_toi >= 30:
+        context = (f"That is the expected answer: sector {args.sector} has already been combed by the TESS team "
+                   f"({n_toi} TOIs list it), and an uncatalogued BLS hit is almost always noise, a systematic, "
+                   "stellar variability or a blended eclipsing binary.")
+    else:
+        context = (f"Sector {args.sector} is fresh: only {n_toi} TOIs list it so far, so “not in the catalogs” "
+                   "partly means “not looked at yet”. A survivor here still needs the checks in section 6.")
     html_doc = f"""<!doctype html>
 <html lang="en"><head><meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1">
@@ -310,10 +351,7 @@ below and {n_ctrl_ok} of {s['n_controls']} known-TOI positive controls. Across {
 {s['n_tce']} threshold-crossing signals (SNR ≥ 7.1, ≥ 2 transits): {n_known} are catalogued planets/TOIs,
 {n_new} are not in any catalog, and only {n_new_clean} of those (plus {n_host_clean} extra signal(s) on known
 hosts) pass the automated eclipsing-binary / systematics checks. Re-checked against each star's other TESS
-sectors, <b>{len(fu_survive)} of {len(fu_done)}</b> survive{'s' if len(fu_survive) == 1 else ''}. That is the expected
-answer: sector {args.sector} has already been combed by the TESS team and TFOPWG, and an uncatalogued BLS hit is almost
-always noise, a systematic, stellar variability or a blended eclipsing binary. The value of tonight's run is a
-working, validated pipeline you can point at fresher or fainter data.</div>
+sectors, <b>{len(fu_survive)} of {len(fu_done)}</b> survive{'s' if len(fu_survive) == 1 else ''}. {context}</div>
 
 <h2>1 · Validation: can it find a known planet?</h2>
 {validation_section()}

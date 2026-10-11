@@ -38,6 +38,18 @@ def load_toi() -> pd.DataFrame:
     return df
 
 
+def toi_coverage() -> dict[int, int]:
+    """Number of TOIs whose ExoFOP `Sectors` list includes each sector."""
+    toi = _fetch(config.TOI_URL, config.CATALOG_DIR / "toi.csv")
+    cov: dict[int, int] = {}
+    for s in toi["Sectors"].dropna().astype(str):
+        for x in s.split(","):
+            x = x.strip()
+            if x.isdigit():
+                cov[int(x)] = cov.get(int(x), 0) + 1
+    return cov
+
+
 CTOI_URL = "https://exofop.ipac.caltech.edu/tess/download_ctoi.php?sort=ctoi&output=csv"
 
 

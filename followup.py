@@ -27,7 +27,7 @@ import pandas as pd
 
 from planet_hunt import config
 from planet_hunt.data import CleanLC, detrend, download, load_lightcurve
-from planet_hunt.search import bls_search, transit_stats
+from planet_hunt.search import bls_search, followup_targets, transit_stats
 
 import lightkurve as lk  # noqa: E402
 
@@ -59,9 +59,14 @@ def check_signal(tic: int, period: float, depth_ppm: float, duration_h: float,
             lc = detrend(raw, meta, transit=(b["period"], b["t0"], b["duration"]))
             st = transit_stats(lc, b["period"], b["t0"], b["duration"])
             # SNR the candidate SHOULD have here: same depth, this sector's noise
-            # (white-noise estimate, so it is an optimistic upper bound)
+            # Same recipe as the detection SNR: the lower of a white-noise and a
+            # red-noise (transit-timescale scatter) estimate. White noise alone
+            # over-promises on spotted/granulating stars and would call real
+            # signals "faded".
             n_in_expected = st["n_in"] * (duration_h / st["duration_h"])
-            expected = depth_ppm / (st["sigma_ppm"] / np.sqrt(max(n_in_expected, 1)))
+            exp_white = depth_ppm / (st["sigma_ppm"] / np.sqrt(max(n_in_expected, 1)))
+            exp_red = depth_ppm / (st["sigma_dur_ppm"] / np.sqrt(max(st["n_transits"], 1)))
+            expected = min(exp_white, exp_red)
             per_sector.append({"sector": int(sector), "period": b["period"],
                                "depth_ppm": st["depth_ppm"], "snr": st["snr"],
                                "n_transits": st["n_transits"], "expected_snr": float(expected)})
@@ -136,6 +141,8 @@ def main():
     ap.add_argument("--signal", type=int, default=1)
     ap.add_argument("--max-sectors", type=int, default=6,
                     help="other sectors to download per star (~2 MB each)")
+    ap.add_argument("--borderline", action="store_true",
+                    help="also re-check signals whose only red flag is one transit at a gap edge")
     args = ap.parse_args()
 
     run = config.RUNS / f"sector_{args.sector:04d}"
@@ -144,8 +151,7 @@ def main():
     if args.tic:
         todo = res[(res["tic"] == args.tic) & (res["signal"] == args.signal)]
     else:
-        todo = res[res["tce"] & res["eb_flags"].isna()
-                   & res["catalog_status"].isin(["new", "host_other"])]
+        todo = followup_targets(res, borderline=args.borderline)
     for r in todo.itertuples():
         print(f"TIC {r.tic} signal {r.signal}: P={r.period:.4f} d, {r.depth_ppm:.0f} ppm", flush=True)
         out = check_signal(int(r.tic), r.period, r.depth_ppm, r.duration_h,
