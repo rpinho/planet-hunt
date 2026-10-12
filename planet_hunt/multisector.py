@@ -79,7 +79,7 @@ def clean_sector(d: dict, window: float = 0.75, gap: float = 0.5, edge: float = 
 def stitch(sectors: list[dict], transit_mask=None, window: float = 0.75) -> dict:
     """Clean every sector and concatenate (per-point dy, cadence, sector id)."""
     parts = [p for p in (clean_sector(d, window=window, transit_mask=transit_mask) for d in sectors)
-             if p is not None and len(p["t"]) > 50]
+             if p is not None and len(p["t"]) > 50 and np.isfinite(p["sigma"]) and p["sigma"] > 0]
     if not parts:
         return {}
     cat = lambda k: np.concatenate([p[k] for p in parts])
