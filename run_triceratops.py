@@ -48,6 +48,29 @@ def spoc_apertures(lc_dir: str, tic: int, sectors) -> tuple[list, list]:
     return aps, used
 
 
+def use_local_cutouts(cut_dir: str):
+    """TRICERATOPS downloads one TESScut cutout per sector only for its WCS and
+    reference pixel (the mean image is used for plots). When the MAST TESScut
+    service hangs, serve already-downloaded cutouts (any size) instead."""
+    import lightkurve
+    from astropy.io import fits
+
+    class _Cut:
+        def __init__(self, path):
+            self.hdu = fits.open(path)
+
+    class _Search:
+        def __init__(self, sector):
+            hit = sorted(glob.glob(f"{cut_dir}/*s{int(sector):04d}-*_astrocut.fits"))
+            if not hit:
+                raise FileNotFoundError(f"no local cutout for sector {sector} in {cut_dir}")
+            self.path = hit[0]
+
+        def download_all(self, **kw):
+            return [_Cut(self.path)]
+    lightkurve.search_tesscut = lambda target=None, sector=None, **kw: _Search(sector)
+
+
 def main():
     ap = argparse.ArgumentParser(description=__doc__, formatter_class=argparse.RawDescriptionHelpFormatter)
     ap.add_argument("--tic", type=int, required=True)
@@ -58,8 +81,20 @@ def main():
     ap.add_argument("--max-sectors", type=int, default=12, help="apertures from this many sectors")
     ap.add_argument("--bin-min", type=float, default=4.0)
     ap.add_argument("--out", default="runs/round4_vet")
+    ap.add_argument("--name", default=None, help="output file stem (default triceratops_<tic>)")
+    ap.add_argument("--contrast-curve", nargs="*", default=[],
+                    help="high-resolution imaging contrast curves: CSV files 'arcsec,dmag', no header")
+    ap.add_argument("--filt", nargs="*", default=[], help="filter of each contrast curve (TESS, Vis, J, H, K)")
+    ap.add_argument("--clear-stars", nargs="*", type=int, default=[],
+                    help="TIC IDs of neighbours excluded as the source by other data (e.g. pixel-level "
+                         "localisation): their transit depth is set to 0, which removes their scenarios")
+    ap.add_argument("--molusc-file", default=None)
+    ap.add_argument("--local-cutouts", default=None,
+                    help="folder of TESScut *_astrocut.fits files to use instead of downloading")
     args = ap.parse_args()
     import triceratops.triceratops as tr
+    if args.local_cutouts:
+        use_local_cutouts(args.local_cutouts)
     z = np.load(args.fold)
     ph, fl, er = z["phase_d"], z["flux"], z["err"]
     P, depth = float(z["period"]), float(z["depth"])
@@ -84,11 +119,22 @@ def main():
     target = tr.target(ID=args.tic, sectors=np.array(used), background_population_source="gaia",
                        lightkurve_cache_dir=str(cache))
     target.calc_depths(tdepth=depth, all_ap_pixels=aps)
+    cleared = []
+    for sid in args.clear_stars:
+        m = target.stars["ID"].astype(str) == str(sid)
+        if m.any():
+            target.stars.loc[m, "tdepth"] = 0.0
+            cleared.append(sid)
     stars = target.stars
+    cc = None
+    if args.contrast_curve:
+        cc = args.contrast_curve if len(args.contrast_curve) > 1 else args.contrast_curve[0]
+    filt = (args.filt if len(args.filt) > 1 else args.filt[0]) if args.filt else "TESS"
     runs = []
     for i in range(args.runs):
         target.calc_probs(time=xb, flux_0=yb, flux_err_0=float(np.median(eb)), P_orb=P, N=args.n,
-                          exptime=args.bin_min / 1440, verbose=0)
+                          exptime=args.bin_min / 1440, verbose=0, contrast_curve_file=cc, filt=filt,
+                          molusc_file=args.molusc_file)
         probs = target.probs
         runs.append({"FPP": float(target.FPP), "NFPP": float(target.NFPP),
                      "scenarios": {f"{r.ID}:{r.scenario}": float(r.prob) for r in probs.itertuples()
@@ -98,7 +144,10 @@ def main():
     out = {"tic": args.tic, "period": P, "depth": depth, "aperture_sectors": used, "n_bins": int(len(xb)),
            "FPP_mean": float(fpp.mean()), "FPP_std": float(fpp.std()), "NFPP_mean": float(nfpp.mean()),
            "NFPP_std": float(nfpp.std()), "runs": runs, "n_stars_in_search": int(len(stars)),
-           "note": "no contrast curve: unresolved companions constrained by priors only"}
+           "contrast_curves": args.contrast_curve, "filters": args.filt, "cleared_stars": cleared,
+           "molusc_file": args.molusc_file,
+           "note": ("no contrast curve: unresolved companions constrained by priors only" if not cc
+                    else "unresolved companions constrained by the contrast curve(s)")}
     try:   # column names differ between TRICERATOPS versions
         keep = [c for c in stars.columns if any(k in c.lower() for k in ("id", "tmag", "sep", "pa", "fluxratio", "tdepth"))]
         st = stars[keep].head(15)
@@ -106,7 +155,8 @@ def main():
     except Exception as exc:
         out["stars_error"] = repr(exc)[:200]
     Path(args.out).mkdir(parents=True, exist_ok=True)
-    (Path(args.out) / f"triceratops_{args.tic}.json").write_text(json.dumps(out, indent=1, default=str))
+    stem = args.name or f"triceratops_{args.tic}"
+    (Path(args.out) / f"{stem}.json").write_text(json.dumps(out, indent=1, default=str))
     print(json.dumps({k: v for k, v in out.items() if k != "runs"}, indent=1, default=str))
 
 

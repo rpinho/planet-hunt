@@ -1,0 +1,33 @@
+{
+ "target": "TIC 259233660 (TOI-6000), candidate second signal",
+ "verdict": "strong candidate - worth drafting a CTOI for Ricardo to decide; not a validated planet",
+ "recommendation": "draft CTOI (decision is Ricardo's; nothing submitted)",
+ "summary": "A 4.21344-d, ~790 ppm, 1.15 +/- 0.09 Earth-radius transit next to the USP planet TOI-6000 b. Detected in SPOC 2-min (SNR 8.8, null-calibrated), TESS-SPOC FFI and fixed-aperture TESScut photometry, localised on the target to 2.0 +/- 2.0 arcsec with every Gaia neighbour within 63 arcsec excluded (dchi2 >= 43), and its transit shape implies the same stellar density as TOI-6000 b (0.02 sigma). TRICERATOPS with the public Keck/NIRC2 contrast curves and the pixel-cleared neighbours gives FPP 0.0008, NFPP 0. It is not validated because the statistical tests assume the signal is real, all TESS photons were used by the discovery search, SNR is below 10 and the depth drifts down ~10%/yr at ~2 sigma.",
+ "for": [
+  "SPOC 2-min (33 sectors, TOI-6000 b masked): 781 +/- 88 ppm, SNR 8.8 with red-noise errors; 3000 random ephemerides give SNR std 1.006 and max 3.2.",
+  "Robust: 105/149 transits positive (sign test z = 4.9 calibrated), Student-t depth 798 +/- 112 ppm (SNR 6.8 calibrated); look-elsewhere 1%-FA threshold ~6.4 sigma.",
+  "Each half separately: Cycle 2 915 +/- 134 ppm (SNR 6.8), Cycles 4-7 ~668 +/- 115 ppm (SNR 5.8).",
+  "Pixel localisation, 39 sectors: 2.0 +/- 2.0 arcsec (TOI-6000 b on the same pixels: 2.3 +/- 1.8 arcsec); TIC 1884419644 (13 arcsec) now disfavoured at dchi2 44.6 vs 1.6 for the target.",
+  "Shape: density 7.1 +/- 4.8 g/cc free vs TOI-6000 b 7.0 (+2.3/-4.0) and TIC 9.6 +/- 0.9; shared-density joint fit costs dchi2 1.8; odd/even 0.15 sigma; secondary -168 +/- 88 ppm.",
+  "Not an alias or b harmonic (P/Pb = 9.385); not momentum dumps (1 of 169 transits within one duration, 4 expected); no depth-contamination correlation (0.1 sigma).",
+  "TRICERATOPS: FPP 0.089 (no constraints) -> 0.059 (+ Keck H/J contrast curves) -> 0.0008, NFPP 0 (+ pixel-cleared neighbours); 0.0014 on the older, smeared fold."
+ ],
+ "against": [
+  "No independent photons: the discovery search used the TESS-SPOC FFI light curves of 39 sectors plus all 33 2-min sectors; Sector 108 does NOT observe the star (tess-point); next TESS coverage is Sectors 117-132 (2027).",
+  "Depth declines ~10%/yr: 2-min -80 +/- 46 ppm/yr (1.8 sigma; null-calibrated p ~ 0.09 for the -1.3 sigma version), fixed aperture -154 +/- 56 ppm/yr (2.7 sigma); TOI-6000 b is flat in both products. Found after looking at season depths (a posteriori).",
+  "Per-sector depth scatter chi2/dof 1.76 vs 1.05 +/- 0.28 at random ephemerides (p ~ 0.017; S40 high, S47 and S75 low).",
+  "Fixed-aperture/2-min depth ratio 1.35 +/- 0.13 vs 1.09 +/- 0.06 for TOI-6000 b (1.8 sigma); direction not blend-like for a target-centred aperture.",
+  "SPOC never raised a second TCE (expected MES ~6 < 7.1 threshold, so not surprising) and no published work searched for more planets.",
+  "TRICERATOPS assumes the dip is astrophysical; neighbour clearing comes from our own TESS pixel fit, not seeing-limited ground photometry."
+ ],
+ "bars": {
+  "ctoi_fpp_lt_0p5": "met under every configuration (0.0008-0.089; 0.27 in the earlier unconstrained run)",
+  "validation_fpp_lt_0p015_nfpp_lt_0p001": "met formally only with the pixel-based neighbour clearing (FPP 0.0008, NFPP 0); without it NFPP = 0.058. Do not claim validation: signal reality is not yet independently established."
+ },
+ "literature": "Gomez Barrientos et al. 2025 (AJ 170, 148; arXiv 2508.02782) validate TOI-6000 b only; no RVs, TTVs, residual transit search or injection-recovery; no mention of a second signal. Exoplanet Archive and ExoFOP list one planet; SPOC TCEs: only planet 1 in every multi-sector run through s14-s86.",
+ "next": [
+  "Ground-based transit at the posterior ephemeris (P = 4.213442 d, T0 = BTJD 2634.7373; ~10-15 min 1-sigma in 2026-27): ~0.8 ppt, 1.5 h; Palomar/WIRC reached 172 ppm per 10 min on this star in J, so one transit would give ~10 sigma.",
+  "TESS Sectors 117-132 (2027): an independent check; predicted transit near BTJD 4303.26 +/- 0.008 d.",
+  "If Ricardo approves: CTOI on ExoFOP with these numbers and the caveats above."
+ ]
+}

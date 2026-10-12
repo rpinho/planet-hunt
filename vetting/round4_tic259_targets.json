@@ -1,0 +1,53 @@
+{
+ "notes": "TIC 259233660 follow-up: candidate and on-target control with every TESScut sector",
+ "targets": [
+  {
+   "name": "tic259233660_4p21d_all",
+   "role": "candidate",
+   "tic": 259233660,
+   "ra": 292.606392759511,
+   "dec": 68.154543623067,
+   "gaia_id": 2261062378812852992,
+   "tmag": 13.1638,
+   "teff": 3419.0,
+   "rstar": 0.377509,
+   "mstar": 0.365888,
+   "period": 4.213447666,
+   "t0": 1686.710761541,
+   "duration_h": 1.6794192881035923,
+   "depth_ppm": 781.0,
+   "exclude_windows": [
+    [
+     0.448956,
+     1684.47826,
+     0.03058
+    ]
+   ],
+   "note": "second signal next to TOI-6000 b; all TESScut sectors; 2-min ephemeris"
+  },
+  {
+   "name": "ctl_toi6000b_all",
+   "role": "control_on",
+   "tic": 259233660,
+   "ra": 292.606392759511,
+   "dec": 68.154543623067,
+   "gaia_id": 2261062378812852992,
+   "tmag": 13.1638,
+   "teff": 3419.0,
+   "rstar": 0.377509,
+   "mstar": 0.365888,
+   "period": 0.4489574,
+   "t0": 1684.47597,
+   "duration_h": 0.73392,
+   "depth_ppm": 647.558624697564,
+   "note": "TOI-6000 b, confirmed; all TESScut sectors (on-target control at the same pixels)",
+   "exclude_windows": [
+    [
+     4.213447666,
+     1686.710761541,
+     0.07
+    ]
+   ]
+  }
+ ]
+}
