@@ -1,0 +1,53 @@
+{
+ "notes": "Round 4 deep vetting. Method calibrated on 3 confirmed on-target planets (TOI-206 b, TOI-6000 b, TOI-1680 b) and 3 known off-target signals (our crowding blend TIC 382517132, TFOP NEB TOI-2084.02, TFOP FP TOI-4053.01). Joint PSF localisation: on-target planets give target dchi2 0.8-12.9 and offsets 0.7-7.6 arcsec; off-target controls give dchi2 62-882 and pick the neighbour (for TOI-4053.01 exactly the TIC 235684390 that TFOP named). Density test: planets z <= 0.8, off-target controls z = 2.1-3.7. Live ExoFOP TOI/CTOI lists (2026-10-12): none of the four TICs has a TOI or CTOI except TOI-6000.01 (0.449 d) on TIC 259233660. Nothing was submitted anywhere.",
+ "verdicts": {
+  "tic167723381_2p09d": {
+   "verdict": "likely false positive (blend)",
+   "summary": "The 2.09-d dip is not on TIC 167723381. It comes from ~25 arcsec north, most likely TIC 167723385 (Gaia DR3 5480341264258163840, Tmag 16.3 M dwarf at 307 pc), where it is a ~4-6% grazing eclipse.",
+   "evidence": [
+    "Joint PSF fit of 43 sectors: source 28.6 +/- 0.5 arcsec from the target; target disfavoured by dchi2 = 1686 (on-target controls <= 13); TIC 167723385 is the best Gaia source in 43/43 sectors.",
+    "Depth vs aperture (fixed TESScut pixels, target-normalised): 953 +/- 219, 2694 +/- 229, 6740 +/- 523, 13261 +/- 1560 ppm from the target's brightest pixel outwards; an on-target dip is flat. Neighbour hypothesis beats target by dchi2 ~ 250.",
+    "Product test: QLP/TESS-SPOC depth ratio 1.98 +/- 0.19 vs 0.81 (scatter 0.10) for 13 known planets: 5.3 sigma outlier. In fixed TESScut apertures the 2025 depth does NOT double (season 4: 1261 +/- 284 ppm); the doubling was the product switch.",
+    "The 'faint star 11 arcsec away' (TIC 167723376, Tmag 17.1) is a 2MASS-only TIC entry; Gaia sees only a G = 21.3 source there, to the SOUTH; the localisation points north.",
+    "The deep 29-day 'eclipse' (signal 1) is a QLP artifact: at BTJD 4017.35 (S98) the calibrated FFI pixels are flat to ~2% while QLP swings 0.60-1.43 at the onset of a scattered-light ramp; no difference-image signal anywhere.",
+    "Neighbour-centred light curve: 5905 +/- 159 ppm, odd/even 0.7 sigma, b = 0.94 (P(grazing) = 0.95), density 1.6 vs TIC 8.6 g/cc (z = 3.7, like the off-target controls); a possible 9 sigma dip at phase 0.90. Reads as a grazing eclipsing binary, not a planet.",
+    "On the target alone the transit shape is uninformative (density profile flat 0.6-18 g/cc); odd/even 0.6 sigma, no secondary at 0.5."
+   ]
+  },
+  "tic11528365_8p17d": {
+   "verdict": "likely false positive (does not persist)",
+   "summary": "Three consistent dips in sector 107 only; the same ephemeris shows nothing in sector 97 (2-min) or sector 30, and no coherent period across years.",
+   "evidence": [
+    "New data: TESScut has sector 108 (FFI, 200 s) and sector 3; SPOC 2-min exists for S30, S97, S107 only (S108 2-min not public yet). No TOI/CTOI.",
+    "Discovery ephemeris from S107 alone: P = 8.1724 +/- 0.0008 d (window in S97: +/- 0.03 d).",
+    "S97 2-min at the predicted times: 236 +/- 98 ppm (814 ppm excluded at 5.9 sigma; expected SNR 8.3); best inside the window 257 ppm (SNR 2.6).",
+    "S30 2-min: best inside the +/- 0.21 d window 276 ppm (SNR 1.9; expected 5.7). S108 fixed-aperture FFI: -76 +/- 483 ppm (red-noise limited, weak test).",
+    "Coherent scan over 2,934 days: best SNR 5.9 (12.2 expected for a constant transit), 2.9 without S107, at the scan's noise level (p99 = 5.2).",
+    "If real it would be on target (no Gaia star within 63 arcsec can supply the flux: all would need > 590% eclipses), but it is not a stable signal; SPOC also raised no TCE in S107."
+   ]
+  },
+  "tic298780765_1p17d": {
+   "verdict": "likely false positive (false alarm / fades)",
+   "summary": "Pixels are consistent with the target, but the signal fades away in the best data.",
+   "evidence": [
+    "Fixed TESScut apertures, 39 sectors: 712 +/- 177 ppm overall, trend -406 +/- 106 ppm/yr; 200-s sectors (2022-24) 143 +/- 229 ppm, i.e. absent in the sharpest data.",
+    "Fixed-aperture fold: SNR 5.3, odd/even 4.0 sigma; transit fit cannot constrain a planet (k posterior runs to zero).",
+    "Localisation: 5.8 +/- 2.8 arcsec, target dchi2 4.3 (on target, but there is little signal to localise). Pipeline season depths also fall (TESS-SPOC 2019-24: 1377 -> 661 ppm)."
+   ]
+  },
+  "tic259233660_4p21d": {
+   "verdict": "unresolved - the best candidate of the round",
+   "summary": "A ~1.1 Earth-radius candidate at 4.2135 d next to the confirmed USP planet TOI-6000 b. Present in the SPOC 2-minute data at the FFI ephemeris and on target in the pixels; below the publication bar on SNR and pending prior-ownership and FPP checks.",
+   "evidence": [
+    "SPOC 2-min PDCSAP, 33 sectors (TOI-6000 b masked): 758 +/- 85 ppm, SNR 9.0 at the a-priori FFI ephemeris (9.7 expected from the FFI depth of 820 ppm); a blind 2,340-trial local scan peaks back at the same ephemeris.",
+    "Robustness: dropping the deepest 5% of epochs gives 624 +/- 89 ppm (SNR 7.0); leaving out any one season keeps SNR 5.5-8.4; per-epoch depths show excess scatter (p = 8e-8), so the formal SNR is optimistic.",
+    "TESS-SPOC FFI: 853 +/- 74 ppm; fixed TESScut apertures 774 +/- 178 ppm, no trend (-64 +/- 101 ppm/yr).",
+    "Pixels: localisation 3.7 +/- 6.4 arcsec, target dchi2 0.85; rings 992, 542, 212 ppm (not rising); the 24 arcsec Tmag 14.9 neighbour is not preferred.",
+    "Shape: k ~ 0.028-0.033, b ~ 0.46, density 16.6 (5.2-30) vs TIC 9.6 g/cc (z = -0.5), no grazing; odd/even 0.1 sigma, secondary -2.0 sigma (none).",
+    "Against: SPOC's multi-sector 2-min search (S14-78) raised only TOI-6000 b; SNR after the robust epoch clip (7.0) is below the 9 bar; no contrast curve. Not in TOI/CTOI; the two TOI-6000 papers (Gomez Barrientos et al. 2025, AJ 170, 148; arXiv 2508.02782) do not mention it in their abstracts, but their full texts must be checked.",
+    "TRICERATOPS (Gaia background population, 12 SPOC optimal apertures, binned 2-min fold, no contrast curve, 5 runs): FPP = 0.27 +/- 0.003, NFPP = 0.23; planet on target 0.61, planet on bound companion 0.12. NFPP comes from NEBs on TIC 259233664 (0.07), 259233669 (0.06), 1884419644 (0.02), 259233672 (0.02).",
+    "Pixel cross-check of those NEB hosts (dchi2 relative to the target, systematic floor ~13 from the on-target controls): TIC 259233664 +37, 259233669 +23, 259233672 +26, 259233658 (24 arcsec, Tmag 14.9) +30, all disfavoured; TIC 1884419644 (Tmag 19.2, 13 arcsec) +9.7, NOT excluded (would need a 15-23% eclipse). Removing the pixel-excluded scenarios gives approximately FPP ~0.13, NFPP ~0.08 (a hand adjustment, not a TRICERATOPS output)."
+   ]
+  }
+ }
+}

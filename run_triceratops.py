@@ -79,7 +79,10 @@ def main():
         eb.append(1 / np.sqrt(w[m].sum()))
     xb, yb, eb = np.array(xb), np.array(yb), np.array(eb)
     yb = yb / np.median(yb[np.abs(xb) > 0.1])
-    target = tr.target(ID=args.tic, sectors=np.array(used), background_population_source="gaia")
+    cache = Path(args.out) / "triceratops_cache"
+    cache.mkdir(parents=True, exist_ok=True)
+    target = tr.target(ID=args.tic, sectors=np.array(used), background_population_source="gaia",
+                       lightkurve_cache_dir=str(cache))
     target.calc_depths(tdepth=depth, all_ap_pixels=aps)
     stars = target.stars
     runs = []
@@ -95,10 +98,13 @@ def main():
     out = {"tic": args.tic, "period": P, "depth": depth, "aperture_sectors": used, "n_bins": int(len(xb)),
            "FPP_mean": float(fpp.mean()), "FPP_std": float(fpp.std()), "NFPP_mean": float(nfpp.mean()),
            "NFPP_std": float(nfpp.std()), "runs": runs, "n_stars_in_search": int(len(stars)),
-           "stars_with_flux_in_aperture": [{"ID": str(r.ID), "Tmag": float(r.Tmag), "sep": float(r.sep),
-                                            "tdepth": float(r.tdepth)} for r in stars.itertuples()
-                                           if getattr(r, "fluxratio", 0) > 0][:15],
            "note": "no contrast curve: unresolved companions constrained by priors only"}
+    try:   # column names differ between TRICERATOPS versions
+        keep = [c for c in stars.columns if any(k in c.lower() for k in ("id", "tmag", "sep", "pa", "fluxratio", "tdepth"))]
+        st = stars[keep].head(15)
+        out["stars"] = json.loads(st.to_json(orient="records"))
+    except Exception as exc:
+        out["stars_error"] = repr(exc)[:200]
     Path(args.out).mkdir(parents=True, exist_ok=True)
     (Path(args.out) / f"triceratops_{args.tic}.json").write_text(json.dumps(out, indent=1, default=str))
     print(json.dumps({k: v for k, v in out.items() if k != "runs"}, indent=1, default=str))

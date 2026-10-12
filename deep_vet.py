@@ -352,13 +352,28 @@ def main():
             if not p.exists():
                 continue
             r = json.load(open(p))
-            r.pop("transit_fit", {}).get("binned") if False else None
             if "transit_fit" in r:
                 r["transit_fit"].pop("binned", None)
             r["localization"].pop("jackknife", None)
             r["verdict"] = verdicts.get("verdicts", {}).get(s["name"])
             r["plot"] = str((OUT / f"{s['name']}.png").relative_to(config.ROOT))
             allres["targets"].append(r)
+        # companion analyses (crossyear.py, twomin_check.py, product_calibration.py, run_triceratops.py)
+        extra = {}
+        for pth in sorted(OUT.glob("*.json")):
+            if pth.stem.startswith(("crossyear_", "twomin_", "triceratops_", "product_calibration")):
+                extra[pth.stem] = json.load(open(pth))
+        allres["companion_analyses"] = extra
+        allres["calibration"] = {r["spec"]["name"]: {
+            "role": r["spec"]["role"], "offset_arcsec": r["localization"]["offset_arcsec"],
+            "offset_err_arcsec": r["localization"]["offset_err_arcsec"],
+            "target_dchi2": r["localization"]["target_dchi2"],
+            "best_source_sep_arcsec": r["localization"]["hypotheses"][0]["sep_arcsec"],
+            "best_source_id": r["localization"]["hypotheses"][0]["source_id"],
+            "rho_fit_cgs": (r.get("transit_fit") or {}).get("rho_cgs"),
+            "rho_tic_cgs": (r.get("transit_fit") or {}).get("rho_tic_cgs"),
+            "rho_tic_z": (r.get("transit_fit") or {}).get("rho_tic_z")}
+            for r in allres["targets"] if r["spec"]["role"].startswith("control")}
         (config.RUNS / "round4_vet.json").write_text(json.dumps(_jsonable(allres), indent=1))
         print(f"wrote {config.RUNS / 'round4_vet.json'}")
         return
