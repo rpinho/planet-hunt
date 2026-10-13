@@ -7,3 +7,8 @@ pandas==2.3.3
 scipy==1.18.1
 matplotlib==3.11.2
 transitleastsquares==2.0.1   # optional; installed cleanly, not used by default
+# second_signal.py (transit MCMC, pointing) - optional
+emcee==3.1.6
+batman-package==2.5.1   # needs setuptools on Python 3.12
+tess-point              # which sectors observe a star
+wotan==2.0               # round 5: biweight detrending (hostsearch.py)

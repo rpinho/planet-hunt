@@ -1,0 +1,335 @@
+{
+ "target": "TOI-4342 = TIC 354944123",
+ "papers": [
+  {
+   "id": "Tey2023",
+   "bibcode": "2023AJ....165...93T",
+   "arxiv": "2301.01370",
+   "doi": "10.3847/1538-3881/acaf88",
+   "title": "TESS Discovery of Twin Planets near 2:1 Resonance around Early M Dwarf TOI 4342",
+   "authors": "Tey, E.; Huang, C. X.; Kunimoto, M.; Vanderburg, A.; Shporer, A.; Quinn, S. N.; Zhou, G.; Collins, K. A.; ... Essack, Z. (31 authors)",
+   "year": 2023,
+   "url": "https://arxiv.org/abs/2301.01370 (full text read: https://arxiv.org/html/2301.01370v1)",
+   "data": "TESS S13 + S27 (2-min SPOC SAP, own quaternion+spline detrending); 7 LCOGT 1m i' transits (SG1); CHIRON recon RVs; SOAR + Gemini/Zorro speckle.",
+   "additional_planets": "QLP multi-planet search = iterative BLS (VARTOOLS) masking found signals; found ONLY the 5.538 d (SNR 13.1) and 10.688 d (SNR 11.5) signals. No third signal, no residual search upper limits, no mention of ~18.9 d or ~1.96 d.",
+   "ttv": "Expected super-period ~157 d, amplitude a few minutes (Lithwick+2012; TTVFast with e<0.1). TTVOrbit fit over >800 d baseline: no significant deviation from linear ephemerides by more than ~5 min for most transits; eccentricities likely ~0.",
+   "masses": "No measurement. CHIRON: K_b = 19.4 +5.1/-5.0, K_c = 14.4 +/- 3.6 m/s -> 3-sigma upper limits 0.321 / 0.289 MJup. Wolfgang+2016 M-R predicted 7.83 +0.93/-0.88 and 8.53 +0.90/-0.94 Me (K ~3.9, 3.4 m/s).",
+   "eccentricity": "Fixed e=0; a free-e fit gave no significant change.",
+   "other": "Lomb-Scargle of SAP light curve shows ~13 d stellar variability peak. Transit-shape tF/tT = 0.912 (b), 0.907 (c). TSM 36 and 32. Notes TESS would re-observe in S66/S67."
+  },
+  {
+   "id": "Turtelboom2025",
+   "bibcode": "2025AJ....170....3T",
+   "arxiv": "2409.03852 (v2 2025-04-15)",
+   "vizier": "J/AJ/170/3",
+   "title": "Searching for Additional Planets in TESS Multi-Planet Systems: Testing Empirical Models Based on Kepler Data",
+   "authors": "Turtelboom, E. V.; Dietrich, J.; Dressing, C. D.; Harada, C. K.",
+   "year": 2025,
+   "url": "https://arxiv.org/abs/2409.03852 ; tables https://cdsarc.cds.unistra.fr/VizieR/ftp/J/AJ/170/3/",
+   "additional_planets": "DYNAMITE v3 prediction for TOI-4342 (2024 dataset; TOI-4342 is NOT one of the 52 Dietrich+2020 systems, so the paper did no injection/recovery or targeted search for it - it appears only in Tables 3 and 4).",
+   "dynamite_PCM_table3": {
+    "period_d": "18.5 +2.7/-2.0",
+    "radius_re": "2.24 +0.76/-0.56",
+    "mass_me": "6.22 +3.65/-2.27",
+    "inclination_deg": "88.4 +3.6/-4.5",
+    "eccentricity": "0.056 +0.043/-0.025",
+    "transit_depth_ppm": "1170 +796/-587",
+    "transit_probability": "0.494 +0.364/-0.001",
+    "rv_K_ms": "2.05 +1.34/-0.81"
+   },
+   "dynamite_PRM_table4": {
+    "period_d": "23.2 +9.4/-5.7",
+    "radius_re": "2.33 +0.8/-0.6",
+    "mass_me": "6.62 +3.93/-2.48",
+    "inclination_deg": "88.4 +3.7/-4.4",
+    "eccentricity": "0.072 +0.067/-0.035",
+    "transit_depth_ppm": "1270 +871/-654",
+    "transit_probability": "0.479 +0.091/-0.001",
+    "rv_K_ms": "2.02 +1.53/-0.9"
+   },
+   "method_notes": "Values are at the maximum of the posterior. PCM = clustered-period model (He+2019 style); PRM = period-ratio model (Mulders+2018). Inclinations from He+2020 multiplicity-dependent mutual-inclination distribution; transit probability = geometric probability associated with predicted inclinations. Depth from radius. No explicit impact parameter is tabulated. Dynamical-stability criterion applied.",
+   "ttv_masses_ecc": "n/a"
+  },
+  {
+   "id": "Parc2026",
+   "bibcode": "2026A&A...708A..81P",
+   "arxiv": "2601.22115 (v2 2026-02-16)",
+   "doi": "10.1051/0004-6361/202558308",
+   "title": "Densities of small planets around the M dwarfs TOI-4336 A and TOI-4342 with ESPRESSO: Three sub-Neptunes, one super-Earth, and a Neptune-mass candidate",
+   "authors": "Parc, L.; Cadieux, C.; Grieves, N.; Bouchy, F.; L'Heureux, A.; Dorn, C.; ... Schwarz, R. P.; Venturini, J. (30 authors)",
+   "year": 2026,
+   "url": "https://arxiv.org/abs/2601.22115 (full text read: https://arxiv.org/html/2601.22115v2); A&A full-text page returned HTTP 403",
+   "data": "TESS S13, S27, S66, S67, S93, S94 (SPOC PDCSAP for transits, Matern-3/2 GP per sector); the same 7 LCOGT SG1 transits as Tey (B1-B4 = 2021-06-19, 07-12, 08-14, 08-31; C1/C2 = 2021-08-13 simultaneous, C3 = 2021-09-14); 58 ESPRESSO spectra (Apr 2022-Mar 2023, LBL RVs); NIRPS (Aug-Oct 2023) for stellar params.",
+   "additional_planets": "RV-only candidate d: P = 47.5 +/- 1.3 d, K = 4.49 +0.73/-0.75 m/s, Msini = 17.8 +2.9/-3.0 Me, T0 = 58795 +/- 27 RJD (BJD-2400000), circular; 3-planet model favored (BIC -987.78 vs -976.39). Expected Rp ~4.2 Re (~4200 ppm); no such transit in the 6 TESS sectors; 98.8% of (P,T0) space covered -> most likely non-transiting; coplanar b ranges 0.53+/-0.34 (with b) to 1.59+/-0.30 (with c). Note TESS S101-103 (Mar-May 2026) scheduled. NO transit search for other periods is reported; NO mention of ~18.9 d or ~1.96 d signals; no residual-search upper limits for small transiting planets.",
+   "ttv": "Individual TESS+LCO transit times vs linear ephemeris (Fig. 11): no significant TTVs; predicted amplitude a few min, super-period ~150 d; individual-transit precision insufficient; a few outliers attributed to stellar activity.",
+   "masses": "b: 7.3 +/- 1.3 Me (K = 3.78 +0.65/-0.67 m/s); c: 4.8 +/- 1.4 Me (K = 1.97 +0.57/-0.56 m/s). Densities 3.18 +0.70/-0.63 and 2.01 +0.65/-0.60 g/cc. (2-planet model gave K_b = 3.96, K_c = 1.45 m/s.)",
+   "eccentricity": "Adopted circular; eccentric models (one/two/all planets) not favored by BIC. N-body (REBOUND, 1 Myr, 100 sims incl. d coplanar with c): stable, e stays < 0.02. Pu & Wu spacing K = 16 (b-c), 27 (c-d).",
+   "star": "M0V, Teff 3866 +/- 92 K (ESPRESSO), [Fe/H] 0.26 +/- 0.13 (NIRPS, Table 6; ESPRESSO gives 0.04 +/- 0.11), [M/H] 0.08 +/- 0.11, R 0.598 +/- 0.018 Rsun, M 0.587 +/- 0.013 Msun, rho 3.86 +0.38/-0.34 g/cc (fit rho = 2.86 +0.20/-0.23 rho_sun), L 0.075 +/- 0.007 Lsun, logg 4.652 +/- 0.028, d 61.54 +/- 0.07 pc, Vsys -4.43 km/s. Prot = 14.691 +0.080/-0.070 d (multi-GP; 14.71 in an intermediate fit; ~14.9 d GLS peaks in RV, dT3500K, CCF FWHM, logR'HK); logR'HK = -4.64 (active); RVs dominated by activity. No age given.",
+   "internal_inconsistencies_noted": "Table 2 gives P_c = 10.688662 +/- 0.00015 and b_c = 0.20 +0.12/-0.13; Table 8 gives P_c = 10.688662 +/- 0.000015 and b_c = 0.320 +0.12/-0.13. Exoplanet Archive copied Table 2. Abstract/conclusion quote 47.7 d once for candidate d (47.5 elsewhere)."
+  },
+  {
+   "id": "Behmard2026",
+   "arxiv": "2609.27013",
+   "title": "M Dwarf Singles and Multis Have Dissimilar Metallicities Indicating Different Origins",
+   "authors": "Behmard, A.; Sagear, S.; Martinez, R. R.; ...",
+   "year": 2026,
+   "url": "https://arxiv.org/abs/2609.27013",
+   "key_findings": "Only lists TOI-4342 b and c among planets with RV eccentricity measurements, citing Parc+2026. Nothing on additional planets."
+  },
+  {
+   "id": "Cadieux2026_TOI210",
+   "arxiv": "2609.35747",
+   "title": "A temperate sub-Neptune transiting the M4 Dwarf TOI-210 identified by NIRPS and TESS",
+   "authors": "Cadieux, C.; Skinner, B. N.; Bouchy, F.; ...",
+   "year": 2026,
+   "url": "https://arxiv.org/abs/2609.35747",
+   "key_findings": "Mentions TOI-4342 only as a previous application of the NIRPS stellar-parameter method (Parc+2026). Nothing on additional planets."
+  }
+ ],
+ "planet_params": {
+  "time_system_note": "Tey+2023 Tc in BJD_TDB-2457000 (=BTJD). Parc+2026 T0 in RJD = BJD-2400000 (TDB); Exoplanet Archive lists them as 2458654.53479 / 2458659.3486 with tsystem 'JD' but they are BJD_TDB-based. BTJD equivalents given.",
+  "b": {
+   "adopted_source": "Parc+2026 (Exoplanet Archive default)",
+   "P_d": "5.5382592 +/- 0.0000034",
+   "T0": "2458654.53479 +0.00084/-0.00093 BJD_TDB (BTJD 1654.53479)",
+   "Rp_Re": "2.329 +0.086/-0.085",
+   "Rp_Rs": "0.03571 +0.00073/-0.00075",
+   "inc_deg": "88.83 +/- 0.22",
+   "b": "0.382 +0.062/-0.063",
+   "a_Rs": "not tabulated by Parc (a = 0.0519 au; with R*=0.598 -> a/R* ~18.7); Tey: 18.97 +0.19/-0.21",
+   "T14_h": "2.182 +/- 0.024",
+   "mass_Me": "7.3 +/- 1.3 (ESPRESSO RV)",
+   "K_ms": "3.78 +0.65/-0.67",
+   "density_gcc": "3.18 +0.70/-0.63",
+   "ecc": "0 adopted (eccentric fits not favored; N-body e<0.02)",
+   "a_au": "0.0519 +0.00020/-0.00021",
+   "Teq_K": "639 +20/-19",
+   "S_Searth": "27.8 +3.6/-3.2",
+   "tey2023": {
+    "P_d": "5.5382498 +0.0000057/-0.0000058",
+    "Tc": "1654.53559 +0.00059/-0.00061 BTJD",
+    "Rp_Re": "2.266 +/- 0.038",
+    "Rp_Rs": "0.03491 +0.00047/-0.00049",
+    "a_Rs": "18.97 +0.19/-0.21",
+    "b": "0.290 +0.042/-0.050",
+    "inc_deg": "89.13 +0.15/-0.13",
+    "T14_h": "2.215 +0.020/-0.018",
+    "mass_predicted_Me": "7.83 +0.93/-0.88 (M-R relation)"
+   },
+   "spoc_s1_s96_tce": {
+    "P_d": 5.53825,
+    "T0_btjd": 1654.54,
+    "depth_ppm": 1385,
+    "snr": 18.7,
+    "n_transits": 25
+   }
+  },
+  "c": {
+   "adopted_source": "Parc+2026 (Exoplanet Archive default)",
+   "P_d": "10.688662 +/- 0.00015 (Table 2/archive) or +/- 0.000015 (paper Table 8)",
+   "T0": "2458659.3486 +/- 0.0017 BJD_TDB (BTJD 1659.3486)",
+   "Rp_Re": "2.349 +0.094/-0.092",
+   "Rp_Rs": "0.03602 +0.00092/-0.00093",
+   "inc_deg": "89.61 +/- 0.26",
+   "b": "0.20 +0.12/-0.13 (Table 2) / 0.320 (Table 8)",
+   "a_Rs": "not tabulated by Parc (a = 0.0804 au -> a/R* ~28.9); Tey: 29.40 +0.29/-0.32",
+   "T14_h": "2.854 +/- 0.053",
+   "mass_Me": "4.8 +/- 1.4 (ESPRESSO RV)",
+   "K_ms": "1.97 +0.57/-0.56",
+   "density_gcc": "2.01 +0.65/-0.60",
+   "ecc": "0 adopted",
+   "a_au": "0.0804 +0.00032/-0.00031",
+   "Teq_K": "514 +/- 16",
+   "S_Searth": "11.6 +1.5/-1.4",
+   "tey2023": {
+    "P_d": "10.688716 +/- 0.000015",
+    "Tc": "1659.34623 +0.00096/-0.00094 BTJD",
+    "Rp_Re": "2.415 +0.043/-0.040",
+    "Rp_Rs": "0.03719 +0.00054/-0.00057",
+    "a_Rs": "29.40 +0.29/-0.32",
+    "b": "0.187 +0.060/-0.061",
+    "inc_deg": "89.63 +/- 0.12",
+    "T14_h": "2.820 +0.024/-0.025",
+    "mass_predicted_Me": "8.53 +0.90/-0.94"
+   },
+   "spoc_s1_s96_tce": {
+    "P_d": 10.6887,
+    "T0_btjd": 1659.35,
+    "depth_ppm": 1426,
+    "snr": 15.6,
+    "n_transits": 13
+   }
+  },
+  "candidate_d_rv_only": {
+   "P_d": "47.5 +/- 1.3",
+   "T0": "58795 +/- 27 RJD (BTJD 1795 +/- 27)",
+   "K_ms": "4.49 +0.73/-0.75",
+   "Msini_Me": "17.8 +2.9/-3.0",
+   "a_au": "0.2154",
+   "status": "RV candidate, likely non-transiting (Parc+2026)"
+  },
+  "period_ratio_notes": "Pc/Pb = 1.930. Candidate A (18.9083 d) / Pc = 1.769 (near 7:4 = 1.75; not first-order). A / Pb = 3.414. Candidate d (47.5) / A = 2.51. B (1.95769 d): Pb / B = 2.829."
+ },
+ "star": {
+  "spectral_type": "M0V",
+  "Teff_K": {
+   "Parc2026_ESPRESSO": "3866 +/- 92",
+   "Tey2023": "3901 +/- 69",
+   "TICv8.2": "3883 +/- 157",
+   "CHIRON_ExoFOP": "4027-4327 (5 epochs, likely biased hot)"
+  },
+  "radius_Rsun": {
+   "Parc2026": "0.598 +/- 0.018",
+   "Tey2023": "0.599 +/- 0.013",
+   "TICv8.2": "0.598 +/- 0.018"
+  },
+  "mass_Msun": {
+   "Parc2026": "0.587 +/- 0.013",
+   "Tey2023": "0.6296 +/- 0.0086",
+   "TICv8.2": "0.587 +/- 0.020"
+  },
+  "density": {
+   "Parc2026": "3.86 +0.38/-0.34 g/cc (transit-fit rho* 2.86 +0.20/-0.23 rho_sun = 4.03 g/cc)",
+   "Tey2023": "2.985 +0.089/-0.097 g/cc (from light-curve fit with prior)",
+   "TICv8.2": "3.86 +/- 0.21 g/cc"
+  },
+  "logg": {
+   "Parc2026": "4.652 +/- 0.028",
+   "Tey2023": "4.6878 +0.0086/-0.0096"
+  },
+  "metallicity": {
+   "Parc2026_NIRPS": "[Fe/H] 0.26 +/- 0.13, [M/H] 0.08 +/- 0.11",
+   "Parc2026_ESPRESSO": "[Fe/H] 0.04 +/- 0.11",
+   "CHIRON": "-0.36 to -0.55 (ExoFOP uploads)"
+  },
+  "luminosity_Lsun": {
+   "Parc2026": "0.075 +/- 0.007",
+   "Tey2023": "0.0746 +/- 0.0053"
+  },
+  "distance_pc": "61.54 +/- 0.07 (Gaia DR3 parallax 16.249 +/- 0.018 mas)",
+  "rotation_period_d": "14.691 +0.080/-0.070 (Parc+2026 multi-GP); ~13 d LS peak in Tey+2023; logR'HK-based estimate 18 +24/-10 d",
+  "activity": "logR'HK = -4.64 (active per Henry+1996); RVs dominated by activity at Prot",
+  "age": "not reported in any paper found",
+  "vsys_kms": "-4.43 +/- 0.36",
+  "magnitudes": {
+   "Tmag": 11.0318,
+   "V": 12.669,
+   "G": 11.9822,
+   "J": 9.832,
+   "H": 9.179,
+   "Ks": 9.018
+  }
+ },
+ "searches": [
+  {
+   "query": "arXiv API all:\"TOI-4342\"",
+   "url": "https://export.arxiv.org/api/query?search_query=all:%22TOI-4342%22",
+   "result": "2 hits: 2301.01370 (Tey), 2601.22115 (Parc)"
+  },
+  {
+   "query": "arXiv API all:\"TOI 4342\"",
+   "url": "https://export.arxiv.org/api/query?search_query=all:%22TOI%204342%22",
+   "result": "same 2 hits"
+  },
+  {
+   "query": "arXiv API abs:TOI-4342 / ti:\"TOI-4342\"",
+   "url": "https://export.arxiv.org/api/query?search_query=abs:TOI-4342",
+   "result": "same 2 hits"
+  },
+  {
+   "query": "arXiv API all:354944123",
+   "url": "https://export.arxiv.org/api/query?search_query=all:354944123",
+   "result": "0 hits"
+  },
+  {
+   "query": "arXiv API au:Turtelboom",
+   "url": "https://export.arxiv.org/api/query?search_query=au:Turtelboom",
+   "result": "36 hits; relevant 2409.03852 (DYNAMITE TESS multis) and 2607.02833 (M-dwarf host metallicities; full text has no TOI-4342 mention)"
+  },
+  {
+   "query": "arXiv API au:Parc_L AND abs:TESS",
+   "url": "https://export.arxiv.org/api/query?search_query=au:Parc_L%20AND%20abs:TESS",
+   "result": "6 hits, none besides 2601.22115 concern TOI-4342"
+  },
+  {
+   "query": "Full-text grep of arXiv HTML for TOI-4342 / 18.x d / 1.95-1.96 d / 9.45 / 37.8 / BLS / TLS / injection / additional planet",
+   "url": "https://arxiv.org/html/2301.01370v1 ; https://arxiv.org/html/2601.22115v2 ; https://arxiv.org/html/2409.03852v2 ; https://arxiv.org/html/2607.02833v1 ; https://arxiv.org/html/2402.13223v1 ; https://arxiv.org/html/2609.27013 ; https://arxiv.org/html/2609.35747",
+   "result": "No ~18.9 d or ~1.96 d signal anywhere. 2409.03852: TOI-4342 only in Tables 3/4 (DYNAMITE 18.5 d PCM / 23.2 d PRM). 2402.13223 and 2607.02833: 0 mentions."
+  },
+  {
+   "query": "NASA Exoplanet Archive TAP ps / pscomppars / toi where hostname like 'TOI-4342' / tid=354944123",
+   "url": "https://exoplanetarchive.ipac.caltech.edu/TAP/sync?query=select+*+from+ps+where+hostname+like+'TOI-4342'&format=csv",
+   "result": "6 ps rows (b, c x {Parc2026 default, Tey2023, ExoFOP}); pscomppars 2 rows; toi table 2 rows (.01, .02). sy_pnum = 2; no 'TOI-4342 d' or other planet."
+  },
+  {
+   "query": "WebSearch \"TOI-4342\" (extended)",
+   "url": "web search",
+   "result": "Wikipedia, NASA catalog pages, Exoplanet Archive overview, Astrobiology.com news on Parc+2026, Tey+2023 IOP/ResearchGate. Nothing new."
+  },
+  {
+   "query": "WebSearch \"TOI 4342\" OR \"TOI-4342\" planet 2025 OR 2026 arXiv",
+   "url": "web search",
+   "result": "Only Parc+2026 and Tey+2023."
+  },
+  {
+   "query": "WebSearch \"TOI-4342\" JWST / transit timing / TTV catalog",
+   "url": "web search",
+   "result": "No JWST program or TTV catalog entry found."
+  },
+  {
+   "query": "WebSearch \"TIC 354944123\"",
+   "url": "web search",
+   "result": "No relevant results."
+  },
+  {
+   "query": "WebSearch Turtelboom AJ 2025 journal reference",
+   "url": "https://cdsarc.cds.unistra.fr/VizieR/ftp/J/AJ/170/3/ReadMe",
+   "result": "2025AJ....170....3T; table3.dat/table4.dat rows for TOI-4342 downloaded to lit/vizier/"
+  },
+  {
+   "query": "Google Scholar \"TOI-4342\" (as_ylo=2023) and \"TOI 4342\"",
+   "url": "https://scholar.google.com/scholar?q=%22TOI-4342%22&as_ylo=2023",
+   "result": "4 hits each (TOI-210 NIRPS paper, Behmard+2026 M-dwarf metallicities, TOI-1416, TOI-1130); none report extra signals. GS index looks incomplete (did not list Tey/Parc)."
+  },
+  {
+   "query": "Google Scholar \"354944123\"",
+   "url": "https://scholar.google.com/scholar?q=%22354944123%22",
+   "result": "0 hits"
+  },
+  {
+   "query": "Semantic Scholar / OpenAlex citations of Tey+2023 and Parc+2026",
+   "url": "https://api.semanticscholar.org/graph/v1/paper/DOI:10.3847/1538-3881/acaf88/citations ; https://api.openalex.org/works?filter=cites:W4319725261",
+   "result": "Citers: Parc+2026, GJ 238 b (2024), Roman Rosette yields (2025/26) - the latter two cite Tey for QLP methods only. No citers of Parc yet in S2."
+  },
+  {
+   "query": "NASA ADS full-text search",
+   "url": "https://api.adsabs.harvard.edu/v1/search/query?q=full:%22TOI-4342%22",
+   "result": "NOT ACCESSIBLE (401, token required; UI is JS-only). ADS full-text not searched."
+  },
+  {
+   "query": "A&A published full text of Parc+2026",
+   "url": "https://www.aanda.org/articles/aa/full_html/2026/04/aa58308-25/aa58308-25.html",
+   "result": "HTTP 403; used arXiv v2 HTML instead"
+  },
+  {
+   "query": "SPOC TCE catalogs (MAST) for TIC 354944123",
+   "url": "https://archive.stsci.edu/tess/bulk_downloads/bulk_downloads_tce.html ; https://exo.mast.stsci.edu/api/v0.1/dvdata/tess/354944123/tces/",
+   "result": "11 TCEs across runs s1-s36, s1-s69, s1-s96, s13, s67, s101, s102, s103: all are b (5.53-5.54 d) or c (10.69-10.71 d). No 18.9 d or 1.96 d TCE. Rows in lit/mast/."
+  },
+  {
+   "query": "ExoFOP TOI and CTOI lists",
+   "url": "https://exofop.ipac.caltech.edu/tess/download_toi.php?sort=toi&output=csv ; https://exofop.ipac.caltech.edu/tess/download_ctoi.php?sort=ctoi&output=csv",
+   "result": "Only TOI 4342.01/.02; no CTOI on this TIC or within 300\" ."
+  }
+ ],
+ "tess_coverage": "Sectors 13, 27, 66, 67, 93, 94 (Parc+2026) PLUS sectors 101, 102, 103 (2026-03-01..~05-17; SPOC DV files exist at MAST dated 2026-04/05, single-sector TCEs = planet b). S101 TSTART/TSTOP = 4100.673-4126.805 BTJD. Nominal candidate-A transits in S101-103 would fall near BTJD 4114.71, 4133.62, 4152.53, 4171.43 (no period uncertainty applied; 129-132 epochs from T0).",
+ "verdict_18p9": "NOT REPORTED anywhere. No paper (Tey+2023, Parc+2026, Turtelboom+2025, two 2026 papers that mention TOI-4342 in passing), no ExoFOP TOI/CTOI, and no SPOC TCE (s1-s36, s1-s69, s1-s96, s13, s27, s66, s67, s93, s94, s101-s103) reports a transit or RV signal at ~18.9 d or its aliases (9.45, 12.6, 28.4, 37.8 d). The only related item is the DYNAMITE prediction (Turtelboom+2025, 2025AJ....170....3T, Table 3, clustered-period model): P = 18.5 +2.7/-2.0 d, Rp = 2.24 +0.76/-0.56 Re, M = 6.22 +3.65/-2.27 Me, i = 88.4 +3.6/-4.5 deg, e = 0.056, depth 1170 +796/-587 ppm, transit probability 0.494, K = 2.05 m/s (PRM alternative: 23.2 +9.4/-5.7 d, 2.33 Re, 1270 ppm). Candidate A matches the PCM prediction closely in period, radius and depth. An ~6 Me planet at 18.9 d would have K ~2 m/s, below what Parc+2026's activity-dominated ESPRESSO RVs could isolate (their c, K=1.97, is a ~3.5 sigma detection), so the RV non-detection is not constraining. Tey+2023 iterative BLS on QLP S13+S27 found only b and c (no limits quoted). No published residual-search upper limits exist.",
+ "verdict_1p96": "NOT REPORTED anywhere. No paper, TOI, CTOI or SPOC TCE mentions a ~1.96 d signal (or 0.979 / 3.915 d aliases). No published inner-planet search limits for TOI-4342. DYNAMITE (Turtelboom+2025) predicted the additional planet OUTSIDE c (18.5 d PCM / 23.2 d PRM), not an inner ~2 d planet.",
+ "access_limits": [
+  "NASA ADS full-text search not available (needs API token); ADS UI is JS-only.",
+  "A&A published HTML of Parc+2026 returned 403; arXiv v2 used (published version may correct the Table 2/Table 8 inconsistencies).",
+  "Google Scholar results appear incomplete for this object.",
+  "IOPscience Tey+2023 published version not opened (arXiv v1 used)."
+ ],
+ "fetched_utc": "2026-10-13T11:33:11Z"
+}

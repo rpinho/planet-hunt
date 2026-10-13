@@ -1,0 +1,835 @@
+{
+ "target": {
+  "tic": 354944123,
+  "toi": 4342,
+  "names": "TIC 354944123, 2MASS J21373286-7758435, APASS 35090423, Gaia DR2 6355915466180482944, Gaia DR3 6355915466181029376, TOI-4342, UCAC4 061-029440, WISE J213733.26-775844.4",
+  "confirmed_planets": "TOI-4342 b, TOI-4342 c",
+  "ra_deg": "324.38941957485798",
+  "dec_deg": "-77.979146752012696",
+  "tic_contamination_ratio": "0.009542",
+  "former_internal_name": "TOI-18.01 / TOI-18.02 (Evan Tey & Chelsea Huang custom QLP targets; renamed TOI-4342.01/.02 on 2021-07-28)"
+ },
+ "imaging": [
+  {
+   "telescope": "Gemini South (8 m)",
+   "instrument": "Zorro",
+   "type": "Speckle",
+   "filter": "832 nm (40 nm width); only the 832 nm channel curve was uploaded",
+   "date_ut": "2021-07-23",
+   "user": "furlan (PI Howell)",
+   "exofop_tag": "99434",
+   "exofop_contrast_summary": "delta 5.87 mag @ 0.5\"",
+   "pixel_scale_arcsec": 0.01,
+   "psf_arcsec": 0.02,
+   "contrast_dmag": {
+    "0.1": 4.9,
+    "0.5": 5.87,
+    "1.0": 6.08,
+    "1.17_max_sep": 6.15
+   },
+   "contrast_source": "TOI4342I-ef20210723-832_sensitivity.dat, smooth-fit section (annulus section gives 4.74 @0.10, 5.88 @0.525, 6.09 @1.025)",
+   "files": [
+    "TOI4342I-ef20210723-832_sensitivity.dat",
+    "TOI4342I-ef20210723-832_sensitivity.pdf",
+    "TOI4342I-ef20210723-20210723_832_plot.pdf",
+    "TOI4342I-ef20210723-832.fits"
+   ],
+   "file_format": "sensitivity.dat: header lines start with '#'. Section 1 '# annulus range&center vs. measured relative mag. limit': 4 cols = sep_inner_arcsec, sep_outer_arcsec, sep_center_arcsec, delta_mag(832nm, 5-sigma limit). Section 2 '# fit of angular separation vs. relative mag. limit': 2 cols = sep_arcsec (0.00-1.17 step 0.01), delta_mag(832nm).",
+   "companions_detected": "none reported (no stellar companions on ExoFOP; Tey+2023 report no companions)"
+  },
+  {
+   "telescope": "SOAR (4.1 m)",
+   "instrument": "HRCam",
+   "type": "Speckle",
+   "filter": "Cousins I (879 nm, 289 nm width)",
+   "date_ut": "2021-10-01",
+   "user": "ziegler",
+   "exofop_tag": "100581",
+   "exofop_contrast_summary": "delta 6.5 mag @ 1\" (ExoFOP table entry; the uploaded plot shows ~5.1 mag at 1.0\" and ~6.5 mag at ~3.15\" - the ExoFOP summary looks inconsistent with the plot; Tey+2023 text says sensitive to a 5-mag-fainter star at 1\")",
+   "pixel_scale_arcsec": 0.01575,
+   "psf_arcsec": 0.06364,
+   "contrast_dmag": {
+    "0.05": 1.0,
+    "0.1": 2.05,
+    "0.15": 2.7,
+    "0.2": 4.4,
+    "0.5": 5.3,
+    "1.0": 5.07,
+    "3.15": 6.55
+   },
+   "contrast_source": "Read by eye from TIC354944123I-cz20211001.pdf (points: 0.05,0.10,0.15,0.20,1.0,3.15 arcsec; 0.5\" value is the plotted broken-line fit). NO machine-readable SOAR contrast table is on ExoFOP.",
+   "files": [
+    "TIC354944123I-cz20211001.pdf"
+   ],
+   "file_format": "PDF plot only (Delta magnitude I-band vs Delta arcsec, with ACF inset)",
+   "companions_detected": "none reported"
+  }
+ ],
+ "tseries": [
+  {
+   "date_ut": "2021-09-14",
+   "telescope": "LCO-CTIO (1.0 m)",
+   "camera": "Sinistro",
+   "filter": "ip",
+   "toi": "TOI 4342.02",
+   "coverage_exofop": "Full",
+   "duration_min_exofop": "304",
+   "n_images": "286",
+   "aperture_px": "13.0",
+   "psf_arcsec": "3.64",
+   "user": "schwarz",
+   "exofop_tag": "99904",
+   "exofop_note": "",
+   "result_notes": "Schwarz: .02 (c) full, 2.38 ppt, ~2.5 min early (0.19 sigma); Tc=2459471.6804; tracking imprecise. Parc label C3 (detrended vs sky/pixel).",
+   "data_file_used_for_window": "TIC354944123-02_20210914_LCO-CTIO-1m0_ip_bjd-flux-err-sky_subset.dat",
+   "window_btjd_first": 2471.57797,
+   "window_btjd_last": 2471.7855,
+   "window_span_h": 4.981,
+   "n_points_in_file": 286,
+   "rms_ppt_raw_normalized": 2.263,
+   "window_source": "actual BJD_TDB time stamps in the downloaded data file, BTJD = BJD_TDB - 2457000",
+   "predicted_events_near_window": {
+    "B_1.95769": [
+     {
+      "epoch": 415,
+      "tc_btjd": 2471.3933,
+      "frac_covered": 0.0,
+      "tc_outside_window_by_h": 4.43
+     }
+    ],
+    "c_10.688662": [
+     {
+      "epoch": 76,
+      "tc_btjd": 2471.6869,
+      "frac_covered": 1.0,
+      "tc_outside_window_by_h": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "date_ut": "2021-08-31",
+   "telescope": "LCO-CTIO-1m0 (1.0 m)",
+   "camera": "SINISTRO",
+   "filter": "ip",
+   "toi": "TOI 4342.01",
+   "coverage_exofop": "Full",
+   "duration_min_exofop": "265",
+   "n_images": "253",
+   "aperture_px": "20.0",
+   "psf_arcsec": "4.02",
+   "user": "collins",
+   "exofop_tag": "99695",
+   "exofop_note": "Supplemental reduction for tag 99618",
+   "result_notes": "Collins: supplemental reduction (20 px aperture) of tag 99618, same night.",
+   "data_file_used_for_window": "TIC354944123-01_20210831_LCO-CTIO-1m0_ip_20px_bjd-flux-err-xcen.dat",
+   "window_btjd_first": 2457.49734,
+   "window_btjd_last": 2457.68163,
+   "window_span_h": 4.423,
+   "n_points_in_file": 253,
+   "rms_ppt_raw_normalized": 1.885,
+   "window_source": "actual BJD_TDB time stamps in the downloaded data file, BTJD = BJD_TDB - 2457000",
+   "predicted_events_near_window": {
+    "B_1.95769": [
+     {
+      "epoch": 408,
+      "tc_btjd": 2457.6895,
+      "frac_covered": 0.35,
+      "tc_outside_window_by_h": 0.19,
+      "rough_depth_ppt_linear_baseline": -0.926,
+      "rough_err_ppt_white": 0.299,
+      "n_in": 26
+     }
+    ],
+    "b_5.5382592": [
+     {
+      "epoch": 145,
+      "tc_btjd": 2457.5824,
+      "frac_covered": 1.0,
+      "tc_outside_window_by_h": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "date_ut": "2021-08-31",
+   "telescope": "LCO-CTIO-1m0 (1.0 m)",
+   "camera": "SINISTRO",
+   "filter": "ip",
+   "toi": "TOI 4342.01",
+   "coverage_exofop": "Full",
+   "duration_min_exofop": "265",
+   "n_images": "253",
+   "aperture_px": "16.0",
+   "psf_arcsec": "3.38",
+   "user": "gan",
+   "exofop_tag": "99618",
+   "exofop_note": "",
+   "result_notes": "Gan: .01 (b) full, ~5 min early ~1.5 ppt on-target (obsnotes). Parc label B4.",
+   "data_file_used_for_window": "TIC354944123-01_20210831_LCO-CTIO-1m0_ip_20px_bjd-flux-err-xcen.dat",
+   "window_btjd_first": 2457.49734,
+   "window_btjd_last": 2457.68163,
+   "window_span_h": 4.423,
+   "n_points_in_file": 253,
+   "rms_ppt_raw_normalized": 1.885,
+   "window_source": "actual BJD_TDB time stamps in the downloaded data file, BTJD = BJD_TDB - 2457000",
+   "predicted_events_near_window": {
+    "B_1.95769": [
+     {
+      "epoch": 408,
+      "tc_btjd": 2457.6895,
+      "frac_covered": 0.35,
+      "tc_outside_window_by_h": 0.19,
+      "rough_depth_ppt_linear_baseline": -0.926,
+      "rough_err_ppt_white": 0.299,
+      "n_in": 26
+     }
+    ],
+    "b_5.5382592": [
+     {
+      "epoch": 145,
+      "tc_btjd": 2457.5824,
+      "frac_covered": 1.0,
+      "tc_outside_window_by_h": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "date_ut": "2021-08-14",
+   "telescope": "LCO-SSO (1.0 m)",
+   "camera": "Sinistro",
+   "filter": "ip",
+   "toi": "TOI 4342.01",
+   "coverage_exofop": "Full",
+   "duration_min_exofop": "221",
+   "n_images": "205",
+   "aperture_px": "13.0",
+   "psf_arcsec": "2.47",
+   "user": "schwarz",
+   "exofop_tag": "98887",
+   "exofop_note": "TOI-18.01",
+   "result_notes": "Schwarz: .01 (b) full from LCO-SSO, 1.26 ppt, ~13 min early (1.6 sigma); Tc=2459440.9662. Parc label B3.",
+   "data_file_used_for_window": "TIC354944123-01_20210814_LCO-SSO-1m0_ip_bjd-flux-err-air_subset.dat",
+   "window_btjd_first": 2440.90432,
+   "window_btjd_last": 2441.0557,
+   "window_span_h": 3.633,
+   "n_points_in_file": 205,
+   "rms_ppt_raw_normalized": 1.376,
+   "window_source": "actual BJD_TDB time stamps in the downloaded data file, BTJD = BJD_TDB - 2457000",
+   "predicted_events_near_window": {
+    "A_half_9.45415": [
+     {
+      "epoch": 81,
+      "tc_btjd": 2441.3212,
+      "frac_covered": 0.0,
+      "tc_outside_window_by_h": 6.37
+     }
+    ],
+    "b_5.5382592": [
+     {
+      "epoch": 142,
+      "tc_btjd": 2440.9676,
+      "frac_covered": 1.0,
+      "tc_outside_window_by_h": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "date_ut": "2021-08-13",
+   "telescope": "LCO-CTIO (1.0 m)",
+   "camera": "Sinistro",
+   "filter": "ip",
+   "toi": "TOI 4342.02",
+   "coverage_exofop": "Full",
+   "duration_min_exofop": "290",
+   "n_images": "272",
+   "aperture_px": "15.0",
+   "psf_arcsec": "3.23",
+   "user": "schwarz",
+   "exofop_tag": "98886",
+   "exofop_note": "TOI-18.02",
+   "result_notes": "Schwarz: .02 (c) full on second CTIO 1m, 1.29 ppt, ~11.5 min late (0.9 sigma); Tc=2459439.6244 (notes typo 9349.6244). Parc label C1/C2.",
+   "data_file_used_for_window": "TIC354944123-02_20210813-b_LCO-CTIO-1m0_ip_bjd-flux-err-am.dat",
+   "window_btjd_first": 2439.51958,
+   "window_btjd_last": 2439.71854,
+   "window_span_h": 4.775,
+   "n_points_in_file": 272,
+   "rms_ppt_raw_normalized": 2.03,
+   "window_source": "actual BJD_TDB time stamps in the downloaded data file, BTJD = BJD_TDB - 2457000",
+   "predicted_events_near_window": {
+    "B_1.95769": [
+     {
+      "epoch": 399,
+      "tc_btjd": 2440.0703,
+      "frac_covered": 0.0,
+      "tc_outside_window_by_h": 8.44
+     }
+    ],
+    "c_10.688662": [
+     {
+      "epoch": 73,
+      "tc_btjd": 2439.6209,
+      "frac_covered": 1.0,
+      "tc_outside_window_by_h": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "date_ut": "2021-08-13",
+   "telescope": "LCO-CTIO (1.0 m)",
+   "camera": "Sinistro",
+   "filter": "ip",
+   "toi": "TOI 4342.02",
+   "coverage_exofop": "Full",
+   "duration_min_exofop": "292",
+   "n_images": "374",
+   "aperture_px": "15.0",
+   "psf_arcsec": "3.15",
+   "user": "schwarz",
+   "exofop_tag": "98878",
+   "exofop_note": "",
+   "result_notes": "Schwarz: .02 (c) full, 1.29 ppt, ~14.5 min late (1.1 sigma); Tc=2459439.6264 (notes file says 9349.6264 - a typo, data are at 2459439.5x); NEB check cleared field to 2.5'. Simultaneous with tag 98886 (two CTIO 1m). Parc label C1/C2.",
+   "data_file_used_for_window": "TIC354944123-02_20210813-a_LCO-CTIO-1m0_ip_bjd-flux-err-am.dat",
+   "window_btjd_first": 2439.51887,
+   "window_btjd_last": 2439.71992,
+   "window_span_h": 4.825,
+   "n_points_in_file": 374,
+   "rms_ppt_raw_normalized": 2.676,
+   "window_source": "actual BJD_TDB time stamps in the downloaded data file, BTJD = BJD_TDB - 2457000",
+   "predicted_events_near_window": {
+    "B_1.95769": [
+     {
+      "epoch": 399,
+      "tc_btjd": 2440.0703,
+      "frac_covered": 0.0,
+      "tc_outside_window_by_h": 8.41
+     }
+    ],
+    "c_10.688662": [
+     {
+      "epoch": 73,
+      "tc_btjd": 2439.6209,
+      "frac_covered": 1.0,
+      "tc_outside_window_by_h": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "date_ut": "2021-07-11",
+   "telescope": "LCO-SAAO (1.0 m)",
+   "camera": "Sinistro",
+   "filter": "ip",
+   "toi": "TOI 4342.02 (then TOI-18.02)",
+   "coverage_exofop": "Full",
+   "duration_min_exofop": "292",
+   "n_images": "229",
+   "aperture_px": "18.0",
+   "psf_arcsec": "5.50",
+   "user": "schwarz",
+   "exofop_tag": "98329",
+   "exofop_note": "TOI 18.02 -  Intended full cut short for weather",
+   "result_notes": "Schwarz: intended full on .02 (c) cut short (weather), effectively ingress-only; possible ingress (1.08 ppt, questionable, strong systematics). Excluded by Tey+2023/Parc+2026. Data window 2407.432-2407.605 BTJD (from measurements.tbl).",
+   "data_file_used_for_window": "TIC354944123-02_20210711_LCO-SAAO-1m0_ip_measurements.tbl",
+   "window_btjd_first": 2407.43243,
+   "window_btjd_last": 2407.60491,
+   "window_span_h": 4.14,
+   "n_points_in_file": 229,
+   "rms_ppt_raw_normalized": null,
+   "window_source": "actual BJD_TDB time stamps in the downloaded data file, BTJD = BJD_TDB - 2457000",
+   "predicted_events_near_window": {
+    "b_5.5382592": [
+     {
+      "epoch": 136,
+      "tc_btjd": 2407.738,
+      "frac_covered": 0.0,
+      "tc_outside_window_by_h": 3.2
+     }
+    ],
+    "c_10.688662": [
+     {
+      "epoch": 70,
+      "tc_btjd": 2407.5549,
+      "frac_covered": 0.92,
+      "tc_outside_window_by_h": 0.0
+     }
+    ]
+   }
+  },
+  {
+   "date_ut": "2021-07-12",
+   "telescope": "LCO-CTIO (1.0 m)",
+   "camera": "Sinistro",
+   "filter": "ip",
+   "toi": "TOI 4342.01 (then TOI-18.01)",
+   "coverage_exofop": "Full",
+   "duration_min_exofop": "263",
+   "n_images": "244",
+   "aperture_px": "16.0",
+   "psf_arcsec": "3.64",
+   "user": "schwarz",
+   "exofop_tag": "98323",
+   "exofop_note": "TOI 18.01",
+   "result_notes": "Schwarz: 1.10 ppt transit of .01 (b) detected 23 min late (3.8 sigma vs then-ephemeris); Tc=2459407.7376; 16 px (6.24\"). Parc label B2.",
+   "data_file_used_for_window": "TIC354944123-01_20210712_LCO-CTIO-1m0_ip_bjd-flux-err-am_subset.dat",
+   "window_btjd_first": 2407.63028,
+   "window_btjd_last": 2407.81057,
+   "window_span_h": 4.327,
+   "n_points_in_file": 244,
+   "rms_ppt_raw_normalized": 1.65,
+   "window_source": "actual BJD_TDB time stamps in the downloaded data file, BTJD = BJD_TDB - 2457000",
+   "predicted_events_near_window": {
+    "b_5.5382592": [
+     {
+      "epoch": 136,
+      "tc_btjd": 2407.738,
+      "frac_covered": 1.0,
+      "tc_outside_window_by_h": 0.0
+     }
+    ],
+    "c_10.688662": [
+     {
+      "epoch": 70,
+      "tc_btjd": 2407.5549,
+      "frac_covered": 0.0,
+      "tc_outside_window_by_h": 1.81
+     }
+    ]
+   }
+  },
+  {
+   "date_ut": "2021-06-19",
+   "telescope": "LCO-SAAO (1.0 m)",
+   "camera": "Sinistro",
+   "filter": "ip",
+   "toi": "TOI 4342.01 (then TOI-18.01)",
+   "coverage_exofop": "Full",
+   "duration_min_exofop": "262",
+   "n_images": "237",
+   "aperture_px": "22.0",
+   "psf_arcsec": "8.32",
+   "user": "schwarz",
+   "exofop_tag": "97875",
+   "exofop_note": "TOI 18.01",
+   "result_notes": "Schwarz: 1.59 ppt transit of .01 (b) detected 39 min early (6.5 sigma vs then-ephemeris); Tc=2459385.5679; 22 px (8.58\") aperture; detrended vs Y(FITS). Parc label B1.",
+   "data_file_used_for_window": "TIC354944123-01_20210619_LCO-SAAO-1m0_ip_bjd-flux-err-yfit_subset.dat",
+   "window_btjd_first": 2385.50365,
+   "window_btjd_last": 2385.68343,
+   "window_span_h": 4.315,
+   "n_points_in_file": 237,
+   "rms_ppt_raw_normalized": 1.921,
+   "window_source": "actual BJD_TDB time stamps in the downloaded data file, BTJD = BJD_TDB - 2457000",
+   "predicted_events_near_window": {
+    "B_1.95769": [
+     {
+      "epoch": 371,
+      "tc_btjd": 2385.255,
+      "frac_covered": 0.0,
+      "tc_outside_window_by_h": 5.97
+     }
+    ],
+    "b_5.5382592": [
+     {
+      "epoch": 132,
+      "tc_btjd": 2385.585,
+      "frac_covered": 1.0,
+      "tc_outside_window_by_h": 0.0
+     }
+    ],
+    "c_10.688662": [
+     {
+      "epoch": 68,
+      "tc_btjd": 2386.1776,
+      "frac_covered": 0.0,
+      "tc_outside_window_by_h": 11.86
+     }
+    ]
+   }
+  },
+  {
+   "date_ut": "2021-05-30",
+   "telescope": "LCO-CTIO-1m0 (1.0 m)",
+   "camera": "SINISTRO",
+   "filter": "ip",
+   "toi": "TOI 4342.02 (then TOI-18.02)",
+   "coverage_exofop": "Ingress",
+   "duration_min_exofop": "71",
+   "n_images": "68",
+   "aperture_px": "20.0",
+   "psf_arcsec": "4.29",
+   "user": "collins",
+   "exofop_tag": "97637",
+   "exofop_note": "Intended full cur short by weather",
+   "result_notes": "KarenC (collins): defocused intended-full on .02 cut short by weather; hint of on-time ~1.2 ppt ingress, data clouded, unreliable at 1.4 ppt level (ExoFOP obsnotes). Excluded by Tey+2023/Parc+2026.",
+   "data_file_used_for_window": "TIC354944123-02_20210530_LCO-CTIO-1m0_ip_20px_bjd-flux-err-am.dat",
+   "window_btjd_first": 2364.72327,
+   "window_btjd_last": 2364.77234,
+   "window_span_h": 1.178,
+   "n_points_in_file": 68,
+   "rms_ppt_raw_normalized": 3.095,
+   "window_source": "actual BJD_TDB time stamps in the downloaded data file, BTJD = BJD_TDB - 2457000",
+   "predicted_events_near_window": {
+    "c_10.688662": [
+     {
+      "epoch": 66,
+      "tc_btjd": 2364.8003,
+      "frac_covered": 0.265,
+      "tc_outside_window_by_h": 0.67
+     }
+    ]
+   }
+  }
+ ],
+ "tseries_candidate_overlap": {
+  "description": "Nominal candidate ephemerides propagated to each SG1 window (no period uncertainty applied). A: P=18.9083, T0=1675.535 BTJD. B: P=1.95769, T0=1658.952 BTJD.",
+  "A_18.9083d": "No SG1 window lies within 2 days of a nominal A transit (closest: 2021-09-14 window, nominal A transit at BTJD 2469.684, 48 h before the window; epoch 42 -> would need a period error of ~68 min/epoch). SG1 data do not test candidate A.",
+  "A_half_period_9.454d": "No overlap either (closest 6.4 h after the 2021-08-14 SSO window).",
+  "B_1.95769d": "Only the 2021-08-31 CTIO window (tag 99618/99695) reaches a nominal B transit: Tc=2457.6895 BTJD (epoch 408), 0.19 h after the window ends -> ~35% of the 1.26 h transit falls inside the last minutes of the night (after planet b egress). A crude linear-baseline in-vs-out test on those last ~26 points gives -0.93 +/- 0.30 ppt (i.e., brighter, not a dip; end-of-night systematics likely). Other windows are 2.4-22 h from nominal B events; with epochs 361-415 the B ephemeris uncertainty (sigma_P x ~400) could easily be hours, so this is not a constraint without a proper period error."
+ },
+ "tseries_obsnotes_master": "ExoFOP observing notes (mlund, 2025-11-17): .01 and .02 both Master Disp VP, Phot Disp VPC, Spec Disp RVP; TFOPWG disposition CP (retired as VP 2023-03-03). 'No more SG1 observations needed.' Field cleared of NEBs to 2.5' (2021-08-13).",
+ "spectroscopy": [
+  {
+   "telescope": "SMARTS (1.5 m)",
+   "instrument": "CHIRON",
+   "resolution": "80000",
+   "wavelength": "4500 to 8900 Angstroms",
+   "snr": "29.1",
+   "snr_wavelength": "5500 angstroms",
+   "date_ut": "2021-06-17",
+   "user": "quinn",
+   "group": "tfopwg",
+   "exofop_tag": "109157",
+   "notes": ""
+  },
+  {
+   "telescope": "SMARTS (1.5 m)",
+   "instrument": "CHIRON",
+   "resolution": "80000",
+   "wavelength": "4500 to 8900 Angstroms",
+   "snr": "39.1",
+   "snr_wavelength": "5500 angstroms",
+   "date_ut": "2021-07-14",
+   "user": "quinn",
+   "group": "tfopwg",
+   "exofop_tag": "109158",
+   "notes": ""
+  },
+  {
+   "telescope": "SMARTS (1.5 m)",
+   "instrument": "CHIRON",
+   "resolution": "80000",
+   "wavelength": "4500 to 8900 Angstroms",
+   "snr": "45.9",
+   "snr_wavelength": "5500 angstroms",
+   "date_ut": "2021-06-19",
+   "user": "quinn",
+   "group": "tfopwg",
+   "exofop_tag": "109162",
+   "notes": ""
+  },
+  {
+   "telescope": "SMARTS (1.5 m)",
+   "instrument": "CHIRON",
+   "resolution": "80000",
+   "wavelength": "4500 to 8900 Angstroms",
+   "snr": "44.6",
+   "snr_wavelength": "5500 angstroms",
+   "date_ut": "2021-05-26",
+   "user": "quinn",
+   "group": "tfopwg",
+   "exofop_tag": "109160",
+   "notes": ""
+  },
+  {
+   "telescope": "SMARTS (1.5 m)",
+   "instrument": "CHIRON",
+   "resolution": "80000",
+   "wavelength": "4500 to 8900 Angstroms",
+   "snr": "45.0",
+   "snr_wavelength": "5500 angstroms",
+   "date_ut": "2021-05-25",
+   "user": "quinn",
+   "group": "tfopwg",
+   "exofop_tag": "109161",
+   "notes": ""
+  },
+  {
+   "telescope": "SMARTS (1.5 m)",
+   "instrument": "CHIRON",
+   "resolution": "80000",
+   "wavelength": "4500 to 8900 Angstroms",
+   "snr": "43.9",
+   "snr_wavelength": "5500 angstroms",
+   "date_ut": "2021-06-14",
+   "user": "quinn",
+   "group": "tfopwg",
+   "exofop_tag": "109159",
+   "notes": ""
+  }
+ ],
+ "spectroscopy_extra": {
+  "chiron_stellar_params_brennom_2023-12-14": [
+   {
+    "teff": "4187.110176052254",
+    "logg": "4.673613494360929",
+    "vsini": "5.88056357252077",
+    "met": "-.4657062933643672",
+    "snr": "78.66063209060525",
+    "fitq": "G",
+    "stag": "435661"
+   },
+   {
+    "teff": "4327.24122460632",
+    "logg": "4.645436043814848",
+    "vsini": "6.007883514163662",
+    "met": "-.4814490315284407",
+    "snr": "77.06208948426686",
+    "fitq": "E",
+    "stag": "435666"
+   },
+   {
+    "teff": "4167.366122215332",
+    "logg": "4.709360383254566",
+    "vsini": "6.189021840604881",
+    "met": "-.3634127965136043",
+    "snr": "67.86318664596885",
+    "fitq": "G",
+    "stag": "435762"
+   },
+   {
+    "teff": "4096.750991872116",
+    "logg": "4.684565706822214",
+    "vsini": "5.946441325948723",
+    "met": "-.5517502964489498",
+    "snr": "78.09606031379333",
+    "fitq": "G",
+    "stag": "435731"
+   },
+   {
+    "teff": "4027.504544097475",
+    "logg": "4.699158165019676",
+    "vsini": "6.089291873071956",
+    "met": "-.4042847919013015",
+    "snr": "75.60298252378472",
+    "fitq": "G",
+    "stag": "435722"
+   }
+  ],
+  "chiron_note": "5 CHIRON stellar-parameter fits (Teff 4027-4327 K, logg 4.65-4.71, vsini ~5.9-6.2 km/s [likely at/below CHIRON resolution floor], [M/H] -0.36 to -0.55). Files TIC354944123O-wb2021*.pdf (not downloaded). CHIRON 1D spectra FITS uploaded 2025-04-04 (not downloaded).",
+  "tey2023_rv": "Tey+2023 fit the CHIRON RVs: K_b=19.4+5.1-5.0, K_c=14.4+-3.6 m/s -> 3-sigma upper limits 0.321 and 0.289 MJup (rules out stellar-mass companions only).",
+  "precise_rv_elsewhere": "ESPRESSO (58 spectra, Apr 2022-Mar 2023) and NIRPS (Aug-Oct 2023) in Parc+2026; ESPRESSO data on DACE (doi 10.82180/dace-pwgeam18). Not on ExoFOP."
+ },
+ "toi_rows": [
+  {
+   "TIC ID": "354944123",
+   "TOI": "4342.01",
+   "TESS Disposition": "PC",
+   "TFOPWG Disposition": "CP",
+   "Epoch (BJD)": "2458654.532426",
+   "Epoch (BJD) err": "0.0015552475",
+   "Period (days)": "5.53832899923516",
+   "Period (days) err": "0.000038025082",
+   "Duration (hours)": "2.22638882354132",
+   "Duration (hours) err": "0.41871506",
+   "Depth (ppm)": "1407.11186478991",
+   "Depth (ppm) err": "130.05675",
+   "Planet Radius (R_Earth)": "2.27214086268217",
+   "Planet SNR": "8.499877",
+   "Sectors": "13,27",
+   "Date TOI Alerted (UTC)": "2021-07-28",
+   "Date Modified": "2025-07-31 12:59:22",
+   "Comments": "potential L1 planet; near 2:1 resonance"
+  },
+  {
+   "TIC ID": "354944123",
+   "TOI": "4342.02",
+   "TESS Disposition": "PC",
+   "TFOPWG Disposition": "CP",
+   "Epoch (BJD)": "2458659.348023",
+   "Epoch (BJD) err": "0.0024497588",
+   "Period (days)": "10.6886083506691",
+   "Period (days) err": "0.00011466265",
+   "Duration (hours)": "2.66722448779472",
+   "Duration (hours) err": "0.34568244",
+   "Depth (ppm)": "1501.17263406582",
+   "Depth (ppm) err": "162.0491",
+   "Planet Radius (R_Earth)": "2.46422452476959",
+   "Planet SNR": "8.190688",
+   "Sectors": "13,27",
+   "Date TOI Alerted (UTC)": "2021-07-28",
+   "Date Modified": "2025-07-31 12:59:22",
+   "Comments": "possible multi"
+  }
+ ],
+ "ctoi_rows": [],
+ "toi_ctoi_check": {
+  "toi_list_rows_total": 8151,
+  "ctoi_list_rows_total": 5138,
+  "entries_on_tic_354944123": "Only TOI 4342.01 (P=5.538329 d) and TOI 4342.02 (P=10.688608 d). Zero CTOIs on this TIC (ExoFOP 'CTOIs 0'). No TOI or CTOI within 300 arcsec of the target.",
+  "periods_near_18p9_9p45_37p8_28p4_12p6": "none on this star",
+  "periods_near_1p958_0p979_3p915": "none on this star",
+  "spoc_tce_catalogs_checked": "MAST SPOC DV TCE stats for s0001-s0036, s0001-s0069, s0001-s0096 (multi-sector; only TCE-1 P=5.538 d and TCE-2 P=10.689 d), single-sector s13 (10.689 d), s27/s66/s93/s94 (no TCE), s67 (10.711 d), s101/s102/s103 (5.53-5.54 d). NO SPOC TCE at ~18.9 d or ~1.96 d (or aliases) in any run. Rows saved in lit/mast/tce_*.csv."
+ },
+ "planet_table_exofop": {
+  "TOI 4342.01": {
+   "epoch_bjd": "2458654.532426 +/- 0.0015552",
+   "period_d": "5.538329 +/- 0.000038",
+   "duration_h": "2.226 +/- 0.419",
+   "depth_ppm": "1407 +/- 130",
+   "rp_re": "2.27 +/- 1.12",
+   "snr": 8.5,
+   "source": "SPOC s13+s27 (TOI release 2021-07-28, params 2023-03-03)"
+  },
+  "TOI 4342.02": {
+   "epoch_bjd": "2458659.348023 +/- 0.0024498",
+   "period_d": "10.688608 +/- 0.000115",
+   "duration_h": "2.667 +/- 0.346",
+   "depth_ppm": "1501 +/- 162",
+   "rp_re": "2.46 +/- 0.50",
+   "snr": 8.19
+  },
+  "confirmed_b_exoplanet_archive_default(Parc+2026)": {
+   "epoch_bjd": "2458654.53479 (+0.00084/-0.00093)",
+   "period_d": "5.5382592 +/- 0.0000034",
+   "rp_re": "2.329 +/- 0.086",
+   "mass_me": "7.3 +/- 1.3",
+   "inc_deg": "88.83 +/- 0.22",
+   "b": "0.382 +/- 0.062",
+   "rp_rs": "0.03571 +/- 0.00073",
+   "dur_h": "2.182 +/- 0.024",
+   "a_au": 0.0519
+  },
+  "confirmed_c_exoplanet_archive_default(Parc+2026)": {
+   "epoch_bjd": "2458659.3486 +/- 0.0017",
+   "period_d": "10.688662 +/- 0.00015 (Table 2; Table 8 of the paper gives +/- 0.000015)",
+   "rp_re": "2.349 +/- 0.094",
+   "mass_me": "4.8 +/- 1.4",
+   "inc_deg": "89.61 +/- 0.26",
+   "b": "0.20 +/- 0.12 (Table 8 gives 0.320)",
+   "rp_rs": "0.03602 +/- 0.00092",
+   "dur_h": "2.854 +/- 0.053",
+   "a_au": 0.0804
+  }
+ },
+ "stellar": {
+  "tic_v8.2": {
+   "teff": "3883 +/- 157",
+   "logg": "4.653 +/- 0.011",
+   "radius_rsun": "0.598 +/- 0.018",
+   "mass_msun": "0.587 +/- 0.020",
+   "density_gcc": "3.86 +/- 0.21",
+   "lum_lsun": 0.0733,
+   "dist_pc": "61.52 +/- 0.10",
+   "tmag": 11.0318,
+   "V": 12.669,
+   "J": 9.832,
+   "H": 9.179,
+   "K": 9.018,
+   "Gaia_G": 11.9822
+  },
+  "chiron_brennom": "Teff 4027-4327 K, logg 4.65-4.71, [M/H] -0.36..-0.55, vsini 5.9-6.2 km/s (5 epochs)",
+  "pm_mas_yr": {
+   "ra": 120.399,
+   "dec": -91.4254
+  },
+  "stellar_companions": "none listed"
+ },
+ "files_downloaded": {
+  "imaging_dir": "./runs/round6_toi4342/exofop/imaging",
+  "imaging": [
+   "TIC354944123I-cz20211001.pdf",
+   "TOI4342I-ef20210723-20210723_832_plot.pdf",
+   "TOI4342I-ef20210723-832.fits",
+   "TOI4342I-ef20210723-832_sensitivity.dat",
+   "TOI4342I-ef20210723-832_sensitivity.pdf"
+  ],
+  "tseries_dir": "./runs/round6_toi4342/exofop/tseries",
+  "tseries": [
+   "TIC354944123-01_20210619_LCO-SAAO-1m0_ip_bjd-flux-err-yfit_subset.dat",
+   "TIC354944123-01_20210619_LCO-SAAO-1m0_ip_lightcurve.png",
+   "TIC354944123-01_20210619_LCO-SAAO-1m0_ip_measurements.plotcfg",
+   "TIC354944123-01_20210619_LCO-SAAO-1m0_ip_measurements.tbl",
+   "TIC354944123-01_20210619_LCO-SAAO-1m0_ip_notes.txt",
+   "TIC354944123-01_20210712_LCO-CTIO-1m0_ip_bjd-flux-err-am_subset.dat",
+   "TIC354944123-01_20210712_LCO-CTIO-1m0_ip_lightcurve.png",
+   "TIC354944123-01_20210712_LCO-CTIO-1m0_ip_measurements.plotcfg",
+   "TIC354944123-01_20210712_LCO-CTIO-1m0_ip_measurements.tbl",
+   "TIC354944123-01_20210712_LCO-CTIO-1m0_ip_notes.txt",
+   "TIC354944123-01_20210814_LCO-SSO-1m0_ip_bjd-flux-err-air_subset.dat",
+   "TIC354944123-01_20210814_LCO-SSO-1m0_ip_lightcurve.png",
+   "TIC354944123-01_20210814_LCO-SSO-1m0_ip_measurements.plotcfg",
+   "TIC354944123-01_20210814_LCO-SSO-1m0_ip_measurements.tbl",
+   "TIC354944123-01_20210814_LCO-SSO-1m0_ip_notes.txt",
+   "TIC354944123-01_20210831_LCO-CTIO-1m0_ip_20px_bjd-flux-err-xcen.dat",
+   "TIC354944123-01_20210831_LCO-CTIO-1m0_ip_20px_lightcurve.png",
+   "TIC354944123-01_20210831_LCO-CTIO-1m0_ip_20px_measurements.plotcfg",
+   "TIC354944123-01_20210831_LCO-CTIO-1m0_ip_20px_measurements.tbl",
+   "TIC354944123-01_20210831_LCO-CTIO-1m0_ip_lightcurve.png",
+   "TIC354944123-01_20210831_LCO-CTIO-1m0_ip_measurements.plotcfg",
+   "TIC354944123-01_20210831_LCO-CTIO-1m0_ip_measurements.tbl",
+   "TIC354944123-02_20210530_LCO-CTIO-1m0_ip_20px_bjd-flux-err-am.dat",
+   "TIC354944123-02_20210530_LCO-CTIO-1m0_ip_20px_lightcurve.png",
+   "TIC354944123-02_20210530_LCO-CTIO-1m0_ip_20px_measurements.plotcfg",
+   "TIC354944123-02_20210530_LCO-CTIO-1m0_ip_20px_measurements.tbl",
+   "TIC354944123-02_20210711_LCO-SAAO-1m0_ip_lightcurve.png",
+   "TIC354944123-02_20210711_LCO-SAAO-1m0_ip_measurements.plotcfg",
+   "TIC354944123-02_20210711_LCO-SAAO-1m0_ip_measurements.tbl",
+   "TIC354944123-02_20210711_LCO-SAAO-1m0_ip_notes.txt",
+   "TIC354944123-02_20210813-2_LCO-CTIO-1m0_ip_bjd-flux-err-air_subset.dat",
+   "TIC354944123-02_20210813-2_LCO-CTIO-1m0_ip_lightcurve.png",
+   "TIC354944123-02_20210813-2_LCO-CTIO-1m0_ip_measurements.plotcfg",
+   "TIC354944123-02_20210813-2_LCO-CTIO-1m0_ip_measurements.tbl",
+   "TIC354944123-02_20210813-2_LCO-CTIO-1m0_ip_notes.txt",
+   "TIC354944123-02_20210813-a_LCO-CTIO-1m0_ip_bjd-flux-err-am.dat",
+   "TIC354944123-02_20210813-a_LCO-CTIO-1m0_ip_lightcurve.png",
+   "TIC354944123-02_20210813-b_LCO-CTIO-1m0_ip_bjd-flux-err-am.dat",
+   "TIC354944123-02_20210813-b_LCO-CTIO-1m0_ip_lightcurve.png",
+   "TIC354944123-02_20210813_LCO-CTIO-1m0_ip_lightcurve.png",
+   "TIC354944123-02_20210813_LCO-CTIO-1m0_ip_measurements.plotcfg",
+   "TIC354944123-02_20210813_LCO-CTIO-1m0_ip_measurements.tbl",
+   "TIC354944123-02_20210813_LCO-CTIO-1m0_ip_measurements_5px.tbl",
+   "TIC354944123-02_20210813_LCO-CTIO-1m0_ip_measurements_NEB-table.txt",
+   "TIC354944123-02_20210813_LCO-CTIO-1m0_ip_measurements_NEB-table_5px.txt",
+   "TIC354944123-02_20210813_LCO-CTIO-1m0_ip_notes.txt",
+   "TIC354944123-02_20210914_LCO-CTIO-1m0_ip_bjd-flux-err-sky_subset.dat",
+   "TIC354944123-02_20210914_LCO-CTIO-1m0_ip_lightcurve.png",
+   "TIC354944123-02_20210914_LCO-CTIO-1m0_ip_measurements.plotcfg",
+   "TIC354944123-02_20210914_LCO-CTIO-1m0_ip_measurements.tbl",
+   "TIC354944123-02_20210914_LCO-CTIO-1m0_ip_notes.txt"
+  ],
+  "tseries_note": "Downloaded all .dat (BJD_TDB, rel_flux_T1_n, rel_flux_err_T1_n, detrend param), AIJ measurements .tbl, notes.txt, lightcurve.png and .plotcfg files. Skipped plate-solved FITS images, NEBcheck zips and other PNG diagnostics. The 0-byte NEB-table_5px.txt is empty on ExoFOP itself. The gan 20210831 measurements.tbl has BJD_TDB = 0 (not computed in that reduction); use the collins 20px .dat/.tbl (same night) or JD_UTC.",
+  "raw_dir": "./runs/round6_toi4342/exofop/raw",
+  "raw": [
+   "ctoi_list.csv",
+   "obsnotes.html",
+   "target.html",
+   "target.json",
+   "target.txt",
+   "toi_list.csv",
+   "toi_rows_with_header.csv",
+   "ts_filelist.txt"
+  ],
+  "sg1_windows_json": "./runs/round6_toi4342/exofop/sg1_windows.json"
+ },
+ "urls_checked": [
+  "https://exofop.ipac.caltech.edu/tess/target.php?id=354944123",
+  "https://exofop.ipac.caltech.edu/tess/target.php?id=354944123&json",
+  "https://exofop.ipac.caltech.edu/tess/edit_obsnotes.php?id=354944123",
+  "https://exofop.ipac.caltech.edu/tess/get_file.php?id=<fid> (fids 226014-226017, 232918 imaging; 51 light-curve fids listed in raw/ts_filelist.txt)",
+  "https://exofop.ipac.caltech.edu/tess/download_toi.php?sort=toi&output=csv",
+  "https://exofop.ipac.caltech.edu/tess/download_ctoi.php?sort=ctoi&output=csv",
+  "https://exo.mast.stsci.edu/api/v0.1/dvdata/tess/354944123/tces/",
+  "https://archive.stsci.edu/tess/bulk_downloads/bulk_downloads_tce.html",
+  "https://archive.stsci.edu/missions/tess/catalogs/tce/<run>_dvr-tcestats.csv (12 runs, see lit/mast/)"
+ ],
+ "not_accessed_or_not_available": [
+  "No SOAR machine-readable contrast curve exists on ExoFOP (PDF only).",
+  "Gemini/Zorro 562 nm channel curve not uploaded to ExoFOP (only 832 nm).",
+  "CHIRON spectra FITS and CHIRON stellar-parameter PDFs not downloaded (not needed).",
+  "Plate-solved FITS images and NEBcheck zips skipped."
+ ],
+ "fetched_utc": "2026-10-13T11:31:34Z"
+}

@@ -1,0 +1,104 @@
+{
+ "tic198385543_0p944": {
+  "class": "candidate (new)",
+  "verdict": "best new candidate: sub-Earth USP candidate on TOI-1846 (M3)",
+  "literature": "not found: Soubkiou+ 2025 (MNRAS 541, 3249) searched 0.5-40 d, nothing, and their injections say ~1 Re would be missed; no TCE, TOI or CTOI",
+  "notes": "604 transits, 23 sectors; consistent per sector (season p 0.86), odd/even 0.0 sigma, no secondary; on target (PSF dchi2 1.1, control 11.4); fixed-aperture/2-min depth ratio 1.41 vs 1.10 for TOI-1846 b (+2.0 sigma); 5%-clip SNR 5.4 above the constant-signal floor. Weakness: SNR 8.6 with ~10^8 trials; 0.94 d is not a TESS systematic period but a 257-ppm signal at Tmag 11.9 is at the edge."
+ },
+ "tic286201103_7p220": {
+  "class": "candidate (new)",
+  "verdict": "candidate: Earth-size 7.22-d signal on TOI-6008 (M5)",
+  "literature": "not found: Barkaoui+ 2024 (A&A 687, A264) SHERLOCK search of fewer sectors found only a weak 16.35-d signal (ruled out by MuSCAT); no TCE/TOI/CTOI",
+  "notes": "31 transits, 9 sectors, every sector positive (season p 0.66), odd/even 1.3 sigma, no secondary; PSF dchi2 11.3 (control 4.1; inside the <=13 on-target range but the free fit wanders 22 arcsec, best neighbour T18 at 31 arcsec needs 24% eclipses); fixed/2-min ratio consistent with TOI-6008 b (+0.8 sigma); TIC contamination ratio 0.79 (crowded)."
+ },
+ "tic354944123_18p908": {
+  "class": "candidate (new; predicted)",
+  "verdict": "candidate: 2.2 Re at 18.9 d on TOI-4342, matching a published dynamical prediction",
+  "literature": "not detected anywhere; Turtelboom+ 2025 (DYNAMITE) PREDICTED a planet at 18.5 (+2.7/-2.0) d, 2.24 Re, 1170 ppm in this system; Tey+ 2023 searched 2 QLP sectors only; Parc+ 2026 RV candidate d at 47.5 d is unrelated",
+  "notes": "only 7 transits (6 counted), one (S101) at ~0 depth - possible TTVs near 7:4 with c, or a cycle-count/alias problem; odd/even 2.0 sigma; fixed-aperture depth matches 2-min (ratio -0.7 sigma vs planet c). Pixel localisation is UNINFORMATIVE on this star: the confirmed planet c itself fails it (dchi2 263), so the candidate's 94 says nothing."
+ },
+ "tic354944123_1p958": {
+  "class": "candidate (new)",
+  "verdict": "candidate: 1.1 Re inner planet at 1.96 d on TOI-4342",
+  "literature": "not found (Tey+ 2023 residual search on 2 sectors; Parc+ 2026 RVs)",
+  "notes": "91 transits, 9 sectors, season p 0.65, odd/even 0.0; fixed/2-min ratio consistent (+0.8 sigma). Localisation uninformative on this star (control fails)."
+ },
+ "tic356158613_4p867": {
+  "class": "candidate (SPOC TCE, not a TOI)",
+  "verdict": "strongest signal of the round, but SPOC already has it as an unpromoted TCE",
+  "literature": "SPOC s14-s86 TCE 356158613-05: P 4.86736 d, 469 ppm, MES 7.18 (DV centroid offsets ~2 sigma); no paper, TOI or CTOI",
+  "notes": "SNR 10.9, 45 transits, season p 0.62, odd/even 0.2, on target (PSF dchi2 6.1, control 12.6), fixed/2-min ratio consistent. Host is a K7/M0 dwarf (TIC Teff missing; 5780 K in ExoFOP is a placeholder). Not a discovery: the SPOC pipeline flagged it; it was never made a TOI."
+ },
+ "tic154940895_4p899": {
+  "class": "candidate (reported at P/2 in a 2026 preprint)",
+  "verdict": "known as a candidate (Tschudi 2026, arXiv 2607.23781, at 2.4496 d)",
+  "literature": "Tschudi 2026 preprint 'TOI-4572.02' at P = 2.4496 d (= our P/2), 437 ppm, FPP 4.2%",
+  "notes": "our data prefer 4.899 d: the in-between epochs give 164 +/- 64 ppm vs 580 +/- 62 (equal alternate events rejected at 4.6 sigma). Either a 4.90-d planet (the 164 ppm is a 2.6-sigma fluctuation) or an EB with a weak secondary. On target (PSF dchi2 1.7)."
+ },
+ "tic154940895_8p683": {
+  "class": "candidate (SPOC TCE, not a TOI)",
+  "verdict": "SPOC TCE, not promoted",
+  "literature": "SPOC s14-s86 TCE 154940895-02: P 8.68307 d, 891 ppm, MES 7.38; not in Tschudi 2026",
+  "notes": "31 transits, season p 0.85; on target (PSF dchi2 2.5); fixed/2-min consistent; FPP higher (~0.2)."
+ },
+ "tic259233660_4p213": {
+  "class": "already ours (round 4, RNAAS)",
+  "verdict": "positive control: TOI-6000.02 re-found blind (round-4 candidate, submitted as an RNAAS)",
+  "literature": "round 4 / RNAAS AAS82226",
+  "notes": "re-found at 4.21349 d, SNR 8.8, 891 ppm; PSF dchi2 5.2 (control 1.7)."
+ },
+ "tic179985715_19p093": {
+  "class": "candidate (new, weak)",
+  "verdict": "candidate with cautions: 2.2 Re at 19.09 d on TOI-249",
+  "literature": "not found; no TCE (the SPOC S1-96 run predates the 4 transits in S104/S106)",
+  "notes": "8 transits in 5 sectors over 8 years (cycle-count aliases possible); season p 0.04; fixed-aperture odd/even 3.1 sigma; Gaia RUWE 2.0 (unresolved companion likely); duration 1.2 h is short for the star (grazing or wrong star). On target in pixels (dchi2 7.3)."
+ },
+ "tic177254988_3p601": {
+  "class": "candidate (new, weak)",
+  "verdict": "weak candidate on TOI-4405",
+  "literature": "not found (TOI-4405 b validated by Lafarga+ 2026; .02 at 1.09 d PC)",
+  "notes": "170 transits, 31 sectors; PSF dchi2 12.5 (control 1.4) - at the edge of the on-target range; fixed-aperture depth 0.58x the 2-min depth vs 0.93 for the known planet (-2.4 sigma)."
+ },
+ "tic453260209_4p717": {
+  "class": "marginal",
+  "verdict": "marginal: fails the on-target threshold narrowly on a star with a 1.8-arcsec twin",
+  "literature": "not found",
+  "notes": "TOI-1215 is a 1.8-arcsec pair of near-equal M dwarfs (Gaia, same parallax): pixels cannot tell which star hosts it. PSF dchi2 16.0 (control 2.6), best-fit 18.7 arcsec off with per-sector target best 1/10; fixed-aperture secondary -3.6 sigma. TRICERATOPS FPP 0.67, NFPP 0.56: most of the probability is on the companion / nearby stars."
+ },
+ "tic453260209_23p051": {
+  "class": "doubtful",
+  "verdict": "doubtful: SPOC TCE but absent from the fixed-aperture FFI photometry",
+  "literature": "SPOC s1-s96 TCE 453260209-02: P 23.0514 d, 817 ppm, MES 8.5; not a TOI",
+  "notes": "fixed-aperture depth 265 +/- 155 vs 736 +/- 90 in 2-min (ratio 4.3 sigma below the known planet's); fixed-aperture phase-0.5 dip 3.8 sigma. 7 transits."
+ },
+ "tic260004324_2p473": {
+  "class": "rejected (blend)",
+  "verdict": "rejected: off-target / eclipsing-binary signatures in the pixels",
+  "literature": "not found (Gan+ 2020 residual search of 12 sectors)",
+  "notes": "the 0.5 Re signal is clean in 2-min photometry, but PSF dchi2 62.9 (control 11.5, best fit 20 arcsec off), fixed-aperture depth 2.1x the 2-min depth (4.2 sigma vs LHS 1815 b), and in the fixed aperture odd/even 7.6 sigma and a phase-0.5 eclipse at 19.6 sigma: a diluted eclipsing binary (true P likely 4.947 d) leaking into the aperture."
+ },
+ "tic321688498_2p525": {
+  "class": "rejected",
+  "verdict": "rejected: not on target / not in the FFI aperture",
+  "literature": "not found",
+  "notes": "PSF dchi2 20.0 (control 12.2), fixed-aperture depth 0.14x the 2-min depth (-4.5 sigma vs TOI-2290 b), phase-0.5 dip 4.1 sigma in the fixed aperture; TIC contamination 1.26."
+ },
+ "tic172370679_26p799": {
+  "class": "rejected",
+  "verdict": "rejected: off-target and odd/even in the fixed aperture",
+  "literature": "not found",
+  "notes": "PSF dchi2 53 (control 10.8); fixed-aperture odd/even 5.8 sigma; 5 transits; P = 0.92 x P(TOI-1899 b)."
+ },
+ "tic350814607_2p415": {
+  "class": "rejected",
+  "verdict": "rejected: Kepler would have seen it",
+  "literature": "Kepler-968 (KOI-1833) has three Kepler planets; no 2.4-d KOI",
+  "notes": "an 885-ppm, 2.4-d transit on this Kp~14 star would be a high-SNR detection in 4 years of Kepler data; no such KOI exists. Probably a residual of the Kepler planets masked with decade-old ephemerides, or a systematic. Duration 1.4x the expected maximum."
+ },
+ "tic30853470_19p982": {
+  "class": "rejected (rotation-saturated star; off target)",
+  "verdict": "not a candidate: the star's strongest signal is sinusoidal",
+  "literature": "not found; the known TOI-807.01 itself has a 5-sigma centroid offset in a crowded field (ExoFOP)",
+  "notes": "SNR 7.7 second signal on a star whose first search signal is sinusoidal (rotation leaking through); PSF dchi2 27.5 (control 9.7); transit-shape density 0.19 vs TIC 3.1 g/cc (too long for the star)."
+ }
+}

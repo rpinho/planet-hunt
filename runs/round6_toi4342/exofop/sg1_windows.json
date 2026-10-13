@@ -1,0 +1,537 @@
+[
+ {
+  "file": "TIC354944123-01_20210619_LCO-SAAO-1m0_ip_bjd-flux-err-yfit_subset.dat",
+  "n": 237,
+  "bjd_first": 2459385.503649,
+  "bjd_last": 2459385.68343,
+  "btjd_first": 2385.50365,
+  "btjd_last": 2385.68343,
+  "span_h": 4.315,
+  "events": {
+   "B_1.95769": [
+    {
+     "epoch": 371,
+     "tc_btjd": 2385.255,
+     "frac_covered": 0.0,
+     "tc_outside_window_by_h": 5.97
+    }
+   ],
+   "b_5.5382592": [
+    {
+     "epoch": 132,
+     "tc_btjd": 2385.585,
+     "frac_covered": 1.0,
+     "tc_outside_window_by_h": 0.0
+    }
+   ],
+   "c_10.688662": [
+    {
+     "epoch": 68,
+     "tc_btjd": 2386.1776,
+     "frac_covered": 0.0,
+     "tc_outside_window_by_h": 11.86
+    }
+   ]
+  },
+  "rms_ppt": 1.921
+ },
+ {
+  "file": "TIC354944123-01_20210712_LCO-CTIO-1m0_ip_bjd-flux-err-am_subset.dat",
+  "n": 244,
+  "bjd_first": 2459407.630282,
+  "bjd_last": 2459407.810571,
+  "btjd_first": 2407.63028,
+  "btjd_last": 2407.81057,
+  "span_h": 4.327,
+  "events": {
+   "b_5.5382592": [
+    {
+     "epoch": 136,
+     "tc_btjd": 2407.738,
+     "frac_covered": 1.0,
+     "tc_outside_window_by_h": 0.0
+    }
+   ],
+   "c_10.688662": [
+    {
+     "epoch": 70,
+     "tc_btjd": 2407.5549,
+     "frac_covered": 0.0,
+     "tc_outside_window_by_h": 1.81
+    }
+   ]
+  },
+  "rms_ppt": 1.65
+ },
+ {
+  "file": "TIC354944123-01_20210814_LCO-SSO-1m0_ip_bjd-flux-err-air_subset.dat",
+  "n": 205,
+  "bjd_first": 2459440.904316,
+  "bjd_last": 2459441.055697,
+  "btjd_first": 2440.90432,
+  "btjd_last": 2441.0557,
+  "span_h": 3.633,
+  "events": {
+   "A_half_9.45415": [
+    {
+     "epoch": 81,
+     "tc_btjd": 2441.3212,
+     "frac_covered": 0.0,
+     "tc_outside_window_by_h": 6.37
+    }
+   ],
+   "b_5.5382592": [
+    {
+     "epoch": 142,
+     "tc_btjd": 2440.9676,
+     "frac_covered": 1.0,
+     "tc_outside_window_by_h": 0.0
+    }
+   ]
+  },
+  "rms_ppt": 1.376
+ },
+ {
+  "file": "TIC354944123-01_20210831_LCO-CTIO-1m0_ip_20px_bjd-flux-err-xcen.dat",
+  "n": 253,
+  "bjd_first": 2459457.497337,
+  "bjd_last": 2459457.681629,
+  "btjd_first": 2457.49734,
+  "btjd_last": 2457.68163,
+  "span_h": 4.423,
+  "events": {
+   "B_1.95769": [
+    {
+     "epoch": 408,
+     "tc_btjd": 2457.6895,
+     "frac_covered": 0.35,
+     "tc_outside_window_by_h": 0.19,
+     "rough_depth_ppt_linear_baseline": -0.926,
+     "rough_err_ppt_white": 0.299,
+     "n_in": 26
+    }
+   ],
+   "b_5.5382592": [
+    {
+     "epoch": 145,
+     "tc_btjd": 2457.5824,
+     "frac_covered": 1.0,
+     "tc_outside_window_by_h": 0.0
+    }
+   ]
+  },
+  "rms_ppt": 1.885
+ },
+ {
+  "file": "TIC354944123-02_20210530_LCO-CTIO-1m0_ip_20px_bjd-flux-err-am.dat",
+  "n": 68,
+  "bjd_first": 2459364.723271,
+  "bjd_last": 2459364.772343,
+  "btjd_first": 2364.72327,
+  "btjd_last": 2364.77234,
+  "span_h": 1.178,
+  "events": {
+   "c_10.688662": [
+    {
+     "epoch": 66,
+     "tc_btjd": 2364.8003,
+     "frac_covered": 0.265,
+     "tc_outside_window_by_h": 0.67
+    }
+   ]
+  },
+  "rms_ppt": 3.095
+ },
+ {
+  "file": "TIC354944123-02_20210813-2_LCO-CTIO-1m0_ip_bjd-flux-err-air_subset.dat",
+  "n": 272,
+  "bjd_first": 2459439.519584,
+  "bjd_last": 2459439.718537,
+  "btjd_first": 2439.51958,
+  "btjd_last": 2439.71854,
+  "span_h": 4.775,
+  "events": {
+   "B_1.95769": [
+    {
+     "epoch": 399,
+     "tc_btjd": 2440.0703,
+     "frac_covered": 0.0,
+     "tc_outside_window_by_h": 8.44
+    }
+   ],
+   "c_10.688662": [
+    {
+     "epoch": 73,
+     "tc_btjd": 2439.6209,
+     "frac_covered": 1.0,
+     "tc_outside_window_by_h": 0.0
+    }
+   ]
+  },
+  "rms_ppt": 1.99
+ },
+ {
+  "file": "TIC354944123-02_20210813-a_LCO-CTIO-1m0_ip_bjd-flux-err-am.dat",
+  "n": 374,
+  "bjd_first": 2459439.518869,
+  "bjd_last": 2459439.719919,
+  "btjd_first": 2439.51887,
+  "btjd_last": 2439.71992,
+  "span_h": 4.825,
+  "events": {
+   "B_1.95769": [
+    {
+     "epoch": 399,
+     "tc_btjd": 2440.0703,
+     "frac_covered": 0.0,
+     "tc_outside_window_by_h": 8.41
+    }
+   ],
+   "c_10.688662": [
+    {
+     "epoch": 73,
+     "tc_btjd": 2439.6209,
+     "frac_covered": 1.0,
+     "tc_outside_window_by_h": 0.0
+    }
+   ]
+  },
+  "rms_ppt": 2.676
+ },
+ {
+  "file": "TIC354944123-02_20210813-b_LCO-CTIO-1m0_ip_bjd-flux-err-am.dat",
+  "n": 272,
+  "bjd_first": 2459439.519584,
+  "bjd_last": 2459439.718537,
+  "btjd_first": 2439.51958,
+  "btjd_last": 2439.71854,
+  "span_h": 4.775,
+  "events": {
+   "B_1.95769": [
+    {
+     "epoch": 399,
+     "tc_btjd": 2440.0703,
+     "frac_covered": 0.0,
+     "tc_outside_window_by_h": 8.44
+    }
+   ],
+   "c_10.688662": [
+    {
+     "epoch": 73,
+     "tc_btjd": 2439.6209,
+     "frac_covered": 1.0,
+     "tc_outside_window_by_h": 0.0
+    }
+   ]
+  },
+  "rms_ppt": 2.03
+ },
+ {
+  "file": "TIC354944123-02_20210914_LCO-CTIO-1m0_ip_bjd-flux-err-sky_subset.dat",
+  "n": 286,
+  "bjd_first": 2459471.577972,
+  "bjd_last": 2459471.785497,
+  "btjd_first": 2471.57797,
+  "btjd_last": 2471.7855,
+  "span_h": 4.981,
+  "events": {
+   "B_1.95769": [
+    {
+     "epoch": 415,
+     "tc_btjd": 2471.3933,
+     "frac_covered": 0.0,
+     "tc_outside_window_by_h": 4.43
+    }
+   ],
+   "c_10.688662": [
+    {
+     "epoch": 76,
+     "tc_btjd": 2471.6869,
+     "frac_covered": 1.0,
+     "tc_outside_window_by_h": 0.0
+    }
+   ]
+  },
+  "rms_ppt": 2.263
+ },
+ {
+  "file": "TIC354944123-01_20210619_LCO-SAAO-1m0_ip_measurements.tbl",
+  "n": 237,
+  "bjd_first": 2459385.503649,
+  "bjd_last": 2459385.68343,
+  "btjd_first": 2385.50365,
+  "btjd_last": 2385.68343,
+  "span_h": 4.315,
+  "events": {
+   "B_1.95769": [
+    {
+     "epoch": 371,
+     "tc_btjd": 2385.255,
+     "frac_covered": 0.0,
+     "tc_outside_window_by_h": 5.97
+    }
+   ],
+   "b_5.5382592": [
+    {
+     "epoch": 132,
+     "tc_btjd": 2385.585,
+     "frac_covered": 1.0,
+     "tc_outside_window_by_h": 0.0
+    }
+   ],
+   "c_10.688662": [
+    {
+     "epoch": 68,
+     "tc_btjd": 2386.1776,
+     "frac_covered": 0.0,
+     "tc_outside_window_by_h": 11.86
+    }
+   ]
+  }
+ },
+ {
+  "file": "TIC354944123-01_20210712_LCO-CTIO-1m0_ip_measurements.tbl",
+  "n": 244,
+  "bjd_first": 2459407.630282,
+  "bjd_last": 2459407.810571,
+  "btjd_first": 2407.63028,
+  "btjd_last": 2407.81057,
+  "span_h": 4.327,
+  "events": {
+   "b_5.5382592": [
+    {
+     "epoch": 136,
+     "tc_btjd": 2407.738,
+     "frac_covered": 1.0,
+     "tc_outside_window_by_h": 0.0
+    }
+   ],
+   "c_10.688662": [
+    {
+     "epoch": 70,
+     "tc_btjd": 2407.5549,
+     "frac_covered": 0.0,
+     "tc_outside_window_by_h": 1.81
+    }
+   ]
+  }
+ },
+ {
+  "file": "TIC354944123-01_20210814_LCO-SSO-1m0_ip_measurements.tbl",
+  "n": 205,
+  "bjd_first": 2459440.904316,
+  "bjd_last": 2459441.055697,
+  "btjd_first": 2440.90432,
+  "btjd_last": 2441.0557,
+  "span_h": 3.633,
+  "events": {
+   "A_half_9.45415": [
+    {
+     "epoch": 81,
+     "tc_btjd": 2441.3212,
+     "frac_covered": 0.0,
+     "tc_outside_window_by_h": 6.37
+    }
+   ],
+   "b_5.5382592": [
+    {
+     "epoch": 142,
+     "tc_btjd": 2440.9676,
+     "frac_covered": 1.0,
+     "tc_outside_window_by_h": 0.0
+    }
+   ]
+  }
+ },
+ {
+  "file": "TIC354944123-01_20210831_LCO-CTIO-1m0_ip_20px_measurements.tbl",
+  "n": 253,
+  "bjd_first": 2459457.497337,
+  "bjd_last": 2459457.681629,
+  "btjd_first": 2457.49734,
+  "btjd_last": 2457.68163,
+  "span_h": 4.423,
+  "events": {
+   "B_1.95769": [
+    {
+     "epoch": 408,
+     "tc_btjd": 2457.6895,
+     "frac_covered": 0.35,
+     "tc_outside_window_by_h": 0.19
+    }
+   ],
+   "b_5.5382592": [
+    {
+     "epoch": 145,
+     "tc_btjd": 2457.5824,
+     "frac_covered": 1.0,
+     "tc_outside_window_by_h": 0.0
+    }
+   ]
+  }
+ },
+ {
+  "file": "TIC354944123-01_20210831_LCO-CTIO-1m0_ip_measurements.tbl",
+  "n": 253,
+  "bjd_first": 0.0,
+  "bjd_last": 0.0,
+  "btjd_first": 0.0,
+  "btjd_last": 0.0,
+  "span_h": 0.0,
+  "events": {}
+ },
+ {
+  "file": "TIC354944123-02_20210530_LCO-CTIO-1m0_ip_20px_measurements.tbl",
+  "n": 68,
+  "bjd_first": 2459364.723271,
+  "bjd_last": 2459364.772343,
+  "btjd_first": 2364.72327,
+  "btjd_last": 2364.77234,
+  "span_h": 1.178,
+  "events": {
+   "c_10.688662": [
+    {
+     "epoch": 66,
+     "tc_btjd": 2364.8003,
+     "frac_covered": 0.265,
+     "tc_outside_window_by_h": 0.67
+    }
+   ]
+  }
+ },
+ {
+  "file": "TIC354944123-02_20210711_LCO-SAAO-1m0_ip_measurements.tbl",
+  "n": 229,
+  "bjd_first": 2459407.432429,
+  "bjd_last": 2459407.60491,
+  "btjd_first": 2407.43243,
+  "btjd_last": 2407.60491,
+  "span_h": 4.14,
+  "events": {
+   "b_5.5382592": [
+    {
+     "epoch": 136,
+     "tc_btjd": 2407.738,
+     "frac_covered": 0.0,
+     "tc_outside_window_by_h": 3.2
+    }
+   ],
+   "c_10.688662": [
+    {
+     "epoch": 70,
+     "tc_btjd": 2407.5549,
+     "frac_covered": 0.92,
+     "tc_outside_window_by_h": 0.0
+    }
+   ]
+  }
+ },
+ {
+  "file": "TIC354944123-02_20210813-2_LCO-CTIO-1m0_ip_measurements.tbl",
+  "n": 272,
+  "bjd_first": 2459439.519584,
+  "bjd_last": 2459439.718537,
+  "btjd_first": 2439.51958,
+  "btjd_last": 2439.71854,
+  "span_h": 4.775,
+  "events": {
+   "B_1.95769": [
+    {
+     "epoch": 399,
+     "tc_btjd": 2440.0703,
+     "frac_covered": 0.0,
+     "tc_outside_window_by_h": 8.44
+    }
+   ],
+   "c_10.688662": [
+    {
+     "epoch": 73,
+     "tc_btjd": 2439.6209,
+     "frac_covered": 1.0,
+     "tc_outside_window_by_h": 0.0
+    }
+   ]
+  }
+ },
+ {
+  "file": "TIC354944123-02_20210813_LCO-CTIO-1m0_ip_measurements.tbl",
+  "n": 374,
+  "bjd_first": 2459439.518869,
+  "bjd_last": 2459439.719919,
+  "btjd_first": 2439.51887,
+  "btjd_last": 2439.71992,
+  "span_h": 4.825,
+  "events": {
+   "B_1.95769": [
+    {
+     "epoch": 399,
+     "tc_btjd": 2440.0703,
+     "frac_covered": 0.0,
+     "tc_outside_window_by_h": 8.41
+    }
+   ],
+   "c_10.688662": [
+    {
+     "epoch": 73,
+     "tc_btjd": 2439.6209,
+     "frac_covered": 1.0,
+     "tc_outside_window_by_h": 0.0
+    }
+   ]
+  }
+ },
+ {
+  "file": "TIC354944123-02_20210914_LCO-CTIO-1m0_ip_measurements.tbl",
+  "n": 286,
+  "bjd_first": 2459471.577972,
+  "bjd_last": 2459471.785497,
+  "btjd_first": 2471.57797,
+  "btjd_last": 2471.7855,
+  "span_h": 4.981,
+  "events": {
+   "B_1.95769": [
+    {
+     "epoch": 415,
+     "tc_btjd": 2471.3933,
+     "frac_covered": 0.0,
+     "tc_outside_window_by_h": 4.43
+    }
+   ],
+   "c_10.688662": [
+    {
+     "epoch": 76,
+     "tc_btjd": 2471.6869,
+     "frac_covered": 1.0,
+     "tc_outside_window_by_h": 0.0
+    }
+   ]
+  }
+ },
+ {
+  "file": "TIC354944123-02_20210813_LCO-CTIO-1m0_ip_measurements_5px.tbl",
+  "n": 374,
+  "bjd_first": 2459439.518869,
+  "bjd_last": 2459439.719919,
+  "btjd_first": 2439.51887,
+  "btjd_last": 2439.71992,
+  "span_h": 4.825,
+  "events": {
+   "B_1.95769": [
+    {
+     "epoch": 399,
+     "tc_btjd": 2440.0703,
+     "frac_covered": 0.0,
+     "tc_outside_window_by_h": 8.41
+    }
+   ],
+   "c_10.688662": [
+    {
+     "epoch": 73,
+     "tc_btjd": 2439.6209,
+     "frac_covered": 1.0,
+     "tc_outside_window_by_h": 0.0
+    }
+   ]
+  }
+ }
+]

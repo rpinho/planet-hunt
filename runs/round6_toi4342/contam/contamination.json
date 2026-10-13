@@ -1,0 +1,2716 @@
+{
+ "target": {
+  "toi": "TOI-4342",
+  "tic": 354944123,
+  "gaia_dr3": 6355915466181029376,
+  "Tmag_tic": 11.0318
+ },
+ "gaia_target": {
+  "ra": 324.38949996727433,
+  "dec": -77.97915951715359,
+  "ref_epoch": 2016.0,
+  "parallax": 16.248718569673972,
+  "parallax_error": 0.018384471535682678,
+  "pmra": 120.33294002170071,
+  "pmra_error": 0.018523020669817924,
+  "pmdec": -91.50306356920902,
+  "pmdec_error": 0.0176786370575428,
+  "ruwe": 0.9811263680458069,
+  "astrometric_excess_noise": 0.1598474234342575,
+  "astrometric_excess_noise_sig": 39.81521224975586,
+  "ipd_frac_multi_peak": 0,
+  "ipd_gof_harmonic_amplitude": 0.011299800127744675,
+  "ipd_gof_harmonic_phase": 130.1511993408203,
+  "ipd_frac_odd_win": 0,
+  "non_single_star": 0,
+  "duplicated_source": false,
+  "radial_velocity": -4.429762840270996,
+  "radial_velocity_error": 0.357543021440506,
+  "rv_amplitude_robust": 5.487420082092285,
+  "rv_chisq_pvalue": 0.23250411450862885,
+  "rv_renormalised_gof": 0.7987815737724304,
+  "rv_nb_transits": 25,
+  "rv_method_used": 1,
+  "phot_bp_rp_excess_factor": 1.3213353157043457,
+  "phot_g_mean_mag": 11.974030494689941,
+  "phot_bp_mean_mag": 12.896300315856934,
+  "phot_rp_mean_mag": 11.02247428894043,
+  "bp_rp": 1.873826026916504,
+  "astrometric_params_solved": 95,
+  "visibility_periods_used": 26,
+  "astrometric_n_good_obs_al": 388,
+  "astrometric_chi2_al": 1589.5489501953125,
+  "phot_variable_flag": "VARIABLE",
+  "classprob_dsc_combmod_star": 0.9994880557060242,
+  "teff_gspphot": null,
+  "C_star_corrected_excess": 0.003584864141246591,
+  "source_id": 6355915466181029376,
+  "notes": "RUWE 0.98 (<1.4 single-star-like). AEN 0.16 mas with sig 39.8 is formally significant but typical of the G~12 calibration floor in DR3 (RUWE is the better binarity indicator at this brightness); ipd_frac_multi_peak=0 and ipd_gof_harmonic_amplitude=0.011 show no resolved-double signature; non_single_star=0, duplicated_source=False. RV -4.43 +/- 0.36 km/s from 25 transits; rv_amplitude_robust 5.5 km/s with rv_chisq_pvalue 0.23 (>0.01) -> no significant RV variability (Gaia RV epoch precision for an M0 at G_RVS~10.5 is a few km/s, so this only excludes large-K SB1s). Corrected BP/RP excess C*=0.004 (no blend). phot_variable_flag=VARIABLE: G std 6.0 mmag over 51 epochs (range 25 mmag) - consistent with spot modulation on an M dwarf. TIC v8.2 lists Gaia DR2 6355915466180482944 (DR2 id; DR3 id differs) and an epoch-2000 position."
+ },
+ "nss": {
+  "nss_two_body_orbit": [],
+  "nss_acceleration_astro": [],
+  "nss_non_linear_spectro": [],
+  "nss_vim_fl": [],
+  "summary": "No entries in any Gaia DR3 NSS table (two-body orbit, astrometric acceleration, non-linear spectro, VIM). Target is in vari_summary (in_vari_classification_result=True)."
+ },
+ "tic": {
+  "ID": "354944123",
+  "Tmag": 11.0318,
+  "e_Tmag": 0.00736425,
+  "contratio": 0.009541715,
+  "numcont": "111",
+  "Teff": 3883.0,
+  "rad": 0.598175,
+  "mass": 0.586597,
+  "d": 61.5204,
+  "disposition": null,
+  "GAIA": "6355915466180482944",
+  "ra": 324.386930624803,
+  "dec": -77.978753103862,
+  "pmRA": 120.399,
+  "pmDEC": -91.4254,
+  "priority": 0.00329392287
+ },
+ "tic_contratio": 0.009541715,
+ "tic_numcont": 111,
+ "tmag_target_stassun_from_gaia": 11.097,
+ "neighbours_note": "All Gaia DR3 sources within 150\" (57). dTmag relative to Stassun-estimated target T=11.097. depth_needed = depth*(1+f)/f with f=10^(-0.4 dT); assumes the full neighbour flux is in the aperture (upper bound on dilution, so a conservative mimic flag). Nearest Gaia source is 16.8\" away; none within 16\".",
+ "neighbours": [
+  {
+   "source_id": 6355915496244712832,
+   "sep_arcsec": 16.83,
+   "pa_deg": 95.1,
+   "G": 20.318984985351562,
+   "bp_rp": 1.2855091094970703,
+   "Tmag_est": 19.673,
+   "dTmag": 8.576,
+   "parallax": 0.46355113364405737,
+   "parallax_error": 0.5131040811538696,
+   "pmra": 5.510151301463513,
+   "pmdec": -2.3330976120491624,
+   "ruwe": 0.9718798398971558,
+   "depth_needed_1150ppm": 3.0978704171857268,
+   "depth_needed_284ppm": 0.7650393030267361,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915461884977280,
+   "sep_arcsec": 18.88,
+   "pa_deg": 270.0,
+   "G": 18.44072723388672,
+   "bp_rp": 1.0994548797607422,
+   "Tmag_est": 17.877,
+   "dTmag": 6.78,
+   "parallax": 0.17931562418177954,
+   "parallax_error": 0.14384031295776367,
+   "pmra": 9.119991318799928,
+   "pmdec": -6.643748456823898,
+   "ruwe": 0.9975425004959106,
+   "depth_needed_1150ppm": 0.5935544475253332,
+   "depth_needed_284ppm": 0.1465821418236475,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915496244716544,
+   "sep_arcsec": 24.1,
+   "pa_deg": 359.0,
+   "G": 19.234994888305664,
+   "bp_rp": 2.659282684326172,
+   "Tmag_est": 18.114,
+   "dTmag": 7.017,
+   "parallax": 1.5817271883697295,
+   "parallax_error": 0.26190441846847534,
+   "pmra": 26.71567586565219,
+   "pmdec": -25.845411062074895,
+   "ruwe": 1.0970324277877808,
+   "depth_needed_1150ppm": 0.7378766479685273,
+   "depth_needed_284ppm": 0.18222345045483632,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915466181029888,
+   "sep_arcsec": 37.63,
+   "pa_deg": 207.1,
+   "G": 17.654516220092773,
+   "bp_rp": 1.8283042907714844,
+   "Tmag_est": 16.794,
+   "dTmag": 5.697,
+   "parallax": 1.0717408960902026,
+   "parallax_error": 0.08363261818885803,
+   "pmra": 5.165864672807854,
+   "pmdec": 5.617951061377334,
+   "ruwe": 0.9972032308578491,
+   "depth_needed_1150ppm": 0.21962642678964006,
+   "depth_needed_284ppm": 0.05423817844196329,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962435943378304,
+   "sep_arcsec": 47.77,
+   "pa_deg": 346.2,
+   "G": 20.071950912475586,
+   "bp_rp": 2.406421661376953,
+   "Tmag_est": 19.022,
+   "dTmag": 7.925,
+   "parallax": 1.3431927858607882,
+   "parallax_error": 0.41874340176582336,
+   "pmra": 2.7801388211475415,
+   "pmdec": -3.0926950504841133,
+   "ruwe": 1.0031678676605225,
+   "depth_needed_1150ppm": 1.70220351414254,
+   "depth_needed_284ppm": 0.42037025914476644,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962401583095296,
+   "sep_arcsec": 52.97,
+   "pa_deg": 274.7,
+   "G": 17.166667938232422,
+   "bp_rp": 1.3221168518066406,
+   "Tmag_est": 16.505,
+   "dTmag": 5.408,
+   "parallax": 0.6062684915397385,
+   "parallax_error": 0.061919715255498886,
+   "pmra": 0.6948002386587675,
+   "pmdec": -2.981697243434499,
+   "ruwe": 0.9554907083511353,
+   "depth_needed_1150ppm": 0.1685308568514257,
+   "depth_needed_284ppm": 0.041619794213743386,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915427525237376,
+   "sep_arcsec": 55.26,
+   "pa_deg": 79.0,
+   "G": 18.69350242614746,
+   "bp_rp": 0.9409294128417969,
+   "Tmag_est": 18.204,
+   "dTmag": 7.107,
+   "parallax": 0.09973859432260022,
+   "parallax_error": 0.15604019165039062,
+   "pmra": -1.5921478873523578,
+   "pmdec": -5.717324048705719,
+   "ruwe": 1.0241656303405762,
+   "depth_needed_1150ppm": 0.8017766337498189,
+   "depth_needed_284ppm": 0.198003968682564,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915878497340928,
+   "sep_arcsec": 60.94,
+   "pa_deg": 62.2,
+   "G": 14.962961196899414,
+   "bp_rp": 0.9944562911987305,
+   "Tmag_est": 14.448,
+   "dTmag": 3.351,
+   "parallax": 0.7475867643254263,
+   "parallax_error": 0.02195552922785282,
+   "pmra": 6.4125423771650265,
+   "pmdec": -6.618363880929875,
+   "ruwe": 1.0187604427337646,
+   "depth_needed_1150ppm": 0.026327923523233494,
+   "depth_needed_284ppm": 0.006501852417911576,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962401583246208,
+   "sep_arcsec": 64.88,
+   "pa_deg": 315.1,
+   "G": 20.52798843383789,
+   "bp_rp": 1.716512680053711,
+   "Tmag_est": 19.708,
+   "dTmag": 8.611,
+   "parallax": 0.6238829229392733,
+   "parallax_error": 0.7348775863647461,
+   "pmra": 3.0484909460259924,
+   "pmdec": -8.594996496425953,
+   "ruwe": 1.114380955696106,
+   "depth_needed_1150ppm": 3.2016253443226184,
+   "depth_needed_284ppm": 0.7906622589457596,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915427525236352,
+   "sep_arcsec": 65.29,
+   "pa_deg": 84.3,
+   "G": 19.133535385131836,
+   "bp_rp": 2.5296707153320312,
+   "Tmag_est": 18.048,
+   "dTmag": 6.951,
+   "parallax": 1.1479732505641906,
+   "parallax_error": 0.2459016740322113,
+   "pmra": -2.694561963615259,
+   "pmdec": -2.6851663914528086,
+   "ruwe": 1.1936721801757812,
+   "depth_needed_1150ppm": 0.6947058562786376,
+   "depth_needed_284ppm": 0.1715621418983766,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915393165490816,
+   "sep_arcsec": 67.98,
+   "pa_deg": 133.6,
+   "G": 18.985897064208984,
+   "bp_rp": 1.4566059112548828,
+   "Tmag_est": 18.268,
+   "dTmag": 7.171,
+   "parallax": -0.11025565857528702,
+   "parallax_error": 0.1929941326379776,
+   "pmra": 3.270243264701691,
+   "pmdec": -2.8912197680714806,
+   "ruwe": 0.9871382117271423,
+   "depth_needed_1150ppm": 0.8503108356613783,
+   "depth_needed_284ppm": 0.20998980637202733,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915878497888896,
+   "sep_arcsec": 70.82,
+   "pa_deg": 52.9,
+   "G": 19.509653091430664,
+   "bp_rp": 2.207002639770508,
+   "Tmag_est": 18.521,
+   "dTmag": 7.424,
+   "parallax": 0.845032816349243,
+   "parallax_error": 0.2799231708049774,
+   "pmra": 16.69992978382587,
+   "pmdec": -5.173686308968181,
+   "ruwe": 1.0314435958862305,
+   "depth_needed_1150ppm": 1.0732169366171276,
+   "depth_needed_284ppm": 0.26503792173849067,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962298503356160,
+   "sep_arcsec": 78.01,
+   "pa_deg": 258.3,
+   "G": 20.97039794921875,
+   "bp_rp": 0.91729736328125,
+   "Tmag_est": 20.492,
+   "dTmag": 9.395,
+   "parallax": null,
+   "parallax_error": null,
+   "pmra": null,
+   "pmdec": null,
+   "ruwe": null,
+   "depth_needed_1150ppm": 6.588987178885415,
+   "depth_needed_284ppm": 1.6271933554812679,
+   "mimic_1150": false,
+   "mimic_284": false
+  },
+  {
+   "source_id": 6355915393165489792,
+   "sep_arcsec": 78.54,
+   "pa_deg": 134.8,
+   "G": 17.125164031982422,
+   "bp_rp": 1.0107421875,
+   "Tmag_est": 16.603,
+   "dTmag": 5.505,
+   "parallax": 0.5042166589987316,
+   "parallax_error": 0.061977569013834,
+   "pmra": -8.744440998410518,
+   "pmdec": -4.631929682426164,
+   "ruwe": 1.0187535285949707,
+   "depth_needed_1150ppm": 0.18431104028654083,
+   "depth_needed_284ppm": 0.04551681342728487,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962500366809472,
+   "sep_arcsec": 79.81,
+   "pa_deg": 324.9,
+   "G": 19.18114471435547,
+   "bp_rp": 2.0798778533935547,
+   "Tmag_est": 18.234,
+   "dTmag": 7.136,
+   "parallax": 0.8326332112734965,
+   "parallax_error": 0.2204974889755249,
+   "pmra": 5.2931130679363765,
+   "pmdec": -10.648494437029152,
+   "ruwe": 0.9777119159698486,
+   "depth_needed_1150ppm": 0.8239360623643107,
+   "depth_needed_284ppm": 0.20347638409692548,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915397461004800,
+   "sep_arcsec": 80.99,
+   "pa_deg": 140.3,
+   "G": 19.801143646240234,
+   "bp_rp": 1.6346302032470703,
+   "Tmag_est": 19.013,
+   "dTmag": 7.916,
+   "parallax": null,
+   "parallax_error": null,
+   "pmra": null,
+   "pmdec": null,
+   "ruwe": null,
+   "depth_needed_1150ppm": 1.6873068554229387,
+   "depth_needed_284ppm": 0.4166914321218388,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915290086272256,
+   "sep_arcsec": 82.39,
+   "pa_deg": 172.9,
+   "G": 18.463577270507812,
+   "bp_rp": 1.4825019836425781,
+   "Tmag_est": 17.735,
+   "dTmag": 6.638,
+   "parallax": 0.50671664142756,
+   "parallax_error": 0.13502275943756104,
+   "pmra": 2.5149914718183317,
+   "pmdec": 5.454784272059114,
+   "ruwe": 1.0275075435638428,
+   "depth_needed_1150ppm": 0.5209766389746259,
+   "depth_needed_284ppm": 0.12865857866851632,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962294208370688,
+   "sep_arcsec": 84.02,
+   "pa_deg": 261.6,
+   "G": 19.57921028137207,
+   "bp_rp": 0.8563041687011719,
+   "Tmag_est": 19.131,
+   "dTmag": 8.034,
+   "parallax": 0.2014652071499668,
+   "parallax_error": 0.29330679774284363,
+   "pmra": -2.321119353374816,
+   "pmdec": -3.096450206301967,
+   "ruwe": 1.0284538269042969,
+   "depth_needed_1150ppm": 1.881236251616897,
+   "depth_needed_284ppm": 0.4645835612688685,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962259848624896,
+   "sep_arcsec": 90.6,
+   "pa_deg": 225.4,
+   "G": 18.73598289489746,
+   "bp_rp": 2.115541458129883,
+   "Tmag_est": 17.777,
+   "dTmag": 6.68,
+   "parallax": 1.1777181604362212,
+   "parallax_error": 0.1803010255098343,
+   "pmra": 5.461010907340036,
+   "pmdec": -3.7653946634506634,
+   "ruwe": 1.1069437265396118,
+   "depth_needed_1150ppm": 0.5413188226424533,
+   "depth_needed_284ppm": 0.13368221359170154,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915878497339136,
+   "sep_arcsec": 94.47,
+   "pa_deg": 52.5,
+   "G": 14.974688529968262,
+   "bp_rp": 0.9790201187133789,
+   "Tmag_est": 14.467,
+   "dTmag": 3.37,
+   "parallax": 0.9110901303277879,
+   "parallax_error": 0.021316243335604668,
+   "pmra": 9.520847074667293,
+   "pmdec": -15.228545948449197,
+   "ruwe": 1.050830602645874,
+   "depth_needed_1150ppm": 0.026773185376313034,
+   "depth_needed_284ppm": 0.006611812736411219,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962466007072000,
+   "sep_arcsec": 95.03,
+   "pa_deg": 315.0,
+   "G": 17.97789764404297,
+   "bp_rp": 3.1953811645507812,
+   "Tmag_est": 16.724,
+   "dTmag": 5.627,
+   "parallax": 5.7066600936021254,
+   "parallax_error": 0.17231129109859467,
+   "pmra": 112.13471267157776,
+   "pmdec": -94.56803213525758,
+   "ruwe": 1.623969316482544,
+   "depth_needed_1150ppm": 0.20605209258258947,
+   "depth_needed_284ppm": 0.05088590808126558,
+   "mimic_1150": true,
+   "mimic_284": true,
+   "note": "similar proper motion to target but parallax 5.71 mas vs target 16.25 mas -> ~175 pc vs 61.5 pc; not a bound companion (tangential velocities ~122 vs 44 km/s); chance pm alignment"
+  },
+  {
+   "source_id": 6355962466007068288,
+   "sep_arcsec": 98.24,
+   "pa_deg": 292.5,
+   "G": 19.295671463012695,
+   "bp_rp": 2.8090381622314453,
+   "Tmag_est": 18.135,
+   "dTmag": 7.038,
+   "parallax": 1.8496191993145712,
+   "parallax_error": 0.2454276978969574,
+   "pmra": 9.683058552039181,
+   "pmdec": 6.742424136087806,
+   "ruwe": 1.0326085090637207,
+   "depth_needed_1150ppm": 0.7523901546820947,
+   "depth_needed_284ppm": 0.18580765559105644,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915221366799488,
+   "sep_arcsec": 99.26,
+   "pa_deg": 112.7,
+   "G": 18.48359489440918,
+   "bp_rp": 0.9934024810791016,
+   "Tmag_est": 17.969,
+   "dTmag": 6.872,
+   "parallax": 0.3685927969451198,
+   "parallax_error": 0.1390434354543686,
+   "pmra": 3.4770098165649044,
+   "pmdec": -0.2034886405897879,
+   "ruwe": 0.9592390060424805,
+   "depth_needed_1150ppm": 0.6460204002247553,
+   "depth_needed_284ppm": 0.15953895101202653,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962259848628224,
+   "sep_arcsec": 100.11,
+   "pa_deg": 244.5,
+   "G": 19.861467361450195,
+   "bp_rp": 1.2586841583251953,
+   "Tmag_est": 19.227,
+   "dTmag": 8.13,
+   "parallax": 0.34227858840522574,
+   "parallax_error": 0.34463071823120117,
+   "pmra": 8.881566019525986,
+   "pmdec": -8.853495894909031,
+   "ruwe": 0.9956751465797424,
+   "depth_needed_1150ppm": 2.054844634144312,
+   "depth_needed_284ppm": 0.5074572835625952,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915805482360192,
+   "sep_arcsec": 101.22,
+   "pa_deg": 77.8,
+   "G": 18.410125732421875,
+   "bp_rp": 1.7910099029541016,
+   "Tmag_est": 17.563,
+   "dTmag": 6.466,
+   "parallax": 0.8326651967797316,
+   "parallax_error": 0.13348616659641266,
+   "pmra": 0.8641196578464934,
+   "pmdec": -2.4990842987449136,
+   "ruwe": 0.9889792799949646,
+   "depth_needed_1150ppm": 0.44481837570937627,
+   "depth_needed_284ppm": 0.10985079887083728,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962264143420672,
+   "sep_arcsec": 101.68,
+   "pa_deg": 223.1,
+   "G": 21.20709800720215,
+   "bp_rp": 1.9144306182861328,
+   "Tmag_est": 20.316,
+   "dTmag": 9.219,
+   "parallax": null,
+   "parallax_error": null,
+   "pmra": null,
+   "pmdec": null,
+   "ruwe": null,
+   "depth_needed_1150ppm": 5.601297677579328,
+   "depth_needed_284ppm": 1.3832769916804604,
+   "mimic_1150": false,
+   "mimic_284": false
+  },
+  {
+   "source_id": 6355915225661431168,
+   "sep_arcsec": 102.78,
+   "pa_deg": 119.7,
+   "G": 20.60626792907715,
+   "bp_rp": 1.7399368286132812,
+   "Tmag_est": 19.778,
+   "dTmag": 8.681,
+   "parallax": 0.7709278722485823,
+   "parallax_error": 0.678010106086731,
+   "pmra": 5.508330642852682,
+   "pmdec": -6.37776030000445,
+   "ruwe": 0.9958194494247437,
+   "depth_needed_1150ppm": 3.413350849704181,
+   "depth_needed_284ppm": 0.8429492533182499,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915294381325952,
+   "sep_arcsec": 103.99,
+   "pa_deg": 179.4,
+   "G": 20.955270767211914,
+   "bp_rp": 1.1629352569580078,
+   "Tmag_est": 20.363,
+   "dTmag": 9.266,
+   "parallax": null,
+   "parallax_error": null,
+   "pmra": null,
+   "pmdec": null,
+   "ruwe": null,
+   "depth_needed_1150ppm": 5.848377851195438,
+   "depth_needed_284ppm": 1.4442950519473952,
+   "mimic_1150": false,
+   "mimic_284": false
+  },
+  {
+   "source_id": 6355962466007296896,
+   "sep_arcsec": 109.26,
+   "pa_deg": 319.3,
+   "G": 19.61460304260254,
+   "bp_rp": 2.222627639770508,
+   "Tmag_est": 18.621,
+   "dTmag": 7.524,
+   "parallax": 0.9498364976357117,
+   "parallax_error": 0.3067170977592468,
+   "pmra": 19.81967624907405,
+   "pmdec": -25.191763239529944,
+   "ruwe": 1.0066190958023071,
+   "depth_needed_1150ppm": 1.1766615975778763,
+   "depth_needed_284ppm": 0.29058425540184085,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915255726529280,
+   "sep_arcsec": 112.23,
+   "pa_deg": 189.7,
+   "G": 20.126548767089844,
+   "bp_rp": 0.392974853515625,
+   "Tmag_est": 19.923,
+   "dTmag": 8.826,
+   "parallax": 0.6184101799136816,
+   "parallax_error": 0.39273834228515625,
+   "pmra": 6.145273373120851,
+   "pmdec": -10.872101075142405,
+   "ruwe": 0.9825817942619324,
+   "depth_needed_1150ppm": 3.901895129719259,
+   "depth_needed_284ppm": 0.9635984494263214,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962362927852160,
+   "sep_arcsec": 113.33,
+   "pa_deg": 281.0,
+   "G": 20.45478057861328,
+   "bp_rp": 1.5457344055175781,
+   "Tmag_est": 19.701,
+   "dTmag": 8.604,
+   "parallax": -0.266356985740343,
+   "parallax_error": 0.6144205927848816,
+   "pmra": -3.1190806078262145,
+   "pmdec": -8.582365087237044,
+   "ruwe": 1.0484981536865234,
+   "depth_needed_1150ppm": 3.17966258340886,
+   "depth_needed_284ppm": 0.7852384119027097,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915324446007424,
+   "sep_arcsec": 123.12,
+   "pa_deg": 209.1,
+   "G": 19.621015548706055,
+   "bp_rp": 0.9437675476074219,
+   "Tmag_est": 19.13,
+   "dTmag": 8.033,
+   "parallax": -0.2158081207713018,
+   "parallax_error": 0.2966170907020569,
+   "pmra": 0.49746233471700174,
+   "pmdec": -5.3389923490217495,
+   "ruwe": 1.011412501335144,
+   "depth_needed_1150ppm": 1.879993151058705,
+   "depth_needed_284ppm": 0.46427656947884544,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962809604458496,
+   "sep_arcsec": 123.5,
+   "pa_deg": 4.9,
+   "G": 20.697248458862305,
+   "bp_rp": 0.8479595184326172,
+   "Tmag_est": 20.253,
+   "dTmag": 9.156,
+   "parallax": 1.8197186700917733,
+   "parallax_error": 0.9588720202445984,
+   "pmra": 0.41401130049692303,
+   "pmdec": 0.18510008160516192,
+   "ruwe": 1.0242215394973755,
+   "depth_needed_1150ppm": 5.286088544621715,
+   "depth_needed_284ppm": 1.305434040584841,
+   "mimic_1150": false,
+   "mimic_284": false
+  },
+  {
+   "source_id": 6355962259848626688,
+   "sep_arcsec": 125.91,
+   "pa_deg": 244.3,
+   "G": 20.315702438354492,
+   "bp_rp": 1.3593502044677734,
+   "Tmag_est": 19.638,
+   "dTmag": 8.541,
+   "parallax": 0.4117833180288963,
+   "parallax_error": 0.5392425060272217,
+   "pmra": 7.01573292887158,
+   "pmdec": -3.2955548592820167,
+   "ruwe": 0.985789954662323,
+   "depth_needed_1150ppm": 3.0004387634369487,
+   "depth_needed_284ppm": 0.7409779207096465,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915328740950144,
+   "sep_arcsec": 127.2,
+   "pa_deg": 206.4,
+   "G": 20.99469566345215,
+   "bp_rp": 1.9493789672851562,
+   "Tmag_est": 20.091,
+   "dTmag": 8.994,
+   "parallax": null,
+   "parallax_error": null,
+   "pmra": null,
+   "pmdec": null,
+   "ruwe": null,
+   "depth_needed_1150ppm": 4.554942081802931,
+   "depth_needed_284ppm": 1.1248726532452455,
+   "mimic_1150": false,
+   "mimic_284": false
+  },
+  {
+   "source_id": 6355915844138147968,
+   "sep_arcsec": 129.4,
+   "pa_deg": 67.8,
+   "G": 19.1484432220459,
+   "bp_rp": 0.8289928436279297,
+   "Tmag_est": 18.714,
+   "dTmag": 7.616,
+   "parallax": 0.1961426103822401,
+   "parallax_error": 0.21059370040893555,
+   "pmra": 2.1560472680720224,
+   "pmdec": -4.079232245681089,
+   "ruwe": 1.077189564704895,
+   "depth_needed_1150ppm": 1.2813470678964292,
+   "depth_needed_284ppm": 0.31643701502833554,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915324446009088,
+   "sep_arcsec": 129.44,
+   "pa_deg": 218.4,
+   "G": 19.471965789794922,
+   "bp_rp": 0.7759590148925781,
+   "Tmag_est": 19.064,
+   "dTmag": 7.967,
+   "parallax": -0.2201023021813655,
+   "parallax_error": 0.2664858102798462,
+   "pmra": -0.17320988654048777,
+   "pmdec": 0.0826008573799197,
+   "ruwe": 1.0633816719055176,
+   "depth_needed_1150ppm": 1.7684615946104245,
+   "depth_needed_284ppm": 0.43673312423422656,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962362927852288,
+   "sep_arcsec": 130.48,
+   "pa_deg": 278.6,
+   "G": 19.64118003845215,
+   "bp_rp": 2.458131790161133,
+   "Tmag_est": 18.576,
+   "dTmag": 7.479,
+   "parallax": 1.2987977406096631,
+   "parallax_error": 0.30399033427238464,
+   "pmra": 31.725936614499744,
+   "pmdec": -6.9647455914130445,
+   "ruwe": 1.0187124013900757,
+   "depth_needed_1150ppm": 1.1292502118696794,
+   "depth_needed_284ppm": 0.2788757044965122,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962843964196992,
+   "sep_arcsec": 133.12,
+   "pa_deg": 16.7,
+   "G": 18.903934478759766,
+   "bp_rp": 1.5382404327392578,
+   "Tmag_est": 18.153,
+   "dTmag": 7.056,
+   "parallax": 0.31652267565635983,
+   "parallax_error": 0.18257473409175873,
+   "pmra": 3.4969050159041135,
+   "pmdec": -11.48145294823846,
+   "ruwe": 0.9866322875022888,
+   "depth_needed_1150ppm": 0.7651150220163033,
+   "depth_needed_284ppm": 0.1889501445675045,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915225662860160,
+   "sep_arcsec": 133.36,
+   "pa_deg": 127.9,
+   "G": 18.256122589111328,
+   "bp_rp": 0.9495773315429688,
+   "Tmag_est": 17.763,
+   "dTmag": 6.665,
+   "parallax": 0.20875391483068004,
+   "parallax_error": 0.12277791649103165,
+   "pmra": 4.550157409084122,
+   "pmdec": -0.6776444255445899,
+   "ruwe": 0.9185888171195984,
+   "depth_needed_1150ppm": 0.5342635195068828,
+   "depth_needed_284ppm": 0.13193986046952583,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915912857281664,
+   "sep_arcsec": 133.57,
+   "pa_deg": 35.5,
+   "G": 20.864248275756836,
+   "bp_rp": 0.13947677612304688,
+   "Tmag_est": 20.81,
+   "dTmag": 9.713,
+   "parallax": -2.4290632444137166,
+   "parallax_error": 1.84346604347229,
+   "pmra": -5.753868219597335,
+   "pmdec": 1.8865295728874456,
+   "ruwe": 1.0598242282867432,
+   "depth_needed_1150ppm": 8.828198551310145,
+   "depth_needed_284ppm": 2.180181207453984,
+   "mimic_1150": false,
+   "mimic_284": false
+  },
+  {
+   "source_id": 6355915603619981184,
+   "sep_arcsec": 134.08,
+   "pa_deg": 92.6,
+   "G": 19.750864028930664,
+   "bp_rp": 1.564697265625,
+   "Tmag_est": 18.99,
+   "dTmag": 7.892,
+   "parallax": -0.19983690439568297,
+   "parallax_error": 0.31208688020706177,
+   "pmra": -0.32825009420581885,
+   "pmdec": -7.8771164964127065,
+   "ruwe": 0.9715045094490051,
+   "depth_needed_1150ppm": 1.6518351561476465,
+   "depth_needed_284ppm": 0.4079314646486362,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915191303122048,
+   "sep_arcsec": 134.69,
+   "pa_deg": 141.2,
+   "G": 16.569780349731445,
+   "bp_rp": 1.1182222366333008,
+   "Tmag_est": 15.998,
+   "dTmag": 4.9,
+   "parallax": 0.6477295468525756,
+   "parallax_error": 0.04445178061723709,
+   "pmra": 5.776614925294638,
+   "pmdec": -10.864551130487053,
+   "ruwe": 0.965847373008728,
+   "depth_needed_1150ppm": 0.10606073516581048,
+   "depth_needed_284ppm": 0.026192390249643635,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962500366813568,
+   "sep_arcsec": 135.54,
+   "pa_deg": 326.4,
+   "G": 19.265438079833984,
+   "bp_rp": 2.092508316040039,
+   "Tmag_est": 18.314,
+   "dTmag": 7.217,
+   "parallax": 0.4620106324918764,
+   "parallax_error": 0.22960816323757172,
+   "pmra": 5.401182727714037,
+   "pmdec": -5.2336537931673215,
+   "ruwe": 0.9469462633132935,
+   "depth_needed_1150ppm": 0.8869502197569172,
+   "depth_needed_284ppm": 0.2190381412269257,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915908561586048,
+   "sep_arcsec": 140.28,
+   "pa_deg": 29.2,
+   "G": 19.071311950683594,
+   "bp_rp": 1.5377883911132812,
+   "Tmag_est": 18.321,
+   "dTmag": 7.223,
+   "parallax": 0.6501524300910438,
+   "parallax_error": 0.20894917845726013,
+   "pmra": -0.5111083724305185,
+   "pmdec": -3.3352972615433183,
+   "ruwe": 0.9976605176925659,
+   "depth_needed_1150ppm": 0.8925984143989057,
+   "depth_needed_284ppm": 0.22043299972981675,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962843964198400,
+   "sep_arcsec": 140.47,
+   "pa_deg": 8.1,
+   "G": 20.458904266357422,
+   "bp_rp": 1.3584346771240234,
+   "Tmag_est": 19.782,
+   "dTmag": 8.684,
+   "parallax": -0.06935288695314895,
+   "parallax_error": 0.6572108268737793,
+   "pmra": 3.126789836279941,
+   "pmdec": -6.181665888774425,
+   "ruwe": 1.0287480354309082,
+   "depth_needed_1150ppm": 3.4245137624354194,
+   "depth_needed_284ppm": 0.845706007418834,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962676461002368,
+   "sep_arcsec": 140.51,
+   "pa_deg": 313.5,
+   "G": 14.036418914794922,
+   "bp_rp": 1.0764894485473633,
+   "Tmag_est": 13.483,
+   "dTmag": 2.386,
+   "parallax": 1.874534108857841,
+   "parallax_error": 0.015172910876572132,
+   "pmra": 13.416514701802503,
+   "pmdec": -7.915567461274643,
+   "ruwe": 0.9821164011955261,
+   "depth_needed_1150ppm": 0.0115039751322691,
+   "depth_needed_284ppm": 0.00284098168483863,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962710820025856,
+   "sep_arcsec": 142.17,
+   "pa_deg": 327.8,
+   "G": 21.165908813476562,
+   "bp_rp": 2.0639686584472656,
+   "Tmag_est": 20.224,
+   "dTmag": 9.127,
+   "parallax": null,
+   "parallax_error": null,
+   "pmra": null,
+   "pmdec": null,
+   "ruwe": null,
+   "depth_needed_1150ppm": 5.145191292993435,
+   "depth_needed_284ppm": 1.2706385454001181,
+   "mimic_1150": false,
+   "mimic_284": false
+  },
+  {
+   "source_id": 6355962843964197504,
+   "sep_arcsec": 143.54,
+   "pa_deg": 21.6,
+   "G": 18.748796463012695,
+   "bp_rp": 1.3093948364257812,
+   "Tmag_est": 18.092,
+   "dTmag": 6.995,
+   "parallax": 0.567301803073684,
+   "parallax_error": 0.17016878724098206,
+   "pmra": 3.3015512139568433,
+   "pmdec": -13.019478424141841,
+   "ruwe": 1.007354497909546,
+   "depth_needed_1150ppm": 0.723466616017707,
+   "depth_needed_284ppm": 0.17866479908611205,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915908561585920,
+   "sep_arcsec": 144.15,
+   "pa_deg": 26.9,
+   "G": 17.991729736328125,
+   "bp_rp": 0.34362220764160156,
+   "Tmag_est": 17.817,
+   "dTmag": 6.719,
+   "parallax": 0.2918733069206747,
+   "parallax_error": 0.10653778165578842,
+   "pmra": 0.23989634442918872,
+   "pmdec": -1.5051827214348306,
+   "ruwe": 0.9208211898803711,
+   "depth_needed_1150ppm": 0.561526872538777,
+   "depth_needed_284ppm": 0.1386727233052284,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962328568104320,
+   "sep_arcsec": 144.52,
+   "pa_deg": 249.3,
+   "G": 20.468524932861328,
+   "bp_rp": 1.099771499633789,
+   "Tmag_est": 19.905,
+   "dTmag": 8.807,
+   "parallax": -1.142963544440059,
+   "parallax_error": 0.6179303526878357,
+   "pmra": -4.367271839021372,
+   "pmdec": -10.216390105703795,
+   "ruwe": 0.9468404054641724,
+   "depth_needed_1150ppm": 3.835392091111812,
+   "depth_needed_284ppm": 0.9471750903267432,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962843964198912,
+   "sep_arcsec": 145.16,
+   "pa_deg": 11.8,
+   "G": 18.915494918823242,
+   "bp_rp": 1.6810836791992188,
+   "Tmag_est": 18.109,
+   "dTmag": 7.012,
+   "parallax": 0.462592399987316,
+   "parallax_error": 0.18188759684562683,
+   "pmra": -0.017732661818732787,
+   "pmdec": -5.129215231173124,
+   "ruwe": 0.9877265095710754,
+   "depth_needed_1150ppm": 0.734903555199964,
+   "depth_needed_284ppm": 0.18148922580590418,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962328568107008,
+   "sep_arcsec": 146.76,
+   "pa_deg": 255.2,
+   "G": 20.132923126220703,
+   "bp_rp": 1.5826988220214844,
+   "Tmag_est": 19.365,
+   "dTmag": 8.267,
+   "parallax": -0.1634584917884585,
+   "parallax_error": 0.4451528787612915,
+   "pmra": 0.8220126840020079,
+   "pmdec": -9.683252331121121,
+   "ruwe": 1.0146067142486572,
+   "depth_needed_1150ppm": 2.332802058096517,
+   "depth_needed_284ppm": 0.5761006821734007,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962706525244416,
+   "sep_arcsec": 146.95,
+   "pa_deg": 321.0,
+   "G": 17.581256866455078,
+   "bp_rp": 1.1117134094238281,
+   "Tmag_est": 17.012,
+   "dTmag": 5.915,
+   "parallax": 0.29655565816145746,
+   "parallax_error": 0.08173931390047073,
+   "pmra": 7.129082916215497,
+   "pmdec": -6.344495166183295,
+   "ruwe": 1.0485247373580933,
+   "depth_needed_1150ppm": 0.2682010132308894,
+   "depth_needed_284ppm": 0.06623398935441095,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962672165504000,
+   "sep_arcsec": 147.65,
+   "pa_deg": 310.2,
+   "G": 18.731224060058594,
+   "bp_rp": 1.5885047912597656,
+   "Tmag_est": 17.961,
+   "dTmag": 6.863,
+   "parallax": 0.6003001885069504,
+   "parallax_error": 0.16095168888568878,
+   "pmra": 9.7502149003836,
+   "pmdec": -7.734417465214563,
+   "ruwe": 0.9720317721366882,
+   "depth_needed_1150ppm": 0.6409980011415652,
+   "depth_needed_284ppm": 0.15829863680365613,
+   "mimic_1150": true,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355962710821286016,
+   "sep_arcsec": 148.13,
+   "pa_deg": 322.4,
+   "G": 19.760974884033203,
+   "bp_rp": 1.1657390594482422,
+   "Tmag_est": 19.167,
+   "dTmag": 8.07,
+   "parallax": -0.0883978270075312,
+   "parallax_error": 0.33205148577690125,
+   "pmra": -3.2691014969661962,
+   "pmdec": -9.88781767630324,
+   "ruwe": 1.0830975770950317,
+   "depth_needed_1150ppm": 1.9452994989580739,
+   "depth_needed_284ppm": 0.4804043980035591,
+   "mimic_1150": false,
+   "mimic_284": true
+  },
+  {
+   "source_id": 6355915637979717632,
+   "sep_arcsec": 148.25,
+   "pa_deg": 76.4,
+   "G": 19.547542572021484,
+   "bp_rp": 1.4710769653320312,
+   "Tmag_est": 18.824,
+   "dTmag": 7.726,
+   "parallax": 0.4296234662009912,
+   "parallax_error": 0.27691876888275146,
+   "pmra": 3.066555609057958,
+   "pmdec": 1.2244901261898122,
+   "ruwe": 1.0047181844711304,
+   "depth_needed_1150ppm": 1.4179052000667869,
+   "depth_needed_284ppm": 0.3501609363643196,
+   "mimic_1150": false,
+   "mimic_284": true
+  }
+ ],
+ "mimic_capable": {
+  "1150ppm": [
+   {
+    "source_id": 6355915461884977280,
+    "sep_arcsec": 18.88,
+    "pa_deg": 270.0,
+    "G": 18.44072723388672,
+    "Tmag_est": 17.877,
+    "dTmag": 6.78,
+    "depth_needed": 0.5936
+   },
+   {
+    "source_id": 6355915496244716544,
+    "sep_arcsec": 24.1,
+    "pa_deg": 359.0,
+    "G": 19.234994888305664,
+    "Tmag_est": 18.114,
+    "dTmag": 7.017,
+    "depth_needed": 0.7379
+   },
+   {
+    "source_id": 6355915466181029888,
+    "sep_arcsec": 37.63,
+    "pa_deg": 207.1,
+    "G": 17.654516220092773,
+    "Tmag_est": 16.794,
+    "dTmag": 5.697,
+    "depth_needed": 0.2196
+   },
+   {
+    "source_id": 6355962401583095296,
+    "sep_arcsec": 52.97,
+    "pa_deg": 274.7,
+    "G": 17.166667938232422,
+    "Tmag_est": 16.505,
+    "dTmag": 5.408,
+    "depth_needed": 0.1685
+   },
+   {
+    "source_id": 6355915427525237376,
+    "sep_arcsec": 55.26,
+    "pa_deg": 79.0,
+    "G": 18.69350242614746,
+    "Tmag_est": 18.204,
+    "dTmag": 7.107,
+    "depth_needed": 0.8018
+   },
+   {
+    "source_id": 6355915878497340928,
+    "sep_arcsec": 60.94,
+    "pa_deg": 62.2,
+    "G": 14.962961196899414,
+    "Tmag_est": 14.448,
+    "dTmag": 3.351,
+    "depth_needed": 0.0263
+   },
+   {
+    "source_id": 6355915427525236352,
+    "sep_arcsec": 65.29,
+    "pa_deg": 84.3,
+    "G": 19.133535385131836,
+    "Tmag_est": 18.048,
+    "dTmag": 6.951,
+    "depth_needed": 0.6947
+   },
+   {
+    "source_id": 6355915393165490816,
+    "sep_arcsec": 67.98,
+    "pa_deg": 133.6,
+    "G": 18.985897064208984,
+    "Tmag_est": 18.268,
+    "dTmag": 7.171,
+    "depth_needed": 0.8503
+   },
+   {
+    "source_id": 6355915393165489792,
+    "sep_arcsec": 78.54,
+    "pa_deg": 134.8,
+    "G": 17.125164031982422,
+    "Tmag_est": 16.603,
+    "dTmag": 5.505,
+    "depth_needed": 0.1843
+   },
+   {
+    "source_id": 6355962500366809472,
+    "sep_arcsec": 79.81,
+    "pa_deg": 324.9,
+    "G": 19.18114471435547,
+    "Tmag_est": 18.234,
+    "dTmag": 7.136,
+    "depth_needed": 0.8239
+   },
+   {
+    "source_id": 6355915290086272256,
+    "sep_arcsec": 82.39,
+    "pa_deg": 172.9,
+    "G": 18.463577270507812,
+    "Tmag_est": 17.735,
+    "dTmag": 6.638,
+    "depth_needed": 0.521
+   },
+   {
+    "source_id": 6355962259848624896,
+    "sep_arcsec": 90.6,
+    "pa_deg": 225.4,
+    "G": 18.73598289489746,
+    "Tmag_est": 17.777,
+    "dTmag": 6.68,
+    "depth_needed": 0.5413
+   },
+   {
+    "source_id": 6355915878497339136,
+    "sep_arcsec": 94.47,
+    "pa_deg": 52.5,
+    "G": 14.974688529968262,
+    "Tmag_est": 14.467,
+    "dTmag": 3.37,
+    "depth_needed": 0.0268
+   },
+   {
+    "source_id": 6355962466007072000,
+    "sep_arcsec": 95.03,
+    "pa_deg": 315.0,
+    "G": 17.97789764404297,
+    "Tmag_est": 16.724,
+    "dTmag": 5.627,
+    "depth_needed": 0.2061
+   },
+   {
+    "source_id": 6355962466007068288,
+    "sep_arcsec": 98.24,
+    "pa_deg": 292.5,
+    "G": 19.295671463012695,
+    "Tmag_est": 18.135,
+    "dTmag": 7.038,
+    "depth_needed": 0.7524
+   },
+   {
+    "source_id": 6355915221366799488,
+    "sep_arcsec": 99.26,
+    "pa_deg": 112.7,
+    "G": 18.48359489440918,
+    "Tmag_est": 17.969,
+    "dTmag": 6.872,
+    "depth_needed": 0.646
+   },
+   {
+    "source_id": 6355915805482360192,
+    "sep_arcsec": 101.22,
+    "pa_deg": 77.8,
+    "G": 18.410125732421875,
+    "Tmag_est": 17.563,
+    "dTmag": 6.466,
+    "depth_needed": 0.4448
+   },
+   {
+    "source_id": 6355962843964196992,
+    "sep_arcsec": 133.12,
+    "pa_deg": 16.7,
+    "G": 18.903934478759766,
+    "Tmag_est": 18.153,
+    "dTmag": 7.056,
+    "depth_needed": 0.7651
+   },
+   {
+    "source_id": 6355915225662860160,
+    "sep_arcsec": 133.36,
+    "pa_deg": 127.9,
+    "G": 18.256122589111328,
+    "Tmag_est": 17.763,
+    "dTmag": 6.665,
+    "depth_needed": 0.5343
+   },
+   {
+    "source_id": 6355915191303122048,
+    "sep_arcsec": 134.69,
+    "pa_deg": 141.2,
+    "G": 16.569780349731445,
+    "Tmag_est": 15.998,
+    "dTmag": 4.9,
+    "depth_needed": 0.1061
+   },
+   {
+    "source_id": 6355962500366813568,
+    "sep_arcsec": 135.54,
+    "pa_deg": 326.4,
+    "G": 19.265438079833984,
+    "Tmag_est": 18.314,
+    "dTmag": 7.217,
+    "depth_needed": 0.887
+   },
+   {
+    "source_id": 6355915908561586048,
+    "sep_arcsec": 140.28,
+    "pa_deg": 29.2,
+    "G": 19.071311950683594,
+    "Tmag_est": 18.321,
+    "dTmag": 7.223,
+    "depth_needed": 0.8926
+   },
+   {
+    "source_id": 6355962676461002368,
+    "sep_arcsec": 140.51,
+    "pa_deg": 313.5,
+    "G": 14.036418914794922,
+    "Tmag_est": 13.483,
+    "dTmag": 2.386,
+    "depth_needed": 0.0115
+   },
+   {
+    "source_id": 6355962843964197504,
+    "sep_arcsec": 143.54,
+    "pa_deg": 21.6,
+    "G": 18.748796463012695,
+    "Tmag_est": 18.092,
+    "dTmag": 6.995,
+    "depth_needed": 0.7235
+   },
+   {
+    "source_id": 6355915908561585920,
+    "sep_arcsec": 144.15,
+    "pa_deg": 26.9,
+    "G": 17.991729736328125,
+    "Tmag_est": 17.817,
+    "dTmag": 6.719,
+    "depth_needed": 0.5615
+   },
+   {
+    "source_id": 6355962843964198912,
+    "sep_arcsec": 145.16,
+    "pa_deg": 11.8,
+    "G": 18.915494918823242,
+    "Tmag_est": 18.109,
+    "dTmag": 7.012,
+    "depth_needed": 0.7349
+   },
+   {
+    "source_id": 6355962706525244416,
+    "sep_arcsec": 146.95,
+    "pa_deg": 321.0,
+    "G": 17.581256866455078,
+    "Tmag_est": 17.012,
+    "dTmag": 5.915,
+    "depth_needed": 0.2682
+   },
+   {
+    "source_id": 6355962672165504000,
+    "sep_arcsec": 147.65,
+    "pa_deg": 310.2,
+    "G": 18.731224060058594,
+    "Tmag_est": 17.961,
+    "dTmag": 6.863,
+    "depth_needed": 0.641
+   }
+  ],
+  "284ppm": [
+   {
+    "source_id": 6355915496244712832,
+    "sep_arcsec": 16.83,
+    "pa_deg": 95.1,
+    "G": 20.318984985351562,
+    "Tmag_est": 19.673,
+    "dTmag": 8.576,
+    "depth_needed": 0.765
+   },
+   {
+    "source_id": 6355915461884977280,
+    "sep_arcsec": 18.88,
+    "pa_deg": 270.0,
+    "G": 18.44072723388672,
+    "Tmag_est": 17.877,
+    "dTmag": 6.78,
+    "depth_needed": 0.1466
+   },
+   {
+    "source_id": 6355915496244716544,
+    "sep_arcsec": 24.1,
+    "pa_deg": 359.0,
+    "G": 19.234994888305664,
+    "Tmag_est": 18.114,
+    "dTmag": 7.017,
+    "depth_needed": 0.1822
+   },
+   {
+    "source_id": 6355915466181029888,
+    "sep_arcsec": 37.63,
+    "pa_deg": 207.1,
+    "G": 17.654516220092773,
+    "Tmag_est": 16.794,
+    "dTmag": 5.697,
+    "depth_needed": 0.0542
+   },
+   {
+    "source_id": 6355962435943378304,
+    "sep_arcsec": 47.77,
+    "pa_deg": 346.2,
+    "G": 20.071950912475586,
+    "Tmag_est": 19.022,
+    "dTmag": 7.925,
+    "depth_needed": 0.4204
+   },
+   {
+    "source_id": 6355962401583095296,
+    "sep_arcsec": 52.97,
+    "pa_deg": 274.7,
+    "G": 17.166667938232422,
+    "Tmag_est": 16.505,
+    "dTmag": 5.408,
+    "depth_needed": 0.0416
+   },
+   {
+    "source_id": 6355915427525237376,
+    "sep_arcsec": 55.26,
+    "pa_deg": 79.0,
+    "G": 18.69350242614746,
+    "Tmag_est": 18.204,
+    "dTmag": 7.107,
+    "depth_needed": 0.198
+   },
+   {
+    "source_id": 6355915878497340928,
+    "sep_arcsec": 60.94,
+    "pa_deg": 62.2,
+    "G": 14.962961196899414,
+    "Tmag_est": 14.448,
+    "dTmag": 3.351,
+    "depth_needed": 0.0065
+   },
+   {
+    "source_id": 6355962401583246208,
+    "sep_arcsec": 64.88,
+    "pa_deg": 315.1,
+    "G": 20.52798843383789,
+    "Tmag_est": 19.708,
+    "dTmag": 8.611,
+    "depth_needed": 0.7907
+   },
+   {
+    "source_id": 6355915427525236352,
+    "sep_arcsec": 65.29,
+    "pa_deg": 84.3,
+    "G": 19.133535385131836,
+    "Tmag_est": 18.048,
+    "dTmag": 6.951,
+    "depth_needed": 0.1716
+   },
+   {
+    "source_id": 6355915393165490816,
+    "sep_arcsec": 67.98,
+    "pa_deg": 133.6,
+    "G": 18.985897064208984,
+    "Tmag_est": 18.268,
+    "dTmag": 7.171,
+    "depth_needed": 0.21
+   },
+   {
+    "source_id": 6355915878497888896,
+    "sep_arcsec": 70.82,
+    "pa_deg": 52.9,
+    "G": 19.509653091430664,
+    "Tmag_est": 18.521,
+    "dTmag": 7.424,
+    "depth_needed": 0.265
+   },
+   {
+    "source_id": 6355915393165489792,
+    "sep_arcsec": 78.54,
+    "pa_deg": 134.8,
+    "G": 17.125164031982422,
+    "Tmag_est": 16.603,
+    "dTmag": 5.505,
+    "depth_needed": 0.0455
+   },
+   {
+    "source_id": 6355962500366809472,
+    "sep_arcsec": 79.81,
+    "pa_deg": 324.9,
+    "G": 19.18114471435547,
+    "Tmag_est": 18.234,
+    "dTmag": 7.136,
+    "depth_needed": 0.2035
+   },
+   {
+    "source_id": 6355915397461004800,
+    "sep_arcsec": 80.99,
+    "pa_deg": 140.3,
+    "G": 19.801143646240234,
+    "Tmag_est": 19.013,
+    "dTmag": 7.916,
+    "depth_needed": 0.4167
+   },
+   {
+    "source_id": 6355915290086272256,
+    "sep_arcsec": 82.39,
+    "pa_deg": 172.9,
+    "G": 18.463577270507812,
+    "Tmag_est": 17.735,
+    "dTmag": 6.638,
+    "depth_needed": 0.1287
+   },
+   {
+    "source_id": 6355962294208370688,
+    "sep_arcsec": 84.02,
+    "pa_deg": 261.6,
+    "G": 19.57921028137207,
+    "Tmag_est": 19.131,
+    "dTmag": 8.034,
+    "depth_needed": 0.4646
+   },
+   {
+    "source_id": 6355962259848624896,
+    "sep_arcsec": 90.6,
+    "pa_deg": 225.4,
+    "G": 18.73598289489746,
+    "Tmag_est": 17.777,
+    "dTmag": 6.68,
+    "depth_needed": 0.1337
+   },
+   {
+    "source_id": 6355915878497339136,
+    "sep_arcsec": 94.47,
+    "pa_deg": 52.5,
+    "G": 14.974688529968262,
+    "Tmag_est": 14.467,
+    "dTmag": 3.37,
+    "depth_needed": 0.0066
+   },
+   {
+    "source_id": 6355962466007072000,
+    "sep_arcsec": 95.03,
+    "pa_deg": 315.0,
+    "G": 17.97789764404297,
+    "Tmag_est": 16.724,
+    "dTmag": 5.627,
+    "depth_needed": 0.0509
+   },
+   {
+    "source_id": 6355962466007068288,
+    "sep_arcsec": 98.24,
+    "pa_deg": 292.5,
+    "G": 19.295671463012695,
+    "Tmag_est": 18.135,
+    "dTmag": 7.038,
+    "depth_needed": 0.1858
+   },
+   {
+    "source_id": 6355915221366799488,
+    "sep_arcsec": 99.26,
+    "pa_deg": 112.7,
+    "G": 18.48359489440918,
+    "Tmag_est": 17.969,
+    "dTmag": 6.872,
+    "depth_needed": 0.1595
+   },
+   {
+    "source_id": 6355962259848628224,
+    "sep_arcsec": 100.11,
+    "pa_deg": 244.5,
+    "G": 19.861467361450195,
+    "Tmag_est": 19.227,
+    "dTmag": 8.13,
+    "depth_needed": 0.5075
+   },
+   {
+    "source_id": 6355915805482360192,
+    "sep_arcsec": 101.22,
+    "pa_deg": 77.8,
+    "G": 18.410125732421875,
+    "Tmag_est": 17.563,
+    "dTmag": 6.466,
+    "depth_needed": 0.1099
+   },
+   {
+    "source_id": 6355915225661431168,
+    "sep_arcsec": 102.78,
+    "pa_deg": 119.7,
+    "G": 20.60626792907715,
+    "Tmag_est": 19.778,
+    "dTmag": 8.681,
+    "depth_needed": 0.8429
+   },
+   {
+    "source_id": 6355962466007296896,
+    "sep_arcsec": 109.26,
+    "pa_deg": 319.3,
+    "G": 19.61460304260254,
+    "Tmag_est": 18.621,
+    "dTmag": 7.524,
+    "depth_needed": 0.2906
+   },
+   {
+    "source_id": 6355915255726529280,
+    "sep_arcsec": 112.23,
+    "pa_deg": 189.7,
+    "G": 20.126548767089844,
+    "Tmag_est": 19.923,
+    "dTmag": 8.826,
+    "depth_needed": 0.9636
+   },
+   {
+    "source_id": 6355962362927852160,
+    "sep_arcsec": 113.33,
+    "pa_deg": 281.0,
+    "G": 20.45478057861328,
+    "Tmag_est": 19.701,
+    "dTmag": 8.604,
+    "depth_needed": 0.7852
+   },
+   {
+    "source_id": 6355915324446007424,
+    "sep_arcsec": 123.12,
+    "pa_deg": 209.1,
+    "G": 19.621015548706055,
+    "Tmag_est": 19.13,
+    "dTmag": 8.033,
+    "depth_needed": 0.4643
+   },
+   {
+    "source_id": 6355962259848626688,
+    "sep_arcsec": 125.91,
+    "pa_deg": 244.3,
+    "G": 20.315702438354492,
+    "Tmag_est": 19.638,
+    "dTmag": 8.541,
+    "depth_needed": 0.741
+   },
+   {
+    "source_id": 6355915844138147968,
+    "sep_arcsec": 129.4,
+    "pa_deg": 67.8,
+    "G": 19.1484432220459,
+    "Tmag_est": 18.714,
+    "dTmag": 7.616,
+    "depth_needed": 0.3164
+   },
+   {
+    "source_id": 6355915324446009088,
+    "sep_arcsec": 129.44,
+    "pa_deg": 218.4,
+    "G": 19.471965789794922,
+    "Tmag_est": 19.064,
+    "dTmag": 7.967,
+    "depth_needed": 0.4367
+   },
+   {
+    "source_id": 6355962362927852288,
+    "sep_arcsec": 130.48,
+    "pa_deg": 278.6,
+    "G": 19.64118003845215,
+    "Tmag_est": 18.576,
+    "dTmag": 7.479,
+    "depth_needed": 0.2789
+   },
+   {
+    "source_id": 6355962843964196992,
+    "sep_arcsec": 133.12,
+    "pa_deg": 16.7,
+    "G": 18.903934478759766,
+    "Tmag_est": 18.153,
+    "dTmag": 7.056,
+    "depth_needed": 0.189
+   },
+   {
+    "source_id": 6355915225662860160,
+    "sep_arcsec": 133.36,
+    "pa_deg": 127.9,
+    "G": 18.256122589111328,
+    "Tmag_est": 17.763,
+    "dTmag": 6.665,
+    "depth_needed": 0.1319
+   },
+   {
+    "source_id": 6355915603619981184,
+    "sep_arcsec": 134.08,
+    "pa_deg": 92.6,
+    "G": 19.750864028930664,
+    "Tmag_est": 18.99,
+    "dTmag": 7.892,
+    "depth_needed": 0.4079
+   },
+   {
+    "source_id": 6355915191303122048,
+    "sep_arcsec": 134.69,
+    "pa_deg": 141.2,
+    "G": 16.569780349731445,
+    "Tmag_est": 15.998,
+    "dTmag": 4.9,
+    "depth_needed": 0.0262
+   },
+   {
+    "source_id": 6355962500366813568,
+    "sep_arcsec": 135.54,
+    "pa_deg": 326.4,
+    "G": 19.265438079833984,
+    "Tmag_est": 18.314,
+    "dTmag": 7.217,
+    "depth_needed": 0.219
+   },
+   {
+    "source_id": 6355915908561586048,
+    "sep_arcsec": 140.28,
+    "pa_deg": 29.2,
+    "G": 19.071311950683594,
+    "Tmag_est": 18.321,
+    "dTmag": 7.223,
+    "depth_needed": 0.2204
+   },
+   {
+    "source_id": 6355962843964198400,
+    "sep_arcsec": 140.47,
+    "pa_deg": 8.1,
+    "G": 20.458904266357422,
+    "Tmag_est": 19.782,
+    "dTmag": 8.684,
+    "depth_needed": 0.8457
+   },
+   {
+    "source_id": 6355962676461002368,
+    "sep_arcsec": 140.51,
+    "pa_deg": 313.5,
+    "G": 14.036418914794922,
+    "Tmag_est": 13.483,
+    "dTmag": 2.386,
+    "depth_needed": 0.0028
+   },
+   {
+    "source_id": 6355962843964197504,
+    "sep_arcsec": 143.54,
+    "pa_deg": 21.6,
+    "G": 18.748796463012695,
+    "Tmag_est": 18.092,
+    "dTmag": 6.995,
+    "depth_needed": 0.1787
+   },
+   {
+    "source_id": 6355915908561585920,
+    "sep_arcsec": 144.15,
+    "pa_deg": 26.9,
+    "G": 17.991729736328125,
+    "Tmag_est": 17.817,
+    "dTmag": 6.719,
+    "depth_needed": 0.1387
+   },
+   {
+    "source_id": 6355962328568104320,
+    "sep_arcsec": 144.52,
+    "pa_deg": 249.3,
+    "G": 20.468524932861328,
+    "Tmag_est": 19.905,
+    "dTmag": 8.807,
+    "depth_needed": 0.9472
+   },
+   {
+    "source_id": 6355962843964198912,
+    "sep_arcsec": 145.16,
+    "pa_deg": 11.8,
+    "G": 18.915494918823242,
+    "Tmag_est": 18.109,
+    "dTmag": 7.012,
+    "depth_needed": 0.1815
+   },
+   {
+    "source_id": 6355962328568107008,
+    "sep_arcsec": 146.76,
+    "pa_deg": 255.2,
+    "G": 20.132923126220703,
+    "Tmag_est": 19.365,
+    "dTmag": 8.267,
+    "depth_needed": 0.5761
+   },
+   {
+    "source_id": 6355962706525244416,
+    "sep_arcsec": 146.95,
+    "pa_deg": 321.0,
+    "G": 17.581256866455078,
+    "Tmag_est": 17.012,
+    "dTmag": 5.915,
+    "depth_needed": 0.0662
+   },
+   {
+    "source_id": 6355962672165504000,
+    "sep_arcsec": 147.65,
+    "pa_deg": 310.2,
+    "G": 18.731224060058594,
+    "Tmag_est": 17.961,
+    "dTmag": 6.863,
+    "depth_needed": 0.1583
+   },
+   {
+    "source_id": 6355962710821286016,
+    "sep_arcsec": 148.13,
+    "pa_deg": 322.4,
+    "G": 19.760974884033203,
+    "Tmag_est": 19.167,
+    "dTmag": 8.07,
+    "depth_needed": 0.4804
+   },
+   {
+    "source_id": 6355915637979717632,
+    "sep_arcsec": 148.25,
+    "pa_deg": 76.4,
+    "G": 19.547542572021484,
+    "Tmag_est": 18.824,
+    "dTmag": 7.726,
+    "depth_needed": 0.3502
+   }
+  ],
+  "summary": "28 of 57 neighbours could in principle produce 1150 ppm (needed eclipse <100%); 50 could produce 284 ppm. Brightest/closest: 60.9\" G=14.96 (needs 2.6%/0.7%), 94.5\" G=14.97 (2.7%/0.7%), 140.5\" G=14.04 (1.2%/0.3%), 37.6\" G=17.65 (22%/5.4%), 53.0\" G=17.17 (17%/4.2%), 18.9\" G=18.44 (59%/15%), 24.1\" G=19.23 (74%/18%). All are resolved by Gaia and TESS centroid/difference-image or ground-based photometry can test them individually."
+ },
+ "archival": [
+  {
+   "survey": "DSS1 / UKST SERC-J (IIIaJ+GG395), plate 00Z6",
+   "band": "B_J (proxy: Gaia BP)",
+   "epoch": 1976.66,
+   "pixel_scale_arcsec": 1.7,
+   "fwhm_arcsec": 3.39,
+   "offset_of_target_from_now_arcsec": 7.42,
+   "offset_over_fwhm": 2.19,
+   "target_measured_minus_predicted_arcsec": 0.2,
+   "astrom_rms_arcsec": 0.111,
+   "n_astrom_stars": 23,
+   "current_position_brightness_frac_of_target_peak": 0.016,
+   "resid_flux_at_current_pos_sigma": 0.19,
+   "target_mag_in_proxy": 12.896300315856934,
+   "limit_mag_at_current_position": 20.14,
+   "m5_uncapped": 21.74,
+   "delta_mag_limit": 7.25,
+   "delta_T_limit_same_colour": 7.25,
+   "delta_T_limit_typical_field_colour": 7.93,
+   "band_minus_T_target": 1.8,
+   "band_minus_T_field_median": 1.12,
+   "usable_for_background_test": true,
+   "note": "14 real-star stamps injected (mag 16.1-19.8); faintest recovered at 5 sigma: 19.843873977661133; 5-sigma fit extrapolates beyond faintest stamp (19.84) - capped",
+   "injected_stamps_mag_snr": [
+    [
+     19.18,
+     9.67
+    ],
+    [
+     17.05,
+     24.21
+    ],
+    [
+     19.84,
+     9.43
+    ],
+    [
+     18.29,
+     17.35
+    ],
+    [
+     17.82,
+     17.66
+    ],
+    [
+     16.08,
+     34.45
+    ],
+    [
+     17.76,
+     17.71
+    ],
+    [
+     19.64,
+     6.51
+    ],
+    [
+     19.35,
+     9.23
+    ],
+    [
+     19.3,
+     32.88
+    ],
+    [
+     18.92,
+     12.3
+    ],
+    [
+     18.14,
+     18.89
+    ],
+    [
+     18.66,
+     15.16
+    ],
+    [
+     18.55,
+     10.89
+    ]
+   ]
+  },
+  {
+   "survey": "DSS2 / AAO-SES (IIIaF+RG610), plate A0UD",
+   "band": "R_F (proxy: Gaia G)",
+   "epoch": 1992.638,
+   "pixel_scale_arcsec": 1.008,
+   "fwhm_arcsec": 3.69,
+   "offset_of_target_from_now_arcsec": 4.96,
+   "offset_over_fwhm": 1.34,
+   "target_measured_minus_predicted_arcsec": 0.24,
+   "astrom_rms_arcsec": 0.105,
+   "n_astrom_stars": 24,
+   "current_position_brightness_frac_of_target_peak": 0.429,
+   "resid_flux_at_current_pos_sigma": 0.31,
+   "target_mag_in_proxy": 11.974030494689941,
+   "m5_uncapped": 21.09,
+   "delta_T_limit_same_colour": null,
+   "delta_T_limit_typical_field_colour": null,
+   "band_minus_T_target": 0.88,
+   "band_minus_T_field_median": 0.61,
+   "usable_for_background_test": false,
+   "note": "20 real-star stamps injected (mag 15.0-18.9); faintest recovered at 5 sigma: 18.903934478759766; 5-sigma fit extrapolates beyond faintest stamp (18.90) - capped; NOT a background test: shift to now < 1.5 FWHM (target still overlaps the current position); current position lies in the target halo at >30% of peak (photographic/detector non-linearity): limit unreliable",
+   "injected_stamps_mag_snr": [
+    [
+     18.46,
+     19.64
+    ],
+    [
+     14.97,
+     109.04
+    ],
+    [
+     16.95,
+     47.53
+    ],
+    [
+     16.57,
+     55.66
+    ],
+    [
+     17.98,
+     19.02
+    ],
+    [
+     17.89,
+     26.78
+    ],
+    [
+     17.2,
+     42.07
+    ],
+    [
+     15.67,
+     82.24
+    ],
+    [
+     17.17,
+     39.13
+    ],
+    [
+     18.89,
+     15.53
+    ],
+    [
+     18.9,
+     13.67
+    ],
+    [
+     18.75,
+     14.61
+    ],
+    [
+     18.41,
+     23.63
+    ],
+    [
+     16.17,
+     68.22
+    ],
+    [
+     14.96,
+     108.07
+    ],
+    [
+     18.48,
+     19.61
+    ],
+    [
+     17.79,
+     29.1
+    ],
+    [
+     15.17,
+     99.84
+    ],
+    [
+     18.26,
+     20.72
+    ],
+    [
+     17.65,
+     31.45
+    ]
+   ],
+   "limit_mag_at_current_position_formal": 19.2,
+   "limit_mag_at_current_position": null,
+   "delta_mag_limit_formal": 7.23,
+   "delta_mag_limit": null
+  },
+  {
+   "survey": "DSS2 / UKST SERC-I (IVN+RG715), plate A2YG",
+   "band": "I_N (proxy: Gaia RP)",
+   "epoch": 1995.672,
+   "pixel_scale_arcsec": 1.008,
+   "fwhm_arcsec": 3.94,
+   "offset_of_target_from_now_arcsec": 4.61,
+   "offset_over_fwhm": 1.17,
+   "target_measured_minus_predicted_arcsec": 0.11,
+   "astrom_rms_arcsec": 0.116,
+   "n_astrom_stars": 23,
+   "current_position_brightness_frac_of_target_peak": 0.614,
+   "resid_flux_at_current_pos_sigma": -0.69,
+   "target_mag_in_proxy": 11.02247428894043,
+   "m5_uncapped": 16.74,
+   "delta_T_limit_same_colour": null,
+   "delta_T_limit_typical_field_colour": null,
+   "band_minus_T_target": -0.07,
+   "band_minus_T_field_median": -0.07,
+   "usable_for_background_test": false,
+   "note": "19 real-star stamps injected (mag 14.4-18.1); faintest recovered at 5 sigma: 16.718414306640625; NOT a background test: shift to now < 1.5 FWHM (target still overlaps the current position); current position lies in the target halo at >30% of peak (photographic/detector non-linearity): limit unreliable",
+   "injected_stamps_mag_snr": [
+    [
+     17.7,
+     1.91
+    ],
+    [
+     14.4,
+     28.76
+    ],
+    [
+     16.38,
+     7.85
+    ],
+    [
+     15.93,
+     10.49
+    ],
+    [
+     16.65,
+     7.13
+    ],
+    [
+     17.31,
+     3.43
+    ],
+    [
+     16.45,
+     7.45
+    ],
+    [
+     15.09,
+     18.72
+    ],
+    [
+     16.44,
+     8.89
+    ],
+    [
+     18.12,
+     1.47
+    ],
+    [
+     18.1,
+     1.27
+    ],
+    [
+     18.04,
+     0.82
+    ],
+    [
+     17.51,
+     2.84
+    ],
+    [
+     14.38,
+     28.73
+    ],
+    [
+     17.92,
+     2.72
+    ],
+    [
+     17.28,
+     4.54
+    ],
+    [
+     14.56,
+     26.29
+    ],
+    [
+     17.71,
+     1.96
+    ],
+    [
+     16.72,
+     5.66
+    ]
+   ],
+   "limit_mag_at_current_position_formal": 16.74,
+   "limit_mag_at_current_position": null,
+   "delta_mag_limit_formal": 5.72,
+   "delta_mag_limit": null
+  },
+  {
+   "survey": "2MASS All-Sky Atlas 000716s072_0267",
+   "band": "J",
+   "epoch": 2000.538,
+   "pixel_scale_arcsec": 1.0,
+   "fwhm_arcsec": 3.09,
+   "offset_of_target_from_now_arcsec": 4.02,
+   "offset_over_fwhm": 1.3,
+   "target_measured_minus_predicted_arcsec": 0.09,
+   "astrom_rms_arcsec": 0.218,
+   "n_astrom_stars": 38,
+   "current_position_brightness_frac_of_target_peak": 0.013,
+   "resid_flux_at_current_pos_sigma": 0.69,
+   "target_mag_in_proxy": 9.832,
+   "m5_uncapped": 13.27,
+   "delta_T_limit_same_colour": null,
+   "delta_T_limit_typical_field_colour": null,
+   "band_minus_T_target": -1.27,
+   "band_minus_T_field_median": -1.09,
+   "usable_for_background_test": false,
+   "note": "30 real-star stamps injected (mag 12.4-16.6); faintest recovered at 5 sigma: 12.8100004196167; NOT a background test: shift to now < 1.5 FWHM (target still overlaps the current position)",
+   "injected_stamps_mag_snr": [
+    [
+     16.63,
+     0.9
+    ],
+    [
+     15.2,
+     1.35
+    ],
+    [
+     13.75,
+     3.75
+    ],
+    [
+     15.7,
+     1.12
+    ],
+    [
+     15.71,
+     1.17
+    ],
+    [
+     12.81,
+     7.68
+    ],
+    [
+     16.07,
+     1.07
+    ],
+    [
+     14.82,
+     1.73
+    ],
+    [
+     15.4,
+     1.28
+    ],
+    [
+     14.44,
+     2.17
+    ],
+    [
+     16.22,
+     0.92
+    ],
+    [
+     16.31,
+     1.02
+    ],
+    [
+     16.38,
+     1.08
+    ],
+    [
+     15.55,
+     1.31
+    ],
+    [
+     15.13,
+     1.47
+    ],
+    [
+     15.54,
+     1.44
+    ],
+    [
+     12.65,
+     8.79
+    ],
+    [
+     14.64,
+     1.97
+    ],
+    [
+     16.11,
+     1.02
+    ],
+    [
+     16.16,
+     0.99
+    ],
+    [
+     16.16,
+     0.99
+    ],
+    [
+     16.43,
+     0.96
+    ],
+    [
+     13.66,
+     3.7
+    ],
+    [
+     16.59,
+     0.95
+    ],
+    [
+     12.4,
+     10.81
+    ],
+    [
+     15.72,
+     1.13
+    ],
+    [
+     16.58,
+     0.9
+    ],
+    [
+     13.86,
+     3.33
+    ],
+    [
+     13.78,
+     3.55
+    ],
+    [
+     15.45,
+     1.28
+    ]
+   ],
+   "limit_mag_at_current_position_formal": 13.27,
+   "limit_mag_at_current_position": null,
+   "delta_mag_limit_formal": 3.44,
+   "delta_mag_limit": null
+  },
+  {
+   "survey": "2MASS All-Sky Atlas 000716s072_0267",
+   "band": "H",
+   "epoch": 2000.538,
+   "pixel_scale_arcsec": 1.0,
+   "fwhm_arcsec": 3.03,
+   "offset_of_target_from_now_arcsec": 4.01,
+   "offset_over_fwhm": 1.32,
+   "target_measured_minus_predicted_arcsec": 0.18,
+   "astrom_rms_arcsec": 0.281,
+   "n_astrom_stars": 34,
+   "current_position_brightness_frac_of_target_peak": 0.043,
+   "resid_flux_at_current_pos_sigma": 0.96,
+   "target_mag_in_proxy": 9.179,
+   "m5_uncapped": 14.35,
+   "delta_T_limit_same_colour": null,
+   "delta_T_limit_typical_field_colour": null,
+   "band_minus_T_target": -1.92,
+   "band_minus_T_field_median": -1.55,
+   "usable_for_background_test": false,
+   "note": "30 real-star stamps injected (mag 12.1-16.0); faintest recovered at 5 sigma: 14.286999702453613; NOT a background test: shift to now < 1.5 FWHM (target still overlaps the current position)",
+   "injected_stamps_mag_snr": [
+    [
+     15.85,
+     1.68
+    ],
+    [
+     14.95,
+     3.46
+    ],
+    [
+     13.34,
+     10.2
+    ],
+    [
+     15.41,
+     2.23
+    ],
+    [
+     15.49,
+     2.28
+    ],
+    [
+     12.51,
+     20.81
+    ],
+    [
+     15.42,
+     2.51
+    ],
+    [
+     14.29,
+     5.08
+    ],
+    [
+     14.87,
+     2.21
+    ],
+    [
+     14.05,
+     5.76
+    ],
+    [
+     15.77,
+     1.56
+    ],
+    [
+     15.76,
+     2.02
+    ],
+    [
+     16.02,
+     1.97
+    ],
+    [
+     15.03,
+     2.68
+    ],
+    [
+     14.49,
+     4.24
+    ],
+    [
+     14.6,
+     3.29
+    ],
+    [
+     12.25,
+     26.76
+    ],
+    [
+     14.26,
+     4.56
+    ],
+    [
+     15.39,
+     2.34
+    ],
+    [
+     15.55,
+     2.3
+    ],
+    [
+     15.2,
+     2.63
+    ],
+    [
+     15.85,
+     2.17
+    ],
+    [
+     13.35,
+     10.29
+    ],
+    [
+     15.99,
+     1.71
+    ],
+    [
+     12.09,
+     31.05
+    ],
+    [
+     15.31,
+     2.37
+    ],
+    [
+     15.75,
+     1.81
+    ],
+    [
+     13.52,
+     9.16
+    ],
+    [
+     13.43,
+     9.84
+    ],
+    [
+     14.78,
+     3.18
+    ]
+   ],
+   "limit_mag_at_current_position_formal": 14.35,
+   "limit_mag_at_current_position": null,
+   "delta_mag_limit_formal": 5.17,
+   "delta_mag_limit": null
+  },
+  {
+   "survey": "2MASS All-Sky Atlas 000716s072_0267",
+   "band": "Ks",
+   "epoch": 2000.538,
+   "pixel_scale_arcsec": 1.0,
+   "fwhm_arcsec": 3.16,
+   "offset_of_target_from_now_arcsec": 4.1,
+   "offset_over_fwhm": 1.29,
+   "target_measured_minus_predicted_arcsec": 0.2,
+   "astrom_rms_arcsec": 0.407,
+   "n_astrom_stars": 34,
+   "current_position_brightness_frac_of_target_peak": 0.051,
+   "resid_flux_at_current_pos_sigma": -0.1,
+   "target_mag_in_proxy": 9.018,
+   "m5_uncapped": 11.54,
+   "delta_T_limit_same_colour": null,
+   "delta_T_limit_typical_field_colour": null,
+   "band_minus_T_target": -2.08,
+   "band_minus_T_field_median": -1.81,
+   "usable_for_background_test": false,
+   "note": "30 real-star stamps injected (mag 12.1-15.8); faintest recovered at 5 sigma: None; NOT a background test: shift to now < 1.5 FWHM (target still overlaps the current position)",
+   "injected_stamps_mag_snr": [
+    [
+     15.2,
+     -0.05
+    ],
+    [
+     14.76,
+     0.16
+    ],
+    [
+     13.32,
+     0.81
+    ],
+    [
+     14.9,
+     0.06
+    ],
+    [
+     15.54,
+     0.0
+    ],
+    [
+     12.45,
+     1.93
+    ],
+    [
+     15.16,
+     0.01
+    ],
+    [
+     14.05,
+     0.41
+    ],
+    [
+     15.05,
+     0.18
+    ],
+    [
+     14.07,
+     0.42
+    ],
+    [
+     15.42,
+     0.06
+    ],
+    [
+     15.52,
+     0.08
+    ],
+    [
+     15.85,
+     0.01
+    ],
+    [
+     14.8,
+     0.05
+    ],
+    [
+     14.38,
+     0.2
+    ],
+    [
+     14.68,
+     0.12
+    ],
+    [
+     12.19,
+     2.63
+    ],
+    [
+     14.06,
+     0.4
+    ],
+    [
+     14.92,
+     0.09
+    ],
+    [
+     15.15,
+     0.1
+    ],
+    [
+     15.6,
+     -0.02
+    ],
+    [
+     15.33,
+     0.07
+    ],
+    [
+     13.29,
+     0.88
+    ],
+    [
+     15.27,
+     0.06
+    ],
+    [
+     12.06,
+     3.04
+    ],
+    [
+     15.33,
+     0.11
+    ],
+    [
+     15.6,
+     -0.02
+    ],
+    [
+     13.42,
+     0.8
+    ],
+    [
+     13.33,
+     0.87
+    ],
+    [
+     14.61,
+     0.2
+    ]
+   ],
+   "limit_mag_at_current_position_formal": 11.54,
+   "limit_mag_at_current_position": null,
+   "delta_mag_limit_formal": 2.52,
+   "delta_mag_limit": null
+  },
+  {
+   "survey": "SkyMapper DR4 short (5 s)",
+   "band": "r (proxy: Gaia G)",
+   "epoch": 2014.741,
+   "pixel_scale_arcsec": 0.496,
+   "fwhm_arcsec": 2.67,
+   "offset_of_target_from_now_arcsec": 1.63,
+   "offset_over_fwhm": 0.61,
+   "target_measured_minus_predicted_arcsec": 0.52,
+   "astrom_rms_arcsec": 0.499,
+   "n_astrom_stars": 8,
+   "current_position_brightness_frac_of_target_peak": 0.27,
+   "resid_flux_at_current_pos_sigma": 0.1,
+   "target_mag_in_proxy": 11.974030494689941,
+   "m5_uncapped": 14.33,
+   "delta_T_limit_same_colour": null,
+   "delta_T_limit_typical_field_colour": null,
+   "band_minus_T_target": 0.88,
+   "band_minus_T_field_median": 0.61,
+   "usable_for_background_test": false,
+   "note": "7 real-star stamps injected (mag 15.0-18.5); faintest recovered at 5 sigma: None; NOT a background test: shift to now < 1.5 FWHM (target still overlaps the current position)",
+   "injected_stamps_mag_snr": [
+    [
+     18.46,
+     0.31
+    ],
+    [
+     14.97,
+     3.32
+    ],
+    [
+     17.98,
+     0.11
+    ],
+    [
+     17.17,
+     0.56
+    ],
+    [
+     14.96,
+     3.25
+    ],
+    [
+     18.48,
+     0.28
+    ],
+    [
+     17.65,
+     0.38
+    ]
+   ],
+   "limit_mag_at_current_position_formal": 14.33,
+   "limit_mag_at_current_position": null,
+   "delta_mag_limit_formal": 2.35,
+   "delta_mag_limit": null
+  },
+  {
+   "survey": "SkyMapper DR4 main (100 s)",
+   "band": "i (proxy: Gaia RP)",
+   "epoch": 2014.755,
+   "pixel_scale_arcsec": 0.496,
+   "fwhm_arcsec": 1.97,
+   "offset_of_target_from_now_arcsec": 1.81,
+   "offset_over_fwhm": 0.92,
+   "target_measured_minus_predicted_arcsec": 0.01,
+   "astrom_rms_arcsec": 0.137,
+   "n_astrom_stars": 8,
+   "current_position_brightness_frac_of_target_peak": 0.166,
+   "resid_flux_at_current_pos_sigma": 2.4,
+   "target_mag_in_proxy": 11.02247428894043,
+   "m5_uncapped": 16.15,
+   "delta_T_limit_same_colour": null,
+   "delta_T_limit_typical_field_colour": null,
+   "band_minus_T_target": -0.07,
+   "band_minus_T_field_median": -0.07,
+   "usable_for_background_test": false,
+   "note": "8 real-star stamps injected (mag 14.4-17.9); faintest recovered at 5 sigma: 14.399170875549316; NOT a background test: shift to now < 1.5 FWHM (target still overlaps the current position)",
+   "injected_stamps_mag_snr": [
+    [
+     17.7,
+     2.74
+    ],
+    [
+     14.4,
+     11.2
+    ],
+    [
+     16.65,
+     3.51
+    ],
+    [
+     16.44,
+     3.72
+    ],
+    [
+     14.38,
+     11.55
+    ],
+    [
+     17.92,
+     2.77
+    ],
+    [
+     17.71,
+     2.82
+    ],
+    [
+     16.72,
+     3.41
+    ]
+   ],
+   "limit_mag_at_current_position_formal": 16.15,
+   "limit_mag_at_current_position": null,
+   "delta_mag_limit_formal": 5.13,
+   "delta_mag_limit": null
+  }
+ ],
+ "archival_summary": {
+  "surveys_used": [
+   "DSS1 SERC-J 1976.66 (oldest; DSS2-blue not available for this field)",
+   "DSS2 AAO-SES R 1992.64",
+   "DSS2 SERC-I 1995.67",
+   "2MASS JHKs 2000.54",
+   "SkyMapper DR4 r/i 2014.74-2014.76"
+  ],
+  "not_available": [
+   "Pan-STARRS (no coverage south of Dec -30)",
+   "DSS1 red / POSS-I (northern; no southern DSS1 red plate for this field: STScI and ESO DSS servers return errors)",
+   "SDSS/DECaLS/DECaPS (no coverage)"
+  ],
+  "not_attempted": [
+   "VISTA VHS / unWISE (VHS ~2010-2015 and WISE ~2010 are too recent: displacement 1.7-2.5 arcsec < FWHM; WISE FWHM 6 arcsec)"
+  ],
+  "epoch_now": 2026.78,
+  "total_pm_mas_yr": 151.17,
+  "displacement_oldest_to_now_arcsec": 7.42,
+  "oldest_plate_fwhm_arcsec": 3.39,
+  "dBP_limit_verified_by_real_star_injection": 6.94,
+  "dBP_limit_adopted": 7.25,
+  "dBP_limit_extrapolated": 8.84,
+  "dT_limit_same_colour": [
+   6.94,
+   7.25
+  ],
+  "dT_limit_typical_background_colour": [
+   7.62,
+   7.93
+  ],
+  "colour_note": "Background stars are typically bluer than the M0 target (field median BP-T=1.12 vs target 1.80), so a given BP contrast corresponds to a ~0.68 mag larger T contrast. Same-colour value is the conservative case.",
+  "caveats": [
+   "Photographic density is non-linear; injection adds background-subtracted real-star density stamps linearly. At the current position the plate density is only 1.6% of the target peak (near sky), so the plate is in its usable regime there.",
+   "Stamps are calibrated with Gaia BP (proxy for B_J); BP of G~19-20 stars is biased bright, which makes the limit conservative.",
+   "The limit applies within ~1 FWHM (3.4\") of the 2026 position; Gaia DR3 independently shows no source within 16.8\".",
+   "All later epochs (1992, 1995, 2000, 2014) have shift/FWHM < 1.5 and/or the current position inside the saturated halo, so they give no independent background constraint."
+  ]
+ },
+ "verdict": {
+  "bound_companions": "No Gaia evidence of a bound companion: RUWE 0.98, ipd_frac_multi_peak 0, ipd_gof_harmonic_amplitude 0.011, non_single_star 0, no NSS solution, duplicated_source False, C* 0.004, RV scatter consistent with noise (rv_chisq_pvalue 0.23). This excludes companions that perturb the astrometry (roughly ~0.1-few arcsec, moderate contrast; RUWE<1.4 at 61 pc limits massive companions at ~1-10 au) but not close (<~0.1\") faint or near-equal-period-blind configurations; high-resolution imaging (ExoFOP) and RV remain the tests for bound EBs. No co-moving Gaia source within 150\" (the one similar-pm star at 95\" has parallax 5.7 mas, not 16.2).",
+  "background_hidden_now": "On the 1976.66 SERC-J plate the target sat 7.4\" (2.2 x FWHM) from its 2026 position; the 2026 position is at sky level there and shows no source. Real field stars injected at that spot are recovered at >5 sigma down to BP=19.84 (dBP>=6.94; adopted 5-sigma dBP~7.25). In TESS band this excludes background stars with dT < ~6.9 (same colour as target, conservative) or dT < ~7.6 (typical bluer background colour). 1150 ppm needs dT<=7.4 (100% eclipse): a same-colour hidden star would need a >=69% eclipse - largely ruled out, fully ruled out for typical colours. 284 ppm needs dT<=8.9: background stars with dT~7.3-8.9 (needed eclipse 24-100%) are NOT excluded by archival imaging; a bright-enough hidden background star for 284 ppm is constrained only partially."
+ }
+}

@@ -1,0 +1,2601 @@
+{
+ "d18": {
+  "t0": 2904.5668042163843,
+  "P": 18.908219236640903,
+  "T14_h": 2.370134357418271,
+  "rows": [
+   {
+    "epoch": 76,
+    "tc_btjd": 4341.5915,
+    "tc_utc": "2026-10-28 02:10",
+    "sigma_ephem_min": 5.3,
+    "sigma_with_ttv_min": 11.3,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 35.4,
+      "max_airmass": 1.73
+     }
+    }
+   },
+   {
+    "epoch": 77,
+    "tc_btjd": 4360.4997,
+    "tc_utc": "2026-11-15 23:58",
+    "sigma_ephem_min": 5.3,
+    "sigma_with_ttv_min": 11.3,
+    "sites": {}
+   },
+   {
+    "epoch": 78,
+    "tc_btjd": 4379.4079,
+    "tc_utc": "2026-12-04 21:46",
+    "sigma_ephem_min": 5.4,
+    "sigma_with_ttv_min": 11.4,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 25.1,
+      "max_airmass": 2.36
+     }
+    }
+   },
+   {
+    "epoch": 79,
+    "tc_btjd": 4398.3161,
+    "tc_utc": "2026-12-23 19:34",
+    "sigma_ephem_min": 5.4,
+    "sigma_with_ttv_min": 11.4,
+    "sites": {}
+   },
+   {
+    "epoch": 80,
+    "tc_btjd": 4417.2243,
+    "tc_utc": "2027-01-11 17:21",
+    "sigma_ephem_min": 5.5,
+    "sigma_with_ttv_min": 11.4,
+    "sites": {}
+   },
+   {
+    "epoch": 81,
+    "tc_btjd": 4436.1326,
+    "tc_utc": "2027-01-30 15:09",
+    "sigma_ephem_min": 5.5,
+    "sigma_with_ttv_min": 11.4,
+    "sites": {}
+   },
+   {
+    "epoch": 82,
+    "tc_btjd": 4455.0408,
+    "tc_utc": "2027-02-18 12:57",
+    "sigma_ephem_min": 5.6,
+    "sigma_with_ttv_min": 11.4,
+    "sites": {}
+   },
+   {
+    "epoch": 83,
+    "tc_btjd": 4473.949,
+    "tc_utc": "2027-03-09 10:45",
+    "sigma_ephem_min": 5.6,
+    "sigma_with_ttv_min": 11.5,
+    "sites": {}
+   },
+   {
+    "epoch": 84,
+    "tc_btjd": 4492.8572,
+    "tc_utc": "2027-03-28 08:33",
+    "sigma_ephem_min": 5.7,
+    "sigma_with_ttv_min": 11.5,
+    "sites": {}
+   },
+   {
+    "epoch": 85,
+    "tc_btjd": 4511.7654,
+    "tc_utc": "2027-04-16 06:21",
+    "sigma_ephem_min": 5.7,
+    "sigma_with_ttv_min": 11.5,
+    "sites": {}
+   },
+   {
+    "epoch": 86,
+    "tc_btjd": 4530.6737,
+    "tc_utc": "2027-05-05 04:08",
+    "sigma_ephem_min": 5.8,
+    "sigma_with_ttv_min": 11.5,
+    "sites": {}
+   },
+   {
+    "epoch": 87,
+    "tc_btjd": 4549.5819,
+    "tc_utc": "2027-05-24 01:56",
+    "sigma_ephem_min": 5.8,
+    "sigma_with_ttv_min": 11.6,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 37.4,
+      "max_airmass": 1.65
+     }
+    }
+   },
+   {
+    "epoch": 88,
+    "tc_btjd": 4568.4901,
+    "tc_utc": "2027-06-11 23:44",
+    "sigma_ephem_min": 5.9,
+    "sigma_with_ttv_min": 11.6,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 34.4,
+      "max_airmass": 1.77
+     }
+    }
+   },
+   {
+    "epoch": 89,
+    "tc_btjd": 4587.3983,
+    "tc_utc": "2027-06-30 21:32",
+    "sigma_ephem_min": 5.9,
+    "sigma_with_ttv_min": 11.6,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 31.4,
+      "max_airmass": 1.92
+     }
+    }
+   },
+   {
+    "epoch": 90,
+    "tc_btjd": 4606.3065,
+    "tc_utc": "2027-07-19 19:20",
+    "sigma_ephem_min": 6.0,
+    "sigma_with_ttv_min": 11.6,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 28.5,
+      "max_airmass": 2.1
+     }
+    }
+   },
+   {
+    "epoch": 91,
+    "tc_btjd": 4625.2148,
+    "tc_utc": "2027-08-07 17:08",
+    "sigma_ephem_min": 6.0,
+    "sigma_with_ttv_min": 11.7,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 35.7,
+      "max_airmass": 1.72
+     }
+    }
+   },
+   {
+    "epoch": 92,
+    "tc_btjd": 4644.123,
+    "tc_utc": "2027-08-26 14:55",
+    "sigma_ephem_min": 6.1,
+    "sigma_with_ttv_min": 11.7,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 38.4,
+      "max_airmass": 1.61
+     }
+    }
+   },
+   {
+    "epoch": 93,
+    "tc_btjd": 4663.0312,
+    "tc_utc": "2027-09-14 12:43",
+    "sigma_ephem_min": 6.1,
+    "sigma_with_ttv_min": 11.7,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 40.7,
+      "max_airmass": 1.53
+     }
+    }
+   },
+   {
+    "epoch": 94,
+    "tc_btjd": 4681.9394,
+    "tc_utc": "2027-10-03 10:31",
+    "sigma_ephem_min": 6.2,
+    "sigma_with_ttv_min": 11.7,
+    "sites": {}
+   },
+   {
+    "epoch": 95,
+    "tc_btjd": 4700.8476,
+    "tc_utc": "2027-10-22 08:19",
+    "sigma_ephem_min": 6.2,
+    "sigma_with_ttv_min": 11.8,
+    "sites": {}
+   },
+   {
+    "epoch": 96,
+    "tc_btjd": 4719.7559,
+    "tc_utc": "2027-11-10 06:07",
+    "sigma_ephem_min": 6.3,
+    "sigma_with_ttv_min": 11.8,
+    "sites": {}
+   },
+   {
+    "epoch": 97,
+    "tc_btjd": 4738.6641,
+    "tc_utc": "2027-11-29 03:55",
+    "sigma_ephem_min": 6.3,
+    "sigma_with_ttv_min": 11.8,
+    "sites": {}
+   },
+   {
+    "epoch": 98,
+    "tc_btjd": 4757.5723,
+    "tc_utc": "2027-12-18 01:42",
+    "sigma_ephem_min": 6.4,
+    "sigma_with_ttv_min": 11.9,
+    "sites": {}
+   }
+  ]
+ },
+ "d2": {
+  "t0": 2900.127144657475,
+  "P": 1.9576923344817494,
+  "T14_h": 1.3447457384767192,
+  "rows": [
+   {
+    "epoch": 729,
+    "tc_btjd": 4327.2849,
+    "tc_utc": "2026-10-13 18:49",
+    "sigma_ephem_min": 7.1,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 730,
+    "tc_btjd": 4329.2425,
+    "tc_utc": "2026-10-15 17:48",
+    "sigma_ephem_min": 7.1,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 731,
+    "tc_btjd": 4331.2002,
+    "tc_utc": "2026-10-17 16:47",
+    "sigma_ephem_min": 7.1,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 732,
+    "tc_btjd": 4333.1579,
+    "tc_utc": "2026-10-19 15:46",
+    "sigma_ephem_min": 7.1,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 26.6,
+      "max_airmass": 2.23
+     }
+    }
+   },
+   {
+    "epoch": 733,
+    "tc_btjd": 4335.1156,
+    "tc_utc": "2026-10-21 14:45",
+    "sigma_ephem_min": 7.1,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 29.3,
+      "max_airmass": 2.05
+     }
+    }
+   },
+   {
+    "epoch": 734,
+    "tc_btjd": 4337.0733,
+    "tc_utc": "2026-10-23 13:44",
+    "sigma_ephem_min": 7.1,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 32.0,
+      "max_airmass": 1.89
+     }
+    }
+   },
+   {
+    "epoch": 735,
+    "tc_btjd": 4339.031,
+    "tc_utc": "2026-10-25 12:43",
+    "sigma_ephem_min": 7.1,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 34.8,
+      "max_airmass": 1.75
+     }
+    }
+   },
+   {
+    "epoch": 736,
+    "tc_btjd": 4340.9887,
+    "tc_utc": "2026-10-27 11:42",
+    "sigma_ephem_min": 7.1,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 37.4,
+      "max_airmass": 1.65
+     }
+    }
+   },
+   {
+    "epoch": 737,
+    "tc_btjd": 4342.9464,
+    "tc_utc": "2026-10-29 10:41",
+    "sigma_ephem_min": 7.1,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 738,
+    "tc_btjd": 4344.9041,
+    "tc_utc": "2026-10-31 09:40",
+    "sigma_ephem_min": 7.1,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 739,
+    "tc_btjd": 4346.8618,
+    "tc_utc": "2026-11-02 08:39",
+    "sigma_ephem_min": 7.1,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 740,
+    "tc_btjd": 4348.8195,
+    "tc_utc": "2026-11-04 07:38",
+    "sigma_ephem_min": 7.1,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 741,
+    "tc_btjd": 4350.7772,
+    "tc_utc": "2026-11-06 06:37",
+    "sigma_ephem_min": 7.1,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 742,
+    "tc_btjd": 4352.7349,
+    "tc_utc": "2026-11-08 05:37",
+    "sigma_ephem_min": 7.1,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 743,
+    "tc_btjd": 4354.6925,
+    "tc_utc": "2026-11-10 04:36",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 26.7,
+      "max_airmass": 2.22
+     }
+    }
+   },
+   {
+    "epoch": 744,
+    "tc_btjd": 4356.6502,
+    "tc_utc": "2026-11-12 03:35",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 29.5,
+      "max_airmass": 2.03
+     }
+    }
+   },
+   {
+    "epoch": 745,
+    "tc_btjd": 4358.6079,
+    "tc_utc": "2026-11-14 02:34",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 32.2,
+      "max_airmass": 1.87
+     }
+    }
+   },
+   {
+    "epoch": 746,
+    "tc_btjd": 4360.5656,
+    "tc_utc": "2026-11-16 01:33",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 747,
+    "tc_btjd": 4362.5233,
+    "tc_utc": "2026-11-18 00:32",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 748,
+    "tc_btjd": 4364.481,
+    "tc_utc": "2026-11-19 23:31",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 749,
+    "tc_btjd": 4366.4387,
+    "tc_utc": "2026-11-21 22:30",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 26.7,
+      "max_airmass": 2.23
+     }
+    }
+   },
+   {
+    "epoch": 750,
+    "tc_btjd": 4368.3964,
+    "tc_utc": "2026-11-23 21:29",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 29.2,
+      "max_airmass": 2.05
+     }
+    }
+   },
+   {
+    "epoch": 751,
+    "tc_btjd": 4370.3541,
+    "tc_utc": "2026-11-25 20:28",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 31.9,
+      "max_airmass": 1.89
+     }
+    }
+   },
+   {
+    "epoch": 752,
+    "tc_btjd": 4372.3118,
+    "tc_utc": "2026-11-27 19:27",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 753,
+    "tc_btjd": 4374.2695,
+    "tc_utc": "2026-11-29 18:26",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 754,
+    "tc_btjd": 4376.2272,
+    "tc_utc": "2026-12-01 17:25",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 755,
+    "tc_btjd": 4378.1849,
+    "tc_utc": "2026-12-03 16:25",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 756,
+    "tc_btjd": 4380.1425,
+    "tc_utc": "2026-12-05 15:24",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 757,
+    "tc_btjd": 4382.1002,
+    "tc_utc": "2026-12-07 14:23",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 758,
+    "tc_btjd": 4384.0579,
+    "tc_utc": "2026-12-09 13:22",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 759,
+    "tc_btjd": 4386.0156,
+    "tc_utc": "2026-12-11 12:21",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 26.4,
+      "max_airmass": 2.25
+     }
+    }
+   },
+   {
+    "epoch": 760,
+    "tc_btjd": 4387.9733,
+    "tc_utc": "2026-12-13 11:20",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 761,
+    "tc_btjd": 4389.931,
+    "tc_utc": "2026-12-15 10:19",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.3,
+    "sites": {}
+   },
+   {
+    "epoch": 762,
+    "tc_btjd": 4391.8887,
+    "tc_utc": "2026-12-17 09:18",
+    "sigma_ephem_min": 7.2,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 763,
+    "tc_btjd": 4393.8464,
+    "tc_utc": "2026-12-19 08:17",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 764,
+    "tc_btjd": 4395.8041,
+    "tc_utc": "2026-12-21 07:16",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 765,
+    "tc_btjd": 4397.7618,
+    "tc_utc": "2026-12-23 06:15",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 766,
+    "tc_btjd": 4399.7195,
+    "tc_utc": "2026-12-25 05:14",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 767,
+    "tc_btjd": 4401.6772,
+    "tc_utc": "2026-12-27 04:13",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 768,
+    "tc_btjd": 4403.6349,
+    "tc_utc": "2026-12-29 03:13",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 769,
+    "tc_btjd": 4405.5925,
+    "tc_utc": "2026-12-31 02:12",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 770,
+    "tc_btjd": 4407.5502,
+    "tc_utc": "2027-01-02 01:11",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 771,
+    "tc_btjd": 4409.5079,
+    "tc_utc": "2027-01-04 00:10",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 772,
+    "tc_btjd": 4411.4656,
+    "tc_utc": "2027-01-05 23:09",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 773,
+    "tc_btjd": 4413.4233,
+    "tc_utc": "2027-01-07 22:08",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 774,
+    "tc_btjd": 4415.381,
+    "tc_utc": "2027-01-09 21:07",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 775,
+    "tc_btjd": 4417.3387,
+    "tc_utc": "2027-01-11 20:06",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 776,
+    "tc_btjd": 4419.2964,
+    "tc_utc": "2027-01-13 19:05",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 777,
+    "tc_btjd": 4421.2541,
+    "tc_utc": "2027-01-15 18:04",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 778,
+    "tc_btjd": 4423.2118,
+    "tc_utc": "2027-01-17 17:03",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 779,
+    "tc_btjd": 4425.1695,
+    "tc_utc": "2027-01-19 16:02",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 780,
+    "tc_btjd": 4427.1272,
+    "tc_utc": "2027-01-21 15:01",
+    "sigma_ephem_min": 7.3,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 781,
+    "tc_btjd": 4429.0849,
+    "tc_utc": "2027-01-23 14:01",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 782,
+    "tc_btjd": 4431.0426,
+    "tc_utc": "2027-01-25 13:00",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 783,
+    "tc_btjd": 4433.0002,
+    "tc_utc": "2027-01-27 11:59",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 784,
+    "tc_btjd": 4434.9579,
+    "tc_utc": "2027-01-29 10:58",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 785,
+    "tc_btjd": 4436.9156,
+    "tc_utc": "2027-01-31 09:57",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 786,
+    "tc_btjd": 4438.8733,
+    "tc_utc": "2027-02-02 08:56",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 787,
+    "tc_btjd": 4440.831,
+    "tc_utc": "2027-02-04 07:55",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 788,
+    "tc_btjd": 4442.7887,
+    "tc_utc": "2027-02-06 06:54",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 789,
+    "tc_btjd": 4444.7464,
+    "tc_utc": "2027-02-08 05:53",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 790,
+    "tc_btjd": 4446.7041,
+    "tc_utc": "2027-02-10 04:52",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 791,
+    "tc_btjd": 4448.6618,
+    "tc_utc": "2027-02-12 03:51",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 792,
+    "tc_btjd": 4450.6195,
+    "tc_utc": "2027-02-14 02:50",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 793,
+    "tc_btjd": 4452.5772,
+    "tc_utc": "2027-02-16 01:49",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.4,
+    "sites": {}
+   },
+   {
+    "epoch": 794,
+    "tc_btjd": 4454.5349,
+    "tc_utc": "2027-02-18 00:49",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 795,
+    "tc_btjd": 4456.4926,
+    "tc_utc": "2027-02-19 23:48",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 796,
+    "tc_btjd": 4458.4502,
+    "tc_utc": "2027-02-21 22:47",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 797,
+    "tc_btjd": 4460.4079,
+    "tc_utc": "2027-02-23 21:46",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 798,
+    "tc_btjd": 4462.3656,
+    "tc_utc": "2027-02-25 20:45",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 799,
+    "tc_btjd": 4464.3233,
+    "tc_utc": "2027-02-27 19:44",
+    "sigma_ephem_min": 7.4,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 800,
+    "tc_btjd": 4466.281,
+    "tc_utc": "2027-03-01 18:43",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 801,
+    "tc_btjd": 4468.2387,
+    "tc_utc": "2027-03-03 17:42",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 802,
+    "tc_btjd": 4470.1964,
+    "tc_utc": "2027-03-05 16:41",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 803,
+    "tc_btjd": 4472.1541,
+    "tc_utc": "2027-03-07 15:40",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 804,
+    "tc_btjd": 4474.1118,
+    "tc_utc": "2027-03-09 14:39",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 805,
+    "tc_btjd": 4476.0695,
+    "tc_utc": "2027-03-11 13:38",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 806,
+    "tc_btjd": 4478.0272,
+    "tc_utc": "2027-03-13 12:37",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 807,
+    "tc_btjd": 4479.9849,
+    "tc_utc": "2027-03-15 11:37",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 808,
+    "tc_btjd": 4481.9426,
+    "tc_utc": "2027-03-17 10:36",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 809,
+    "tc_btjd": 4483.9002,
+    "tc_utc": "2027-03-19 09:35",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 810,
+    "tc_btjd": 4485.8579,
+    "tc_utc": "2027-03-21 08:34",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 811,
+    "tc_btjd": 4487.8156,
+    "tc_utc": "2027-03-23 07:33",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 812,
+    "tc_btjd": 4489.7733,
+    "tc_utc": "2027-03-25 06:32",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 813,
+    "tc_btjd": 4491.731,
+    "tc_utc": "2027-03-27 05:31",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 814,
+    "tc_btjd": 4493.6887,
+    "tc_utc": "2027-03-29 04:30",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 815,
+    "tc_btjd": 4495.6464,
+    "tc_utc": "2027-03-31 03:29",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 816,
+    "tc_btjd": 4497.6041,
+    "tc_utc": "2027-04-02 02:28",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 30.0,
+      "max_airmass": 2.0
+     }
+    }
+   },
+   {
+    "epoch": 817,
+    "tc_btjd": 4499.5618,
+    "tc_utc": "2027-04-04 01:27",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 27.4,
+      "max_airmass": 2.17
+     }
+    }
+   },
+   {
+    "epoch": 818,
+    "tc_btjd": 4501.5195,
+    "tc_utc": "2027-04-06 00:26",
+    "sigma_ephem_min": 7.5,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 25.0,
+      "max_airmass": 2.36
+     }
+    }
+   },
+   {
+    "epoch": 819,
+    "tc_btjd": 4503.4772,
+    "tc_utc": "2027-04-07 23:25",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 820,
+    "tc_btjd": 4505.4349,
+    "tc_utc": "2027-04-09 22:25",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 821,
+    "tc_btjd": 4507.3926,
+    "tc_utc": "2027-04-11 21:24",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 822,
+    "tc_btjd": 4509.3502,
+    "tc_utc": "2027-04-13 20:23",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 823,
+    "tc_btjd": 4511.3079,
+    "tc_utc": "2027-04-15 19:22",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 824,
+    "tc_btjd": 4513.2656,
+    "tc_utc": "2027-04-17 18:21",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.5,
+    "sites": {}
+   },
+   {
+    "epoch": 825,
+    "tc_btjd": 4515.2233,
+    "tc_utc": "2027-04-19 17:20",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 30.7,
+      "max_airmass": 1.96
+     }
+    }
+   },
+   {
+    "epoch": 826,
+    "tc_btjd": 4517.181,
+    "tc_utc": "2027-04-21 16:19",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 27.9,
+      "max_airmass": 2.13
+     }
+    }
+   },
+   {
+    "epoch": 827,
+    "tc_btjd": 4519.1387,
+    "tc_utc": "2027-04-23 15:18",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 25.4,
+      "max_airmass": 2.33
+     }
+    }
+   },
+   {
+    "epoch": 828,
+    "tc_btjd": 4521.0964,
+    "tc_utc": "2027-04-25 14:17",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {}
+   },
+   {
+    "epoch": 829,
+    "tc_btjd": 4523.0541,
+    "tc_utc": "2027-04-27 13:16",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {}
+   },
+   {
+    "epoch": 830,
+    "tc_btjd": 4525.0118,
+    "tc_utc": "2027-04-29 12:15",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {}
+   },
+   {
+    "epoch": 831,
+    "tc_btjd": 4526.9695,
+    "tc_utc": "2027-05-01 11:14",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {}
+   },
+   {
+    "epoch": 832,
+    "tc_btjd": 4528.9272,
+    "tc_utc": "2027-05-03 10:13",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {}
+   },
+   {
+    "epoch": 833,
+    "tc_btjd": 4530.8849,
+    "tc_utc": "2027-05-05 09:13",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {}
+   },
+   {
+    "epoch": 834,
+    "tc_btjd": 4532.8426,
+    "tc_utc": "2027-05-07 08:12",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 33.9,
+      "max_airmass": 1.79
+     }
+    }
+   },
+   {
+    "epoch": 835,
+    "tc_btjd": 4534.8002,
+    "tc_utc": "2027-05-09 07:11",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 31.1,
+      "max_airmass": 1.94
+     }
+    }
+   },
+   {
+    "epoch": 836,
+    "tc_btjd": 4536.7579,
+    "tc_utc": "2027-05-11 06:10",
+    "sigma_ephem_min": 7.6,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 28.3,
+      "max_airmass": 2.11
+     }
+    }
+   },
+   {
+    "epoch": 837,
+    "tc_btjd": 4538.7156,
+    "tc_utc": "2027-05-13 05:09",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 25.7,
+      "max_airmass": 2.31
+     }
+    }
+   },
+   {
+    "epoch": 838,
+    "tc_btjd": 4540.6733,
+    "tc_utc": "2027-05-15 04:08",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {}
+   },
+   {
+    "epoch": 839,
+    "tc_btjd": 4542.631,
+    "tc_utc": "2027-05-17 03:07",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {}
+   },
+   {
+    "epoch": 840,
+    "tc_btjd": 4544.5887,
+    "tc_utc": "2027-05-19 02:06",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 38.3,
+      "max_airmass": 1.61
+     }
+    }
+   },
+   {
+    "epoch": 841,
+    "tc_btjd": 4546.5464,
+    "tc_utc": "2027-05-21 01:05",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 35.7,
+      "max_airmass": 1.71
+     }
+    }
+   },
+   {
+    "epoch": 842,
+    "tc_btjd": 4548.5041,
+    "tc_utc": "2027-05-23 00:04",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 32.9,
+      "max_airmass": 1.84
+     }
+    }
+   },
+   {
+    "epoch": 843,
+    "tc_btjd": 4550.4618,
+    "tc_utc": "2027-05-24 23:03",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 30.1,
+      "max_airmass": 1.99
+     }
+    }
+   },
+   {
+    "epoch": 844,
+    "tc_btjd": 4552.4195,
+    "tc_utc": "2027-05-26 22:02",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 27.5,
+      "max_airmass": 2.16
+     }
+    }
+   },
+   {
+    "epoch": 845,
+    "tc_btjd": 4554.3772,
+    "tc_utc": "2027-05-28 21:01",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 25.2,
+      "max_airmass": 2.35
+     }
+    }
+   },
+   {
+    "epoch": 846,
+    "tc_btjd": 4556.3349,
+    "tc_utc": "2027-05-30 20:01",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {}
+   },
+   {
+    "epoch": 847,
+    "tc_btjd": 4558.2926,
+    "tc_utc": "2027-06-01 19:00",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {}
+   },
+   {
+    "epoch": 848,
+    "tc_btjd": 4560.2502,
+    "tc_utc": "2027-06-03 17:59",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 40.9,
+      "max_airmass": 1.53
+     }
+    }
+   },
+   {
+    "epoch": 849,
+    "tc_btjd": 4562.2079,
+    "tc_utc": "2027-06-05 16:58",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 38.8,
+      "max_airmass": 1.6
+     }
+    }
+   },
+   {
+    "epoch": 850,
+    "tc_btjd": 4564.1656,
+    "tc_utc": "2027-06-07 15:57",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 36.3,
+      "max_airmass": 1.69
+     }
+    }
+   },
+   {
+    "epoch": 851,
+    "tc_btjd": 4566.1233,
+    "tc_utc": "2027-06-09 14:56",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 33.6,
+      "max_airmass": 1.81
+     }
+    }
+   },
+   {
+    "epoch": 852,
+    "tc_btjd": 4568.081,
+    "tc_utc": "2027-06-11 13:55",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 30.8,
+      "max_airmass": 1.95
+     }
+    }
+   },
+   {
+    "epoch": 853,
+    "tc_btjd": 4570.0387,
+    "tc_utc": "2027-06-13 12:54",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 28.1,
+      "max_airmass": 2.12
+     }
+    }
+   },
+   {
+    "epoch": 854,
+    "tc_btjd": 4571.9964,
+    "tc_utc": "2027-06-15 11:53",
+    "sigma_ephem_min": 7.7,
+    "sigma_with_ttv_min": 12.6,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 25.6,
+      "max_airmass": 2.32
+     }
+    }
+   },
+   {
+    "epoch": 855,
+    "tc_btjd": 4573.9541,
+    "tc_utc": "2027-06-17 10:52",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {}
+   },
+   {
+    "epoch": 856,
+    "tc_btjd": 4575.9118,
+    "tc_utc": "2027-06-19 09:51",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {}
+   },
+   {
+    "epoch": 857,
+    "tc_btjd": 4577.8695,
+    "tc_utc": "2027-06-21 08:50",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 40.8,
+      "max_airmass": 1.53
+     }
+    }
+   },
+   {
+    "epoch": 858,
+    "tc_btjd": 4579.8272,
+    "tc_utc": "2027-06-23 07:49",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 40.7,
+      "max_airmass": 1.53
+     }
+    }
+   },
+   {
+    "epoch": 859,
+    "tc_btjd": 4581.7849,
+    "tc_utc": "2027-06-25 06:49",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 38.9,
+      "max_airmass": 1.59
+     }
+    }
+   },
+   {
+    "epoch": 860,
+    "tc_btjd": 4583.7426,
+    "tc_utc": "2027-06-27 05:48",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 36.6,
+      "max_airmass": 1.68
+     }
+    }
+   },
+   {
+    "epoch": 861,
+    "tc_btjd": 4585.7002,
+    "tc_utc": "2027-06-29 04:47",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 34.0,
+      "max_airmass": 1.79
+     }
+    }
+   },
+   {
+    "epoch": 862,
+    "tc_btjd": 4587.6579,
+    "tc_utc": "2027-07-01 03:46",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 31.3,
+      "max_airmass": 1.93
+     }
+    }
+   },
+   {
+    "epoch": 863,
+    "tc_btjd": 4589.6156,
+    "tc_utc": "2027-07-03 02:45",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 28.5,
+      "max_airmass": 2.1
+     },
+     "SAAO/Sutherland": {
+      "min_alt": 41.5,
+      "max_airmass": 1.51
+     }
+    }
+   },
+   {
+    "epoch": 864,
+    "tc_btjd": 4591.5733,
+    "tc_utc": "2027-07-05 01:44",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 25.8,
+      "max_airmass": 2.3
+     },
+     "SAAO/Sutherland": {
+      "min_alt": 43.2,
+      "max_airmass": 1.46
+     }
+    }
+   },
+   {
+    "epoch": 865,
+    "tc_btjd": 4593.531,
+    "tc_utc": "2027-07-07 00:43",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 42.7,
+      "max_airmass": 1.47
+     }
+    }
+   },
+   {
+    "epoch": 866,
+    "tc_btjd": 4595.4887,
+    "tc_utc": "2027-07-08 23:42",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 40.8,
+      "max_airmass": 1.53
+     }
+    }
+   },
+   {
+    "epoch": 867,
+    "tc_btjd": 4597.4464,
+    "tc_utc": "2027-07-10 22:41",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 38.5,
+      "max_airmass": 1.61
+     }
+    }
+   },
+   {
+    "epoch": 868,
+    "tc_btjd": 4599.4041,
+    "tc_utc": "2027-07-12 21:40",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 35.9,
+      "max_airmass": 1.71
+     }
+    }
+   },
+   {
+    "epoch": 869,
+    "tc_btjd": 4601.3618,
+    "tc_utc": "2027-07-14 20:39",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 33.1,
+      "max_airmass": 1.83
+     }
+    }
+   },
+   {
+    "epoch": 870,
+    "tc_btjd": 4603.3195,
+    "tc_utc": "2027-07-16 19:38",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 30.3,
+      "max_airmass": 1.98
+     }
+    }
+   },
+   {
+    "epoch": 871,
+    "tc_btjd": 4605.2772,
+    "tc_utc": "2027-07-18 18:37",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 27.7,
+      "max_airmass": 2.15
+     },
+     "SSO/Siding Spring": {
+      "min_alt": 36.6,
+      "max_airmass": 1.68
+     }
+    }
+   },
+   {
+    "epoch": 872,
+    "tc_btjd": 4607.2349,
+    "tc_utc": "2027-07-20 17:37",
+    "sigma_ephem_min": 7.8,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 39.0,
+      "max_airmass": 1.59
+     }
+    }
+   },
+   {
+    "epoch": 873,
+    "tc_btjd": 4609.1926,
+    "tc_utc": "2027-07-22 16:36",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 41.1,
+      "max_airmass": 1.52
+     }
+    }
+   },
+   {
+    "epoch": 874,
+    "tc_btjd": 4611.1502,
+    "tc_utc": "2027-07-24 15:35",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 42.5,
+      "max_airmass": 1.48
+     }
+    }
+   },
+   {
+    "epoch": 875,
+    "tc_btjd": 4613.1079,
+    "tc_utc": "2027-07-26 14:34",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 41.0,
+      "max_airmass": 1.52
+     }
+    }
+   },
+   {
+    "epoch": 876,
+    "tc_btjd": 4615.0656,
+    "tc_utc": "2027-07-28 13:33",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 39.0,
+      "max_airmass": 1.59
+     }
+    }
+   },
+   {
+    "epoch": 877,
+    "tc_btjd": 4617.0233,
+    "tc_utc": "2027-07-30 12:32",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 36.5,
+      "max_airmass": 1.68
+     }
+    }
+   },
+   {
+    "epoch": 878,
+    "tc_btjd": 4618.981,
+    "tc_utc": "2027-08-01 11:31",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 33.8,
+      "max_airmass": 1.8
+     }
+    }
+   },
+   {
+    "epoch": 879,
+    "tc_btjd": 4620.9387,
+    "tc_utc": "2027-08-03 10:30",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 31.0,
+      "max_airmass": 1.94
+     }
+    }
+   },
+   {
+    "epoch": 880,
+    "tc_btjd": 4622.8964,
+    "tc_utc": "2027-08-05 09:29",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {}
+   },
+   {
+    "epoch": 881,
+    "tc_btjd": 4624.8541,
+    "tc_utc": "2027-08-07 08:28",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 34.1,
+      "max_airmass": 1.78
+     }
+    }
+   },
+   {
+    "epoch": 882,
+    "tc_btjd": 4626.8118,
+    "tc_utc": "2027-08-09 07:27",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 36.7,
+      "max_airmass": 1.67
+     }
+    }
+   },
+   {
+    "epoch": 883,
+    "tc_btjd": 4628.7695,
+    "tc_utc": "2027-08-11 06:26",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.7,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 38.9,
+      "max_airmass": 1.59
+     }
+    }
+   },
+   {
+    "epoch": 884,
+    "tc_btjd": 4630.7272,
+    "tc_utc": "2027-08-13 05:25",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 40.7,
+      "max_airmass": 1.53
+     }
+    }
+   },
+   {
+    "epoch": 885,
+    "tc_btjd": 4632.6849,
+    "tc_utc": "2027-08-15 04:25",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 40.8,
+      "max_airmass": 1.53
+     }
+    }
+   },
+   {
+    "epoch": 886,
+    "tc_btjd": 4634.6426,
+    "tc_utc": "2027-08-17 03:24",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 39.0,
+      "max_airmass": 1.59
+     }
+    }
+   },
+   {
+    "epoch": 887,
+    "tc_btjd": 4636.6002,
+    "tc_utc": "2027-08-19 02:23",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 36.8,
+      "max_airmass": 1.67
+     },
+     "SAAO/Sutherland": {
+      "min_alt": 33.8,
+      "max_airmass": 1.8
+     }
+    }
+   },
+   {
+    "epoch": 888,
+    "tc_btjd": 4638.5579,
+    "tc_utc": "2027-08-21 01:22",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 34.2,
+      "max_airmass": 1.78
+     },
+     "SAAO/Sutherland": {
+      "min_alt": 36.5,
+      "max_airmass": 1.68
+     }
+    }
+   },
+   {
+    "epoch": 889,
+    "tc_btjd": 4640.5156,
+    "tc_utc": "2027-08-23 00:21",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 39.1,
+      "max_airmass": 1.59
+     }
+    }
+   },
+   {
+    "epoch": 890,
+    "tc_btjd": 4642.4733,
+    "tc_utc": "2027-08-24 23:20",
+    "sigma_ephem_min": 7.9,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 41.3,
+      "max_airmass": 1.51
+     }
+    }
+   },
+   {
+    "epoch": 891,
+    "tc_btjd": 4644.431,
+    "tc_utc": "2027-08-26 22:19",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 43.1,
+      "max_airmass": 1.46
+     }
+    }
+   },
+   {
+    "epoch": 892,
+    "tc_btjd": 4646.3887,
+    "tc_utc": "2027-08-28 21:18",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 42.8,
+      "max_airmass": 1.47
+     }
+    }
+   },
+   {
+    "epoch": 893,
+    "tc_btjd": 4648.3464,
+    "tc_utc": "2027-08-30 20:17",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 41.0,
+      "max_airmass": 1.53
+     }
+    }
+   },
+   {
+    "epoch": 894,
+    "tc_btjd": 4650.3041,
+    "tc_utc": "2027-09-01 19:16",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 38.7,
+      "max_airmass": 1.6
+     }
+    }
+   },
+   {
+    "epoch": 895,
+    "tc_btjd": 4652.2618,
+    "tc_utc": "2027-09-03 18:15",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {}
+   },
+   {
+    "epoch": 896,
+    "tc_btjd": 4654.2195,
+    "tc_utc": "2027-09-05 17:14",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 30.9,
+      "max_airmass": 1.95
+     }
+    }
+   },
+   {
+    "epoch": 897,
+    "tc_btjd": 4656.1772,
+    "tc_utc": "2027-09-07 16:13",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 33.7,
+      "max_airmass": 1.8
+     }
+    }
+   },
+   {
+    "epoch": 898,
+    "tc_btjd": 4658.1349,
+    "tc_utc": "2027-09-09 15:13",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 36.4,
+      "max_airmass": 1.68
+     }
+    }
+   },
+   {
+    "epoch": 899,
+    "tc_btjd": 4660.0926,
+    "tc_utc": "2027-09-11 14:12",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 38.9,
+      "max_airmass": 1.59
+     }
+    }
+   },
+   {
+    "epoch": 900,
+    "tc_btjd": 4662.0502,
+    "tc_utc": "2027-09-13 13:11",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 40.9,
+      "max_airmass": 1.53
+     }
+    }
+   },
+   {
+    "epoch": 901,
+    "tc_btjd": 4664.0079,
+    "tc_utc": "2027-09-15 12:10",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 42.4,
+      "max_airmass": 1.48
+     }
+    }
+   },
+   {
+    "epoch": 902,
+    "tc_btjd": 4665.9656,
+    "tc_utc": "2027-09-17 11:09",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 41.1,
+      "max_airmass": 1.52
+     }
+    }
+   },
+   {
+    "epoch": 903,
+    "tc_btjd": 4667.9233,
+    "tc_utc": "2027-09-19 10:08",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {}
+   },
+   {
+    "epoch": 904,
+    "tc_btjd": 4669.881,
+    "tc_utc": "2027-09-21 09:07",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {}
+   },
+   {
+    "epoch": 905,
+    "tc_btjd": 4671.8387,
+    "tc_utc": "2027-09-23 08:06",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 25.7,
+      "max_airmass": 2.31
+     }
+    }
+   },
+   {
+    "epoch": 906,
+    "tc_btjd": 4673.7964,
+    "tc_utc": "2027-09-25 07:05",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 28.4,
+      "max_airmass": 2.11
+     }
+    }
+   },
+   {
+    "epoch": 907,
+    "tc_btjd": 4675.7541,
+    "tc_utc": "2027-09-27 06:04",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 31.1,
+      "max_airmass": 1.93
+     }
+    }
+   },
+   {
+    "epoch": 908,
+    "tc_btjd": 4677.7118,
+    "tc_utc": "2027-09-29 05:03",
+    "sigma_ephem_min": 8.0,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 33.9,
+      "max_airmass": 1.79
+     }
+    }
+   },
+   {
+    "epoch": 909,
+    "tc_btjd": 4679.6695,
+    "tc_utc": "2027-10-01 04:02",
+    "sigma_ephem_min": 8.1,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 36.5,
+      "max_airmass": 1.68
+     }
+    }
+   },
+   {
+    "epoch": 910,
+    "tc_btjd": 4681.6272,
+    "tc_utc": "2027-10-03 03:01",
+    "sigma_ephem_min": 8.1,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 38.8,
+      "max_airmass": 1.6
+     }
+    }
+   },
+   {
+    "epoch": 911,
+    "tc_btjd": 4683.5849,
+    "tc_utc": "2027-10-05 02:01",
+    "sigma_ephem_min": 8.1,
+    "sigma_with_ttv_min": 12.8,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 40.6,
+      "max_airmass": 1.54
+     }
+    }
+   },
+   {
+    "epoch": 912,
+    "tc_btjd": 4685.5426,
+    "tc_utc": "2027-10-07 01:00",
+    "sigma_ephem_min": 8.1,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 28.1,
+      "max_airmass": 2.12
+     }
+    }
+   },
+   {
+    "epoch": 913,
+    "tc_btjd": 4687.5002,
+    "tc_utc": "2027-10-08 23:59",
+    "sigma_ephem_min": 8.1,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 30.8,
+      "max_airmass": 1.95
+     }
+    }
+   },
+   {
+    "epoch": 914,
+    "tc_btjd": 4689.4579,
+    "tc_utc": "2027-10-10 22:58",
+    "sigma_ephem_min": 8.1,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 33.6,
+      "max_airmass": 1.81
+     }
+    }
+   },
+   {
+    "epoch": 915,
+    "tc_btjd": 4691.4156,
+    "tc_utc": "2027-10-12 21:57",
+    "sigma_ephem_min": 8.1,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 36.4,
+      "max_airmass": 1.69
+     }
+    }
+   },
+   {
+    "epoch": 916,
+    "tc_btjd": 4693.3733,
+    "tc_utc": "2027-10-14 20:56",
+    "sigma_ephem_min": 8.1,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 38.9,
+      "max_airmass": 1.59
+     }
+    }
+   },
+   {
+    "epoch": 917,
+    "tc_btjd": 4695.331,
+    "tc_utc": "2027-10-16 19:55",
+    "sigma_ephem_min": 8.1,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 41.2,
+      "max_airmass": 1.52
+     }
+    }
+   },
+   {
+    "epoch": 918,
+    "tc_btjd": 4697.2887,
+    "tc_utc": "2027-10-18 18:54",
+    "sigma_ephem_min": 8.1,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {}
+   },
+   {
+    "epoch": 919,
+    "tc_btjd": 4699.2464,
+    "tc_utc": "2027-10-20 17:53",
+    "sigma_ephem_min": 8.1,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {}
+   },
+   {
+    "epoch": 920,
+    "tc_btjd": 4701.2041,
+    "tc_utc": "2027-10-22 16:52",
+    "sigma_ephem_min": 8.1,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {}
+   },
+   {
+    "epoch": 921,
+    "tc_btjd": 4703.1618,
+    "tc_utc": "2027-10-24 15:51",
+    "sigma_ephem_min": 8.1,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 25.5,
+      "max_airmass": 2.33
+     }
+    }
+   },
+   {
+    "epoch": 922,
+    "tc_btjd": 4705.1195,
+    "tc_utc": "2027-10-26 14:50",
+    "sigma_ephem_min": 8.1,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 28.0,
+      "max_airmass": 2.13
+     }
+    }
+   },
+   {
+    "epoch": 923,
+    "tc_btjd": 4707.0772,
+    "tc_utc": "2027-10-28 13:49",
+    "sigma_ephem_min": 8.1,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 30.7,
+      "max_airmass": 1.96
+     }
+    }
+   },
+   {
+    "epoch": 924,
+    "tc_btjd": 4709.0349,
+    "tc_utc": "2027-10-30 12:49",
+    "sigma_ephem_min": 8.1,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 33.5,
+      "max_airmass": 1.81
+     }
+    }
+   },
+   {
+    "epoch": 925,
+    "tc_btjd": 4710.9926,
+    "tc_utc": "2027-11-01 11:48",
+    "sigma_ephem_min": 8.1,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 36.2,
+      "max_airmass": 1.69
+     }
+    }
+   },
+   {
+    "epoch": 926,
+    "tc_btjd": 4712.9502,
+    "tc_utc": "2027-11-03 10:47",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {}
+   },
+   {
+    "epoch": 927,
+    "tc_btjd": 4714.9079,
+    "tc_utc": "2027-11-05 09:46",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {}
+   },
+   {
+    "epoch": 928,
+    "tc_btjd": 4716.8656,
+    "tc_utc": "2027-11-07 08:45",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {}
+   },
+   {
+    "epoch": 929,
+    "tc_btjd": 4718.8233,
+    "tc_utc": "2027-11-09 07:44",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {}
+   },
+   {
+    "epoch": 930,
+    "tc_btjd": 4720.781,
+    "tc_utc": "2027-11-11 06:43",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {}
+   },
+   {
+    "epoch": 931,
+    "tc_btjd": 4722.7387,
+    "tc_utc": "2027-11-13 05:42",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {}
+   },
+   {
+    "epoch": 932,
+    "tc_btjd": 4724.6964,
+    "tc_utc": "2027-11-15 04:41",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 25.5,
+      "max_airmass": 2.32
+     }
+    }
+   },
+   {
+    "epoch": 933,
+    "tc_btjd": 4726.6541,
+    "tc_utc": "2027-11-17 03:40",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 28.2,
+      "max_airmass": 2.12
+     }
+    }
+   },
+   {
+    "epoch": 934,
+    "tc_btjd": 4728.6118,
+    "tc_utc": "2027-11-19 02:39",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {
+     "CTIO/LCO-Chile": {
+      "min_alt": 30.9,
+      "max_airmass": 1.94
+     }
+    }
+   },
+   {
+    "epoch": 935,
+    "tc_btjd": 4730.5695,
+    "tc_utc": "2027-11-21 01:38",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {}
+   },
+   {
+    "epoch": 936,
+    "tc_btjd": 4732.5272,
+    "tc_utc": "2027-11-23 00:37",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {}
+   },
+   {
+    "epoch": 937,
+    "tc_btjd": 4734.4849,
+    "tc_utc": "2027-11-24 23:37",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {}
+   },
+   {
+    "epoch": 938,
+    "tc_btjd": 4736.4426,
+    "tc_utc": "2027-11-26 22:36",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 25.6,
+      "max_airmass": 2.32
+     }
+    }
+   },
+   {
+    "epoch": 939,
+    "tc_btjd": 4738.4002,
+    "tc_utc": "2027-11-28 21:35",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 12.9,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 28.0,
+      "max_airmass": 2.13
+     }
+    }
+   },
+   {
+    "epoch": 940,
+    "tc_btjd": 4740.3579,
+    "tc_utc": "2027-11-30 20:34",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 13.0,
+    "sites": {
+     "SAAO/Sutherland": {
+      "min_alt": 30.6,
+      "max_airmass": 1.96
+     }
+    }
+   },
+   {
+    "epoch": 941,
+    "tc_btjd": 4742.3156,
+    "tc_utc": "2027-12-02 19:33",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 13.0,
+    "sites": {}
+   },
+   {
+    "epoch": 942,
+    "tc_btjd": 4744.2733,
+    "tc_utc": "2027-12-04 18:32",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 13.0,
+    "sites": {}
+   },
+   {
+    "epoch": 943,
+    "tc_btjd": 4746.231,
+    "tc_utc": "2027-12-06 17:31",
+    "sigma_ephem_min": 8.2,
+    "sigma_with_ttv_min": 13.0,
+    "sites": {}
+   },
+   {
+    "epoch": 944,
+    "tc_btjd": 4748.1887,
+    "tc_utc": "2027-12-08 16:30",
+    "sigma_ephem_min": 8.3,
+    "sigma_with_ttv_min": 13.0,
+    "sites": {}
+   },
+   {
+    "epoch": 945,
+    "tc_btjd": 4750.1464,
+    "tc_utc": "2027-12-10 15:29",
+    "sigma_ephem_min": 8.3,
+    "sigma_with_ttv_min": 13.0,
+    "sites": {}
+   },
+   {
+    "epoch": 946,
+    "tc_btjd": 4752.1041,
+    "tc_utc": "2027-12-12 14:28",
+    "sigma_ephem_min": 8.3,
+    "sigma_with_ttv_min": 13.0,
+    "sites": {}
+   },
+   {
+    "epoch": 947,
+    "tc_btjd": 4754.0618,
+    "tc_utc": "2027-12-14 13:27",
+    "sigma_ephem_min": 8.3,
+    "sigma_with_ttv_min": 13.0,
+    "sites": {}
+   },
+   {
+    "epoch": 948,
+    "tc_btjd": 4756.0195,
+    "tc_utc": "2027-12-16 12:26",
+    "sigma_ephem_min": 8.3,
+    "sigma_with_ttv_min": 13.0,
+    "sites": {
+     "SSO/Siding Spring": {
+      "min_alt": 25.3,
+      "max_airmass": 2.34
+     }
+    }
+   },
+   {
+    "epoch": 949,
+    "tc_btjd": 4757.9772,
+    "tc_utc": "2027-12-18 11:25",
+    "sigma_ephem_min": 8.3,
+    "sigma_with_ttv_min": 13.0,
+    "sites": {}
+   },
+   {
+    "epoch": 950,
+    "tc_btjd": 4759.9349,
+    "tc_utc": "2027-12-20 10:25",
+    "sigma_ephem_min": 8.3,
+    "sigma_with_ttv_min": 13.0,
+    "sites": {}
+   },
+   {
+    "epoch": 951,
+    "tc_btjd": 4761.8926,
+    "tc_utc": "2027-12-22 09:24",
+    "sigma_ephem_min": 8.3,
+    "sigma_with_ttv_min": 13.0,
+    "sites": {}
+   },
+   {
+    "epoch": 952,
+    "tc_btjd": 4763.8502,
+    "tc_utc": "2027-12-24 08:23",
+    "sigma_ephem_min": 8.3,
+    "sigma_with_ttv_min": 13.0,
+    "sites": {}
+   },
+   {
+    "epoch": 953,
+    "tc_btjd": 4765.8079,
+    "tc_utc": "2027-12-26 07:22",
+    "sigma_ephem_min": 8.3,
+    "sigma_with_ttv_min": 13.0,
+    "sites": {}
+   },
+   {
+    "epoch": 954,
+    "tc_btjd": 4767.7656,
+    "tc_utc": "2027-12-28 06:21",
+    "sigma_ephem_min": 8.3,
+    "sigma_with_ttv_min": 13.0,
+    "sites": {}
+   },
+   {
+    "epoch": 955,
+    "tc_btjd": 4769.7233,
+    "tc_utc": "2027-12-30 05:20",
+    "sigma_ephem_min": 8.3,
+    "sigma_with_ttv_min": 13.0,
+    "sites": {}
+   }
+  ]
+ }
+}

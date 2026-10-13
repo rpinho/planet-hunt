@@ -5,3 +5,10 @@ reports/
 __pycache__/
 *.pyc
 .DS_Store
+cache
+*_gaia_background.csv
+.trivenv/
+.venv
+.r6venv/
+.tools/
+.trivenv

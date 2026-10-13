@@ -1,0 +1,227 @@
+J/AJ/170/3  TESS/Kepler: Multiplanet systems DYNAMITE models (Turtelboom+, 2025)
+================================================================================
+Searching for additional planets in TESS multiplanet systems: Testing empirical
+models based on Kepler data.
+    Turtelboom E.V., Dietrich J., Dressing C.D., Harada C.K.D.
+   <Astron. J. 170, 3 (2025)>
+   =2025AJ....170....3T
+================================================================================
+ADC_Keywords: Exoplanets; Models; Optical; Radial velocities
+Keywords: Exoplanet astronomy; Exoplanet detection methods; Transit photometry
+
+Abstract:
+    Multiplanet system architectures are frequently used to constrain
+    possible formation and evolutionary pathways of observed exoplanets.
+    Therefore, understanding the predictive and descriptive power of
+    empirical exoplanetary system models is critical to understanding
+    their formation histories. We analyze 52 TESS multiplanet systems
+    previously studied using Dynamite, which used TESS data alongside
+    empirical models based on Kepler planets to predict additional planets
+    in each system. We analyze additional TESS data to search for these
+    predicted planets. We thereby evaluate the degree to which these
+    models can be used to predict planets in TESS multiplanet systems.
+    Specifically, we study whether the period ratio method or clustered
+    period model is more predictive. We find that the period ratio model
+    predictions are most consistent with the planets discovered since
+    2020, accounting for detection sensitivity. However, neither model is
+    highly predictive, highlighting the need for additional data and more
+    nuanced models to describe the full population. Improved eccentricity
+    and dynamical stability prescriptions incorporated into Dynamite
+    provide a modest improvement in the prediction accuracy. We also find
+    that the current sample of 183 TESS multiplanet systems are highly
+    dynamically packed, and appear truncated relative to detection biases.
+    These attributes are consistent with the Kepler sample, and suggest an
+    efficient formation process.
+
+Description:
+    The TESS mission is an all-sky survey searching for transiting
+    exoplanets, and has completed over 4 yr of observations since its
+    launch in 2019. Observations are taken in sectors, each covering
+    24"x96" and lasting ~27d. TESS has completed its Prime (Cycles 1 and
+    2) and First Extended (Cycles 3 and 4) missions, and has reobserved
+    stars across multiple sectors. All of the stars discussed in this
+    paper were observed by TESS for at least one sector. We devote the
+    majority of this paper to discussing a subset of 52 stars that were
+    first observed prior to 2020 February (up to Sector 21, "inital"
+    observations) and then reobserved (albeit not continuously) between
+    2020 February and 2024 March (Sectors 22 to 76, "recent" observations).
+    As well as increasing the baseline of the 52 systems in the 2020
+    sample, we study the 183 TOIs classified as known or candidate
+    multiplanet systems detected as of 2024 July 11.
+
+    In 2020, TESS had completed 21 sectors of observations, and had detected
+    1800 TESS objects of interest (TOIs). Dietrich+ (2020AJ....160..107D)
+    investigated the architectures of the 52 TESS multiplanet systems that
+    had been discovered at the time. In the Prime mission, targets
+    selected for high cadence monitoring were initially observed at 2min
+    cadence, and full-frame images (FFIs) were collected every 30min. 16
+    stars were only observed for one sector, while eight stars had 10 or
+    more sectors of data. We note that only 50 of the 52 TOIs analyzed in
+    Dietrich+ are included in the current sample, as two systems in the
+    original sample currently have only one PC, APC, CP, or KP (TOI-1277
+    and TOI-1449).
+
+    TESS's First Extended mission covered Sectors 27-55 (Cycles 3 and
+    4), and lasted approximately 2yr. For these sectors, an even shorter
+    exposure time of 20s was introduced alongside the 2min cadence,
+    and the FFI exposure time was reduced to 10min. In the Second
+    Extended mission (Cycles 5-7, Sectors 56-96), the FFI exposure
+    time was further reduced to 200s. 5 targets were only observed for
+    one sector out of 54, while 15 of the 52 targets were observed for
+    more than 15 sectors between Sectors 22 and 76.
+
+    In this paper, we first use more recently obtained TESS photometry to
+    assess the performance of the model predictions from the DYNAMITE
+    software package applied by Dietrich+. Next, we broaden our analysis
+    to the current sample of systems with multiple transiting planets or
+    PCs observed by TESS.
+
+File Summary:
+--------------------------------------------------------------------------------
+ FileName    Lrecl    Records    Explanations
+--------------------------------------------------------------------------------
+ReadMe          80          .    This file
+targets.dat     12        183    List of targets (added by CDS)
+table2.dat     118         57    Dynamite V3 predictions for the Dietrich+2020
+                                  (2020AJ....160..107D) data set with the
+                                  Predicted Clustered and Ratio Models
+table3.dat     156        196    Dynamite V3 predictions for the 2024 data set
+                                  with the Period Clustered Model
+table4.dat     156        185    Dynamite V3 predictions for the 2024 data set
+                                  with the Period Ratio Model
+--------------------------------------------------------------------------------
+
+See also:
+ III/135A : Henry Draper Catalogue and Extension (Cannon+ 1918-1924; ADC 1989)
+ V/133 : Kepler Input Catalog (Kepler Mission Team, 2009)
+ IV/39 : TESS Input Catalog version 8.2 (TIC v8.2) (Paegert+, 2021)
+ J/ApJ/693/1084 : Ten new and updated multiplanet systems (Wright+, 2009)
+ J/ApJ/750/113 : Kepler TTVs. II. Confirmed multiplanet systems (Ford+, 2012)
+ J/ApJ/774/L12 : Kepler multiplanet systems analysis (Q1-Q8) (Steffen+, 2013)
+ J/AJ/156/82 : RV characterization of TESS planets (Cloutier+, 2018)
+ J/AJ/157/235 : Observations of the Kepler field with TESS (Christ+, 2019)
+ J/AJ/157/145 : HIRES RVs of three compact, multiplanet systems (Mills+, 2019)
+ J/A+A/633/A53 : TESS planet candidates classification (Osborn+, 2020)
+ J/ApJS/261/26 : Exoplanet host stars from LAMOST, TESS, Kepler & K2 (Su+, 2022)
+ J/AJ/166/33 : TESS-Keck Survey. XV. 108 TESS Planets (MacDougall+, 2023)
+ J/AJ/166/153 : TESS-Keck Survey. XVI. 8 systems Radial velocity (Murphy+, 2023)
+ J/ApJS/272/32 : TKS. XX. Exoplanet masses & orbit parameters (Polanski+, 2024)
+ J/AJ/169/235 : TESS-Keck Survey. XXIV. 47 distant giants RVs (Van Zandt+, 2025)
+ J/AJ/167/189 : Rotation period for 10909 TESS targets (Colman+, 2024)
+ J/AJ/169/76 : Observed & derived parameters of TOI companions (Matson+, 2025)
+ J/AJ/158/243 : A search for multiplanet systems with TESS (Pearson, 2019)
+ http://exofop.ipac.caltech.edu/tess/ : ExoFOP website
+
+Byte-by-byte Description of file: targets.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label Explanations
+--------------------------------------------------------------------------------
+   1- 10 A10    ---     Name  Target name
+      12 A1     ---     D20   Flag indicating that the target was part of the
+                               Dietrich+2020 (2020AJ....160..107D) dataset
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table2.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label   Explanations
+--------------------------------------------------------------------------------
+   1-  9 I9     ---     TIC     [29781292/467179528] Tess Input Catalog
+                                 identifier
+  11- 14 I4     ---     TOI     [119/1749] Tess Object of Interest identifier
+  16- 24 A9     ---     Name    Target name
+  26- 32 F7.3   d       PerPCM  [0.6/152.4]? Period from the Predicted
+                                 Clustered Model (PCM) (1)
+  34- 38 F5.2   d     E_PerPCM  [0/41.7]? Upper uncertainty in PerPCM
+  40- 45 F6.3   d     e_PerPCM  [0/26]? Lower uncertainty in PerPCM
+  47- 50 F4.2   Rgeo    RadPCM  [1/3.3]? Radius from the Predicted Clustered
+                                 Model (PCM) (1)
+  52- 56 F5.3   Rgeo  E_RadPCM  [0.3/1.6]? Upper uncertainty in RadPCM
+  58- 62 F5.3   Rgeo  e_RadPCM  [0.2/0.9]? Lower uncertainty in RadPCM
+  64- 68 F5.2   d       PerPRM  [1.4/80.2]? Period from the Predicted Ratio
+                                 Model (PRM) (1)
+  70- 73 F4.1   d     E_PerPRM  [0.2/32.5]? Upper uncertainty in PerPRM
+  75- 78 F4.1   d     e_PerPRM  [0.2/30.8]? Lower uncertainty in PerPRM
+  80- 83 F4.2   Rgeo    RadPRM  [1.1/3.4]? Radius from the Predicted Ratio
+                                 Model (PRM) (1)
+  85- 88 F4.2   Rgeo  E_RadPRM  [0.3/1.8]? Upper uncertainty in RadPRM
+ 90-  93 F4.2   Rgeo  e_RadPRM  [0.2/0.9]? Lower uncertainty in RadPRM
+ 95- 101 F7.2   ---     TOInew  [174/1749.1]? New TOI discovered since 2020 (2)
+103- 108 F6.2   d       Per     [0/673]? Period of the new TOI (3)
+110- 113 F4.2   Rgeo    Rad     [0.81/3.83]? Radius of the new TOI
+115- 118 F4.2   Rgeo  e_Rad     [0.07/2.66]? Uncertainty in Rad
+--------------------------------------------------------------------------------
+Note (1): For each model, the period and radius at the maximum of the posterior
+   probability distributions are reported.
+Note (2): TOIs discovered in these systems since 2020, with associated period
+   and radius reported on ExoFOP. Two of the systems (TOIs 1730 and 1749) have
+   had multiple new PCs discovered since 2020, which are shown in separate rows.
+Note (3): Typical errors on the period of TOIs reported on ExoFOP are <0.001.
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table3.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label  Explanations
+--------------------------------------------------------------------------------
+  1-  10 A10    ---     Name   Target name
+ 12-  18 F7.3   d       Per    [0.69/692.2] Period
+ 20-  25 F6.3   d     E_Per    [0/61.3] Upper uncertainty in Per
+ 27-  31 F5.2   d     e_Per    [0/79.1] Lower uncertainty in Per
+ 33-  36 F4.2   Rgeo    Rad    [0.9/9.9] Radius
+ 38-  43 F6.3   Rgeo  E_Rad    [0.2/10.4] Upper uncertainty in Rad
+ 45-  49 F5.3   Rgeo  e_Rad    [0.2/2.3] Lower uncertainty in Rad
+ 51-  56 F6.3   Mgeo    Mass   [0.8/65.1] Planet mass
+ 58-  63 F6.2   Mgeo  E_Mass   [1.1/148.9] Upper uncertainty in Mass
+ 65-  70 F6.3   Mgeo  e_Mass   [0.5/21.9] Lower uncertainty in Mass
+ 72-  75 F4.1   deg     i      [81.1/91.3] Inclination
+ 77-  80 F4.1   deg   E_i      [0.8/44.7] Upper uncertainty in i
+ 82-  85 F4.1   deg   e_i      [0.8/44] Lower uncertainty in i
+ 87-  91 F5.3   ---     e      [0.01/0.08] Eccentricity
+ 93-  97 F5.3   ---   E_e      [0.01/0.07] Upper uncertainty in e
+ 99- 103 F5.3   ---   e_e      [0.008/0.04] Lower uncertainty in e
+105- 109 I5     ppm     Depth  [63/13170] Transit depth
+111- 115 I5     ppm   E_Depth  [47/17400] Upper uncertainty in Depth
+117- 121 I5     ppm   e_Depth  [32/11230] Lower uncertainty in Depth
+123- 127 F5.3   ---     Prob   [0.009/1] Transit probability
+129- 133 F5.3   ---   E_Prob   [0.001/0.74] Upper uncertainty in Prob
+135- 139 F5.3   ---   e_Prob   [0.001/0.81] Lower uncertainty in Prob
+141- 145 F5.2   m/s     RVel   [0.23/16] Radial velocity semi-amplitude
+147- 151 F5.2   m/s   E_RVel   [0.18/42.41] Upper uncertainty in RVel
+153- 156 F4.2   m/s   e_RVel   [0.18/8.89] Lower uncertainty in RVel
+--------------------------------------------------------------------------------
+
+Byte-by-byte Description of file: table4.dat
+--------------------------------------------------------------------------------
+   Bytes Format Units   Label  Explanations
+--------------------------------------------------------------------------------
+  1-  10 A10    ---     Name   Target name
+ 12-  17 F6.2   d       Per    [2.5/692.2] Period
+ 19-  24 F6.2   d     E_Per    [0.1/127.5] Upper uncertainty in Per
+ 26-  30 F5.2   d     e_Per    [0/77.6] Lower uncertainty in Per
+ 32-  36 F5.2   Rgeo    Rad    [1.1/12.2] Radius
+ 38-  42 F5.2   Rgeo  E_Rad    [0.3/15] Upper uncertainty in Rad
+ 44-  47 F4.2   Rgeo  e_Rad    [0.28/3.1] Lower uncertainty in Rad
+ 49-  53 F5.2   Mgeo    Mass   [1.25/90] Planet mass
+ 55-  61 F7.2   Mgeo  E_Mass   [2.1/5383.1] Upper uncertainty in Mass
+ 63-  68 F6.3   Mgeo  e_Mass   [0.79/33.4] Lower uncertainty in Mass
+ 70-  73 F4.1   deg     i      [80.3/90.6] Inclination
+ 75-  78 F4.1   deg   E_i      [1.1/43.4] Upper uncertainty in i
+ 80-  83 F4.1   deg   e_i      [0.8/43.2] Lower uncertainty in i
+ 85-  89 F5.3   ---     e      [0.01/0.08] Eccentricity
+ 91-  95 F5.3   ---   E_e      [0.01/0.08] Upper uncertainty in e
+ 97- 101 F5.3   ---   e_e      [0.008/0.04] Lower uncertainty in e
+103- 107 I5     ppm     Depth  [91/19880] Transit depth
+109- 113 I5     ppm   E_Depth  [68/70700] Upper uncertainty in Depth
+115- 119 I5     ppm   e_Depth  [48/23040] Lower uncertainty in Depth
+121- 125 F5.3   ---     Prob   [0.01/0.98] Transit probability
+127- 131 F5.3   ---   E_Prob   [0.004/0.77] Upper uncertainty in Prob
+133- 137 F5.3   ---   e_Prob   [0.001/0.009] Lower uncertainty in Prob
+139- 143 F5.2   m/s     RVel   [0.2/25.4] Radial velocity semi-amplitude
+145- 150 F6.2   m/s   E_RVel   [0.35/511.7] Upper uncertainty in RVel
+152- 156 F5.2   m/s   e_RVel   [0.16/14.6] Lower uncertainty in RVel
+--------------------------------------------------------------------------------
+
+History:
+    From electronic version of the journal
+
+================================================================================
+(End)                    Prepared by [AAS], Robin Leichtnam [CDS]    23-Mar-2026
