@@ -5,38 +5,12 @@
 \providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
 \providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
 
-% type= article
-\bibitem[{ {Astropy Collaboration} {et~al.}(2022){Astropy Collaboration},
-  {Price-Whelan}, {Lim}, {Earl}, {Starkman}, {Bradley}, {Shupe}, {Patil},
-  {et~al.}}]{2022ApJ...935..167A}
-{Astropy Collaboration}, {Price-Whelan}, A.~M., {Lim}, P.~L., {et~al.} 2022,
-  \bibinfo{title}{{The Astropy Project: Sustaining and Growing a
-  Community-oriented Open-source Project and the Latest Major Release (v5.0) of
-  the Core Package},} \apj, 935, 167, \dodoi{10.3847/1538-4357/ac7c74}
-
 % type= misc
-\bibitem[{C.~J. {Burke} {et~al.}(2020){Burke}, {Levine}, {Fausnaugh},
-  {Vanderspek}, {Barclay}, {Libby-Roberts}, {Morris}, {Sipocz}, {Owens},
-  {Feinstein}, {et~al.}}]{2020ascl.soft03001B}
-{Burke}, C.~J., {Levine}, A., {Fausnaugh}, M., {et~al.} 2020, {TESS-Point: High
-  precision TESS pointing tool},, Astrophysics Source Code Library, record
-  ascl:2003.001
-
-% type= article
-\bibitem[{D.~A. {Caldwell} {et~al.}(2020){Caldwell}, {Tenenbaum}, {Twicken},
-  {Jenkins}, {Ting}, {Smith}, {Hedges}, {Fausnaugh},
-  {et~al.}}]{2020RNAAS...4..201C}
-{Caldwell}, D.~A., {Tenenbaum}, P., {Twicken}, J.~D., {et~al.} 2020,
-  \bibinfo{title}{{TESS Science Processing Operations Center FFI Target List
-  Products},} Research Notes of the American Astronomical Society, 4, 201,
-  \dodoi{10.3847/2515-5172/abc9b3}
-
-% type= article
-\bibitem[{D. {Foreman-Mackey} {et~al.}(2013){Foreman-Mackey}, {Hogg}, {Lang},
-  \& {Goodman}}]{2013PASP..125..306F}
-{Foreman-Mackey}, D., {Hogg}, D.~W., {Lang}, D., \& {Goodman}, J. 2013,
-  \bibinfo{title}{{emcee: The MCMC Hammer},} \pasp, 125, 306,
-  \dodoi{10.1086/670067}
+\bibitem[{ {Eumemic}(2026){Eumemic}}]{Eumemic2026}
+{Eumemic}. 2026, Multi-sector TESS transit searches of nearby K and M dwarfs
+  and of TOI hosts, GitHub repository eumemic/exoplanets, first release 2026
+  October 7, accessed 2026 October 13
+  \url{https://github.com/eumemic/exoplanets}
 
 % type= article
 \bibitem[{ {Gaia Collaboration} {et~al.}(2016){Gaia Collaboration}, {Prusti},
@@ -64,78 +38,12 @@
   \dodoi{10.3847/1538-3881/abc6af}
 
 % type= article
-\bibitem[{C.~R. {Harris} {et~al.}(2020){Harris}, {Millman}, {van der Walt},
-  {Gommers}, {Virtanen}, {Cournapeau}, {Wieser}, {Taylor},
-  {et~al.}}]{2020Natur.585..357H}
-{Harris}, C.~R., {Millman}, K.~J., {van der Walt}, S.~J., {et~al.} 2020,
-  \bibinfo{title}{{Array programming with NumPy},} \nat, 585, 357,
-  \dodoi{10.1038/s41586-020-2649-2}
-
-% type= article
-\bibitem[{M. {Hippke} {et~al.}(2019){Hippke}, {David}, {Mulders}, \&
-  {Heller}}]{2019AJ....158..143H}
-{Hippke}, M., {David}, T.~J., {Mulders}, G.~D., \& {Heller}, R. 2019,
-  \bibinfo{title}{{W{\=o}tan: Comprehensive Time-series Detrending in Python},}
-  \aj, 158, 143, \dodoi{10.3847/1538-3881/ab3984}
-
-% type= article
-\bibitem[{C.~X. {Huang} {et~al.}(2020){Huang}, {Vanderburg}, {Pál}, {Sha},
-  {Yu}, {Fong}, {Fausnaugh}, {Shporer}, {Guerrero}, {Vanderspek},
-  {et~al.}}]{2020RNAAS...4..204H}
-{Huang}, C.~X., {Vanderburg}, A., {Pál}, A., {et~al.} 2020,
-  \bibinfo{title}{{Photometry of 10 Million Stars from the First Two Years of
-  TESS Full Frame Images: Part I},} Research Notes of the American Astronomical
-  Society, 4, 204, \dodoi{10.3847/2515-5172/abca2e}
-
-% type= article
-\bibitem[{J.~D. {Hunter}(2007){Hunter}}]{2007CSE.....9...90H}
-{Hunter}, J.~D. 2007, \bibinfo{title}{{Matplotlib: A 2D Graphics Environment},}
-  Computing in Science and Engineering, 9, 90, \dodoi{10.1109/MCSE.2007.55}
-
-% type= inproceedings
 \bibitem[{J.~M. {Jenkins} {et~al.}(2016){Jenkins}, {Twicken}, {McCauliff},
   {Campbell}, {Sanderfer}, {Lung}, {Mansouri-Samani}, {Girouard},
   {et~al.}}]{2016SPIE.9913E..3EJ}
 {Jenkins}, J.~M., {Twicken}, J.~D., {McCauliff}, S., {et~al.} 2016,
-  \bibinfo{title}{{The TESS science processing operations center},} in Society
-  of Photo-Optical Instrumentation Engineers (SPIE) Conference Series, Vol.
-  9913, Software and Cyberinfrastructure for Astronomy IV, 99133E,
-  \dodoi{10.1117/12.2233418}
-
-% type= article
-\bibitem[{G. {Kov{\'a}cs} {et~al.}(2002){Kov{\'a}cs}, {Zucker}, \&
-  {Mazeh}}]{2002A&A...391..369K}
-{Kov{\'a}cs}, G., {Zucker}, S., \& {Mazeh}, T. 2002, \bibinfo{title}{{A
-  box-fitting algorithm in the search for periodic transits},} \aap, 391, 369,
-  \dodoi{10.1051/0004-6361:20020802}
-
-% type= article
-\bibitem[{L. {Kreidberg}(2015){Kreidberg}}]{2015PASP..127.1161K}
-{Kreidberg}, L. 2015, \bibinfo{title}{{batman: BAsic Transit Model cAlculatioN
-  in Python},} \pasp, 127, 1161, \dodoi{10.1086/683602}
-
-% type= misc
-\bibitem[{ {Lightkurve Collaboration} {et~al.}(2018){Lightkurve Collaboration},
-  {Cardoso}, {Hedges}, {Gully-Santiago}, {Saunders}, {Cody}, {Barclay}, {Hall},
-  {Sagear}, {Turtelboom}, {et~al.}}]{2018ascl.soft12013L}
-{Lightkurve Collaboration}, {Cardoso}, J. V. d.~M., {Hedges}, C., {et~al.}
-  2018, {Lightkurve: Kepler and TESS time series analysis in Python},,
-  Astrophysics Source Code Library, record ascl:1812.013
-
-% type= article
-\bibitem[{J.~J. {Lissauer} {et~al.}(2014){Lissauer}, {Marcy}, {Bryson}, {Rowe},
-  {Jontof-Hutter}, {Agol}, {et~al.}}]{2014ApJ...784...44L}
-{Lissauer}, J.~J., {Marcy}, G.~W., {Bryson}, S.~T., {et~al.} 2014,
-  \bibinfo{title}{{Validation of Kepler's Multiple Planet Candidates. II.
-  Refined Statistical Framework and Descriptions of Systems of Special
-  Interest},} \apj, 784, 44, \dodoi{10.1088/0004-637X/784/1/44}
-
-% type= article
-\bibitem[{J.~J. {Lissauer} {et~al.}(2012){Lissauer}, {Marcy}, {Rowe}, {Bryson},
-  {Adams}, {Buchhave}, {et~al.}}]{2012ApJ...750..112L}
-{Lissauer}, J.~J., {Marcy}, G.~W., {Rowe}, J.~F., {et~al.} 2012,
-  \bibinfo{title}{{Almost All of Kepler's Multiple-planet Candidates Are
-  Planets},} \apj, 750, 112, \dodoi{10.1088/0004-637X/750/2/112}
+  \bibinfo{title}{{The TESS science processing operations center},} \procspie,
+  9913, 99133E, \dodoi{10.1117/12.2233418}
 
 % type= article
 \bibitem[{L. {Parc} {et~al.}(2026){Parc}, {Cadieux}, {Grieves}, {Bouchy},
@@ -147,29 +55,12 @@
   Neptune-mass candidate},} \aap, 708, A81, \dodoi{10.1051/0004-6361/202558308}
 
 % type= article
-\bibitem[{H. {Rein} \& S.-F. {Liu}(2012){Rein} \& {Liu}}]{2012A&A...537A.128R}
-{Rein}, H., \& {Liu}, S.-F. 2012, \bibinfo{title}{{REBOUND: an open-source
-  multi-purpose {N}-body code for collisional dynamics},} \aap, 537, A128,
-  \dodoi{10.1051/0004-6361/201118085}
-
-% type= article
 \bibitem[{G.~R. {Ricker} {et~al.}(2015){Ricker}, {Winn}, {Vanderspek},
   {Latham}, {Bakos}, {Bean}, {Berta-Thompson}, {Brown},
   {et~al.}}]{2015JATIS...1a4003R}
 {Ricker}, G.~R., {Winn}, J.~N., {Vanderspek}, R., {et~al.} 2015,
-  \bibinfo{title}{{Transiting Exoplanet Survey Satellite},} Journal of
-  Astronomical Telescopes, Instruments, and Systems, 1, 014003,
+  \bibinfo{title}{{Transiting Exoplanet Survey Satellite},} JATIS, 1, 014003,
   \dodoi{10.1117/1.JATIS.1.1.014003}
-
-% type= article
-\bibitem[{N.~J. {Scott} {et~al.}(2021){Scott}, {Howell}, {Gnilka}, {Stephens},
-  {Salinas}, {Matson}, {Furlan}, {Horch}, {Everett}, {Ciardi},
-  {et~al.}}]{Scott2021}
-{Scott}, N.~J., {Howell}, S.~B., {Gnilka}, C.~L., {et~al.} 2021,
-  \bibinfo{title}{{Twin High-Resolution, High-Speed Imagers for the Gemini
-  Telescopes: Instrument Description and Science Verification Results},}
-  Frontiers in Astronomy and Space Sciences, 8, 716560,
-  \dodoi{10.3389/fspas.2021.716560}
 
 % type= article
 \bibitem[{D. {Tamayo} {et~al.}(2020){Tamayo}, {Cranmer}, {Hadden}, {Rein},
@@ -177,8 +68,7 @@
   {et~al.}}]{2020PNAS..11718194T}
 {Tamayo}, D., {Cranmer}, M., {Hadden}, S., {et~al.} 2020,
   \bibinfo{title}{{Predicting the long-term stability of compact multiplanet
-  systems},} Proceedings of the National Academy of Science, 117, 18194,
-  \dodoi{10.1073/pnas.2001258117}
+  systems},} PNAS, 117, 18194, \dodoi{10.1073/pnas.2001258117}
 
 % type= article
 \bibitem[{E. {Tey} {et~al.}(2023){Tey}, {Huang}, {Kunimoto}, {Vanderburg},
@@ -195,14 +85,6 @@
   2025, \bibinfo{title}{{Searching for Additional Planets in TESS Multiplanet
   Systems: Testing Empirical Models Based on Kepler Data},} \aj, 170, 3,
   \dodoi{10.3847/1538-3881/adcd71}
-
-% type= article
-\bibitem[{P. {Virtanen} {et~al.}(2020){Virtanen}, {Gommers}, {Oliphant},
-  {Haberland}, {Reddy}, {Cournapeau}, {Burovski}, {Peterson},
-  {et~al.}}]{2020NaMet..17..261V}
-{Virtanen}, P., {Gommers}, R., {Oliphant}, T.~E., {et~al.} 2020,
-  \bibinfo{title}{{SciPy 1.0: fundamental algorithms for scientific computing
-  in Python},} Nature Methods, 17, 261, \dodoi{10.1038/s41592-019-0686-2}
 
 % type= article
 \bibitem[{M.~L. {Wood} {et~al.}(2021){Wood}, {Mann}, \&
