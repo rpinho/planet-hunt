@@ -179,6 +179,57 @@ imaging and, ultimately, radial velocities. The real routes for a citizen
 scientist are Planet Hunters TESS (Zooniverse) and, for a well-vetted
 signal, an ExoFOP CTOI submission.
 
+## Where to search: a 2×2
+
+The TESS team's pipelines (SPOC, QLP) already search every 2-min and FFI light
+curve. So the useful question is not just "can we detect it?" but "can we
+detect it where nobody else is looking?". Two axes, four boxes, best box
+top-left by convention:
+
+```
+                    Few others looking       Crowded
+                  ┌──────────────────────┬──────────────────────┐
+  High detection  │  START HERE          │  Already picked over │
+  power for you   │  signals just below  │  bright stars,       │
+                  │  the official SNR    │  strong signals:     │
+                  │  cut that stacking   │  SPOC/QLP usually    │
+                  │  many transits on    │  got them first      │
+                  │  small stars lifts   │                      │
+                  │  into view           │                      │
+                  ├──────────────────────┼──────────────────────┤
+  Low detection   │  Backlog             │  Skip                │
+  power for you   │  single transits,    │                      │
+                  │  stars whose         │                      │
+                  │  rotation swamps     │                      │
+                  │  the search          │                      │
+                  └──────────────────────┴──────────────────────┘
+```
+
+Work the top-left first, and go to the backlog only when it runs dry. A strong
+uncatalogued signal is worth a second look precisely because it is suspicious:
+check the SPOC threshold-crossing events (`vet.py` does) before calling it new.
+
+## Why searches stop at about 30 days
+
+A 365-day planet is not invisible to TESS, but three things favour short orbits:
+
+1. **Baseline.** You need 2–3 transits to measure a period. TESS watches most
+   of the sky for about 27 days per sector. Only the continuous viewing zones
+   near the ecliptic poles get about a year. An Earth twin transits once a
+   year, for about 13 hours. Kepler, which stared at one field for 4 years,
+   found year-long orbits (e.g. Kepler-452b, 385 d).
+2. **Geometry.** A planet transits only if its orbit is edge-on to us. The
+   chance is about R_star / a: roughly 0.5% for an Earth–Sun copy, several
+   percent for a 4-day orbit around a red dwarf.
+3. **Signal.** Small planets are found by stacking many transits. A short
+   period gives you a hundred or more; a one-year period gives a handful.
+
+Red dwarfs soften the cost: they are dim, so their habitable zones sit at
+roughly 10–40-day orbits. TESS observes at 600–1000 nm, where red dwarfs emit
+most of their light; Kepler covered 420–900 nm; ESA's PLATO (500–1000 nm, 26
+small cameras staring at the same fields for 2+ years) is built for the
+year-long orbits that TESS cannot reach.
+
 ## Ideas for extending it (with Claude)
 
 - Use Transit Least Squares (`transitleastsquares` is installed) for better small-planet sensitivity.
