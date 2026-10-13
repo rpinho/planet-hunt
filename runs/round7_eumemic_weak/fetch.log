@@ -1,0 +1,111 @@
+110 stars, 766 sector files planned; free 50.6 GB
+[1/110] {'tic': 80431622, 'ffi_ok': 5, 'ffi_planned': 5} free 50.6 GB 31s
+[2/110] {'tic': 219338378, 'ffi_ok': 7, 'ffi_planned': 7} free 50.6 GB 39s
+[3/110] {'tic': 410443108, 'ffi_ok': 8, 'ffi_planned': 8} free 50.6 GB 49s
+[4/110] {'tic': 140069648, 'ffi_ok': 7, 'ffi_planned': 7} free 50.6 GB 49s
+[5/110] {'tic': 464620974, 'ffi_ok': 7, 'ffi_planned': 7} free 50.6 GB 50s
+[6/110] {'tic': 111227963, 'ffi_ok': 4, 'ffi_planned': 4} free 50.6 GB 81s
+[7/110] {'tic': 259783240, '2min': 'ok', 'ffi_ok': 5, 'ffi_planned': 5} free 50.6 GB 107s
+[8/110] {'tic': 7143366, '2min': 'ok', 'ffi_ok': 4, 'ffi_planned': 4} free 50.6 GB 111s
+[9/110] {'tic': 161458236, '2min': 'ok', 'ffi_ok': 5, 'ffi_planned': 5} free 50.6 GB 117s
+[10/110] {'tic': 238813286, '2min': 'ok', 'ffi_ok': 8, 'ffi_planned': 8} free 50.6 GB 129s
+[11/110] {'tic': 120586821, 'ffi_ok': 6, 'ffi_planned': 6} free 50.6 GB 133s
+[12/110] {'tic': 325385847, 'ffi_ok': 4, 'ffi_planned': 4} free 50.6 GB 140s
+[13/110] {'tic': 234299972, '2min': 'ok', 'ffi_ok': 5, 'ffi_planned': 5} free 50.6 GB 142s
+[14/110] {'tic': 231268304, 'ffi_ok': 7, 'ffi_planned': 7} free 50.6 GB 152s
+[15/110] {'tic': 469874861, 'ffi_ok': 6, 'ffi_planned': 6} free 50.6 GB 154s
+[16/110] {'tic': 355545170, 'ffi_ok': 8, 'ffi_planned': 8} free 50.6 GB 193s
+[17/110] {'tic': 144439305, 'ffi_ok': 6, 'ffi_planned': 6} free 50.6 GB 198s
+[18/110] {'tic': 422880113, 'ffi_ok': 7, 'ffi_planned': 7} free 50.6 GB 201s
+[19/110] {'tic': 235010431, 'ffi_ok': 7, 'ffi_planned': 7} free 50.6 GB 209s
+[20/110] {'tic': 2027133756, 'ffi_ok': 3, 'ffi_planned': 3} free 50.6 GB 218s
+[21/110] {'tic': 201289095, 'ffi_ok': 11, 'ffi_planned': 11} free 50.6 GB 228s
+[22/110] {'tic': 49623957, 'ffi_ok': 4, 'ffi_planned': 4} free 50.6 GB 229s
+[23/110] {'tic': 115347568, 'ffi_ok': 4, 'ffi_planned': 4} free 50.6 GB 232s
+[24/110] {'tic': 319246937, '2min': 'ok', 'ffi_ok': 5, 'ffi_planned': 5} free 50.6 GB 247s
+[25/110] {'tic': 342151941, 'ffi_ok': 6, 'ffi_planned': 6} free 50.6 GB 248s
+[26/110] {'tic': 234298028, 'ffi_ok': 7, 'ffi_planned': 7} free 50.6 GB 258s
+[27/110] {'tic': 395108648, 'ffi_ok': 7, 'ffi_planned': 7} free 50.6 GB 263s
+[28/110] {'tic': 115356289, 'ffi_ok': 4, 'ffi_planned': 4} free 50.6 GB 278s
+[29/110] {'tic': 419609686, 'ffi_ok': 6, 'ffi_planned': 6} free 50.6 GB 279s
+[30/110] {'tic': 409858636, 'ffi_ok': 9, 'ffi_planned': 9} free 50.5 GB 285s
+[31/110] {'tic': 352405596, 'ffi_ok': 7, 'ffi_planned': 7} free 50.6 GB 288s
+[32/110] {'tic': 372106864, 'ffi_ok': 7, 'ffi_planned': 7} free 50.5 GB 307s
+[33/110] {'tic': 257463364, 'ffi_ok': 11, 'ffi_planned': 11} free 50.5 GB 325s
+[34/110] {'tic': 450827167, 'ffi_ok': 8, 'ffi_planned': 8} free 50.5 GB 331s
+[35/110] {'tic': 396169984, 'ffi_ok': 10, 'ffi_planned': 10} free 50.5 GB 347s
+[36/110] {'tic': 387266782, '2min': 'ok', 'ffi_ok': 4, 'ffi_planned': 4} free 50.5 GB 358s
+[37/110] {'tic': 355687587, '2min': 'ok', 'ffi_ok': 8, 'ffi_planned': 8} free 50.5 GB 367s
+[38/110] {'tic': 290369580, 'ffi_ok': 7, 'ffi_planned': 7} free 50.5 GB 367s
+[39/110] {'tic': 321981039, '2min': 'ok', 'ffi_ok': 5, 'ffi_planned': 5} free 50.5 GB 371s
+[40/110] {'tic': 403208541, '2min': 'ok', 'ffi_ok': 6, 'ffi_planned': 6} free 50.5 GB 396s
+[41/110] {'tic': 369579378, 'ffi_ok': 6, 'ffi_planned': 6} free 50.5 GB 412s
+[42/110] {'tic': 234298748, '2min': 'ok', 'ffi_ok': 7, 'ffi_planned': 7} free 50.5 GB 415s
+[43/110] {'tic': 389149025, 'ffi_ok': 5, 'ffi_planned': 5} free 50.5 GB 431s
+[44/110] {'tic': 70553159, '2min': 'ok', 'ffi_ok': 2, 'ffi_planned': 2} free 50.5 GB 433s
+[45/110] {'tic': 119876352, 'ffi_ok': 5, 'ffi_planned': 5} free 50.5 GB 443s
+[46/110] {'tic': 355738167, '2min': 'ok', 'ffi_ok': 7, 'ffi_planned': 7} free 50.5 GB 453s
+[47/110] {'tic': 161376559, '2min': 'ok', 'ffi_ok': 5, 'ffi_planned': 5} free 50.5 GB 458s
+[48/110] {'tic': 277803435, 'ffi_ok': 9, 'ffi_planned': 9} free 50.5 GB 468s
+[49/110] {'tic': 116660700, 'ffi_ok': 6, 'ffi_planned': 6} free 50.5 GB 494s
+[50/110] {'tic': 231706739, '2min': 'ok', 'ffi_ok': 3, 'ffi_planned': 3} free 50.5 GB 497s
+[51/110] {'tic': 281591952, 'ffi_ok': 10, 'ffi_planned': 10} free 50.5 GB 499s
+[52/110] {'tic': 161208104, '2min': 'ok', 'ffi_ok': 4, 'ffi_planned': 4} free 50.5 GB 510s
+[53/110] {'tic': 277803433, 'ffi_ok': 9, 'ffi_planned': 9} free 50.5 GB 516s
+[54/110] {'tic': 220488995, '2min': 'ok', 'ffi_ok': 6, 'ffi_planned': 6} free 50.5 GB 518s
+[55/110] {'tic': 139458319, 'ffi_ok': 4, 'ffi_planned': 4} free 50.5 GB 522s
+[56/110] {'tic': 320204496, '2min': 'ok', 'ffi_ok': 6, 'ffi_planned': 6} free 50.5 GB 572s
+[57/110] {'tic': 231865504, 'ffi_ok': 8, 'ffi_planned': 8} free 50.5 GB 574s
+[58/110] {'tic': 406277365, 'ffi_ok': 11, 'ffi_planned': 11} free 50.5 GB 575s
+[59/110] {'tic': 404289580, '2min': 'ok', 'ffi_ok': 6, 'ffi_planned': 6} free 50.5 GB 587s
+[60/110] {'tic': 360740748, '2min': 'ok', 'ffi_ok': 6, 'ffi_planned': 6} free 50.5 GB 596s
+[61/110] {'tic': 404452683, '2min': 'ok', 'ffi_ok': 1, 'ffi_planned': 1} free 50.5 GB 626s
+[62/110] {'tic': 281656667, 'ffi_ok': 10, 'ffi_planned': 10} free 50.5 GB 628s
+[63/110] {'tic': 387263115, '2min': 'ok', 'ffi_ok': 6, 'ffi_planned': 6} free 50.5 GB 638s
+[64/110] {'tic': 381923220, '2min': 'ok', 'ffi_ok': 7, 'ffi_planned': 7} free 50.5 GB 644s
+[65/110] {'tic': 257567390, '2min': 'ok', 'ffi_ok': 1, 'ffi_planned': 1} free 50.5 GB 674s
+[66/110] {'tic': 155941095, 'ffi_ok': 8, 'ffi_planned': 8} free 50.5 GB 676s
+[67/110] {'tic': 206354321, '2min': 'ok', 'ffi_ok': 5, 'ffi_planned': 5} free 50.5 GB 688s
+[68/110] {'tic': 408037269, '2min': 'ok', 'ffi_ok': 1, 'ffi_planned': 1} free 50.5 GB 707s
+[69/110] {'tic': 100066059, 'ffi_ok': 8, 'ffi_planned': 8} free 50.5 GB 729s
+[70/110] {'tic': 79180679, 'ffi_ok': 6, 'ffi_planned': 6} free 50.5 GB 740s
+[71/110] {'tic': 292330430, 'ffi_ok': 9, 'ffi_planned': 9} free 50.5 GB 741s
+[72/110] {'tic': 419791995, '2min': 'ok', 'ffi_ok': 7, 'ffi_planned': 7} free 50.5 GB 744s
+[73/110] {'tic': 257500473, '2min': 'ok', 'ffi_ok': 2, 'ffi_planned': 2} free 50.5 GB 766s
+[74/110] {'tic': 351339274, '2min': 'ok', 'ffi_ok': 4, 'ffi_planned': 4} free 50.5 GB 776s
+[75/110] {'tic': 231024400, '2min': 'ok', 'ffi_ok': 5, 'ffi_planned': 5} free 50.5 GB 806s
+[76/110] {'tic': 77111228, '2min': 'ok', 'ffi_ok': 2, 'ffi_planned': 2} free 50.4 GB 819s
+[77/110] {'tic': 277775567, 'ffi_ok': 10, 'ffi_planned': 10} free 50.4 GB 824s
+[78/110] {'tic': 201287627, '2min': 'ok', 'ffi_ok': 9, 'ffi_planned': 9} free 50.4 GB 826s
+[79/110] {'tic': 410371059, 'ffi_ok': 8, 'ffi_planned': 8} free 50.4 GB 829s
+[80/110] {'tic': 299754340, 'ffi_ok': 6, 'ffi_planned': 6} free 50.4 GB 863s
+[81/110] {'tic': 407734245, 'ffi_ok': 6, 'ffi_planned': 6} free 50.4 GB 864s
+[82/110] {'tic': 295047206, 'ffi_ok': 8, 'ffi_planned': 8} free 50.4 GB 868s
+[83/110] {'tic': 466306858, '2min': 'ok', 'ffi_ok': 6, 'ffi_planned': 6} free 50.4 GB 900s
+[84/110] {'tic': 166422847, '2min': 'ok', 'ffi_ok': 4, 'ffi_planned': 4} free 50.4 GB 927s
+[85/110] {'tic': 144003231, 'ffi_ok': 7, 'ffi_planned': 7} free 50.4 GB 932s
+[86/110] {'tic': 201294141, '2min': 'ok', 'ffi_ok': 9, 'ffi_planned': 9} free 50.4 GB 939s
+[87/110] {'tic': 91514466, '2min': 'ok', 'ffi_ok': 2, 'ffi_planned': 2} free 50.4 GB 949s
+[88/110] {'tic': 222188854, 'ffi_ok': 3, 'ffi_planned': 3} free 50.4 GB 952s
+[89/110] {'tic': 403236288, '2min': 'ok', 'ffi_ok': 6, 'ffi_planned': 6} free 50.4 GB 956s
+[90/110] {'tic': 219121412, '2min': 'ok', 'ffi_ok': 6, 'ffi_planned': 6} free 50.4 GB 974s
+[91/110] {'tic': 219309872, 'ffi_ok': 7, 'ffi_planned': 7} free 50.4 GB 986s
+[92/110] {'tic': 49450836, 'ffi_ok': 6, 'ffi_planned': 6} free 50.4 GB 990s
+[93/110] {'tic': 281499025, 'ffi_ok': 11, 'ffi_planned': 11} free 50.4 GB 1022s
+[94/110] {'tic': 80262344, '2min': 'ok', 'ffi_ok': 4, 'ffi_planned': 4} free 50.4 GB 1025s
+[95/110] {'tic': 118586898, 'ffi_ok': 5, 'ffi_planned': 5} free 50.4 GB 1034s
+[96/110] {'tic': 220378788, 'ffi_ok': 7, 'ffi_planned': 7} free 50.4 GB 1038s
+[97/110] {'tic': 139200209, '2min': 'ok', 'ffi_ok': 3, 'ffi_planned': 3} free 50.4 GB 1052s
+[98/110] {'tic': 237313698, 'ffi_ok': 6, 'ffi_planned': 6} free 50.4 GB 1088s
+[99/110] {'tic': 270188035, 'ffi_ok': 6, 'ffi_planned': 7} free 50.4 GB 1088s
+[100/110] {'tic': 341307991, '2min': 'ok', 'ffi_ok': 6, 'ffi_planned': 6} free 50.4 GB 1090s
+[101/110] {'tic': 293568983, 'ffi_ok': 8, 'ffi_planned': 8} free 50.4 GB 1118s
+[102/110] {'tic': 387132154, 'ffi_ok': 11, 'ffi_planned': 11} free 50.4 GB 1127s
+[103/110] {'tic': 122847583, '2min': 'ok', 'ffi_ok': 4, 'ffi_planned': 4} free 50.4 GB 1149s
+[104/110] {'tic': 161384122, '2min': 'ok', 'ffi_ok': 6, 'ffi_planned': 6} free 50.4 GB 1162s
+[105/110] {'tic': 213945195, 'ffi_ok': 6, 'ffi_planned': 6} free 50.4 GB 1169s
+[106/110] {'tic': 201251602, 'ffi_ok': 11, 'ffi_planned': 11} free 50.4 GB 1174s
+[107/110] {'tic': 161439851, '2min': 'ok', 'ffi_ok': 3, 'ffi_planned': 3} free 50.4 GB 1186s
+[108/110] {'tic': 403209095, '2min': 'ok', 'ffi_ok': 6, 'ffi_planned': 6} free 50.4 GB 1187s
+[109/110] {'tic': 320659505, 'ffi_ok': 7, 'ffi_planned': 7} free 50.4 GB 1191s
+[110/110] {'tic': 355638067, 'ffi_ok': 9, 'ffi_planned': 9} free 50.4 GB 1195s

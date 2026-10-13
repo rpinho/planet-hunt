@@ -1,0 +1,67 @@
+\documentclass{aastex701}
+
+\shorttitle{A candidate 0.94-day planet around TIC 144439305}
+\shortauthors{Pinho}
+
+\begin{document}
+
+\title{A Candidate 1.2 Earth-radius Planet on a 0.94-day Orbit around the Nearby M Dwarf TIC 144439305}
+
+\author[orcid=0009-0006-2744-2599,gname=Ricardo,sname=Pinho]{Ricardo Pinho}
+\affiliation{Independent researcher}
+\email{pinho.ricardo@gmail.com}
+
+\begin{abstract}
+I report a candidate ultra-short-period planet around TIC 144439305, an M dwarf at 62\,pc. \citet{Eumemic2026} list the signal, unvetted, in a public table of TESS search signals below their vetting threshold. With the ephemeris fixed from the light curves that search used, the transit reappears in QLP light curves it did not read ($z=5.2$) and in my photometry of Sectors 105--106 ($z=5.0$). The combined data give $P=0.9398094$\,d, a depth of about 570\,ppm and $R_p=1.23^{+0.12}_{-0.09}\,R_\oplus$. Difference images favor the target over every Gaia neighbor, Gaia radial velocities exclude an eclipsing stellar companion to the target, and TRICERATOPS with Gaia-based companion limits gives a false-positive probability of 0.008. Lacking high-resolution imaging, I do not claim validation. Of 120 weak signals tested this way, about one was expected to pass by chance.
+\end{abstract}
+
+\keywords{\uat{Exoplanet detection methods}{489} --- \uat{Exoplanets}{498} --- \uat{M dwarf stars}{982} --- \uat{Transit photometry}{1709}}
+
+\section{Introduction}
+
+\citet{Eumemic2026} published every box least-squares signal from several multi-sector TESS \citep{2015JATIS...1a4003R} searches of about 130,000 stars, mostly K and M dwarfs, but vetted only signals with signal-to-noise ratio (SNR) $\ge9$. As that repository notes, its reader also skipped QLP light curves with empty uncertainty columns in Sectors 94--97 and 101--104. I tested whether sub-threshold signals reproduce in TESS data that search did not use. One, on TIC 144439305, does. Eumemic lists it (SNR 8.35, the strongest of three signals on this star) but did not vet or promote it; I recover it in independent data.
+
+\section{Test}
+
+From the 264,468 listed signals I selected 120 with SNR 6--9, at least three transits and small host stars, choosing those with the most unused data. I fixed the test before seeing results. A narrow box least-squares search \citep{2002A&A...391..369K} of the light curves the search used gives the ephemeris; the depth at that ephemeris in the unused data alone, divided by its uncertainty, gives a hold-out statistic $z$. Survivors need $z\ge2.5$, a consistent depth, SNR $\ge8$ on all data, and no odd--even, secondary-eclipse or seasonal inconsistency. I used TESS-SPOC \citep{2020RNAAS...4..201C} and QLP \citep{2020RNAAS...4..204H} light curves, detrended with a biweight filter \citep{2019AJ....158..143H}.
+
+Two signals survived. The hold-out criteria applied at 300 random ephemerides per star predict about one survivor from noise; on inverted light curves none of the 120 survive. Injected transits at each signal's depth pass 46\% of the time, so a signal that fails is not thereby shown to be false. One survivor (TIC 119876352) shows periodic stellar variability, not a transit; the other is TIC 144439305.
+
+\section{TIC 144439305}
+
+TIC 144439305 (Gaia DR3 6532568669359184000; $T=12.15$; parallax $16.074\pm0.015$\,mas; RUWE 1.07) has $T_{\rm eff}=3505\pm157$\,K, $R_\star=0.465\pm0.014\,R_\odot$ and $M_\star=0.462\pm0.020\,M_\odot$ \citep{2019AJ....158..138S,2016A&A...595A...1G,2023A&A...674A...1G}.
+
+TESS-SPOC light curves of Sectors 2, 29 and 69, which the search used, give $590\pm94$\,ppm. At their ephemeris, QLP light curves of Sectors 96, 103 and 104 give $468\pm91$\,ppm ($z=5.2$); none of 300 random ephemerides exceeded $z=2.4$. Background-subtracted aperture photometry of TESScut \citep{2019ascl.soft05007B} images from Sectors 105 and 106, which had no light-curve products at MAST on 2026 October 13, gives $683\pm138$\,ppm ($z=5.0$; up to 6.6 with other aperture and systematics choices). An independent re-reduction (raw files, different detrending, separate code) reproduces the first two depths within $1\sigma$, and per-sector depths agree (Figure~\ref{fig:1}).
+
+A blind search over 0.5--2\,d returns this period as the strongest peak. Per-sector transit times (QLP times in Sectors 103--104 carry a known error of minutes, within the scatter) give $P=0.9398094\pm0.0000023$\,d and $T_0=2460155.4571\pm0.0027$ BJD$_{\rm TDB}$. A limb-darkened fit to all eight sectors gives $R_p/R_\star=0.0242^{+0.0024}_{-0.0015}$ and $b=0.55^{+0.31}_{-0.37}$; the fitted stellar density, $5.0^{+4.0}_{-3.8}$\,g\,cm$^{-3}$, is consistent with the catalog value (6.5). Thus $R_p=1.23^{+0.12}_{-0.09}\,R_\oplus$, with an insolation of about 140 times Earth's. Odd and even transits agree ($1.3\sigma$), and the depth at phase 0.5 is $27\pm66$\,ppm.
+
+\section{Vetting}
+
+Fitting each sector's TESScut difference image with sources at the Gaia positions, the target fits best in 7 of 8 sectors, and the three Gaia stars within $63''$ ($T=14.2$--18.8, $25''$--$48''$ away) fit worse than the target by $\Delta\chi^2\ge25$. The best-fit position lies $9.9\pm6.0''$ (jackknife error) from the target, and the depth does not change with aperture size. Gaia DR3 measured a constant radial velocity over 24 epochs ($p=0.95$; robust peak-to-peak amplitude 9.3\,km\,s$^{-1}$; \citealt{2023A&A...674A...5K}), whereas a stellar companion ($\ge0.08\,M_\odot$) eclipsing the target on this orbit would give $K\ge26$\,km\,s$^{-1}$.
+
+TRICERATOPS \citep{2021AJ....161...24G} gives a false-positive probability (FPP) of $0.078\pm0.002$ and a nearby-false-positive probability (NFPP) of 0.002, dominated by a planet around an unresolved bound companion. Adding MOLUSC \citep{2021AJ....162..128W} Gaia limits on bound companions, and clearing the neighbors that the pixel fits exclude or that cannot reproduce the depth (all but the $T=18.8$ star at $25''$), gives FPP $=0.008\pm0.002$ and NFPP $=4\times10^{-5}$. This is formally below the validation thresholds (FPP $<0.015$, NFPP $<0.001$), but with no high-resolution imaging, companions within about $1''$ are constrained only by Gaia and priors. I therefore report a candidate.
+
+\section{Follow-up, data and code}
+
+TESS will not observe the star again through Sector 134. Transits recur every 22.6\,hours at $T_n=2460155.4571+0.9398094\,n$ BJD$_{\rm TDB}$ ($\pm6$\,minutes through mid-2027); a 570\,ppm, one-hour transit is within reach of 1--2\,m telescopes over several nights, and speckle imaging would test the bound-companion scenario. Data: MAST, \dataset[doi:10.17909/t9-wpz1-8s54]{https://doi.org/10.17909/t9-wpz1-8s54}, \dataset[doi:10.17909/t9-r086-e880]{https://doi.org/10.17909/t9-r086-e880} and \dataset[doi:10.17909/0cp4-2j79]{https://doi.org/10.17909/0cp4-2j79}. Code: \url{https://github.com/rpinho/planet-hunt} (branch \texttt{round7-rnaas}).
+
+\begin{figure}[ht!]
+\plotone{fig1.pdf}
+\caption{(a) Light curves folded on the ephemeris (10-minute bins) for three independent data sets, with the best-fit model. (b) Depth at the ephemeris per sector: TESS-SPOC (circles), QLP (squares) and my TESScut aperture photometry (diamonds); line: mean of the six light-curve sectors.\label{fig:1}}
+\end{figure}
+
+\begin{acknowledgments}
+I thank Eumemic for publishing the full signal tables. This paper includes data collected by the TESS mission, funded by NASA's Science Mission Directorate. This research has made use of the Exoplanet Follow-up Observation Program (ExoFOP; DOI: 10.26134/ExoFOP5) website, which is operated by the California Institute of Technology, under contract with the National Aeronautics and Space Administration under the Exoplanet Exploration Program. This work has made use of data from the European Space Agency (ESA) mission {\it Gaia} (\url{https://www.cosmos.esa.int/gaia}), processed by the {\it Gaia} Data Processing and Analysis Consortium (DPAC, \url{https://www.cosmos.esa.int/web/gaia/dpac/consortium}). Funding for the DPAC has been provided by national institutions, in particular the institutions participating in the {\it Gaia} Multilateral Agreement.
+\end{acknowledgments}
+
+\section*{AI Disclosure Statement}
+Generative AI was used extensively. Claude Opus 5.5 (Anthropic) wrote and ran the analysis code, carried out the data retrieval, vetting and statistical tests, searched the literature, and drafted the text, figure and bibliography.
+
+\facilities{TESS, Gaia, ExoFOP}
+
+\software{astropy, astroquery, Astrocut, batman, emcee, lightkurve, matplotlib, MOLUSC, numpy, scipy, tess-point, TRICERATOPS, wotan}
+
+\bibliography{rnaas_tic144439305}{}
+\bibliographystyle{aasjournalv7}
+
+\end{document}

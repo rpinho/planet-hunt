@@ -1,0 +1,15 @@
+The archive will be unavailable on Wednesday 14 October 2026 11:00-12:00 CEST for deployment of Gaia archive release 3.15.
+Star RA: 23h55m28.1954s
+Star DEC: -44d07m25.3624s
+Star Mass: 0.462
+Generating Companions..
+Generation Mass Ratio Exponent:  0.0
+Companions Generated
+Number of companions: 500000
+Analyzing RUWE...
+Analyzing Gaia Contrast...
+LOADING STELLAR MODEL...
+WARNING: More than one source within 10 arcseconds of given coordinates. Closest one used.
+Star Model Mag 9.286669750815301
+Total number of surviving binaries: 235272
+Surviving binary parameters saved to: ~/.worktrees/planet-hunt-r7-eumemic-weak/runs/round7_eumemic_weak/tri/molusc_144439305_kept.csv

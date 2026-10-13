@@ -1,0 +1,13 @@
+step,n
+all signals,264468
+6.0 <= snr < 9.0,134403
+>= 3 good transits,107844
+P >= 0.5 d,107841
+not repeat / rotation alias / TOI alias,98107
+stellar density > 2.5 g/cc (small star proxy),78000
+"odd/even < 3 sigma, secondary < 3 sigma",71385
+no single dominant event,61990
+duration consistent with the star,54476
+SDE >= 8.0,35560
+deduplicated across his tables,35435
+not in his lists (any tier) nor TOI/CTOI/confirmed at an alias,35407

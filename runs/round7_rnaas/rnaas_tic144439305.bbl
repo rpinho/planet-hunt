@@ -1,0 +1,109 @@
+\begin{thebibliography}{}
+\expandafter\ifx\csname natexlab\endcsname\relax\def\natexlab#1{#1}\fi
+\providecommand{\url}[1]{\href{#1}{#1}}
+\providecommand{\dodoi}[1]{doi:~\href{http://doi.org/#1}{\nolinkurl{#1}}}
+\providecommand{\doeprint}[1]{\href{http://ascl.net/#1}{\nolinkurl{http://ascl.net/#1}}}
+\providecommand{\doarXiv}[1]{\href{https://arxiv.org/abs/#1}{\nolinkurl{https://arxiv.org/abs/#1}}}
+
+% type= misc
+\bibitem[{C.~E. {Brasseur} {et~al.}(2019){Brasseur}, {Phillip}, {Fleming},
+  {Mullally}, \& {White}}]{2019ascl.soft05007B}
+{Brasseur}, C.~E., {Phillip}, C., {Fleming}, S.~W., {Mullally}, S.~E., \&
+  {White}, R.~L. 2019, Astrocut: Tools for creating cutouts of TESS images,
+  Astrophysics Source Code Library, record ascl:1905.007
+
+% type= article
+\bibitem[{D.~A. {Caldwell} {et~al.}(2020){Caldwell}, {Tenenbaum}, {Twicken},
+  {Jenkins}, {Ting}, {Smith}, {Hedges}, {Fausnaugh},
+  {et~al.}}]{2020RNAAS...4..201C}
+{Caldwell}, D.~A., {Tenenbaum}, P., {Twicken}, J.~D., {et~al.} 2020,
+  \bibinfo{title}{{TESS Science Processing Operations Center FFI Target List
+  Products},} RNAAS, 4, 201, \dodoi{10.3847/2515-5172/abc9b3}
+
+% type= misc
+\bibitem[{ {Eumemic}(2026){Eumemic}}]{Eumemic2026}
+{Eumemic}. 2026, Multi-sector TESS transit searches of nearby K and M dwarfs
+  and of TOI hosts, GitHub repository eumemic/exoplanets, first release 2026
+  October 7, accessed 2026 October 13
+  \url{https://github.com/eumemic/exoplanets}
+
+% type= article
+\bibitem[{ {Gaia Collaboration} {et~al.}(2016){Gaia Collaboration}, {Prusti},
+  {de Bruijne}, {Brown}, {Vallenari}, {Babusiaux}, {Bailer-Jones}, {Bastian},
+  {et~al.}}]{2016A&A...595A...1G}
+{Gaia Collaboration}, {Prusti}, T., {de Bruijne}, J.~H.~J., {et~al.} 2016,
+  \bibinfo{title}{{The Gaia mission},} \aap, 595, A1,
+  \dodoi{10.1051/0004-6361/201629272}
+
+% type= article
+\bibitem[{ {Gaia Collaboration} {et~al.}(2023){Gaia Collaboration},
+  {Vallenari}, {Brown}, {Prusti}, {de Bruijne}, {Arenou}, {Babusiaux},
+  {Biermann}, {et~al.}}]{2023A&A...674A...1G}
+{Gaia Collaboration}, {Vallenari}, A., {Brown}, A.~G.~A., {et~al.} 2023,
+  \bibinfo{title}{{Gaia Data Release 3. Summary of the content and survey
+  properties},} \aap, 674, A1, \dodoi{10.1051/0004-6361/202243940}
+
+% type= article
+\bibitem[{S. {Giacalone} {et~al.}(2021){Giacalone}, {Dressing}, {Jensen},
+  {Collins}, {Ricker}, {Vanderspek}, {Seager}, {Winn},
+  {et~al.}}]{2021AJ....161...24G}
+{Giacalone}, S., {Dressing}, C.~D., {Jensen}, E. L.~N., {et~al.} 2021,
+  \bibinfo{title}{{Vetting of 384 TESS Objects of Interest with TRICERATOPS and
+  Statistical Validation of 12 Planet Candidates},} \aj, 161, 24,
+  \dodoi{10.3847/1538-3881/abc6af}
+
+% type= article
+\bibitem[{M. {Hippke} {et~al.}(2019){Hippke}, {David}, {Mulders}, \&
+  {Heller}}]{2019AJ....158..143H}
+{Hippke}, M., {David}, T.~J., {Mulders}, G.~D., \& {Heller}, R. 2019,
+  \bibinfo{title}{{W{\=o}tan: Comprehensive Time-series Detrending in Python},}
+  \aj, 158, 143, \dodoi{10.3847/1538-3881/ab3984}
+
+% type= article
+\bibitem[{C.~X. {Huang} {et~al.}(2020){Huang}, {Vanderburg}, {P{\'a}l}, {Sha},
+  {Yu}, {Fong}, {Fausnaugh}, {Shporer}, {Guerrero}, {Vanderspek},
+  {et~al.}}]{2020RNAAS...4..204H}
+{Huang}, C.~X., {Vanderburg}, A., {P{\'a}l}, A., {et~al.} 2020,
+  \bibinfo{title}{{Photometry of 10 Million Stars from the First Two Years of
+  TESS Full Frame Images: Part I},} RNAAS, 4, 204,
+  \dodoi{10.3847/2515-5172/abca2e}
+
+% type= article
+\bibitem[{D. {Katz} {et~al.}(2023){Katz}, {Sartoretti}, {Guerrier}, {Panuzzo},
+  {Seabroke}, {Th{\'e}venin}, {Cropper}, {Benson},
+  {et~al.}}]{2023A&A...674A...5K}
+{Katz}, D., {Sartoretti}, P., {Guerrier}, A., {et~al.} 2023,
+  \bibinfo{title}{{Gaia Data Release 3. Properties and validation of the radial
+  velocities},} \aap, 674, A5, \dodoi{10.1051/0004-6361/202244220}
+
+% type= article
+\bibitem[{G. {Kov{\'a}cs} {et~al.}(2002){Kov{\'a}cs}, {Zucker}, \&
+  {Mazeh}}]{2002A&A...391..369K}
+{Kov{\'a}cs}, G., {Zucker}, S., \& {Mazeh}, T. 2002, \bibinfo{title}{{A
+  box-fitting algorithm in the search for periodic transits},} \aap, 391, 369,
+  \dodoi{10.1051/0004-6361:20020802}
+
+% type= article
+\bibitem[{G.~R. {Ricker} {et~al.}(2015){Ricker}, {Winn}, {Vanderspek},
+  {Latham}, {Bakos}, {Bean}, {Berta-Thompson}, {Brown},
+  {et~al.}}]{2015JATIS...1a4003R}
+{Ricker}, G.~R., {Winn}, J.~N., {Vanderspek}, R., {et~al.} 2015,
+  \bibinfo{title}{{Transiting Exoplanet Survey Satellite},} JATIS, 1, 014003,
+  \dodoi{10.1117/1.JATIS.1.1.014003}
+
+% type= article
+\bibitem[{K.~G. {Stassun} {et~al.}(2019){Stassun}, {Oelkers}, {Paegert},
+  {Torres}, {Pepper}, {De Lee}, {Collins}, {Latham},
+  {et~al.}}]{2019AJ....158..138S}
+{Stassun}, K.~G., {Oelkers}, R.~J., {Paegert}, M., {et~al.} 2019,
+  \bibinfo{title}{{The Revised TESS Input Catalog and Candidate Target List},}
+  \aj, 158, 138, \dodoi{10.3847/1538-3881/ab3467}
+
+% type= article
+\bibitem[{M.~L. {Wood} {et~al.}(2021){Wood}, {Mann}, \&
+  {Kraus}}]{2021AJ....162..128W}
+{Wood}, M.~L., {Mann}, A.~W., \& {Kraus}, A.~L. 2021,
+  \bibinfo{title}{{Characterizing Undetected Stellar Companions with Combined
+  Data Sets},} \aj, 162, 128, \dodoi{10.3847/1538-3881/ac0ae9}
+
+\end{thebibliography}
