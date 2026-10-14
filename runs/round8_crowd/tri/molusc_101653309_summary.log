@@ -1,0 +1,14 @@
+Analyzing Gaia Contrast...
+Analyzing RUWE...
+Companions Generated
+Generating Companions..
+Generation Mass Ratio Exponent:  0.0
+LOADING STELLAR MODEL...
+Number of companions: 500000
+Star DEC: -49d17m43.2531s
+Star Mass: 0.456268
+Star Model Mag 9.333005975154588
+Star RA: 20h10m45.4296s
+Surviving binary parameters saved to: ./runs/round8_crowd/tri/molusc_101653309_kept.csv
+Total number of surviving binaries: 238029
+WARNING: More than one source within 10 arcseconds of given coordinates. Closest one used.

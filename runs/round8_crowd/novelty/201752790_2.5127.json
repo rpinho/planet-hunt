@@ -1,0 +1,35 @@
+{
+ "tic": 201752790,
+ "P": 2.5126571425312205,
+ "checked_utc": "2026-10-14T02:22:21Z",
+ "toi_same_star": [],
+ "ctoi_same_star": [],
+ "toi_ctoi_cone3_alias": [],
+ "exofop_page": {
+  "imaging": 0,
+  "spectroscopy": 0,
+  "tseries": 0,
+  "notes": 0,
+  "planet_parameters": 0,
+  "tois": 0,
+  "ctois": 0,
+  "files": 0
+ },
+ "nea_pscomppars": [],
+ "nea_toi": [],
+ "known_table_same_star": [],
+ "mast_dv_products": 0,
+ "arxiv_tic": 0,
+ "arxiv_gaia": 0,
+ "zenodo": [],
+ "zenodo_bare": [],
+ "pht_talk": [],
+ "pht_talk_bare": [],
+ "github_code": "error gh: Request timed out while fetching results. Please try again. (HTTP 408)\n",
+ "community_repos": [],
+ "eumemic_tables": [
+  "all_signals_faint_t2.csv.gz: P=2.51266 snr=6.79, P=17.83902 snr=5.67"
+ ],
+ "t16": [],
+ "raven": []
+}

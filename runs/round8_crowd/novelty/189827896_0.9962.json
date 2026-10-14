@@ -1,0 +1,35 @@
+{
+ "tic": 189827896,
+ "P": 0.996235130384972,
+ "checked_utc": "2026-10-14T00:53:51Z",
+ "toi_same_star": [],
+ "ctoi_same_star": [],
+ "toi_ctoi_cone3_alias": [],
+ "exofop_page": {
+  "imaging": 0,
+  "spectroscopy": 0,
+  "tseries": 0,
+  "notes": 0,
+  "planet_parameters": 0,
+  "tois": 0,
+  "ctois": 0,
+  "files": 0
+ },
+ "nea_pscomppars": [],
+ "nea_toi": [],
+ "known_table_same_star": [],
+ "mast_dv_products": 0,
+ "arxiv_tic": 0,
+ "zenodo": [],
+ "zenodo_bare": [],
+ "pht_talk": [],
+ "pht_talk_bare": [],
+ "github_code": "error To get started with GitHub CLI, please run:  gh auth login\nAlternatively, popula",
+ "community_repos": [],
+ "eumemic_tables": [
+  "all_signals_faint_t2.csv.gz: P=19.47655 snr=15.33, P=0.59808 snr=8.55, P=0.99718 snr=8.82",
+  "vetted_signals_faint_t2.csv.gz: P=0.99718 snr=8.82"
+ ],
+ "t16": [],
+ "raven": []
+}

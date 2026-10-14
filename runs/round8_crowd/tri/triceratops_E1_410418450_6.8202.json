@@ -1,0 +1,221 @@
+{
+ "tic": 410418450,
+ "period": 6.820218023578619,
+ "depth": 0.0021259100845588685,
+ "aperture_sectors": [
+  12,
+  13,
+  38,
+  39,
+  65,
+  66,
+  93,
+  94
+ ],
+ "n_bins": 236,
+ "FPP_mean": 0.012597751960342296,
+ "FPP_std": 0.0008100326463737628,
+ "NFPP_mean": 0.0034599999508414373,
+ "NFPP_std": 5.1356518824813096e-05,
+ "runs": [
+  {
+   "FPP": 0.013638507084039353,
+   "NFPP": 0.00352822887766047,
+   "scenarios": {
+    "410418450:TP": 0.8462012005343112,
+    "410418450:PTP": 0.13668749372497882,
+    "410418450:STP": 0.009944973657219176,
+    "410418450:DTP": 0.0034727986566705543,
+    "410418450:BTP": 0.0001369408926686171,
+    "724100544:NEB": 0.00011164909755522766,
+    "410418458:NEB": 0.0032356831355181306,
+    "410418451:NEB": 0.0001443336802715401
+   }
+  },
+  {
+   "FPP": 0.011662825352347639,
+   "NFPP": 0.003447445825962366,
+   "scenarios": {
+    "410418450:TP": 0.8543118756338816,
+    "410418450:PTP": 0.1301596289365081,
+    "410418450:STP": 0.008090876769823733,
+    "410418450:DTP": 0.0038656700772626558,
+    "724100544:NEB": 0.00011545688967035166,
+    "410418458:NEB": 0.0031502003596229383,
+    "410418451:NEB": 0.00014765934173220036
+   }
+  },
+  {
+   "FPP": 0.012491923444639896,
+   "NFPP": 0.003404325148901476,
+   "scenarios": {
+    "410418450:TP": 0.8493717977658063,
+    "410418450:PTP": 0.13469460795999416,
+    "410418450:STP": 0.008953362432080399,
+    "410418450:DTP": 0.0034416708295597538,
+    "410418450:BTP": 0.00010075244334816042,
+    "724100544:NEB": 0.00011532639408858318,
+    "410418458:NEB": 0.003099380607451413,
+    "410418451:NEB": 0.00014982940697256627
+   }
+  }
+ ],
+ "n_stars_in_search": 139,
+ "contrast_curves": [],
+ "filters": [],
+ "cleared_stars": [],
+ "molusc_file": null,
+ "note": "no contrast curve: unresolved companions constrained by priors only",
+ "stars": [
+  {
+   "ID": "410418450",
+   "Tmag": 13.2257,
+   "duplicate_id": null,
+   "sep (arcsec)": 0.0,
+   "PA (E of N)": 0.0,
+   "params_estimated": "",
+   "fluxratio": 0.9445174352,
+   "tdepth": 0.0021259101
+  },
+  {
+   "ID": "724100544",
+   "Tmag": 18.4091,
+   "duplicate_id": null,
+   "sep (arcsec)": 2.591,
+   "PA (E of N)": 165.575,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 0.0079760027,
+   "tdepth": 0.2517500583
+  },
+  {
+   "ID": "724100545",
+   "Tmag": 20.2135,
+   "duplicate_id": null,
+   "sep (arcsec)": 20.54,
+   "PA (E of N)": 319.804,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 0.0011702418,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "724100543",
+   "Tmag": 20.1909,
+   "duplicate_id": null,
+   "sep (arcsec)": 30.124,
+   "PA (E of N)": 291.691,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 0.000887222,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "724100528",
+   "Tmag": 19.7158,
+   "duplicate_id": null,
+   "sep (arcsec)": 33.856,
+   "PA (E of N)": 135.592,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 0.0011643225,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "724100534",
+   "Tmag": 18.8387,
+   "duplicate_id": null,
+   "sep (arcsec)": 36.529,
+   "PA (E of N)": 63.944,
+   "params_estimated": "rad,mass",
+   "fluxratio": 0.0019495646,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "724100541",
+   "Tmag": 19.4201,
+   "duplicate_id": null,
+   "sep (arcsec)": 40.032,
+   "PA (E of N)": 206.986,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 0.0012601324,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "410418458",
+   "Tmag": 16.0,
+   "duplicate_id": null,
+   "sep (arcsec)": 44.25,
+   "PA (E of N)": 145.891,
+   "params_estimated": "",
+   "fluxratio": 0.0207827765,
+   "tdepth": 0.0966165009
+  },
+  {
+   "ID": "724100536",
+   "Tmag": 19.8918,
+   "duplicate_id": null,
+   "sep (arcsec)": 44.33,
+   "PA (E of N)": 41.621,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 0.0004172872,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "724100542",
+   "Tmag": 20.2887,
+   "duplicate_id": null,
+   "sep (arcsec)": 44.354,
+   "PA (E of N)": 279.196,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 0.0003549609,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "410418451",
+   "Tmag": 16.3294,
+   "duplicate_id": null,
+   "sep (arcsec)": 44.495,
+   "PA (E of N)": 93.145,
+   "params_estimated": "",
+   "fluxratio": 0.011874588,
+   "tdepth": 0.1690971622
+  },
+  {
+   "ID": "724100527",
+   "Tmag": 19.6379,
+   "duplicate_id": null,
+   "sep (arcsec)": 49.498,
+   "PA (E of N)": 114.745,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 0.000401872,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "724100535",
+   "Tmag": 19.548,
+   "duplicate_id": null,
+   "sep (arcsec)": 49.58,
+   "PA (E of N)": 45.032,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 0.0003644501,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "724100548",
+   "Tmag": 18.3166,
+   "duplicate_id": null,
+   "sep (arcsec)": 54.785,
+   "PA (E of N)": 251.419,
+   "params_estimated": "rad,mass",
+   "fluxratio": 0.0009377292,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "410418443",
+   "Tmag": 16.8399,
+   "duplicate_id": null,
+   "sep (arcsec)": 55.037,
+   "PA (E of N)": 344.38,
+   "params_estimated": "rad,mass",
+   "fluxratio": 0.0025935927,
+   "tdepth": 0.774199885
+  }
+ ]
+}

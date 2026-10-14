@@ -1,0 +1,71 @@
+{
+ "tic": 262843927,
+ "P": 24.1089377127166,
+ "checked_utc": "2026-10-14T02:21:18Z",
+ "toi_same_star": [],
+ "ctoi_same_star": [],
+ "toi_ctoi_cone3_alias": [],
+ "exofop_page": {
+  "imaging": 0,
+  "spectroscopy": 0,
+  "tseries": 0,
+  "notes": 0,
+  "planet_parameters": 0,
+  "tois": 0,
+  "ctois": 0,
+  "files": 0
+ },
+ "nea_pscomppars": [],
+ "nea_toi": [],
+ "known_table_same_star": [
+  "eumemic_list: Eumemic followup_faint_t1:clean P=14.51683105146976"
+ ],
+ "mast_dv_products": 0,
+ "arxiv_tic": 0,
+ "zenodo": [],
+ "zenodo_bare": [],
+ "pht_talk": [],
+ "pht_talk_bare": [],
+ "github_code": [
+  "203",
+  "loda-lang/loda-programs:oeis/168/A168364.asm",
+  "AliBaig-xD/tess-quiet:data/boring_tic_ids.txt",
+  "dudecon/PyPrimes:batch_primes/PrimesTo_263000000.txt",
+  "eumemic/exoplanets:results_public/followup_faint_t1.csv",
+  "EA-Williams/The-Typability-Index:data/fixed_timestamp_error_codes/514348_keystrokes.txt",
+  "ubunbun18/Astro_Transit_GPU:sector1_full.csv",
+  "lnicoletti/city-access-map:data/2773.csv",
+  "wilkelab/influenza_pH1N1_timecourse:NA/dNdS/16/sites/sites.dat",
+  "wilkelab/influenza_pH1N1_timecourse:NA/dNdS/distances/site_rates/rates_16.dat",
+  "chiararomanengo/SHREC2022:dataset/training/pointCloud/pointCloud1414.txt",
+  "wilkelab/influenza_pH1N1_timecourse:NA/dNdS/distribution_plot/site_rates/rates_16.dat",
+  "noahgibbs/rrb_datavis:posts/2018/rc1/data/rails_ruby_bench_1544680255.json",
+  "LarsSivertsen/xeos_python:runs/run_1003/EoS/008764.txt",
+  "dpwoodru/general-courtade-kumar-lean:CKLaneM2/Fleet/S0061.lean",
+  "dudecon/PyPrimes:batch_primes/PrimesTo_4263000000.txt",
+  "dudecon/PyPrimes:batch_primes/PrimesTo_1263000000.txt",
+  "AliBaig-xD/tess-quiet:data/sector1_all_tic_ids.txt",
+  "AliBaig-xD/tess-quiet:data/sector3_all_tic_ids.txt",
+  "AliBaig-xD/tess-quiet:data/sector2_all_tic_ids.txt",
+  "ppgardne/terminators:clustering/clustering.12.11.11/44.scores",
+  "jolow99/multi_modal_cnn:dataset/eda/Valence/origin/862_100209_V.txt",
+  "KulsonKula/Chaotic-model-detection:data/chaotic/dim3/C0ModelLorenzA51-2021-11-30-02-56-35-710.txt",
+  "valeriopt/Euler-Equations-tests:integral0.67_l0.5_gamma_1.4_Q_0_C_0.31/files/T15.279855971194237.txt",
+  "moerfii/network_science_uzh:assignment_6/samples/crema/DirectedGraph/2002/4.txt",
+  "leerosenthalj/CLSI:completeness/recoveries_all/18803_recoveries.csv",
+  "loehndorf/scengen:src/main/resources/vq/675_1_dualopti",
+  "lunrongchen/Setrend:Analysis/Tweets_Data/Data/Tweets_TheKouk.txt",
+  "covid19br/VaxModel-paper:results/astrazeneca/sol_reff_AstraZeneca_49_1.2_0.4.csv",
+  "shehan-m/IMechE-Design-Challenge-2024:CAD files/FINAL GEAR FOR CAD MODEL/Bigger Gear in 2D.dxf"
+ ],
+ "community_repos": [
+  "marc252_exonit-results/sectors/s0001/lots/discovery_s0001_lot20260617T201815_2026-06-18_dossier.md"
+ ],
+ "eumemic_tables": [
+  "all_signals_faint_t1.csv.gz: P=14.51683 snr=11.32, P=24.10874 snr=8.53, P=23.65196 snr=6.07",
+  "followup_faint_t1.csv: P=14.51683",
+  "vetted_signals_faint_t1.csv.gz: P=14.51683 snr=11.32"
+ ],
+ "t16": [],
+ "raven": []
+}

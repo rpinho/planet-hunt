@@ -1,0 +1,21 @@
+step,signals,stars
+all source rows,40144,35877.0
+  C1,443,443.0
+  C2,118,112.0
+  C3,396,344.0
+  C4,402,402.0
+  C5,194,185.0
+  C6,924,924.0
+  C7,185,185.0
+  E1,35287,31484.0
+  E2,1435,1380.0
+  E3,760,758.0
+0.5 <= P <= 30 d,39678,35610.0
+  excluded as TOI,2,
+  excluded as CTOI,6,
+  excluded as confirmed,1,
+  excluded as TCE,434,
+  excluded as eumemic_list,290,
+  excluded as community_claim,0,
+not TOI/CTOI/confirmed/TCE/claimed at an alias,38932,34976.0
+"deduplicated across sources (same star, period or alias)",38887,34976.0

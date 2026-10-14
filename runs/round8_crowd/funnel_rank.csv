@@ -1,0 +1,7 @@
+step,signals,stars
+"merged, not known/claimed",38887,34976.0
+MAST inventory done,38887,34976.0
+any independent new data (N_new >= 1),9346,
+E_hold >= 2.0,9173,8375.0
+"small star (TIC Teff < 4200 K or R* < 0.7, R* < 1)",7879,7092.0
+top 3500 stars by score (all their signals),4026,3500.0

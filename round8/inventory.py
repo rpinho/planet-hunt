@@ -1,103 +1,91 @@
-"""Round 8A: list every TESS product for each P1 candidate (MAST, live) and the TESScut sectors.
+"""Round 8: MAST light-curve product inventory (SPOC 2-min, TESS-SPOC, QLP) for any TIC list.
 
-    .venv/bin/python round8/inventory.py           -> runs/round8_p1/inventory.json
+    .venv/bin/python round8/inventory.py <csv with a tic column> [--workers 4]
+
+Reads the shared cache/mast_tables/lcprod.csv read-only as a seed, writes ONLY our own
+cache/r8/lcprod_r8.csv (another agent may append to the shared one). Network errors are
+retried with back-off for up to ~15 min per chunk (the Mini may switch networks).
 """
 from __future__ import annotations
 
-import json
-import sys
+import argparse
+import concurrent.futures as cf
+import threading
 import time
-from pathlib import Path
 
-sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
-from planet_hunt import config  # noqa: E402
-from planet_hunt import pixelvet as pv  # noqa: E402
+import pandas as pd
 
-sys.path.insert(0, str(Path(__file__).resolve().parent))
-from targets import CANDS  # noqa: E402
+from common import R8C, config
 
-OUT = config.RUNS / "round8_p1"
-OUT.mkdir(parents=True, exist_ok=True)
+PATH = R8C / "lcprod_r8.csv"
+COLS = ["tic", "provenance_name", "sequence_number", "t_exptime", "t_min", "t_max", "dataURL"]
+_lock = threading.Lock()
 
 
-def retry(fn, n=6):
-    for k in range(n):
+def load_all() -> pd.DataFrame:
+    parts = []
+    for p in (config.TABLE_DIR / "lcprod.csv", PATH):
+        if p.exists():
+            parts.append(pd.read_csv(p, usecols=lambda c: c in COLS, low_memory=False))
+    d = pd.concat(parts, ignore_index=True) if parts else pd.DataFrame(columns=COLS)
+    d["tic"] = d["tic"].astype("int64")
+    return d.drop_duplicates(["tic", "provenance_name", "sequence_number", "dataURL"])
+
+
+def _query(ids: list[str]) -> pd.DataFrame | None:
+    from astroquery.mast import Observations, conf
+    conf.timeout = 300
+    t0, k = time.time(), 0
+    while True:
         try:
-            return fn()
+            obs = Observations.query_criteria(obs_collection=["TESS", "HLSP"], dataproduct_type="timeseries",
+                                              target_name=ids, provenance_name=["SPOC", "TESS-SPOC", "QLP"])
+            break
         except Exception as exc:
-            print(f"  retry {k + 1}: {exc!r}"[:160], flush=True)
-            time.sleep(15 * (k + 1))
-    raise RuntimeError("MAST unavailable")
+            k += 1
+            if time.time() - t0 > 900:
+                print(f"[mast] giving up on a chunk: {exc!r}"[:150], flush=True)
+                return None
+            time.sleep(min(60, 5 * k))
+    o = obs["target_name", "provenance_name", "sequence_number", "t_exptime", "t_min", "t_max",
+            "dataURL"].to_pandas() if len(obs) else pd.DataFrame(columns=["target_name"] + COLS[1:])
+    o["tic"] = pd.to_numeric(o["target_name"], errors="coerce")
+    o = o.dropna(subset=["tic"])
+    url = o["dataURL"].astype(str)
+    o = o[url.str.endswith("_lc.fits") | url.str.endswith("_llc.fits")]
+    o = o[~((o["provenance_name"] == "SPOC") & (o["t_exptime"] < 100))]
+    missing = set(int(t) for t in ids) - set(o["tic"].astype("int64"))
+    if missing:
+        o = pd.concat([o, pd.DataFrame({"tic": sorted(missing)})], ignore_index=True)
+    o["tic"] = o["tic"].astype("int64")
+    return o[COLS]
 
 
-def tic_coords(tic):
-    from astroquery.mast import Catalogs
-    r = retry(lambda: Catalogs.query_criteria(catalog="TIC", ID=tic))
-    r = r[0]
-    return {k: (float(r[k]) if r[k] is not None and str(r[k]) != "--" else None)
-            for k in ("ra", "dec", "Tmag", "Teff", "rad", "mass", "logg", "GAIAmag", "Vmag", "Jmag", "Hmag", "Kmag",
-                      "plx", "d", "contratio", "e_rad", "e_mass", "e_Teff", "gaiabp", "gaiarp")} | {
-        "GAIA": str(r["GAIA"]), "lumclass": str(r["lumclass"])}
-
-
-def products(tic):
-    from astroquery.mast import Observations
-    obs = retry(lambda: Observations.query_criteria(target_name=str(tic), obs_collection=["TESS", "HLSP"]))
-    if len(obs) == 0:
-        return []
-    prods = retry(lambda: Observations.get_product_list(obs))
-    rows = []
-    for r in prods:
-        fn = str(r["productFilename"])
-        if not fn.endswith(".fits"):
-            continue
-        kind = None
-        if fn.startswith("tess") and fn.endswith("-s_lc.fits"):
-            kind = "SPOC-2min"
-        elif fn.endswith("fast-lc.fits"):
-            kind = "SPOC-20s"
-        elif fn.startswith("tess") and fn.endswith("-s_tp.fits"):
-            kind = "SPOC-2min-TPF"
-        elif "hlsp_qlp" in fn and fn.endswith("_llc.fits"):
-            kind = "QLP"
-        elif "hlsp_tess-spoc" in fn and fn.endswith("_lc.fits"):
-            kind = "TESS-SPOC"
-        elif "hlsp_tglc" in fn and fn.endswith("_llc.fits"):
-            kind = "TGLC"
-        elif "hlsp_gsfc-eleanor-lite" in fn:
-            kind = "eleanor-lite"
-        if kind is None:
-            continue
-        import re
-        m = (re.search(r"-s0*(\d+)-", fn) or re.search(r"_s0*(\d+)[-_]", fn) or re.search(r"-s0*(\d+)_", fn))
-        s = int(m.group(1)) if m else None
-        rows.append({"kind": kind, "sector": s, "file": fn, "uri": str(r["dataURI"]),
-                     "size": int(r["size"]) if str(r["size"]) != "--" else None})
-    seen, out = set(), []
-    for r in rows:
-        if r["file"] in seen:
-            continue
-        seen.add(r["file"]); out.append(r)
-    return out
-
-
-def main():
-    inv = {}
-    for key, c in CANDS.items():
-        print(f"== {key} TIC {c['tic']}", flush=True)
-        tic = tic_coords(c["tic"])
-        ra, dec = c["ra"] or tic["ra"], c["dec"] or tic["dec"]
-        pr = products(c["tic"])
-        cut = retry(lambda: pv.available_sectors(ra, dec))
-        by = {}
-        for r in pr:
-            by.setdefault(r["kind"], set()).add(r["sector"])
-        summ = {k: sorted(v) for k, v in by.items()}
-        print("  ", {k: v for k, v in summ.items()}, "TESScut:", cut, flush=True)
-        inv[key] = {"tic": c["tic"], "ra": ra, "dec": dec, "tic_row": tic, "products": pr, "summary": summ,
-                    "tesscut": cut, "queried_utc": time.strftime("%Y-%m-%d %H:%M:%S", time.gmtime())}
-    json.dump(inv, open(OUT / "inventory.json", "w"), indent=1)
+def inventory(tics, workers=4, chunk=150) -> pd.DataFrame:
+    have = load_all()
+    done = set(have.tic)
+    todo = sorted({int(t) for t in tics} - done)
+    print(f"[mast] {len(todo)} stars to inventory ({len(done)} known)", flush=True)
+    chunks = [[str(t) for t in todo[i:i + chunk]] for i in range(0, len(todo), chunk)]
+    n = 0
+    with cf.ThreadPoolExecutor(workers) as ex:
+        for o in ex.map(_query, chunks):
+            n += 1
+            if o is None:
+                continue
+            with _lock:
+                o.to_csv(PATH, mode="a", header=not PATH.exists(), index=False)
+            if n % 10 == 0:
+                print(f"[mast] {n}/{len(chunks)} chunks", flush=True)
+    d = load_all()
+    return d[d.tic.isin({int(t) for t in tics})]
 
 
 if __name__ == "__main__":
-    main()
+    p = argparse.ArgumentParser()
+    p.add_argument("csv")
+    p.add_argument("--workers", type=int, default=4)
+    a = p.parse_args()
+    t = pd.read_csv(a.csv, usecols=["tic"]).tic.dropna().astype("int64").unique()
+    d = inventory(t, a.workers)
+    print(len(d), "rows for", d.tic.nunique(), "stars")

@@ -1,0 +1,195 @@
+./.trivenv/lib/python3.12/site-packages/lightkurve/prf/__init__.py:7: UserWarning: Warning: the tpfmodel submodule is not available without oktopus installed, which requires a current version of autograd. See #1452 for details.
+  warnings.warn(
+./.trivenv/lib/python3.12/site-packages/pytransit/contamination/contamination.py:34: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+The archive will be unavailable on Wednesday 14 October 2026 11:00-12:00 CEST for deployment of Gaia archive release 3.15.
+Getting TessCut for sector 12
+Getting TessCut for sector 13
+Getting TessCut for sector 38
+Getting TessCut for sector 39
+Getting TessCut for sector 65
+Getting TessCut for sector 66
+Getting TessCut for sector 93
+Getting TessCut for sector 94
+Estimated missing stellar parameters for 83 of 153 stars from photometry. See the 'params_estimated' column of the .stars dataframe. 1 appear evolved and were assigned a nominal 1 M_Sun.
+run 1: FPP=0.0742 NFPP=0.01101
+run 2: FPP=0.0863 NFPP=0.01311
+run 3: FPP=0.0724 NFPP=0.01074
+{
+ "tic": 317300777,
+ "period": 2.8210760119472784,
+ "depth": 0.000531858149892872,
+ "aperture_sectors": [
+  12,
+  13,
+  38,
+  39,
+  65,
+  66,
+  93,
+  94
+ ],
+ "n_bins": 180,
+ "FPP_mean": 0.07765570442799508,
+ "FPP_std": 0.006158488516487109,
+ "NFPP_mean": 0.011618245237065923,
+ "NFPP_std": 0.0010588480447035742,
+ "n_stars_in_search": 153,
+ "contrast_curves": [],
+ "filters": [],
+ "cleared_stars": [],
+ "molusc_file": null,
+ "note": "no contrast curve: unresolved companions constrained by priors only",
+ "stars": [
+  {
+   "ID": "317300777",
+   "Tmag": 11.996,
+   "duplicate_id": null,
+   "sep (arcsec)": 0.0,
+   "PA (E of N)": 0.0,
+   "params_estimated": "",
+   "fluxratio": 0.9247046169,
+   "tdepth": 0.0005318581
+  },
+  {
+   "ID": "317300778",
+   "Tmag": 15.0918,
+   "duplicate_id": null,
+   "sep (arcsec)": 4.831,
+   "PA (E of N)": 196.861,
+   "params_estimated": "",
+   "fluxratio": 0.0530678165,
+   "tdepth": 0.0092676074
+  },
+  {
+   "ID": "804431322",
+   "Tmag": 17.8291,
+   "duplicate_id": null,
+   "sep (arcsec)": 4.938,
+   "PA (E of N)": 42.928,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 0.0042021905,
+   "tdepth": 0.1170369803
+  },
+  {
+   "ID": "317300780",
+   "Tmag": 17.1946,
+   "duplicate_id": null,
+   "sep (arcsec)": 21.557,
+   "PA (E of N)": 172.439,
+   "params_estimated": "",
+   "fluxratio": 0.0059848447,
+   "tdepth": 0.0821761824
+  },
+  {
+   "ID": "804431138",
+   "Tmag": 20.5752,
+   "duplicate_id": null,
+   "sep (arcsec)": 29.137,
+   "PA (E of N)": 202.81,
+   "params_estimated": "",
+   "fluxratio": 0.0002118916,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "317300783",
+   "Tmag": 16.3681,
+   "duplicate_id": null,
+   "sep (arcsec)": 29.892,
+   "PA (E of N)": 175.139,
+   "params_estimated": "",
+   "fluxratio": 0.0097564755,
+   "tdepth": 0.0504087453
+  },
+  {
+   "ID": "804431321",
+   "Tmag": 19.147,
+   "duplicate_id": null,
+   "sep (arcsec)": 36.938,
+   "PA (E of N)": 319.107,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 0.0005392324,
+   "tdepth": 0.9120589331
+  },
+  {
+   "ID": "804431324",
+   "Tmag": 19.0473,
+   "duplicate_id": null,
+   "sep (arcsec)": 44.477,
+   "PA (E of N)": 42.004,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 0.0002660872,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "804431137",
+   "Tmag": 19.0101,
+   "duplicate_id": null,
+   "sep (arcsec)": 44.723,
+   "PA (E of N)": 149.596,
+   "params_estimated": "",
+   "fluxratio": 0.0003421493,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "804431139",
+   "Tmag": 18.6113,
+   "duplicate_id": null,
+   "sep (arcsec)": 50.623,
+   "PA (E of N)": 82.92,
+   "params_estimated": "rad,mass",
+   "fluxratio": 0.0002806846,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "804431319",
+   "Tmag": 19.85,
+   "duplicate_id": null,
+   "sep (arcsec)": 51.16,
+   "PA (E of N)": 285.758,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 0.000117242,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "804431140",
+   "Tmag": 18.9546,
+   "duplicate_id": null,
+   "sep (arcsec)": 54.241,
+   "PA (E of N)": 74.298,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 0.0001350953,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "804431323",
+   "Tmag": 19.3395,
+   "duplicate_id": null,
+   "sep (arcsec)": 62.247,
+   "PA (E of N)": 20.577,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 3.47612e-05,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "804431141",
+   "Tmag": 20.1403,
+   "duplicate_id": null,
+   "sep (arcsec)": 62.255,
+   "PA (E of N)": 52.51,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 1.31557e-05,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "804431317",
+   "Tmag": 19.9714,
+   "duplicate_id": null,
+   "sep (arcsec)": 64.52,
+   "PA (E of N)": 221.962,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 1.87139e-05,
+   "tdepth": 0.0
+  }
+ ]
+}

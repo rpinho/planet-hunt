@@ -1,0 +1,209 @@
+{
+ "tic": 262843927,
+ "period": 24.108962137492604,
+ "depth": 0.0011097464547595859,
+ "aperture_sectors": [
+  1,
+  3,
+  29,
+  61,
+  68,
+  95,
+  97
+ ],
+ "n_bins": 261,
+ "FPP_mean": 0.02748533213380966,
+ "FPP_std": 0.0023963010861989256,
+ "NFPP_mean": 0.0,
+ "NFPP_std": 0.0,
+ "runs": [
+  {
+   "FPP": 0.027953087217021055,
+   "NFPP": 0.0,
+   "scenarios": {
+    "262843927:TP": 0.8223048347648304,
+    "262843927:PTP": 0.1484863836261197,
+    "262843927:STP": 0.027913275082871714,
+    "262843927:DTP": 0.0012556943920287323
+   }
+  },
+  {
+   "FPP": 0.030158221220293435,
+   "NFPP": 0.0,
+   "scenarios": {
+    "262843927:TP": 0.7992826333671662,
+    "262843927:PTP": 0.169127215701924,
+    "262843927:STP": 0.030112794875576127,
+    "262843927:DTP": 0.0014319297106163817
+   }
+  },
+  {
+   "FPP": 0.024344687964114486,
+   "NFPP": 0.0,
+   "scenarios": {
+    "262843927:TP": 0.8071492664775994,
+    "262843927:PTP": 0.16698228706111556,
+    "262843927:STP": 0.024303629914922856,
+    "262843927:DTP": 0.001523758497170532
+   }
+  }
+ ],
+ "n_stars_in_search": 58,
+ "contrast_curves": [],
+ "filters": [],
+ "cleared_stars": [],
+ "molusc_file": null,
+ "note": "no contrast curve: unresolved companions constrained by priors only",
+ "stars": [
+  {
+   "ID": "262843927",
+   "Tmag": 11.9833,
+   "duplicate_id": null,
+   "sep (arcsec)": 0.0,
+   "PA (E of N)": 0.0,
+   "params_estimated": "",
+   "fluxratio": 0.9983278124,
+   "tdepth": 0.0011097465
+  },
+  {
+   "ID": "262843930",
+   "Tmag": 18.6403,
+   "duplicate_id": null,
+   "sep (arcsec)": 40.956,
+   "PA (E of N)": 200.828,
+   "params_estimated": "",
+   "fluxratio": 0.0007648105,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "650439876",
+   "Tmag": 19.7568,
+   "duplicate_id": null,
+   "sep (arcsec)": 54.268,
+   "PA (E of N)": 298.309,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 5.35507e-05,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "650441450",
+   "Tmag": 19.3775,
+   "duplicate_id": null,
+   "sep (arcsec)": 54.983,
+   "PA (E of N)": 69.013,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 7.88104e-05,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "650439877",
+   "Tmag": 19.4323,
+   "duplicate_id": null,
+   "sep (arcsec)": 58.069,
+   "PA (E of N)": 311.275,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 4.79056e-05,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "262843925",
+   "Tmag": 15.9614,
+   "duplicate_id": null,
+   "sep (arcsec)": 62.573,
+   "PA (E of N)": 296.398,
+   "params_estimated": "",
+   "fluxratio": 0.0006128984,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "262874573",
+   "Tmag": 18.3327,
+   "duplicate_id": null,
+   "sep (arcsec)": 67.287,
+   "PA (E of N)": 109.704,
+   "params_estimated": "",
+   "fluxratio": 5.39797e-05,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "650441451",
+   "Tmag": 19.3587,
+   "duplicate_id": null,
+   "sep (arcsec)": 68.76,
+   "PA (E of N)": 90.177,
+   "params_estimated": "rad,mass",
+   "fluxratio": 1.53127e-05,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "650441460",
+   "Tmag": 18.8339,
+   "duplicate_id": null,
+   "sep (arcsec)": 69.401,
+   "PA (E of N)": 24.695,
+   "params_estimated": "rad,mass",
+   "fluxratio": 1.72223e-05,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "262843924",
+   "Tmag": 15.9675,
+   "duplicate_id": null,
+   "sep (arcsec)": 86.091,
+   "PA (E of N)": 308.089,
+   "params_estimated": "",
+   "fluxratio": 1.57195e-05,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "262874571",
+   "Tmag": 18.2315,
+   "duplicate_id": null,
+   "sep (arcsec)": 88.013,
+   "PA (E of N)": 159.387,
+   "params_estimated": "",
+   "fluxratio": 2.5502e-06,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "650439875",
+   "Tmag": 20.4013,
+   "duplicate_id": null,
+   "sep (arcsec)": 95.522,
+   "PA (E of N)": 260.311,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 1.46e-08,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "262843933",
+   "Tmag": 13.9921,
+   "duplicate_id": null,
+   "sep (arcsec)": 98.017,
+   "PA (E of N)": 186.424,
+   "params_estimated": "",
+   "fluxratio": 9.3014e-06,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "650441461",
+   "Tmag": 19.0362,
+   "duplicate_id": null,
+   "sep (arcsec)": 98.806,
+   "PA (E of N)": 24.494,
+   "params_estimated": "Teff,rad,mass",
+   "fluxratio": 3.1e-08,
+   "tdepth": 0.0
+  },
+  {
+   "ID": "650439866",
+   "Tmag": 19.4487,
+   "duplicate_id": null,
+   "sep (arcsec)": 98.849,
+   "PA (E of N)": 149.024,
+   "params_estimated": "rad,mass",
+   "fluxratio": 6.93e-08,
+   "tdepth": 0.0
+  }
+ ]
+}

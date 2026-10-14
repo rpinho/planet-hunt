@@ -1,0 +1,37 @@
+{
+ "tic": 198787224,
+ "P": 0.6467256752614395,
+ "checked_utc": "2026-10-14T00:58:25Z",
+ "toi_same_star": [],
+ "ctoi_same_star": [],
+ "toi_ctoi_cone3_alias": [],
+ "exofop_page": {
+  "imaging": 0,
+  "spectroscopy": 0,
+  "tseries": 0,
+  "notes": 0,
+  "planet_parameters": 0,
+  "tois": 0,
+  "ctois": 0,
+  "files": 0
+ },
+ "nea_pscomppars": [],
+ "nea_toi": [],
+ "known_table_same_star": [
+  "eumemic_list: Eumemic allsky:C P=0.646728"
+ ],
+ "mast_dv_products": 0,
+ "arxiv_tic": 0,
+ "arxiv_gaia": 0,
+ "zenodo": [],
+ "zenodo_bare": [],
+ "pht_talk": [],
+ "pht_talk_bare": [],
+ "github_code": "error To get started with GitHub CLI, please run:  gh auth login\nAlternatively, popula",
+ "community_repos": [],
+ "eumemic_tables": [
+  "candidates_allsky.csv: P=0.64673 MES=50.10"
+ ],
+ "t16": [],
+ "raven": []
+}
