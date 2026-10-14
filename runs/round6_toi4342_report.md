@@ -1,6 +1,6 @@
 # Round 6: deep vet of TOI-4342 (TIC 354944123) — the 18.9-d and 1.96-d candidates
 
-Branch `round6-toi4342` (worktree `~/.worktrees/planet-hunt-r6-toi4342`), 2026-10-13. Every process ran at `nice -n 20`. Nothing was submitted, uploaded, emailed, pushed or posted. ExoFOP, MAST, Gaia, the STScI/SkyView plate archives, SkyMapper, arXiv and the journals were only read.
+Branch `round6-toi4342` (worktree `.`), 2026-10-13. Every process ran at `nice -n 20`. Nothing was submitted, uploaded, emailed, pushed or posted. ExoFOP, MAST, Gaia, the STScI/SkyView plate archives, SkyMapper, arXiv and the journals were only read.
 
 ## Verdict
 

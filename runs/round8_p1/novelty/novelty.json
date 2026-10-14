@@ -1,0 +1,2384 @@
+{
+ "generated_utc": "2026-10-14",
+ "check": "Round 8A novelty gate (live, read-only)",
+ "alias_rule": "P x {1/3,1/2,2/3,1,3/2,2,3}, |dP|/P <= 0.5%",
+ "position_rule": "2 arcmin cone (3 arcmin for ExoFOP TOI/CTOI and NEA toi); catalogues without coordinates (T16 MRT, Eumemic tables, SPOC TCE CSVs) matched via TIC IDs of all TIC 8.2 stars within 2 arcmin (MAST Tic.Cone)",
+ "sources_read": {
+  "exofop_toi_csv": {
+   "url": "https://exofop.ipac.caltech.edu/tess/download_toi.php?sort=toi&output=csv",
+   "fetched_utc": "2026-10-13T23:09-23:12Z",
+   "rows": 8151,
+   "local": "<data>/r8/novelty/exofop/toi_live.csv"
+  },
+  "exofop_ctoi_csv": {
+   "url": "https://exofop.ipac.caltech.edu/tess/download_ctoi.php?sort=ctoi&output=csv",
+   "fetched_utc": "2026-10-13T23:09-23:10Z",
+   "rows": 5138,
+   "local": "<data>/r8/novelty/exofop/ctoi_live.csv"
+  },
+  "exofop_target_json": {
+   "url": "https://exofop.ipac.caltech.edu/tess/target.php?id=<TIC>&json",
+   "fetched_utc": "2026-10-13T23:09Z",
+   "local": "<data>/r8/novelty/exofop/target_<TIC>.json"
+  },
+  "mast_tic": {
+   "service": "Mast.Catalogs.Filtered.Tic + Mast.Catalogs.Tic.Cone (3')",
+   "fetched_utc": "2026-10-13T23:11Z",
+   "local": "<data>/r8/novelty/mast/"
+  },
+  "nasa_exoplanet_archive_tap": {
+   "tables": [
+    "ps",
+    "pscomppars",
+    "toi"
+   ],
+   "fetched_utc": "2026-10-13T23:19Z",
+   "note": "geometry (contains/circle) ADQL is blocked by the archive's Cloudflare WAF (HTTP 403); used RA/Dec box query + exact separation cut",
+   "local": "<data>/r8/novelty/nea/nea_results.json"
+  },
+  "arxiv_api": {
+   "queries": 24,
+   "fetched_utc": "2026-10-13T23:20Z",
+   "plus_full_source_grep": [
+    "2601.22115",
+    "2301.01370",
+    "2506.18550",
+    "2405.06350",
+    "2603.22597",
+    "2101.02707"
+   ],
+   "local": "<data>/r8/novelty/arxiv/"
+  },
+  "spoc_tce_bulk": {
+   "page": "https://archive.stsci.edu/tess/bulk_downloads/bulk_downloads_tce.html",
+   "files": 132,
+   "tce_rows": 341351,
+   "latest_single_sector": "S107 (tess2026221140108)",
+   "latest_multi_sector": "S1-S96 (tess2018206190142-s0001-s0096); no S1-S107 or later multi-sector DV list is posted",
+   "fetched_utc": "2026-10-13T23:12-23:59Z, sizes verified against server Content-Length (0 mismatches)",
+   "local": "<data>/r8/novelty/tce/csv/"
+  },
+  "mast_caom_obs": {
+   "note": "per-star SPOC/QLP/T16 product inventory",
+   "fetched_utc": "2026-10-14T00:00Z",
+   "local": "<data>/r8/novelty/mast/caom_obs.json"
+  },
+  "eumemic/exoplanets": {
+   "commit": "da722613164640f3fa9232551a3172c913417b90",
+   "commit_date": "2026-10-13T07:39:06Z",
+   "cloned_utc": "2026-10-13T23:41Z",
+   "text_files_scanned": 4570,
+   "issues_prs": 17,
+   "issue_comments": 11,
+   "local": "<data>/r8/novelty/github/eumemic_exoplanets"
+  },
+  "brahle/exoplanet-candidates": {
+   "commit": "702e6fa913c8d31b4a3a539231119a05585d723b",
+   "commit_date": "2026-10-12T23:42:34Z",
+   "text_files_scanned": 4503,
+   "note": "all non-binary files (png/npz excluded) = 4,513 of 5,588 tracked; file names and contents grepped"
+  },
+  "brahle/exoplanet-db": {
+   "commit": "3cd5afa16563e50de87cc77e447f78c64dd1e9dd",
+   "note": "code only; its live public API https://exoplanets.brahle.com/v1/{cone,candidates} queried read-only 2026-10-13T23:41Z (ingested eumemic@ec8311b1, brahle@702e6fa9, ExoFOP/NEA 2026-10-13T03:30Z)"
+  },
+  "Th0rgal/open-exoplanet-hunt": {
+   "commit": "19e5e9e8ca72c8e584fd08a92276d285ca474888",
+   "commit_date": "2026-10-13T07:00:31Z",
+   "files": "registry/scanned_targets.jsonl (1,250), catalog/external_discoveries.json, catalog/known_tics.json.gz, candidates/*, docs/PREREGISTERED_EPHEMERIDES_2026.md"
+  },
+  "other_community_repos": {
+   "repos": {
+    "Aidenn8/tess-planet-search": "92570495",
+    "paraschopra/tess-planet-candidates": "74d5624f",
+    "avijit-thawani/tess-niyati-avijit": "76ee5343",
+    "samsonmaximus/tess-three-candidates": "31c0cfa0",
+    "moosesteve21/PlanetCandidates": "8d0d5f19",
+    "alexvaldex/nasa-tess-planet-search": "a372b957",
+    "marc252/exonit-public": "259a68a0",
+    "CptSyphilis/shadowcatch": "1368b6f0",
+    "killercatfish/tess-hunt": "7d982d1b",
+    "Comdex4/tess-transit-hunter": "cae432aa"
+   },
+   "text_files_scanned": 3904
+  },
+  "github_code_search": {
+   "queries": "7 TIC numbers, 5 TOI names, 14 TIC/TOI+period combinations, 8 Gaia IDs",
+   "fetched_utc": "2026-10-13T23:36Z-2026-10-14T00:08Z",
+   "local": "<data>/r8/novelty/github/codesearch/"
+  },
+  "T16": {
+   "paper": "Roth et al. 2026, ApJS 284, 19 (arXiv 2604.18579)",
+   "tables": [
+    "apjsae5b6ct1_mrt.txt (11,143 candidates)",
+    "apjsae5b6ct2_mrt.txt (411 single transits)"
+   ],
+   "url": "https://content.cld.iop.org/journals/0067-0049/284/1/19/revision1/",
+   "fetched_utc": "2026-10-13T23:26Z"
+  },
+  "RAVEN": {
+   "paper": "Lafarga et al. 2026 (arXiv 2603.22597)",
+   "zenodo": "https://zenodo.org/records/19661443",
+   "tables": [
+    "nsfp09_table.csv (14,815)",
+    "vet_table.csv (2,170)",
+    "val_table.csv (143)",
+    "val_rp8_table.csv (207)"
+   ],
+   "fetched_utc": "2026-10-13T23:23-23:25Z"
+  },
+  "pht_talk": {
+   "api": "https://talk.zooniverse.org/searches (section project-7929)",
+   "queries": 29,
+   "fetched_utc": "2026-10-13T23:37Z"
+  },
+  "zenodo": {
+   "api": "https://zenodo.org/api/records",
+   "queries": "17 TIC/TOI strings + 13 Gaia IDs/compact TOI names",
+   "positive_control": "\"4206066\" -> 5 records",
+   "fetched_utc": "2026-10-13T23:36Z / 2026-10-14T00:10Z"
+  }
+ },
+ "candidates": {
+  "TOI-1846": {
+   "tic": 198385543,
+   "gaia_dr3": "1420011162670761600",
+   "gaia_dr2": "1420011162670761600",
+   "ra": 257.95542174938,
+   "dec": 54.5269385069889,
+   "candidate_period_d": 0.94406,
+   "extra_period_checked_d": null,
+   "known_periods_d": [
+    3.9307
+   ],
+   "sources": {
+    "exofop_toi": {
+     "checked": "yes: TIC match + 3' cone + alias test over 8151 rows",
+     "same_star_entries": [
+      {
+       "TOI": "1846.01",
+       "period": "3.93067462792567",
+       "disp": "CP",
+       "comments": "L1 candidate; possible secondary at phase 0.3; two stars in pixel"
+      }
+     ],
+     "neighbours_within_3arcmin": [],
+     "hit": "none"
+    },
+    "exofop_ctoi": {
+     "checked": "yes: TIC match + 3' cone + alias test over 5138 rows",
+     "same_star_entries": [],
+     "neighbours_within_3arcmin": [],
+     "hit": "none"
+    },
+    "exofop_target_page": {
+     "checked": "yes: target.php JSON (TOIs, CTOIs, planet parameters, notes, time series, spectroscopy, imaging, files)",
+     "tois": [
+      "TOI 1846.01 (L1 candidate; possible secondary at phase 0.3; two stars in pixel)"
+     ],
+     "ctois": [],
+     "confirmed": "TOI-1846 b",
+     "n_time_series": 7,
+     "n_spectroscopy": 3,
+     "n_imaging": 6,
+     "planet_parameter_periods": [
+      "3.9306737",
+      "3.93067462792567"
+     ],
+     "hit": "none at candidate period/aliases"
+    },
+    "nasa_exoplanet_archive": {
+     "checked": "yes: ps + pscomppars (TIC or 2' box->cone), toi (TIC or 3'), ps by Gaia DR2/DR3 id",
+     "rows": {
+      "ps": [
+       [
+        "TOI-1846 b",
+        3.9306737
+       ],
+       [
+        "TOI-1846 b",
+        3.93067462793
+       ]
+      ],
+      "pscomppars": [
+       [
+        "TOI-1846 b",
+        3.9306737
+       ]
+      ],
+      "toi": [
+       [
+        "1846.01",
+        3.9306746
+       ]
+      ]
+     },
+     "hit": "none"
+    },
+    "arxiv": {
+     "checked": "yes: API all:\"<term>\" for ['TOI-1846', 'TOI 1846', 'TIC 198385543', '198385543']; full LaTeX source grep for relevant papers",
+     "papers": [
+      [
+       "http://arxiv.org/abs/2506.18550v1",
+       "2025-06-23",
+       "TOI-1846b: A super-Earth in the radius valley orbiting a nearby M dwarf"
+      ]
+     ],
+     "fulltext_grep": {
+      "2506.18550:TOI-1846": {
+       "n_mentions": 152,
+       "alias_numbers_found": 4,
+       "assessment": "all alias-valued numbers are unrelated quantities (magnitudes, densities, ESM, K, LaTeX/PDF internals); no period at the candidate value"
+      }
+     },
+     "hit": "none (no paper reports a signal at the candidate period or aliases)"
+    },
+    "spoc_tce": {
+     "checked": "yes: all 132 MAST DV tcestats CSVs (341351 TCE rows; single-sector S1-S107, multi-sector up to S1-S96), target TIC + all TICs within 2'",
+     "target_tce_periods": [
+      3.9275,
+      3.9292,
+      3.9306,
+      3.9307,
+      3.9344,
+      287.625
+     ],
+     "n_target_tces": 12,
+     "neighbour_tces_any_period": 0,
+     "hit": "none",
+     "spoc_short_cadence_sectors": [
+      17,
+      20,
+      23,
+      24,
+      25,
+      26,
+      40,
+      41,
+      47,
+      50,
+      51,
+      52,
+      53,
+      54,
+      55,
+      56,
+      57,
+      58,
+      59,
+      60,
+      73,
+      74,
+      77,
+      78,
+      79,
+      80,
+      81,
+      83,
+      84,
+      85,
+      86
+     ]
+    },
+    "qlp_tce": {
+     "checked": "no: QLP does not publish a TCE/alert list (only TOIs, already covered by the TOI table); MAST holds QLP light curves only",
+     "hit": "n/a"
+    },
+    "eumemic_exoplanets": {
+     "checked": "yes: all 4570 text files at da722613 (all_signals*, vetted_signals*, candidates*, candidates_allsky, tiers, followup_*, ephemerides, predictions, novelty_check, validation/*, README, dossiers) for TIC, Gaia IDs and 2' neighbour TICs; issues #1-17 + 11 comments",
+     "rows_at_candidate_period_or_extra": [
+      {
+       "file": "results_public/all_signals_faint_t1.csv.gz",
+       "line": 17644,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": {
+        "rank": "2",
+        "period": "0.9440569832936553",
+        "t0": "1765.1311123913745",
+        "bls_snr": "8.667694823263291",
+        "snr": "8.248214860178663",
+        "sde": "15.611877868258405",
+        "n_events": "634",
+        "n_good_events": "621",
+        "n_sectors": "29",
+        "method": "coherent",
+        "bls_depth_ppm": "245.75451487170488"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/all_signals_toi_hosts.csv.gz",
+       "line": 6953,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": {
+        "rank": "1",
+        "period": "0.9440569832936553",
+        "t0": "1765.1311123913745",
+        "bls_snr": "8.678561692639013",
+        "snr": "8.256672053970508",
+        "sde": "15.72649269565672",
+        "n_events": "633",
+        "n_good_events": "620",
+        "n_sectors": "29",
+        "method": "coherent",
+        "bls_depth_ppm": "246.22901552671667"
+       },
+       "text": null
+      }
+     ],
+     "other_rows_on_star": [
+      "results_public/all_signals_long_toi_hosts.csv.gz",
+      "results_public/vetted_signals_faint_t1.csv.gz",
+      "validation/centroid_calibration_tois.csv",
+      "validation/centroid_sectors.csv",
+      "validation/centroid_sectors_list.csv",
+      "validation/centroid_sectors_per_sector.csv.gz",
+      "validation/centroid_sectors_stars.csv.gz"
+     ],
+     "issues": "none"
+    },
+    "brahle_exoplanet_db_api": {
+     "checked": "yes: GET /v1/cone (120\") and /v1/candidates?search=<TIC>, ?search=<Gaia DR3>",
+     "signals": [
+      [
+       "TOI-1846 b",
+       3.9306737,
+       "confirmed_planet",
+       [
+        "eumemic/exoplanets:vetting",
+        "nasa_pscomppars",
+        "nasa_toi"
+       ]
+      ]
+     ],
+     "hit": "none"
+    },
+    "brahle_exoplanet_candidates": {
+     "checked": "yes: file names + contents of all 4,503 non-binary files (TIC, Gaia, neighbour TICs)",
+     "hit": "none"
+    },
+    "th0rgal_open_exoplanet_hunt": {
+     "checked": "yes: registry/scanned_targets.jsonl, catalog/external_discoveries.json, catalog/known_tics.json.gz (entry inspected per TIC), candidates/, docs/PREREGISTERED_EPHEMERIDES_2026.md",
+     "hit": "none (known_tics entry, if present, only mirrors the TOI/NEA rows; star not in scanned registry, candidates or external discoveries)"
+    },
+    "other_community_repos": {
+     "checked": "yes: 10 repos (Aidenn8, paraschopra, avijit-thawani, samsonmaximus, moosesteve21, alexvaldex, marc252, CptSyphilis, killercatfish, Comdex4), all csv/json/jsonl/md/txt",
+     "on_star": [
+      "Aidenn8_tess-planet-search",
+      "list_Aidenn8_tess-planet-search.txt",
+      "paraschopra_tess-planet-candidates",
+      "tree_Aidenn8_tess-planet-search.json"
+     ],
+     "hit": "none",
+     "note": "Aidenn8 searched TOI-1846 (29 sectors): only 3.9307 d signal"
+    },
+    "github_code_search": {
+     "checked": "yes: TIC number, TOI name, TIC+period and TOI+period combos, Gaia DR3 (and DR2) ids; astro-relevant hits inspected",
+     "hit": "none (hits are catalogue copies of TOI/planet tables, TESS GI target lists, or unrelated numeric files)"
+    },
+    "T16": {
+     "checked": "yes: t1 candidate MRT (11,143) + t2 single-transit MRT (411) by TIC v8.2 and Gaia DR3/DR2 id; 2' neighbours by TIC",
+     "target_rows": [],
+     "neighbour_rows": [],
+     "t16_lightcurve_at_mast": false,
+     "hit": "none"
+    },
+    "RAVEN": {
+     "checked": "yes: nsfp09, vet, val, val_rp8 tables by TIC, Gaia DR3/DR2 and 2' cone",
+     "rows": "none",
+     "hit": "none at candidate period/aliases"
+    },
+    "pht_talk": {
+     "checked": "yes: 5 queries (['198385543', 'TIC198385543', 'TOI 1846', 'TOI-1846', 'TOI1846'])",
+     "n_results": 8,
+     "hit": "none (comments only restate TOI/known-planet info)"
+    },
+    "zenodo": {
+     "checked": "yes: {'198385543': 0, 'TOI-1846': 0, 'TOI 1846': 0} plus Gaia DR3 id and compact TOI name (all 0)",
+     "hit": "none"
+    }
+   },
+   "verdict": "CREDIT-NEEDED",
+   "verdict_basis": "Listed raw/unvetted in Eumemic's public BLS tables (all_signals_faint_t1 L17644 rank 2, P=0.944057 d, SNR 8.25; all_signals_toi_hosts L6953 rank 1, P=0.944057 d, SNR 8.26). Not in his vetted, candidate, tier, follow-up or ephemeris lists. No TOI/CTOI/TCE/paper/other-community report. Aidenn8 searched the star (results/search/198385543.json) and found only 3.9307 d."
+  },
+  "TOI-4342": {
+   "tic": 354944123,
+   "gaia_dr3": "6355915466181029376",
+   "gaia_dr2": "6355915466180482944",
+   "ra": 324.386930624803,
+   "dec": -77.978753103862,
+   "candidate_period_d": 1.957689,
+   "extra_period_checked_d": [
+    18.908
+   ],
+   "known_periods_d": [
+    5.538,
+    10.689
+   ],
+   "sources": {
+    "exofop_toi": {
+     "checked": "yes: TIC match + 3' cone + alias test over 8151 rows",
+     "same_star_entries": [
+      {
+       "TOI": "4342.01",
+       "period": "5.53832899923516",
+       "disp": "CP",
+       "comments": "potential L1 planet; near 2:1 resonance"
+      },
+      {
+       "TOI": "4342.02",
+       "period": "10.6886083506691",
+       "disp": "CP",
+       "comments": "possible multi"
+      }
+     ],
+     "neighbours_within_3arcmin": [],
+     "hit": "none"
+    },
+    "exofop_ctoi": {
+     "checked": "yes: TIC match + 3' cone + alias test over 5138 rows",
+     "same_star_entries": [],
+     "neighbours_within_3arcmin": [],
+     "hit": "none"
+    },
+    "exofop_target_page": {
+     "checked": "yes: target.php JSON (TOIs, CTOIs, planet parameters, notes, time series, spectroscopy, imaging, files)",
+     "tois": [
+      "TOI 4342.01 (potential L1 planet; near 2:1 resonance)",
+      "TOI 4342.02 (possible multi)"
+     ],
+     "ctois": [],
+     "confirmed": "TOI-4342 b, TOI-4342 c",
+     "n_time_series": 10,
+     "n_spectroscopy": 6,
+     "n_imaging": 2,
+     "planet_parameter_periods": [
+      "10.6886083506691",
+      "10.688662",
+      "5.5382592",
+      "5.53832899923516"
+     ],
+     "hit": "none at candidate period/aliases"
+    },
+    "nasa_exoplanet_archive": {
+     "checked": "yes: ps + pscomppars (TIC or 2' box->cone), toi (TIC or 3'), ps by Gaia DR2/DR3 id",
+     "rows": {
+      "ps": [
+       [
+        "TOI-4342 c",
+        10.68860835067
+       ],
+       [
+        "TOI-4342 c",
+        10.688662
+       ],
+       [
+        "TOI-4342 c",
+        10.688716
+       ],
+       [
+        "TOI-4342 b",
+        5.5382592
+       ],
+       [
+        "TOI-4342 b",
+        5.5382498
+       ],
+       [
+        "TOI-4342 b",
+        5.53832899924
+       ]
+      ],
+      "pscomppars": [
+       [
+        "TOI-4342 b",
+        5.5382592
+       ],
+       [
+        "TOI-4342 c",
+        10.688662
+       ]
+      ],
+      "toi": [
+       [
+        "4342.01",
+        5.538329
+       ],
+       [
+        "4342.02",
+        10.6886084
+       ]
+      ]
+     },
+     "hit": "none"
+    },
+    "arxiv": {
+     "checked": "yes: API all:\"<term>\" for ['TOI-4342', 'TOI 4342', 'TIC 354944123', '354944123']; full LaTeX source grep for relevant papers",
+     "papers": [
+      [
+       "http://arxiv.org/abs/2301.01370v1",
+       "2023-01-03",
+       "TESS Discovery of Twin Planets near 2:1 Resonance around Early M-Dwarf TOI 4342"
+      ],
+      [
+       "http://arxiv.org/abs/2601.22115v2",
+       "2026-01-29",
+       "Densities of small planets around the M dwarfs TOI-4336 A and TOI-4342 with ESPRESSO: Three sub-Neptunes, one super-Earth, and a Neptune-mass candidate"
+      ]
+     ],
+     "fulltext_grep": {
+      "2601.22115:TOI-4342": {
+       "n_mentions": 322,
+       "alias_numbers_found": 39,
+       "assessment": "all alias-valued numbers are unrelated quantities (magnitudes, densities, ESM, K, LaTeX/PDF internals); no period at the candidate value"
+      },
+      "2301.01370:TOI-4342": {
+       "n_mentions": 16,
+       "alias_numbers_found": 12,
+       "assessment": "all alias-valued numbers are unrelated quantities (magnitudes, densities, ESM, K, LaTeX/PDF internals); no period at the candidate value"
+      }
+     },
+     "hit": "none (no paper reports a signal at the candidate period or aliases); 2601.22115 (ESPRESSO, 2026) reports a 47.5 d non-transiting RV candidate - not an alias of 1.9577 d or 18.908 d"
+    },
+    "spoc_tce": {
+     "checked": "yes: all 132 MAST DV tcestats CSVs (341351 TCE rows; single-sector S1-S107, multi-sector up to S1-S96), target TIC + all TICs within 2'",
+     "target_tce_periods": [
+      5.5305,
+      5.537,
+      5.5374,
+      5.5382,
+      5.5383,
+      10.6886,
+      10.6887,
+      10.7111
+     ],
+     "n_target_tces": 11,
+     "neighbour_tces_any_period": 0,
+     "hit": "none",
+     "spoc_short_cadence_sectors": [
+      13,
+      27,
+      36,
+      66,
+      67,
+      69,
+      93,
+      94,
+      96,
+      101,
+      102,
+      103
+     ]
+    },
+    "qlp_tce": {
+     "checked": "no: QLP does not publish a TCE/alert list (only TOIs, already covered by the TOI table); MAST holds QLP light curves only",
+     "hit": "n/a"
+    },
+    "eumemic_exoplanets": {
+     "checked": "yes: all 4570 text files at da722613 (all_signals*, vetted_signals*, candidates*, candidates_allsky, tiers, followup_*, ephemerides, predictions, novelty_check, validation/*, README, dossiers) for TIC, Gaia IDs and 2' neighbour TICs; issues #1-17 + 11 comments",
+     "rows_at_candidate_period_or_extra": [
+      {
+       "file": "README.md",
+       "line": 92,
+       "matches_candidate_alias": [],
+       "matches_extra_period": [
+        [
+         "18.90820",
+         18.908,
+         "1x"
+        ]
+       ],
+       "fields": null,
+       "text": "| 354944123 (TOI-4342) | 18.90820 | 2.21 \u00b1 0.11 | 3880 K, 62 pc | 0.14 | no prior report found; third transiting signal in a system with two confirmed planets |"
+      },
+      {
+       "file": "candidates/ephemerides.csv",
+       "line": 485,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "Rp_Re": "2.21",
+        "tier": "A",
+        "depth_ppm": "1142"
+       },
+       "text": null
+      },
+      {
+       "file": "candidates/predictions.csv",
+       "line": 31331,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "tier": "A"
+       },
+       "text": null
+      },
+      {
+       "file": "candidates/predictions.csv",
+       "line": 31332,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "tier": "A"
+       },
+       "text": null
+      },
+      {
+       "file": "candidates/predictions.csv",
+       "line": 31333,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "tier": "A"
+       },
+       "text": null
+      },
+      {
+       "file": "candidates/predictions.csv",
+       "line": 31334,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "tier": "A"
+       },
+       "text": null
+      },
+      {
+       "file": "candidates/predictions.csv",
+       "line": 31335,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "tier": "A"
+       },
+       "text": null
+      },
+      {
+       "file": "candidates/predictions.csv",
+       "line": 31336,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "tier": "A"
+       },
+       "text": null
+      },
+      {
+       "file": "candidates/predictions.csv",
+       "line": 31337,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "tier": "A"
+       },
+       "text": null
+      },
+      {
+       "file": "candidates/predictions.csv",
+       "line": 31338,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "tier": "A"
+       },
+       "text": null
+      },
+      {
+       "file": "candidates/predictions.csv",
+       "line": 31339,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "tier": "A"
+       },
+       "text": null
+      },
+      {
+       "file": "candidates/predictions.csv",
+       "line": 31340,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "tier": "A"
+       },
+       "text": null
+      },
+      {
+       "file": "candidates/predictions.csv",
+       "line": 31341,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "tier": "A"
+       },
+       "text": null
+      },
+      {
+       "file": "candidates/predictions.csv",
+       "line": 31342,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "tier": "A"
+       },
+       "text": null
+      },
+      {
+       "file": "candidates/predictions.csv",
+       "line": 31343,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "tier": "A"
+       },
+       "text": null
+      },
+      {
+       "file": "candidates/TIC354944123_P18.908/vetting.json",
+       "line": 1,
+       "matches_candidate_alias": [],
+       "matches_extra_period": [
+        [
+         "18.908207241898467",
+         18.908,
+         "1x"
+        ]
+       ],
+       "fields": null,
+       "text": "{\"tic\": 354944123, \"rank\": 13, \"period\": 18.908207241898467, \"t0\": 1675.5311958056625, \"duration_h\": 2.0737081685501795, \"depth_ppm\": 1216.6744299269003, \"depth_err_ppm\": 88.17570769151462, \"snr\": 13.798295038169387, \"rp_earth\": 2.278442573932423, \"sector_chi2_dof\": 2.3824408189917925, \"per_sector\":"
+      },
+      {
+       "file": "results_public/followup_toi_hosts.csv",
+       "line": 30,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "rank": "1",
+        "period": "18.9082081322553",
+        "depth_ppm": "1133.984078782397"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/vetted_signals.csv.gz",
+       "line": 1427,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "rank": "13",
+        "period": "18.908207241898467",
+        "t0": "1675.5311958056625",
+        "bls_snr": "11.219335338818672",
+        "snr": "10.855052028546826",
+        "sde": "9.973797119013344",
+        "vet_snr": "13.798295038169387",
+        "MES": "11.824522784299852",
+        "rp": "2.278442573932423",
+        "n_events": "8",
+        "n_good_events": "7",
+        "n_sectors": "9",
+        "method": "semi",
+        "n_fail": "0",
+        "known_status": "new",
+        "depth_ppm": "1216.6744299269003",
+        "bls_depth_ppm": "961.0617998763385"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/all_signals.csv.gz",
+       "line": 10072,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "rank": "3",
+        "period": "18.908178278152576",
+        "t0": "1675.535634314875",
+        "bls_snr": "11.179909130880922",
+        "snr": "11.322814441418124",
+        "sde": "15.230676451222184",
+        "n_events": "8",
+        "n_good_events": "7",
+        "n_sectors": "9",
+        "method": "coherent",
+        "bls_depth_ppm": "966.568587797514"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/all_signals.csv.gz",
+       "line": 30963,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "rank": "3",
+        "period": "18.908207241898467",
+        "t0": "1675.5311958056625",
+        "bls_snr": "11.219335338818672",
+        "snr": "10.855052028546826",
+        "sde": "9.973797119013343",
+        "n_events": "8",
+        "n_good_events": "7",
+        "n_sectors": "9",
+        "method": "semi",
+        "bls_depth_ppm": "961.0617998763383"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/candidates.csv",
+       "line": 4,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "P_d": "18.908204",
+        "T0_BJD": "2458675.532582056",
+        "Rp_Re": "2.207148",
+        "status": "no prior report found",
+        "notes": "b,c confirmed; FPP 0.11 before multiplicity boost",
+        "label": "TOI-4342 (third transiting candidate)",
+        "depth_ppm": "1154.8725792232606"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/all_signals_toi_hosts.csv.gz",
+       "line": 7056,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "rank": "1",
+        "period": "18.9082081322553",
+        "t0": "1675.5312181133502",
+        "bls_snr": "11.17983213853774",
+        "snr": "10.822911238764327",
+        "sde": "19.845570809409278",
+        "n_events": "8",
+        "n_good_events": "7",
+        "n_sectors": "9",
+        "method": "coherent",
+        "bls_depth_ppm": "957.6779080845306"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/all_signals_toi_hosts.csv.gz",
+       "line": 7057,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": {
+        "rank": "2",
+        "period": "1.95768326470113",
+        "t0": "1658.958495829491",
+        "bls_snr": "9.555439076240614",
+        "snr": "8.899676709511114",
+        "sde": "18.454841907077217",
+        "n_events": "98",
+        "n_good_events": "94",
+        "n_sectors": "9",
+        "method": "coherent",
+        "bls_depth_ppm": "305.9497099207615"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/vetted_signals_toi_hosts.csv.gz",
+       "line": 91,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": {
+        "rank": "2",
+        "period": "1.95768326470113",
+        "t0": "1658.958495829491",
+        "bls_snr": "9.555439076240614",
+        "snr": "8.899676709511114",
+        "sde": "18.454841907077217",
+        "vet_snr": "9.277487386117732",
+        "MES": "8.939922347669151",
+        "rp": "1.1809321798200143",
+        "n_events": "98",
+        "n_good_events": "94",
+        "n_sectors": "9",
+        "method": "coherent",
+        "n_fail": "1",
+        "fails": "inconsistent transit SNRs",
+        "known_status": "new",
+        "depth_ppm": "326.8497227319542",
+        "bls_depth_ppm": "305.9497099207615"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/vetted_signals_toi_hosts.csv.gz",
+       "line": 544,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "rank": "1",
+        "period": "18.9082081322553",
+        "t0": "1675.5312181133502",
+        "bls_snr": "11.17983213853774",
+        "snr": "10.822911238764329",
+        "sde": "19.84557080940928",
+        "vet_snr": "12.278277006308825",
+        "MES": "11.804455377401514",
+        "rp": "2.1996540121317087",
+        "n_events": "8",
+        "n_good_events": "7",
+        "n_sectors": "9",
+        "method": "coherent",
+        "n_fail": "0",
+        "known_status": "new",
+        "depth_ppm": "1133.984078782397",
+        "bls_depth_ppm": "957.6779080845306"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/followup_kmdwarfs.csv",
+       "line": 44,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "rank": "13",
+        "period": "18.908207241898467",
+        "depth_ppm": "1216.6744299269003"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/tiers_earlier_candidates.csv",
+       "line": 2,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "P_d": "18.908204",
+        "Rp_Re": "2.207148",
+        "tier": "A",
+        "FPP": "0.111",
+        "NFPP": "1.2e-05",
+        "src": "candidates.csv"
+       },
+       "text": null
+      },
+      {
+       "file": "validation/centroid_sectors_list.csv",
+       "line": 490,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x",
+         "1x"
+        ]
+       },
+       "fields": {
+        "period": "18.908204403493546",
+        "P_d": "18.908204",
+        "t0": "1675.532783752187",
+        "tier": "A",
+        "depth_ppm": "1141.7237986700663"
+       },
+       "text": null
+      },
+      {
+       "file": "validation/centroid_sectors.csv",
+       "line": 490,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "P_d": "18.9082",
+        "n_sectors": "7",
+        "tier": "A"
+       },
+       "text": null
+      },
+      {
+       "file": "validation/gaia_companion_limits.csv",
+       "line": 485,
+       "matches_candidate_alias": [],
+       "matches_extra_period": {
+        "18.908": [
+         "1x"
+        ]
+       },
+       "fields": {
+        "P_d": "18.908204",
+        "FPP": "0.1113",
+        "NFPP": "1.2e-05"
+       },
+       "text": null
+      }
+     ],
+     "other_rows_on_star": [
+      "candidates/TIC354944123_P18.908/triceratops_fpp.json",
+      "candidates/TIC354944123_P18.908/triceratops_gaia.json",
+      "pipeline/make_figures.py",
+      "results_public/all_signals_long.csv.gz",
+      "results_public/all_signals_long_toi_hosts.csv.gz",
+      "validation/centroid_sectors_per_sector.csv.gz",
+      "validation/centroid_sectors_stars.csv.gz",
+      "video/public/data/points.json"
+     ],
+     "issues": "issue #8 mentions TOI-4342 (18.9 d spotlight)"
+    },
+    "brahle_exoplanet_db_api": {
+     "checked": "yes: GET /v1/cone (120\") and /v1/candidates?search=<TIC>, ?search=<Gaia DR3>",
+     "signals": [
+      [
+       "TOI-4342 b",
+       5.5382592,
+       "confirmed_planet",
+       [
+        "eumemic/exoplanets:vetting",
+        "nasa_pscomppars",
+        "nasa_toi"
+       ]
+      ],
+      [
+       "TOI-4342 c",
+       10.688662,
+       "confirmed_planet",
+       [
+        "eumemic/exoplanets:vetting",
+        "nasa_pscomppars",
+        "nasa_toi"
+       ]
+      ],
+      [
+       "TOI-4342 (third transiting candidate)",
+       18.908204,
+       "planet_candidate",
+       [
+        "eumemic/exoplanets",
+        "eumemic/exoplanets:vetting"
+       ]
+      ]
+     ],
+     "hit": "18.908204 d (eumemic, planet_candidate); no 1.9577 d entry"
+    },
+    "brahle_exoplanet_candidates": {
+     "checked": "yes: file names + contents of all 4,503 non-binary files (TIC, Gaia, neighbour TICs)",
+     "hit": "none"
+    },
+    "th0rgal_open_exoplanet_hunt": {
+     "checked": "yes: registry/scanned_targets.jsonl, catalog/external_discoveries.json, catalog/known_tics.json.gz (entry inspected per TIC), candidates/, docs/PREREGISTERED_EPHEMERIDES_2026.md",
+     "hit": "none (known_tics entry, if present, only mirrors the TOI/NEA rows; star not in scanned registry, candidates or external discoveries)"
+    },
+    "other_community_repos": {
+     "checked": "yes: 10 repos (Aidenn8, paraschopra, avijit-thawani, samsonmaximus, moosesteve21, alexvaldex, marc252, CptSyphilis, killercatfish, Comdex4), all csv/json/jsonl/md/txt",
+     "on_star": [
+      "paraschopra_tess-planet-candidates"
+     ],
+     "hit": "none",
+     "note": null
+    },
+    "github_code_search": {
+     "checked": "yes: TIC number, TOI name, TIC+period and TOI+period combos, Gaia DR3 (and DR2) ids; astro-relevant hits inspected",
+     "hit": "eumemic (18.908 d) + catalogue copies of b/c"
+    },
+    "T16": {
+     "checked": "yes: t1 candidate MRT (11,143) + t2 single-transit MRT (411) by TIC v8.2 and Gaia DR3/DR2 id; 2' neighbours by TIC",
+     "target_rows": [
+      [
+       10962,
+       "5.5380"
+      ]
+     ],
+     "neighbour_rows": [],
+     "t16_lightcurve_at_mast": false,
+     "hit": "none (T16 lists only the known 5.538 d planet b, MRT line 10962)"
+    },
+    "RAVEN": {
+     "checked": "yes: nsfp09, vet, val, val_rp8 tables by TIC, Gaia DR3/DR2 and 2' cone",
+     "rows": "none",
+     "hit": "none at candidate period/aliases"
+    },
+    "pht_talk": {
+     "checked": "yes: 5 queries (['354944123', 'TIC354944123', 'TOI 4342', 'TOI-4342', 'TOI4342'])",
+     "n_results": 9,
+     "hit": "none (comments only restate TOI/known-planet info)"
+    },
+    "zenodo": {
+     "checked": "yes: {'354944123': 0, 'TOI-4342': 0, 'TOI 4342': 0} plus Gaia DR3 id and compact TOI name (all 0)",
+     "hit": "none"
+    }
+   },
+   "verdict": "CREDIT-NEEDED",
+   "verdict_basis": "1.957689 d: listed raw in Eumemic all_signals_toi_hosts.csv.gz L7057 (rank 2, P=1.95768326 d, SNR 8.90, bls_snr 9.56, 94/98 good events, 9 sectors) and in vetted_signals_toi_hosts.csv.gz L91 where it FAILED his vetting (n_fail=1: 'inconsistent transit SNRs'; vet_snr 9.28, MES 8.94, Rp 1.18 Re, known_status 'new'). Not in any candidate/tier/follow-up/ephemeris list. Separately, the 18.908 d signal is NOT NOVEL: Eumemic tier-A counted candidate since 2026-10-07 (README first-release table L92; candidates.csv L4; tiers_earlier_candidates.csv L2 tier A, FPP 0.111; candidates/ephemerides.csv L485; dossier candidates/TIC354944123_P18.908/)."
+  },
+  "TOI-6008": {
+   "tic": 286201103,
+   "gaia_dr3": "2168280502430898944",
+   "gaia_dr2": "2168280502430898944",
+   "ra": 310.447680823753,
+   "dec": 49.6467079639525,
+   "candidate_period_d": 7.220152,
+   "extra_period_checked_d": null,
+   "known_periods_d": [
+    0.857
+   ],
+   "sources": {
+    "exofop_toi": {
+     "checked": "yes: TIC match + 3' cone + alias test over 8151 rows",
+     "same_star_entries": [
+      {
+       "TOI": "6008.01",
+       "period": "0.857372697894355",
+       "disp": "CP",
+       "comments": "sub-Earth candidate"
+      }
+     ],
+     "neighbours_within_3arcmin": [],
+     "hit": "none"
+    },
+    "exofop_ctoi": {
+     "checked": "yes: TIC match + 3' cone + alias test over 5138 rows",
+     "same_star_entries": [],
+     "neighbours_within_3arcmin": [],
+     "hit": "none"
+    },
+    "exofop_target_page": {
+     "checked": "yes: target.php JSON (TOIs, CTOIs, planet parameters, notes, time series, spectroscopy, imaging, files)",
+     "tois": [
+      "TOI 6008.01 (sub-Earth candidate)"
+     ],
+     "ctois": [],
+     "confirmed": "TOI-6008 b",
+     "n_time_series": 10,
+     "n_spectroscopy": 1,
+     "n_imaging": 2,
+     "planet_parameter_periods": [
+      "0.857372697894355",
+      "0.8574347"
+     ],
+     "hit": "none at candidate period/aliases; TFOP SG1 time series for TIC 286201103.22 ('TOI-6008.22', SHERLOCK P=16.3585 d, K. Barkaoui) - different period, not an alias (notes files: exofop/toi6008_22/)"
+    },
+    "nasa_exoplanet_archive": {
+     "checked": "yes: ps + pscomppars (TIC or 2' box->cone), toi (TIC or 3'), ps by Gaia DR2/DR3 id",
+     "rows": {
+      "ps": [
+       [
+        "TOI-6008 b",
+        0.85737269789
+       ],
+       [
+        "TOI-6008 b",
+        0.8574347
+       ]
+      ],
+      "pscomppars": [
+       [
+        "TOI-6008 b",
+        0.8574347
+       ]
+      ],
+      "toi": [
+       [
+        "6008.01",
+        0.8573727
+       ]
+      ]
+     },
+     "hit": "none"
+    },
+    "arxiv": {
+     "checked": "yes: API all:\"<term>\" for ['TOI-6008', 'TOI 6008', 'TIC 286201103', '286201103']; full LaTeX source grep for relevant papers",
+     "papers": [
+      [
+       "http://arxiv.org/abs/2405.06350v3",
+       "2024-05-10",
+       "Three short-period Earth-sized planets around M dwarfs discovered by TESS: TOI-5720b, TOI-6008b and TOI-6086b"
+      ]
+     ],
+     "fulltext_grep": {
+      "2405.06350:TOI-6008": {
+       "n_mentions": 151,
+       "alias_numbers_found": 2,
+       "assessment": "all alias-valued numbers are unrelated quantities (magnitudes, densities, ESM, K, LaTeX/PDF internals); no period at the candidate value"
+      }
+     },
+     "hit": "none (no paper reports a signal at the candidate period or aliases)"
+    },
+    "spoc_tce": {
+     "checked": "yes: all 132 MAST DV tcestats CSVs (341351 TCE rows; single-sector S1-S107, multi-sector up to S1-S96), target TIC + all TICs within 2'",
+     "target_tce_periods": [
+      0.8574,
+      0.8577
+     ],
+     "n_target_tces": 6,
+     "neighbour_tces_any_period": 0,
+     "hit": "none",
+     "spoc_short_cadence_sectors": [
+      15,
+      16,
+      41,
+      55,
+      56,
+      60,
+      75,
+      76,
+      78,
+      82,
+      83,
+      86
+     ]
+    },
+    "qlp_tce": {
+     "checked": "no: QLP does not publish a TCE/alert list (only TOIs, already covered by the TOI table); MAST holds QLP light curves only",
+     "hit": "n/a"
+    },
+    "eumemic_exoplanets": {
+     "checked": "yes: all 4570 text files at da722613 (all_signals*, vetted_signals*, candidates*, candidates_allsky, tiers, followup_*, ephemerides, predictions, novelty_check, validation/*, README, dossiers) for TIC, Gaia IDs and 2' neighbour TICs; issues #1-17 + 11 comments",
+     "rows_at_candidate_period_or_extra": [
+      {
+       "file": "results_public/all_signals_faint_t1.csv.gz",
+       "line": 20237,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": {
+        "rank": "2",
+        "period": "7.220119005410448",
+        "t0": "1717.8007222767349",
+        "bls_snr": "7.858454770244471",
+        "snr": "7.4608845280556455",
+        "sde": "16.494730174649057",
+        "n_events": "33",
+        "n_good_events": "32",
+        "n_sectors": "9",
+        "method": "coherent",
+        "bls_depth_ppm": "1291.3899282910897"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/all_signals_toi_hosts.csv.gz",
+       "line": 7949,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": {
+        "rank": "1",
+        "period": "7.2201133872942425",
+        "t0": "1717.8025222591805",
+        "bls_snr": "7.346826933454317",
+        "snr": "6.7881641458266655",
+        "sde": "12.550116497556848",
+        "n_events": "29",
+        "n_good_events": "27",
+        "n_sectors": "9",
+        "method": "coherent",
+        "bls_depth_ppm": "1304.1417439423867"
+       },
+       "text": null
+      }
+     ],
+     "other_rows_on_star": [
+      "results_public/all_signals_long_toi_hosts.csv.gz",
+      "results_public/vetted_signals_faint_t1.csv.gz",
+      "validation/centroid_calibration_tois.csv",
+      "validation/centroid_sectors.csv",
+      "validation/centroid_sectors_list.csv",
+      "validation/centroid_sectors_per_sector.csv.gz",
+      "validation/centroid_sectors_stars.csv.gz"
+     ],
+     "issues": "none"
+    },
+    "brahle_exoplanet_db_api": {
+     "checked": "yes: GET /v1/cone (120\") and /v1/candidates?search=<TIC>, ?search=<Gaia DR3>",
+     "signals": [
+      [
+       "TOI-6008 b",
+       0.8574347,
+       "confirmed_planet",
+       [
+        "eumemic/exoplanets:vetting",
+        "nasa_pscomppars",
+        "nasa_toi"
+       ]
+      ]
+     ],
+     "hit": "none"
+    },
+    "brahle_exoplanet_candidates": {
+     "checked": "yes: file names + contents of all 4,503 non-binary files (TIC, Gaia, neighbour TICs)",
+     "hit": "none"
+    },
+    "th0rgal_open_exoplanet_hunt": {
+     "checked": "yes: registry/scanned_targets.jsonl, catalog/external_discoveries.json, catalog/known_tics.json.gz (entry inspected per TIC), candidates/, docs/PREREGISTERED_EPHEMERIDES_2026.md",
+     "hit": "none (known_tics entry, if present, only mirrors the TOI/NEA rows; star not in scanned registry, candidates or external discoveries)"
+    },
+    "other_community_repos": {
+     "checked": "yes: 10 repos (Aidenn8, paraschopra, avijit-thawani, samsonmaximus, moosesteve21, alexvaldex, marc252, CptSyphilis, killercatfish, Comdex4), all csv/json/jsonl/md/txt",
+     "on_star": [
+      "paraschopra_tess-planet-candidates"
+     ],
+     "hit": "none",
+     "note": null
+    },
+    "github_code_search": {
+     "checked": "yes: TIC number, TOI name, TIC+period and TOI+period combos, Gaia DR3 (and DR2) ids; astro-relevant hits inspected",
+     "hit": "JorgeAcebes/tess-exoplanet-detection 'Datos de Archivo/resultados/resultados_TOI-6008_stitching/TOI-6008 b.json': BLS P=7.2201572 d, t0=1717.79249 BTJD, depth 0.00124, mislabelled 'TOI-6008 b' (raw student BLS output; first committed 2026-01-08T08:26Z, 39816f0b90)"
+    },
+    "T16": {
+     "checked": "yes: t1 candidate MRT (11,143) + t2 single-transit MRT (411) by TIC v8.2 and Gaia DR3/DR2 id; 2' neighbours by TIC",
+     "target_rows": [],
+     "neighbour_rows": [],
+     "t16_lightcurve_at_mast": false,
+     "hit": "none"
+    },
+    "RAVEN": {
+     "checked": "yes: nsfp09, vet, val, val_rp8 tables by TIC, Gaia DR3/DR2 and 2' cone",
+     "rows": "none",
+     "hit": "none at candidate period/aliases"
+    },
+    "pht_talk": {
+     "checked": "yes: 5 queries (['286201103', 'TIC286201103', 'TOI 6008', 'TOI-6008', 'TOI6008'])",
+     "n_results": 2,
+     "hit": "none (comments only restate TOI/known-planet info)"
+    },
+    "zenodo": {
+     "checked": "yes: {'286201103': 0, 'TOI-6008': 0, 'TOI 6008': 0} plus Gaia DR3 id and compact TOI name (all 0)",
+     "hit": "none"
+    }
+   },
+   "verdict": "CREDIT-NEEDED",
+   "verdict_basis": "Listed raw in Eumemic all_signals_faint_t1 L20237 (rank 2, P=7.220119 d, SNR 7.46) and all_signals_toi_hosts L7949 (rank 1, P=7.220113 d, SNR 6.79); not vetted/candidate. Also a raw BLS output in JorgeAcebes/tess-exoplanet-detection ('Datos de Archivo/resultados/resultados_TOI-6008_stitching/TOI-6008 b.json', P=7.22016 d, t0=1717.792 BTJD, depth 1239 ppm; committed 2026-01-08, commit 39816f0b90) where it is mislabelled as 'TOI-6008 b' (a failed recovery of the 0.857 d planet, excluded from that repo's resultados_validos); not a claim. No TOI/CTOI/TCE/paper. Note: TFOP SG1 followed a different TFOP-internal candidate 'TOI-6008.22' (SHERLOCK, K. Barkaoui, P=16.3585 d; also a mention of P=6.35854 d) in 2023-2024; neither is an alias of 7.220 d."
+  },
+  "TIC 350522259": {
+   "tic": 350522259,
+   "gaia_dr3": "4767466445054844672",
+   "gaia_dr2": "4767466445054844672",
+   "ra": 86.372643299473,
+   "dec": -55.5421848922922,
+   "candidate_period_d": 0.738773,
+   "extra_period_checked_d": null,
+   "known_periods_d": [],
+   "sources": {
+    "exofop_toi": {
+     "checked": "yes: TIC match + 3' cone + alias test over 8151 rows",
+     "same_star_entries": [],
+     "neighbours_within_3arcmin": [],
+     "hit": "none"
+    },
+    "exofop_ctoi": {
+     "checked": "yes: TIC match + 3' cone + alias test over 5138 rows",
+     "same_star_entries": [],
+     "neighbours_within_3arcmin": [],
+     "hit": "none"
+    },
+    "exofop_target_page": {
+     "checked": "yes: target.php JSON (TOIs, CTOIs, planet parameters, notes, time series, spectroscopy, imaging, files)",
+     "tois": [],
+     "ctois": [],
+     "confirmed": "",
+     "n_time_series": 0,
+     "n_spectroscopy": 0,
+     "n_imaging": 0,
+     "planet_parameter_periods": [],
+     "hit": "none at candidate period/aliases"
+    },
+    "nasa_exoplanet_archive": {
+     "checked": "yes: ps + pscomppars (TIC or 2' box->cone), toi (TIC or 3'), ps by Gaia DR2/DR3 id",
+     "rows": {
+      "ps": [],
+      "pscomppars": [],
+      "toi": []
+     },
+     "hit": "none"
+    },
+    "arxiv": {
+     "checked": "yes: API all:\"<term>\" for ['TIC 350522259', '350522259']; full LaTeX source grep for relevant papers",
+     "papers": [],
+     "fulltext_grep": {},
+     "hit": "none (no paper reports a signal at the candidate period or aliases)"
+    },
+    "spoc_tce": {
+     "checked": "yes: all 132 MAST DV tcestats CSVs (341351 TCE rows; single-sector S1-S107, multi-sector up to S1-S96), target TIC + all TICs within 2'",
+     "target_tce_periods": [],
+     "n_target_tces": 0,
+     "neighbour_tces_any_period": 0,
+     "hit": "none",
+     "spoc_short_cadence_sectors": []
+    },
+    "qlp_tce": {
+     "checked": "no: QLP does not publish a TCE/alert list (only TOIs, already covered by the TOI table); MAST holds QLP light curves only",
+     "hit": "n/a"
+    },
+    "eumemic_exoplanets": {
+     "checked": "yes: all 4570 text files at da722613 (all_signals*, vetted_signals*, candidates*, candidates_allsky, tiers, followup_*, ephemerides, predictions, novelty_check, validation/*, README, dossiers) for TIC, Gaia IDs and 2' neighbour TICs; issues #1-17 + 11 comments",
+     "rows_at_candidate_period_or_extra": "none",
+     "other_rows_on_star": "none",
+     "issues": "none"
+    },
+    "brahle_exoplanet_db_api": {
+     "checked": "yes: GET /v1/cone (120\") and /v1/candidates?search=<TIC>, ?search=<Gaia DR3>",
+     "signals": [],
+     "hit": "none"
+    },
+    "brahle_exoplanet_candidates": {
+     "checked": "yes: file names + contents of all 4,503 non-binary files (TIC, Gaia, neighbour TICs)",
+     "hit": "none"
+    },
+    "th0rgal_open_exoplanet_hunt": {
+     "checked": "yes: registry/scanned_targets.jsonl, catalog/external_discoveries.json, catalog/known_tics.json.gz (entry inspected per TIC), candidates/, docs/PREREGISTERED_EPHEMERIDES_2026.md",
+     "hit": "none (known_tics entry, if present, only mirrors the TOI/NEA rows; star not in scanned registry, candidates or external discoveries)"
+    },
+    "other_community_repos": {
+     "checked": "yes: 10 repos (Aidenn8, paraschopra, avijit-thawani, samsonmaximus, moosesteve21, alexvaldex, marc252, CptSyphilis, killercatfish, Comdex4), all csv/json/jsonl/md/txt",
+     "on_star": "none",
+     "hit": "none",
+     "note": null
+    },
+    "github_code_search": {
+     "checked": "yes: TIC number, TOI name, TIC+period and TOI+period combos, Gaia DR3 (and DR2) ids; astro-relevant hits inspected",
+     "hit": "none (hits are catalogue copies of TOI/planet tables, TESS GI target lists, or unrelated numeric files)"
+    },
+    "T16": {
+     "checked": "yes: t1 candidate MRT (11,143) + t2 single-transit MRT (411) by TIC v8.2 and Gaia DR3/DR2 id; 2' neighbours by TIC",
+     "target_rows": [],
+     "neighbour_rows": [],
+     "t16_lightcurve_at_mast": true,
+     "hit": "none"
+    },
+    "RAVEN": {
+     "checked": "yes: nsfp09, vet, val, val_rp8 tables by TIC, Gaia DR3/DR2 and 2' cone",
+     "rows": "none",
+     "hit": "none at candidate period/aliases"
+    },
+    "pht_talk": {
+     "checked": "yes: 2 queries (['350522259', 'TIC350522259'])",
+     "n_results": 0,
+     "hit": "none (0 results)"
+    },
+    "zenodo": {
+     "checked": "yes: {'350522259': 0} plus Gaia DR3 id and compact TOI name (all 0)",
+     "hit": "none"
+    }
+   },
+   "verdict": "NOVEL",
+   "verdict_basis": "No hit in any source by TIC, Gaia DR3 4767466445054844672, 2' cone, or period aliases. No SPOC 2-min data (so no DV/TCE possible); T16 has a Cycle-1 light curve but lists no candidate; T=14.46 is fainter than all Eumemic searches (T<=13.5)."
+  },
+  "TIC 11528365": {
+   "tic": 11528365,
+   "gaia_dr3": "5041125990035579136",
+   "gaia_dr2": "5041125990035579136",
+   "ra": 18.6674679621019,
+   "dec": -23.9610814839411,
+   "candidate_period_d": 8.171535,
+   "extra_period_checked_d": null,
+   "known_periods_d": [],
+   "sources": {
+    "exofop_toi": {
+     "checked": "yes: TIC match + 3' cone + alias test over 8151 rows",
+     "same_star_entries": [],
+     "neighbours_within_3arcmin": [],
+     "hit": "none"
+    },
+    "exofop_ctoi": {
+     "checked": "yes: TIC match + 3' cone + alias test over 5138 rows",
+     "same_star_entries": [],
+     "neighbours_within_3arcmin": [],
+     "hit": "none"
+    },
+    "exofop_target_page": {
+     "checked": "yes: target.php JSON (TOIs, CTOIs, planet parameters, notes, time series, spectroscopy, imaging, files)",
+     "tois": [],
+     "ctois": [],
+     "confirmed": "",
+     "n_time_series": 0,
+     "n_spectroscopy": 0,
+     "n_imaging": 0,
+     "planet_parameter_periods": [],
+     "hit": "none at candidate period/aliases"
+    },
+    "nasa_exoplanet_archive": {
+     "checked": "yes: ps + pscomppars (TIC or 2' box->cone), toi (TIC or 3'), ps by Gaia DR2/DR3 id",
+     "rows": {
+      "ps": [],
+      "pscomppars": [],
+      "toi": []
+     },
+     "hit": "none"
+    },
+    "arxiv": {
+     "checked": "yes: API all:\"<term>\" for ['TIC 11528365', '11528365']; full LaTeX source grep for relevant papers",
+     "papers": [],
+     "fulltext_grep": {},
+     "hit": "none (no paper reports a signal at the candidate period or aliases)"
+    },
+    "spoc_tce": {
+     "checked": "yes: all 132 MAST DV tcestats CSVs (341351 TCE rows; single-sector S1-S107, multi-sector up to S1-S96), target TIC + all TICs within 2'",
+     "target_tce_periods": [],
+     "n_target_tces": 0,
+     "neighbour_tces_any_period": 0,
+     "hit": "none",
+     "spoc_short_cadence_sectors": [
+      30,
+      97,
+      107
+     ]
+    },
+    "qlp_tce": {
+     "checked": "no: QLP does not publish a TCE/alert list (only TOIs, already covered by the TOI table); MAST holds QLP light curves only",
+     "hit": "n/a"
+    },
+    "eumemic_exoplanets": {
+     "checked": "yes: all 4570 text files at da722613 (all_signals*, vetted_signals*, candidates*, candidates_allsky, tiers, followup_*, ephemerides, predictions, novelty_check, validation/*, README, dossiers) for TIC, Gaia IDs and 2' neighbour TICs; issues #1-17 + 11 comments",
+     "rows_at_candidate_period_or_extra": "none",
+     "other_rows_on_star": "none",
+     "issues": "none"
+    },
+    "brahle_exoplanet_db_api": {
+     "checked": "yes: GET /v1/cone (120\") and /v1/candidates?search=<TIC>, ?search=<Gaia DR3>",
+     "signals": [],
+     "hit": "none"
+    },
+    "brahle_exoplanet_candidates": {
+     "checked": "yes: file names + contents of all 4,503 non-binary files (TIC, Gaia, neighbour TICs)",
+     "hit": "none"
+    },
+    "th0rgal_open_exoplanet_hunt": {
+     "checked": "yes: registry/scanned_targets.jsonl, catalog/external_discoveries.json, catalog/known_tics.json.gz (entry inspected per TIC), candidates/, docs/PREREGISTERED_EPHEMERIDES_2026.md",
+     "hit": "none (known_tics entry, if present, only mirrors the TOI/NEA rows; star not in scanned registry, candidates or external discoveries)"
+    },
+    "other_community_repos": {
+     "checked": "yes: 10 repos (Aidenn8, paraschopra, avijit-thawani, samsonmaximus, moosesteve21, alexvaldex, marc252, CptSyphilis, killercatfish, Comdex4), all csv/json/jsonl/md/txt",
+     "on_star": "none",
+     "hit": "none",
+     "note": null
+    },
+    "github_code_search": {
+     "checked": "yes: TIC number, TOI name, TIC+period and TOI+period combos, Gaia DR3 (and DR2) ids; astro-relevant hits inspected",
+     "hit": "none (hits are catalogue copies of TOI/planet tables, TESS GI target lists, or unrelated numeric files)"
+    },
+    "T16": {
+     "checked": "yes: t1 candidate MRT (11,143) + t2 single-transit MRT (411) by TIC v8.2 and Gaia DR3/DR2 id; 2' neighbours by TIC",
+     "target_rows": [],
+     "neighbour_rows": [],
+     "t16_lightcurve_at_mast": true,
+     "hit": "none"
+    },
+    "RAVEN": {
+     "checked": "yes: nsfp09, vet, val, val_rp8 tables by TIC, Gaia DR3/DR2 and 2' cone",
+     "rows": "none",
+     "hit": "none at candidate period/aliases"
+    },
+    "pht_talk": {
+     "checked": "yes: 2 queries (['11528365', 'TIC11528365'])",
+     "n_results": 0,
+     "hit": "none (0 results)"
+    },
+    "zenodo": {
+     "checked": "yes: {'11528365': 0} plus Gaia DR3 id and compact TOI name (all 0)",
+     "hit": "none"
+    }
+   },
+   "verdict": "NOVEL",
+   "verdict_basis": "No hit in any source. SPOC 2-min in S30/S97/S107 produced no TCE; T16 has a light curve but no candidate; no RAVEN entry. Caveat: the star meets Eumemic's full-sky selection (FGKM dwarf, T<=13.5) but his full-sky raw signal list (7.46 M signals) is not public - only 2,426 selected rows (candidates_allsky.csv), which do not include it."
+  },
+  "TOI-249": {
+   "tic": 179985715,
+   "gaia_dr3": "4987729474846997248",
+   "gaia_dr2": "4987729474846997248",
+   "ra": 14.0804200748154,
+   "dec": -38.9487044114802,
+   "candidate_period_d": 19.09285,
+   "extra_period_checked_d": null,
+   "known_periods_d": [
+    6.615
+   ],
+   "sources": {
+    "exofop_toi": {
+     "checked": "yes: TIC match + 3' cone + alias test over 8151 rows",
+     "same_star_entries": [
+      {
+       "TOI": "249.01",
+       "period": "6.61531875224234",
+       "disp": "PC",
+       "comments": ""
+      }
+     ],
+     "neighbours_within_3arcmin": [],
+     "hit": "none"
+    },
+    "exofop_ctoi": {
+     "checked": "yes: TIC match + 3' cone + alias test over 5138 rows",
+     "same_star_entries": [],
+     "neighbours_within_3arcmin": [],
+     "hit": "none"
+    },
+    "exofop_target_page": {
+     "checked": "yes: target.php JSON (TOIs, CTOIs, planet parameters, notes, time series, spectroscopy, imaging, files)",
+     "tois": [
+      "TOI 249.01 ()"
+     ],
+     "ctois": [],
+     "confirmed": "",
+     "n_time_series": 10,
+     "n_spectroscopy": 3,
+     "n_imaging": 3,
+     "planet_parameter_periods": [
+      "6.6129",
+      "6.613",
+      "6.61531875224234"
+     ],
+     "hit": "none at candidate period/aliases"
+    },
+    "nasa_exoplanet_archive": {
+     "checked": "yes: ps + pscomppars (TIC or 2' box->cone), toi (TIC or 3'), ps by Gaia DR2/DR3 id",
+     "rows": {
+      "ps": [],
+      "pscomppars": [],
+      "toi": [
+       [
+        "249.01",
+        6.6153188
+       ]
+      ]
+     },
+     "hit": "none"
+    },
+    "arxiv": {
+     "checked": "yes: API all:\"<term>\" for ['TOI-249', 'TOI 249', 'TIC 179985715', '179985715']; full LaTeX source grep for relevant papers",
+     "papers": [],
+     "fulltext_grep": {
+      "2101.02707:TOI-249": {
+       "n_mentions": 2,
+       "alias_numbers_found": 9,
+       "assessment": "all alias-valued numbers are unrelated quantities (magnitudes, densities, ESM, K, LaTeX/PDF internals); no period at the candidate value"
+      }
+     },
+     "hit": "none (no paper reports a signal at the candidate period or aliases)"
+    },
+    "spoc_tce": {
+     "checked": "yes: all 132 MAST DV tcestats CSVs (341351 TCE rows; single-sector S1-S107, multi-sector up to S1-S96), target TIC + all TICs within 2'",
+     "target_tce_periods": [
+      6.6153,
+      6.6154,
+      6.6189
+     ],
+     "n_target_tces": 4,
+     "neighbour_tces_any_period": 0,
+     "hit": "none",
+     "spoc_short_cadence_sectors": [
+      2,
+      29,
+      36,
+      69,
+      96,
+      104,
+      105,
+      106,
+      107
+     ]
+    },
+    "qlp_tce": {
+     "checked": "no: QLP does not publish a TCE/alert list (only TOIs, already covered by the TOI table); MAST holds QLP light curves only",
+     "hit": "n/a"
+    },
+    "eumemic_exoplanets": {
+     "checked": "yes: all 4570 text files at da722613 (all_signals*, vetted_signals*, candidates*, candidates_allsky, tiers, followup_*, ephemerides, predictions, novelty_check, validation/*, README, dossiers) for TIC, Gaia IDs and 2' neighbour TICs; issues #1-17 + 11 comments",
+     "rows_at_candidate_period_or_extra": [
+      {
+       "file": "README.md",
+       "line": 141,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": null,
+       "text": "| 179985715 | 19.092785 | 2.56 | 4047 K, 11.3, 71 pc | TOI-249.01 (PC, 6.62 d) | 0.132 | K/M dwarfs; second signal on TOI-249; grazing (b=0.9); Gaia RUWE 2.0 |"
+      },
+      {
+       "file": "candidates/TIC179985715_P19.093/vetting.json",
+       "line": 1,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": null,
+       "text": "{\"tic\": 179985715, \"rank\": 2, \"period\": 19.092776680050743, \"t0\": 1357.303958694454, \"duration_h\": 1.4345270718700316, \"depth_ppm\": 1076.5768121000308, \"depth_err_ppm\": 118.2707011891692, \"snr\": 9.102650117699815, \"rp_earth\": 2.162038434806913, \"sector_chi2_dof\": 1.8711907130220518, \"per_sector\": [{"
+      },
+      {
+       "file": "candidates/TIC179985715_P19.093/followup.json",
+       "line": 1,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": null,
+       "text": "{\"tic\": 179985715, \"rank\": 2, \"period\": 19.092776680050743, \"depth_ppm\": 1076.5768121000308, \"n_capable_2.5arcmin\": 11, \"nearest_capable_arcsec\": 29.5635063039807, \"capable_within_15arcsec\": [], \"centroids\": [{\"sector\": 106, \"offset_arc\": 11.164038820869441, \"quality\": 0.43909525186789794}, {\"sector"
+      },
+      {
+       "file": "results_public/vetted_signals.csv.gz",
+       "line": 709,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": {
+        "rank": "2",
+        "period": "19.092776680050743",
+        "t0": "1357.303958694454",
+        "bls_snr": "9.054001904767608",
+        "snr": "9.018393204673185",
+        "sde": "16.58852557314997",
+        "vet_snr": "9.102650117699817",
+        "MES": "9.65306558181816",
+        "rp": "2.162038434806913",
+        "n_events": "9",
+        "n_good_events": "9",
+        "n_sectors": "8",
+        "method": "coherent",
+        "n_fail": "0",
+        "known_status": "new",
+        "depth_ppm": "1076.5768121000308",
+        "bls_depth_ppm": "964.4542814304584"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/candidates_2026-10-08.csv",
+       "line": 9,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": {
+        "P_d": "19.092785",
+        "T0_BJD": "2458357.30471",
+        "MES": "9.7",
+        "Rp_Re": "2.56",
+        "status": "candidate",
+        "notes": "second signal on TOI-249; grazing (b=0.9); Gaia RUWE 2.0",
+        "FPP": "0.132",
+        "NFPP": "0.046",
+        "depth_ppm": "1077"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/all_signals.csv.gz",
+       "line": 6103,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": {
+        "rank": "2",
+        "period": "19.092776680050743",
+        "t0": "1357.303958694454",
+        "bls_snr": "9.054001904767608",
+        "snr": "9.018393204673185",
+        "sde": "16.58852557314997",
+        "n_events": "9",
+        "n_good_events": "9",
+        "n_sectors": "8",
+        "method": "coherent",
+        "bls_depth_ppm": "964.4542814304585"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/all_signals.csv.gz",
+       "line": 27162,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": {
+        "rank": "2",
+        "period": "19.092803530328215",
+        "t0": "1357.303940876637",
+        "bls_snr": "9.012175034211038",
+        "snr": "8.641008569246337",
+        "sde": "9.295326170110053",
+        "n_events": "9",
+        "n_good_events": "9",
+        "n_sectors": "8",
+        "method": "semi",
+        "bls_depth_ppm": "1026.851554699737"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/all_signals_toi_hosts.csv.gz",
+       "line": 4167,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": {
+        "rank": "1",
+        "period": "19.09275995107689",
+        "t0": "1357.3082317001126",
+        "bls_snr": "9.032997523717224",
+        "snr": "8.916303860944113",
+        "sde": "15.888439200021914",
+        "n_events": "9",
+        "n_good_events": "9",
+        "n_sectors": "8",
+        "method": "coherent",
+        "bls_depth_ppm": "1047.9230636217233"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/vetted_signals_toi_hosts.csv.gz",
+       "line": 418,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": {
+        "rank": "1",
+        "period": "19.09275995107689",
+        "t0": "1357.3082317001126",
+        "bls_snr": "9.032997523717224",
+        "snr": "8.916303860944113",
+        "sde": "15.888439200021914",
+        "vet_snr": "9.19319891907927",
+        "MES": "10.278395633977324",
+        "rp": "2.266090826616105",
+        "n_events": "9",
+        "n_good_events": "9",
+        "n_sectors": "8",
+        "method": "coherent",
+        "n_fail": "1",
+        "fails": "bad transit model fit",
+        "known_status": "new",
+        "depth_ppm": "1182.695179193102",
+        "bls_depth_ppm": "1047.9230636217233"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/followup_kmdwarfs.csv",
+       "line": 22,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": {
+        "rank": "2",
+        "period": "19.092776680050743",
+        "depth_ppm": "1076.5768121000308"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/tiers_earlier_candidates.csv",
+       "line": 17,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": {
+        "P_d": "19.092785",
+        "Rp_Re": "2.56",
+        "tier": "C",
+        "c_reason": "grazing",
+        "src": "candidates_2026-10-08.csv"
+       },
+       "text": null
+      }
+     ],
+     "other_rows_on_star": [
+      "candidates/TIC179985715_P19.093/triceratops_fpp.json",
+      "results_public/all_signals_long.csv.gz",
+      "results_public/all_signals_long_toi_hosts.csv.gz",
+      "validation/centroid_calibration_tois.csv"
+     ],
+     "issues": "issue #11 lists TIC 179985715 among signals now tier C but unmarked in README tables"
+    },
+    "brahle_exoplanet_db_api": {
+     "checked": "yes: GET /v1/cone (120\") and /v1/candidates?search=<TIC>, ?search=<Gaia DR3>",
+     "signals": [
+      [
+       "TOI-249.01",
+       6.6153188,
+       "planet_candidate",
+       [
+        "eumemic/exoplanets:vetting",
+        "nasa_toi"
+       ]
+      ],
+      [
+       "TIC 179985715 (19.093 d)",
+       19.092785,
+       "unclassified_transit_like_signal",
+       [
+        "eumemic/exoplanets",
+        "eumemic/exoplanets:vetting"
+       ]
+      ]
+     ],
+     "hit": "19.092785 d (eumemic:vetting, unclassified_transit_like_signal; 'tier C, listed but not counted')"
+    },
+    "brahle_exoplanet_candidates": {
+     "checked": "yes: file names + contents of all 4,503 non-binary files (TIC, Gaia, neighbour TICs)",
+     "hit": "none"
+    },
+    "th0rgal_open_exoplanet_hunt": {
+     "checked": "yes: registry/scanned_targets.jsonl, catalog/external_discoveries.json, catalog/known_tics.json.gz (entry inspected per TIC), candidates/, docs/PREREGISTERED_EPHEMERIDES_2026.md",
+     "hit": "none (known_tics entry, if present, only mirrors the TOI/NEA rows; star not in scanned registry, candidates or external discoveries)"
+    },
+    "other_community_repos": {
+     "checked": "yes: 10 repos (Aidenn8, paraschopra, avijit-thawani, samsonmaximus, moosesteve21, alexvaldex, marc252, CptSyphilis, killercatfish, Comdex4), all csv/json/jsonl/md/txt",
+     "on_star": [
+      "paraschopra_tess-planet-candidates"
+     ],
+     "hit": "none",
+     "note": null
+    },
+    "github_code_search": {
+     "checked": "yes: TIC number, TOI name, TIC+period and TOI+period combos, Gaia DR3 (and DR2) ids; astro-relevant hits inspected",
+     "hit": "only eumemic/exoplanets files (same as above)"
+    },
+    "T16": {
+     "checked": "yes: t1 candidate MRT (11,143) + t2 single-transit MRT (411) by TIC v8.2 and Gaia DR3/DR2 id; 2' neighbours by TIC",
+     "target_rows": [],
+     "neighbour_rows": [],
+     "t16_lightcurve_at_mast": true,
+     "hit": "none"
+    },
+    "RAVEN": {
+     "checked": "yes: nsfp09, vet, val, val_rp8 tables by TIC, Gaia DR3/DR2 and 2' cone",
+     "rows": "none",
+     "hit": "none at candidate period/aliases"
+    },
+    "pht_talk": {
+     "checked": "yes: 5 queries (['179985715', 'TIC179985715', 'TOI 249', 'TOI-249', 'TOI249'])",
+     "n_results": 5,
+     "hit": "none (comments only restate TOI/known-planet info)"
+    },
+    "zenodo": {
+     "checked": "yes: {'179985715': 0, 'TOI-249': 0, 'TOI 249': 0} plus Gaia DR3 id and compact TOI name (all 0)",
+     "hit": "none"
+    }
+   },
+   "verdict": "NOT NOVEL",
+   "verdict_basis": "Publicly reported as a candidate by Eumemic on 2026-10-08 (commit b6d84c88, 2026-10-08T03:14Z): README 'Added 8 October 2026' table row (TIC 179985715, 19.092785 d, 2.56 Re, FPP 0.132, 'second signal on TOI-249; grazing (b=0.9); Gaia RUWE 2.0'); results_public/candidates_2026-10-08.csv L9 (status 'candidate', MES 9.7, NFPP 0.046); dossier candidates/TIC179985715_P19.093/. Now demoted to tier C ('grazing'; 'listed but not counted') in tiers_earlier_candidates.csv L17; Eumemic issue #11 notes it is still listed unmarked in the README table. Correction to the KB page: it is NOT on his currently counted list."
+  },
+  "TOI-4405": {
+   "tic": 177254988,
+   "gaia_dr3": "5261102085950186240",
+   "gaia_dr2": "5261102085950186240",
+   "ra": 101.594620661785,
+   "dec": -75.4443199724027,
+   "candidate_period_d": 3.600819,
+   "extra_period_checked_d": null,
+   "known_periods_d": [
+    5.921
+   ],
+   "sources": {
+    "exofop_toi": {
+     "checked": "yes: TIC match + 3' cone + alias test over 8151 rows",
+     "same_star_entries": [
+      {
+       "TOI": "4405.01",
+       "period": "5.92142305135093",
+       "disp": "PC",
+       "comments": "small star; potential multi"
+      },
+      {
+       "TOI": "4405.02",
+       "period": "1.09292034224534",
+       "disp": "PC",
+       "comments": "possible multi"
+      }
+     ],
+     "neighbours_within_3arcmin": [],
+     "hit": "none"
+    },
+    "exofop_ctoi": {
+     "checked": "yes: TIC match + 3' cone + alias test over 5138 rows",
+     "same_star_entries": [],
+     "neighbours_within_3arcmin": [],
+     "hit": "none"
+    },
+    "exofop_target_page": {
+     "checked": "yes: target.php JSON (TOIs, CTOIs, planet parameters, notes, time series, spectroscopy, imaging, files)",
+     "tois": [
+      "TOI 4405.01 (small star; potential multi)",
+      "TOI 4405.02 (possible multi)"
+     ],
+     "ctois": [],
+     "confirmed": "TOI-4405 b",
+     "n_time_series": 5,
+     "n_spectroscopy": 0,
+     "n_imaging": 1,
+     "planet_parameter_periods": [
+      "1.09292034224534",
+      "5.92142305135093",
+      "5.921439953158656"
+     ],
+     "hit": "none at candidate period/aliases"
+    },
+    "nasa_exoplanet_archive": {
+     "checked": "yes: ps + pscomppars (TIC or 2' box->cone), toi (TIC or 3'), ps by Gaia DR2/DR3 id",
+     "rows": {
+      "ps": [
+       [
+        "TOI-4405 b",
+        5.92143995316
+       ],
+       [
+        "TOI-4405 b",
+        5.92142305135
+       ]
+      ],
+      "pscomppars": [
+       [
+        "TOI-4405 b",
+        5.92143995316
+       ]
+      ],
+      "toi": [
+       [
+        "4405.01",
+        5.9214231
+       ],
+       [
+        "4405.02",
+        1.0929203
+       ]
+      ]
+     },
+     "hit": "none"
+    },
+    "arxiv": {
+     "checked": "yes: API all:\"<term>\" for ['TOI-4405', 'TOI 4405', 'TIC 177254988', '177254988']; full LaTeX source grep for relevant papers",
+     "papers": [],
+     "fulltext_grep": {
+      "2603.22597:TOI-4405": {
+       "n_mentions": 0,
+       "alias_numbers_found": 12,
+       "assessment": "all alias-valued numbers are unrelated quantities (magnitudes, densities, ESM, K, LaTeX/PDF internals); no period at the candidate value"
+      }
+     },
+     "hit": "none (no paper reports a signal at the candidate period or aliases)"
+    },
+    "spoc_tce": {
+     "checked": "yes: all 132 MAST DV tcestats CSVs (341351 TCE rows; single-sector S1-S107, multi-sector up to S1-S96), target TIC + all TICs within 2'",
+     "target_tce_periods": [
+      1.0929,
+      5.9214
+     ],
+     "n_target_tces": 9,
+     "neighbour_tces_any_period": 0,
+     "hit": "none",
+     "spoc_short_cadence_sectors": [
+      27,
+      28,
+      29,
+      30,
+      31,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38,
+      39,
+      61,
+      62,
+      63,
+      64,
+      65,
+      66,
+      67,
+      68,
+      69,
+      87,
+      88,
+      89,
+      90,
+      93,
+      94,
+      95,
+      96,
+      97,
+      98
+     ]
+    },
+    "qlp_tce": {
+     "checked": "no: QLP does not publish a TCE/alert list (only TOIs, already covered by the TOI table); MAST holds QLP light curves only",
+     "hit": "n/a"
+    },
+    "eumemic_exoplanets": {
+     "checked": "yes: all 4570 text files at da722613 (all_signals*, vetted_signals*, candidates*, candidates_allsky, tiers, followup_*, ephemerides, predictions, novelty_check, validation/*, README, dossiers) for TIC, Gaia IDs and 2' neighbour TICs; issues #1-17 + 11 comments",
+     "rows_at_candidate_period_or_extra": [
+      {
+       "file": "results_public/all_signals_toi_hosts.csv.gz",
+       "line": 4600,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": {
+        "rank": "1",
+        "period": "3.600825237253577",
+        "t0": "1325.8100366349154",
+        "bls_snr": "9.709837635431395",
+        "snr": "9.512417231308785",
+        "sde": "25.008973320184474",
+        "n_events": "238",
+        "n_good_events": "217",
+        "n_sectors": "42",
+        "method": "coherent",
+        "bls_depth_ppm": "343.57412005472474"
+       },
+       "text": null
+      },
+      {
+       "file": "results_public/vetted_signals_toi_hosts.csv.gz",
+       "line": 578,
+       "matches_candidate_alias": [
+        "1x"
+       ],
+       "matches_extra_period": null,
+       "fields": {
+        "rank": "1",
+        "period": "3.600825237253577",
+        "t0": "1325.8100366349154",
+        "bls_snr": "9.709837635431397",
+        "snr": "9.512417231308785",
+        "sde": "25.008973320184474",
+        "vet_snr": "9.616748712044492",
+        "MES": "10.068370760555045",
+        "rp": "1.4538909127132986",
+        "n_events": "238",
+        "n_good_events": "217",
+        "n_sectors": "42",
+        "method": "coherent",
+        "n_fail": "1",
+        "fails": "inconsistent transit SNRs",
+        "known_status": "new",
+        "depth_ppm": "375.5547729537612",
+        "bls_depth_ppm": "343.57412005472474"
+       },
+       "text": null
+      }
+     ],
+     "other_rows_on_star": [
+      "results_public/all_signals_long_toi_hosts.csv.gz"
+     ],
+     "issues": "none"
+    },
+    "brahle_exoplanet_db_api": {
+     "checked": "yes: GET /v1/cone (120\") and /v1/candidates?search=<TIC>, ?search=<Gaia DR3>",
+     "signals": [
+      [
+       "TOI-4405.02",
+       1.0929203,
+       "planet_candidate",
+       [
+        "nasa_toi"
+       ]
+      ],
+      [
+       "TOI-4405 b",
+       5.92143995316,
+       "confirmed_planet",
+       [
+        "nasa_pscomppars",
+        "nasa_toi"
+       ]
+      ]
+     ],
+     "hit": "none"
+    },
+    "brahle_exoplanet_candidates": {
+     "checked": "yes: file names + contents of all 4,503 non-binary files (TIC, Gaia, neighbour TICs)",
+     "hit": "none"
+    },
+    "th0rgal_open_exoplanet_hunt": {
+     "checked": "yes: registry/scanned_targets.jsonl, catalog/external_discoveries.json, catalog/known_tics.json.gz (entry inspected per TIC), candidates/, docs/PREREGISTERED_EPHEMERIDES_2026.md",
+     "hit": "none (known_tics entry, if present, only mirrors the TOI/NEA rows; star not in scanned registry, candidates or external discoveries)"
+    },
+    "other_community_repos": {
+     "checked": "yes: 10 repos (Aidenn8, paraschopra, avijit-thawani, samsonmaximus, moosesteve21, alexvaldex, marc252, CptSyphilis, killercatfish, Comdex4), all csv/json/jsonl/md/txt",
+     "on_star": [
+      "paraschopra_tess-planet-candidates"
+     ],
+     "hit": "none",
+     "note": null
+    },
+    "github_code_search": {
+     "checked": "yes: TIC number, TOI name, TIC+period and TOI+period combos, Gaia DR3 (and DR2) ids; astro-relevant hits inspected",
+     "hit": "none (hits are catalogue copies of TOI/planet tables, TESS GI target lists, or unrelated numeric files)"
+    },
+    "T16": {
+     "checked": "yes: t1 candidate MRT (11,143) + t2 single-transit MRT (411) by TIC v8.2 and Gaia DR3/DR2 id; 2' neighbours by TIC",
+     "target_rows": [],
+     "neighbour_rows": [],
+     "t16_lightcurve_at_mast": true,
+     "hit": "none"
+    },
+    "RAVEN": {
+     "checked": "yes: nsfp09, vet, val, val_rp8 tables by TIC, Gaia DR3/DR2 and 2' cone",
+     "rows": {
+      "nsfp09_table.csv": [
+       [
+        5800,
+        "5.921477921600046",
+        "1",
+        "4405"
+       ],
+       [
+        5801,
+        "1.97383039885662",
+        "2",
+        "4405"
+       ],
+       [
+        5802,
+        "1.0928997644494431",
+        "5",
+        "4405"
+       ]
+      ],
+      "vet_table.csv": [
+       [
+        925,
+        "5.921477921600046",
+        "1",
+        "4405"
+       ]
+      ],
+      "val_table.csv": [
+       [
+        64,
+        "5.921477921600046",
+        "1",
+        "4405"
+       ]
+      ]
+     },
+     "hit": "none at candidate period/aliases"
+    },
+    "pht_talk": {
+     "checked": "yes: 5 queries (['177254988', 'TIC177254988', 'TOI 4405', 'TOI-4405', 'TOI4405'])",
+     "n_results": 0,
+     "hit": "none (0 results)"
+    },
+    "zenodo": {
+     "checked": "yes: {'177254988': 0, 'TOI-4405': 0, 'TOI 4405': 0} plus Gaia DR3 id and compact TOI name (all 0)",
+     "hit": "none"
+    }
+   },
+   "verdict": "CREDIT-NEEDED",
+   "verdict_basis": "Listed in Eumemic all_signals_toi_hosts.csv.gz L4600 (rank 1, P=3.60082524 d, SNR 9.51, bls_snr 9.71, 217/238 good events, 42 sectors) and vetted_signals_toi_hosts.csv.gz L578 where it FAILED his vetting (n_fail=1: 'inconsistent transit SNRs'; vet_snr 9.62, MES 10.07, Rp 1.45 Re). Not in any candidate list. RAVEN lists other signals on this star (5.9215 d = b, validated; 1.9738 d and 1.0929 d in nsfp09) - none is an alias of 3.6008 d. TOI-4405.02 (1.0929 d, PC) exists - not an alias."
+  }
+ }
+}

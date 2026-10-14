@@ -1,0 +1,18 @@
+./.trivenv/lib/python3.12/site-packages/lightkurve/prf/__init__.py:7: UserWarning: Warning: the tpfmodel submodule is not available without oktopus installed, which requires a current version of autograd. See #1452 for details.
+  warnings.warn(
+./.trivenv/lib/python3.12/site-packages/pytransit/contamination/contamination.py:34: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+  from pkg_resources import resource_filename
+The archive will be unavailable on Wednesday 14 October 2026 11:00-12:00 CEST for deployment of Gaia archive release 3.15.
+INFO: Query finished. [astroquery.utils.tap.core]
+Getting TessCut for sector 15
+Getting TessCut for sector 16
+Getting TessCut for sector 41
+Getting TessCut for sector 55
+Getting TessCut for sector 56
+Getting TessCut for sector 75
+Getting TessCut for sector 76
+Getting TessCut for sector 82
+Getting TessCut for sector 83
+Estimated missing stellar parameters for 544 of 929 stars from photometry. See the 'params_estimated' column of the .stars dataframe. 66 appear evolved and were assigned a nominal 1 M_Sun.
+run 1: FPP=0.1058 NFPP=0.00748
+run 2: FPP=0.0966 NFPP=0.00736

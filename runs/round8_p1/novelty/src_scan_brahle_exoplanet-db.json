@@ -1,0 +1,59 @@
+{
+ "root": "<data>/r8/novelty/github/brahle_exoplanet-db",
+ "n_text_files_scanned": 78,
+ "hits": {
+  "TOI-1846": [],
+  "TOI-4342": [
+   {
+    "file": "tests/ingest/test_eumemic.py",
+    "line": 41,
+    "match_id": "354944123",
+    "kind": "target",
+    "text": "        {\"TIC\": \"354944123\", \"P_d\": \"18.908204\", \"tier\": \"A\"},",
+    "alias_numbers_in_line": [],
+    "alias_numbers_extra": [
+     [
+      "18.908204",
+      18.908,
+      "1x"
+     ]
+    ]
+   },
+   {
+    "file": "tests/ingest/test_eumemic.py",
+    "line": 44,
+    "match_id": "354944123",
+    "kind": "target",
+    "text": "    assert _earlier_tier(tiers, \"354944123\", 18.90820) == \"A\"",
+    "alias_numbers_in_line": [],
+    "alias_numbers_extra": [
+     [
+      "18.90820",
+      18.908,
+      "1x"
+     ]
+    ]
+   },
+   {
+    "file": "tests/ingest/test_eumemic.py",
+    "line": 45,
+    "match_id": "354944123",
+    "kind": "target",
+    "text": "    assert _earlier_tier(tiers, \"354944123\", 9.45) is None",
+    "alias_numbers_in_line": [],
+    "alias_numbers_extra": [
+     [
+      "9.45",
+      18.908,
+      "1/2"
+     ]
+    ]
+   }
+  ],
+  "TOI-6008": [],
+  "TIC 350522259": [],
+  "TIC 11528365": [],
+  "TOI-249": [],
+  "TOI-4405": []
+ }
+}

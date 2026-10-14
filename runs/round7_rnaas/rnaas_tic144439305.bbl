@@ -13,14 +13,6 @@
   Astrophysics Source Code Library, record ascl:1905.007
 
 % type= article
-\bibitem[{S.~T. {Bryson} {et~al.}(2013){Bryson}, {Jenkins}, {Gilliland},
-  {Twicken}, {Clarke}, {Rowe}, {Caldwell}, {Batalha}, {Mullally}, {Haas}, \&
-  {Tenenbaum}}]{2013PASP..125..889B}
-{Bryson}, S.~T., {Jenkins}, J.~M., {Gilliland}, R.~L., {et~al.} 2013,
-  \bibinfo{title}{{Identification of Background False Positives from Kepler
-  Data},} \pasp, 125, 889, \dodoi{10.1086/671767}
-
-% type= article
 \bibitem[{D.~A. {Caldwell} {et~al.}(2020){Caldwell}, {Tenenbaum}, {Twicken},
   {Jenkins}, {Ting}, {Smith}, {Hedges}, {Fausnaugh},
   {et~al.}}]{2020RNAAS...4..201C}

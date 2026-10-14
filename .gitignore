@@ -12,3 +12,5 @@ cache
 .r6venv/
 .tools/
 .trivenv
+.r6venv
+.tools

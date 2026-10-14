@@ -454,14 +454,14 @@ the ExoFOP community-TOI (CTOI) list and the NASA Exoplanet Archive pscomppars t
 <b>Follow-up.</b> followup.py: narrow BLS (±1.5% of P) in each other SPOC 2-min sector, then stitch sectors
 within ~1 year, re-flatten with the transits masked and fold; verdict PERSISTS if stitched SNR ≥ 10 and ≥ 60% of
 the SNR a real signal would have, FADES if below that while a real signal would have had SNR ≥ 12.</p>
-<p><b>Re-run</b> (on the Mac Mini, in <code>~/dev/planet-hunt</code>):</p>
+<p><b>Re-run</b> (on the Mac Mini, in <code>.</code>):</p>
 <pre>.venv/bin/python validate.py
 .venv/bin/python hunt.py --sector {args.sector} --n 150
 .venv/bin/python followup.py --sector {args.sector}
 .venv/bin/python report.py --sector {args.sector}</pre>
 </details>
 <footer>Data: NASA TESS mission via MAST (SPOC light curves), ExoFOP-TESS TOI catalog, NASA Exoplanet Archive.
-Code: ~/dev/planet-hunt (planet_hunt package). Nothing in this report has been vetted beyond the automated checks described.</footer>
+Code: . (planet_hunt package). Nothing in this report has been vetted beyond the automated checks described.</footer>
 </main></body></html>"""
 
     out = Path(args.out) if args.out else config.REPORTS / f"planet_hunt_sector_{args.sector:04d}.html"

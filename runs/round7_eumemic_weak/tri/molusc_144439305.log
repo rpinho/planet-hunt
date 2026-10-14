@@ -12,4 +12,4 @@ LOADING STELLAR MODEL...
 WARNING: More than one source within 10 arcseconds of given coordinates. Closest one used.
 Star Model Mag 9.286669750815301
 Total number of surviving binaries: 235272
-Surviving binary parameters saved to: ~/.worktrees/planet-hunt-r7-eumemic-weak/runs/round7_eumemic_weak/tri/molusc_144439305_kept.csv
+Surviving binary parameters saved to: ./runs/round7_eumemic_weak/tri/molusc_144439305_kept.csv

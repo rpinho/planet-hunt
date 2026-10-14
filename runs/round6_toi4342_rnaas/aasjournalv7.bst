@@ -85,7 +85,7 @@
 %% Removed bibliography count from preamble since it seems to
 %% confuse some versions of latex.
 %% 
-%% Revision 1.9 2013/2/19 Erik Tollerud <erik.tollerud@yale.edu> 
+%% Revision 1.9 2013/2/19 Erik Tollerud <<email>> 
 %% fixes for spurious error messages due to rev 1.8 changes
 %% also fixed missing publisher field printing in "book"
 %%
@@ -102,16 +102,16 @@
 %% Revision 1.6  2009/05/18 15:13:02  alberto
 %% Fixed sorting of references with truncated lists of authors
 %% in sort.format.names
-%% Fix courtesy of Stephen Fegan <sfegan@llr.in2p3.fr>
+%% Fix courtesy of Stephen Fegan <<email>>
 %%
 %% Revision 1.5  2009/03/19 13:15:11  alberto
 %% Truncate \bibitem entries with more than 8 authors.
-%% Fix courtesy of Craig Wiegert <wigie@alum.mit.edu>
-%% and Andrew R. Marble <amarble@as.arizona.edu>
+%% Fix courtesy of Craig Wiegert <<email>>
+%% and Andrew R. Marble <<email>>
 %%
 %% Revision 1.4  2002/06/18 16:37:48  alberto
 %% Add comma after first author in two-author reference
-%% Fix courtesy of Tim Robishaw <robishaw@astron.berkeley.edu>
+%% Fix courtesy of Tim Robishaw <<email>>
 %%
 %% Revision 1.3  2000/04/20 22:17:50  jbaker
 %% Fixed INBOOK bug, now works essentially like BOOK.

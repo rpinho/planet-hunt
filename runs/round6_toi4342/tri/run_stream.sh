@@ -1,5 +1,5 @@
 #!/bin/zsh
-cd ~/.worktrees/planet-hunt-r6-toi4342
+cd "$(dirname "$0")/../../.."
 T=runs/round6_toi4342/tri
 for cfg in "$@"; do
   set -- ${=cfg}; pl=$1; mode=$2; nruns=$3

@@ -1,6 +1,6 @@
-~/.worktrees/planet-hunt-r7-eumemic-weak/.trivenv/lib/python3.12/site-packages/lightkurve/prf/__init__.py:7: UserWarning: Warning: the tpfmodel submodule is not available without oktopus installed, which requires a current version of autograd. See #1452 for details.
+./.trivenv/lib/python3.12/site-packages/lightkurve/prf/__init__.py:7: UserWarning: Warning: the tpfmodel submodule is not available without oktopus installed, which requires a current version of autograd. See #1452 for details.
   warnings.warn(
-~/.worktrees/planet-hunt-r7-eumemic-weak/.trivenv/lib/python3.12/site-packages/pytransit/contamination/contamination.py:34: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
+./.trivenv/lib/python3.12/site-packages/pytransit/contamination/contamination.py:34: UserWarning: pkg_resources is deprecated as an API. See https://setuptools.pypa.io/en/latest/pkg_resources.html. The pkg_resources package is slated for removal as early as 2025-11-30. Refrain from using this package or pin to Setuptools<81.
   from pkg_resources import resource_filename
 The archive will be unavailable on Wednesday 14 October 2026 11:00-12:00 CEST for deployment of Gaia archive release 3.15.
 Getting TessCut for sector 1

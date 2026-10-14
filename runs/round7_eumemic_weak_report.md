@@ -1,6 +1,6 @@
 # Round 7: mining Eumemic's weak signals
 
-Branch `round7-eumemic-weak` (worktree `~/.worktrees/planet-hunt-r7-eumemic-weak`), 2026-10-13. Every process ran at `nice -n 20`. Nothing was pushed, posted, emailed, uploaded or submitted. GitHub, ExoFOP, MAST, the NASA Exoplanet Archive, arXiv, Zenodo, VizieR and X were only read; there are no new accounts, issues, stars or follows.
+Branch `round7-eumemic-weak` (worktree `.`), 2026-10-13. Every process ran at `nice -n 20`. Nothing was pushed, posted, emailed, uploaded or submitted. GitHub, ExoFOP, MAST, the NASA Exoplanet Archive, arXiv, Zenodo, VizieR and X were only read; there are no new accounts, issues, stars or follows.
 
 ## Bottom line
 
@@ -10,7 +10,7 @@ Branch `round7-eumemic-weak` (worktree `~/.worktrees/planet-hunt-r7-eumemic-weak
   - **Extra data, median:** 3 sectors he did not have on top of his 3. Almost all of it is QLP sectors his reader dropped.
 - **One strong new candidate: TIC 144439305**, the best result of this round.
   - **Planet:** P = 0.9398094 ± 0.0000023 d, 569 ± 58 ppm, Rp = 1.28 (1.20-1.36) R⊕, Teq ≈ 875 K.
-  - **Star:** early M dwarf (about M2–M2.5; first estimated as M3.5, see the corrections at the end) at 62 pc, T = 12.15, 3,505 K, 0.46 R☉.
+  - **Star:** M3.5 dwarf at 62 pc, T = 12.15, 3,505 K, 0.46 R☉.
   - **He had it:** it is his rank-1 signal at SNR 8.35, below his SNR 9 pre-filter. It was never vetted.
   - **Hold-out:** it reproduces in data he never had: QLP S96/103/104 give z = 5.2, with depth 468 ± 91 ppm against 590 ± 94 in his-era data.
   - **Fresh data:** it reproduces again in TESScut S105/106, which no pipeline has processed: 909 ± 137 ppm, z = 6.6.
@@ -226,7 +226,10 @@ Limits of these checks:
    - Three independent data sets agree, two of which nobody has searched.
    - It's on target in the pixels, binary-clean, and formally below the FPP bar with Gaia limits.
    - **Credit Eumemic:** his public raw table lists the signal (rank 1, SNR 8.35, unvetted). Any note should say so, the same way AAS82279 v2 does.
-   - **Written up as an RNAAS note:** `runs/round7_rnaas/` (1.2 R⊕; the host is an early M dwarf, about M2–M2.5, not M3.5 as first estimated here). CTOI upload to follow publication.
+   - **Suggested order (Ricardo's call; nothing sent):**
+     1. CTOI upload: the fastest timestamp, and it needs his ExoFOP account.
+     2. A short RNAAS: "A 1.3 R⊕ ultra-short-period planet candidate around a nearby M3.5 dwarf, recovered from data a public search dropped."
+     3. Optionally a preregistered ephemeris on Zenodo.
    - **Follow-up:** 569 ppm on a T = 12, I ≈ 11 M dwarf is within reach of 1-2 m telescopes in the red over several transits (it transits nightly). CHEOPS could too, and speckle imaging would remove the STP residual.
 2. **TIC 231706739: no.** SNR 7.4, the pixels can't separate the target from a faint neighbour, and FPP is 0.13. Revisit if new sectors appear (none are planned).
 3. **Nothing else.** The other "inconclusive" signals are noise-consistent or EB-sized.
@@ -256,7 +259,7 @@ Limits of these checks:
   - results: `revet.csv`, `round7_table.csv/.md`;
   - diagnostics: `diag/*.png` (folds), `deepvet/*.json/png` (pixels), `tri/` (TRICERATOPS, MOLUSC);
   - novelty: `novelty_live_toi_ctoi.csv`, `spoc_tces.json`.
-  - The novelty source files are in `~/dev/planet-hunt-data/r7/novelty/`.
+  - The novelty source files are in `<data>/r7/novelty/`.
 
 ## Appendix: all 120 signals
 

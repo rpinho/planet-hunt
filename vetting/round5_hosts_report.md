@@ -1,6 +1,6 @@
 # Round 5, track A: hidden extra planets around small-star planet hosts
 
-Branch `round5-hosts` (worktree `~/.worktrees/planet-hunt-r5-hosts`), 2026-10-12. Data: SPOC 2-min PDCSAP light curves (3,814 files, S1-S107), TESScut 11x11 cutouts for the vetted stars, Gaia DR3, the ExoFOP TOI and CTOI tables and NASA Exoplanet Archive `pscomppars` (all downloaded 2026-10-12), SPOC DV reports. Nothing was posted, uploaded or sent anywhere.
+Branch `round5-hosts` (worktree `.`), 2026-10-12. Data: SPOC 2-min PDCSAP light curves (3,814 files, S1-S107), TESScut 11x11 cutouts for the vetted stars, Gaia DR3, the ExoFOP TOI and CTOI tables and NASA Exoplanet Archive `pscomppars` (all downloaded 2026-10-12), SPOC DV reports. Nothing was posted, uploaded or sent anywhere.
 
 ## Bottom line
 

@@ -32,10 +32,10 @@
 \ClassInfo{aastex701}{%
 ^^J^^J
  Original \protect\LaTeX2.09 style
- by Chris Biemesderfer (chris@seagoat.com).
+ by Chris Biemesderfer (<email>).
 ^^J
  Adapted to \protect\LaTeXe\space
- by A. Ogawa (ogawa@teleport.com)%
+ by A. Ogawa (<email>)%
 ^^J
 emulateapj.cls included, Copyright Alexey Vikhlinin.
 ^^J
@@ -43,7 +43,7 @@ Rewrite and update of emulateapj.cls,
 revised and enhanced with table macros, gridlines, draft watermark,^^J
 track changes, new `modern' style and much more, by Amy Hendrickson,%
 ^^J
- (amyh@texnology.com, http://www.texnology.com)
+ (<email>, http://www.texnology.com)
 ^^J
 Updated by Aptara. No longer depends on Revtex4-1 classfile^^J
 ^^J
@@ -5634,7 +5634,7 @@ ltxgrid%
   \@ifpackageloaded{amsmath}{%
    \@ifpackagelater{amsmath}{\ver@amsmath@prefer}{}{%
      \class@warn{%
-      You have loaded amsmath, version "\csname ver@amsmath.sty\endcsname",\MessageBreak
+      You have loaded amsmath, version "\csname <email>\endcsname",\MessageBreak
       but this class requires version "\ver@amsmath@prefer", or later.\MessageBreak
       Please update your LaTeX installation.
      }%

@@ -1,5 +1,5 @@
 #!/bin/zsh
-cd ~/.worktrees/planet-hunt-r6-toi4342
+cd "$(dirname "$0")/../../.."
 T=runs/round6_toi4342/tri
 PY=.trivenv/bin/python
 for cfg in "d18 nocc" "d18 cc" "d18 ccclear" "d2 cc" "d2 ccclear"; do
