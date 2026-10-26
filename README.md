@@ -7,6 +7,9 @@ objects and writes one self-contained HTML report.
 It is built to be read and extended, not to compete with the TESS team's
 pipelines (SPOC, QLP). Every step is a plain function in `planet_hunt/`.
 
+For current candidate-note links and the later search outcome, see
+[research status](RESEARCH_STATUS.md) (updated October 26, 2026).
+
 ## Setup
 
 ```bash
