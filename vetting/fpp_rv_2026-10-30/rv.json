@@ -1,0 +1,198 @@
+{
+  "data_source": "evidence/rv/extracted/TOI-4342_RV/data/TOI4342_RV_Aug25.dat",
+  "data_sha256": "b98089ec2bb30e85d1796bb073d783bfb0ad77d356398dad22903111b19cb77c",
+  "n_rvs": 55,
+  "baseline_d": 181.79315900000074,
+  "candidate": {
+    "P_d": 18.908226,
+    "T0_RJD": 59904.5666,
+    "e": 0,
+    "K_prior_uniform_mps": [
+      0,
+      20
+    ]
+  },
+  "GP": {
+    "amplitude_mps": 8.6,
+    "coherence": 0.21,
+    "Prot_d": 14.691,
+    "decay_d": 79.0,
+    "jitter_mps": 2.22,
+    "kernel": "S+LEAF ESP, n_harmonics=4, exact source-defined dense covariance",
+    "fixed_published_hyperparameters": true
+  },
+  "cases": {
+    "b_c_GP_candidate": {
+      "parameter_names": [
+        "gamma",
+        "K_b",
+        "K_c",
+        "K_18p9"
+      ],
+      "unconstrained_mean": [
+        -3921.903509889569,
+        4.357556891103781,
+        1.326590304890395,
+        1.075241810271244
+      ],
+      "unconstrained_covariance": [
+        [
+          9.526314025460985,
+          0.018762034746070286,
+          0.1201710974768016,
+          -0.09073451540336012
+        ],
+        [
+          0.018762034746070504,
+          0.36582618888797286,
+          0.04241764285259297,
+          0.0066487357356883525
+        ],
+        [
+          0.12017109747680138,
+          0.04241764285259295,
+          0.3139187388567435,
+          -0.06190074643654104
+        ],
+        [
+          -0.09073451540336051,
+          0.006648735735688362,
+          -0.061900746436541004,
+          0.37339107449797665
+        ]
+      ],
+      "n_proposed": 300000,
+      "n_posterior": 285291,
+      "K_median_mps": 1.1028407482594444,
+      "K_68_mps": [
+        0.5437144292559777,
+        1.6957052634769372
+      ],
+      "K_95_upper_mps": 2.088439510694031,
+      "K_equal_tail_95_mps": [
+        0.14084022596050044,
+        2.2793268586809043
+      ],
+      "Pr_K_below1": 0.4301579529754547,
+      "b_median": 4.360485502209806,
+      "c_median": 1.3233379581055877,
+      "offset_median": -3921.9220747043464,
+      "bounded_prior_note": "Uniform b,c K [0,10], candidate K [0,20], gamma unbounded; all conditionally Gaussian. Sensitivity 47.5 d terms use broad signed linear quadratures, not the paper third-planet posterior.",
+      "K_MC_95_upper_mps": 2.090292751859759,
+      "K_MC_median_mps": 1.1029851339415062,
+      "quadrature": {
+        "n_K": 20001,
+        "n_Gauss_Legendre": 160,
+        "convergence_80_to160_max_mps": 5.551115123125783e-17,
+        "MC_95_difference_mps": -0.0018532411657279368
+      }
+    },
+    "b_c_47p5_GP_candidate": {
+      "parameter_names": [
+        "gamma",
+        "K_b",
+        "K_c",
+        "K_18p9",
+        "rv47_sin",
+        "rv47_cos"
+      ],
+      "unconstrained_mean": [
+        -3922.1123635555005,
+        3.7968665821769836,
+        1.937286131880783,
+        0.507414064932064,
+        -2.924041007734248,
+        -3.4693895467804197
+      ],
+      "unconstrained_covariance": [
+        [
+          9.597883445590314,
+          0.02139353770339235,
+          0.1124810789242868,
+          -0.04959561214149312,
+          -0.08524142892498526,
+          0.1362772731709822
+        ],
+        [
+          0.02139353770339235,
+          0.3737593260019322,
+          0.033799093623719155,
+          0.014506516673901737,
+          0.041825490667838236,
+          0.04853797234085243
+        ],
+        [
+          0.11248107892428677,
+          0.03379909362371915,
+          0.3236120635474548,
+          -0.07307060033600683,
+          -0.03866595158341197,
+          -0.06094405081255026
+        ],
+        [
+          -0.049595612141493765,
+          0.014506516673901732,
+          -0.07307060033600679,
+          0.40217589267454995,
+          -0.012593597850264121,
+          0.11357797717051536
+        ],
+        [
+          -0.08524142892498611,
+          0.04182549066783819,
+          -0.03866595158341206,
+          -0.012593597850263987,
+          0.35947262502328725,
+          0.08741856131261432
+        ],
+        [
+          0.1362772731709808,
+          0.048537972340852456,
+          -0.060944050812550304,
+          0.11357797717051543,
+          0.08741856131261436,
+          0.5012618405155624
+        ]
+      ],
+      "n_proposed": 300000,
+      "n_posterior": 236338,
+      "K_median_mps": 0.6776847413549599,
+      "K_68_mps": [
+        0.24220162838854656,
+        1.2333386401472644
+      ],
+      "K_95_upper_mps": 1.621775615400322,
+      "K_equal_tail_95_mps": [
+        0.04202657777245185,
+        1.813454147224726
+      ],
+      "Pr_K_below1": 0.7226735302006746,
+      "b_median": 3.802088087704224,
+      "c_median": 1.8943433284156985,
+      "offset_median": -3922.140784839332,
+      "bounded_prior_note": "Uniform b,c K [0,10], candidate K [0,20], gamma unbounded; all conditionally Gaussian. Sensitivity 47.5 d terms use broad signed linear quadratures, not the paper third-planet posterior.",
+      "K_MC_95_upper_mps": 1.6222771729024412,
+      "K_MC_median_mps": 0.6773791459341316,
+      "quadrature": {
+        "n_K": 20001,
+        "n_Gauss_Legendre": 160,
+        "convergence_80_to160_max_mps": 1.1102230246251565e-16,
+        "MC_95_difference_mps": -0.0005015575021192209
+      }
+    }
+  },
+  "complete": true,
+  "sign_convention_check_max_abs_mps": 0.0005333577005508516,
+  "expected_K_circular_edge_on": [
+    {
+      "mass_earth": 4,
+      "K_mps": 1.36950541184368
+    },
+    {
+      "mass_earth": 8,
+      "K_mps": 2.7389734527337355
+    }
+  ],
+  "bar": "PASS no <1 m/s 95% upper-limit tension",
+  "verification_status": "VERIFIED: original ESPKernel.eval and independent bounded-prior Gaussian quadrature, conditional on fixed published hyperparameters"
+}
