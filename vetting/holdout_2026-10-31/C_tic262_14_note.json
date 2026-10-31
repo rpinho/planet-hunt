@@ -1,0 +1,181 @@
+{
+  "name": "C_tic262_14_note",
+  "signal": {
+    "key": "tic262_14",
+    "aas": "AAS82326",
+    "tic": 262843927,
+    "P": 14.51685,
+    "Perr": 0.00011,
+    "t0": 2254.7418,
+    "t0err": 0.0076,
+    "depth": 932,
+    "deptherr": 75,
+    "duration": 2.7,
+    "rstar": 0.564,
+    "mstar": 0.55,
+    "mask": [
+      [
+        24.10896,
+        2273.037,
+        2.8936658
+      ]
+    ]
+  },
+  "idx": 3,
+  "method_key": "tic262_14",
+  "sectors": [
+    95,
+    96,
+    97
+  ],
+  "raw_manifest": [
+    {
+      "sector": 95,
+      "source": "hlsp_qlp_tess_ffi_s0095-0000000262843927_tess_v01_llc.fits",
+      "sha256": "c463a7ba14e1de67c485a7aaf2c3bb71eb89233b5e5ec0a2c3a503fb7f918690",
+      "product": "QLP"
+    },
+    {
+      "sector": 96,
+      "source": "hlsp_qlp_tess_ffi_s0096-0000000262843927_tess_v01_llc.fits",
+      "sha256": "9153e6ea4ffbcd6efd84f0dab8f12568d839cc4d5134da47cbfce5b73d042f0f",
+      "product": "QLP"
+    },
+    {
+      "sector": 97,
+      "source": "hlsp_qlp_tess_ffi_s0097-0000000262843927_tess_v01_llc.fits",
+      "sha256": "f3f5ab199a2aacc8f27820b441f694e866456435d1b009f9c306e87bf0d3e057",
+      "product": "QLP"
+    }
+  ],
+  "cases": {
+    "unmasked": {
+      "depth_ppm": 684.8221940311345,
+      "err_ppm": 176.0119132680954,
+      "z_scatter": 3.8907718308137267,
+      "n_cadences": 28910,
+      "sector_beta": {
+        "95": 1.0,
+        "96": 1.0,
+        "97": 1.0107813070637046
+      },
+      "null": {
+        "n": 2000,
+        "attempts": 2304,
+        "mean_ppm": -0.10251330735620161,
+        "std_ppm": 170.92486122028677,
+        "q025_975_ppm": [
+          -324.24465537766054,
+          338.93769363171714
+        ],
+        "clean_cadences": 28660,
+        "removed_real_transit_cadences": 250
+      },
+      "z_null": 4.006568670829812,
+      "null_seed": 20264030,
+      "exceedances": 2,
+      "p": 0.0014992503748125937,
+      "per_transit": [
+        {
+          "sector": 97,
+          "epoch": 116,
+          "depth_ppm": 783.9798927129615,
+          "err_ppm": 316.198093063594,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 1.0
+        },
+        {
+          "sector": 97,
+          "epoch": 117,
+          "depth_ppm": 1324.1108675383634,
+          "err_ppm": 310.32376429273415,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        },
+        {
+          "sector": 97,
+          "epoch": 118,
+          "depth_ppm": 251.0753866355328,
+          "err_ppm": 340.1757285886877,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        },
+        {
+          "sector": 97,
+          "epoch": 119,
+          "depth_ppm": -372.3279562494608,
+          "err_ppm": 676.3268258959824,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        }
+      ],
+      "edge_share": {
+        "A": 0.0,
+        "B": 0.24393090432091835
+      },
+      "arrays": "results/C_tic262_14_note_unmasked.npz",
+      "sha256": "1f80481459a636b3a3602c3ee28cec6fb5c479ce63d1f8938ecdaf2182aed312"
+    },
+    "A": {
+      "depth_ppm": 670.7814015021115,
+      "err_ppm": 188.55923384428968,
+      "z_scatter": 3.557404152670858,
+      "n_cadences": 23939,
+      "sector_beta": {
+        "95": 1.0,
+        "96": 1.0,
+        "97": 1.0694760086421051
+      },
+      "null": {
+        "n": 2000,
+        "attempts": 2321,
+        "mean_ppm": -4.562829190663406,
+        "std_ppm": 186.82310908893993,
+        "q025_975_ppm": [
+          -361.94581883511484,
+          368.63166053425624
+        ],
+        "clean_cadences": 23689,
+        "removed_real_transit_cadences": 250
+      },
+      "z_null": 3.590462682979845,
+      "null_seed": 20264031,
+      "exceedances": 2,
+      "p": 0.0014992503748125937,
+      "arrays": "results/C_tic262_14_note_A.npz",
+      "sha256": "9747df8ee5dcf676522faeb14c323398f72ef12481854133a12ae36b8d4ba2ac"
+    },
+    "B": {
+      "depth_ppm": 653.9345890931673,
+      "err_ppm": 225.8366803943243,
+      "z_scatter": 2.895608401395905,
+      "n_cadences": 20740,
+      "sector_beta": {
+        "95": 1.0,
+        "96": 1.0,
+        "97": 1.0894792674908398
+      },
+      "null": {
+        "n": 2000,
+        "attempts": 2416,
+        "mean_ppm": 5.127975987806864,
+        "std_ppm": 194.73667009615968,
+        "q025_975_ppm": [
+          -361.3468191602791,
+          407.16384050713043
+        ],
+        "clean_cadences": 20567,
+        "removed_real_transit_cadences": 173
+      },
+      "z_null": 3.3580454506604163,
+      "null_seed": 20264032,
+      "exceedances": 4,
+      "p": 0.0024987506246876563,
+      "arrays": "results/C_tic262_14_note_B.npz",
+      "sha256": "3618b5114f7ce8bb6b632614e8de83b8275b3f673cc61485b0f37b770d653c0f"
+    }
+  },
+  "complete": true,
+  "bar_stays": true,
+  "holdout_supported": true
+}

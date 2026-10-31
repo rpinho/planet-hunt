@@ -1,0 +1,165 @@
+{
+  "name": "C_tic262_24_pre",
+  "signal": {
+    "key": "tic262_24",
+    "aas": "AAS82326",
+    "tic": 262843927,
+    "P": 24.108771213642704,
+    "Perr": 0.00036,
+    "t0": 1332.7862983660812,
+    "t0err": 0.015,
+    "depth": 957,
+    "deptherr": 95,
+    "duration": 2.8936658153168366,
+    "rstar": 0.564,
+    "mstar": 0.55,
+    "mask": [
+      [
+        14.51685,
+        2254.7418,
+        2.7
+      ]
+    ]
+  },
+  "idx": 2,
+  "method_key": "tic262_24",
+  "sectors": [
+    95,
+    96,
+    97
+  ],
+  "raw_manifest": [
+    {
+      "sector": 95,
+      "source": "hlsp_qlp_tess_ffi_s0095-0000000262843927_tess_v01_llc.fits",
+      "sha256": "c463a7ba14e1de67c485a7aaf2c3bb71eb89233b5e5ec0a2c3a503fb7f918690",
+      "product": "QLP"
+    },
+    {
+      "sector": 96,
+      "source": "hlsp_qlp_tess_ffi_s0096-0000000262843927_tess_v01_llc.fits",
+      "sha256": "9153e6ea4ffbcd6efd84f0dab8f12568d839cc4d5134da47cbfce5b73d042f0f",
+      "product": "QLP"
+    },
+    {
+      "sector": 97,
+      "source": "hlsp_qlp_tess_ffi_s0097-0000000262843927_tess_v01_llc.fits",
+      "sha256": "f3f5ab199a2aacc8f27820b441f694e866456435d1b009f9c306e87bf0d3e057",
+      "product": "QLP"
+    }
+  ],
+  "cases": {
+    "unmasked": {
+      "depth_ppm": 790.0002600682782,
+      "err_ppm": 219.24943033782125,
+      "z_scatter": 3.603203250521744,
+      "n_cadences": 28829,
+      "sector_beta": {
+        "95": 1.0,
+        "96": 1.0101320508281053,
+        "97": 1.0581090985735877
+      },
+      "null": {
+        "n": 2000,
+        "attempts": 2335,
+        "mean_ppm": 4.80567053823553,
+        "std_ppm": 203.44777456148324,
+        "q025_975_ppm": [
+          -366.87048933322376,
+          409.5756252205126
+        ],
+        "clean_cadences": 28661,
+        "removed_real_transit_cadences": 168
+      },
+      "z_null": 3.8830616937003404,
+      "null_seed": 20263030,
+      "exceedances": 4,
+      "p": 0.0024987506246876563,
+      "per_transit": [
+        {
+          "sector": 96,
+          "epoch": 107,
+          "depth_ppm": 942.8397440713829,
+          "err_ppm": 329.15076247981426,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        },
+        {
+          "sector": 97,
+          "epoch": 110,
+          "depth_ppm": 718.0185910370963,
+          "err_ppm": 315.1350433718574,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        }
+      ],
+      "edge_share": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "arrays": "results/C_tic262_24_pre_unmasked.npz",
+      "sha256": "3d23a67c486e99b7a0e2e0844adb20691dd2a9921895a53410b48ba59815b61f"
+    },
+    "A": {
+      "depth_ppm": 793.6109158440657,
+      "err_ppm": 216.0784846109322,
+      "z_scatter": 3.672790084922292,
+      "n_cadences": 23858,
+      "sector_beta": {
+        "95": 1.0,
+        "96": 1.0,
+        "97": 1.0441417569199862
+      },
+      "null": {
+        "n": 2000,
+        "attempts": 2468,
+        "mean_ppm": -1.1891353042221113,
+        "std_ppm": 231.73012817919118,
+        "q025_975_ppm": [
+          -401.2611211839002,
+          441.2206713482391
+        ],
+        "clean_cadences": 23690,
+        "removed_real_transit_cadences": 168
+      },
+      "z_null": 3.4247204801543374,
+      "null_seed": 20263031,
+      "exceedances": 9,
+      "p": 0.004997501249375313,
+      "arrays": "results/C_tic262_24_pre_A.npz",
+      "sha256": "c48a2ad1e9aa8e593ffdd4557bf5b2a8aa00db50bdc32b3a4f4462e355517e4b"
+    },
+    "B": {
+      "depth_ppm": 792.7238232304431,
+      "err_ppm": 214.09062231932091,
+      "z_scatter": 3.702748932403391,
+      "n_cadences": 20736,
+      "sector_beta": {
+        "95": 1.0,
+        "96": 1.0,
+        "97": 1.0412893212643581
+      },
+      "null": {
+        "n": 2000,
+        "attempts": 2552,
+        "mean_ppm": -11.950620621392932,
+        "std_ppm": 236.565726820753,
+        "q025_975_ppm": [
+          -474.4334219157096,
+          452.79338697737074
+        ],
+        "clean_cadences": 20568,
+        "removed_real_transit_cadences": 168
+      },
+      "z_null": 3.3509664898799723,
+      "null_seed": 20263032,
+      "exceedances": 7,
+      "p": 0.00399800099950025,
+      "arrays": "results/C_tic262_24_pre_B.npz",
+      "sha256": "be5fb088091a37d3f3c6e7101eb1a6eb68e25e607f4153afe0cda8c6beca9d13"
+    }
+  },
+  "complete": true,
+  "bar_stays": true,
+  "holdout_supported": true
+}

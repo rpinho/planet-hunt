@@ -1,0 +1,173 @@
+{
+  "name": "C_tic262_14_pre",
+  "signal": {
+    "key": "tic262_14",
+    "aas": "AAS82326",
+    "tic": 262843927,
+    "P": 14.516750587765381,
+    "Perr": 0.00011,
+    "t0": 1325.666826147987,
+    "t0err": 0.0076,
+    "depth": 932,
+    "deptherr": 75,
+    "duration": 2.443660137997736,
+    "rstar": 0.564,
+    "mstar": 0.55,
+    "mask": [
+      [
+        24.10896,
+        2273.037,
+        2.8936658
+      ]
+    ]
+  },
+  "idx": 3,
+  "method_key": "tic262_14",
+  "sectors": [
+    95,
+    96,
+    97
+  ],
+  "raw_manifest": [
+    {
+      "sector": 95,
+      "source": "hlsp_qlp_tess_ffi_s0095-0000000262843927_tess_v01_llc.fits",
+      "sha256": "c463a7ba14e1de67c485a7aaf2c3bb71eb89233b5e5ec0a2c3a503fb7f918690",
+      "product": "QLP"
+    },
+    {
+      "sector": 96,
+      "source": "hlsp_qlp_tess_ffi_s0096-0000000262843927_tess_v01_llc.fits",
+      "sha256": "9153e6ea4ffbcd6efd84f0dab8f12568d839cc4d5134da47cbfce5b73d042f0f",
+      "product": "QLP"
+    },
+    {
+      "sector": 97,
+      "source": "hlsp_qlp_tess_ffi_s0097-0000000262843927_tess_v01_llc.fits",
+      "sha256": "f3f5ab199a2aacc8f27820b441f694e866456435d1b009f9c306e87bf0d3e057",
+      "product": "QLP"
+    }
+  ],
+  "cases": {
+    "unmasked": {
+      "depth_ppm": 767.4439382891862,
+      "err_ppm": 206.49389771683605,
+      "z_scatter": 3.716545364171381,
+      "n_cadences": 28910,
+      "sector_beta": {
+        "95": 1.0,
+        "96": 1.014192467057898,
+        "97": 1.10367918928235
+      },
+      "null": {
+        "n": 2000,
+        "attempts": 2304,
+        "mean_ppm": 0.1430959293471251,
+        "std_ppm": 177.84152344926665,
+        "q025_975_ppm": [
+          -342.66797886477326,
+          352.500487877478
+        ],
+        "clean_cadences": 28694,
+        "removed_real_transit_cadences": 216
+      },
+      "z_null": 4.315324809439777,
+      "null_seed": 20264030,
+      "exceedances": 2,
+      "p": 0.0014992503748125937,
+      "per_transit": [
+        {
+          "sector": 97,
+          "epoch": 180,
+          "depth_ppm": 839.4825725566272,
+          "err_ppm": 361.3772017608618,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 1.0
+        },
+        {
+          "sector": 97,
+          "epoch": 181,
+          "depth_ppm": 1027.5860947350607,
+          "err_ppm": 357.4537213556115,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        },
+        {
+          "sector": 97,
+          "epoch": 182,
+          "depth_ppm": 662.0991634467795,
+          "err_ppm": 391.5709329012691,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        }
+      ],
+      "edge_share": {
+        "A": 0.0,
+        "B": 0.3266654369977786
+      },
+      "arrays": "results/C_tic262_14_pre_unmasked.npz",
+      "sha256": "c8a5427cfe49d5fa8f363a643ba320482deb27abbee91ab50fb80fd3f5c3c4eb"
+    },
+    "A": {
+      "depth_ppm": 769.3546649790145,
+      "err_ppm": 194.1267417957631,
+      "z_scatter": 3.9631565330058303,
+      "n_cadences": 23939,
+      "sector_beta": {
+        "95": 1.0,
+        "96": 1.0,
+        "97": 1.024773445642533
+      },
+      "null": {
+        "n": 2000,
+        "attempts": 2321,
+        "mean_ppm": -8.44666733246517,
+        "std_ppm": 204.1359850841441,
+        "q025_975_ppm": [
+          -384.5219322813114,
+          390.73738940316275
+        ],
+        "clean_cadences": 23723,
+        "removed_real_transit_cadences": 216
+      },
+      "z_null": 3.7688341164439447,
+      "null_seed": 20264031,
+      "exceedances": 1,
+      "p": 0.0009995002498750624,
+      "arrays": "results/C_tic262_14_pre_A.npz",
+      "sha256": "0ba81acfef48295fb30b0295cf7a80ba1262d69392562d8c6b29ccf4f5cac7e6"
+    },
+    "B": {
+      "depth_ppm": 744.6832596410638,
+      "err_ppm": 234.14180596050056,
+      "z_scatter": 3.180479695141204,
+      "n_cadences": 20740,
+      "sector_beta": {
+        "95": 1.0,
+        "96": 1.0,
+        "97": 1.0400815011263003
+      },
+      "null": {
+        "n": 2000,
+        "attempts": 2416,
+        "mean_ppm": 2.569604396542466,
+        "std_ppm": 201.97591774082227,
+        "q025_975_ppm": [
+          -383.80534201060385,
+          403.5920418991635
+        ],
+        "clean_cadences": 20594,
+        "removed_real_transit_cadences": 146
+      },
+      "z_null": 3.686990349991377,
+      "null_seed": 20264032,
+      "exceedances": 0,
+      "p": 0.0004997501249375312,
+      "arrays": "results/C_tic262_14_pre_B.npz",
+      "sha256": "c3769b6f6458d0bae69127e1f002993124eb1dc55a1e0aa6a183c823fb570c8f"
+    }
+  },
+  "complete": true,
+  "bar_stays": true,
+  "holdout_supported": true
+}
