@@ -10,6 +10,8 @@ pipelines (SPOC, QLP). Every step is a plain function in `planet_hunt/`.
 For current candidate-note links and the later search outcome, see
 [research status](RESEARCH_STATUS.md) (updated October 26, 2026).
 
+Start with the [short retro](RETRO.md): what we did, what broke, what I would do differently and where I think this is going.
+
 ## Setup
 
 ```bash
