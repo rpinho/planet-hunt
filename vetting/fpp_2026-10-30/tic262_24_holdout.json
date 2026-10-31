@@ -1,0 +1,584 @@
+{
+  "key": "tic262_24",
+  "signal": {
+    "key": "tic262_24",
+    "aas": "AAS82326",
+    "tic": 262843927,
+    "P": 24.10896,
+    "Perr": 0.00036,
+    "t0": 2273.037,
+    "t0err": 0.015,
+    "depth": 957,
+    "deptherr": 95,
+    "duration": 2.8936658,
+    "rstar": 0.564,
+    "mstar": 0.55,
+    "mask": [
+      [
+        14.51685,
+        2254.7418,
+        2.7
+      ]
+    ]
+  },
+  "manifest": [
+    {
+      "sector": 95,
+      "product": "QLP",
+      "source": "hlsp_qlp_tess_ffi_s0095-0000000262843927_tess_v01_llc.fits",
+      "sha256": "c463a7ba14e1de67c485a7aaf2c3bb71eb89233b5e5ec0a2c3a503fb7f918690",
+      "empty_error": true,
+      "orbit_source": "QLP_ORBIT_STARTS (group); first/last quality-selected cadences",
+      "n_cadences": 7687,
+      "cadence_s": 199.99999999999991,
+      "flux_column": "DET_FLUX"
+    },
+    {
+      "sector": 96,
+      "product": "QLP",
+      "source": "hlsp_qlp_tess_ffi_s0096-0000000262843927_tess_v01_llc.fits",
+      "sha256": "9153e6ea4ffbcd6efd84f0dab8f12568d839cc4d5134da47cbfce5b73d042f0f",
+      "empty_error": true,
+      "orbit_source": "QLP_ORBIT_STARTS (group); first/last quality-selected cadences",
+      "n_cadences": 7557,
+      "cadence_s": 199.99999999999991,
+      "flux_column": "DET_FLUX"
+    },
+    {
+      "sector": 97,
+      "product": "QLP",
+      "source": "hlsp_qlp_tess_ffi_s0097-0000000262843927_tess_v01_llc.fits",
+      "sha256": "f3f5ab199a2aacc8f27820b441f694e866456435d1b009f9c306e87bf0d3e057",
+      "empty_error": true,
+      "orbit_source": "QLP_ORBIT_STARTS (group); first/last quality-selected cadences",
+      "n_cadences": 14912,
+      "cadence_s": 199.99999999999991,
+      "flux_column": "DET_FLUX"
+    }
+  ],
+  "methods": {
+    "rnaas144": {
+      "source": "rnaas_check.py",
+      "sha256": "221c400d2367d9836cbe1f984cdadec1f86ef4040e997f6a024d15adad10c94d",
+      "functions": [
+        "phase",
+        "load_cut",
+        "detrend",
+        "box_depth"
+      ]
+    },
+    "host": {
+      "source": "hostsearch.py",
+      "sha256": "3e83dec8f6818591e69445ce076b6bacb8e857a7790405fa6547f9bf1b0627b2",
+      "functions": [
+        "detrend"
+      ]
+    },
+    "noise": {
+      "source": "multisector.py",
+      "sha256": "645cab861badf5b103a30436db529c3365000a325f2d6175ec82b0a2f6a44ccf",
+      "functions": [
+        "red_noise_beta"
+      ]
+    },
+    "depth": {
+      "source": "revet.py",
+      "sha256": "52c988a6b487748d0b92ed230c72610a710714f1be11cfd98e3e2768409b6b38",
+      "functions": [
+        "depth_at"
+      ]
+    },
+    "lcgate": {
+      "source": "lcgate.py",
+      "sha256": "49901ae4c06b5ee74d99883fbf3a2013d3f12cbf33616194638f629a2b9744f7",
+      "functions": [
+        "phase",
+        "in_window",
+        "overlap",
+        "flatten",
+        "beta_at",
+        "depth_fit"
+      ]
+    },
+    "round6": {
+      "source": "common.py",
+      "sha256": "b175810a1a59d84e2b38c247af28783960099801bef82bc65780bf646c492c38",
+      "functions": [
+        "detrend"
+      ]
+    }
+  },
+  "cases": {
+    "unmasked": {
+      "depth_ppm": 1018.415831045606,
+      "err_ppm": 219.41864622231137,
+      "z_scatter": 4.641427921370747,
+      "n_cadences": 28829,
+      "in_transit_raw_before": 104,
+      "in_transit_removed_mask": 0,
+      "in_transit_removed_fraction": 0.0,
+      "sectors": [
+        95,
+        96,
+        97
+      ],
+      "sector_beta": {
+        "95": 1.0,
+        "96": 1.0096041632945232,
+        "97": 1.056772837638491
+      },
+      "transit_bootstrap": {
+        "n_transit_clusters": 2,
+        "n_boot": 2000,
+        "depth_err_ppm": 31.86313708329651,
+        "ci95_ppm": [
+          1006.0037512235858,
+          1096.7305756705916
+        ],
+        "bootstrap_aggregate_ppm": 1053.551590896959
+      },
+      "per_transit": [
+        {
+          "sector": 96,
+          "epoch": 68,
+          "tc": 3912.44628,
+          "depth_ppm": 1006.0037512235858,
+          "err_ppm": 329.37519692661425,
+          "n_in": 52,
+          "start": 3909.908077856069,
+          "end": 3920.028530964875,
+          "since_start_d": 2.538226434149692,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        },
+        {
+          "sector": 97,
+          "epoch": 71,
+          "tc": 3984.7731599999997,
+          "depth_ppm": 1096.7305756705916,
+          "err_ppm": 314.69366746536,
+          "n_in": 52,
+          "start": 3979.0165287811715,
+          "end": 3988.27327333646,
+          "since_start_d": 5.755675712622406,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        }
+      ],
+      "edge_attribution": {
+        "A": {
+          "snr2_share": 0.0,
+          "shifted_control_mean": 0.3710161112097504,
+          "shifted_control_q025_975": [
+            0.0,
+            1.0
+          ],
+          "half_orbit_shift_share": 0.0,
+          "in_cadence_edge_fraction": 0.0,
+          "in_inverse_variance_edge_share": 0.0,
+          "definition": "Fallback per-transit (depth/error)^2, partial-event inverse-variance attribution. Report cadence_matched_shifted_control fields; legacy shifted_control fields count off-data shifts as edges and are superseded.",
+          "cadence_matched_shifted_control_mean": 0.15348745835602307,
+          "cadence_matched_shifted_control_q025_975": [
+            0.0,
+            0.5655925860166336
+          ],
+          "snr2_share_boot_ci95": [
+            0.0,
+            0.0
+          ],
+          "shifted_control_rule": "Random event shifts uniform \u00b16 d, redraw when no observed in-transit cadence; score same first/last observed-cadence edge mask; partial shifts weighted by in-transit inverse variance",
+          "applicable": true,
+          "signed_depth_contribution_share": 0.0,
+          "legacy_control_definition": "Fallback: sum per-transit (depth/error)^2 weighted by edge in-transit inverse variance; public pilot script unavailable. Shifted event midpoint \u00b16 d may leave orbit; outside is counted edge (documented conservative control)."
+        },
+        "B": {
+          "snr2_share": 0.0,
+          "shifted_control_mean": 0.4108570183574075,
+          "shifted_control_q025_975": [
+            0.0,
+            1.0
+          ],
+          "half_orbit_shift_share": 0.5655925860166336,
+          "in_cadence_edge_fraction": 0.0,
+          "in_inverse_variance_edge_share": 0.0,
+          "definition": "Fallback per-transit (depth/error)^2, partial-event inverse-variance attribution. Report cadence_matched_shifted_control fields; legacy shifted_control fields count off-data shifts as edges and are superseded.",
+          "cadence_matched_shifted_control_mean": 0.2470929340333564,
+          "cadence_matched_shifted_control_q025_975": [
+            0.0,
+            1.0
+          ],
+          "snr2_share_boot_ci95": [
+            0.0,
+            0.0
+          ],
+          "shifted_control_rule": "Random event shifts uniform \u00b16 d, redraw when no observed in-transit cadence; score same first/last observed-cadence edge mask; partial shifts weighted by in-transit inverse variance",
+          "applicable": true,
+          "signed_depth_contribution_share": 0.0,
+          "legacy_control_definition": "Fallback: sum per-transit (depth/error)^2 weighted by edge in-transit inverse variance; public pilot script unavailable. Shifted event midpoint \u00b16 d may leave orbit; outside is counted edge (documented conservative control)."
+        }
+      },
+      "depth_by_orbit_age": [
+        {
+          "lo_d": 0.0,
+          "hi_d": 0.5,
+          "n_cadences": 864,
+          "depth_ppm": NaN,
+          "err_ppm": NaN,
+          "z_scatter": NaN
+        },
+        {
+          "lo_d": 0.5,
+          "hi_d": 1.0,
+          "n_cadences": 1706,
+          "depth_ppm": NaN,
+          "err_ppm": NaN,
+          "z_scatter": NaN
+        },
+        {
+          "lo_d": 1.0,
+          "hi_d": 1.5,
+          "n_cadences": 1523,
+          "depth_ppm": NaN,
+          "err_ppm": NaN,
+          "z_scatter": NaN
+        },
+        {
+          "lo_d": 1.5,
+          "hi_d": 2.0,
+          "n_cadences": 1502,
+          "depth_ppm": NaN,
+          "err_ppm": NaN,
+          "z_scatter": NaN
+        },
+        {
+          "lo_d": 2.0,
+          "hi_d": 4.0,
+          "n_cadences": 5105,
+          "depth_ppm": 1006.0037512235858,
+          "err_ppm": 329.37519692661425,
+          "z_scatter": 3.0542790125381734
+        },
+        {
+          "lo_d": 4.0,
+          "hi_d": 6.0,
+          "n_cadences": 6405,
+          "depth_ppm": 1076.0481038490393,
+          "err_ppm": 300.60138256596787,
+          "z_scatter": 3.5796512133902025
+        },
+        {
+          "lo_d": 6.0,
+          "hi_d": 8.0,
+          "n_cadences": 6879,
+          "depth_ppm": NaN,
+          "err_ppm": NaN,
+          "z_scatter": NaN
+        },
+        {
+          "lo_d": 8.0,
+          "hi_d": 10.0,
+          "n_cadences": 4788,
+          "depth_ppm": NaN,
+          "err_ppm": NaN,
+          "z_scatter": NaN
+        },
+        {
+          "lo_d": 10.0,
+          "hi_d": 12.0,
+          "n_cadences": 57,
+          "depth_ppm": NaN,
+          "err_ppm": NaN,
+          "z_scatter": NaN
+        },
+        {
+          "lo_d": 12.0,
+          "hi_d": 14.0,
+          "n_cadences": 0,
+          "depth_ppm": NaN,
+          "err_ppm": NaN,
+          "z_scatter": NaN
+        },
+        {
+          "lo_d": 14.0,
+          "hi_d": 16.0,
+          "n_cadences": 0,
+          "depth_ppm": NaN,
+          "err_ppm": NaN,
+          "z_scatter": NaN
+        }
+      ]
+    },
+    "A": {
+      "depth_ppm": 1020.1480825202159,
+      "err_ppm": 216.21341515816553,
+      "z_scatter": 4.71824600603044,
+      "n_cadences": 23858,
+      "in_transit_raw_before": 104,
+      "in_transit_removed_mask": 0,
+      "in_transit_removed_fraction": 0.0,
+      "sectors": [
+        95,
+        96,
+        97
+      ],
+      "sector_beta": {
+        "95": 1.0,
+        "96": 1.0,
+        "97": 1.0427964842815407
+      },
+      "transit_bootstrap": {
+        "n_transit_clusters": 2,
+        "n_boot": 2000,
+        "depth_err_ppm": 32.47790199994319,
+        "ci95_ppm": [
+          1006.0037512235858,
+          1096.7305756705919
+        ],
+        "bootstrap_aggregate_ppm": 1054.0221648691545
+      },
+      "per_transit": [
+        {
+          "sector": 96,
+          "epoch": 68,
+          "tc": 3912.44628,
+          "depth_ppm": 1006.0037512235858,
+          "err_ppm": 325.86065797961277,
+          "n_in": 52,
+          "start": 3909.908077856069,
+          "end": 3920.028530964875,
+          "since_start_d": 2.538226434149692,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        },
+        {
+          "sector": 97,
+          "epoch": 71,
+          "tc": 3984.7731599999997,
+          "depth_ppm": 1096.7305756705919,
+          "err_ppm": 308.1136965654144,
+          "n_in": 52,
+          "start": 3979.0165287811715,
+          "end": 3988.27327333646,
+          "since_start_d": 5.755675712622406,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        }
+      ],
+      "null": {
+        "n": 2000,
+        "attempts": 2468,
+        "mean_ppm": -1.0244301173749462,
+        "std_ppm": 230.70928908135846,
+        "q025_975_ppm": [
+          -402.2192889961345,
+          438.20481966628404
+        ],
+        "clean_cadences": 23689,
+        "removed_real_transit_cadences": 169,
+        "p_ge_observed": 0.0029985007496251873
+      },
+      "z_null": 4.421790239059104,
+      "jackknife": [
+        {
+          "omitted_sector": 95,
+          "depth_ppm": 1054.022164869155,
+          "err_ppm": 223.88002553984973,
+          "z_scatter": 4.707977687279401,
+          "null": {
+            "n": 2000,
+            "attempts": 2554,
+            "mean_ppm": -3.1703724177592756,
+            "std_ppm": 283.1407266045014,
+            "q025_975_ppm": [
+              -502.05710476282036,
+              543.8898907802796
+            ],
+            "clean_cadences": 17570,
+            "removed_real_transit_cadences": 169
+          },
+          "z_null": 3.7226088154440653
+        },
+        {
+          "omitted_sector": 96,
+          "depth_ppm": 1032.076363909255,
+          "err_ppm": 292.7133397108632,
+          "z_scatter": 3.5258945319291595,
+          "null": {
+            "n": 2000,
+            "attempts": 2447,
+            "mean_ppm": -5.943510972876117,
+            "std_ppm": 253.1637761970042,
+            "q025_975_ppm": [
+              -508.7939189401259,
+              469.59715661695924
+            ],
+            "clean_cadences": 17685,
+            "removed_real_transit_cadences": 85
+          },
+          "z_null": 4.076714210117189
+        },
+        {
+          "omitted_sector": 97,
+          "depth_ppm": 972.2239135768422,
+          "err_ppm": 308.4120241899461,
+          "z_scatter": 3.152354115020057,
+          "null": {
+            "n": 2000,
+            "attempts": 2863,
+            "mean_ppm": -0.20227822845155516,
+            "std_ppm": 282.6336393137707,
+            "q025_975_ppm": [
+              -526.32192044794,
+              551.1619235598635
+            ],
+            "clean_cadences": 12123,
+            "removed_real_transit_cadences": 84
+          },
+          "z_null": 3.439873314221846
+        }
+      ],
+      "jackknife_status": "computed",
+      "baseline_in_cadences": 104,
+      "baseline_in_cadences_removed": 0,
+      "baseline_in_removed_fraction": 0.0
+    },
+    "B": {
+      "depth_ppm": 1019.0782353305689,
+      "err_ppm": 214.2801775061428,
+      "z_scatter": 4.755821313902705,
+      "n_cadences": 20736,
+      "in_transit_raw_before": 104,
+      "in_transit_removed_mask": 0,
+      "in_transit_removed_fraction": 0.0,
+      "sectors": [
+        95,
+        96,
+        97
+      ],
+      "sector_beta": {
+        "95": 1.0,
+        "96": 1.0,
+        "97": 1.0399739450383654
+      },
+      "transit_bootstrap": {
+        "n_transit_clusters": 2,
+        "n_boot": 2000,
+        "depth_err_ppm": 32.365867535837424,
+        "ci95_ppm": [
+          1003.6511689423135,
+          1096.7305756705923
+        ],
+        "bootstrap_aggregate_ppm": 1052.7697506687875
+      },
+      "per_transit": [
+        {
+          "sector": 96,
+          "epoch": 68,
+          "tc": 3912.44628,
+          "depth_ppm": 1003.6511689423135,
+          "err_ppm": 322.4889582379433,
+          "n_in": 52,
+          "start": 3909.908077856069,
+          "end": 3920.028530964875,
+          "since_start_d": 2.538226434149692,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        },
+        {
+          "sector": 97,
+          "epoch": 71,
+          "tc": 3984.7731599999997,
+          "depth_ppm": 1096.7305756705923,
+          "err_ppm": 305.8897236726814,
+          "n_in": 52,
+          "start": 3979.0165287811715,
+          "end": 3988.27327333646,
+          "since_start_d": 5.755675712622406,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        }
+      ],
+      "null": {
+        "n": 2000,
+        "attempts": 2552,
+        "mean_ppm": -11.844683448677372,
+        "std_ppm": 235.30911288631998,
+        "q025_975_ppm": [
+          -471.56007577261363,
+          450.05929131742494
+        ],
+        "clean_cadences": 20567,
+        "removed_real_transit_cadences": 169,
+        "p_ge_observed": 0.0009995002498750624
+      },
+      "z_null": 4.33080649886643,
+      "jackknife": [
+        {
+          "omitted_sector": 95,
+          "depth_ppm": 1052.7697506687873,
+          "err_ppm": 221.9325572345184,
+          "z_scatter": 4.7436471862770215,
+          "null": {
+            "n": 2000,
+            "attempts": 2712,
+            "mean_ppm": 1.3895613806232834,
+            "std_ppm": 274.4013830707548,
+            "q025_975_ppm": [
+              -542.2637509337122,
+              531.1563541915448
+            ],
+            "clean_cadences": 15311,
+            "removed_real_transit_cadences": 169
+          },
+          "z_null": 3.8366051179754046
+        },
+        {
+          "omitted_sector": 96,
+          "depth_ppm": 1031.6416742185656,
+          "err_ppm": 290.49500986901995,
+          "z_scatter": 3.5513232212963595,
+          "null": {
+            "n": 2000,
+            "attempts": 2623,
+            "mean_ppm": -1.6835897059847758,
+            "std_ppm": 271.4013284688632,
+            "q025_975_ppm": [
+              -508.0925892134431,
+              523.2661161795576
+            ],
+            "clean_cadences": 15424,
+            "removed_real_transit_cadences": 85
+          },
+          "z_null": 3.80116663407166
+        },
+        {
+          "omitted_sector": 97,
+          "depth_ppm": 970.985417735001,
+          "err_ppm": 305.1624010569211,
+          "z_scatter": 3.181864523191655,
+          "null": {
+            "n": 2000,
+            "attempts": 3086,
+            "mean_ppm": 1.703435295224263,
+            "std_ppm": 285.21894085406853,
+            "q025_975_ppm": [
+              -528.9394074387117,
+              569.4813737228678
+            ],
+            "clean_cadences": 10399,
+            "removed_real_transit_cadences": 84
+          },
+          "z_null": 3.4043511094580596
+        }
+      ],
+      "jackknife_status": "computed",
+      "baseline_in_cadences": 104,
+      "baseline_in_cadences_removed": 0,
+      "baseline_in_removed_fraction": 0.0
+    }
+  },
+  "complete": true,
+  "headline_bar": "PASS",
+  "edge_bar": "PASS",
+  "diagnostic_orbit_table_grouping": "Multiple official segments grouped by sector+orbit; pauses are not additional orbits."
+}
