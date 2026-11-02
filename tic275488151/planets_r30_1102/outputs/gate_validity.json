@@ -1,0 +1,11 @@
+{
+  "registered_counts": {"target": 0, "eb": 14},
+  "denominator_each": 20,
+  "registered_gate_pass": false,
+  "strict_out_of_eclipse_only_requirement_demonstrated": false,
+  "reason": "Frozen +/-0.126 d primary/secondary exclusions are narrower than catalogue full eclipse widths 0.4636705851 and 0.41942489528 d; EB wings/variability may remain.",
+  "compliant_clean_oot_validation": "INCOMPLETE",
+  "original_outcome_preserved": true,
+  "post_flux_threshold_or_mask_change": false,
+  "bar_B": "UNSCORED"
+}

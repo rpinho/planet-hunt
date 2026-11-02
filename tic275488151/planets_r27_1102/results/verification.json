@@ -1,0 +1,15 @@
+{
+  "verified_utc": "2026-11-02T09:42:01.631408+00:00",
+  "status": "VERIFIED_VERDICTS",
+  "scope": "Independent gate arithmetic and hashes from saved measurements; coverage independently recomputed by verify_coverage.py; not independent flux extraction",
+  "plan_sha256": "e016d9d16ed1aa8dc2a2e7722c2a04b469c27d544af4d7d904ec6c2fae7396e1",
+  "targets_checked": 15,
+  "counts": {
+    "RECOVERED_LEAD": 0,
+    "REFUTED": 1,
+    "OPEN": 14
+  },
+  "measurement_code_imported": false,
+  "sealed_files_checked": 1384,
+  "independent_coverage_targets": 13
+}

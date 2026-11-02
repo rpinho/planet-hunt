@@ -1,0 +1,224 @@
+{
+  "utc": "2026-11-02T10:49:24.008276+00:00",
+  "rows": [
+    {
+      "ctoi": "27233531.01",
+      "control_kic": 11617235,
+      "index": 0,
+      "injected_period_days": 13.62783032719658,
+      "injected_epoch_bkjd": 706.4076937841663,
+      "expected_depth_ppm": 2003.5308463739998,
+      "old_exact_at_truth": {
+        "z": 471.9801929405375,
+        "depth": 2006.4040520366343,
+        "sigma": 4.251034433322951,
+        "epoch_bkjd": 706.4076937841663,
+        "period_days": 13.62783032719658,
+        "norm": 0.05533638120500006
+      },
+      "old_selected": {
+        "z": 428.12186433895846,
+        "depth": 1809.4032126736054,
+        "sigma": 4.226374225169308,
+        "epoch_bkjd": 869.9259063518333,
+        "period_days": 13.628099433962264,
+        "norm": 0.055984022769801176
+      },
+      "old_depth_gate": false,
+      "old_has_matching_event": false,
+      "repaired_selected": {
+        "z": 508.6478193624792,
+        "depth": 2009.4709764928361,
+        "sigma": 3.9506135679721073,
+        "norm": 0.0640723861588209,
+        "period_days": 13.627831879918446,
+        "epoch_bkjd": 869.941633865086
+      },
+      "repaired_depth_gate": true,
+      "repaired_has_matching_event": true
+    },
+    {
+      "ctoi": "27233531.01",
+      "control_kic": 11617235,
+      "index": 1,
+      "injected_period_days": 13.609820334963583,
+      "injected_epoch_bkjd": 913.7132173885077,
+      "expected_depth_ppm": 2003.5308463739998,
+      "old_exact_at_truth": {
+        "z": 472.28061820186116,
+        "depth": 2007.8060712363024,
+        "sigma": 4.251298897000533,
+        "epoch_bkjd": 913.7132173885077,
+        "period_days": 13.609820334963583,
+        "norm": 0.05532949671720292
+      },
+      "old_selected": {
+        "z": 429.6484736376186,
+        "depth": 1832.24263461827,
+        "sigma": 4.26451563787854,
+        "epoch_bkjd": 859.291714112111,
+        "period_days": 13.610114716981132,
+        "norm": 0.05498706982274902
+      },
+      "old_depth_gate": false,
+      "old_has_matching_event": false,
+      "repaired_selected": {
+        "z": 510.31571029956876,
+        "depth": 2010.2824750504499,
+        "sigma": 3.939291764837811,
+        "norm": 0.0644412125533741,
+        "period_days": 13.609822431529446,
+        "epoch_bkjd": 872.8838105847224
+      },
+      "repaired_depth_gate": true,
+      "repaired_has_matching_event": true
+    },
+    {
+      "ctoi": "63069576.01",
+      "control_kic": 10404212,
+      "index": 0,
+      "injected_period_days": 1.6170230198916158,
+      "injected_epoch_bkjd": 1190.0018012977037,
+      "expected_depth_ppm": 4064.0767721199995,
+      "old_exact_at_truth": {
+        "z": 501.83753265564405,
+        "depth": 4052.589473327142,
+        "sigma": 8.075500953229795,
+        "epoch_bkjd": 1190.0018012977037,
+        "period_days": 1.6170230198916158,
+        "norm": 0.015334197570250476
+      },
+      "old_selected": {
+        "z": 478.7855570381075,
+        "depth": 3869.7167671595,
+        "sigma": 8.082359023314273,
+        "epoch_bkjd": 863.3556058841699,
+        "period_days": 1.6169968421052632,
+        "norm": 0.015308185762387612
+      },
+      "old_depth_gate": false,
+      "old_has_matching_event": false,
+      "repaired_selected": {
+        "z": 511.8255278591286,
+        "depth": 4052.0792841316197,
+        "sigma": 7.916915166542622,
+        "norm": 0.01595467703730997,
+        "period_days": 1.6170229550122184,
+        "epoch_bkjd": 861.7461888230616
+      },
+      "repaired_depth_gate": true,
+      "repaired_has_matching_event": true
+    },
+    {
+      "ctoi": "63069576.01",
+      "control_kic": 10404212,
+      "index": 1,
+      "injected_period_days": 1.615677597992213,
+      "injected_epoch_bkjd": 1166.5438514716454,
+      "expected_depth_ppm": 4064.0767721199995,
+      "old_exact_at_truth": {
+        "z": 502.6165425263604,
+        "depth": 4063.359083944542,
+        "sigma": 8.084411753581378,
+        "epoch_bkjd": 1166.5438514716454,
+        "period_days": 1.615677597992213,
+        "norm": 0.015300412880997382
+      },
+      "old_selected": {
+        "z": 475.60331833471673,
+        "depth": 3840.325482385883,
+        "sigma": 8.074639798209244,
+        "epoch_bkjd": 862.7867508701418,
+        "period_days": 1.615661052631579,
+        "norm": 0.015337468508821738
+      },
+      "old_depth_gate": false,
+      "old_has_matching_event": false,
+      "repaired_selected": {
+        "z": 512.4229465672912,
+        "depth": 4064.1090988189753,
+        "sigma": 7.9311614088407705,
+        "norm": 0.01589741176528192,
+        "period_days": 1.6156779344819128,
+        "epoch_bkjd": 862.7964683277199
+      },
+      "repaired_depth_gate": true,
+      "repaired_has_matching_event": true
+    },
+    {
+      "ctoi": "63120478.01",
+      "control_kic": 5364445,
+      "index": 0,
+      "injected_period_days": 2.1783937684323598,
+      "injected_epoch_bkjd": 899.6650217599636,
+      "expected_depth_ppm": 2344.8682504999997,
+      "old_exact_at_truth": {
+        "z": 82.38929763162577,
+        "depth": 2352.9274087227896,
+        "sigma": 28.558653567397336,
+        "epoch_bkjd": 899.6650217599636,
+        "period_days": 2.1783937684323598,
+        "norm": 0.0012260961917432102
+      },
+      "old_selected": {
+        "z": 78.68388685995524,
+        "depth": 2246.2770721992256,
+        "sigma": 28.548120356550772,
+        "epoch_bkjd": 862.6251453138851,
+        "period_days": 2.1783975,
+        "norm": 0.0012270011278353666
+      },
+      "old_depth_gate": false,
+      "old_has_matching_event": false,
+      "repaired_selected": {
+        "z": 81.05744610709824,
+        "depth": 2381.8905846811936,
+        "sigma": 29.385216276541556,
+        "norm": 0.0011580897479635962,
+        "period_days": 2.178393220890254,
+        "epoch_bkjd": 862.6321302592075
+      },
+      "repaired_depth_gate": true,
+      "repaired_has_matching_event": true
+    },
+    {
+      "ctoi": "63120478.01",
+      "control_kic": 5364445,
+      "index": 1,
+      "injected_period_days": 2.174454188636484,
+      "injected_epoch_bkjd": 757.1025657553258,
+      "expected_depth_ppm": 2344.8682504999997,
+      "old_exact_at_truth": {
+        "z": 81.00969745591304,
+        "depth": 2332.0996668712464,
+        "sigma": 28.78790737541536,
+        "epoch_bkjd": 757.1025657553258,
+        "period_days": 2.174454188636484,
+        "norm": 0.0012066458029479012
+      },
+      "old_selected": {
+        "z": 77.56984542234646,
+        "depth": 2229.3340109100363,
+        "sigma": 28.73969902572226,
+        "epoch_bkjd": 861.4830317847375,
+        "period_days": 2.174445,
+        "norm": 0.0012106972852318368
+      },
+      "old_depth_gate": false,
+      "old_has_matching_event": false,
+      "repaired_selected": {
+        "z": 79.0544306791103,
+        "depth": 2327.9961693374803,
+        "sigma": 29.44801637731155,
+        "norm": 0.001153155588540086,
+        "period_days": 2.174453827782426,
+        "epoch_bkjd": 861.4764255011324
+      },
+      "repaired_depth_gate": true,
+      "repaired_has_matching_event": true
+    }
+  ],
+  "same_raw_control_injection": true,
+  "injection_periods_in_old_interval": true,
+  "no_target_flux": true
+}

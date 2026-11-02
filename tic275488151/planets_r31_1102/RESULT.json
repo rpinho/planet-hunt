@@ -1,0 +1,57 @@
+{
+  "utc": "2026-11-02T12:32:24.465275+00:00",
+  "status": "POWER_FAIL",
+  "verified": true,
+  "gate": {
+    "denominator_each": 200,
+    "counts": {
+      "leak": {
+        "leak_detect": 200,
+        "target_limit": 0,
+        "target_detect": 0,
+        "false_eb": 200,
+        "valid": 200
+      },
+      "target": {
+        "leak_detect": 3,
+        "target_limit": 0,
+        "target_detect": 0,
+        "false_eb": 3,
+        "valid": 200
+      }
+    },
+    "requirements": {
+      "leak_detection": true,
+      "leak_target_upper_limit": false,
+      "target_false_eb": true,
+      "target_detection": false
+    },
+    "pass": false
+  },
+  "bars": {
+    "bar1": "UNSCORED",
+    "bar2": "UNSCORED"
+  },
+  "attribution": false,
+  "ctoi_denominator": 1,
+  "attributions": 0,
+  "real_difference_images_formed": false,
+  "freeze_commit": "99ffe523506fb6b83dd7f2ed17979e3b8cb8fe0f",
+  "verification": "outputs/verification.json",
+  "worker_check": {
+    "workers_remaining": [],
+    "receipt": "outputs/process_check_final.txt"
+  },
+  "network_audit": {
+    "requests": 21,
+    "minimum_seconds_between_starts": 5.03005,
+    "bytes": 3421674,
+    "hosts": [
+      "archive.stsci.edu",
+      "arxiv.org",
+      "exofop.ipac.caltech.edu",
+      "keplerebs.villanova.edu",
+      "ui.adsabs.harvard.edu"
+    ]
+  }
+}

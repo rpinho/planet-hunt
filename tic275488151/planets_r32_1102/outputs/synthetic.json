@@ -1,0 +1,47 @@
+{
+  "checks": "linear cancellation and exact cadence-box transfer with/without gaps",
+  "results": [
+    {
+      "gaps": false,
+      "flat_depth": -4.5613049486010605e-17,
+      "injection": {
+        "n": 10,
+        "valid": true,
+        "depth": 0.0007309537932758997,
+        "sigma": 1.723280802007576e-06,
+        "upper": 0.0007356889921855509,
+        "z": 424.16406683365716,
+        "chi2": 21.954921834364185,
+        "inflation_variance": 2.4394357593737985,
+        "sum_weight": 821442722024.6373
+      },
+      "counts": {
+        "predicted": 11,
+        "valid": 10,
+        "too_few": 1,
+        "invalid_fit": 0
+      }
+    },
+    {
+      "gaps": true,
+      "flat_depth": -6.40127148931988e-17,
+      "injection": {
+        "n": 10,
+        "valid": true,
+        "depth": 0.0007246295964917056,
+        "sigma": 1.0311477289305531e-05,
+        "upper": 0.0007529632818436982,
+        "z": 70.27408160450972,
+        "chi2": 675.243204774369,
+        "inflation_variance": 75.02702275270767,
+        "sum_weight": 705628208129.0068
+      },
+      "counts": {
+        "predicted": 11,
+        "valid": 10,
+        "too_few": 1,
+        "invalid_fit": 0
+      }
+    }
+  ]
+}

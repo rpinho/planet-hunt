@@ -1,0 +1,18 @@
+{
+  "utc": "2026-11-02T10:31:42.778682+00:00",
+  "status": "PASS",
+  "fit_equals_independent_numpy": true,
+  "exact_pruning_tests": 100,
+  "period_gradient": -141750267.13575396,
+  "period_finite_difference": -141750275.506638,
+  "epoch_gradient": -873051.3120849385,
+  "epoch_finite_difference": -873051.9970413297,
+  "optimized": {
+    "z": 536.3273843519685,
+    "depth": 2342.6830650190655,
+    "sigma": 4.368009416206993,
+    "norm": 0.05241225775808814,
+    "period_days": 2.177250112860735,
+    "epoch_bkjd": 849.9999717316591
+  }
+}

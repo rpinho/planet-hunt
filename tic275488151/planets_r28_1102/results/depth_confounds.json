@@ -1,0 +1,178 @@
+{
+  "utc": "2026-11-02T10:51:05.371767+00:00",
+  "purpose": "Control-only post-repair diagnostic; mask/continuum held fixed to injected data, never supplied to blind recall searches.",
+  "rows": [
+    {
+      "ctoi": "185336364.01",
+      "control_kic": 7987659,
+      "index": 2,
+      "period_days": 4.319554586031231,
+      "epoch_bkjd": 860.9395225008603,
+      "frozen_depth_ppm": 17828.5937535,
+      "injected_fit_at_truth": {
+        "z": 10076.686577202136,
+        "depth": 17824.563635308343,
+        "sigma": 1.7688913412902298,
+        "norm": 0.3195933159926697,
+        "period_days": 4.319554586031231,
+        "epoch_bkjd": 860.9395225008603
+      },
+      "background_fit_same_continuum": {
+        "z": -2.298293545875866,
+        "depth": -4.065431553043039,
+        "sigma": 1.7688913412902298,
+        "norm": 0.3195933159926697,
+        "period_days": 4.319554586031231,
+        "epoch_bkjd": 860.9395225008603
+      },
+      "injection_only_fit": {
+        "z": 10078.984870748061,
+        "depth": 17828.62906686147,
+        "sigma": 1.7688913412902298,
+        "norm": 0.3195933159926697,
+        "period_days": 4.319554586031231,
+        "epoch_bkjd": 860.9395225008603
+      },
+      "transfer_gain": 1.0000019807149099,
+      "bias_after_subtracting_background_ppm": 0.03531336138621555,
+      "blind_search_found": {
+        "z": 10076.686578447587,
+        "depth": 17824.564697830512,
+        "sigma": 1.7688914465152055,
+        "norm": 0.3195932779697622,
+        "period_days": 4.319554588643939,
+        "epoch_bkjd": 865.2590762688827
+      },
+      "blind_success": true
+    },
+    {
+      "ctoi": "185336364.01",
+      "control_kic": 7987659,
+      "index": 3,
+      "period_days": 4.317043641357074,
+      "epoch_bkjd": 859.2070072016168,
+      "frozen_depth_ppm": 17828.5937535,
+      "injected_fit_at_truth": {
+        "z": 10153.080448270335,
+        "depth": 17802.922929451488,
+        "sigma": 1.7534503956860075,
+        "norm": 0.32524679912745563,
+        "period_days": 4.317043641357074,
+        "epoch_bkjd": 859.2070072016168
+      },
+      "background_fit_same_continuum": {
+        "z": -14.870166109984646,
+        "depth": -26.07409864946924,
+        "sigma": 1.7534503956860075,
+        "norm": 0.32524679912745563,
+        "period_days": 4.317043641357074,
+        "epoch_bkjd": 859.2070072016168
+      },
+      "injection_only_fit": {
+        "z": 10167.950614380312,
+        "depth": 17828.99702810094,
+        "sigma": 1.7534503956860075,
+        "norm": 0.32524679912745563,
+        "period_days": 4.317043641357074,
+        "epoch_bkjd": 859.2070072016168
+      },
+      "transfer_gain": 1.0000226195406388,
+      "bias_after_subtracting_background_ppm": 0.4032746009543189,
+      "blind_search_found": {
+        "z": 10153.080584385483,
+        "depth": 17802.92697910839,
+        "sigma": 1.7534507710386618,
+        "norm": 0.32524665987947876,
+        "period_days": 4.317043573033547,
+        "epoch_bkjd": 863.5240443651913
+      },
+      "blind_success": false
+    },
+    {
+      "ctoi": "185336364.01",
+      "control_kic": 8845014,
+      "index": 4,
+      "period_days": 4.312029026242381,
+      "epoch_bkjd": 859.2495224487657,
+      "frozen_depth_ppm": 17828.5937535,
+      "injected_fit_at_truth": {
+        "z": 9922.327867532933,
+        "depth": 17834.989830138667,
+        "sigma": 1.7974602400004263,
+        "norm": 0.3095147961067983,
+        "period_days": 4.312029026242381,
+        "epoch_bkjd": 859.2495224487657
+      },
+      "background_fit_same_continuum": {
+        "z": 3.6651817764606753,
+        "depth": 6.588018515562195,
+        "sigma": 1.7974602400004263,
+        "norm": 0.3095147961067983,
+        "period_days": 4.312029026242381,
+        "epoch_bkjd": 859.2495224487657
+      },
+      "injection_only_fit": {
+        "z": 9918.662685756453,
+        "depth": 17828.40181162307,
+        "sigma": 1.7974602400004263,
+        "norm": 0.3095147961067983,
+        "period_days": 4.312029026242381,
+        "epoch_bkjd": 859.2495224487657
+      },
+      "transfer_gain": 0.9999892340428199,
+      "bias_after_subtracting_background_ppm": -0.19194187689572573,
+      "blind_search_found": {
+        "z": 9922.327911766042,
+        "depth": 17834.984864473532,
+        "sigma": 1.7974597315338214,
+        "norm": 0.309514971218326,
+        "period_days": 4.312029078676331,
+        "epoch_bkjd": 863.5615509303326
+      },
+      "blind_success": false
+    },
+    {
+      "ctoi": "185336364.01",
+      "control_kic": 8845014,
+      "index": 5,
+      "period_days": 4.31737308609829,
+      "epoch_bkjd": 859.2815491444186,
+      "frozen_depth_ppm": 17828.5937535,
+      "injected_fit_at_truth": {
+        "z": 9901.000151473181,
+        "depth": 17804.159324868044,
+        "sigma": 1.7982182660828405,
+        "norm": 0.3092539035983503,
+        "period_days": 4.31737308609829,
+        "epoch_bkjd": 859.2815491444186
+      },
+      "background_fit_same_continuum": {
+        "z": -13.79873546198067,
+        "depth": -24.813138156578685,
+        "sigma": 1.7982182660828405,
+        "norm": 0.3092539035983503,
+        "period_days": 4.31737308609829,
+        "epoch_bkjd": 859.2815491444186
+      },
+      "injection_only_fit": {
+        "z": 9914.798886935205,
+        "depth": 17828.972463024704,
+        "sigma": 1.7982182660828405,
+        "norm": 0.3092539035983503,
+        "period_days": 4.31737308609829,
+        "epoch_bkjd": 859.2815491444186
+      },
+      "transfer_gain": 1.0000212416935368,
+      "bias_after_subtracting_background_ppm": 0.37870952462253626,
+      "blind_search_found": {
+        "z": 9901.000176376123,
+        "depth": 17804.156320970887,
+        "sigma": 1.7982179581666675,
+        "norm": 0.3092540095079662,
+        "period_days": 4.31737304674255,
+        "epoch_bkjd": 863.5989229646232
+      },
+      "blind_success": false
+    }
+  ]
+}

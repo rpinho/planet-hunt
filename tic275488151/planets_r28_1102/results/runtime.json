@@ -1,0 +1,14 @@
+{
+  "utc": "2026-11-02T10:49:34.919078+00:00",
+  "python": "3.12.3 (main, Aug 14 2025, 17:47:21) [GCC 13.3.0]",
+  "numpy": "2.1.2",
+  "scipy": "1.18.1",
+  "astropy": "8.0.2",
+  "numba": "0.68.1",
+  "requests": "2.32.5",
+  "worker_process_limit": 4,
+  "numba_threads_per_worker": 4,
+  "blas_threads": 1,
+  "omp_threads": 1,
+  "nice": 10
+}

@@ -1,0 +1,1252 @@
+[
+  {
+    "context": "Header CTOI identifier",
+    "references": [
+      "planets_r27_1102/PLAN.json#/targets/12/ctoi"
+    ],
+    "match": "Exact",
+    "number": "275488151.01",
+    "offset": 39,
+    "occurrence": 1,
+    "written": "275488151.01"
+  },
+  {
+    "context": "Header release year",
+    "references": [
+      "RELEASE.json#/year"
+    ],
+    "match": "Exact packaging date",
+    "number": "2026",
+    "offset": 53,
+    "occurrence": 2,
+    "written": "2026"
+  },
+  {
+    "context": "Header release month",
+    "references": [
+      "RELEASE.json#/month"
+    ],
+    "match": "Exact packaging date",
+    "number": "11",
+    "offset": 58,
+    "occurrence": 3,
+    "written": "11"
+  },
+  {
+    "context": "Header release day",
+    "references": [
+      "RELEASE.json#/day"
+    ],
+    "match": "Exact packaging date",
+    "number": "02",
+    "offset": 61,
+    "occurrence": 4,
+    "written": "02"
+  },
+  {
+    "context": "CTOI identifier",
+    "references": [
+      "planets_r27_1102/PLAN.json#/targets/12/ctoi"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r27_1102/PLAN.json#/targets/12/ctoi",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "275488151.01",
+    "offset": 138,
+    "occurrence": 5,
+    "written": "275488151.01"
+  },
+  {
+    "context": "Montalto citation year",
+    "references": [
+      "planets_r29_1102/REPORT.md#L9"
+    ],
+    "match": "Exact",
+    "number": "2022",
+    "offset": 161,
+    "occurrence": 6,
+    "written": "2022"
+  },
+  {
+    "context": "EB KIC identifier",
+    "references": [
+      "planets_r29_1102/RESULT.json#/targets/9/eb_within_R/0/kic"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r29_1102/RESULT.json#/targets/9/eb_within_R/0/kic",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "10014830",
+    "offset": 205,
+    "occurrence": 7,
+    "written": "10014830"
+  },
+  {
+    "context": "EB TIC identifier",
+    "references": [
+      "planets_r31_1102/REPORT.md#L94"
+    ],
+    "match": "Exact",
+    "number": "275488133",
+    "offset": 219,
+    "occurrence": 8,
+    "written": "275488133"
+  },
+  {
+    "context": "EB period (d)",
+    "references": [
+      "planets_r36_1102/PLAN.json#/EB/period"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r36_1102/PLAN.json#/EB/period",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "3.0305267",
+    "offset": 258,
+    "occurrence": 9,
+    "written": "3.0305267"
+  },
+  {
+    "context": "Prsa citation year",
+    "references": [
+      "planets_r29_1102/REPORT.md#L15"
+    ],
+    "match": "Exact",
+    "number": "2011",
+    "offset": 312,
+    "occurrence": 10,
+    "written": "2011"
+  },
+  {
+    "context": "Slawson citation year",
+    "references": [
+      "planets_r29_1102/REPORT.md#L15"
+    ],
+    "match": "Exact",
+    "number": "2011",
+    "offset": 333,
+    "occurrence": 11,
+    "written": "2011"
+  },
+  {
+    "context": "Kirk citation year",
+    "references": [
+      "planets_r29_1102/REPORT.md#L15"
+    ],
+    "match": "Exact",
+    "number": "2016",
+    "offset": 351,
+    "occurrence": 12,
+    "written": "2016"
+  },
+  {
+    "context": "Separation (arcsec)",
+    "references": [
+      "planets_r29_1102/RESULT.json#/targets/9/eb_within_R/0/sep_arcsec"
+    ],
+    "match": "Rounding: 82.7",
+    "numeric_reference": "planets_r29_1102/RESULT.json#/targets/9/eb_within_R/0/sep_arcsec",
+    "scale": 1,
+    "tolerance": 0.5,
+    "number": "83",
+    "offset": 361,
+    "occurrence": 13,
+    "written": "83"
+  },
+  {
+    "context": "Separation (TESS pixels)",
+    "references": [
+      "planets_r36_1102/PLAN.json#/sectors/0/separation"
+    ],
+    "match": "Rounding: 3.95960",
+    "numeric_reference": "planets_r36_1102/PLAN.json#/sectors/0/separation",
+    "scale": 1,
+    "tolerance": 0.5,
+    "number": "4",
+    "offset": 366,
+    "occurrence": 14,
+    "written": "4"
+  },
+  {
+    "context": "Tmag difference",
+    "references": [
+      "DERIVED.json#/tmag_difference"
+    ],
+    "match": "Rounding: 2.6225",
+    "numeric_reference": "DERIVED.json#/tmag_difference",
+    "scale": 1,
+    "tolerance": 0.05,
+    "number": "2.6",
+    "offset": 401,
+    "occurrence": 15,
+    "written": "2.6"
+  },
+  {
+    "context": "EB Tmag",
+    "references": [
+      "planets_r31_1102/outputs/metadata.json#/eb_tmag"
+    ],
+    "match": "Rounding: 13.838",
+    "numeric_reference": "planets_r31_1102/outputs/metadata.json#/eb_tmag",
+    "scale": 1,
+    "tolerance": 0.05,
+    "number": "13.8",
+    "offset": 423,
+    "occurrence": 16,
+    "written": "13.8"
+  },
+  {
+    "context": "Target Tmag",
+    "references": [
+      "planets_r31_1102/outputs/metadata.json#/target_tmag"
+    ],
+    "match": "Rounding: 11.2155",
+    "numeric_reference": "planets_r31_1102/outputs/metadata.json#/target_tmag",
+    "scale": 1,
+    "tolerance": 0.05,
+    "number": "11.2",
+    "offset": 431,
+    "occurrence": 17,
+    "written": "11.2"
+  },
+  {
+    "context": "Kepler primary (%)",
+    "references": [
+      "DERIVED.json#/kepler_primary_percent"
+    ],
+    "match": "Rounding: 42.712322",
+    "numeric_reference": "DERIVED.json#/kepler_primary_percent",
+    "scale": 1,
+    "tolerance": 0.5,
+    "number": "43",
+    "offset": 466,
+    "occurrence": 18,
+    "written": "43"
+  },
+  {
+    "context": "Kepler half-window (d)",
+    "references": [
+      "planets_r30_1102/PROTOCOL.md#L45"
+    ],
+    "match": "Exact",
+    "number": "0.126",
+    "offset": 502,
+    "occurrence": 19,
+    "written": "0.126"
+  },
+  {
+    "context": "Catalog primary width (h)",
+    "references": [
+      "DERIVED.json#/catalogue_primary_width_hours",
+      "planets_r38_1102/REPORT.md#L55"
+    ],
+    "match": "Rounding: 11.128094",
+    "numeric_reference": "DERIVED.json#/catalogue_primary_width_hours",
+    "scale": 1,
+    "tolerance": 0.5,
+    "number": "11",
+    "offset": 538,
+    "occurrence": 20,
+    "written": "11"
+  },
+  {
+    "context": "CTOI duration (d)",
+    "references": [
+      "DERIVED.json#/ctoi_duration_days"
+    ],
+    "match": "Exact numeric value (trailing zero)",
+    "numeric_reference": "DERIVED.json#/ctoi_duration_days",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "0.210",
+    "offset": 573,
+    "occurrence": 21,
+    "written": "0.210"
+  },
+  {
+    "context": "CTOI duration (h)",
+    "references": [
+      "planets_r27_1102/PLAN.json#/targets/12/duration_hours"
+    ],
+    "match": "Rounding: 5.04",
+    "numeric_reference": "planets_r27_1102/PLAN.json#/targets/12/duration_hours",
+    "scale": 1,
+    "tolerance": 0.5,
+    "number": "5",
+    "offset": 582,
+    "occurrence": 22,
+    "written": "5"
+  },
+  {
+    "context": "ExoFOP literal duration (h)",
+    "references": [
+      "planets_r27_1102/REPORT.md#L59"
+    ],
+    "match": "Exact numeric value (0.210)",
+    "number": "0.21",
+    "offset": 620,
+    "occurrence": 23,
+    "written": "0.21"
+  },
+  {
+    "context": "Target KIC",
+    "references": [
+      "planets_r27_1102/PLAN.json#/targets/12/kic"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r27_1102/PLAN.json#/targets/12/kic",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "10014894",
+    "offset": 724,
+    "occurrence": 24,
+    "written": "10014894"
+  },
+  {
+    "context": "Kepler start year",
+    "references": [
+      "DERIVED.json#/kepler_start_year",
+      "planets_r32_1102/outputs/apertures.json#/quarters/0/table_header/DATE-OBS"
+    ],
+    "match": "Exact",
+    "numeric_reference": "DERIVED.json#/kepler_start_year",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "2009",
+    "offset": 757,
+    "occurrence": 25,
+    "written": "2009"
+  },
+  {
+    "context": "Kepler end year",
+    "references": [
+      "DERIVED.json#/kepler_end_year",
+      "planets_r32_1102/outputs/apertures.json#/quarters/17/table_header/DATE-END"
+    ],
+    "match": "Exact",
+    "numeric_reference": "DERIVED.json#/kepler_end_year",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "2013",
+    "offset": 762,
+    "occurrence": 26,
+    "written": "2013"
+  },
+  {
+    "context": "Quarters with EB outside",
+    "references": [
+      "planets_r32_1102/outputs/verification.json#/geometry_network/eb_outside"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r32_1102/outputs/verification.json#/geometry_network/eb_outside",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "18",
+    "offset": 823,
+    "occurrence": 27,
+    "written": "18"
+  },
+  {
+    "context": "Target primary depth (ppm)",
+    "references": [
+      "planets_r32_1102/outputs/completed_real.json#/results/primary/stack/depth"
+    ],
+    "match": "Rounding: 0.008334754",
+    "numeric_reference": "planets_r32_1102/outputs/completed_real.json#/results/primary/stack/depth",
+    "scale": 1000000.0,
+    "tolerance": 0.05,
+    "number": "0.0",
+    "offset": 891,
+    "occurrence": 28,
+    "written": "0.0"
+  },
+  {
+    "context": "Target primary error (ppm)",
+    "references": [
+      "planets_r32_1102/outputs/completed_real.json#/results/primary/stack/sigma"
+    ],
+    "match": "Rounding: 2.570569",
+    "numeric_reference": "planets_r32_1102/outputs/completed_real.json#/results/primary/stack/sigma",
+    "scale": 1000000.0,
+    "tolerance": 0.05,
+    "number": "2.6",
+    "offset": 899,
+    "occurrence": 29,
+    "written": "2.6"
+  },
+  {
+    "context": "Target primary events",
+    "references": [
+      "planets_r32_1102/outputs/completed_real.json#/results/primary/stack/n"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r32_1102/outputs/completed_real.json#/results/primary/stack/n",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "424",
+    "offset": 912,
+    "occurrence": 30,
+    "written": "424"
+  },
+  {
+    "context": "Nominal Gaussian limit (%)",
+    "references": [
+      "planets_r32_1102/PROTOCOL.md#L7"
+    ],
+    "match": "Exact convention",
+    "number": "99.7",
+    "offset": 951,
+    "occurrence": 31,
+    "written": "99.7"
+  },
+  {
+    "context": "Target upper limit (ppm)",
+    "references": [
+      "planets_r32_1102/outputs/completed_real.json#/results/primary/stack/upper"
+    ],
+    "match": "Rounding: 7.071696",
+    "numeric_reference": "planets_r32_1102/outputs/completed_real.json#/results/primary/stack/upper",
+    "scale": 1000000.0,
+    "tolerance": 0.5,
+    "number": "7",
+    "offset": 963,
+    "occurrence": 32,
+    "written": "7"
+  },
+  {
+    "context": "TIC contamination ratio",
+    "references": [
+      "planets_r27_1102/PLAN.json#/targets/12/tic_contratio"
+    ],
+    "match": "Rounding: 0.564471543",
+    "numeric_reference": "planets_r27_1102/PLAN.json#/targets/12/tic_contratio",
+    "scale": 1,
+    "tolerance": 0.005,
+    "number": "0.56",
+    "offset": 1007,
+    "occurrence": 33,
+    "written": "0.56"
+  },
+  {
+    "context": "Expected on-target Kepler depth (ppm)",
+    "references": [
+      "planets_r27_1102/PLAN.json#/targets/12/expected_kepler_aperture_depth_ppm"
+    ],
+    "match": "Rounding: 872.975121",
+    "numeric_reference": "planets_r27_1102/PLAN.json#/targets/12/expected_kepler_aperture_depth_ppm",
+    "scale": 1,
+    "tolerance": 0.5,
+    "number": "873",
+    "offset": 1068,
+    "occurrence": 34,
+    "written": "873"
+  },
+  {
+    "context": "Injected box depth (ppm)",
+    "references": [
+      "planets_r32_1102/PROTOCOL.md#L26"
+    ],
+    "match": "Exact; specified injection depth",
+    "number": "873",
+    "offset": 1087,
+    "occurrence": 35,
+    "written": "873"
+  },
+  {
+    "context": "Random injected phases",
+    "references": [
+      "planets_r32_1102/outputs/completed_gate.json#/denominators/injection"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r32_1102/outputs/completed_gate.json#/denominators/injection",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "200",
+    "offset": 1131,
+    "occurrence": 36,
+    "written": "200"
+  },
+  {
+    "context": "Uninjected phases",
+    "references": [
+      "planets_r32_1102/outputs/completed_gate.json#/denominators/null"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r32_1102/outputs/completed_gate.json#/denominators/null",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "200",
+    "offset": 1195,
+    "occurrence": 37,
+    "written": "200"
+  },
+  {
+    "context": "Null upper-limit min (ppm)",
+    "references": [
+      "planets_r32_1102/outputs/summary.json#/gate_quantiles/null/upper/min"
+    ],
+    "match": "Rounding: 6.161228",
+    "numeric_reference": "planets_r32_1102/outputs/summary.json#/gate_quantiles/null/upper/min",
+    "scale": 1000000.0,
+    "tolerance": 0.5,
+    "number": "6",
+    "offset": 1240,
+    "occurrence": 38,
+    "written": "6"
+  },
+  {
+    "context": "Null upper-limit max (ppm)",
+    "references": [
+      "planets_r32_1102/outputs/summary.json#/gate_quantiles/null/upper/max"
+    ],
+    "match": "Rounding: 11.662037",
+    "numeric_reference": "planets_r32_1102/outputs/summary.json#/gate_quantiles/null/upper/max",
+    "scale": 1000000.0,
+    "tolerance": 0.5,
+    "number": "12",
+    "offset": 1242,
+    "occurrence": 39,
+    "written": "12"
+  },
+  {
+    "context": "Null upper-limit median (ppm)",
+    "references": [
+      "planets_r32_1102/outputs/summary.json#/gate_quantiles/null/upper/median"
+    ],
+    "match": "Rounding: 8.083434",
+    "numeric_reference": "planets_r32_1102/outputs/summary.json#/gate_quantiles/null/upper/median",
+    "scale": 1000000.0,
+    "tolerance": 0.5,
+    "number": "8",
+    "offset": 1257,
+    "occurrence": 40,
+    "written": "8"
+  },
+  {
+    "context": "DR25 release label",
+    "references": [
+      "planets_r27_1102/REPORT.md#L83"
+    ],
+    "match": "Exact release label",
+    "number": "25",
+    "offset": 1297,
+    "occurrence": 41,
+    "written": "25"
+  },
+  {
+    "context": "Planned period tolerance (%)",
+    "references": [
+      "DERIVED.json#/planned_period_tolerance_percent"
+    ],
+    "match": "Exact",
+    "numeric_reference": "DERIVED.json#/planned_period_tolerance_percent",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "0.1",
+    "offset": 1421,
+    "occurrence": 42,
+    "written": "0.1"
+  },
+  {
+    "context": "CTOI period difference (%)",
+    "references": [
+      "DERIVED.json#/period_difference_percent"
+    ],
+    "match": "Rounding: 0.164879",
+    "numeric_reference": "DERIVED.json#/period_difference_percent",
+    "scale": 1,
+    "tolerance": 0.0005,
+    "number": "0.165",
+    "offset": 1481,
+    "occurrence": 43,
+    "written": "0.165"
+  },
+  {
+    "context": "Period mismatch (sigma)",
+    "references": [
+      "DERIVED.json#/period_difference_sigma"
+    ],
+    "match": "Rounding: 4.198908",
+    "numeric_reference": "DERIVED.json#/period_difference_sigma",
+    "scale": 1,
+    "tolerance": 0.05,
+    "number": "4.2",
+    "offset": 1489,
+    "occurrence": 44,
+    "written": "4.2"
+  },
+  {
+    "context": "EB timing sector, start",
+    "references": [
+      "planets_r36_1102/outputs/EB_TESS.json#/sectors/0/sector"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r36_1102/outputs/EB_TESS.json#/sectors/0/sector",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "14",
+    "offset": 1626,
+    "occurrence": 45,
+    "written": "14"
+  },
+  {
+    "context": "EB timing sector, end",
+    "references": [
+      "planets_r36_1102/outputs/EB_TESS.json#/sectors/1/sector"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r36_1102/outputs/EB_TESS.json#/sectors/1/sector",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "15",
+    "offset": 1629,
+    "occurrence": 46,
+    "written": "15"
+  },
+  {
+    "context": "EB timing advance (d)",
+    "references": [
+      "planets_r36_1102/outputs/EB_TESS.json#/sectors/0/timing/best_offset_days"
+    ],
+    "match": "Exact magnitude; offset is -0.038",
+    "numeric_reference": "planets_r36_1102/outputs/EB_TESS.json#/sectors/0/timing/best_offset_days",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "absolute": true,
+    "number": "0.038",
+    "offset": 1694,
+    "occurrence": 47,
+    "written": "0.038"
+  },
+  {
+    "context": "TESS/Kepler depth ratio",
+    "references": [
+      "DERIVED.json#/tess_to_kepler_primary_depth_ratio"
+    ],
+    "match": "Rounding: 1.192281",
+    "numeric_reference": "DERIVED.json#/tess_to_kepler_primary_depth_ratio",
+    "scale": 1,
+    "tolerance": 0.05,
+    "number": "1.2",
+    "offset": 1766,
+    "occurrence": 48,
+    "written": "1.2"
+  },
+  {
+    "context": "Ephemeris drift sector, start",
+    "references": [
+      "planets_r36_1102/PLAN.json#/sectors/0/sector"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r36_1102/PLAN.json#/sectors/0/sector",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "14",
+    "offset": 1809,
+    "occurrence": 49,
+    "written": "14"
+  },
+  {
+    "context": "Ephemeris drift sector, end",
+    "references": [
+      "planets_r36_1102/PLAN.json#/sectors/1/sector"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r36_1102/PLAN.json#/sectors/1/sector",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "15",
+    "offset": 1812,
+    "occurrence": 50,
+    "written": "15"
+  },
+  {
+    "context": "Boundary timing after EB (h)",
+    "references": [
+      "DERIVED.json#/boundary_timing_hours/start"
+    ],
+    "match": "Rounding: +0.885095; first cadence",
+    "numeric_reference": "DERIVED.json#/boundary_timing_hours/start",
+    "scale": 1,
+    "tolerance": 0.05,
+    "number": "0.9",
+    "offset": 1850,
+    "occurrence": 51,
+    "written": "0.9"
+  },
+  {
+    "context": "Boundary timing before EB (h)",
+    "references": [
+      "DERIVED.json#/boundary_timing_hours/end"
+    ],
+    "match": "Rounding: -1.256089; last cadence",
+    "numeric_reference": "DERIVED.json#/boundary_timing_hours/end",
+    "scale": 1,
+    "tolerance": 0.05,
+    "absolute": true,
+    "number": "1.3",
+    "offset": 1880,
+    "occurrence": 52,
+    "written": "1.3"
+  },
+  {
+    "context": "S14 midpoint-cycle timing (h)",
+    "references": [
+      "DERIVED.json#/midpoint_cycle_timing_hours/14"
+    ],
+    "match": "Rounding: +0.317863",
+    "numeric_reference": "DERIVED.json#/midpoint_cycle_timing_hours/14",
+    "scale": 1,
+    "tolerance": 0.05,
+    "number": "0.3",
+    "offset": 1900,
+    "occurrence": 53,
+    "written": "+0.3"
+  },
+  {
+    "context": "S15 midpoint-cycle timing (h)",
+    "references": [
+      "DERIVED.json#/midpoint_cycle_timing_hours/15"
+    ],
+    "match": "Rounding: -0.761424",
+    "numeric_reference": "DERIVED.json#/midpoint_cycle_timing_hours/15",
+    "scale": 1,
+    "tolerance": 0.05,
+    "absolute": true,
+    "number": "0.8",
+    "offset": 1911,
+    "occurrence": 54,
+    "written": "-0.8"
+  },
+  {
+    "context": "Field stars",
+    "references": [
+      "planets_r36_1102/outputs/stars.json#/catalogue_rows"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r36_1102/outputs/stars.json#/catalogue_rows",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "654",
+    "offset": 2006,
+    "occurrence": 55,
+    "written": "654"
+  },
+  {
+    "context": "Predicted radius-2 leak (ppm)",
+    "references": [
+      "planets_r36_1102/PLAN.json#/L/1"
+    ],
+    "match": "Rounding: 325.360542",
+    "numeric_reference": "planets_r36_1102/PLAN.json#/L/1",
+    "scale": 1000000.0,
+    "tolerance": 0.5,
+    "number": "325",
+    "offset": 2055,
+    "occurrence": 56,
+    "written": "325"
+  },
+  {
+    "context": "Leak half-window (d)",
+    "references": [
+      "planets_r36_1102/PROTOCOL.md#L17"
+    ],
+    "match": "Exact",
+    "number": "0.105",
+    "offset": 2082,
+    "occurrence": 57,
+    "written": "0.105"
+  },
+  {
+    "context": "Circular aperture radius (px)",
+    "references": [
+      "planets_r32_1102/outputs/attachment_review.json#/dv/page1/selected_aperture_pixels"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r32_1102/outputs/attachment_review.json#/dv/page1/selected_aperture_pixels",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "2",
+    "offset": 2124,
+    "occurrence": 58,
+    "written": "2"
+  },
+  {
+    "context": "Leak / catalog depth (%)",
+    "references": [
+      "DERIVED.json#/leak_fraction_percent"
+    ],
+    "match": "Rounding: 58.308341",
+    "numeric_reference": "DERIVED.json#/leak_fraction_percent",
+    "scale": 1,
+    "tolerance": 0.5,
+    "number": "58",
+    "offset": 2144,
+    "occurrence": 59,
+    "written": "58"
+  },
+  {
+    "context": "Catalog depth (ppm)",
+    "references": [
+      "planets_r27_1102/PLAN.json#/targets/12/depth_ppm"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r27_1102/PLAN.json#/targets/12/depth_ppm",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "558",
+    "offset": 2155,
+    "occurrence": 60,
+    "written": "558"
+  },
+  {
+    "context": "The two depth estimators",
+    "references": [
+      "planets_r36_1102/REPORT.md#L24"
+    ],
+    "match": "Exact count of the two compared estimators",
+    "number": "two",
+    "offset": 2224,
+    "occurrence": 61,
+    "written": "two"
+  },
+  {
+    "context": "LC2 processing label",
+    "references": [
+      "planets_r36_1102/REPORT.md#L26"
+    ],
+    "match": "Exact label",
+    "number": "2",
+    "offset": 2385,
+    "occurrence": 62,
+    "written": "2"
+  },
+  {
+    "context": "Secondary aperture radius (px)",
+    "references": [
+      "planets_r32_1102/outputs/attachment_review.json#/dv/page2/aperture_radii_pixels/3"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r32_1102/outputs/attachment_review.json#/dv/page2/aperture_radii_pixels/3",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "4",
+    "offset": 2422,
+    "occurrence": 63,
+    "written": "4"
+  },
+  {
+    "context": "Radius-4 secondary depth (ppm)",
+    "references": [
+      "planets_r36_1102/outputs/real.json#/S/stack/depth/0"
+    ],
+    "match": "Rounding: 2537.877918",
+    "numeric_reference": "planets_r36_1102/outputs/real.json#/S/stack/depth/0",
+    "scale": 1000000.0,
+    "tolerance": 0.5,
+    "number": "2538",
+    "offset": 2425,
+    "occurrence": 64,
+    "written": "2538"
+  },
+  {
+    "context": "Radius-4 secondary error (ppm)",
+    "references": [
+      "planets_r36_1102/outputs/real.json#/S/stack/error/0"
+    ],
+    "match": "Rounding: 350.417401",
+    "numeric_reference": "planets_r36_1102/outputs/real.json#/S/stack/error/0",
+    "scale": 1000000.0,
+    "tolerance": 0.5,
+    "number": "350",
+    "offset": 2434,
+    "occurrence": 65,
+    "written": "350"
+  },
+  {
+    "context": "Predicted radius-4 secondary (ppm)",
+    "references": [
+      "planets_r36_1102/outputs/real.json#/S/prediction"
+    ],
+    "match": "Rounding: 2234.811421",
+    "numeric_reference": "planets_r36_1102/outputs/real.json#/S/prediction",
+    "scale": 1000000.0,
+    "tolerance": 0.5,
+    "number": "2235",
+    "offset": 2450,
+    "occurrence": 66,
+    "written": "2235"
+  },
+  {
+    "context": "Primary-dip aperture radius (px)",
+    "references": [
+      "planets_r32_1102/outputs/attachment_review.json#/dv/page1/selected_aperture_pixels"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r32_1102/outputs/attachment_review.json#/dv/page1/selected_aperture_pixels",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "2",
+    "offset": 2540,
+    "occurrence": 67,
+    "written": "2"
+  },
+  {
+    "context": "Model-comparison aperture radius (px)",
+    "references": [
+      "planets_r32_1102/outputs/attachment_review.json#/dv/page1/selected_aperture_pixels"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r32_1102/outputs/attachment_review.json#/dv/page1/selected_aperture_pixels",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "2",
+    "offset": 2658,
+    "occurrence": 68,
+    "written": "2"
+  },
+  {
+    "context": "LC2 processing label",
+    "references": [
+      "planets_r37_1102/REPORT.md#L17"
+    ],
+    "match": "Exact label",
+    "number": "2",
+    "offset": 2663,
+    "occurrence": 69,
+    "written": "2"
+  },
+  {
+    "context": "CTOI box duration (h)",
+    "references": [
+      "planets_r27_1102/PLAN.json#/targets/12/duration_hours"
+    ],
+    "match": "Rounding: 5.04",
+    "numeric_reference": "planets_r27_1102/PLAN.json#/targets/12/duration_hours",
+    "scale": 1,
+    "tolerance": 0.5,
+    "number": "5",
+    "offset": 2675,
+    "occurrence": 70,
+    "written": "5"
+  },
+  {
+    "context": "EB injections; none as negative as real",
+    "references": [
+      "DERIVED.json#/lc2_eb_injection_count",
+      "DERIVED.json#/lc2_eb_injections_at_least_as_negative_as_real",
+      "planets_r37_1102/outputs/injections_summary.json#/trials/EB"
+    ],
+    "match": "Exact: 0 of 200; 199 valid fits",
+    "numeric_reference": "DERIVED.json#/lc2_eb_injection_count",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "200",
+    "offset": 2742,
+    "occurrence": 71,
+    "written": "200"
+  },
+  {
+    "context": "LC2 EB amplitude / predicted leak",
+    "references": [
+      "planets_r37_1102/outputs/real.json#/bars/F/ratio"
+    ],
+    "match": "Rounding: 1.193875",
+    "numeric_reference": "planets_r37_1102/outputs/real.json#/bars/F/ratio",
+    "scale": 1,
+    "tolerance": 0.05,
+    "number": "1.2",
+    "offset": 2912,
+    "occurrence": 72,
+    "written": "1.2"
+  },
+  {
+    "context": "LC2 injection-scatter error",
+    "references": [
+      "planets_r37_1102/outputs/real.json#/bars/F/sigma"
+    ],
+    "match": "Rounding: 0.369996",
+    "numeric_reference": "planets_r37_1102/outputs/real.json#/bars/F/sigma",
+    "scale": 1,
+    "tolerance": 0.05,
+    "number": "0.4",
+    "offset": 2920,
+    "occurrence": 73,
+    "written": "0.4"
+  },
+  {
+    "context": "LC1 processing label",
+    "references": [
+      "planets_r38_1102/REPORT.md#L1"
+    ],
+    "match": "Exact label",
+    "number": "1",
+    "offset": 2963,
+    "occurrence": 74,
+    "written": "1"
+  },
+  {
+    "context": "LC1 EB amplitude / predicted leak",
+    "references": [
+      "planets_r38_1102/outputs/real.json#/bars/F2/ratio"
+    ],
+    "match": "Rounding: 3.045112",
+    "numeric_reference": "planets_r38_1102/outputs/real.json#/bars/F2/ratio",
+    "scale": 1,
+    "tolerance": 0.5,
+    "number": "3",
+    "offset": 3055,
+    "occurrence": 75,
+    "written": "3"
+  },
+  {
+    "context": "Joint residual box depth (ppm)",
+    "references": [
+      "planets_r38_1102/outputs/real.json#/joints/2/combined/amplitudes/1"
+    ],
+    "match": "Rounding: 326.191407",
+    "numeric_reference": "planets_r38_1102/outputs/real.json#/joints/2/combined/amplitudes/1",
+    "scale": 1000000.0,
+    "tolerance": 0.5,
+    "number": "326",
+    "offset": 3135,
+    "occurrence": 76,
+    "written": "326"
+  },
+  {
+    "context": "Joint residual box error (ppm)",
+    "references": [
+      "planets_r38_1102/outputs/real.json#/joints/2/combined/sigma/1"
+    ],
+    "match": "Rounding: 110.419838",
+    "numeric_reference": "planets_r38_1102/outputs/real.json#/joints/2/combined/sigma/1",
+    "scale": 1000000.0,
+    "tolerance": 0.5,
+    "number": "110",
+    "offset": 3143,
+    "occurrence": 77,
+    "written": "110"
+  },
+  {
+    "context": "Joint residual box significance",
+    "references": [
+      "planets_r38_1102/outputs/real.json#/joints/2/combined/z/1"
+    ],
+    "match": "Rounding: 2.954101",
+    "numeric_reference": "planets_r38_1102/outputs/real.json#/joints/2/combined/z/1",
+    "scale": 1,
+    "tolerance": 0.5,
+    "number": "3",
+    "offset": 3162,
+    "occurrence": 78,
+    "written": "3"
+  },
+  {
+    "context": "Illustrative eclipse width (h)",
+    "references": [
+      "DERIVED.json#/catalogue_primary_width_hours"
+    ],
+    "match": "Rounding: 11.128094",
+    "numeric_reference": "DERIVED.json#/catalogue_primary_width_hours",
+    "scale": 1,
+    "tolerance": 0.5,
+    "number": "11",
+    "offset": 3365,
+    "occurrence": 79,
+    "written": "11"
+  },
+  {
+    "context": "LC2 processing label",
+    "references": [
+      "planets_r38_1102/REPORT.md#L5"
+    ],
+    "match": "Exact label",
+    "number": "2",
+    "offset": 3406,
+    "occurrence": 80,
+    "written": "2"
+  },
+  {
+    "context": "Untested systematics timescale (d)",
+    "references": [
+      "planets_r36_1102/PLAN.json#/EB/period"
+    ],
+    "match": "Rounding: 3.0305267; period scale, not a systematics measurement",
+    "numeric_reference": "planets_r36_1102/PLAN.json#/EB/period",
+    "scale": 1,
+    "tolerance": 0.5,
+    "number": "3",
+    "offset": 3444,
+    "occurrence": 81,
+    "written": "3"
+  },
+  {
+    "context": "Centroid target radii, start",
+    "references": [
+      "planets_r32_1102/outputs/attachment_review.json#/dv/page2/aperture_radii_pixels/0"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r32_1102/outputs/attachment_review.json#/dv/page2/aperture_radii_pixels/0",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "1",
+    "offset": 3517,
+    "occurrence": 82,
+    "written": "1"
+  },
+  {
+    "context": "Centroid target radii, end",
+    "references": [
+      "planets_r32_1102/outputs/attachment_review.json#/dv/page2/aperture_radii_pixels/2"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r32_1102/outputs/attachment_review.json#/dv/page2/aperture_radii_pixels/2",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "3",
+    "offset": 3519,
+    "occurrence": 83,
+    "written": "3"
+  },
+  {
+    "context": "Selected centroid aperture radius",
+    "references": [
+      "planets_r32_1102/outputs/attachment_review.json#/dv/page1/selected_aperture_pixels"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r32_1102/outputs/attachment_review.json#/dv/page1/selected_aperture_pixels",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "2",
+    "offset": 3552,
+    "occurrence": 84,
+    "written": "2"
+  },
+  {
+    "context": "Other-source centroid radius",
+    "references": [
+      "planets_r32_1102/outputs/attachment_review.json#/dv/page2/aperture_radii_pixels/3"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r32_1102/outputs/attachment_review.json#/dv/page2/aperture_radii_pixels/3",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "4",
+    "offset": 3600,
+    "occurrence": 85,
+    "written": "4"
+  },
+  {
+    "context": "Other-stars aperture light (%)",
+    "references": [
+      "DERIVED.json#/other_stars_light_percent"
+    ],
+    "match": "Rounding: 36.080653",
+    "numeric_reference": "DERIVED.json#/other_stars_light_percent",
+    "scale": 1,
+    "tolerance": 0.5,
+    "number": "36",
+    "offset": 3632,
+    "occurrence": 86,
+    "written": "36"
+  },
+  {
+    "context": "Later sectors including off-array cases",
+    "references": [
+      "DERIVED.json#/later_sector_count"
+    ],
+    "match": "Exact count",
+    "numeric_reference": "DERIVED.json#/later_sector_count",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "eight",
+    "offset": 3747,
+    "occurrence": 87,
+    "written": "eight"
+  },
+  {
+    "context": "Later sectors, first",
+    "references": [
+      "DERIVED.json#/later_sectors/0"
+    ],
+    "match": "Exact",
+    "numeric_reference": "DERIVED.json#/later_sectors/0",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "40",
+    "offset": 3768,
+    "occurrence": 88,
+    "written": "40"
+  },
+  {
+    "context": "Later sectors, last",
+    "references": [
+      "DERIVED.json#/later_sectors/7"
+    ],
+    "match": "Exact",
+    "numeric_reference": "DERIVED.json#/later_sectors/7",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "82",
+    "offset": 3771,
+    "occurrence": 89,
+    "written": "82"
+  },
+  {
+    "context": "Off-science-array sectors",
+    "references": [
+      "DERIVED.json#/off_science_sector_count"
+    ],
+    "match": "Exact count",
+    "numeric_reference": "DERIVED.json#/off_science_sector_count",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "two",
+    "offset": 3775,
+    "occurrence": 90,
+    "written": "two"
+  },
+  {
+    "context": "Expired-ephemeris example sector",
+    "references": [
+      "DERIVED.json#/later_sectors/0"
+    ],
+    "match": "Exact",
+    "numeric_reference": "DERIVED.json#/later_sectors/0",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "40",
+    "offset": 3873,
+    "occurrence": 91,
+    "written": "40"
+  },
+  {
+    "context": "Propagated CTOI epoch error (d)",
+    "references": [
+      "DERIVED.json#/sector40_epoch_sigma_days"
+    ],
+    "match": "Rounding: 0.284672; quadrature, cycle 239",
+    "numeric_reference": "DERIVED.json#/sector40_epoch_sigma_days",
+    "scale": 1,
+    "tolerance": 0.05,
+    "number": "0.3",
+    "offset": 3887,
+    "occurrence": 92,
+    "written": "0.3"
+  },
+  {
+    "context": "EB KIC identifier",
+    "references": [
+      "planets_r29_1102/RESULT.json#/targets/9/eb_within_R/0/kic"
+    ],
+    "match": "Exact",
+    "numeric_reference": "planets_r29_1102/RESULT.json#/targets/9/eb_within_R/0/kic",
+    "scale": 1,
+    "tolerance": 1e-12,
+    "number": "10014830",
+    "offset": 4092,
+    "occurrence": 93,
+    "written": "10014830"
+  }
+]

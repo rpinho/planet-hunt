@@ -1,0 +1,21 @@
+{
+  "status": "VERIFIED_VERDICTS",
+  "utc": "2026-11-02T11:03:55.266001+00:00",
+  "plan_sha256": "2979f756cc01766e1c378bf282b2f664379a0a1e328dfe23f5b925ab71aadcd0",
+  "score_sha256": "27951f4fb289b656de8abbe909a4b434a2ccb0644db8cc21ec83de28d86874f2",
+  "verifier_amendment_sha256": "556a38fbc8ee731788829b31f1c7ccf864eb220765afd16867fa961e219a62b1",
+  "effective_verifier_sha256": "9e7b0d0ca02783d588c13a14314e9b6710b1ce4b224f0a31a53a010b93ba0829",
+  "registered_verifier_sha256": "e5ca44abf77f1377154f93a58006008044c5459dd8a8bf06f3e3bcdfa7e13d62",
+  "verdicts_verified": 12,
+  "injections_verified": 1200,
+  "controls_verified": 600,
+  "known_planets_verified": 5,
+  "coverage_recomputed": true,
+  "exact_rational_verdict_inequalities": true,
+  "predicted_transits_checked_across_grid": 3961482,
+  "counts": {
+    "RECOVERED": 0,
+    "REFUTED": 0,
+    "OPEN": 12
+  }
+}

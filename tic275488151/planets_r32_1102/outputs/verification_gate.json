@@ -1,0 +1,23 @@
+{
+  "utc": "2026-11-02T12:41:58.376020+00:00",
+  "verified": true,
+  "precision_digits": 70,
+  "thresholds": "exact rational squared inequalities from 70-digit reconstructed stack",
+  "gate_counts": {
+    "injection": 200,
+    "null": 200
+  },
+  "gate_denominators": {
+    "injection": 200,
+    "null": 200
+  },
+  "gate_pass": true,
+  "gate_events": 163245,
+  "bar_K": "UNSCORED",
+  "claim_permitted": false,
+  "freeze_commit": "4d44f169b675842e113db3adcc807d794527aa9e",
+  "phases_regenerated": 400,
+  "input_LLC_hashes": 17,
+  "gate_sha256": "ac2086e7922b8c76b4a85e1f290097fa0c166d20c764a1b6138f986f38826e51",
+  "verifier_sha256": "d32d1832db180c6b4097ec9fd7d95901620b04975ebf1ea232f3bef1b236cead"
+}

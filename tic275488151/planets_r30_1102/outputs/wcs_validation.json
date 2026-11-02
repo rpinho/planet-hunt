@@ -1,0 +1,132 @@
+[
+  {
+    "sector": 14,
+    "inferred_detector_origin": [
+      318.999691242121,
+      1068.0004928715646
+    ],
+    "origin_noninteger": [
+      -0.0003087578789973122,
+      0.0004928715645746706
+    ],
+    "local_linear_vs_full_sip_max_pixels": 0.000842522651055333,
+    "full_sip_roundtrip_deg": 5.684341886080802e-14
+  },
+  {
+    "sector": 15,
+    "inferred_detector_origin": [
+      712.9997768687639,
+      1299.0007007200081
+    ],
+    "origin_noninteger": [
+      -0.00022313123611183983,
+      0.0007007200081261544
+    ],
+    "local_linear_vs_full_sip_max_pixels": 0.0012478154062591784,
+    "full_sip_roundtrip_deg": 7.105427357601002e-15
+  },
+  {
+    "sector": 40,
+    "inferred_detector_origin": [
+      1725.9992131920997,
+      1430.0002930926162
+    ],
+    "origin_noninteger": [
+      -0.0007868079003401363,
+      0.00029309261617527227
+    ],
+    "local_linear_vs_full_sip_max_pixels": 0.001468710778226523,
+    "full_sip_roundtrip_deg": 0.0
+  },
+  {
+    "sector": 41,
+    "inferred_detector_origin": [
+      2093.000019380437,
+      1054.000449518073
+    ],
+    "origin_noninteger": [
+      1.9380437151994556e-05,
+      0.0004495180730827997
+    ],
+    "local_linear_vs_full_sip_max_pixels": 0.0008390557081838779,
+    "full_sip_roundtrip_deg": 5.684341886080802e-14
+  },
+  {
+    "sector": 54,
+    "inferred_detector_origin": [
+      1220.000398707619,
+      1850.0001105805122
+    ],
+    "origin_noninteger": [
+      0.00039870761906968255,
+      0.000110580512227898
+    ],
+    "local_linear_vs_full_sip_max_pixels": 0.0007538573149759031,
+    "full_sip_roundtrip_deg": 7.105427357601002e-15
+  },
+  {
+    "sector": 55,
+    "inferred_detector_origin": [
+      801.9996427675808,
+      1860.0001049305968
+    ],
+    "origin_noninteger": [
+      -0.0003572324192191445,
+      0.00010493059676264238
+    ],
+    "local_linear_vs_full_sip_max_pixels": 0.0006701151082779688,
+    "full_sip_roundtrip_deg": 7.105427357601002e-15
+  },
+  {
+    "sector": 74,
+    "inferred_detector_origin": [
+      987.0005127626827,
+      815.000562818524
+    ],
+    "origin_noninteger": [
+      0.0005127626826606502,
+      0.0005628185240311723
+    ],
+    "local_linear_vs_full_sip_max_pixels": 0.0012109298093037069,
+    "full_sip_roundtrip_deg": 7.105427357601002e-15
+  },
+  {
+    "sector": 75,
+    "inferred_detector_origin": [
+      689.9996930614138,
+      934.0004965442968
+    ],
+    "origin_noninteger": [
+      -0.0003069385861635965,
+      0.0004965442967659328
+    ],
+    "local_linear_vs_full_sip_max_pixels": 0.0010101721959472343,
+    "full_sip_roundtrip_deg": 5.684341886080802e-14
+  },
+  {
+    "sector": 81,
+    "inferred_detector_origin": [
+      662.9996979097956,
+      2011.000047865753
+    ],
+    "origin_noninteger": [
+      -0.00030209020439997403,
+      4.7865753003861755e-05
+    ],
+    "local_linear_vs_full_sip_max_pixels": 0.000564051482456307,
+    "full_sip_roundtrip_deg": 7.105427357601002e-15
+  },
+  {
+    "sector": 82,
+    "inferred_detector_origin": [
+      953.9995680450766,
+      2043.0000387760047
+    ],
+    "origin_noninteger": [
+      -0.0004319549234423903,
+      3.877600465784781e-05
+    ],
+    "local_linear_vs_full_sip_max_pixels": 0.0008063318385893581,
+    "full_sip_roundtrip_deg": 7.105427357601002e-15
+  }
+]

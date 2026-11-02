@@ -1,0 +1,35 @@
+{
+  "utc": "2026-11-02T14:35:15.548413+00:00",
+  "target_numeric_flux_read": false,
+  "protocol_sha256": "a91916d15b7bbf2dc38ad2f4fbd73864bcce8d05a15f54782b4fd460a402d892",
+  "freeze_commit": "6fe3d8d26acb760524fd701132f36dc51ba709a0",
+  "input_hashes": {
+    "../planets_r36_1102/PLAN.json": "5de97a72a5b26a9017310a34e9f5b0d5015bb79c5df8d51940e367be168d2d60",
+    "../planets_r36_1102/outputs/EB_TESS.json": "d0900ccffd3a51f621d6c82e091989eb9cd38f5f392a84762c7e47b8a81c140a",
+    "../planets_r36_1102/outputs/kepler_template.npz": "0883e4afd797148cfe32f81462296e145d192e199c559b2efbac2e7f38c8e507",
+    "../planets_r36_1102/outputs/time_design.npz": "91488c5ed6d1826f8016cd6f25ba0904ada51eecd599d77a7877b4b10aba890d",
+    "../planets_r36_1102/outputs/supplement_phases.json": "6763e0783c9122072fb9adef7c48c80895cc72a4e8112be1691fd30ce282aa5b",
+    "../planets_r36_1102/sources/diamante.txt": "a762f968e4a5a5c7653b83062f48a0f5481cd3386bd0f76d30731ac82e5778f7",
+    "../planets_r36_1102/outputs/real.json": "d26f197521618bc64b05365ea4391f9f9bd923fa9d1bec723540c941591828d8",
+    "../planets_r36_1102/outputs/acceptance.json": "21db862fcff89375354992c3ff7e5265705a2048612a0e70e9cebbb6a0b32c7b",
+    "../planets_r36_1102/measurement.py": "1f97009e948db65072887fc479ada1a2d9f4d05b0d1f3b4f17ccfc567dc6abac",
+    "../planets_r30_1102/aperture_manifest.json": "b31f3ff290244fa4744158c9e0127f0d62508a0c09255af945d54d7be67d0566"
+  },
+  "design_sha256": "166c9f9f30754b5c0bd94e3d32bfbddfe93533a04ac66b43110bfd7a5554e2fe",
+  "offsets": {
+    "14": -0.038,
+    "15": -0.038
+  },
+  "template_mean_window": 0.5301256115543052,
+  "kepler_event_mean": 0.44445658555992057,
+  "predicted_primary": 0.0003253605416475134,
+  "predicted_secondary": 0.00014429188680642832,
+  "a0": 0.0006137423556910796,
+  "denominator": 200,
+  "threshold": 0,
+  "sector_counts": {
+    "14": 1241,
+    "15": 1197
+  },
+  "nice": 10
+}

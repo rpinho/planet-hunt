@@ -1,0 +1,60 @@
+{
+  "sector": 82,
+  "counts": {
+    "total": 10898,
+    "accepted": 10868,
+    "flagged": 26,
+    "exposure_days": 0.002314782701432705,
+    "nonfinite_aperture": 0
+  },
+  "measurements": {
+    "EB": {
+      "events": [],
+      "stack": {
+        "n": 0,
+        "depth": null,
+        "sigma": null,
+        "z": null
+      }
+    },
+    "CTOI": {
+      "events": [],
+      "stack": {
+        "n": 0,
+        "depth": null,
+        "sigma": null,
+        "z": null
+      }
+    },
+    "secondary": {
+      "events": [],
+      "stack": {
+        "n": 0,
+        "depth": null,
+        "sigma": null,
+        "z": null
+      }
+    },
+    "odd": {
+      "events": [],
+      "stack": {
+        "n": 0,
+        "depth": null,
+        "sigma": null,
+        "z": null
+      }
+    },
+    "even": {
+      "events": [],
+      "stack": {
+        "n": 0,
+        "depth": null,
+        "sigma": null,
+        "z": null
+      }
+    }
+  },
+  "drift_days": -3.077739399857819,
+  "nearest_offset_days": -0.04721269965878494,
+  "ctoi_cycle": 616
+}

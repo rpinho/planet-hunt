@@ -1,0 +1,129 @@
+{
+  "utc": "2026-11-02T12:34:25.447077+00:00",
+  "verified": true,
+  "precision_decimal_digits": 70,
+  "decision_arithmetic": "exact rational inequalities, including a squared upper-limit comparison",
+  "fits_recomputed": 400,
+  "trial_denominator_each": 200,
+  "counts": {
+    "leak": {
+      "leak_detect": 200,
+      "target_limit": 0,
+      "target_detect": 0,
+      "false_eb": 200,
+      "valid": 200
+    },
+    "target": {
+      "leak_detect": 3,
+      "target_limit": 0,
+      "target_detect": 0,
+      "false_eb": 3,
+      "valid": 200
+    }
+  },
+  "requirements": {
+    "leak_detection": true,
+    "leak_target_upper_limit": false,
+    "target_false_eb": true,
+    "target_detection": false
+  },
+  "gate_pass": false,
+  "bars": {
+    "bar1": "UNSCORED",
+    "bar2": "UNSCORED"
+  },
+  "attribution": false,
+  "status": "POWER_FAIL",
+  "freeze_commit": "99ffe523506fb6b83dd7f2ed17979e3b8cb8fe0f",
+  "phase_audits": [
+    {
+      "sector": 14,
+      "oot_cadences": 578,
+      "valid_trials": 200,
+      "all_centers_away_from_both_windows": true
+    },
+    {
+      "sector": 15,
+      "oot_cadences": 532,
+      "valid_trials": 200,
+      "all_centers_away_from_both_windows": true
+    },
+    {
+      "sector": 40,
+      "oot_cadences": 1146,
+      "valid_trials": 200,
+      "all_centers_away_from_both_windows": true
+    },
+    {
+      "sector": 54,
+      "oot_cadences": 1078,
+      "valid_trials": 200,
+      "all_centers_away_from_both_windows": true
+    },
+    {
+      "sector": 55,
+      "oot_cadences": 1025,
+      "valid_trials": 200,
+      "all_centers_away_from_both_windows": true
+    },
+    {
+      "sector": 74,
+      "oot_cadences": 3312,
+      "valid_trials": 200,
+      "all_centers_away_from_both_windows": true
+    },
+    {
+      "sector": 75,
+      "oot_cadences": 3921,
+      "valid_trials": 200,
+      "all_centers_away_from_both_windows": true
+    },
+    {
+      "sector": 81,
+      "oot_cadences": 5323,
+      "valid_trials": 200,
+      "all_centers_away_from_both_windows": true
+    }
+  ],
+  "bounds": {
+    "leak": {
+      "sigma_a": {
+        "min": "0.0006070118359339280402904953223155693865075841701216000363830914814568221",
+        "max": "0.0007333475956827226634784438063981314976379038770058487563882627626297580"
+      },
+      "upper95_a": {
+        "min": "0.0009984456199383935204569888913836892450648991971577361077972330025014657",
+        "max": "0.002185388832427262441652288328292540775995512748291506226009445668439068"
+      },
+      "z_a": {
+        "min": "-2.361839143389515884537663983599381100722017114253408848562882983738585",
+        "max": "1.641432433982859149122356807552178525644993355800981344918022964164644"
+      },
+      "z_r": {
+        "min": "49.17340004156747036069169207539727473311873571981420821293952536480369",
+        "max": "65.40976575849435596160072879477369590763899687112763577907906899214908"
+      }
+    },
+    "target": {
+      "sigma_a": {
+        "min": "0.0006070118359339280402904953223155693865075841701216000363830914814568221",
+        "max": "0.0007333475956827226634784438063981314976379038770058487563882627626297580"
+      },
+      "upper95_a": {
+        "min": "0.0009984456199383935204569888913836892450648991971577361077972330025014657",
+        "max": "0.002743388832427260233224181552313071709268069319394774522398005926868816"
+      },
+      "z_a": {
+        "min": "-1.448409099039988246411754870501048781781241336286231903914906654347862",
+        "max": "2.480526875572298046462436255453293397574917042698774282294773315446770"
+      },
+      "z_r": {
+        "min": "-4.814754402841906649663754752514095600615786639714012632608442848506664",
+        "max": "5.435225868294702363031008564046830670598702434827694716419606562344726"
+      }
+    }
+  },
+  "input_hashes_checked": 52,
+  "final_seal_checked": true,
+  "limits": "Saved arithmetic, masks, geometry thresholds, injection equivalence and hashes; not independent raw-pixel noise extraction, PRF truth, or an astrophysical validation."
+}

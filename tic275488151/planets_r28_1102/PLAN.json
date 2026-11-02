@@ -1,0 +1,4816 @@
+{
+  "job": "planets_r28_1102",
+  "r27_plan_sha256": "e016d9d16ed1aa8dc2a2e7722c2a04b469c27d544af4d7d904ec6c2fae7396e1",
+  "random_seed": 281102,
+  "targets": [
+    {
+      "ctoi": "27233531.01",
+      "tic": 27233531,
+      "kic": 11768756,
+      "period_days": 13.61082,
+      "period_error_days": 0.00623,
+      "epoch_bjd": 2458681.7583,
+      "epoch_error_days": 0.0171,
+      "depth_ppm": 1803.0,
+      "depth_error_ppm": null,
+      "duration_hours": 3.6479999999999997,
+      "duration_error_hours": 0.28800000000000003,
+      "kepmag": 12.503,
+      "tmag": 11.9646,
+      "module_spring": 22,
+      "tic_contratio": 0.111220658,
+      "kepler_crowdsap_median_q1_q17": 1.0,
+      "kepler_tess_dilution_ratio": 1.111220658,
+      "expected_kepler_aperture_depth_ppm": 2003.5308463739998,
+      "expected_kepler_pdcsap_depth_ppm": 2003.5308463739998,
+      "submitter": "montalto",
+      "group": "",
+      "notes": "new CTOI, Montalto (2022)",
+      "user_disposition": "PC",
+      "prior_art_notes": [
+        "Published DIAmante duration is 0.152 DAYS; CTOI gives same number in HOURS. Amendment 1 applied before flux: primary hours = 24 x CTOI value; literal hours descriptive only. DIAmante binflag=1"
+      ],
+      "controls": [
+        {
+          "kic": 11617235,
+          "kepmag": 12.503,
+          "module_spring": 22,
+          "ra": 295.02209,
+          "dec": 49.66637
+        },
+        {
+          "kic": 12067299,
+          "kepmag": 12.502,
+          "module_spring": 22,
+          "ra": 294.43866,
+          "dec": 50.546619
+        },
+        {
+          "kic": 11356839,
+          "kepmag": 12.501,
+          "module_spring": 22,
+          "ra": 294.92758,
+          "dec": 49.196289
+        },
+        {
+          "kic": 12366840,
+          "kepmag": 12.506,
+          "module_spring": 22,
+          "ra": 296.15237,
+          "dec": 51.188721
+        },
+        {
+          "kic": 12367006,
+          "kepmag": 12.499,
+          "module_spring": 22,
+          "ra": 296.22867,
+          "dec": 51.136608
+        },
+        {
+          "kic": 11821135,
+          "kepmag": 12.498,
+          "module_spring": 22,
+          "ra": 295.35916,
+          "dec": 50.063091
+        },
+        {
+          "kic": 11306242,
+          "kepmag": 12.496,
+          "module_spring": 22,
+          "ra": 296.05078,
+          "dec": 49.023129
+        },
+        {
+          "kic": 11511693,
+          "kepmag": 12.51,
+          "module_spring": 22,
+          "ra": 293.9877,
+          "dec": 49.48716
+        },
+        {
+          "kic": 11568331,
+          "kepmag": 12.51,
+          "module_spring": 22,
+          "ra": 296.151,
+          "dec": 49.594368
+        },
+        {
+          "kic": 11974581,
+          "kepmag": 12.511,
+          "module_spring": 22,
+          "ra": 297.02432,
+          "dec": 50.31448
+        },
+        {
+          "kic": 12117138,
+          "kepmag": 12.495,
+          "module_spring": 22,
+          "ra": 294.89572,
+          "dec": 50.602379
+        },
+        {
+          "kic": 12169924,
+          "kepmag": 12.512,
+          "module_spring": 22,
+          "ra": 296.6571,
+          "dec": 50.72538
+        },
+        {
+          "kic": 12215898,
+          "kepmag": 12.493,
+          "module_spring": 22,
+          "ra": 295.39249,
+          "dec": 50.835041
+        },
+        {
+          "kic": 11465207,
+          "kepmag": 12.514,
+          "module_spring": 22,
+          "ra": 296.44635,
+          "dec": 49.338188
+        },
+        {
+          "kic": 11197761,
+          "kepmag": 12.515,
+          "module_spring": 22,
+          "ra": 295.30518,
+          "dec": 48.845276
+        },
+        {
+          "kic": 11469178,
+          "kepmag": 12.49,
+          "module_spring": 22,
+          "ra": 298.01202,
+          "dec": 49.362041
+        },
+        {
+          "kic": 11304156,
+          "kepmag": 12.517,
+          "module_spring": 22,
+          "ra": 295.2142,
+          "dec": 49.00655
+        },
+        {
+          "kic": 11357968,
+          "kepmag": 12.489,
+          "module_spring": 22,
+          "ra": 295.44965,
+          "dec": 49.170151
+        },
+        {
+          "kic": 11520923,
+          "kepmag": 12.517,
+          "module_spring": 22,
+          "ra": 297.71164,
+          "dec": 49.45628
+        },
+        {
+          "kic": 11615434,
+          "kepmag": 12.517,
+          "module_spring": 22,
+          "ra": 294.23489,
+          "dec": 49.651798
+        },
+        {
+          "kic": 12024757,
+          "kepmag": 12.517,
+          "module_spring": 22,
+          "ra": 297.31409,
+          "dec": 50.402649
+        },
+        {
+          "kic": 11567392,
+          "kepmag": 12.488,
+          "module_spring": 22,
+          "ra": 295.771,
+          "dec": 49.516151
+        },
+        {
+          "kic": 11668839,
+          "kepmag": 12.488,
+          "module_spring": 22,
+          "ra": 295.38614,
+          "dec": 49.73888
+        },
+        {
+          "kic": 11822342,
+          "kepmag": 12.518,
+          "module_spring": 22,
+          "ra": 295.85611,
+          "dec": 50.042629
+        },
+        {
+          "kic": 11466001,
+          "kepmag": 12.519,
+          "module_spring": 22,
+          "ra": 296.7674,
+          "dec": 49.359959
+        },
+        {
+          "kic": 11766836,
+          "kepmag": 12.487,
+          "module_spring": 22,
+          "ra": 293.79391,
+          "dec": 49.993408
+        },
+        {
+          "kic": 12417196,
+          "kepmag": 12.521,
+          "module_spring": 22,
+          "ra": 295.75861,
+          "dec": 51.269531
+        },
+        {
+          "kic": 11514894,
+          "kepmag": 12.484,
+          "module_spring": 22,
+          "ra": 295.39499,
+          "dec": 49.49509
+        },
+        {
+          "kic": 11716402,
+          "kepmag": 12.484,
+          "module_spring": 22,
+          "ra": 293.7641,
+          "dec": 49.89299
+        },
+        {
+          "kic": 12120023,
+          "kepmag": 12.484,
+          "module_spring": 22,
+          "ra": 296.18246,
+          "dec": 50.694721
+        },
+        {
+          "kic": 12268964,
+          "kepmag": 12.524,
+          "module_spring": 22,
+          "ra": 296.82672,
+          "dec": 50.985031
+        },
+        {
+          "kic": 11306789,
+          "kepmag": 12.48,
+          "module_spring": 22,
+          "ra": 296.25009,
+          "dec": 49.068512
+        },
+        {
+          "kic": 12016318,
+          "kepmag": 12.48,
+          "module_spring": 22,
+          "ra": 293.53027,
+          "dec": 50.45097
+        },
+        {
+          "kic": 11511883,
+          "kepmag": 12.528,
+          "module_spring": 22,
+          "ra": 294.0705,
+          "dec": 49.40852
+        },
+        {
+          "kic": 11620011,
+          "kepmag": 12.477,
+          "module_spring": 22,
+          "ra": 296.11404,
+          "dec": 49.649551
+        },
+        {
+          "kic": 12024173,
+          "kepmag": 12.476,
+          "module_spring": 22,
+          "ra": 297.04694,
+          "dec": 50.428959
+        },
+        {
+          "kic": 11037046,
+          "kepmag": 12.475,
+          "module_spring": 22,
+          "ra": 295.16376,
+          "dec": 48.56406
+        },
+        {
+          "kic": 11250341,
+          "kepmag": 12.475,
+          "module_spring": 22,
+          "ra": 294.72067,
+          "dec": 48.971451
+        },
+        {
+          "kic": 12214011,
+          "kepmag": 12.475,
+          "module_spring": 22,
+          "ra": 294.48584,
+          "dec": 50.850292
+        },
+        {
+          "kic": 11305776,
+          "kepmag": 12.534,
+          "module_spring": 22,
+          "ra": 295.8811,
+          "dec": 49.001579
+        },
+        {
+          "kic": 11622191,
+          "kepmag": 12.534,
+          "module_spring": 22,
+          "ra": 296.92865,
+          "dec": 49.67849
+        },
+        {
+          "kic": 11825514,
+          "kepmag": 12.472,
+          "module_spring": 22,
+          "ra": 297.15414,
+          "dec": 50.01593
+        },
+        {
+          "kic": 11818698,
+          "kepmag": 12.471,
+          "module_spring": 22,
+          "ra": 294.27332,
+          "dec": 50.053452
+        },
+        {
+          "kic": 11198878,
+          "kepmag": 12.47,
+          "module_spring": 22,
+          "ra": 295.75858,
+          "dec": 48.858284
+        },
+        {
+          "kic": 11145974,
+          "kepmag": 12.537,
+          "module_spring": 22,
+          "ra": 295.69272,
+          "dec": 48.761608
+        },
+        {
+          "kic": 11967671,
+          "kepmag": 12.537,
+          "module_spring": 22,
+          "ra": 293.9801,
+          "dec": 50.382141
+        },
+        {
+          "kic": 12167910,
+          "kepmag": 12.469,
+          "module_spring": 22,
+          "ra": 295.82901,
+          "dec": 50.740509
+        },
+        {
+          "kic": 12017934,
+          "kepmag": 12.468,
+          "module_spring": 22,
+          "ra": 294.27301,
+          "dec": 50.4259
+        },
+        {
+          "kic": 12219032,
+          "kepmag": 12.468,
+          "module_spring": 22,
+          "ra": 296.75476,
+          "dec": 50.833481
+        },
+        {
+          "kic": 11623009,
+          "kepmag": 12.467,
+          "module_spring": 22,
+          "ra": 297.24741,
+          "dec": 49.677071
+        }
+      ],
+      "control_max_abs_kp_delta": 0.03599999999999959,
+      "header_metadata": {
+        "KEPLERID": 11768756,
+        "QUARTER": 1,
+        "SEASON": 3,
+        "MODULE": 22,
+        "OUTPUT": 2,
+        "CHANNEL": 74,
+        "RA_OBJ": 294.65571,
+        "DEC_OBJ": 49.95631,
+        "KEPMAG": null
+      },
+      "prior_art_resolved": "DIAmante v2 classifies as binary",
+      "duration_literal_hours_descriptive_sensitivity": 0.152,
+      "duration_error_literal_hours_descriptive_sensitivity": 0.012,
+      "duration_source": "Amendment 1: DIAmante v2 duration in days, matched by TIC; primary hours = 24 x CTOI value. Literal hours descriptive only, never used for verdict."
+    },
+    {
+      "ctoi": "63069576.01",
+      "tic": 63069576,
+      "kic": 10274090,
+      "period_days": 1.61694,
+      "period_error_days": 0.00054,
+      "epoch_bjd": 2458682.4657,
+      "epoch_error_days": 0.01,
+      "depth_ppm": 3811.0,
+      "depth_error_ppm": null,
+      "duration_hours": 2.496,
+      "duration_error_hours": 0.40800000000000003,
+      "kepmag": 15.39,
+      "tmag": 14.1266,
+      "module_spring": 17,
+      "tic_contratio": 0.06640692,
+      "kepler_crowdsap_median_q1_q17": 1.0,
+      "kepler_tess_dilution_ratio": 1.06640692,
+      "expected_kepler_aperture_depth_ppm": 4064.0767721199995,
+      "expected_kepler_pdcsap_depth_ppm": 4064.0767721199995,
+      "submitter": "montalto",
+      "group": "",
+      "notes": "new CTOI, Montalto (2022)",
+      "user_disposition": "PC",
+      "prior_art_notes": [
+        "Published DIAmante duration is 0.104 DAYS; CTOI gives same number in HOURS. Amendment 1 applied before flux: primary hours = 24 x CTOI value; literal hours descriptive only. DIAmante binflag=0"
+      ],
+      "controls": [
+        {
+          "kic": 10404212,
+          "kepmag": 15.39,
+          "module_spring": 17,
+          "ra": 291.62634,
+          "dec": 47.580631
+        },
+        {
+          "kic": 11189531,
+          "kepmag": 15.39,
+          "module_spring": 17,
+          "ra": 291.37579,
+          "dec": 48.830841
+        },
+        {
+          "kic": 11240969,
+          "kepmag": 15.39,
+          "module_spring": 17,
+          "ra": 290.12082,
+          "dec": 48.961769
+        },
+        {
+          "kic": 11243300,
+          "kepmag": 15.39,
+          "module_spring": 17,
+          "ra": 291.41483,
+          "dec": 48.948601
+        },
+        {
+          "kic": 11662406,
+          "kepmag": 15.39,
+          "module_spring": 17,
+          "ra": 292.20016,
+          "dec": 49.752041
+        },
+        {
+          "kic": 11188256,
+          "kepmag": 15.391,
+          "module_spring": 17,
+          "ra": 290.64368,
+          "dec": 48.86087
+        },
+        {
+          "kic": 11084032,
+          "kepmag": 15.389,
+          "module_spring": 17,
+          "ra": 291.82245,
+          "dec": 48.634861
+        },
+        {
+          "kic": 11085446,
+          "kepmag": 15.389,
+          "module_spring": 17,
+          "ra": 292.52475,
+          "dec": 48.603088
+        },
+        {
+          "kic": 10667381,
+          "kepmag": 15.392,
+          "module_spring": 17,
+          "ra": 292.56323,
+          "dec": 47.90527
+        },
+        {
+          "kic": 11033483,
+          "kepmag": 15.392,
+          "module_spring": 17,
+          "ra": 293.66605,
+          "dec": 48.599548
+        },
+        {
+          "kic": 10797986,
+          "kepmag": 15.388,
+          "module_spring": 17,
+          "ra": 292.15256,
+          "dec": 48.14695
+        },
+        {
+          "kic": 11082098,
+          "kepmag": 15.388,
+          "module_spring": 17,
+          "ra": 290.78787,
+          "dec": 48.655159
+        },
+        {
+          "kic": 11137770,
+          "kepmag": 15.388,
+          "module_spring": 17,
+          "ra": 291.96301,
+          "dec": 48.771412
+        },
+        {
+          "kic": 10918041,
+          "kepmag": 15.387,
+          "module_spring": 17,
+          "ra": 290.79135,
+          "dec": 48.356911
+        },
+        {
+          "kic": 10977323,
+          "kepmag": 15.393,
+          "module_spring": 17,
+          "ra": 292.64899,
+          "dec": 48.491711
+        },
+        {
+          "kic": 11082315,
+          "kepmag": 15.387,
+          "module_spring": 17,
+          "ra": 290.8974,
+          "dec": 48.62817
+        },
+        {
+          "kic": 11082989,
+          "kepmag": 15.393,
+          "module_spring": 17,
+          "ra": 291.27435,
+          "dec": 48.653358
+        },
+        {
+          "kic": 11084548,
+          "kepmag": 15.387,
+          "module_spring": 17,
+          "ra": 292.08093,
+          "dec": 48.665901
+        },
+        {
+          "kic": 11084921,
+          "kepmag": 15.387,
+          "module_spring": 17,
+          "ra": 292.27689,
+          "dec": 48.698421
+        },
+        {
+          "kic": 11404503,
+          "kepmag": 15.387,
+          "module_spring": 17,
+          "ra": 292.6907,
+          "dec": 49.240238
+        },
+        {
+          "kic": 11505795,
+          "kepmag": 15.387,
+          "module_spring": 17,
+          "ra": 291.05316,
+          "dec": 49.416409
+        },
+        {
+          "kic": 11662302,
+          "kepmag": 15.387,
+          "module_spring": 17,
+          "ra": 292.14142,
+          "dec": 49.757809
+        },
+        {
+          "kic": 11763730,
+          "kepmag": 15.393,
+          "module_spring": 17,
+          "ra": 292.18423,
+          "dec": 49.906231
+        },
+        {
+          "kic": 10663699,
+          "kepmag": 15.394,
+          "module_spring": 17,
+          "ra": 291.11508,
+          "dec": 47.904499
+        },
+        {
+          "kic": 10861613,
+          "kepmag": 15.394,
+          "module_spring": 17,
+          "ra": 291.97522,
+          "dec": 48.232071
+        },
+        {
+          "kic": 11087728,
+          "kepmag": 15.394,
+          "module_spring": 17,
+          "ra": 293.63321,
+          "dec": 48.60236
+        },
+        {
+          "kic": 10666425,
+          "kepmag": 15.386,
+          "module_spring": 17,
+          "ra": 292.17297,
+          "dec": 47.938641
+        },
+        {
+          "kic": 11294495,
+          "kepmag": 15.386,
+          "module_spring": 17,
+          "ra": 290.50647,
+          "dec": 49.053242
+        },
+        {
+          "kic": 11298869,
+          "kepmag": 15.395,
+          "module_spring": 17,
+          "ra": 292.82462,
+          "dec": 49.06591
+        },
+        {
+          "kic": 11186840,
+          "kepmag": 15.385,
+          "module_spring": 17,
+          "ra": 289.85315,
+          "dec": 48.894539
+        },
+        {
+          "kic": 11295217,
+          "kepmag": 15.385,
+          "module_spring": 17,
+          "ra": 290.92178,
+          "dec": 49.023392
+        },
+        {
+          "kic": 11403812,
+          "kepmag": 15.385,
+          "module_spring": 17,
+          "ra": 292.3302,
+          "dec": 49.298279
+        },
+        {
+          "kic": 11610952,
+          "kepmag": 15.385,
+          "module_spring": 17,
+          "ra": 291.98993,
+          "dec": 49.695808
+        },
+        {
+          "kic": 11714324,
+          "kepmag": 15.385,
+          "module_spring": 17,
+          "ra": 292.71283,
+          "dec": 49.84779
+        },
+        {
+          "kic": 10602092,
+          "kepmag": 15.384,
+          "module_spring": 17,
+          "ra": 292.70801,
+          "dec": 47.89011
+        },
+        {
+          "kic": 10670889,
+          "kepmag": 15.396,
+          "module_spring": 17,
+          "ra": 293.96887,
+          "dec": 47.953911
+        },
+        {
+          "kic": 11662769,
+          "kepmag": 15.396,
+          "module_spring": 17,
+          "ra": 292.40994,
+          "dec": 49.734798
+        },
+        {
+          "kic": 10735499,
+          "kepmag": 15.397,
+          "module_spring": 17,
+          "ra": 293.54727,
+          "dec": 48.023762
+        },
+        {
+          "kic": 11188388,
+          "kepmag": 15.397,
+          "module_spring": 17,
+          "ra": 290.71561,
+          "dec": 48.845711
+        },
+        {
+          "kic": 10536410,
+          "kepmag": 15.383,
+          "module_spring": 17,
+          "ra": 292.39975,
+          "dec": 47.791901
+        },
+        {
+          "kic": 11187624,
+          "kepmag": 15.383,
+          "module_spring": 17,
+          "ra": 290.27118,
+          "dec": 48.886501
+        },
+        {
+          "kic": 11454033,
+          "kepmag": 15.383,
+          "module_spring": 17,
+          "ra": 291.2084,
+          "dec": 49.376949
+        },
+        {
+          "kic": 11454186,
+          "kepmag": 15.383,
+          "module_spring": 17,
+          "ra": 291.28897,
+          "dec": 49.398392
+        },
+        {
+          "kic": 11611646,
+          "kepmag": 15.383,
+          "module_spring": 17,
+          "ra": 292.35425,
+          "dec": 49.642311
+        },
+        {
+          "kic": 11134670,
+          "kepmag": 15.398,
+          "module_spring": 17,
+          "ra": 290.31454,
+          "dec": 48.719391
+        },
+        {
+          "kic": 11245167,
+          "kepmag": 15.398,
+          "module_spring": 17,
+          "ra": 292.37167,
+          "dec": 48.95573
+        },
+        {
+          "kic": 11713858,
+          "kepmag": 15.398,
+          "module_spring": 17,
+          "ra": 292.46317,
+          "dec": 49.819199
+        },
+        {
+          "kic": 11764265,
+          "kepmag": 15.398,
+          "module_spring": 17,
+          "ra": 292.48364,
+          "dec": 49.917091
+        },
+        {
+          "kic": 10140102,
+          "kepmag": 15.382,
+          "module_spring": 17,
+          "ra": 291.45132,
+          "dec": 47.177959
+        },
+        {
+          "kic": 10598871,
+          "kepmag": 15.382,
+          "module_spring": 17,
+          "ra": 291.42981,
+          "dec": 47.88715
+        }
+      ],
+      "control_max_abs_kp_delta": 0.008000000000000895,
+      "header_metadata": {
+        "KEPLERID": 10274090,
+        "QUARTER": 1,
+        "SEASON": 3,
+        "MODULE": 17,
+        "OUTPUT": 2,
+        "CHANNEL": 58,
+        "RA_OBJ": 291.87996,
+        "DEC_OBJ": 47.37807,
+        "KEPMAG": null
+      },
+      "duration_literal_hours_descriptive_sensitivity": 0.104,
+      "duration_error_literal_hours_descriptive_sensitivity": 0.017,
+      "duration_source": "Amendment 1: DIAmante v2 duration in days, matched by TIC; primary hours = 24 x CTOI value. Literal hours descriptive only, never used for verdict."
+    },
+    {
+      "ctoi": "63120478.01",
+      "tic": 63120478,
+      "kic": 7118558,
+      "period_days": 2.17725,
+      "period_error_days": 0.00136,
+      "epoch_bjd": 2458709.2749,
+      "epoch_error_days": 0.0095,
+      "depth_ppm": 1955.0,
+      "depth_error_ppm": null,
+      "duration_hours": 1.368,
+      "duration_error_hours": 0.24,
+      "kepmag": 12.54,
+      "tmag": 11.9396,
+      "module_spring": 14,
+      "tic_contratio": 0.1994211,
+      "kepler_crowdsap_median_q1_q17": 1.0,
+      "kepler_tess_dilution_ratio": 1.1994211,
+      "expected_kepler_aperture_depth_ppm": 2344.8682504999997,
+      "expected_kepler_pdcsap_depth_ppm": 2344.8682504999997,
+      "submitter": "montalto",
+      "group": "",
+      "notes": "new CTOI, Montalto (2022)",
+      "user_disposition": "PC",
+      "prior_art_notes": [
+        "Published DIAmante duration is 0.057 DAYS; CTOI gives same number in HOURS. Amendment 1 applied before flux: primary hours = 24 x CTOI value; literal hours descriptive only. DIAmante binflag=0"
+      ],
+      "controls": [
+        {
+          "kic": 5364445,
+          "kepmag": 12.54,
+          "module_spring": 14,
+          "ra": 292.39587,
+          "dec": 40.59948
+        },
+        {
+          "kic": 6782399,
+          "kepmag": 12.54,
+          "module_spring": 14,
+          "ra": 293.31549,
+          "dec": 42.235771
+        },
+        {
+          "kic": 6952205,
+          "kepmag": 12.54,
+          "module_spring": 14,
+          "ra": 292.95026,
+          "dec": 42.462582
+        },
+        {
+          "kic": 6213683,
+          "kepmag": 12.541,
+          "module_spring": 14,
+          "ra": 294.45065,
+          "dec": 41.571041
+        },
+        {
+          "kic": 7448801,
+          "kepmag": 12.537,
+          "module_spring": 14,
+          "ra": 292.98416,
+          "dec": 43.095089
+        },
+        {
+          "kic": 5876642,
+          "kepmag": 12.536,
+          "module_spring": 14,
+          "ra": 291.91925,
+          "dec": 41.127911
+        },
+        {
+          "kic": 6448418,
+          "kepmag": 12.544,
+          "module_spring": 14,
+          "ra": 293.61285,
+          "dec": 41.898869
+        },
+        {
+          "kic": 6694860,
+          "kepmag": 12.535,
+          "module_spring": 14,
+          "ra": 292.81729,
+          "dec": 42.198994
+        },
+        {
+          "kic": 7281826,
+          "kepmag": 12.534,
+          "module_spring": 14,
+          "ra": 291.72562,
+          "dec": 42.869308
+        },
+        {
+          "kic": 6774534,
+          "kepmag": 12.533,
+          "module_spring": 14,
+          "ra": 290.91409,
+          "dec": 42.222549
+        },
+        {
+          "kic": 6284575,
+          "kepmag": 12.547,
+          "module_spring": 14,
+          "ra": 291.65012,
+          "dec": 41.69841
+        },
+        {
+          "kic": 7037175,
+          "kepmag": 12.547,
+          "module_spring": 14,
+          "ra": 292.90335,
+          "dec": 42.500641
+        },
+        {
+          "kic": 6527090,
+          "kepmag": 12.532,
+          "module_spring": 14,
+          "ra": 293.29474,
+          "dec": 41.918228
+        },
+        {
+          "kic": 5450937,
+          "kepmag": 12.548,
+          "module_spring": 14,
+          "ra": 292.58966,
+          "dec": 40.696388
+        },
+        {
+          "kic": 5791860,
+          "kepmag": 12.548,
+          "module_spring": 14,
+          "ra": 292.1235,
+          "dec": 41.024578
+        },
+        {
+          "kic": 6212391,
+          "kepmag": 12.548,
+          "module_spring": 14,
+          "ra": 294.09186,
+          "dec": 41.504478
+        },
+        {
+          "kic": 6531416,
+          "kepmag": 12.548,
+          "module_spring": 14,
+          "ra": 294.56873,
+          "dec": 41.974602
+        },
+        {
+          "kic": 7448285,
+          "kepmag": 12.548,
+          "module_spring": 14,
+          "ra": 292.83386,
+          "dec": 43.012329
+        },
+        {
+          "kic": 6777004,
+          "kepmag": 12.531,
+          "module_spring": 14,
+          "ra": 291.71152,
+          "dec": 42.28566
+        },
+        {
+          "kic": 6363649,
+          "kepmag": 12.549,
+          "module_spring": 14,
+          "ra": 291.68542,
+          "dec": 41.709808
+        },
+        {
+          "kic": 7364019,
+          "kepmag": 12.53,
+          "module_spring": 14,
+          "ra": 292.18439,
+          "dec": 42.909046
+        },
+        {
+          "kic": 6368169,
+          "kepmag": 12.55,
+          "module_spring": 14,
+          "ra": 293.14926,
+          "dec": 41.740211
+        },
+        {
+          "kic": 6700591,
+          "kepmag": 12.55,
+          "module_spring": 14,
+          "ra": 294.31903,
+          "dec": 42.123589
+        },
+        {
+          "kic": 7531908,
+          "kepmag": 12.55,
+          "module_spring": 14,
+          "ra": 293.05615,
+          "dec": 43.104919
+        },
+        {
+          "kic": 6363534,
+          "kepmag": 12.529,
+          "module_spring": 14,
+          "ra": 291.64551,
+          "dec": 41.741032
+        },
+        {
+          "kic": 7039421,
+          "kepmag": 12.529,
+          "module_spring": 14,
+          "ra": 293.55804,
+          "dec": 42.518459
+        },
+        {
+          "kic": 7368397,
+          "kepmag": 12.528,
+          "module_spring": 14,
+          "ra": 293.50925,
+          "dec": 42.977531
+        },
+        {
+          "kic": 6871557,
+          "kepmag": 12.525,
+          "module_spring": 14,
+          "ra": 294.27109,
+          "dec": 42.357361
+        },
+        {
+          "kic": 6209593,
+          "kepmag": 12.524,
+          "module_spring": 14,
+          "ra": 293.27249,
+          "dec": 41.575218
+        },
+        {
+          "kic": 5622780,
+          "kepmag": 12.523,
+          "module_spring": 14,
+          "ra": 292.66269,
+          "dec": 40.855122
+        },
+        {
+          "kic": 6451664,
+          "kepmag": 12.558,
+          "module_spring": 14,
+          "ra": 294.57056,
+          "dec": 41.896049
+        },
+        {
+          "kic": 6520561,
+          "kepmag": 12.521,
+          "module_spring": 14,
+          "ra": 291.22861,
+          "dec": 41.962311
+        },
+        {
+          "kic": 5959737,
+          "kepmag": 12.559,
+          "module_spring": 14,
+          "ra": 291.63461,
+          "dec": 41.214931
+        },
+        {
+          "kic": 6952984,
+          "kepmag": 12.559,
+          "module_spring": 14,
+          "ra": 293.17685,
+          "dec": 42.437931
+        },
+        {
+          "kic": 5536977,
+          "kepmag": 12.517,
+          "module_spring": 14,
+          "ra": 292.85913,
+          "dec": 40.758942
+        },
+        {
+          "kic": 5620636,
+          "kepmag": 12.563,
+          "module_spring": 14,
+          "ra": 292.01599,
+          "dec": 40.865509
+        },
+        {
+          "kic": 6953103,
+          "kepmag": 12.563,
+          "module_spring": 14,
+          "ra": 293.2135,
+          "dec": 42.479591
+        },
+        {
+          "kic": 6293759,
+          "kepmag": 12.564,
+          "module_spring": 14,
+          "ra": 294.46844,
+          "dec": 41.6903
+        },
+        {
+          "kic": 6368315,
+          "kepmag": 12.564,
+          "module_spring": 14,
+          "ra": 293.18744,
+          "dec": 41.773392
+        },
+        {
+          "kic": 6122831,
+          "kepmag": 12.515,
+          "module_spring": 14,
+          "ra": 291.59491,
+          "dec": 41.47403
+        },
+        {
+          "kic": 6532181,
+          "kepmag": 12.514,
+          "module_spring": 14,
+          "ra": 294.78964,
+          "dec": 41.919231
+        },
+        {
+          "kic": 6783054,
+          "kepmag": 12.514,
+          "module_spring": 14,
+          "ra": 293.4884,
+          "dec": 42.218758
+        },
+        {
+          "kic": 7367398,
+          "kepmag": 12.566,
+          "module_spring": 14,
+          "ra": 293.21097,
+          "dec": 42.973911
+        },
+        {
+          "kic": 6952602,
+          "kepmag": 12.513,
+          "module_spring": 14,
+          "ra": 293.07007,
+          "dec": 42.475731
+        },
+        {
+          "kic": 6212604,
+          "kepmag": 12.567,
+          "module_spring": 14,
+          "ra": 294.14951,
+          "dec": 41.58271
+        },
+        {
+          "kic": 6528757,
+          "kepmag": 12.567,
+          "module_spring": 14,
+          "ra": 293.8237,
+          "dec": 41.916451
+        },
+        {
+          "kic": 6612644,
+          "kepmag": 12.512,
+          "module_spring": 14,
+          "ra": 293.71155,
+          "dec": 42.01754
+        },
+        {
+          "kic": 6043492,
+          "kepmag": 12.511,
+          "module_spring": 14,
+          "ra": 292.16647,
+          "dec": 41.31868
+        },
+        {
+          "kic": 5961015,
+          "kepmag": 12.569,
+          "module_spring": 14,
+          "ra": 292.0632,
+          "dec": 41.24836
+        },
+        {
+          "kic": 6693095,
+          "kepmag": 12.569,
+          "module_spring": 14,
+          "ra": 292.31815,
+          "dec": 42.154491
+        }
+      ],
+      "control_max_abs_kp_delta": 0.02900000000000169,
+      "header_metadata": {
+        "KEPLERID": 7118558,
+        "QUARTER": 1,
+        "SEASON": 3,
+        "MODULE": 14,
+        "OUTPUT": 1,
+        "CHANNEL": 45,
+        "RA_OBJ": 292.03469,
+        "DEC_OBJ": 42.69364,
+        "KEPMAG": null
+      },
+      "duration_literal_hours_descriptive_sensitivity": 0.057,
+      "duration_error_literal_hours_descriptive_sensitivity": 0.01,
+      "duration_source": "Amendment 1: DIAmante v2 duration in days, matched by TIC; primary hours = 24 x CTOI value. Literal hours descriptive only, never used for verdict."
+    },
+    {
+      "ctoi": "120355606.01",
+      "tic": 120355606,
+      "kic": 3934997,
+      "period_days": 4.64364,
+      "period_error_days": 0.0001,
+      "epoch_bjd": 2458683.0141,
+      "epoch_error_days": 0.0056,
+      "depth_ppm": 681.0,
+      "depth_error_ppm": null,
+      "duration_hours": 2.712,
+      "duration_error_hours": 0.40800000000000003,
+      "kepmag": 12.133,
+      "tmag": 11.69,
+      "module_spring": 4,
+      "tic_contratio": 0.08483448,
+      "kepler_crowdsap_median_q1_q17": 1.0,
+      "kepler_tess_dilution_ratio": 1.08483448,
+      "expected_kepler_aperture_depth_ppm": 738.77228088,
+      "expected_kepler_pdcsap_depth_ppm": 738.77228088,
+      "submitter": "montalto",
+      "group": "",
+      "notes": "new CTOI, Montalto (2022)",
+      "user_disposition": "PC",
+      "prior_art_notes": [
+        "Published DIAmante duration is 0.113 DAYS; CTOI gives same number in HOURS. Amendment 1 applied before flux: primary hours = 24 x CTOI value; literal hours descriptive only. DIAmante binflag=1"
+      ],
+      "controls": [
+        {
+          "kic": 4042308,
+          "kepmag": 12.132,
+          "module_spring": 4,
+          "ra": 286.97253,
+          "dec": 39.17366
+        },
+        {
+          "kic": 4040952,
+          "kepmag": 12.137,
+          "module_spring": 4,
+          "ra": 286.45486,
+          "dec": 39.132381
+        },
+        {
+          "kic": 3097211,
+          "kepmag": 12.127,
+          "module_spring": 4,
+          "ra": 285.63583,
+          "dec": 38.234291
+        },
+        {
+          "kic": 2555747,
+          "kepmag": 12.139,
+          "module_spring": 4,
+          "ra": 286.30215,
+          "dec": 37.849129
+        },
+        {
+          "kic": 3426503,
+          "kepmag": 12.125,
+          "module_spring": 4,
+          "ra": 285.97379,
+          "dec": 38.574619
+        },
+        {
+          "kic": 4348873,
+          "kepmag": 12.142,
+          "module_spring": 4,
+          "ra": 286.3974,
+          "dec": 39.45583
+        },
+        {
+          "kic": 3834546,
+          "kepmag": 12.123,
+          "module_spring": 4,
+          "ra": 286.15598,
+          "dec": 38.91161
+        },
+        {
+          "kic": 4137761,
+          "kepmag": 12.143,
+          "module_spring": 4,
+          "ra": 285.26096,
+          "dec": 39.209579
+        },
+        {
+          "kic": 3100053,
+          "kepmag": 12.144,
+          "module_spring": 4,
+          "ra": 286.66202,
+          "dec": 38.234459
+        },
+        {
+          "kic": 4141155,
+          "kepmag": 12.121,
+          "module_spring": 4,
+          "ra": 286.60748,
+          "dec": 39.29903
+        },
+        {
+          "kic": 4445527,
+          "kepmag": 12.146,
+          "module_spring": 4,
+          "ra": 285.01743,
+          "dec": 39.539558
+        },
+        {
+          "kic": 2283064,
+          "kepmag": 12.119,
+          "module_spring": 4,
+          "ra": 286.01276,
+          "dec": 37.695889
+        },
+        {
+          "kic": 3222834,
+          "kepmag": 12.118,
+          "module_spring": 4,
+          "ra": 287.90524,
+          "dec": 38.38903
+        },
+        {
+          "kic": 3836028,
+          "kepmag": 12.149,
+          "module_spring": 4,
+          "ra": 286.78467,
+          "dec": 38.95499
+        },
+        {
+          "kic": 2696739,
+          "kepmag": 12.113,
+          "module_spring": 4,
+          "ra": 287.0694,
+          "dec": 37.917858
+        },
+        {
+          "kic": 3529097,
+          "kepmag": 12.156,
+          "module_spring": 4,
+          "ra": 286.43961,
+          "dec": 38.60413
+        },
+        {
+          "kic": 3103576,
+          "kepmag": 12.157,
+          "module_spring": 4,
+          "ra": 287.87244,
+          "dec": 38.251869
+        },
+        {
+          "kic": 2975292,
+          "kepmag": 12.108,
+          "module_spring": 4,
+          "ra": 287.58499,
+          "dec": 38.10181
+        },
+        {
+          "kic": 3425217,
+          "kepmag": 12.16,
+          "module_spring": 4,
+          "ra": 285.47272,
+          "dec": 38.523941
+        },
+        {
+          "kic": 3427975,
+          "kepmag": 12.163,
+          "module_spring": 4,
+          "ra": 286.53091,
+          "dec": 38.575909
+        },
+        {
+          "kic": 4450625,
+          "kepmag": 12.163,
+          "module_spring": 4,
+          "ra": 287.21896,
+          "dec": 39.58485
+        },
+        {
+          "kic": 2975779,
+          "kepmag": 12.164,
+          "module_spring": 4,
+          "ra": 287.74081,
+          "dec": 38.11937
+        },
+        {
+          "kic": 4449730,
+          "kepmag": 12.101,
+          "module_spring": 4,
+          "ra": 286.84674,
+          "dec": 39.51955
+        },
+        {
+          "kic": 3837917,
+          "kepmag": 12.165,
+          "module_spring": 4,
+          "ra": 287.52145,
+          "dec": 38.910751
+        },
+        {
+          "kic": 4730739,
+          "kepmag": 12.166,
+          "module_spring": 4,
+          "ra": 286.23755,
+          "dec": 39.87933
+        },
+        {
+          "kic": 2970901,
+          "kepmag": 12.095,
+          "module_spring": 4,
+          "ra": 286.14078,
+          "dec": 38.124729
+        },
+        {
+          "kic": 4042715,
+          "kepmag": 12.171,
+          "module_spring": 4,
+          "ra": 287.1391,
+          "dec": 39.144642
+        },
+        {
+          "kic": 3729724,
+          "kepmag": 12.093,
+          "module_spring": 4,
+          "ra": 285.65555,
+          "dec": 38.850513
+        },
+        {
+          "kic": 3941607,
+          "kepmag": 12.173,
+          "module_spring": 4,
+          "ra": 287.55637,
+          "dec": 39.074341
+        },
+        {
+          "kic": 4731257,
+          "kepmag": 12.174,
+          "module_spring": 4,
+          "ra": 286.48038,
+          "dec": 39.835529
+        },
+        {
+          "kic": 3631714,
+          "kepmag": 12.091,
+          "module_spring": 4,
+          "ra": 287.07138,
+          "dec": 38.733082
+        },
+        {
+          "kic": 2284330,
+          "kepmag": 12.175,
+          "module_spring": 4,
+          "ra": 286.41602,
+          "dec": 37.630562
+        },
+        {
+          "kic": 3425767,
+          "kepmag": 12.176,
+          "module_spring": 4,
+          "ra": 285.69617,
+          "dec": 38.568073
+        },
+        {
+          "kic": 3099888,
+          "kepmag": 12.089,
+          "module_spring": 4,
+          "ra": 286.60571,
+          "dec": 38.20414
+        },
+        {
+          "kic": 4143723,
+          "kepmag": 12.089,
+          "module_spring": 4,
+          "ra": 287.64377,
+          "dec": 39.209332
+        },
+        {
+          "kic": 4244856,
+          "kepmag": 12.177,
+          "module_spring": 4,
+          "ra": 285.98901,
+          "dec": 39.323738
+        },
+        {
+          "kic": 4636731,
+          "kepmag": 12.088,
+          "module_spring": 4,
+          "ra": 285.49374,
+          "dec": 39.789398
+        },
+        {
+          "kic": 3100505,
+          "kepmag": 12.086,
+          "module_spring": 4,
+          "ra": 286.8208,
+          "dec": 38.20977
+        },
+        {
+          "kic": 3424384,
+          "kepmag": 12.18,
+          "module_spring": 4,
+          "ra": 285.1134,
+          "dec": 38.592258
+        },
+        {
+          "kic": 4447405,
+          "kepmag": 12.18,
+          "module_spring": 4,
+          "ra": 285.85156,
+          "dec": 39.52351
+        },
+        {
+          "kic": 3940854,
+          "kepmag": 12.181,
+          "module_spring": 4,
+          "ra": 287.26868,
+          "dec": 39.059559
+        },
+        {
+          "kic": 2695191,
+          "kepmag": 12.083,
+          "module_spring": 4,
+          "ra": 286.55481,
+          "dec": 37.988907
+        },
+        {
+          "kic": 3633335,
+          "kepmag": 12.185,
+          "module_spring": 4,
+          "ra": 287.71127,
+          "dec": 38.758179
+        },
+        {
+          "kic": 4135851,
+          "kepmag": 12.08,
+          "module_spring": 4,
+          "ra": 284.64441,
+          "dec": 39.24733
+        },
+        {
+          "kic": 3219709,
+          "kepmag": 12.077,
+          "module_spring": 4,
+          "ra": 286.78009,
+          "dec": 38.363338
+        },
+        {
+          "kic": 3103698,
+          "kepmag": 12.19,
+          "module_spring": 4,
+          "ra": 287.90533,
+          "dec": 38.264671
+        },
+        {
+          "kic": 2835720,
+          "kepmag": 12.075,
+          "module_spring": 4,
+          "ra": 287.00323,
+          "dec": 38.06609
+        },
+        {
+          "kic": 2283435,
+          "kepmag": 12.191,
+          "module_spring": 4,
+          "ra": 286.13605,
+          "dec": 37.649658
+        },
+        {
+          "kic": 4243359,
+          "kepmag": 12.074,
+          "module_spring": 4,
+          "ra": 285.40268,
+          "dec": 39.322441
+        },
+        {
+          "kic": 3626871,
+          "kepmag": 12.193,
+          "module_spring": 4,
+          "ra": 285.14883,
+          "dec": 38.736519
+        }
+      ],
+      "control_max_abs_kp_delta": 0.0600000000000005,
+      "header_metadata": {
+        "KEPLERID": 3934997,
+        "QUARTER": 1,
+        "SEASON": 3,
+        "MODULE": 4,
+        "OUTPUT": 4,
+        "CHANNEL": 12,
+        "RA_OBJ": 284.86215,
+        "DEC_OBJ": 39.06437,
+        "KEPMAG": null
+      },
+      "prior_art_resolved": "DIAmante v2 classifies as binary",
+      "duration_literal_hours_descriptive_sensitivity": 0.113,
+      "duration_error_literal_hours_descriptive_sensitivity": 0.017,
+      "duration_source": "Amendment 1: DIAmante v2 duration in days, matched by TIC; primary hours = 24 x CTOI value. Literal hours descriptive only, never used for verdict."
+    },
+    {
+      "ctoi": "120963388.01",
+      "tic": 120963388,
+      "kic": 2695129,
+      "period_days": 2.76544,
+      "period_error_days": 0.0027,
+      "epoch_bjd": 2458681.4198,
+      "epoch_error_days": 0.0161,
+      "depth_ppm": 1213.0,
+      "depth_error_ppm": null,
+      "duration_hours": 5.808,
+      "duration_error_hours": 0.624,
+      "kepmag": 11.9,
+      "tmag": 11.4149,
+      "module_spring": 4,
+      "tic_contratio": 0.068268925,
+      "kepler_crowdsap_median_q1_q17": 0.9958,
+      "kepler_tess_dilution_ratio": 1.063782195515,
+      "expected_kepler_aperture_depth_ppm": 1290.3678031596949,
+      "expected_kepler_pdcsap_depth_ppm": 1295.8102060249998,
+      "submitter": "montalto",
+      "group": "",
+      "notes": "new CTOI, Montalto (2022)",
+      "user_disposition": "PC",
+      "prior_art_notes": [
+        "Published DIAmante duration is 0.242 DAYS; CTOI gives same number in HOURS. Amendment 1 applied before flux: primary hours = 24 x CTOI value; literal hours descriptive only. DIAmante binflag=0"
+      ],
+      "controls": [
+        {
+          "kic": 3102108,
+          "kepmag": 11.898,
+          "module_spring": 4,
+          "ra": 287.38666,
+          "dec": 38.280949
+        },
+        {
+          "kic": 3330359,
+          "kepmag": 11.905,
+          "module_spring": 4,
+          "ra": 288.01724,
+          "dec": 38.40583
+        },
+        {
+          "kic": 3935651,
+          "kepmag": 11.905,
+          "module_spring": 4,
+          "ra": 285.11469,
+          "dec": 39.008499
+        },
+        {
+          "kic": 4249357,
+          "kepmag": 11.909,
+          "module_spring": 4,
+          "ra": 287.75034,
+          "dec": 39.373989
+        },
+        {
+          "kic": 3425414,
+          "kepmag": 11.889,
+          "module_spring": 4,
+          "ra": 285.55423,
+          "dec": 38.523449
+        },
+        {
+          "kic": 4732224,
+          "kepmag": 11.915,
+          "module_spring": 4,
+          "ra": 286.92581,
+          "dec": 39.829891
+        },
+        {
+          "kic": 4041744,
+          "kepmag": 11.917,
+          "module_spring": 4,
+          "ra": 286.76852,
+          "dec": 39.132401
+        },
+        {
+          "kic": 2424191,
+          "kepmag": 11.88,
+          "module_spring": 4,
+          "ra": 286.59119,
+          "dec": 37.741741
+        },
+        {
+          "kic": 3729799,
+          "kepmag": 11.92,
+          "module_spring": 4,
+          "ra": 285.68921,
+          "dec": 38.88884
+        },
+        {
+          "kic": 3838180,
+          "kepmag": 11.88,
+          "module_spring": 4,
+          "ra": 287.62433,
+          "dec": 38.98436
+        },
+        {
+          "kic": 3839310,
+          "kepmag": 11.88,
+          "module_spring": 4,
+          "ra": 288.0607,
+          "dec": 38.956532
+        },
+        {
+          "kic": 3099949,
+          "kepmag": 11.921,
+          "module_spring": 4,
+          "ra": 286.62668,
+          "dec": 38.259991
+        },
+        {
+          "kic": 3730392,
+          "kepmag": 11.879,
+          "module_spring": 4,
+          "ra": 285.94431,
+          "dec": 38.866371
+        },
+        {
+          "kic": 1996721,
+          "kepmag": 11.878,
+          "module_spring": 4,
+          "ra": 286.50482,
+          "dec": 37.467419
+        },
+        {
+          "kic": 3833819,
+          "kepmag": 11.923,
+          "module_spring": 4,
+          "ra": 285.85623,
+          "dec": 38.942612
+        },
+        {
+          "kic": 3837649,
+          "kepmag": 11.924,
+          "module_spring": 4,
+          "ra": 287.41376,
+          "dec": 38.972275
+        },
+        {
+          "kic": 4040636,
+          "kepmag": 11.928,
+          "module_spring": 4,
+          "ra": 286.33862,
+          "dec": 39.197521
+        },
+        {
+          "kic": 3528680,
+          "kepmag": 11.87,
+          "module_spring": 4,
+          "ra": 286.27844,
+          "dec": 38.665253
+        },
+        {
+          "kic": 3736401,
+          "kepmag": 11.931,
+          "module_spring": 4,
+          "ra": 288.25687,
+          "dec": 38.888401
+        },
+        {
+          "kic": 4446405,
+          "kepmag": 11.868,
+          "module_spring": 4,
+          "ra": 285.40753,
+          "dec": 39.531609
+        },
+        {
+          "kic": 3532113,
+          "kepmag": 11.936,
+          "module_spring": 4,
+          "ra": 287.57718,
+          "dec": 38.629501
+        },
+        {
+          "kic": 5084148,
+          "kepmag": 11.864,
+          "module_spring": 4,
+          "ra": 286.68207,
+          "dec": 40.292648
+        },
+        {
+          "kic": 4640930,
+          "kepmag": 11.94,
+          "module_spring": 4,
+          "ra": 287.30624,
+          "dec": 39.79924
+        },
+        {
+          "kic": 3734460,
+          "kepmag": 11.859,
+          "module_spring": 4,
+          "ra": 287.54254,
+          "dec": 38.887669
+        },
+        {
+          "kic": 4346971,
+          "kepmag": 11.856,
+          "module_spring": 4,
+          "ra": 285.6322,
+          "dec": 39.408958
+        },
+        {
+          "kic": 3525381,
+          "kepmag": 11.946,
+          "module_spring": 4,
+          "ra": 284.90671,
+          "dec": 38.644581
+        },
+        {
+          "kic": 4545983,
+          "kepmag": 11.852,
+          "module_spring": 4,
+          "ra": 286.49036,
+          "dec": 39.638432
+        },
+        {
+          "kic": 3099294,
+          "kepmag": 11.949,
+          "module_spring": 4,
+          "ra": 286.3996,
+          "dec": 38.211288
+        },
+        {
+          "kic": 3098716,
+          "kepmag": 11.95,
+          "module_spring": 4,
+          "ra": 286.18805,
+          "dec": 38.291988
+        },
+        {
+          "kic": 2696115,
+          "kepmag": 11.849,
+          "module_spring": 4,
+          "ra": 286.86908,
+          "dec": 37.952179
+        },
+        {
+          "kic": 3729317,
+          "kepmag": 11.951,
+          "module_spring": 4,
+          "ra": 285.49368,
+          "dec": 38.827808
+        },
+        {
+          "kic": 4818312,
+          "kepmag": 11.849,
+          "module_spring": 4,
+          "ra": 285.83646,
+          "dec": 39.979111
+        },
+        {
+          "kic": 3096473,
+          "kepmag": 11.848,
+          "module_spring": 4,
+          "ra": 285.37302,
+          "dec": 38.21175
+        },
+        {
+          "kic": 3941538,
+          "kepmag": 11.847,
+          "module_spring": 4,
+          "ra": 287.52921,
+          "dec": 39.03236
+        },
+        {
+          "kic": 4037335,
+          "kepmag": 11.954,
+          "module_spring": 4,
+          "ra": 285.12378,
+          "dec": 39.119732
+        },
+        {
+          "kic": 4141988,
+          "kepmag": 11.957,
+          "module_spring": 4,
+          "ra": 286.93237,
+          "dec": 39.29417
+        },
+        {
+          "kic": 4348906,
+          "kepmag": 11.957,
+          "module_spring": 4,
+          "ra": 286.4093,
+          "dec": 39.447208
+        },
+        {
+          "kic": 4732861,
+          "kepmag": 11.959,
+          "module_spring": 4,
+          "ra": 287.21289,
+          "dec": 39.844166
+        },
+        {
+          "kic": 2422362,
+          "kepmag": 11.96,
+          "module_spring": 4,
+          "ra": 285.9899,
+          "dec": 37.755039
+        },
+        {
+          "kic": 4546042,
+          "kepmag": 11.96,
+          "module_spring": 4,
+          "ra": 286.51382,
+          "dec": 39.601273
+        },
+        {
+          "kic": 3631092,
+          "kepmag": 11.839,
+          "module_spring": 4,
+          "ra": 286.82947,
+          "dec": 38.728539
+        },
+        {
+          "kic": 2423153,
+          "kepmag": 11.835,
+          "module_spring": 4,
+          "ra": 286.24844,
+          "dec": 37.785629
+        },
+        {
+          "kic": 4044831,
+          "kepmag": 11.967,
+          "module_spring": 4,
+          "ra": 287.93222,
+          "dec": 39.171196
+        },
+        {
+          "kic": 4639291,
+          "kepmag": 11.967,
+          "module_spring": 4,
+          "ra": 286.59705,
+          "dec": 39.782589
+        },
+        {
+          "kic": 4731303,
+          "kepmag": 11.97,
+          "module_spring": 4,
+          "ra": 286.50607,
+          "dec": 39.800259
+        },
+        {
+          "kic": 4249128,
+          "kepmag": 11.972,
+          "module_spring": 4,
+          "ra": 287.67917,
+          "dec": 39.310131
+        },
+        {
+          "kic": 3734624,
+          "kepmag": 11.828,
+          "module_spring": 4,
+          "ra": 287.60526,
+          "dec": 38.814571
+        },
+        {
+          "kic": 2285598,
+          "kepmag": 11.973,
+          "module_spring": 4,
+          "ra": 286.8385,
+          "dec": 37.69669
+        },
+        {
+          "kic": 3939624,
+          "kepmag": 11.973,
+          "module_spring": 4,
+          "ra": 286.75266,
+          "dec": 39.035469
+        },
+        {
+          "kic": 3530520,
+          "kepmag": 11.974,
+          "module_spring": 4,
+          "ra": 286.98389,
+          "dec": 38.657509
+        }
+      ],
+      "control_max_abs_kp_delta": 0.07399999999999984,
+      "header_metadata": {
+        "KEPLERID": 2695129,
+        "QUARTER": 1,
+        "SEASON": 3,
+        "MODULE": 4,
+        "OUTPUT": 3,
+        "CHANNEL": 11,
+        "RA_OBJ": 286.532077,
+        "DEC_OBJ": 37.930094,
+        "KEPMAG": null
+      },
+      "duration_literal_hours_descriptive_sensitivity": 0.242,
+      "duration_error_literal_hours_descriptive_sensitivity": 0.026,
+      "duration_source": "Amendment 1: DIAmante v2 duration in days, matched by TIC; primary hours = 24 x CTOI value. Literal hours descriptive only, never used for verdict."
+    },
+    {
+      "ctoi": "122673562.01",
+      "tic": 122673562,
+      "kic": 1718360,
+      "period_days": 1.2156,
+      "period_error_days": null,
+      "epoch_bjd": 2457000.0,
+      "epoch_error_days": null,
+      "depth_ppm": 1105.47,
+      "depth_error_ppm": null,
+      "duration_hours": 7.92,
+      "duration_error_hours": null,
+      "kepmag": 12.35,
+      "tmag": 11.4257,
+      "module_spring": 10,
+      "tic_contratio": 0.08726389,
+      "kepler_crowdsap_median_q1_q17": 0.9978,
+      "kepler_tess_dilution_ratio": 1.084871909442,
+      "expected_kepler_aperture_depth_ppm": 1199.293349730848,
+      "expected_kepler_pdcsap_depth_ppm": 1201.9376124783,
+      "submitter": "roche",
+      "group": "",
+      "notes": "After subtracting star's rotational variability signal from the lightcurve, a transitlike dip remains.",
+      "user_disposition": "PC",
+      "prior_art_notes": [
+        "Missing Period (days) Error"
+      ],
+      "controls": [
+        {
+          "kic": 1161402,
+          "kepmag": 12.35,
+          "module_spring": 10,
+          "ra": 291.06488,
+          "dec": 36.809441
+        },
+        {
+          "kic": 2572681,
+          "kepmag": 12.349,
+          "module_spring": 10,
+          "ra": 290.75876,
+          "dec": 37.884819
+        },
+        {
+          "kic": 2717082,
+          "kepmag": 12.352,
+          "module_spring": 10,
+          "ra": 292.31525,
+          "dec": 37.93391
+        },
+        {
+          "kic": 3952795,
+          "kepmag": 12.352,
+          "module_spring": 10,
+          "ra": 291.09042,
+          "dec": 39.056999
+        },
+        {
+          "kic": 2995313,
+          "kepmag": 12.345,
+          "module_spring": 10,
+          "ra": 292.66763,
+          "dec": 38.192047
+        },
+        {
+          "kic": 3116348,
+          "kepmag": 12.345,
+          "module_spring": 10,
+          "ra": 291.40912,
+          "dec": 38.227531
+        },
+        {
+          "kic": 3956721,
+          "kepmag": 12.345,
+          "module_spring": 10,
+          "ra": 292.14026,
+          "dec": 39.08136
+        },
+        {
+          "kic": 1027030,
+          "kepmag": 12.344,
+          "module_spring": 10,
+          "ra": 291.26999,
+          "dec": 36.728458
+        },
+        {
+          "kic": 1161145,
+          "kepmag": 12.357,
+          "module_spring": 10,
+          "ra": 290.99628,
+          "dec": 36.875332
+        },
+        {
+          "kic": 2989319,
+          "kepmag": 12.343,
+          "module_spring": 10,
+          "ra": 291.36142,
+          "dec": 38.151932
+        },
+        {
+          "kic": 3649673,
+          "kepmag": 12.357,
+          "module_spring": 10,
+          "ra": 292.48795,
+          "dec": 38.747871
+        },
+        {
+          "kic": 2714090,
+          "kepmag": 12.342,
+          "module_spring": 10,
+          "ra": 291.66171,
+          "dec": 37.979309
+        },
+        {
+          "kic": 3847191,
+          "kepmag": 12.358,
+          "module_spring": 10,
+          "ra": 290.54868,
+          "dec": 38.908131
+        },
+        {
+          "kic": 2584811,
+          "kepmag": 12.359,
+          "module_spring": 10,
+          "ra": 293.39978,
+          "dec": 37.823078
+        },
+        {
+          "kic": 3342658,
+          "kepmag": 12.359,
+          "module_spring": 10,
+          "ra": 291.57352,
+          "dec": 38.412079
+        },
+        {
+          "kic": 3439353,
+          "kepmag": 12.36,
+          "module_spring": 10,
+          "ra": 290.22006,
+          "dec": 38.507858
+        },
+        {
+          "kic": 4056609,
+          "kepmag": 12.34,
+          "module_spring": 10,
+          "ra": 291.4155,
+          "dec": 39.150101
+        },
+        {
+          "kic": 2010137,
+          "kepmag": 12.339,
+          "module_spring": 10,
+          "ra": 290.37436,
+          "dec": 37.423031
+        },
+        {
+          "kic": 3337693,
+          "kepmag": 12.361,
+          "module_spring": 10,
+          "ra": 290.20398,
+          "dec": 38.414558
+        },
+        {
+          "kic": 1434372,
+          "kepmag": 12.363,
+          "module_spring": 10,
+          "ra": 291.85086,
+          "dec": 37.042622
+        },
+        {
+          "kic": 4158607,
+          "kepmag": 12.337,
+          "module_spring": 10,
+          "ra": 291.87793,
+          "dec": 39.271511
+        },
+        {
+          "kic": 2157725,
+          "kepmag": 12.336,
+          "module_spring": 10,
+          "ra": 290.88239,
+          "dec": 37.52906
+        },
+        {
+          "kic": 3957521,
+          "kepmag": 12.364,
+          "module_spring": 10,
+          "ra": 292.35397,
+          "dec": 39.06979
+        },
+        {
+          "kic": 3343854,
+          "kepmag": 12.335,
+          "module_spring": 10,
+          "ra": 291.86383,
+          "dec": 38.488869
+        },
+        {
+          "kic": 1869817,
+          "kepmag": 12.334,
+          "module_spring": 10,
+          "ra": 291.79575,
+          "dec": 37.313839
+        },
+        {
+          "kic": 3443669,
+          "kepmag": 12.366,
+          "module_spring": 10,
+          "ra": 291.44241,
+          "dec": 38.579521
+        },
+        {
+          "kic": 2018760,
+          "kepmag": 12.367,
+          "module_spring": 10,
+          "ra": 292.39337,
+          "dec": 37.495949
+        },
+        {
+          "kic": 2851232,
+          "kepmag": 12.332,
+          "module_spring": 10,
+          "ra": 291.1994,
+          "dec": 38.016121
+        },
+        {
+          "kic": 2854643,
+          "kepmag": 12.332,
+          "module_spring": 10,
+          "ra": 291.91251,
+          "dec": 38.092812
+        },
+        {
+          "kic": 1571298,
+          "kepmag": 12.368,
+          "module_spring": 10,
+          "ra": 290.94827,
+          "dec": 37.137859
+        },
+        {
+          "kic": 1723047,
+          "kepmag": 12.37,
+          "module_spring": 10,
+          "ra": 291.85843,
+          "dec": 37.290878
+        },
+        {
+          "kic": 1723752,
+          "kepmag": 12.329,
+          "module_spring": 10,
+          "ra": 292.00571,
+          "dec": 37.299839
+        },
+        {
+          "kic": 2302505,
+          "kepmag": 12.329,
+          "module_spring": 10,
+          "ra": 291.35263,
+          "dec": 37.616959
+        },
+        {
+          "kic": 2450149,
+          "kepmag": 12.329,
+          "module_spring": 10,
+          "ra": 292.94342,
+          "dec": 37.70657
+        },
+        {
+          "kic": 3437693,
+          "kepmag": 12.371,
+          "module_spring": 10,
+          "ra": 289.77707,
+          "dec": 38.565079
+        },
+        {
+          "kic": 2993897,
+          "kepmag": 12.372,
+          "module_spring": 10,
+          "ra": 292.35645,
+          "dec": 38.101299
+        },
+        {
+          "kic": 3241739,
+          "kepmag": 12.372,
+          "module_spring": 10,
+          "ra": 293.12213,
+          "dec": 38.388325
+        },
+        {
+          "kic": 3335974,
+          "kepmag": 12.328,
+          "module_spring": 10,
+          "ra": 289.73904,
+          "dec": 38.421776
+        },
+        {
+          "kic": 2156939,
+          "kepmag": 12.373,
+          "module_spring": 10,
+          "ra": 290.70285,
+          "dec": 37.506447
+        },
+        {
+          "kic": 2013530,
+          "kepmag": 12.325,
+          "module_spring": 10,
+          "ra": 291.1994,
+          "dec": 37.487301
+        },
+        {
+          "kic": 2722423,
+          "kepmag": 12.375,
+          "module_spring": 10,
+          "ra": 293.47308,
+          "dec": 37.93494
+        },
+        {
+          "kic": 3233816,
+          "kepmag": 12.375,
+          "module_spring": 10,
+          "ra": 291.12698,
+          "dec": 38.344559
+        },
+        {
+          "kic": 4156385,
+          "kepmag": 12.375,
+          "module_spring": 10,
+          "ra": 291.32465,
+          "dec": 39.29977
+        },
+        {
+          "kic": 1724975,
+          "kepmag": 12.324,
+          "module_spring": 10,
+          "ra": 292.25482,
+          "dec": 37.25032
+        },
+        {
+          "kic": 3240635,
+          "kepmag": 12.323,
+          "module_spring": 10,
+          "ra": 292.83755,
+          "dec": 38.372231
+        },
+        {
+          "kic": 1569969,
+          "kepmag": 12.321,
+          "module_spring": 10,
+          "ra": 290.64642,
+          "dec": 37.180191
+        },
+        {
+          "kic": 3240111,
+          "kepmag": 12.321,
+          "module_spring": 10,
+          "ra": 292.70081,
+          "dec": 38.35429
+        },
+        {
+          "kic": 1431599,
+          "kepmag": 12.32,
+          "module_spring": 10,
+          "ra": 291.25488,
+          "dec": 37.086441
+        },
+        {
+          "kic": 892107,
+          "kepmag": 12.38,
+          "module_spring": 10,
+          "ra": 291.00104,
+          "dec": 36.642632
+        },
+        {
+          "kic": 1869151,
+          "kepmag": 12.381,
+          "module_spring": 10,
+          "ra": 291.65536,
+          "dec": 37.362461
+        }
+      ],
+      "control_max_abs_kp_delta": 0.031000000000000583,
+      "header_metadata": {
+        "KEPLERID": 1718360,
+        "QUARTER": 1,
+        "SEASON": 3,
+        "MODULE": 10,
+        "OUTPUT": 4,
+        "CHANNEL": 32,
+        "RA_OBJ": 290.768739,
+        "DEC_OBJ": 37.230272,
+        "KEPMAG": null
+      }
+    },
+    {
+      "ctoi": "123125197.01",
+      "tic": 123125197,
+      "kic": 7254760,
+      "period_days": 13.21099,
+      "period_error_days": 0.00022,
+      "epoch_bjd": 2458670.2917,
+      "epoch_error_days": 0.0042,
+      "depth_ppm": 1314.0,
+      "depth_error_ppm": null,
+      "duration_hours": 5.928,
+      "duration_error_hours": 0.21599999999999997,
+      "kepmag": 12.037,
+      "tmag": 11.6197,
+      "module_spring": 2,
+      "tic_contratio": 0.0107288165,
+      "kepler_crowdsap_median_q1_q17": 1.0,
+      "kepler_tess_dilution_ratio": 1.0107288165,
+      "expected_kepler_aperture_depth_ppm": 1328.097664881,
+      "expected_kepler_pdcsap_depth_ppm": 1328.097664881,
+      "submitter": "montalto",
+      "group": "",
+      "notes": "new CTOI, Montalto (2022)",
+      "user_disposition": "PC",
+      "prior_art_notes": [
+        "Published DIAmante duration is 0.247 DAYS; CTOI gives same number in HOURS. Amendment 1 applied before flux: primary hours = 24 x CTOI value; literal hours descriptive only. DIAmante binflag=1"
+      ],
+      "controls": [
+        {
+          "kic": 7660131,
+          "kepmag": 12.032,
+          "module_spring": 2,
+          "ra": 281.55756,
+          "dec": 43.383381
+        },
+        {
+          "kic": 8540842,
+          "kepmag": 12.043,
+          "module_spring": 2,
+          "ra": 282.62253,
+          "dec": 44.649139
+        },
+        {
+          "kic": 7941510,
+          "kepmag": 12.03,
+          "module_spring": 2,
+          "ra": 283.51105,
+          "dec": 43.75412
+        },
+        {
+          "kic": 6751930,
+          "kepmag": 12.045,
+          "module_spring": 2,
+          "ra": 281.85938,
+          "dec": 42.243111
+        },
+        {
+          "kic": 7093705,
+          "kepmag": 12.047,
+          "module_spring": 2,
+          "ra": 282.4968,
+          "dec": 42.66864
+        },
+        {
+          "kic": 7174965,
+          "kepmag": 12.024,
+          "module_spring": 2,
+          "ra": 281.7937,
+          "dec": 42.720547
+        },
+        {
+          "kic": 8863673,
+          "kepmag": 12.051,
+          "module_spring": 2,
+          "ra": 282.09747,
+          "dec": 45.103062
+        },
+        {
+          "kic": 7421791,
+          "kepmag": 12.022,
+          "module_spring": 2,
+          "ra": 283.1568,
+          "dec": 43.00676
+        },
+        {
+          "kic": 7799904,
+          "kepmag": 12.022,
+          "module_spring": 2,
+          "ra": 281.41486,
+          "dec": 43.583939
+        },
+        {
+          "kic": 7422349,
+          "kepmag": 12.054,
+          "module_spring": 2,
+          "ra": 283.37805,
+          "dec": 43.004341
+        },
+        {
+          "kic": 7661871,
+          "kepmag": 12.054,
+          "module_spring": 2,
+          "ra": 282.62549,
+          "dec": 43.365971
+        },
+        {
+          "kic": 7586384,
+          "kepmag": 12.02,
+          "module_spring": 2,
+          "ra": 283.17502,
+          "dec": 43.245571
+        },
+        {
+          "kic": 8540530,
+          "kepmag": 12.058,
+          "module_spring": 2,
+          "ra": 282.48178,
+          "dec": 44.634209
+        },
+        {
+          "kic": 7731263,
+          "kepmag": 12.06,
+          "module_spring": 2,
+          "ra": 281.62784,
+          "dec": 43.441792
+        },
+        {
+          "kic": 7872519,
+          "kepmag": 12.06,
+          "module_spring": 2,
+          "ra": 283.4285,
+          "dec": 43.637501
+        },
+        {
+          "kic": 7339772,
+          "kepmag": 12.013,
+          "module_spring": 2,
+          "ra": 282.93704,
+          "dec": 42.910561
+        },
+        {
+          "kic": 6752488,
+          "kepmag": 12.063,
+          "module_spring": 2,
+          "ra": 282.1488,
+          "dec": 42.260181
+        },
+        {
+          "kic": 8144821,
+          "kepmag": 12.01,
+          "module_spring": 2,
+          "ra": 282.18628,
+          "dec": 44.062401
+        },
+        {
+          "kic": 7338459,
+          "kepmag": 12.065,
+          "module_spring": 2,
+          "ra": 282.34943,
+          "dec": 42.922138
+        },
+        {
+          "kic": 7581822,
+          "kepmag": 12.005,
+          "module_spring": 2,
+          "ra": 280.53525,
+          "dec": 43.25256
+        },
+        {
+          "kic": 7173823,
+          "kepmag": 12.0,
+          "module_spring": 2,
+          "ra": 281.15381,
+          "dec": 42.7826
+        },
+        {
+          "kic": 8280500,
+          "kepmag": 11.999,
+          "module_spring": 2,
+          "ra": 282.99649,
+          "dec": 44.239269
+        },
+        {
+          "kic": 6836321,
+          "kepmag": 11.998,
+          "module_spring": 2,
+          "ra": 281.16299,
+          "dec": 42.390739
+        },
+        {
+          "kic": 8474746,
+          "kepmag": 12.084,
+          "module_spring": 2,
+          "ra": 281.66412,
+          "dec": 44.590752
+        },
+        {
+          "kic": 7258771,
+          "kepmag": 11.99,
+          "module_spring": 2,
+          "ra": 282.70798,
+          "dec": 42.88538
+        },
+        {
+          "kic": 8474990,
+          "kepmag": 11.988,
+          "module_spring": 2,
+          "ra": 281.81662,
+          "dec": 44.513031
+        },
+        {
+          "kic": 7664242,
+          "kepmag": 12.087,
+          "module_spring": 2,
+          "ra": 283.90503,
+          "dec": 43.343788
+        },
+        {
+          "kic": 7092127,
+          "kepmag": 11.985,
+          "module_spring": 2,
+          "ra": 281.71347,
+          "dec": 42.630669
+        },
+        {
+          "kic": 8278906,
+          "kepmag": 11.984,
+          "module_spring": 2,
+          "ra": 282.09464,
+          "dec": 44.23671
+        },
+        {
+          "kic": 7417732,
+          "kepmag": 12.091,
+          "module_spring": 2,
+          "ra": 281.34579,
+          "dec": 43.087132
+        },
+        {
+          "kic": 8211458,
+          "kepmag": 11.98,
+          "module_spring": 2,
+          "ra": 281.52914,
+          "dec": 44.123539
+        },
+        {
+          "kic": 7800045,
+          "kepmag": 11.979,
+          "module_spring": 2,
+          "ra": 281.50244,
+          "dec": 43.529694
+        },
+        {
+          "kic": 6837136,
+          "kepmag": 12.096,
+          "module_spring": 2,
+          "ra": 281.59946,
+          "dec": 42.390781
+        },
+        {
+          "kic": 7587099,
+          "kepmag": 12.097,
+          "module_spring": 2,
+          "ra": 283.50674,
+          "dec": 43.229939
+        },
+        {
+          "kic": 8733649,
+          "kepmag": 12.098,
+          "module_spring": 2,
+          "ra": 282.09546,
+          "dec": 44.906189
+        },
+        {
+          "kic": 8410529,
+          "kepmag": 12.102,
+          "module_spring": 2,
+          "ra": 282.10226,
+          "dec": 44.402241
+        },
+        {
+          "kic": 7090906,
+          "kepmag": 12.103,
+          "module_spring": 2,
+          "ra": 281.01129,
+          "dec": 42.67506
+        },
+        {
+          "kic": 8344972,
+          "kepmag": 12.103,
+          "module_spring": 2,
+          "ra": 281.92236,
+          "dec": 44.344002
+        },
+        {
+          "kic": 7173776,
+          "kepmag": 11.966,
+          "module_spring": 2,
+          "ra": 281.12625,
+          "dec": 42.731628
+        },
+        {
+          "kic": 8410335,
+          "kepmag": 11.966,
+          "module_spring": 2,
+          "ra": 281.98566,
+          "dec": 44.411739
+        },
+        {
+          "kic": 7658925,
+          "kepmag": 11.965,
+          "module_spring": 2,
+          "ra": 280.71948,
+          "dec": 43.37476
+        },
+        {
+          "kic": 8798584,
+          "kepmag": 11.963,
+          "module_spring": 2,
+          "ra": 282.12289,
+          "dec": 45.086472
+        },
+        {
+          "kic": 6666179,
+          "kepmag": 11.962,
+          "module_spring": 2,
+          "ra": 282.25037,
+          "dec": 42.194466
+        },
+        {
+          "kic": 6753393,
+          "kepmag": 11.962,
+          "module_spring": 2,
+          "ra": 282.5452,
+          "dec": 42.260029
+        },
+        {
+          "kic": 7176987,
+          "kepmag": 12.114,
+          "module_spring": 2,
+          "ra": 282.75983,
+          "dec": 42.742367
+        },
+        {
+          "kic": 7585206,
+          "kepmag": 12.117,
+          "module_spring": 2,
+          "ra": 282.55237,
+          "dec": 43.215481
+        },
+        {
+          "kic": 7800168,
+          "kepmag": 12.117,
+          "module_spring": 2,
+          "ra": 281.5816,
+          "dec": 43.504421
+        },
+        {
+          "kic": 6924939,
+          "kepmag": 11.956,
+          "module_spring": 2,
+          "ra": 282.66495,
+          "dec": 42.454693
+        },
+        {
+          "kic": 6419085,
+          "kepmag": 12.12,
+          "module_spring": 2,
+          "ra": 281.83356,
+          "dec": 41.88884
+        },
+        {
+          "kic": 6922692,
+          "kepmag": 11.951,
+          "module_spring": 2,
+          "ra": 281.54797,
+          "dec": 42.494816
+        }
+      ],
+      "control_max_abs_kp_delta": 0.0860000000000003,
+      "header_metadata": {
+        "KEPLERID": 7254760,
+        "QUARTER": 1,
+        "SEASON": 3,
+        "MODULE": 2,
+        "OUTPUT": 4,
+        "CHANNEL": 4,
+        "RA_OBJ": 280.61993,
+        "DEC_OBJ": 42.82552,
+        "KEPMAG": null
+      },
+      "prior_art_resolved": "DIAmante v2 classifies as binary",
+      "duration_literal_hours_descriptive_sensitivity": 0.247,
+      "duration_error_literal_hours_descriptive_sensitivity": 0.009,
+      "duration_source": "Amendment 1: DIAmante v2 duration in days, matched by TIC; primary hours = 24 x CTOI value. Literal hours descriptive only, never used for verdict."
+    },
+    {
+      "ctoi": "158984285.01",
+      "tic": 158984285,
+      "kic": 10528564,
+      "period_days": 0.89849,
+      "period_error_days": 0.00041,
+      "epoch_bjd": 2458710.7009,
+      "epoch_error_days": 0.0071,
+      "depth_ppm": 1367.0,
+      "depth_error_ppm": null,
+      "duration_hours": 2.616,
+      "duration_error_hours": 0.264,
+      "kepmag": 11.771,
+      "tmag": 11.5841,
+      "module_spring": 12,
+      "tic_contratio": 0.07272238,
+      "kepler_crowdsap_median_q1_q17": 0.9999,
+      "kepler_tess_dilution_ratio": 1.072615107762,
+      "expected_kepler_aperture_depth_ppm": 1466.264852310654,
+      "expected_kepler_pdcsap_depth_ppm": 1466.4114934600002,
+      "submitter": "montalto",
+      "group": "",
+      "notes": "new CTOI, Montalto (2022)",
+      "user_disposition": "PC",
+      "prior_art_notes": [
+        "Published DIAmante duration is 0.109 DAYS; CTOI gives same number in HOURS. Amendment 1 applied before flux: primary hours = 24 x CTOI value; literal hours descriptive only. DIAmante binflag=0"
+      ],
+      "controls": [
+        {
+          "kic": 9701543,
+          "kepmag": 11.77,
+          "module_spring": 12,
+          "ra": 287.66962,
+          "dec": 46.442329
+        },
+        {
+          "kic": 9886812,
+          "kepmag": 11.767,
+          "module_spring": 12,
+          "ra": 290.12,
+          "dec": 46.752739
+        },
+        {
+          "kic": 9579080,
+          "kepmag": 11.766,
+          "module_spring": 12,
+          "ra": 287.56705,
+          "dec": 46.26289
+        },
+        {
+          "kic": 9333501,
+          "kepmag": 11.778,
+          "module_spring": 12,
+          "ra": 287.74313,
+          "dec": 45.898361
+        },
+        {
+          "kic": 10066568,
+          "kepmag": 11.78,
+          "module_spring": 12,
+          "ra": 288.13162,
+          "dec": 47.047791
+        },
+        {
+          "kic": 9145781,
+          "kepmag": 11.76,
+          "module_spring": 12,
+          "ra": 287.80084,
+          "dec": 45.593529
+        },
+        {
+          "kic": 9706329,
+          "kepmag": 11.759,
+          "module_spring": 12,
+          "ra": 290.17749,
+          "dec": 46.47686
+        },
+        {
+          "kic": 9824132,
+          "kepmag": 11.758,
+          "module_spring": 12,
+          "ra": 288.60449,
+          "dec": 46.621445
+        },
+        {
+          "kic": 10328615,
+          "kepmag": 11.755,
+          "module_spring": 12,
+          "ra": 286.81223,
+          "dec": 47.46088
+        },
+        {
+          "kic": 10461347,
+          "kepmag": 11.787,
+          "module_spring": 12,
+          "ra": 287.96533,
+          "dec": 47.694012
+        },
+        {
+          "kic": 9882550,
+          "kepmag": 11.791,
+          "module_spring": 12,
+          "ra": 287.87912,
+          "dec": 46.74947
+        },
+        {
+          "kic": 9395535,
+          "kepmag": 11.792,
+          "module_spring": 12,
+          "ra": 287.68454,
+          "dec": 45.919628
+        },
+        {
+          "kic": 10397567,
+          "kepmag": 11.748,
+          "module_spring": 12,
+          "ra": 288.74603,
+          "dec": 47.517059
+        },
+        {
+          "kic": 10460432,
+          "kepmag": 11.796,
+          "module_spring": 12,
+          "ra": 287.47266,
+          "dec": 47.661247
+        },
+        {
+          "kic": 10592249,
+          "kepmag": 11.796,
+          "module_spring": 12,
+          "ra": 288.59573,
+          "dec": 47.812061
+        },
+        {
+          "kic": 9941090,
+          "kepmag": 11.799,
+          "module_spring": 12,
+          "ra": 286.59793,
+          "dec": 46.858814
+        },
+        {
+          "kic": 10065555,
+          "kepmag": 11.801,
+          "module_spring": 12,
+          "ra": 287.60596,
+          "dec": 47.019279
+        },
+        {
+          "kic": 9821232,
+          "kepmag": 11.802,
+          "module_spring": 12,
+          "ra": 286.90509,
+          "dec": 46.624439
+        },
+        {
+          "kic": 9645350,
+          "kepmag": 11.74,
+          "module_spring": 12,
+          "ra": 290.28262,
+          "dec": 46.339329
+        },
+        {
+          "kic": 9273073,
+          "kepmag": 11.803,
+          "module_spring": 12,
+          "ra": 288.21222,
+          "dec": 45.709469
+        },
+        {
+          "kic": 10526815,
+          "kepmag": 11.803,
+          "module_spring": 12,
+          "ra": 288.2601,
+          "dec": 47.761299
+        },
+        {
+          "kic": 9209372,
+          "kepmag": 11.806,
+          "module_spring": 12,
+          "ra": 287.6637,
+          "dec": 45.693661
+        },
+        {
+          "kic": 9824902,
+          "kepmag": 11.811,
+          "module_spring": 12,
+          "ra": 289.03976,
+          "dec": 46.630939
+        },
+        {
+          "kic": 9456623,
+          "kepmag": 11.729,
+          "module_spring": 12,
+          "ra": 287.99692,
+          "dec": 46.025539
+        },
+        {
+          "kic": 9827487,
+          "kepmag": 11.814,
+          "module_spring": 12,
+          "ra": 290.31406,
+          "dec": 46.659111
+        },
+        {
+          "kic": 10202184,
+          "kepmag": 11.726,
+          "module_spring": 12,
+          "ra": 289.55273,
+          "dec": 47.258701
+        },
+        {
+          "kic": 10394570,
+          "kepmag": 11.816,
+          "module_spring": 12,
+          "ra": 287.15933,
+          "dec": 47.54697
+        },
+        {
+          "kic": 9641246,
+          "kepmag": 11.721,
+          "module_spring": 12,
+          "ra": 288.14093,
+          "dec": 46.3703
+        },
+        {
+          "kic": 10969616,
+          "kepmag": 11.72,
+          "module_spring": 12,
+          "ra": 288.77982,
+          "dec": 48.404469
+        },
+        {
+          "kic": 9579357,
+          "kepmag": 11.823,
+          "module_spring": 12,
+          "ra": 287.71774,
+          "dec": 46.236092
+        },
+        {
+          "kic": 10133590,
+          "kepmag": 11.824,
+          "module_spring": 12,
+          "ra": 288.81348,
+          "dec": 47.163052
+        },
+        {
+          "kic": 9643914,
+          "kepmag": 11.826,
+          "module_spring": 12,
+          "ra": 289.62106,
+          "dec": 46.358089
+        },
+        {
+          "kic": 10724113,
+          "kepmag": 11.827,
+          "module_spring": 12,
+          "ra": 288.96335,
+          "dec": 48.046009
+        },
+        {
+          "kic": 10136949,
+          "kepmag": 11.715,
+          "module_spring": 12,
+          "ra": 290.23471,
+          "dec": 47.169472
+        },
+        {
+          "kic": 10001558,
+          "kepmag": 11.828,
+          "module_spring": 12,
+          "ra": 287.19629,
+          "dec": 46.926121
+        },
+        {
+          "kic": 9945595,
+          "kepmag": 11.829,
+          "module_spring": 12,
+          "ra": 289.26941,
+          "dec": 46.820332
+        },
+        {
+          "kic": 10136291,
+          "kepmag": 11.713,
+          "module_spring": 12,
+          "ra": 289.95819,
+          "dec": 47.158772
+        },
+        {
+          "kic": 10659015,
+          "kepmag": 11.713,
+          "module_spring": 12,
+          "ra": 289.09836,
+          "dec": 47.981319
+        },
+        {
+          "kic": 9397954,
+          "kepmag": 11.711,
+          "module_spring": 12,
+          "ra": 289.07108,
+          "dec": 45.904343
+        },
+        {
+          "kic": 10590683,
+          "kepmag": 11.711,
+          "module_spring": 12,
+          "ra": 287.82352,
+          "dec": 47.811531
+        },
+        {
+          "kic": 9273470,
+          "kepmag": 11.833,
+          "module_spring": 12,
+          "ra": 288.45316,
+          "dec": 45.7827
+        },
+        {
+          "kic": 10527754,
+          "kepmag": 11.833,
+          "module_spring": 12,
+          "ra": 288.72964,
+          "dec": 47.751549
+        },
+        {
+          "kic": 10003419,
+          "kepmag": 11.709,
+          "module_spring": 12,
+          "ra": 288.19559,
+          "dec": 46.981609
+        },
+        {
+          "kic": 9641636,
+          "kepmag": 11.834,
+          "module_spring": 12,
+          "ra": 288.38251,
+          "dec": 46.387501
+        },
+        {
+          "kic": 9271729,
+          "kepmag": 11.708,
+          "module_spring": 12,
+          "ra": 287.44125,
+          "dec": 45.725712
+        },
+        {
+          "kic": 9520156,
+          "kepmag": 11.708,
+          "module_spring": 12,
+          "ra": 289.04959,
+          "dec": 46.105412
+        },
+        {
+          "kic": 9645361,
+          "kepmag": 11.837,
+          "module_spring": 12,
+          "ra": 290.28629,
+          "dec": 46.370331
+        },
+        {
+          "kic": 9080612,
+          "kepmag": 11.701,
+          "module_spring": 12,
+          "ra": 288.27914,
+          "dec": 45.483715
+        },
+        {
+          "kic": 10592924,
+          "kepmag": 11.701,
+          "module_spring": 12,
+          "ra": 288.9039,
+          "dec": 47.891911
+        },
+        {
+          "kic": 9517003,
+          "kepmag": 11.843,
+          "module_spring": 12,
+          "ra": 287.2468,
+          "dec": 46.134571
+        }
+      ],
+      "control_max_abs_kp_delta": 0.07199999999999918,
+      "header_metadata": {
+        "KEPLERID": 10528564,
+        "QUARTER": 1,
+        "SEASON": 3,
+        "MODULE": 12,
+        "OUTPUT": 4,
+        "CHANNEL": 40,
+        "RA_OBJ": 289.114768,
+        "DEC_OBJ": 47.780169,
+        "KEPMAG": null
+      },
+      "duration_literal_hours_descriptive_sensitivity": 0.109,
+      "duration_error_literal_hours_descriptive_sensitivity": 0.011,
+      "duration_source": "Amendment 1: DIAmante v2 duration in days, matched by TIC; primary hours = 24 x CTOI value. Literal hours descriptive only, never used for verdict."
+    },
+    {
+      "ctoi": "185336364.01",
+      "tic": 185336364,
+      "kic": 8462852,
+      "period_days": 4.316,
+      "period_error_days": null,
+      "epoch_bjd": null,
+      "epoch_error_days": null,
+      "depth_ppm": 14676.0,
+      "depth_error_ppm": null,
+      "duration_hours": 7.92,
+      "duration_error_hours": null,
+      "kepmag": 11.912,
+      "tmag": 11.3522,
+      "module_spring": 24,
+      "tic_contratio": 0.214812875,
+      "kepler_crowdsap_median_q1_q17": 1.0,
+      "kepler_tess_dilution_ratio": 1.214812875,
+      "expected_kepler_aperture_depth_ppm": 17828.5937535,
+      "expected_kepler_pdcsap_depth_ppm": 17828.5937535,
+      "submitter": "lynch",
+      "group": "",
+      "notes": "Derived from TESS Data Light Curve Packages",
+      "user_disposition": "FP",
+      "prior_art_notes": [
+        "Missing Transit Epoch (BJD)",
+        "Missing Period (days) Error",
+        "Boyajian star; already user FP; irregular dust dips known. No planetary novelty."
+      ],
+      "controls": [
+        {
+          "kic": 9427699,
+          "kepmag": 11.915,
+          "module_spring": 24,
+          "ra": 299.77267,
+          "dec": 45.920231
+        },
+        {
+          "kic": 7987659,
+          "kepmag": 11.909,
+          "module_spring": 24,
+          "ra": 299.80026,
+          "dec": 43.76952
+        },
+        {
+          "kic": 8845014,
+          "kepmag": 11.907,
+          "module_spring": 24,
+          "ra": 300.14917,
+          "dec": 45.007271
+        },
+        {
+          "kic": 8193946,
+          "kepmag": 11.905,
+          "module_spring": 24,
+          "ra": 299.99307,
+          "dec": 44.07756
+        },
+        {
+          "kic": 8458519,
+          "kepmag": 11.903,
+          "module_spring": 24,
+          "ra": 300.17285,
+          "dec": 44.49202
+        },
+        {
+          "kic": 8195153,
+          "kepmag": 11.922,
+          "module_spring": 24,
+          "ra": 300.35129,
+          "dec": 44.039761
+        },
+        {
+          "kic": 8257086,
+          "kepmag": 11.922,
+          "module_spring": 24,
+          "ra": 298.94403,
+          "dec": 44.114552
+        },
+        {
+          "kic": 8328348,
+          "kepmag": 11.923,
+          "module_spring": 24,
+          "ra": 300.37222,
+          "dec": 44.28904
+        },
+        {
+          "kic": 9181143,
+          "kepmag": 11.901,
+          "module_spring": 24,
+          "ra": 300.34998,
+          "dec": 45.543869
+        },
+        {
+          "kic": 8519706,
+          "kepmag": 11.925,
+          "module_spring": 24,
+          "ra": 299.38766,
+          "dec": 44.507488
+        },
+        {
+          "kic": 8456813,
+          "kepmag": 11.898,
+          "module_spring": 24,
+          "ra": 299.73517,
+          "dec": 44.488884
+        },
+        {
+          "kic": 9114871,
+          "kepmag": 11.898,
+          "module_spring": 24,
+          "ra": 299.63818,
+          "dec": 45.438492
+        },
+        {
+          "kic": 9176207,
+          "kepmag": 11.898,
+          "module_spring": 24,
+          "ra": 298.95035,
+          "dec": 45.541481
+        },
+        {
+          "kic": 8910891,
+          "kepmag": 11.897,
+          "module_spring": 24,
+          "ra": 299.65576,
+          "dec": 45.152077
+        },
+        {
+          "kic": 8192056,
+          "kepmag": 11.896,
+          "module_spring": 24,
+          "ra": 299.50854,
+          "dec": 44.022923
+        },
+        {
+          "kic": 8192637,
+          "kepmag": 11.896,
+          "module_spring": 24,
+          "ra": 299.65347,
+          "dec": 44.02729
+        },
+        {
+          "kic": 7916265,
+          "kepmag": 11.895,
+          "module_spring": 24,
+          "ra": 299.14926,
+          "dec": 43.60601
+        },
+        {
+          "kic": 8322064,
+          "kepmag": 11.895,
+          "module_spring": 24,
+          "ra": 298.65005,
+          "dec": 44.244354
+        },
+        {
+          "kic": 8516407,
+          "kepmag": 11.933,
+          "module_spring": 24,
+          "ra": 298.53012,
+          "dec": 44.501717
+        },
+        {
+          "kic": 8525691,
+          "kepmag": 11.933,
+          "module_spring": 24,
+          "ra": 301.06589,
+          "dec": 44.517391
+        },
+        {
+          "kic": 8458459,
+          "kepmag": 11.888,
+          "module_spring": 24,
+          "ra": 300.15546,
+          "dec": 44.441071
+        },
+        {
+          "kic": 8652029,
+          "kepmag": 11.888,
+          "module_spring": 24,
+          "ra": 300.14413,
+          "dec": 44.779018
+        },
+        {
+          "kic": 8981568,
+          "kepmag": 11.938,
+          "module_spring": 24,
+          "ra": 300.10504,
+          "dec": 45.290829
+        },
+        {
+          "kic": 9368621,
+          "kepmag": 11.938,
+          "module_spring": 24,
+          "ra": 300.45303,
+          "dec": 45.870117
+        },
+        {
+          "kic": 9304549,
+          "kepmag": 11.94,
+          "module_spring": 24,
+          "ra": 299.6778,
+          "dec": 45.774261
+        },
+        {
+          "kic": 9552299,
+          "kepmag": 11.94,
+          "module_spring": 24,
+          "ra": 300.44849,
+          "dec": 46.149391
+        },
+        {
+          "kic": 7778188,
+          "kepmag": 11.941,
+          "module_spring": 24,
+          "ra": 299.0416,
+          "dec": 43.499001
+        },
+        {
+          "kic": 9369452,
+          "kepmag": 11.943,
+          "module_spring": 24,
+          "ra": 300.68896,
+          "dec": 45.867661
+        },
+        {
+          "kic": 8052462,
+          "kepmag": 11.944,
+          "module_spring": 24,
+          "ra": 298.78229,
+          "dec": 43.869141
+        },
+        {
+          "kic": 8388399,
+          "kepmag": 11.944,
+          "module_spring": 24,
+          "ra": 298.80905,
+          "dec": 44.312778
+        },
+        {
+          "kic": 9430041,
+          "kepmag": 11.946,
+          "module_spring": 24,
+          "ra": 300.49619,
+          "dec": 45.949039
+        },
+        {
+          "kic": 9612092,
+          "kepmag": 11.946,
+          "module_spring": 24,
+          "ra": 299.87134,
+          "dec": 46.25613
+        },
+        {
+          "kic": 8586427,
+          "kepmag": 11.878,
+          "module_spring": 24,
+          "ra": 299.9061,
+          "dec": 44.649982
+        },
+        {
+          "kic": 8707667,
+          "kepmag": 11.877,
+          "module_spring": 24,
+          "ra": 297.89505,
+          "dec": 44.88937
+        },
+        {
+          "kic": 8260320,
+          "kepmag": 11.948,
+          "module_spring": 24,
+          "ra": 299.81155,
+          "dec": 44.163471
+        },
+        {
+          "kic": 9425897,
+          "kepmag": 11.873,
+          "module_spring": 24,
+          "ra": 299.22815,
+          "dec": 45.938721
+        },
+        {
+          "kic": 9049147,
+          "kepmag": 11.952,
+          "module_spring": 24,
+          "ra": 299.65897,
+          "dec": 45.3172
+        },
+        {
+          "kic": 8647299,
+          "kepmag": 11.872,
+          "module_spring": 24,
+          "ra": 298.84183,
+          "dec": 44.70295
+        },
+        {
+          "kic": 8713903,
+          "kepmag": 11.87,
+          "module_spring": 24,
+          "ra": 299.52646,
+          "dec": 44.860222
+        },
+        {
+          "kic": 9244477,
+          "kepmag": 11.866,
+          "module_spring": 24,
+          "ra": 300.33426,
+          "dec": 45.661301
+        },
+        {
+          "kic": 9491305,
+          "kepmag": 11.865,
+          "module_spring": 24,
+          "ra": 300.40771,
+          "dec": 46.003181
+        },
+        {
+          "kic": 8581668,
+          "kepmag": 11.961,
+          "module_spring": 24,
+          "ra": 298.6868,
+          "dec": 44.676109
+        },
+        {
+          "kic": 8843698,
+          "kepmag": 11.964,
+          "module_spring": 24,
+          "ra": 299.76578,
+          "dec": 45.064739
+        },
+        {
+          "kic": 8123668,
+          "kepmag": 11.965,
+          "module_spring": 24,
+          "ra": 299.40451,
+          "dec": 43.979542
+        },
+        {
+          "kic": 8913018,
+          "kepmag": 11.859,
+          "module_spring": 24,
+          "ra": 300.27908,
+          "dec": 45.100346
+        },
+        {
+          "kic": 8196532,
+          "kepmag": 11.858,
+          "module_spring": 24,
+          "ra": 300.72327,
+          "dec": 44.01115
+        },
+        {
+          "kic": 8517845,
+          "kepmag": 11.857,
+          "module_spring": 24,
+          "ra": 298.89804,
+          "dec": 44.58213
+        },
+        {
+          "kic": 9674329,
+          "kepmag": 11.857,
+          "module_spring": 24,
+          "ra": 300.34897,
+          "dec": 46.301682
+        },
+        {
+          "kic": 8718720,
+          "kepmag": 11.969,
+          "module_spring": 24,
+          "ra": 300.90555,
+          "dec": 44.814861
+        },
+        {
+          "kic": 8978113,
+          "kepmag": 11.969,
+          "module_spring": 24,
+          "ra": 299.14935,
+          "dec": 45.205112
+        }
+      ],
+      "control_max_abs_kp_delta": 0.05699999999999861,
+      "header_metadata": {
+        "KEPLERID": 8462852,
+        "QUARTER": 1,
+        "SEASON": 3,
+        "MODULE": 24,
+        "OUTPUT": 4,
+        "CHANNEL": 84,
+        "RA_OBJ": 301.564377,
+        "DEC_OBJ": 44.456875,
+        "KEPMAG": null
+      }
+    },
+    {
+      "ctoi": "275488151.01",
+      "tic": 275488151,
+      "kic": 10014894,
+      "period_days": 3.02553,
+      "period_error_days": 0.00119,
+      "epoch_bjd": 2458682.5504,
+      "epoch_error_days": 0.0122,
+      "depth_ppm": 558.0,
+      "depth_error_ppm": null,
+      "duration_hours": 5.04,
+      "duration_error_hours": 0.28800000000000003,
+      "kepmag": 11.671,
+      "tmag": 11.2155,
+      "module_spring": 18,
+      "tic_contratio": 0.564471543,
+      "kepler_crowdsap_median_q1_q17": 1.0,
+      "kepler_tess_dilution_ratio": 1.564471543,
+      "expected_kepler_aperture_depth_ppm": 872.975120994,
+      "expected_kepler_pdcsap_depth_ppm": 872.975120994,
+      "submitter": "montalto",
+      "group": "",
+      "notes": "new CTOI, Montalto (2022)",
+      "user_disposition": "PC",
+      "prior_art_notes": [
+        "Published DIAmante duration is 0.210 DAYS; CTOI gives same number in HOURS. Amendment 1 applied before flux: primary hours = 24 x CTOI value; literal hours descriptive only. DIAmante binflag=0"
+      ],
+      "controls": [
+        {
+          "kic": 9652428,
+          "kepmag": 11.677,
+          "module_spring": 18,
+          "ra": 293.16098,
+          "dec": 46.300072
+        },
+        {
+          "kic": 10214522,
+          "kepmag": 11.665,
+          "module_spring": 18,
+          "ra": 294.44986,
+          "dec": 47.27306
+        },
+        {
+          "kic": 9029603,
+          "kepmag": 11.679,
+          "module_spring": 18,
+          "ra": 294.5137,
+          "dec": 45.38549
+        },
+        {
+          "kic": 9345743,
+          "kepmag": 11.662,
+          "module_spring": 18,
+          "ra": 293.18689,
+          "dec": 45.872009
+        },
+        {
+          "kic": 9835436,
+          "kepmag": 11.662,
+          "module_spring": 18,
+          "ra": 293.70203,
+          "dec": 46.632359
+        },
+        {
+          "kic": 10018778,
+          "kepmag": 11.659,
+          "module_spring": 18,
+          "ra": 294.68091,
+          "dec": 46.93642
+        },
+        {
+          "kic": 8890479,
+          "kepmag": 11.684,
+          "module_spring": 18,
+          "ra": 293.63968,
+          "dec": 45.123547
+        },
+        {
+          "kic": 9411366,
+          "kepmag": 11.655,
+          "module_spring": 18,
+          "ra": 294.68747,
+          "dec": 45.930901
+        },
+        {
+          "kic": 9161286,
+          "kepmag": 11.654,
+          "module_spring": 18,
+          "ra": 294.37488,
+          "dec": 45.543369
+        },
+        {
+          "kic": 9291829,
+          "kepmag": 11.649,
+          "module_spring": 18,
+          "ra": 295.9715,
+          "dec": 45.798244
+        },
+        {
+          "kic": 9714193,
+          "kepmag": 11.693,
+          "module_spring": 18,
+          "ra": 293.47269,
+          "dec": 46.4165
+        },
+        {
+          "kic": 9837673,
+          "kepmag": 11.648,
+          "module_spring": 18,
+          "ra": 294.53128,
+          "dec": 46.64518
+        },
+        {
+          "kic": 9779291,
+          "kepmag": 11.646,
+          "module_spring": 18,
+          "ra": 295.30313,
+          "dec": 46.531006
+        },
+        {
+          "kic": 10015787,
+          "kepmag": 11.697,
+          "module_spring": 18,
+          "ra": 293.58627,
+          "dec": 46.985123
+        },
+        {
+          "kic": 9283993,
+          "kepmag": 11.698,
+          "module_spring": 18,
+          "ra": 293.11575,
+          "dec": 45.7911
+        },
+        {
+          "kic": 8694197,
+          "kepmag": 11.643,
+          "module_spring": 18,
+          "ra": 293.76462,
+          "dec": 44.876049
+        },
+        {
+          "kic": 9026207,
+          "kepmag": 11.7,
+          "module_spring": 18,
+          "ra": 293.36069,
+          "dec": 45.369362
+        },
+        {
+          "kic": 9222389,
+          "kepmag": 11.641,
+          "module_spring": 18,
+          "ra": 293.4791,
+          "dec": 45.620251
+        },
+        {
+          "kic": 9771905,
+          "kepmag": 11.705,
+          "module_spring": 18,
+          "ra": 292.40451,
+          "dec": 46.541698
+        },
+        {
+          "kic": 9893216,
+          "kepmag": 11.705,
+          "module_spring": 18,
+          "ra": 292.8327,
+          "dec": 46.707489
+        },
+        {
+          "kic": 9409073,
+          "kepmag": 11.636,
+          "module_spring": 18,
+          "ra": 293.83881,
+          "dec": 45.955059
+        },
+        {
+          "kic": 10280708,
+          "kepmag": 11.635,
+          "module_spring": 18,
+          "ra": 294.43701,
+          "dec": 47.368919
+        },
+        {
+          "kic": 8695453,
+          "kepmag": 11.707,
+          "module_spring": 18,
+          "ra": 294.21817,
+          "dec": 44.84198
+        },
+        {
+          "kic": 9649997,
+          "kepmag": 11.707,
+          "module_spring": 18,
+          "ra": 292.15845,
+          "dec": 46.348175
+        },
+        {
+          "kic": 9229601,
+          "kepmag": 11.634,
+          "module_spring": 18,
+          "ra": 296.05716,
+          "dec": 45.673611
+        },
+        {
+          "kic": 8759825,
+          "kepmag": 11.71,
+          "module_spring": 18,
+          "ra": 294.26263,
+          "dec": 44.967155
+        },
+        {
+          "kic": 9780154,
+          "kepmag": 11.71,
+          "module_spring": 18,
+          "ra": 295.60492,
+          "dec": 46.500648
+        },
+        {
+          "kic": 8958682,
+          "kepmag": 11.631,
+          "module_spring": 18,
+          "ra": 293.92627,
+          "dec": 45.203079
+        },
+        {
+          "kic": 9657947,
+          "kepmag": 11.631,
+          "module_spring": 18,
+          "ra": 295.31177,
+          "dec": 46.34927
+        },
+        {
+          "kic": 9713431,
+          "kepmag": 11.715,
+          "module_spring": 18,
+          "ra": 293.15302,
+          "dec": 46.408096
+        },
+        {
+          "kic": 9028511,
+          "kepmag": 11.625,
+          "module_spring": 18,
+          "ra": 294.17142,
+          "dec": 45.3274
+        },
+        {
+          "kic": 9092883,
+          "kepmag": 11.718,
+          "module_spring": 18,
+          "ra": 293.33487,
+          "dec": 45.458111
+        },
+        {
+          "kic": 9100613,
+          "kepmag": 11.718,
+          "module_spring": 18,
+          "ra": 295.80133,
+          "dec": 45.441181
+        },
+        {
+          "kic": 8500704,
+          "kepmag": 11.72,
+          "module_spring": 18,
+          "ra": 293.94376,
+          "dec": 44.582321
+        },
+        {
+          "kic": 9028293,
+          "kepmag": 11.621,
+          "module_spring": 18,
+          "ra": 294.1026,
+          "dec": 45.36311
+        },
+        {
+          "kic": 9529773,
+          "kepmag": 11.621,
+          "module_spring": 18,
+          "ra": 293.22638,
+          "dec": 46.15118
+        },
+        {
+          "kic": 10145279,
+          "kepmag": 11.722,
+          "module_spring": 18,
+          "ra": 293.43927,
+          "dec": 47.11446
+        },
+        {
+          "kic": 10016060,
+          "kepmag": 11.619,
+          "module_spring": 18,
+          "ra": 293.69891,
+          "dec": 46.914181
+        },
+        {
+          "kic": 9292238,
+          "kepmag": 11.616,
+          "module_spring": 18,
+          "ra": 296.11002,
+          "dec": 45.747169
+        },
+        {
+          "kic": 9351273,
+          "kepmag": 11.726,
+          "module_spring": 18,
+          "ra": 295.23395,
+          "dec": 45.88372
+        },
+        {
+          "kic": 10280144,
+          "kepmag": 11.615,
+          "module_spring": 18,
+          "ra": 294.2352,
+          "dec": 47.310081
+        },
+        {
+          "kic": 9292408,
+          "kepmag": 11.727,
+          "module_spring": 18,
+          "ra": 296.16489,
+          "dec": 45.747101
+        },
+        {
+          "kic": 9773977,
+          "kepmag": 11.727,
+          "module_spring": 18,
+          "ra": 293.27841,
+          "dec": 46.575653
+        },
+        {
+          "kic": 9291976,
+          "kepmag": 11.614,
+          "module_spring": 18,
+          "ra": 296.01807,
+          "dec": 45.71019
+        },
+        {
+          "kic": 9658072,
+          "kepmag": 11.612,
+          "module_spring": 18,
+          "ra": 295.35355,
+          "dec": 46.31144
+        },
+        {
+          "kic": 9711349,
+          "kepmag": 11.732,
+          "module_spring": 18,
+          "ra": 292.28806,
+          "dec": 46.403099
+        },
+        {
+          "kic": 9650046,
+          "kepmag": 11.609,
+          "module_spring": 18,
+          "ra": 292.18323,
+          "dec": 46.357422
+        },
+        {
+          "kic": 9157946,
+          "kepmag": 11.733,
+          "module_spring": 18,
+          "ra": 293.18854,
+          "dec": 45.511501
+        },
+        {
+          "kic": 9157260,
+          "kepmag": 11.734,
+          "module_spring": 18,
+          "ra": 292.90295,
+          "dec": 45.547241
+        },
+        {
+          "kic": 8500089,
+          "kepmag": 11.735,
+          "module_spring": 18,
+          "ra": 293.71848,
+          "dec": 44.512489
+        }
+      ],
+      "control_max_abs_kp_delta": 0.06400000000000006,
+      "header_metadata": {
+        "KEPLERID": 10014894,
+        "QUARTER": 1,
+        "SEASON": 3,
+        "MODULE": 18,
+        "OUTPUT": 2,
+        "CHANNEL": 62,
+        "RA_OBJ": 293.20382,
+        "DEC_OBJ": 46.90941,
+        "KEPMAG": null
+      },
+      "duration_literal_hours_descriptive_sensitivity": 0.21,
+      "duration_error_literal_hours_descriptive_sensitivity": 0.012,
+      "duration_source": "Amendment 1: DIAmante v2 duration in days, matched by TIC; primary hours = 24 x CTOI value. Literal hours descriptive only, never used for verdict."
+    },
+    {
+      "ctoi": "351189201.01",
+      "tic": 351189201,
+      "kic": 10873968,
+      "period_days": 0.69463,
+      "period_error_days": 0.0001,
+      "epoch_bjd": 2458682.983,
+      "epoch_error_days": 0.0044,
+      "depth_ppm": 542.0,
+      "depth_error_ppm": null,
+      "duration_hours": 1.32,
+      "duration_error_hours": 0.312,
+      "kepmag": 11.978,
+      "tmag": 11.5435,
+      "module_spring": 23,
+      "tic_contratio": 0.27854073,
+      "kepler_crowdsap_median_q1_q17": 0.99885,
+      "kepler_tess_dilution_ratio": 1.2770704081605,
+      "expected_kepler_aperture_depth_ppm": 692.172161222991,
+      "expected_kepler_pdcsap_depth_ppm": 692.96907566,
+      "submitter": "montalto",
+      "group": "",
+      "notes": "new CTOI, Montalto (2022)",
+      "user_disposition": "PC",
+      "prior_art_notes": [
+        "Published DIAmante duration is 0.055 DAYS; CTOI gives same number in HOURS. Amendment 1 applied before flux: primary hours = 24 x CTOI value; literal hours descriptive only. DIAmante binflag=0"
+      ],
+      "controls": [
+        {
+          "kic": 10154787,
+          "kepmag": 11.978,
+          "module_spring": 23,
+          "ra": 296.60678,
+          "dec": 47.176861
+        },
+        {
+          "kic": 10934929,
+          "kepmag": 11.977,
+          "module_spring": 23,
+          "ra": 297.77631,
+          "dec": 48.313641
+        },
+        {
+          "kic": 9723867,
+          "kepmag": 11.976,
+          "module_spring": 23,
+          "ra": 296.97501,
+          "dec": 46.417511
+        },
+        {
+          "kic": 10361888,
+          "kepmag": 11.981,
+          "module_spring": 23,
+          "ra": 299.22083,
+          "dec": 47.402592
+        },
+        {
+          "kic": 9904499,
+          "kepmag": 11.974,
+          "module_spring": 23,
+          "ra": 296.9552,
+          "dec": 46.79435
+        },
+        {
+          "kic": 10619505,
+          "kepmag": 11.974,
+          "module_spring": 23,
+          "ra": 298.47629,
+          "dec": 47.858871
+        },
+        {
+          "kic": 9848292,
+          "kepmag": 11.973,
+          "module_spring": 23,
+          "ra": 298.0192,
+          "dec": 46.696442
+        },
+        {
+          "kic": 9481531,
+          "kepmag": 11.983,
+          "module_spring": 23,
+          "ra": 297.67163,
+          "dec": 46.04417
+        },
+        {
+          "kic": 10153593,
+          "kepmag": 11.984,
+          "module_spring": 23,
+          "ra": 296.26248,
+          "dec": 47.16848
+        },
+        {
+          "kic": 10423340,
+          "kepmag": 11.985,
+          "module_spring": 23,
+          "ra": 298.21606,
+          "dec": 47.545029
+        },
+        {
+          "kic": 10427685,
+          "kepmag": 11.969,
+          "module_spring": 23,
+          "ra": 299.41556,
+          "dec": 47.550079
+        },
+        {
+          "kic": 11045985,
+          "kepmag": 11.987,
+          "module_spring": 23,
+          "ra": 298.448,
+          "dec": 48.520004
+        },
+        {
+          "kic": 10158813,
+          "kepmag": 11.968,
+          "module_spring": 23,
+          "ra": 297.74432,
+          "dec": 47.139519
+        },
+        {
+          "kic": 10285091,
+          "kepmag": 11.967,
+          "module_spring": 23,
+          "ra": 296.00385,
+          "dec": 47.376289
+        },
+        {
+          "kic": 10548114,
+          "kepmag": 11.989,
+          "module_spring": 23,
+          "ra": 296.71164,
+          "dec": 47.707184
+        },
+        {
+          "kic": 10487158,
+          "kepmag": 11.966,
+          "module_spring": 23,
+          "ra": 297.6745,
+          "dec": 47.655392
+        },
+        {
+          "kic": 9418645,
+          "kepmag": 11.991,
+          "module_spring": 23,
+          "ra": 297.1908,
+          "dec": 45.962421
+        },
+        {
+          "kic": 10095411,
+          "kepmag": 11.965,
+          "module_spring": 23,
+          "ra": 298.68927,
+          "dec": 47.04723
+        },
+        {
+          "kic": 9966914,
+          "kepmag": 11.992,
+          "module_spring": 23,
+          "ra": 297.67743,
+          "dec": 46.85054
+        },
+        {
+          "kic": 9787503,
+          "kepmag": 11.993,
+          "module_spring": 23,
+          "ra": 297.92175,
+          "dec": 46.55756
+        },
+        {
+          "kic": 10152621,
+          "kepmag": 11.963,
+          "module_spring": 23,
+          "ra": 295.96585,
+          "dec": 47.193409
+        },
+        {
+          "kic": 9848308,
+          "kepmag": 11.994,
+          "module_spring": 23,
+          "ra": 298.02274,
+          "dec": 46.672352
+        },
+        {
+          "kic": 10357710,
+          "kepmag": 11.962,
+          "module_spring": 23,
+          "ra": 298.07971,
+          "dec": 47.427559
+        },
+        {
+          "kic": 10616239,
+          "kepmag": 11.962,
+          "module_spring": 23,
+          "ra": 297.56232,
+          "dec": 47.801788
+        },
+        {
+          "kic": 9848460,
+          "kepmag": 11.995,
+          "module_spring": 23,
+          "ra": 298.07242,
+          "dec": 46.634022
+        },
+        {
+          "kic": 9912690,
+          "kepmag": 11.995,
+          "module_spring": 23,
+          "ra": 299.33191,
+          "dec": 46.798199
+        },
+        {
+          "kic": 10092485,
+          "kepmag": 11.995,
+          "module_spring": 23,
+          "ra": 297.83908,
+          "dec": 47.003609
+        },
+        {
+          "kic": 10931578,
+          "kepmag": 11.996,
+          "module_spring": 23,
+          "ra": 296.60455,
+          "dec": 48.352032
+        },
+        {
+          "kic": 10619800,
+          "kepmag": 11.997,
+          "module_spring": 23,
+          "ra": 298.56531,
+          "dec": 47.861439
+        },
+        {
+          "kic": 10876854,
+          "kepmag": 11.959,
+          "module_spring": 23,
+          "ra": 297.51297,
+          "dec": 48.270988
+        },
+        {
+          "kic": 10817734,
+          "kepmag": 11.999,
+          "module_spring": 23,
+          "ra": 298.74384,
+          "dec": 48.171219
+        },
+        {
+          "kic": 10288903,
+          "kepmag": 12.001,
+          "module_spring": 23,
+          "ra": 297.15576,
+          "dec": 47.372341
+        },
+        {
+          "kic": 10617247,
+          "kepmag": 11.955,
+          "module_spring": 23,
+          "ra": 297.84592,
+          "dec": 47.811939
+        },
+        {
+          "kic": 10990806,
+          "kepmag": 12.001,
+          "module_spring": 23,
+          "ra": 298.07233,
+          "dec": 48.403561
+        },
+        {
+          "kic": 11043997,
+          "kepmag": 11.955,
+          "module_spring": 23,
+          "ra": 297.69391,
+          "dec": 48.545292
+        },
+        {
+          "kic": 9785165,
+          "kepmag": 11.954,
+          "module_spring": 23,
+          "ra": 297.25925,
+          "dec": 46.592442
+        },
+        {
+          "kic": 10290315,
+          "kepmag": 12.002,
+          "module_spring": 23,
+          "ra": 297.55539,
+          "dec": 47.39994
+        },
+        {
+          "kic": 10931856,
+          "kepmag": 11.952,
+          "module_spring": 23,
+          "ra": 296.70419,
+          "dec": 48.352009
+        },
+        {
+          "kic": 9908466,
+          "kepmag": 11.949,
+          "module_spring": 23,
+          "ra": 298.10806,
+          "dec": 46.774632
+        },
+        {
+          "kic": 11153134,
+          "kepmag": 12.007,
+          "module_spring": 23,
+          "ra": 298.29938,
+          "dec": 48.772449
+        },
+        {
+          "kic": 9963499,
+          "kepmag": 11.948,
+          "module_spring": 23,
+          "ra": 296.64673,
+          "dec": 46.8811
+        },
+        {
+          "kic": 9605929,
+          "kepmag": 11.944,
+          "module_spring": 23,
+          "ra": 298.05801,
+          "dec": 46.26675
+        },
+        {
+          "kic": 10687572,
+          "kepmag": 12.012,
+          "module_spring": 23,
+          "ra": 299.25766,
+          "dec": 47.917122
+        },
+        {
+          "kic": 10023313,
+          "kepmag": 11.941,
+          "module_spring": 23,
+          "ra": 296.31271,
+          "dec": 46.943939
+        },
+        {
+          "kic": 10813522,
+          "kepmag": 12.015,
+          "module_spring": 23,
+          "ra": 297.57059,
+          "dec": 48.14555
+        },
+        {
+          "kic": 10087717,
+          "kepmag": 11.938,
+          "module_spring": 23,
+          "ra": 296.45776,
+          "dec": 47.045689
+        },
+        {
+          "kic": 10681989,
+          "kepmag": 11.938,
+          "module_spring": 23,
+          "ra": 297.65277,
+          "dec": 47.94437
+        },
+        {
+          "kic": 11043208,
+          "kepmag": 11.938,
+          "module_spring": 23,
+          "ra": 297.40372,
+          "dec": 48.585758
+        },
+        {
+          "kic": 10487072,
+          "kepmag": 12.018,
+          "module_spring": 23,
+          "ra": 297.64902,
+          "dec": 47.69939
+        },
+        {
+          "kic": 10158595,
+          "kepmag": 12.021,
+          "module_spring": 23,
+          "ra": 297.69083,
+          "dec": 47.11734
+        }
+      ],
+      "control_max_abs_kp_delta": 0.04300000000000104,
+      "header_metadata": {
+        "KEPLERID": 10873968,
+        "QUARTER": 1,
+        "SEASON": 3,
+        "MODULE": 23,
+        "OUTPUT": 2,
+        "CHANNEL": 78,
+        "RA_OBJ": 296.62221,
+        "DEC_OBJ": 48.26637,
+        "KEPMAG": null
+      },
+      "duration_literal_hours_descriptive_sensitivity": 0.055,
+      "duration_error_literal_hours_descriptive_sensitivity": 0.013,
+      "duration_source": "Amendment 1: DIAmante v2 duration in days, matched by TIC; primary hours = 24 x CTOI value. Literal hours descriptive only, never used for verdict."
+    },
+    {
+      "ctoi": "399793914.01",
+      "tic": 399793914,
+      "kic": 3424541,
+      "period_days": 2.19755,
+      "period_error_days": 8e-05,
+      "epoch_bjd": 2458681.2442,
+      "epoch_error_days": 0.0093,
+      "depth_ppm": 150.0,
+      "depth_error_ppm": null,
+      "duration_hours": 4.224,
+      "duration_error_hours": 0.528,
+      "kepmag": 9.738,
+      "tmag": 9.3239,
+      "module_spring": 4,
+      "tic_contratio": 0.0245662741,
+      "kepler_crowdsap_median_q1_q17": 0.9995,
+      "kepler_tess_dilution_ratio": 1.02405399096295,
+      "expected_kepler_aperture_depth_ppm": 153.6080986444425,
+      "expected_kepler_pdcsap_depth_ppm": 153.684941115,
+      "submitter": "montalto",
+      "group": "",
+      "notes": "new CTOI, Montalto (2022)",
+      "user_disposition": "PC",
+      "prior_art_notes": [
+        "Published DIAmante duration is 0.176 DAYS; CTOI gives same number in HOURS. Amendment 1 applied before flux: primary hours = 24 x CTOI value; literal hours descriptive only. DIAmante binflag=0"
+      ],
+      "controls": [
+        {
+          "kic": 3634720,
+          "kepmag": 9.75,
+          "module_spring": 4,
+          "ra": 288.19739,
+          "dec": 38.790691
+        },
+        {
+          "kic": 3221040,
+          "kepmag": 9.717,
+          "module_spring": 4,
+          "ra": 287.28073,
+          "dec": 38.363953
+        },
+        {
+          "kic": 3735871,
+          "kepmag": 9.709,
+          "module_spring": 4,
+          "ra": 288.06934,
+          "dec": 38.81768
+        },
+        {
+          "kic": 3529480,
+          "kepmag": 9.768,
+          "module_spring": 4,
+          "ra": 286.58221,
+          "dec": 38.643742
+        },
+        {
+          "kic": 3938178,
+          "kepmag": 9.671,
+          "module_spring": 4,
+          "ra": 286.19836,
+          "dec": 39.055038
+        },
+        {
+          "kic": 3424056,
+          "kepmag": 9.811,
+          "module_spring": 4,
+          "ra": 284.992,
+          "dec": 38.555931
+        },
+        {
+          "kic": 4995218,
+          "kepmag": 9.842,
+          "module_spring": 4,
+          "ra": 286.33838,
+          "dec": 40.112499
+        },
+        {
+          "kic": 2142575,
+          "kepmag": 9.849,
+          "module_spring": 4,
+          "ra": 286.64105,
+          "dec": 37.598198
+        },
+        {
+          "kic": 4638884,
+          "kepmag": 9.857,
+          "module_spring": 4,
+          "ra": 286.40784,
+          "dec": 39.71941
+        },
+        {
+          "kic": 2695344,
+          "kepmag": 9.6,
+          "module_spring": 4,
+          "ra": 286.60315,
+          "dec": 37.922722
+        },
+        {
+          "kic": 4143334,
+          "kepmag": 9.582,
+          "module_spring": 4,
+          "ra": 287.49081,
+          "dec": 39.216259
+        },
+        {
+          "kic": 4249145,
+          "kepmag": 9.58,
+          "module_spring": 4,
+          "ra": 287.68484,
+          "dec": 39.398441
+        },
+        {
+          "kic": 4346201,
+          "kepmag": 9.908,
+          "module_spring": 4,
+          "ra": 285.28595,
+          "dec": 39.498051
+        },
+        {
+          "kic": 3424493,
+          "kepmag": 9.553,
+          "module_spring": 4,
+          "ra": 285.1564,
+          "dec": 38.505619
+        },
+        {
+          "kic": 3634981,
+          "kepmag": 9.546,
+          "module_spring": 4,
+          "ra": 288.28598,
+          "dec": 38.757648
+        },
+        {
+          "kic": 4351319,
+          "kepmag": 9.939,
+          "module_spring": 4,
+          "ra": 287.39862,
+          "dec": 39.497421
+        },
+        {
+          "kic": 5172229,
+          "kepmag": 9.958,
+          "module_spring": 4,
+          "ra": 286.96063,
+          "dec": 40.30777
+        },
+        {
+          "kic": 3096409,
+          "kepmag": 9.96,
+          "module_spring": 4,
+          "ra": 285.34705,
+          "dec": 38.284721
+        },
+        {
+          "kic": 2695267,
+          "kepmag": 9.513,
+          "module_spring": 4,
+          "ra": 286.58047,
+          "dec": 37.944839
+        },
+        {
+          "kic": 3833036,
+          "kepmag": 9.973,
+          "module_spring": 4,
+          "ra": 285.52759,
+          "dec": 38.912998
+        },
+        {
+          "kic": 3534580,
+          "kepmag": 9.981,
+          "module_spring": 4,
+          "ra": 288.48404,
+          "dec": 38.68224
+        },
+        {
+          "kic": 3526061,
+          "kepmag": 9.996,
+          "module_spring": 4,
+          "ra": 285.18631,
+          "dec": 38.611111
+        },
+        {
+          "kic": 4143369,
+          "kepmag": 9.996,
+          "module_spring": 4,
+          "ra": 287.50284,
+          "dec": 39.227188
+        },
+        {
+          "kic": 2831788,
+          "kepmag": 10.007,
+          "module_spring": 4,
+          "ra": 285.74167,
+          "dec": 38.029072
+        },
+        {
+          "kic": 2970584,
+          "kepmag": 10.032,
+          "module_spring": 4,
+          "ra": 286.0383,
+          "dec": 38.169788
+        },
+        {
+          "kic": 1701554,
+          "kepmag": 9.436,
+          "module_spring": 4,
+          "ra": 286.17911,
+          "dec": 37.288876
+        },
+        {
+          "kic": 4446135,
+          "kepmag": 9.431,
+          "module_spring": 4,
+          "ra": 285.28452,
+          "dec": 39.531509
+        },
+        {
+          "kic": 3429738,
+          "kepmag": 10.046,
+          "module_spring": 4,
+          "ra": 287.19513,
+          "dec": 38.597881
+        },
+        {
+          "kic": 3331147,
+          "kepmag": 10.052,
+          "module_spring": 4,
+          "ra": 288.28232,
+          "dec": 38.459541
+        },
+        {
+          "kic": 3223000,
+          "kepmag": 9.422,
+          "module_spring": 4,
+          "ra": 287.96271,
+          "dec": 38.395519
+        },
+        {
+          "kic": 2833697,
+          "kepmag": 9.421,
+          "module_spring": 4,
+          "ra": 286.3414,
+          "dec": 38.055729
+        },
+        {
+          "kic": 2693261,
+          "kepmag": 10.078,
+          "module_spring": 4,
+          "ra": 285.95761,
+          "dec": 37.92955
+        },
+        {
+          "kic": 4909473,
+          "kepmag": 9.397,
+          "module_spring": 4,
+          "ra": 287.10571,
+          "dec": 40.079208
+        },
+        {
+          "kic": 3634487,
+          "kepmag": 10.099,
+          "module_spring": 4,
+          "ra": 288.11887,
+          "dec": 38.747688
+        },
+        {
+          "kic": 3631821,
+          "kepmag": 10.122,
+          "module_spring": 4,
+          "ra": 287.11322,
+          "dec": 38.756519
+        },
+        {
+          "kic": 4346893,
+          "kepmag": 10.151,
+          "module_spring": 4,
+          "ra": 285.5947,
+          "dec": 39.422722
+        },
+        {
+          "kic": 4139914,
+          "kepmag": 10.167,
+          "module_spring": 4,
+          "ra": 286.11499,
+          "dec": 39.22654
+        },
+        {
+          "kic": 3837107,
+          "kepmag": 10.191,
+          "module_spring": 4,
+          "ra": 287.20819,
+          "dec": 38.946609
+        },
+        {
+          "kic": 3527891,
+          "kepmag": 10.194,
+          "module_spring": 4,
+          "ra": 285.96286,
+          "dec": 38.673721
+        },
+        {
+          "kic": 3222670,
+          "kepmag": 10.231,
+          "module_spring": 4,
+          "ra": 287.85764,
+          "dec": 38.332298
+        },
+        {
+          "kic": 3425374,
+          "kepmag": 10.239,
+          "module_spring": 4,
+          "ra": 285.53345,
+          "dec": 38.570141
+        },
+        {
+          "kic": 3833399,
+          "kepmag": 9.218,
+          "module_spring": 4,
+          "ra": 285.67938,
+          "dec": 38.916512
+        },
+        {
+          "kic": 3427850,
+          "kepmag": 9.207,
+          "module_spring": 4,
+          "ra": 286.48267,
+          "dec": 38.59108
+        },
+        {
+          "kic": 3324929,
+          "kepmag": 10.272,
+          "module_spring": 4,
+          "ra": 285.99155,
+          "dec": 38.425571
+        },
+        {
+          "kic": 2696944,
+          "kepmag": 10.278,
+          "module_spring": 4,
+          "ra": 287.1348,
+          "dec": 37.930641
+        },
+        {
+          "kic": 3633847,
+          "kepmag": 10.279,
+          "module_spring": 4,
+          "ra": 287.89609,
+          "dec": 38.743759
+        },
+        {
+          "kic": 3424072,
+          "kepmag": 10.282,
+          "module_spring": 4,
+          "ra": 284.99777,
+          "dec": 38.589439
+        },
+        {
+          "kic": 4246455,
+          "kepmag": 10.29,
+          "module_spring": 4,
+          "ra": 286.60806,
+          "dec": 39.359985
+        },
+        {
+          "kic": 4244973,
+          "kepmag": 10.305,
+          "module_spring": 4,
+          "ra": 286.03345,
+          "dec": 39.327621
+        },
+        {
+          "kic": 3836105,
+          "kepmag": 10.349,
+          "module_spring": 4,
+          "ra": 286.81686,
+          "dec": 38.962029
+        }
+      ],
+      "control_max_abs_kp_delta": 0.6110000000000007,
+      "header_metadata": {
+        "KEPLERID": 3424541,
+        "QUARTER": 1,
+        "SEASON": 3,
+        "MODULE": 4,
+        "OUTPUT": 4,
+        "CHANNEL": 12,
+        "RA_OBJ": 285.17907,
+        "DEC_OBJ": 38.57357,
+        "KEPMAG": null
+      },
+      "duration_literal_hours_descriptive_sensitivity": 0.176,
+      "duration_error_literal_hours_descriptive_sensitivity": 0.022,
+      "duration_source": "Amendment 1: DIAmante v2 duration in days, matched by TIC; primary hours = 24 x CTOI value. Literal hours descriptive only, never used for verdict."
+    }
+  ],
+  "stage1_control_injections": 100,
+  "stage1_controls_per_target": 50,
+  "known_planets": [
+    {
+      "kic": 8750043,
+      "koi": "K02017.01",
+      "period_days": 2.29503515,
+      "epoch_bkjd": 132.69329,
+      "depth_ppm": 172.1,
+      "duration_hours": 1.654,
+      "matched_to": "399793914.01"
+    },
+    {
+      "kic": 12470954,
+      "koi": "K00439.01",
+      "period_days": 1.902208647,
+      "epoch_bkjd": 170.449657,
+      "depth_ppm": 2343.5,
+      "duration_hours": 2.19877,
+      "matched_to": "63120478.01"
+    },
+    {
+      "kic": 8561063,
+      "koi": "K00961.01",
+      "period_days": 1.213770423,
+      "epoch_bkjd": 170.483645,
+      "depth_ppm": 1821.0,
+      "duration_hours": 0.5532,
+      "matched_to": "158984285.01"
+    },
+    {
+      "kic": 7134976,
+      "koi": "K00874.01",
+      "period_days": 4.601811819,
+      "epoch_bkjd": 169.98108,
+      "depth_ppm": 755.9,
+      "duration_hours": 2.2607,
+      "matched_to": "120355606.01"
+    },
+    {
+      "kic": 9787239,
+      "koi": "K00952.05",
+      "period_days": 0.742957911,
+      "epoch_bkjd": 133.27936,
+      "depth_ppm": 843.3,
+      "duration_hours": 0.6688,
+      "matched_to": "351189201.01"
+    }
+  ],
+  "frozen_utc": "2026-11-02T10:54:55.533048+00:00",
+  "repair_method": {
+    "period_half_width": "5 sigma_P, or 0.001 P if missing",
+    "period_drift_fraction_of_duration_max": 0.1,
+    "phase_fraction_of_duration_max": 0.025,
+    "period_grid_cap": null,
+    "all_phases": true,
+    "finite_shortlist": false,
+    "detrending_window_days": "max(2,8*duration_days)",
+    "detrending": "quadratic Savitzky-Golay, transit masked, robust-median initialized",
+    "injections_per_target": 100,
+    "injections_per_control": 2,
+    "known_gate": "at least 4/5 native unscaled known signals localized, z>=7.1",
+    "injection_gate": ">=90/100 with z>=7.1, fixed-depth gate and localization",
+    "per_target_gate_applies_to": [
+      "RECOVERED",
+      "REFUTED"
+    ],
+    "missing_ephemeris_vetoes_refutation": true,
+    "normalization": "raw/masked_continuum - 1, then aperture-equivalent ppm"
+  }
+}

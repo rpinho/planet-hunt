@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-02T12:07:54.884063+00:00",
+  "bar_A": false,
+  "gate_pass": false,
+  "gate_counts": {
+    "target": 0,
+    "eb": 14
+  },
+  "bar_B": "UNSCORED",
+  "attributed": false
+}

@@ -1,0 +1,1154 @@
+[
+  {
+    "star": "target",
+    "trial": 0,
+    "sector": 14,
+    "phase_days": 2.6474056457639845,
+    "utc": "2026-11-02T11:59:57.314064+00:00",
+    "observed_aperture_loss": 2.7233899241161676,
+    "accepted_oot": 990,
+    "fit": null,
+    "distance_pixels": null,
+    "success": false,
+    "amplitude": 5.011234505824646,
+    "effective_throughput": 0.543456890901977,
+    "n_events": 0,
+    "n_injected_cadences": 100,
+    "error": "ValueError('no valid events')"
+  },
+  {
+    "star": "target",
+    "trial": 10,
+    "sector": 14,
+    "phase_days": 2.4899681278153536,
+    "utc": "2026-11-02T11:59:57.317094+00:00",
+    "observed_aperture_loss": 2.7233899241161676,
+    "accepted_oot": 990,
+    "fit": {
+      "xy": [
+        5.380235010842425,
+        11.036662830757995
+      ],
+      "amplitude": 57.26996673563613,
+      "background": -0.8012268537795177,
+      "covariance": [
+        [
+          0.0338340083185609,
+          -0.00014217865905155367
+        ],
+        [
+          -0.00014217865905155364,
+          0.05742199308119996
+        ]
+      ],
+      "chi2": 0.31966692717276546,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 3.977558575067581,
+    "success": false,
+    "amplitude": 5.011234505824646,
+    "effective_throughput": 0.543456890901977,
+    "n_events": 8,
+    "n_injected_cadences": 97
+  },
+  {
+    "star": "eb",
+    "trial": 0,
+    "sector": 14,
+    "phase_days": 1.675087795156193,
+    "utc": "2026-11-02T11:59:57.330955+00:00",
+    "observed_aperture_loss": 2.7233899241161676,
+    "accepted_oot": 990,
+    "fit": {
+      "xy": [
+        5.433257873182975,
+        11.05368634437104
+      ],
+      "amplitude": -276.05560509296606,
+      "background": -12.36548088012236,
+      "covariance": [
+        [
+          0.010551181695160965,
+          -1.0492920876711268e-05
+        ],
+        [
+          -1.0492920876711273e-05,
+          0.01119355578767272
+        ]
+      ],
+      "chi2": 0.2154702545156737,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 0.004579183550051043,
+    "success": true,
+    "amplitude": 256.38372606824544,
+    "effective_throughput": 0.010622319777782007,
+    "n_events": 8,
+    "n_injected_cadences": 65
+  },
+  {
+    "star": "eb",
+    "trial": 10,
+    "sector": 14,
+    "phase_days": 2.484172689517454,
+    "utc": "2026-11-02T11:59:57.341750+00:00",
+    "observed_aperture_loss": 2.7233899241161676,
+    "accepted_oot": 990,
+    "fit": {
+      "xy": [
+        5.451524602793838,
+        11.063080372542528
+      ],
+      "amplitude": -199.93179792218123,
+      "background": -0.23938810160711196,
+      "covariance": [
+        [
+          0.011596311583764712,
+          -8.664357343109188e-05
+        ],
+        [
+          -8.664357343109191e-05,
+          0.013934493128271629
+        ]
+      ],
+      "chi2": 0.15678581510477477,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 0.0161229380404121,
+    "success": true,
+    "amplitude": 256.38372606824544,
+    "effective_throughput": 0.010622319777782007,
+    "n_events": 8,
+    "n_injected_cadences": 98
+  },
+  {
+    "star": "target",
+    "trial": 1,
+    "sector": 15,
+    "phase_days": 1.4799927123211265,
+    "utc": "2026-11-02T11:59:57.369035+00:00",
+    "observed_aperture_loss": 0.9440580136330087,
+    "accepted_oot": 923,
+    "fit": null,
+    "distance_pixels": null,
+    "success": false,
+    "amplitude": 2.0320375546043414,
+    "effective_throughput": 0.46458689284255206,
+    "n_events": 0,
+    "n_injected_cadences": 0,
+    "error": "ValueError('no valid events')"
+  },
+  {
+    "star": "target",
+    "trial": 11,
+    "sector": 15,
+    "phase_days": 2.174934388975316,
+    "utc": "2026-11-02T11:59:57.370356+00:00",
+    "observed_aperture_loss": 0.9440580136330087,
+    "accepted_oot": 923,
+    "fit": {
+      "xy": [
+        6.762349725665885,
+        11.708075312097247
+      ],
+      "amplitude": 21.489849465321818,
+      "background": -0.4216345285125207,
+      "covariance": [
+        [
+          0.04864536204765911,
+          -0.004840830242252099
+        ],
+        [
+          -0.0048408302422520985,
+          0.055899362970934875
+        ]
+      ],
+      "chi2": 1.701253472192415,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 3.9380438447561485,
+    "success": false,
+    "amplitude": 2.0320375546043414,
+    "effective_throughput": 0.46458689284255206,
+    "n_events": 8,
+    "n_injected_cadences": 96
+  },
+  {
+    "star": "eb",
+    "trial": 1,
+    "sector": 15,
+    "phase_days": 0.7699805066844213,
+    "utc": "2026-11-02T11:59:57.381547+00:00",
+    "observed_aperture_loss": 0.9440580136330087,
+    "accepted_oot": 923,
+    "fit": {
+      "xy": [
+        6.811772295114522,
+        11.750730967231126
+      ],
+      "amplitude": -140.05199937291977,
+      "background": 12.853808422737613,
+      "covariance": [
+        [
+          0.03549881048367127,
+          -0.0034529476005043845
+        ],
+        [
+          -0.003452947600504385,
+          0.044131418235964004
+        ]
+      ],
+      "chi2": 0.11431394439892062,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 0.008749350147375611,
+    "success": true,
+    "amplitude": 162.853089680381,
+    "effective_throughput": 0.005796991727242249,
+    "n_events": 8,
+    "n_injected_cadences": 96
+  },
+  {
+    "star": "eb",
+    "trial": 11,
+    "sector": 15,
+    "phase_days": 2.7465292701115014,
+    "utc": "2026-11-02T11:59:57.393869+00:00",
+    "observed_aperture_loss": 0.9440580136330087,
+    "accepted_oot": 923,
+    "fit": {
+      "xy": [
+        6.818237217396355,
+        11.746722225610068
+      ],
+      "amplitude": -171.7858084937997,
+      "background": 29.723866792892153,
+      "covariance": [
+        [
+          0.23293210741866424,
+          -0.0303225506357186
+        ],
+        [
+          -0.030322550635718606,
+          0.3082330887581386
+        ]
+      ],
+      "chi2": 0.04846279270720924,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 0.01554938607595992,
+    "success": true,
+    "amplitude": 162.853089680381,
+    "effective_throughput": 0.005796991727242249,
+    "n_events": 8,
+    "n_injected_cadences": 78
+  },
+  {
+    "star": "target",
+    "trial": 2,
+    "sector": 40,
+    "phase_days": 2.130696737871395,
+    "utc": "2026-11-02T11:59:57.453447+00:00",
+    "observed_aperture_loss": -0.6152896653889629,
+    "accepted_oot": 2624,
+    "fit": null,
+    "distance_pixels": null,
+    "success": false,
+    "error": "ValueError('nonpositive signal/throughput')"
+  },
+  {
+    "star": "target",
+    "trial": 12,
+    "sector": 40,
+    "phase_days": 2.951189151896755,
+    "utc": "2026-11-02T11:59:57.453863+00:00",
+    "observed_aperture_loss": -0.6152896653889629,
+    "accepted_oot": 2624,
+    "fit": null,
+    "distance_pixels": null,
+    "success": false,
+    "error": "ValueError('nonpositive signal/throughput')"
+  },
+  {
+    "star": "eb",
+    "trial": 2,
+    "sector": 40,
+    "phase_days": 2.002494074590747,
+    "utc": "2026-11-02T11:59:57.454115+00:00",
+    "observed_aperture_loss": -0.6152896653889629,
+    "accepted_oot": 2624,
+    "fit": null,
+    "distance_pixels": null,
+    "success": false,
+    "error": "ValueError('nonpositive signal/throughput')"
+  },
+  {
+    "star": "eb",
+    "trial": 12,
+    "sector": 40,
+    "phase_days": 1.7351142177334327,
+    "utc": "2026-11-02T11:59:57.454349+00:00",
+    "observed_aperture_loss": -0.6152896653889629,
+    "accepted_oot": 2624,
+    "fit": null,
+    "distance_pixels": null,
+    "success": false,
+    "error": "ValueError('nonpositive signal/throughput')"
+  },
+  {
+    "star": "target",
+    "trial": 3,
+    "sector": 41,
+    "phase_days": 0.9035044036584677,
+    "utc": "2026-11-02T11:59:57.499268+00:00",
+    "observed_aperture_loss": 0.006830278898962695,
+    "accepted_oot": 2414,
+    "fit": {
+      "xy": [
+        0.49425370897083015,
+        3.509702560315901
+      ],
+      "amplitude": -0.06760631714230761,
+      "background": 7.632391724011284e-05,
+      "covariance": [
+        [
+          0.043683755051238914,
+          -0.003713344262225624
+        ],
+        [
+          -0.0037133442622256274,
+          0.05344043910047478
+        ]
+      ],
+      "chi2": 194.93067052641334,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 8.439909440019886,
+    "success": false,
+    "amplitude": 0.012881707867470199,
+    "effective_throughput": 0.5302308489863365,
+    "n_events": 5,
+    "n_injected_cadences": 292
+  },
+  {
+    "star": "target",
+    "trial": 13,
+    "sector": 41,
+    "phase_days": 1.0292501247110972,
+    "utc": "2026-11-02T11:59:57.513791+00:00",
+    "observed_aperture_loss": 0.006830278898962695,
+    "accepted_oot": 2414,
+    "fit": {
+      "xy": [
+        13.26241387512132,
+        2.6554567208039725
+      ],
+      "amplitude": 0.06902453087589028,
+      "background": -0.0011308363362746232,
+      "covariance": [
+        [
+          0.05339981729120717,
+          0.0006497179822575676
+        ],
+        [
+          0.0006497179822575614,
+          0.04737951657420404
+        ]
+      ],
+      "chi2": 228.1512396239077,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 7.480991115135708,
+    "success": false,
+    "amplitude": 0.012881707867470199,
+    "effective_throughput": 0.5302308489863365,
+    "n_events": 7,
+    "n_injected_cadences": 307
+  },
+  {
+    "star": "eb",
+    "trial": 3,
+    "sector": 41,
+    "phase_days": 2.1231986803759355,
+    "utc": "2026-11-02T11:59:57.527926+00:00",
+    "observed_aperture_loss": 0.006830278898962695,
+    "accepted_oot": 2414,
+    "fit": {
+      "xy": [
+        5.78039046672845,
+        11.132804145473662
+      ],
+      "amplitude": -1.197271655613884,
+      "background": -0.000534028079885641,
+      "covariance": [
+        [
+          0.011036345927060074,
+          4.175058141861322e-06
+        ],
+        [
+          4.175058141861319e-06,
+          0.01106385170516469
+        ]
+      ],
+      "chi2": 224.658456464284,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 0.020773548410698246,
+    "success": true,
+    "amplitude": 1.2032130123570235,
+    "effective_throughput": 0.005676699660671539,
+    "n_events": 2,
+    "n_injected_cadences": 290
+  },
+  {
+    "star": "eb",
+    "trial": 13,
+    "sector": 41,
+    "phase_days": 2.2355521399534357,
+    "utc": "2026-11-02T11:59:57.541190+00:00",
+    "observed_aperture_loss": 0.006830278898962695,
+    "accepted_oot": 2414,
+    "fit": {
+      "xy": [
+        5.758487756794712,
+        11.165615846342929
+      ],
+      "amplitude": -1.152676828294147,
+      "background": -0.0007360435704499809,
+      "covariance": [
+        [
+          0.010510567100917625,
+          -2.541432121346956e-05
+        ],
+        [
+          -2.5414321213469568e-05,
+          0.010592792219107219
+        ]
+      ],
+      "chi2": 267.5310500071332,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 0.0298860257090832,
+    "success": true,
+    "amplitude": 1.2032130123570235,
+    "effective_throughput": 0.005676699660671539,
+    "n_events": 7,
+    "n_injected_cadences": 290
+  },
+  {
+    "star": "target",
+    "trial": 4,
+    "sector": 54,
+    "phase_days": 1.6509581625229532,
+    "utc": "2026-11-02T11:59:57.594479+00:00",
+    "observed_aperture_loss": 0.057197823118818436,
+    "accepted_oot": 2365,
+    "fit": {
+      "xy": [
+        10.471974583175284,
+        4.660843789831786
+      ],
+      "amplitude": 30.131007420897433,
+      "background": -16.69572125771085,
+      "covariance": [
+        [
+          0.08273334144224678,
+          -0.005208268315588315
+        ],
+        [
+          -0.005208268315588315,
+          0.096121422013728
+        ]
+      ],
+      "chi2": 0.2662766826834931,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 3.8939399305027913,
+    "success": false,
+    "amplitude": 0.09945879843745913,
+    "effective_throughput": 0.5750906306673824,
+    "n_events": 8,
+    "n_injected_cadences": 157
+  },
+  {
+    "star": "target",
+    "trial": 14,
+    "sector": 54,
+    "phase_days": 0.48838149986470536,
+    "utc": "2026-11-02T11:59:57.607130+00:00",
+    "observed_aperture_loss": 0.057197823118818436,
+    "accepted_oot": 2365,
+    "fit": {
+      "xy": [
+        10.486783664350142,
+        4.638422285029429
+      ],
+      "amplitude": 9.783255685936194,
+      "background": -7.315504993360096,
+      "covariance": [
+        [
+          0.5355160852637406,
+          -0.03982037024871504
+        ],
+        [
+          -0.03982037024871504,
+          0.6289267733509754
+        ]
+      ],
+      "chi2": 0.16681552759714866,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 3.9202659509088957,
+    "success": false,
+    "amplitude": 0.09945879843745913,
+    "effective_throughput": 0.5750906306673824,
+    "n_events": 8,
+    "n_injected_cadences": 292
+  },
+  {
+    "star": "eb",
+    "trial": 4,
+    "sector": 54,
+    "phase_days": 1.4012397173577664,
+    "utc": "2026-11-02T11:59:57.619842+00:00",
+    "observed_aperture_loss": 0.057197823118818436,
+    "accepted_oot": 2365,
+    "fit": {
+      "xy": [
+        10.467234706766265,
+        4.652039344994898
+      ],
+      "amplitude": -122.85845756218902,
+      "background": 4.953979212268144,
+      "covariance": [
+        [
+          0.017728465428439453,
+          -0.0006092002120965718
+        ],
+        [
+          -0.0006092002120965718,
+          0.02025059187789245
+        ]
+      ],
+      "chi2": 0.2072527067504439,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 0.028966201620657325,
+    "success": true,
+    "amplitude": 18.087013395340474,
+    "effective_throughput": 0.003162369699662719,
+    "n_events": 8,
+    "n_injected_cadences": 65
+  },
+  {
+    "star": "eb",
+    "trial": 14,
+    "sector": 54,
+    "phase_days": 2.0044178845828124,
+    "utc": "2026-11-02T11:59:57.632641+00:00",
+    "observed_aperture_loss": 0.057197823118818436,
+    "accepted_oot": 2365,
+    "fit": {
+      "xy": [
+        10.696977511130848,
+        4.999967314544374
+      ],
+      "amplitude": 1.1394050512018947,
+      "background": 10.46820825197892,
+      "covariance": [
+        [
+          166.0760569532581,
+          25.96685063959981
+        ],
+        [
+          25.96685063959981,
+          363.52021148211685
+        ]
+      ],
+      "chi2": 0.04819111532256039,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 0.4422190318594451,
+    "success": true,
+    "amplitude": 18.087013395340474,
+    "effective_throughput": 0.003162369699662719,
+    "n_events": 8,
+    "n_injected_cadences": 290
+  },
+  {
+    "star": "target",
+    "trial": 5,
+    "sector": 55,
+    "phase_days": 1.65414199415792,
+    "utc": "2026-11-02T11:59:57.693923+00:00",
+    "observed_aperture_loss": 0.8184171137866721,
+    "accepted_oot": 2479,
+    "fit": {
+      "xy": [
+        9.246406805197623,
+        4.236550937534264
+      ],
+      "amplitude": 27.782157210887465,
+      "background": -0.10497893592498832,
+      "covariance": [
+        [
+          0.04547894481885085,
+          -0.0040941057195431835
+        ],
+        [
+          -0.0040941057195431835,
+          0.03707732402576337
+        ]
+      ],
+      "chi2": 0.48867549219722733,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 3.929485277112502,
+    "success": false,
+    "amplitude": 1.406092609970509,
+    "effective_throughput": 0.5820506472925971,
+    "n_events": 9,
+    "n_injected_cadences": 180
+  },
+  {
+    "star": "target",
+    "trial": 15,
+    "sector": 55,
+    "phase_days": 1.5919093706147873,
+    "utc": "2026-11-02T11:59:57.706366+00:00",
+    "observed_aperture_loss": 0.8184171137866721,
+    "accepted_oot": 2479,
+    "fit": {
+      "xy": [
+        9.252785422937883,
+        4.23222492310007
+      ],
+      "amplitude": 14.837430628084464,
+      "background": -1.7273085804287018,
+      "covariance": [
+        [
+          0.17367467298622646,
+          -0.019387577296247443
+        ],
+        [
+          -0.019387577296247446,
+          0.1351150249897461
+        ]
+      ],
+      "chi2": 0.6061309206502498,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 3.9357494021847717,
+    "success": false,
+    "amplitude": 1.406092609970509,
+    "effective_throughput": 0.5820506472925971,
+    "n_events": 9,
+    "n_injected_cadences": 99
+  },
+  {
+    "star": "eb",
+    "trial": 5,
+    "sector": 55,
+    "phase_days": 2.2789591083271485,
+    "utc": "2026-11-02T11:59:57.718510+00:00",
+    "observed_aperture_loss": 0.8184171137866721,
+    "accepted_oot": 2479,
+    "fit": {
+      "xy": [
+        9.261449424454103,
+        4.258157540439418
+      ],
+      "amplitude": -130.20565731931083,
+      "background": 1.985363785221358,
+      "covariance": [
+        [
+          0.01068669280422594,
+          -6.397858220280897e-05
+        ],
+        [
+          -6.397858220280896e-05,
+          0.010486943703612634
+        ]
+      ],
+      "chi2": 1.5968445488429517,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 0.0011343049192857075,
+    "success": true,
+    "amplitude": 143.20066989525844,
+    "effective_throughput": 0.0057151765727443075,
+    "n_events": 6,
+    "n_injected_cadences": 310
+  },
+  {
+    "star": "eb",
+    "trial": 15,
+    "sector": 55,
+    "phase_days": 1.2704768068278276,
+    "utc": "2026-11-02T11:59:57.731075+00:00",
+    "observed_aperture_loss": 0.8184171137866721,
+    "accepted_oot": 2479,
+    "fit": {
+      "xy": [
+        9.258543845772943,
+        4.251596325184673
+      ],
+      "amplitude": -234.7588674771523,
+      "background": -7.1349788236506,
+      "covariance": [
+        [
+          0.010897720476281335,
+          -8.715752645121657e-05
+        ],
+        [
+          -8.715752645121654e-05,
+          0.01060358523496609
+        ]
+      ],
+      "chi2": 0.5412208442043223,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 0.0076935642885654345,
+    "success": true,
+    "amplitude": 143.20066989525844,
+    "effective_throughput": 0.0057151765727443075,
+    "n_events": 9,
+    "n_injected_cadences": 125
+  },
+  {
+    "star": "target",
+    "trial": 6,
+    "sector": 74,
+    "phase_days": 1.475587113978957,
+    "utc": "2026-11-02T11:59:57.880109+00:00",
+    "observed_aperture_loss": -0.2820904957676021,
+    "accepted_oot": 7521,
+    "fit": null,
+    "distance_pixels": null,
+    "success": false,
+    "error": "ValueError('nonpositive signal/throughput')"
+  },
+  {
+    "star": "target",
+    "trial": 16,
+    "sector": 74,
+    "phase_days": 1.843415428871513,
+    "utc": "2026-11-02T11:59:57.880616+00:00",
+    "observed_aperture_loss": -0.2820904957676021,
+    "accepted_oot": 7521,
+    "fit": null,
+    "distance_pixels": null,
+    "success": false,
+    "error": "ValueError('nonpositive signal/throughput')"
+  },
+  {
+    "star": "eb",
+    "trial": 6,
+    "sector": 74,
+    "phase_days": 0.5705351611218579,
+    "utc": "2026-11-02T11:59:57.881028+00:00",
+    "observed_aperture_loss": -0.2820904957676021,
+    "accepted_oot": 7521,
+    "fit": null,
+    "distance_pixels": null,
+    "success": false,
+    "error": "ValueError('nonpositive signal/throughput')"
+  },
+  {
+    "star": "eb",
+    "trial": 16,
+    "sector": 74,
+    "phase_days": 2.7735184062085394,
+    "utc": "2026-11-02T11:59:57.881422+00:00",
+    "observed_aperture_loss": -0.2820904957676021,
+    "accepted_oot": 7521,
+    "fit": null,
+    "distance_pixels": null,
+    "success": false,
+    "error": "ValueError('nonpositive signal/throughput')"
+  },
+  {
+    "star": "target",
+    "trial": 7,
+    "sector": 75,
+    "phase_days": 1.9195953126650376,
+    "utc": "2026-11-02T11:59:58.049932+00:00",
+    "observed_aperture_loss": 1.030172035721359,
+    "accepted_oot": 7909,
+    "fit": {
+      "xy": [
+        9.235989909591611,
+        4.072146141293229
+      ],
+      "amplitude": 11.697399652082675,
+      "background": 2.2825404089024306,
+      "covariance": [
+        [
+          0.6739374793905729,
+          -0.15083837844520614
+        ],
+        [
+          -0.15083837844520617,
+          1.0529695818332698
+        ]
+      ],
+      "chi2": 2.0063154131595278,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 4.04501076533893,
+    "success": false,
+    "amplitude": 2.028720944772385,
+    "effective_throughput": 0.5077938581823734,
+    "n_events": 7,
+    "n_injected_cadences": 517
+  },
+  {
+    "star": "target",
+    "trial": 17,
+    "sector": 75,
+    "phase_days": 2.684769551159331,
+    "utc": "2026-11-02T11:59:58.070729+00:00",
+    "observed_aperture_loss": 1.030172035721359,
+    "accepted_oot": 7909,
+    "fit": {
+      "xy": [
+        9.240293975590127,
+        4.121403635077096
+      ],
+      "amplitude": -38.62851459471402,
+      "background": 6.128574963764412,
+      "covariance": [
+        [
+          0.0741488537798409,
+          -0.017018231619837614
+        ],
+        [
+          -0.017018231619837617,
+          0.08700645024687048
+        ]
+      ],
+      "chi2": 1.915670830875619,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 4.001112660051825,
+    "success": false,
+    "amplitude": 2.028720944772385,
+    "effective_throughput": 0.5077938581823734,
+    "n_events": 6,
+    "n_injected_cadences": 1086
+  },
+  {
+    "star": "eb",
+    "trial": 7,
+    "sector": 75,
+    "phase_days": 0.7867378384348136,
+    "utc": "2026-11-02T11:59:58.090610+00:00",
+    "observed_aperture_loss": 1.030172035721359,
+    "accepted_oot": 7909,
+    "fit": {
+      "xy": [
+        9.274007358608872,
+        4.126491596368896
+      ],
+      "amplitude": -110.2028965225444,
+      "background": 4.527214585168514,
+      "covariance": [
+        [
+          0.013069715913927967,
+          -0.0008382532444419806
+        ],
+        [
+          -0.0008382532444419806,
+          0.01410302898500705
+        ]
+      ],
+      "chi2": 0.2941963199280484,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 0.004715176103048521,
+    "success": true,
+    "amplitude": 126.60685629070367,
+    "effective_throughput": 0.008136779206933054,
+    "n_events": 9,
+    "n_injected_cadences": 980
+  },
+  {
+    "star": "eb",
+    "trial": 17,
+    "sector": 75,
+    "phase_days": 1.1171400160330258,
+    "utc": "2026-11-02T11:59:58.111111+00:00",
+    "observed_aperture_loss": 1.030172035721359,
+    "accepted_oot": 7909,
+    "fit": {
+      "xy": [
+        9.285740632537571,
+        4.123311514601809
+      ],
+      "amplitude": -85.69781478397014,
+      "background": -3.5998345024702973,
+      "covariance": [
+        [
+          0.012337184380728923,
+          -0.0006405307270096857
+        ],
+        [
+          -0.0006405307270096856,
+          0.01298308257924798
+        ]
+      ],
+      "chi2": 1.1101442075185095,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 0.01617830822938906,
+    "success": true,
+    "amplitude": 126.60685629070367,
+    "effective_throughput": 0.008136779206933054,
+    "n_events": 8,
+    "n_injected_cadences": 953
+  },
+  {
+    "star": "target",
+    "trial": 8,
+    "sector": 81,
+    "phase_days": 0.9087474983939857,
+    "utc": "2026-11-02T11:59:58.176456+00:00",
+    "observed_aperture_loss": 1.1081882635774256,
+    "accepted_oot": 9004,
+    "fit": {
+      "xy": [
+        5.464484577340097,
+        10.484935742102687
+      ],
+      "amplitude": 42.19743832877273,
+      "background": 5.220240535616614,
+      "covariance": [
+        [
+          0.053192630917423066,
+          -0.0029555191935481235
+        ],
+        [
+          -0.002955519193548124,
+          0.04429923789189971
+        ]
+      ],
+      "chi2": 0.21280131234035066,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 3.925227653346387,
+    "success": false,
+    "amplitude": 1.7704730997234739,
+    "effective_throughput": 0.6259277612015178,
+    "n_events": 8,
+    "n_injected_cadences": 964
+  },
+  {
+    "star": "target",
+    "trial": 18,
+    "sector": 81,
+    "phase_days": 1.836824163340543,
+    "utc": "2026-11-02T11:59:58.198301+00:00",
+    "observed_aperture_loss": 1.1081882635774256,
+    "accepted_oot": 9004,
+    "fit": {
+      "xy": [
+        5.460403740355019,
+        10.478518869533508
+      ],
+      "amplitude": 40.737165500464805,
+      "background": 3.478778844795619,
+      "covariance": [
+        [
+          0.023980857949988103,
+          -0.0011058624091143155
+        ],
+        [
+          -0.0011058624091143151,
+          0.021123583998150612
+        ]
+      ],
+      "chi2": 0.485630712519035,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 3.922845723408478,
+    "success": false,
+    "amplitude": 1.7704730997234739,
+    "effective_throughput": 0.6259277612015178,
+    "n_events": 8,
+    "n_injected_cadences": 977
+  },
+  {
+    "star": "eb",
+    "trial": 8,
+    "sector": 81,
+    "phase_days": 2.9509697646964708,
+    "utc": "2026-11-02T11:59:58.220011+00:00",
+    "observed_aperture_loss": 1.1081882635774256,
+    "accepted_oot": 9004,
+    "fit": {
+      "xy": [
+        5.468884009709218,
+        10.47588451439532
+      ],
+      "amplitude": -505.11888136050203,
+      "background": -0.21066160423478045,
+      "covariance": [
+        [
+          0.010013630674001258,
+          8.221991980552509e-08
+        ],
+        [
+          8.221991980552493e-08,
+          0.01001264825993133
+        ]
+      ],
+      "chi2": 13.072820345481365,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 0.01608990689732684,
+    "success": true,
+    "amplitude": 297.29374412324955,
+    "effective_throughput": 0.003727586891697264,
+    "n_events": 8,
+    "n_injected_cadences": 283
+  },
+  {
+    "star": "eb",
+    "trial": 18,
+    "sector": 81,
+    "phase_days": 2.8165640179377642,
+    "utc": "2026-11-02T11:59:58.241732+00:00",
+    "observed_aperture_loss": 1.1081882635774256,
+    "accepted_oot": 9004,
+    "fit": {
+      "xy": [
+        5.473779201214148,
+        10.476723090435291
+      ],
+      "amplitude": -434.3791001207879,
+      "background": 5.184532305420028,
+      "covariance": [
+        [
+          0.010283230524267042,
+          -1.6941939284097166e-05
+        ],
+        [
+          -1.6941939284097166e-05,
+          0.010224494660382022
+        ]
+      ],
+      "chi2": 0.28760720605358636,
+      "dof": 221,
+      "n_pixels": 225,
+      "success": true
+    },
+    "distance_pixels": 0.011507005315224668,
+    "success": true,
+    "amplitude": 297.29374412324955,
+    "effective_throughput": 0.003727586891697264,
+    "n_events": 8,
+    "n_injected_cadences": 804
+  },
+  {
+    "star": "target",
+    "trial": 9,
+    "sector": 82,
+    "phase_days": 1.2429298505426287,
+    "utc": "2026-11-02T11:59:58.275562+00:00",
+    "observed_aperture_loss": 0,
+    "accepted_oot": 8749,
+    "fit": null,
+    "distance_pixels": null,
+    "success": false,
+    "error": "ValueError('nonpositive signal/throughput')"
+  },
+  {
+    "star": "target",
+    "trial": 19,
+    "sector": 82,
+    "phase_days": 2.1192179884793516,
+    "utc": "2026-11-02T11:59:58.276206+00:00",
+    "observed_aperture_loss": 0,
+    "accepted_oot": 8749,
+    "fit": null,
+    "distance_pixels": null,
+    "success": false,
+    "error": "ValueError('nonpositive signal/throughput')"
+  },
+  {
+    "star": "eb",
+    "trial": 9,
+    "sector": 82,
+    "phase_days": 1.0025067761612976,
+    "utc": "2026-11-02T11:59:58.276797+00:00",
+    "observed_aperture_loss": 0,
+    "accepted_oot": 8749,
+    "fit": null,
+    "distance_pixels": null,
+    "success": false,
+    "error": "ValueError('nonpositive signal/throughput')"
+  },
+  {
+    "star": "eb",
+    "trial": 19,
+    "sector": 82,
+    "phase_days": 2.0867167821469597,
+    "utc": "2026-11-02T11:59:58.277375+00:00",
+    "observed_aperture_loss": 0,
+    "accepted_oot": 8749,
+    "fit": null,
+    "distance_pixels": null,
+    "success": false,
+    "error": "ValueError('nonpositive signal/throughput')"
+  }
+]

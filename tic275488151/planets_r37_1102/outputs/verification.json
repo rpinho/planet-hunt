@@ -1,0 +1,63 @@
+{
+  "status": "VERIFIED",
+  "utc": "2026-11-02T14:43:10.142241+00:00",
+  "pid": 14021,
+  "independent_of_measurement_imports": true,
+  "decimal_precision": 60,
+  "profiles_checked": 409,
+  "events_checked": 4956,
+  "rows_checked": 200890,
+  "phase_design_attempts": {
+    "R": 550,
+    "E": 263
+  },
+  "gate": {
+    "passed": false,
+    "counts": {
+      "EB_correct": 169,
+      "CTOI_correct": 184,
+      "EB_false": 15,
+      "CTOI_false": 30
+    },
+    "actual_injections": {
+      "EB": 200,
+      "CTOI": 200
+    },
+    "valid_fits": {
+      "EB": 199,
+      "CTOI": 199
+    },
+    "denominator": 200
+  },
+  "bars": {
+    "T_status": "UNSCORED",
+    "preference": "CTOI",
+    "delta_chi2": -17.894316088547054,
+    "F_pass": true,
+    "amplitude_ratio": 1.1938745910841113,
+    "injection_sigma": 0.36999576829874975,
+    "attribution": false
+  },
+  "secondary": {
+    "14": {
+      "depth_ppm": 43.32003538393148,
+      "error_ppm": 134.46390553366598,
+      "events": 8,
+      "prediction_residual_sigma": -0.7509216025055611
+    },
+    "15": {
+      "depth_ppm": 119.01184549602475,
+      "error_ppm": 91.56728631664652,
+      "events": 8,
+      "prediction_residual_sigma": -0.27608158248769443
+    },
+    "combined": {
+      "depth_ppm": 81.32123578940926,
+      "error_ppm": 73.46993511844177,
+      "events": 16,
+      "prediction_residual_sigma": -0.8570941421889555
+    }
+  },
+  "scope": "Saved arithmetic, raw fit inputs, nuisance projection, timestamp design, acceptance, secondary extraction, hashes and freeze chronology; no astrophysical forward-model validation.",
+  "artifact_seal_checked": true
+}

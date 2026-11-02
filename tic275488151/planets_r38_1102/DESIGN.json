@@ -1,0 +1,36 @@
+{
+  "offsets": {
+    "14": -0.038,
+    "15": -0.038
+  },
+  "template_mean_window": 0.5301256115543052,
+  "predicted_primary": 0.0003253605416475134,
+  "a0": 0.0006137423556910796,
+  "utc": "2026-11-02T14:47:04.696368+00:00",
+  "freeze_commit": "cb80016951fab9577b968ebd9b6d0e458ab7cfcc",
+  "protocol_sha256": "409715eb729c1e35ef3fc94a97357e74e3abe8ab1147f1aed18cc36a4e8277e7",
+  "prefreeze_raw_lc1_display": true,
+  "deliberate_numeric_lc1_parse": false,
+  "input_hashes": {
+    "../planets_r37_1102/DESIGN.json": "0712c029d3f8c6d711e16dba3ef98a738cf3a7042e6ad1b787c13b2858976d59",
+    "../planets_r37_1102/DESIGN.npz": "166c9f9f30754b5c0bd94e3d32bfbddfe93533a04ac66b43110bfd7a5554e2fe",
+    "../planets_r37_1102/measurement.py": "eb4b5edf4a8e13cc930b5b175df5f6e48597da9bb2b3111cc9fdea91eec3a2cf",
+    "../planets_r37_1102/legacy_r36.py": "1f97009e948db65072887fc479ada1a2d9f4d05b0d1f3b4f17ccfc567dc6abac",
+    "../planets_r37_1102/outputs/real.json": "b7d3295c5f8b4bcebf91971b7755b0a21484add5a0e649277717e9a96bd07904",
+    "../planets_r36_1102/outputs/EB_TESS.json": "d0900ccffd3a51f621d6c82e091989eb9cd38f5f392a84762c7e47b8a81c140a",
+    "../planets_r36_1102/outputs/kepler_template.npz": "0883e4afd797148cfe32f81462296e145d192e199c559b2efbac2e7f38c8e507",
+    "../planets_r36_1102/outputs/supplement_phases.json": "6763e0783c9122072fb9adef7c48c80895cc72a4e8112be1691fd30ce282aa5b",
+    "../planets_r36_1102/sources/diamante.txt": "a762f968e4a5a5c7653b83062f48a0f5481cd3386bd0f76d30731ac82e5778f7",
+    "../planets_r36_1102/PLAN.json": "5de97a72a5b26a9017310a34e9f5b0d5015bb79c5df8d51940e367be168d2d60",
+    "../planets_r32_1102/prior/paper_2210.14559.txt": "bd8930962f49f054cadd14bec0259342a6c3a59400287235cfab280ad2914063",
+    "../planets_r32_1102/prior/inherited_diamante_product_documentation.txt": "fb8b153399ee335eeecd4e14b138302b5b4909950fc97e2d5212178ad9200f17"
+  },
+  "design_sha256": "f7bbdc2f1c6784a5b1c0ed9ceb91647e72f7e357dae7e3aa3d351dd44c4126bd",
+  "denominator": 200,
+  "threshold": 0,
+  "smoother_sigma_days": 1.4,
+  "grid_spacing_days": 0.25,
+  "oot_time_count": 1602,
+  "total_time_count": 2438,
+  "nice": 10
+}

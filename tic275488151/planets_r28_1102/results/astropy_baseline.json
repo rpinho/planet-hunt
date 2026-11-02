@@ -1,0 +1,10 @@
+{
+  "utc": "2026-11-02T09:50:26.098157+00:00",
+  "method": "Astropy BoxLeastSquares",
+  "period_days": 2.1772443286071725,
+  "truth_period_days": 2.17725,
+  "depth_ppm": 2065.766418824013,
+  "truth_depth_ppm": 2344.0,
+  "z": 1763.0767915419437,
+  "success": true
+}

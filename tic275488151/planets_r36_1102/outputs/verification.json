@@ -1,0 +1,71 @@
+{
+  "verified": true,
+  "utc": "2026-11-02T14:31:52.652041+00:00",
+  "checks": [
+    "Pre-flux git protocol/prediction/code seals, chronology, input SHA256s, nice/thread settings",
+    "Original and supplementary phase streams independently regenerated from timestamps only",
+    "Kepler 418/416 event stacks and all aperture prediction arithmetic",
+    "All 800 L/T trial decisions independently recomputed from saved events; 400 placebo stacks restacked",
+    "All 800 ephemeris profile statistics, empirical thresholds and power/false-preference decisions",
+    "A withheld after failed gate, real E descriptive preference, S power/detection/prediction agreement",
+    "EB-centred TESScut event depths, source hashes and all 603 timing-profile normal equations",
+    "Final artifact SHA256 seal: 47 files"
+  ],
+  "Gate_R": {
+    "original": {
+      "counts": {
+        "L": 0,
+        "T": 0
+      },
+      "actual_injections": {
+        "L": 168,
+        "T": 168
+      },
+      "passed": false
+    },
+    "_supplement": {
+      "counts": {
+        "L": 0,
+        "T": 0
+      },
+      "actual_injections": {
+        "L": 200,
+        "T": 200
+      },
+      "passed": false
+    }
+  },
+  "Bar_E_calibration": {
+    "original": {
+      "counts": {
+        "EB_correct": 145,
+        "CTOI_correct": 142,
+        "EB_false": 5,
+        "CTOI_false": 2
+      },
+      "actual_injections": {
+        "EB": 175,
+        "CTOI": 177
+      },
+      "powered": false
+    },
+    "supplement": {
+      "counts": {
+        "EB_correct": 184,
+        "CTOI_correct": 184,
+        "EB_false": 6,
+        "CTOI_false": 6
+      },
+      "actual_injections": {
+        "EB": 200,
+        "CTOI": 200
+      },
+      "powered": true
+    }
+  },
+  "Bar_A": "UNSCORED",
+  "Bar_E": "DESCRIPTIVE",
+  "Bar_S": "SCORED",
+  "precision_digits": 60,
+  "scope": "Independent saved-event and profile arithmetic plus freezes and timestamps; not independent extraction or astrophysical truth."
+}

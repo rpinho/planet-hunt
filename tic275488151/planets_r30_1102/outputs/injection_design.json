@@ -1,0 +1,246 @@
+{
+  "utc": "2026-11-02T11:59:57.289206+00:00",
+  "seed": 301102,
+  "trials": [
+    {
+      "star": "target",
+      "trial": 0,
+      "sector": 14,
+      "phase_days": 2.6474056457639845
+    },
+    {
+      "star": "target",
+      "trial": 1,
+      "sector": 15,
+      "phase_days": 1.4799927123211265
+    },
+    {
+      "star": "target",
+      "trial": 2,
+      "sector": 40,
+      "phase_days": 2.130696737871395
+    },
+    {
+      "star": "target",
+      "trial": 3,
+      "sector": 41,
+      "phase_days": 0.9035044036584677
+    },
+    {
+      "star": "target",
+      "trial": 4,
+      "sector": 54,
+      "phase_days": 1.6509581625229532
+    },
+    {
+      "star": "target",
+      "trial": 5,
+      "sector": 55,
+      "phase_days": 1.65414199415792
+    },
+    {
+      "star": "target",
+      "trial": 6,
+      "sector": 74,
+      "phase_days": 1.475587113978957
+    },
+    {
+      "star": "target",
+      "trial": 7,
+      "sector": 75,
+      "phase_days": 1.9195953126650376
+    },
+    {
+      "star": "target",
+      "trial": 8,
+      "sector": 81,
+      "phase_days": 0.9087474983939857
+    },
+    {
+      "star": "target",
+      "trial": 9,
+      "sector": 82,
+      "phase_days": 1.2429298505426287
+    },
+    {
+      "star": "target",
+      "trial": 10,
+      "sector": 14,
+      "phase_days": 2.4899681278153536
+    },
+    {
+      "star": "target",
+      "trial": 11,
+      "sector": 15,
+      "phase_days": 2.174934388975316
+    },
+    {
+      "star": "target",
+      "trial": 12,
+      "sector": 40,
+      "phase_days": 2.951189151896755
+    },
+    {
+      "star": "target",
+      "trial": 13,
+      "sector": 41,
+      "phase_days": 1.0292501247110972
+    },
+    {
+      "star": "target",
+      "trial": 14,
+      "sector": 54,
+      "phase_days": 0.48838149986470536
+    },
+    {
+      "star": "target",
+      "trial": 15,
+      "sector": 55,
+      "phase_days": 1.5919093706147873
+    },
+    {
+      "star": "target",
+      "trial": 16,
+      "sector": 74,
+      "phase_days": 1.843415428871513
+    },
+    {
+      "star": "target",
+      "trial": 17,
+      "sector": 75,
+      "phase_days": 2.684769551159331
+    },
+    {
+      "star": "target",
+      "trial": 18,
+      "sector": 81,
+      "phase_days": 1.836824163340543
+    },
+    {
+      "star": "target",
+      "trial": 19,
+      "sector": 82,
+      "phase_days": 2.1192179884793516
+    },
+    {
+      "star": "eb",
+      "trial": 0,
+      "sector": 14,
+      "phase_days": 1.675087795156193
+    },
+    {
+      "star": "eb",
+      "trial": 1,
+      "sector": 15,
+      "phase_days": 0.7699805066844213
+    },
+    {
+      "star": "eb",
+      "trial": 2,
+      "sector": 40,
+      "phase_days": 2.002494074590747
+    },
+    {
+      "star": "eb",
+      "trial": 3,
+      "sector": 41,
+      "phase_days": 2.1231986803759355
+    },
+    {
+      "star": "eb",
+      "trial": 4,
+      "sector": 54,
+      "phase_days": 1.4012397173577664
+    },
+    {
+      "star": "eb",
+      "trial": 5,
+      "sector": 55,
+      "phase_days": 2.2789591083271485
+    },
+    {
+      "star": "eb",
+      "trial": 6,
+      "sector": 74,
+      "phase_days": 0.5705351611218579
+    },
+    {
+      "star": "eb",
+      "trial": 7,
+      "sector": 75,
+      "phase_days": 0.7867378384348136
+    },
+    {
+      "star": "eb",
+      "trial": 8,
+      "sector": 81,
+      "phase_days": 2.9509697646964708
+    },
+    {
+      "star": "eb",
+      "trial": 9,
+      "sector": 82,
+      "phase_days": 1.0025067761612976
+    },
+    {
+      "star": "eb",
+      "trial": 10,
+      "sector": 14,
+      "phase_days": 2.484172689517454
+    },
+    {
+      "star": "eb",
+      "trial": 11,
+      "sector": 15,
+      "phase_days": 2.7465292701115014
+    },
+    {
+      "star": "eb",
+      "trial": 12,
+      "sector": 40,
+      "phase_days": 1.7351142177334327
+    },
+    {
+      "star": "eb",
+      "trial": 13,
+      "sector": 41,
+      "phase_days": 2.2355521399534357
+    },
+    {
+      "star": "eb",
+      "trial": 14,
+      "sector": 54,
+      "phase_days": 2.0044178845828124
+    },
+    {
+      "star": "eb",
+      "trial": 15,
+      "sector": 55,
+      "phase_days": 1.2704768068278276
+    },
+    {
+      "star": "eb",
+      "trial": 16,
+      "sector": 74,
+      "phase_days": 2.7735184062085394
+    },
+    {
+      "star": "eb",
+      "trial": 17,
+      "sector": 75,
+      "phase_days": 1.1171400160330258
+    },
+    {
+      "star": "eb",
+      "trial": 18,
+      "sector": 81,
+      "phase_days": 2.8165640179377642
+    },
+    {
+      "star": "eb",
+      "trial": 19,
+      "sector": 82,
+      "phase_days": 2.0867167821469597
+    }
+  ]
+}

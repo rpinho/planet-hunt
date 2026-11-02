@@ -1,0 +1,26 @@
+{
+  "utc": "2026-11-02T12:22:05.743166+00:00",
+  "freeze_commit": "99ffe523506fb6b83dd7f2ed17979e3b8cb8fe0f",
+  "pid": 82476,
+  "nice": 10,
+  "python": "3.12.13 (main, Jun 23 2026, 15:44:24) [Clang 22.1.3 ]",
+  "executable": "../planets_r30_1102/.venv/bin/python",
+  "numpy": "2.5.4",
+  "numpy_path": "../planets_r30_1102/.venv/lib/python3.12/site-packages/numpy/__init__.py",
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1",
+    "NUMEXPR_NUM_THREADS": "1"
+  },
+  "sha256": {
+    "measure.py": "0f7dbf5aae400375f16e4c9de6485adbb96d85b06b134b935970907710524661",
+    "design.py": "218e2fac3775b337544130932d55315548aff31171393f9570781102eb105c50",
+    "fits_local.py": "9bd86a7b09c9ba581033cdea7e8b1f8cdba81680333f72b4f363436f1b61c55b",
+    "prf.py": "05e267f7e411d3621935c7b5a510db1313374bfb975979b1dab3352e0ee4182d",
+    "PROTOCOL.md": "b6776459a711a97213d05b6c0f057c2d9533feb332936d8b3900a8bf36790056",
+    "outputs/metadata.json": "c615ec8e442b6730f55c624ad2a69ee501110857074ab8956275a7853111cf56",
+    "outputs/design.json": "02644b36a77a86a15dfef0ae8120e85d916937e40defe112e84d93c5f8c5709d"
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "utc": "2026-11-02T11:56:36.543178+00:00",
+  "synthetic_prf_position_error_pixels": 0.0007850070192711097,
+  "synthetic_prf_fit": {
+    "xy": [
+      3.249512082686647,
+      10.749385042509083
+    ],
+    "amplitude": -100.05607750419428,
+    "background": 0.2989144262462343,
+    "covariance": [
+      [
+        0.010000327108716832,
+        -2.4607056098395848e-08
+      ],
+      [
+        -2.4607056098395855e-08,
+        0.010000296383180474
+      ]
+    ],
+    "chi2": 245.23613358441446,
+    "dof": 221,
+    "n_pixels": 225,
+    "success": true
+  },
+  "synthetic_box_events": 2,
+  "synthetic_box_max_depth_error": 2.3783619780646387e-09,
+  "direct_time_byte_check": true,
+  "science_code_sha256": {
+    "fits_local.py": "71c735dc67a666b8563932444c5a1c01dec71874878987dd0a2fc0d861bc68ac",
+    "prf.py": "05e267f7e411d3621935c7b5a510db1313374bfb975979b1dab3352e0ee4182d",
+    "prepare.py": "0e0d437fd51c59f70f23486fe51b07e4b473c91579ecb11b1915f657c39813c4",
+    "measure.py": "56992fb937d1e1cbd161f6374cdff068d73855577c0575c52e8858d0b9220572",
+    "kepler_compare.py": "de01a0035e78eaa8b6af0e3fd8e346c8903f4d2995bcfbea5f4507974309b5ab"
+  }
+}

@@ -1,0 +1,43 @@
+# Amendment 1 (Claude, 2026-11-02 09:00 UTC, before any Kepler flux is read)
+
+The Montalto (DIAmante) CTOI rows give durations in days in a column ExoFOP labels hours: for example CTOI 17361.01, P 3.607 d, "0.089 h" would be a 5-minute transit, impossible for any star; 0.089 d = 2.14 h. The job found the same match against diamante_v2.csv.
+
+Primary outcomes for every Montalto row use duration in hours = 24 x the CTOI value, matched against the DIAmante source table. Record the literal-hours value beside it as a descriptive sensitivity only; it never decides a verdict. Other rows keep the CTOI value. This is a units correction, fixed before flux, not a threshold change. All bars stay verbatim.
+
+The two CTOIs with no duration (26493474.01, 26542657.01) stay OPEN as you planned. Don't infer a duration from Kepler.
+
+# Frozen protocol — planets_r27_1102
+
+The local freeze commit and first FROZEN line precede any Kepler flux read. The protocol uses public catalog metadata and primary FITS headers only before freezing. Design files remain untouched. No discovery, FPP, planet-candidate claim, note, posting, or ExoFOP write is authorized. A recovery is only an archival signal lead.
+
+## Bars (verbatim)
+
+- Reverse-vetting bar for TIC 269033446 = KIC 9488989: freeze depth 3988 ppm and T14 4.7 h from the CTOI row; search Kepler Q1-Q17 PDCSAP with that template only. Report (a) every event with SNR >= 7.1 and depth within 3 sigma of 3988 ppm x (Kepler/TESS dilution ratio), and (b) the fraction of P in [1, 1460] d for which a transit would have fallen in Kepler data. Pass = >= 1 matching Kepler event (comb lead), or a coverage fraction >= 0.9 with no event (CTOI demoted as P < 1460 d false alarm). Control: the same template on 50 Tmag-matched Kepler targets on the same module.
+- Batch bar for the other CTOIs: report the recovered fraction and its denominator against 50 matched controls each. A CTOI is refuted if Kepler coverage >= 0.9 at its period with SNR_expected >= 15 and no event. It is recovered if the folded Kepler signal has z >= 7.1, depth within 3 sigma of the dilution-corrected CTOI depth, and exceeds the 99th percentile of its 50 controls. Anything else is open.
+- Injection recall per target is reported beside each verdict; a refutation needs recall >= 0.9 at the frozen depth.
+
+## Operational definitions fixed before flux
+
+PLAN.json freezes each CTOI row, uncertainty, identity, contamination, reference Kepler crowding, controls, algorithm, and seed. Units are not inferred from flux. Null duration/depth/contamination produces OPEN, with unavailable injections and control-template scores reported. Amendment 1 corrects the ten Montalto durations before flux: primary duration hours = 24 x the CTOI value, matched against DIAmante v2; the corresponding duration errors are converted by the same factor. Literal hours are saved beside them as a descriptive sensitivity only and never decide a verdict. Other rows are unchanged; the two missing durations remain OPEN. All 15 selected rows remain in the full denominator; also report the executable-template denominator separately.
+
+Use Q1-Q17 final public long-cadence PDCSAP only, SAP_QUALITY exactly zero, finite positive flux/time, and no flux clipping. PDC already corrects crowding: normalize each quarter by its median and express its residuals in aperture-equivalent units by multiplying by the frozen median Q1-Q17 CROWDSAP. Expected depth is CTOI depth times (1 + TIC contratio) times that same reference CROWDSAP. Thus no double application of crowding. The upstream TESS depth dilution convention is not documented per submitter; this is an explicit model assumption.
+
+One detrender: per-quarter Savitzky-Golay degree 2, odd window nearest 2 days, split on gaps >0.5 d, minimum 5 points, interpolate edges. A negative box at the primary frozen duration (Montalto: 24 x the CTOI value in hours; all other rows unchanged), integrated over 0.02043365 d exposure, is passed through this same linear filter for fits. Templates remain the same in controls. Per-quarter noise is robust adjacent-difference MAD/sqrt(2), with duration-scale robust scatter inflation >=1; minimum 1 ppm in aperture units. Fit no durations, no extra components, and change no thresholds.
+
+Periodic search uses the nominal CTOI period and its frozen +/-3 sigma interval, grid separation at most max(T14, LC)*P/(4*1460), odd grid capped at 4097. Grid cap or missing uncertainty is reported and prevents refutation. Phase resolution is at most max(T14, LC)/4. Allowed phases are the propagated epoch uncertainty at Kepler midpoint, including period uncertainty. Missing uncertainty/epoch permits a full-phase diagnostic, with no ephemeris-based refutation. All controls use the same trial set and search maximum. Search histograms use exposure-integrated trapezoid kernels; final retained candidates are fitted against the actual times and identically filtered templates. Retain the 16 strongest approximate maxima and the 16 strongest approximate depth-compatible maxima, then fit exactly. Record this finite shortlist limitation; a missed non-maximum event can only weaken inference, and refutation requires high injection recall.
+
+Single-event search includes each cadence center and halfway centers, exposure-integrated template only. Identify distinct local maxima separated by at least T14/2, refine on actual times with the filtered template, and save every SNR >=7.1 event passing the depth gate. A single event passing the verbatim bar is a comb lead even when common among controls; report that false-alarm limitation prominently.
+
+Depth consistency means |measured - expected| <= 3 sqrt(measurement_sigma^2 + (CTOI_depth_sigma * ratio)^2). An absent CTOI depth uncertainty contributes zero, rather than an invented uncertainty.
+
+Batch coverage: predicted transit count with >=50% duration covered by accepted exposures / predicted count within fixed BKJD [131.5,1591]. Save both nominal and best-grid coverage. To support refutation, coverage must be >=0.9 at the nominal ephemeris and at the minimum across the trial period grid, at nominal epoch. Missing ephemeris error prevents refutation. SNR_expected is frozen aperture-equivalent depth times the square root of the weighted filtered-template norm at nominal ephemeris. It is not fitted depth/SNR. All denominators include gaps. Single coverage is 100000 uniform midpoint periods in [1,1460] d anchored to the TESS epoch; count periods having >=1 earlier Kepler transit with >=50% duration exposure. Save coverage bits and exact denominator. It is a uniform-period measure, not a posterior probability or a proof about every period.
+
+100 injections per executable target into raw input PDCSAP before this detrender (not before the mission PDC processing): multiplicative exposure-integrated template at frozen intrinsic PDC depth. Seed = 271102 + KIC. Periodic phases are uniform, periods uniform on the frozen +/-3sigma interval; translate the search ephemeris to each injected phase and run the same pipeline. Single epochs are uniform over the whole fixed Kepler span including gaps. Count success only for SNR >=7.1, depth compatible, and localization within max(T14, LC); periodic recovered period must lie within one grid interval. Save every trial, not just recall. PDC's own signal suppression is not measured by these injections and limits astrophysical refutations.
+
+Controls: same spring module; nearest Kp, then KIC, excluding any KOI/TCE/TOI/CTOI by the public identity crossmatch; catalog span >1000 d. The single uses nearest TIC Tmag among same-module stars within Kp +/-0.5, then nearest Kp/KIC. No post-flux replacements. Fifty controls per executable target. The 99th percentile uses linear interpolation of 50 maxima; require strict exceedance. Also report control passing count/50 and rank (1 + number >= target)/51.
+
+Score once after all target, injection, and control measurements are saved. Recovered gates take precedence, then refuted gates, otherwise open. An independent verify.py imports no measurement code and recomputes every verdict, depth gate, injection count, control percentile, and overall denominators from saved outputs, and validates the frozen PLAN hash. All implementation deviations retain their original scored result. No threshold changes after freeze.
+
+## Superseding freeze
+
+FROZEN-v2 supersedes the literal-hours freeze at commit `7ce2cbe`, retained as an ancestor. Amendment 1 above is quoted verbatim. This correction and its local commit precede any Kepler flux read. All other frozen plan settings, bars, controls, targets, depths, periods, epochs, dilution ratios, thresholds, and seed are unchanged. See DEVIATIONS.md.

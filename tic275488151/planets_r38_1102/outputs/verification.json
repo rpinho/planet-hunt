@@ -1,0 +1,50 @@
+{
+  "status": "VERIFIED",
+  "utc": "2026-11-02T14:52:52.408203+00:00",
+  "pid": 22315,
+  "verifier_sha256": "2255f2994f5a38423c1c6842d59204d886ac785d4bdef0ad018d2806e909f706",
+  "artifact_seal_checked": true,
+  "independent_of_measurement_imports": true,
+  "decimal_precision": 60,
+  "prefreeze_blinding_requirement_met": false,
+  "deliberate_parse_after_freeze": true,
+  "profiles_checked": 413,
+  "events_checked": 4472,
+  "fit_rows_checked": 181120,
+  "D_series_checked": 404,
+  "D_rows_checked": 594319,
+  "max_independent_D_trend_absolute_error": 2.6645352591003757e-15,
+  "inherited_phase_generation_attempts": {
+    "R": 550,
+    "E": 263
+  },
+  "retained_bytes": 38787502,
+  "gate": {
+    "passed": false,
+    "counts": {
+      "EB_correct": 129,
+      "CTOI_correct": 164,
+      "EB_false": 17,
+      "CTOI_false": 51
+    },
+    "actual_injections": {
+      "EB": 200,
+      "CTOI": 200
+    },
+    "valid_fits": {
+      "EB": 181,
+      "CTOI": 181
+    },
+    "denominator": 200
+  },
+  "bars": {
+    "T2_status": "UNSCORED",
+    "preference": "EB",
+    "delta_chi2": 36.040807977228894,
+    "F2_pass": false,
+    "amplitude_ratio": 3.045111503605916,
+    "injection_sigma": 0.42107552333539483,
+    "attribution": false
+  },
+  "scope": "Saved numerical arithmetic, source and pre-D injection reconstruction, independent D and nuisance projection, joint algebra, synthetic spline check, hashes and post-display freeze chronology. Not a blinded experiment or a validation of physical forward assumptions."
+}

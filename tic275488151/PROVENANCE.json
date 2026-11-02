@@ -1,0 +1,964 @@
+{
+  "source_note_sha256": "25534b8c5e7152f68ad078af11502f797d69c8d889bee1be6cd4608bc1efba7b",
+  "source_note_bytes": 4129,
+  "copied": [
+    {
+      "file": "planets_r27_1102/REPORT.md",
+      "source_sha256": "c52d54c14f3a2a54352f8cac9f90c63ddeb37a41fc02077a4ad37d88a2869154",
+      "scrubbed": true
+    },
+    {
+      "file": "planets_r27_1102/PROTOCOL.md",
+      "source_sha256": "978d07873d36a77a7f8203ee7b0b683976a65fd1ece83b9c4763279cf4586591",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r27_1102/verify.py",
+      "source_sha256": "6610c002dee128dfab2fe1c4578f6270ed25078ebfa8d0073b6e23ff8dde5609",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r27_1102/PLAN.json",
+      "source_sha256": "e016d9d16ed1aa8dc2a2e7722c2a04b469c27d544af4d7d904ec6c2fae7396e1",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r27_1102/DEVIATIONS.md",
+      "source_sha256": "d54f3e82c73561c2af490f9fbdf03897788398e55a1387e3c848aedd9ad2e811",
+      "scrubbed": true
+    },
+    {
+      "file": "planets_r27_1102/results/coverage_verification.json",
+      "source_sha256": "053ab066d5a1b74c2a30681dfe4d18394f3628556bae8d2ba7eae91c2a9480d6",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r27_1102/results/design_readonly_hashes.json",
+      "source_sha256": "07b0f516be2709b67c6cf4d714e859d3011e30266b130c71b240aad46559091b",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r27_1102/results/freeze_receipt.json",
+      "source_sha256": "f698998703fd61d9e2847144024e5f5440b26abd28ca4ce19a82f8076c46ed1c",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r27_1102/results/output_manifest.json",
+      "source_sha256": "a99cf84e9a40bf48b7320a61f4a5082b3009b7b5afae1b2ff8a2b33b87e12ca1",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r27_1102/results/prefetch_summary.json",
+      "source_sha256": "9a0d51a53571e4b7287cd75402019f8100a62f06c214321d1fb38c788b53aa11",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r27_1102/results/runtime.json",
+      "source_sha256": "549a02e941a7275e94e346ab5214cd21b0ad2a1bc9a7d4126fd3dee0c399cb70",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r27_1102/results/scores.json",
+      "source_sha256": "112d638e134f572fca6151d07fcd26e07b1a91dcb12d65a93be601cc341d86f5",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r27_1102/results/shutdown.json",
+      "source_sha256": "fc60c14317537e92d6839a0e97cb96856279824153f6e23bfe460bd8a2ed26f4",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r27_1102/results/synthetic_validation.json",
+      "source_sha256": "8168a729c831983545555cd648d1fe8f5479256a647d88656a99935bcf8c5ebf",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r27_1102/results/verdicts.csv",
+      "source_sha256": "a34126102df9472b90d0228731f3be019a3feae9664dfde40ca0a02dd40480fd",
+      "scrubbed": true,
+      "whitespace_normalization": "CRLF to LF and trailing whitespace removed; numerical tokens unchanged."
+    },
+    {
+      "file": "planets_r27_1102/results/verification.json",
+      "source_sha256": "6cbf4e78c0e7adacf6a36145bf1f2f62038ef8fa37427a175f451111a0e30ea6",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/REPORT.md",
+      "source_sha256": "17fb6c8c4df38871e24f104b9404a12d061aea9728684c06e071670240b26fcf",
+      "scrubbed": true
+    },
+    {
+      "file": "planets_r28_1102/PROTOCOL.md",
+      "source_sha256": "e89470910f8c149bc04ad76fa73480f41a953088fe6edb9a6075dbe0113e25e0",
+      "scrubbed": true
+    },
+    {
+      "file": "planets_r28_1102/verify.py",
+      "source_sha256": "9e7b0d0ca02783d588c13a14314e9b6710b1ce4b224f0a31a53a010b93ba0829",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/PLAN.json",
+      "source_sha256": "2979f756cc01766e1c378bf282b2f664379a0a1e328dfe23f5b925ab71aadcd0",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/DEVIATIONS.md",
+      "source_sha256": "200d11efedafdd7ccf4b10eb97ea1510e81705f5ed7cd7bd19d5f96fc450c374",
+      "scrubbed": true
+    },
+    {
+      "file": "planets_r28_1102/results/astropy_baseline.json",
+      "source_sha256": "5add9088807b2b351ba76af50e845f44f17766c9fab93d004b27d543c22d4e24",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/depth_confounds.json",
+      "source_sha256": "682ed109a61753b2a20314282a4ada12472e626d7bab3561bdaab613dcf7f241",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/diagnosis_controls.json",
+      "source_sha256": "1c00d77309e9ee747a05a108b99cc1aff0b1f17dcbc1ab5f4211f3d101fbb747",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/diagnosis_refinement.json",
+      "source_sha256": "da606e76581249c9d56065f2c0d60ecd28c6859e16091e338cc0146f345b1205",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/diagnosis_synthetic.json",
+      "source_sha256": "a61caadaf4513eca83ec53ad12ed26d2d5c2e8123da9426758f857583657ee5b",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/freeze_receipt.json",
+      "source_sha256": "ed3fa1dff1f4ecbd0f31cda0d2ce7f9d9e63a1d8abea0bbfa5f0e401b13283ea",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/gate.json",
+      "source_sha256": "8af55d8391c04fc90d43391ddf80141c54c32eceecbc909914ca10bdc0e5e7d4",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/numerical_check.json",
+      "source_sha256": "838f09c7c1ff8620f83bef3efd307635d19f22f1af3aa066849754e544b41c77",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/output_manifest.json",
+      "source_sha256": "d754a318ea66e1e4977fcac61ff247c3b145c77ddfa994b36d28566dc8e3fa70",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/prefetch.json",
+      "source_sha256": "6b77b877c1261f2b4323cf3938cc34fb489405948856e4615a0fc6f136cd5c6f",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/r27_scores.json",
+      "source_sha256": "112d638e134f572fca6151d07fcd26e07b1a91dcb12d65a93be601cc341d86f5",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/retained_manifest.json",
+      "source_sha256": "b7e46350ff14a6390c6de4689ec48e2cbdea3b8ad7b530c5ba1c19463de1b7e4",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/runtime.json",
+      "source_sha256": "fa5b693885b60f19faa8294d8529dbfa9fb503408d5d7c6fee865f988353ee44",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/scores.json",
+      "source_sha256": "27951f4fb289b656de8abbe909a4b434a2ccb0644db8cc21ec83de28d86874f2",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/shutdown.json",
+      "source_sha256": "9e4a67b65a703a00113f8c4191d039bb97fe606287bbd0a7ceef1bda0c6eebd0",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/stage1_manifest.json",
+      "source_sha256": "74e053d17e7a3ddd3b3dd2e009a51f3cb012d584e6c89edd68038e1582855fc6",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/stage1_verification.json",
+      "source_sha256": "06d0b1a15b714422cc77e69d1b07a010b6b6d62abd9af47263096c9e2856a9c4",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/verdicts.csv",
+      "source_sha256": "f05970af8c05e9ec34ec8e1bc948baa14abd4b250ce3196fba4e5c184b2a3656",
+      "scrubbed": true,
+      "whitespace_normalization": "CRLF to LF and trailing whitespace removed; numerical tokens unchanged."
+    },
+    {
+      "file": "planets_r28_1102/results/verification.json",
+      "source_sha256": "1d5cde501cfdd2f4018aa096b9af3fc1b9b2087d72bbd1d51fcbb71ea4d01296",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r28_1102/results/verification_arithmetic.json",
+      "source_sha256": "9fce5f9b956fa735cb27d532197e80ccc453dbc16af4bc5f14f16d2f0ca055c1",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r29_1102/REPORT.md",
+      "source_sha256": "54280f2eeccd6553de8f08a8b8079c8ec9cbd5afe876771988fced248d681859",
+      "scrubbed": true
+    },
+    {
+      "file": "planets_r29_1102/PLAN.json",
+      "source_sha256": "a5674b61ceea3bc085a7bae0d30730b6eeb952543b1564cdcf7b4c1a99bb5bcd",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r29_1102/RESULT.json",
+      "source_sha256": "203b9d64322a96fefa5c1d8f95571d31cb6bedd91e4ea52b927ee4c9ae28bc1f",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r29_1102/POSTHOC_epoch.json",
+      "source_sha256": "52abe881d8b25a8da66e72750614cad0d277ec40eb3e7b50a99b2bb6cb1acc0b",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r29_1102/DEVIATIONS.md",
+      "source_sha256": "030c75b492ffb891d2e7b54df6036888a0a59d18c47c46cc13207b00d7a38db7",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r29_1102/match.py",
+      "source_sha256": "813b5a25713455d28e923992dc514123205f7526c03e4a138d44fffe00a837ec",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r29_1102/posthoc_epoch.py",
+      "source_sha256": "c21f45846fdfa780e8fdc8bc0e528d1a8e77aba5a31514f6a9911a3d894af108",
+      "scrubbed": true
+    },
+    {
+      "file": "planets_r30_1102/REPORT.md",
+      "source_sha256": "0591a63d1bf35158e14d3d4a2c32055b0966629e9cfae46f3cb2faa475ca6aec",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/PROTOCOL.md",
+      "source_sha256": "dceb839c17a49ffa2e96191a059672b0b9d7565a8639022e22d6355ae703cdb7",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/verify.py",
+      "source_sha256": "6a3aba731e88cfe3cff73d48d74de5277f8785c5dc3ef64cbe79955ed8ef7503",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/DEVIATIONS.md",
+      "source_sha256": "7253da4b1f6b52d36a6f2d8d32c514eaf57c105d6f4b4cfc3578630f78f188af",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/freeze_commit.txt",
+      "source_sha256": "994c9a4e07cadb90b0b32ba5fb3e6efffa2b508f1430a2ce44e45d9268d312dd",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/edge_diagnostics.json",
+      "source_sha256": "510ae8829f8291912fc6d742fe751e6f5140c65d3d23ca314af0b620eae98cd1",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/first_flux_read.json",
+      "source_sha256": "02d3f6349b65b6873cba3300432e54f28bc00f61d1a76181258db010cec0d9b6",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/gate.json",
+      "source_sha256": "fbd7fe59590d042a28c37c2d128c4738bda7a52bb5090433a8cb4124b8e4e075",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/gate_validity.json",
+      "source_sha256": "b7440cca7326f458ba04f0357b1a762a1f46b383c877f6bc59f3a4f47ac1512b",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/implementation_before_flux.json",
+      "source_sha256": "85b4bb7bc6e2163b8407872b76c800ce6ab65db2d95ebf64e92fbc0eb1a7801a",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/injection_design.json",
+      "source_sha256": "6cc4a3d908d626c9e9ffd6767f03985c63faf05afaf4d782cc42d283fea663f7",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/injections_progress.json",
+      "source_sha256": "c0479d12471e63805938df5dd5d46a00525467ce48e7b9383bc8bb551475a9c1",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/kepler.json",
+      "source_sha256": "2b67a6bfc1f7d11a3962bb56cac248dc11c329921cbb3a3dfe780ebaaff8630d",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/location.json",
+      "source_sha256": "d6adb5510e459624bdb33ad560f7abb017404775f580093ab7fd5b9f565e77bb",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/photometry.json",
+      "source_sha256": "e91d7cd62206bebc8bff3f1b72c4ca965a49873637c79a11c74eafe3132b9975",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/photometry_s0014.json",
+      "source_sha256": "fb368f79ec49de2f9bdc684693e37ccc97aa2e7a425ecdc57936b0caff3dcbb2",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/photometry_s0015.json",
+      "source_sha256": "41c4e20783b87a5c369be108a0c2215c0adc78da9989f83b704adfc3a8e8e63a",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/photometry_s0040.json",
+      "source_sha256": "6f1033a39678e82b53a7e5f5c524979ebd8807eccccffd73d3be47f684844136",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/photometry_s0041.json",
+      "source_sha256": "601e73da510413ab7bfbf16f41d30bc38a6986261d8eee5dc7fd8892b7bfd8ef",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/photometry_s0054.json",
+      "source_sha256": "fd648032de93086ce01c0b7fa6654788cd16c66fafa1235c2e5da5a693fb77a5",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/photometry_s0055.json",
+      "source_sha256": "fbb36a9fb1e80ea018448b6d6b0991a32fc94f5510a0015b28e0c05fca2a703e",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/photometry_s0074.json",
+      "source_sha256": "3ff75d9bd711bff1689d0ab099189dd02f7d843beb9f405e51348099103034b6",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/photometry_s0075.json",
+      "source_sha256": "491d323eeb28a511c48cfa92d309a04ec0e3348e40474b35e55fc5e0d7f3eba8",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/photometry_s0081.json",
+      "source_sha256": "a1c8357c3b626046f2623a4287e2849d80908434ec1117845697d1e79c344a4d",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/photometry_s0082.json",
+      "source_sha256": "402070c690bde7c63f3d8f44a210d86467b9f5493a2784f90b664807a1f7dcb7",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/preflux_validation.json",
+      "source_sha256": "3586d4abca1567380f1e0e1684cd56da12f713b5aaa20ae11a58981903613674",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/runtime.json",
+      "source_sha256": "26aa2f80e6ae624d024e2e32ef7359f77a34553cddad9a70ac546d3d8aa454dc",
+      "scrubbed": true
+    },
+    {
+      "file": "planets_r30_1102/outputs/runtime_final.json",
+      "source_sha256": "19b874a003a3ac187d17df4ac35d70ea4cd004d7528256df79ce7c96dfc93cef",
+      "scrubbed": true
+    },
+    {
+      "file": "planets_r30_1102/outputs/score.json",
+      "source_sha256": "ef96a9769a120bc215df85485684696c4d5f6947abd779643f75aee1450563bf",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/seal.json",
+      "source_sha256": "079de6fbcf6b5ee194ac70a9c1abae9b44262ec3e5cace5f8e2505a7133fbadc",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/verification.json",
+      "source_sha256": "b0915cb731e056950b91bd3d462a579661e05abc6be2950068b24e217afbe409",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/outputs/wcs_validation.json",
+      "source_sha256": "f22e90b5762540159d58a5eb66c524f2c3fae121bbbcf544e16ffc1a8d536abe",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/aperture_manifest.json",
+      "source_sha256": "b31f3ff290244fa4744158c9e0127f0d62508a0c09255af945d54d7be67d0566",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r30_1102/aperture_manifest.sha256",
+      "source_sha256": "44d0ac44d6b9c3c95573a569dbaca711682f5a181b4002b054a6be28e6fae59a",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/REPORT.md",
+      "source_sha256": "602cb401ac37773fd9cbfea6d4add1852d95ed79085f2241d228501936e1ffa2",
+      "scrubbed": true
+    },
+    {
+      "file": "planets_r31_1102/PROTOCOL.md",
+      "source_sha256": "b6776459a711a97213d05b6c0f057c2d9533feb332936d8b3900a8bf36790056",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/verify.py",
+      "source_sha256": "4e3361e95162b888f050dc1253d46b91ea93265ca9446fdfaef4ac534484c067",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/RESULT.json",
+      "source_sha256": "772bbb732b859bb37f4f2d13bb433ce349cb7ebdcf1b7d0d673f10a6e7b33044",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/DEVIATIONS.md",
+      "source_sha256": "74bc3f8fea176ba6ee95b8414cc3f81cf3f45532a7780def8167bae8f20f1f6d",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/freeze_commit.txt",
+      "source_sha256": "5801b48ed4b5b888e0e534eff6595154cc72ba06cab4ef08f148662226498fa1",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/outputs/before_oot_flux.json",
+      "source_sha256": "0434504f06ff2106e6af16a47b802581464bee4876afe2c995dcc8c2de67bd6f",
+      "scrubbed": true
+    },
+    {
+      "file": "planets_r31_1102/outputs/design.json",
+      "source_sha256": "02644b36a77a86a15dfef0ae8120e85d916937e40defe112e84d93c5f8c5709d",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/outputs/final_seal.json",
+      "source_sha256": "7b928f989b7adfc8e02f58e8703918fb63e5a692807471c65f5e17fb8b19d990",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/outputs/gate.json",
+      "source_sha256": "6645771ef61ff9c82f05af1c5fcd2cc9394554e9ed148aebb2312d6d1f0754bc",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/outputs/gate_sector_s0014.json",
+      "source_sha256": "927ba102b014fe52c653324fd3290a18d2c25cc0394e1139bb68e469215a8bbe",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/outputs/gate_sector_s0015.json",
+      "source_sha256": "fc3459f801e6566d8cfeee9518050c1f54ad70e82b973f4b7efa1bbbce6df4a9",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/outputs/gate_sector_s0040.json",
+      "source_sha256": "183417cc486c52b5b601997cb5d5608eb76ae9c6b48fb513830379ce829cf9ea",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/outputs/gate_sector_s0054.json",
+      "source_sha256": "70d0688331dc1506e08a9075f0b5152c8a59b8ecd4d9b09fd8166e1f99644a7f",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/outputs/gate_sector_s0055.json",
+      "source_sha256": "7c09dff7e9eaeec69375e688b367c0906ac498c0d07c4ce667aac4f52d86fb13",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/outputs/gate_sector_s0074.json",
+      "source_sha256": "20ce5d606c7fc5e3d9640026776322c4d350a9c0a8b8db6bc59ec6abbaf050a1",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/outputs/gate_sector_s0075.json",
+      "source_sha256": "92484b6ef510736408faa8bf2f5fde4f243d2708ead9575bb8e75cced2a5f2d6",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/outputs/gate_sector_s0081.json",
+      "source_sha256": "f86db64e637973f183018b0f57180d95f42eacb560aa51c55fa7b3c023159103",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/outputs/metadata.json",
+      "source_sha256": "c615ec8e442b6730f55c624ad2a69ee501110857074ab8956275a7853111cf56",
+      "scrubbed": true
+    },
+    {
+      "file": "planets_r31_1102/outputs/runtime_final.json",
+      "source_sha256": "690d1179c5f6b82c186b90b810cdc053a2c815f9d7ee370ade8bb6149c005489",
+      "scrubbed": true
+    },
+    {
+      "file": "planets_r31_1102/outputs/summary.json",
+      "source_sha256": "e9aa4a5eb95b51e820127b027b22bf838a6410aff4bf9ff9bd0215c36eaf6eff",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/outputs/synthetic_validation.json",
+      "source_sha256": "c069e51a3be09742c78fc2fbe995ed449646d350a661c81660e90e4732213f5f",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r31_1102/outputs/verification.json",
+      "source_sha256": "6e2f91a95643b92c6e497fe9a7a134bcb063c37d9d9f75a0166771d70f6d5428",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/REPORT.md",
+      "source_sha256": "3f2b88cb35ba7cf80c4698df0123cd551404398682e48bf95c99b7f827be0c83",
+      "scrubbed": true
+    },
+    {
+      "file": "planets_r32_1102/PROTOCOL.md",
+      "source_sha256": "823f33953414104972294d2775c52edcfea7e92372169cb9f76719d9f257b729",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/verify.py",
+      "source_sha256": "e395926b00fa6fd7c4173ec5090ea9c49ca290214be80f83300d7f849981a8ee",
+      "scrubbed": true
+    },
+    {
+      "file": "planets_r32_1102/DEVIATIONS.md",
+      "source_sha256": "fffc0f10c6b2cd4b21a6df83832700d32ad3ffd4dc0248ea294c27968f3408de",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/COMPLETENESS_CORRECTION.md",
+      "source_sha256": "a7881259e7fef313a8a5581774559fc61893c133fcd40de580d5723907eb03ed",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/quarter_table.csv",
+      "source_sha256": "a53a9ec642cac9d0b390ed14b578a0a5a78b220fe2fde087b2f1dcd435385083",
+      "scrubbed": true,
+      "whitespace_normalization": "CRLF to LF and trailing whitespace removed; numerical tokens unchanged."
+    },
+    {
+      "file": "planets_r32_1102/freeze_commit.txt",
+      "source_sha256": "a6ff24b39680c9a2f5fa9e1cb7d417324d45c4399819559792ecc78f4360f59b",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/completeness_commit.txt",
+      "source_sha256": "78ff013f2a358d299bd39f06da1ae02b899c7901c8ca4f07b58ac2634bf74a59",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/outputs/apertures.json",
+      "source_sha256": "9f94a385423f592960919177609160633b1981beb0c847479077b55b95d885d6",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/outputs/attachment_review.json",
+      "source_sha256": "4244338caa4454d24be95bc566d7fb4170a999fda9fe41f6867ec6902c4f7aba",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/outputs/before_gate_flux.json",
+      "source_sha256": "2e9a978ca88780627f33a1aa16662072919f8b873d98f140bdfcc4b2c464966c",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/outputs/before_q0_gate_flux.json",
+      "source_sha256": "ca5593de9f88d0fc24bc09ec1b0684a739fa8a579d99c9da7833e515eb9987e1",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/outputs/before_q0_real_flux.json",
+      "source_sha256": "654cabce330626dcaf6e59403bf6632fc9c6365f24420c7567c7770448c89bc2",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/outputs/before_real_flux.json",
+      "source_sha256": "65345a42d38e18b82d4116713d355951b40dae7dc66e2c155a1e9ba241ced5c2",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/outputs/completed_gate.json",
+      "source_sha256": "03eba8b10a04dd54b0d3032e4d4760d0e98eb730aec91a6e2fb7b6b768c21769",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/outputs/completed_real.json",
+      "source_sha256": "993ea259cc1dc332ec52a11543cba1e71a3d4d6c65603252b02fe0ff48708067",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/outputs/design.json",
+      "source_sha256": "4b4d27fa275273fd7269d3110d7dffd8531d370d2f03adcfb7fafcf9ed4f4530",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/outputs/gate.json",
+      "source_sha256": "ac2086e7922b8c76b4a85e1f290097fa0c166d20c764a1b6138f986f38826e51",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/outputs/real.json",
+      "source_sha256": "35840c63d502b047f8fa81c8ed5ccfb1d48e5a25e83214ed558d756179e885e4",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/outputs/summary.json",
+      "source_sha256": "d21c622c91941b81ed94b323f1d95e9a3d351fd2041f5b4d2262fec1a2e055d6",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/outputs/synthetic.json",
+      "source_sha256": "ee75a9f389c044cb2790e91ac2159a91047777d788ab4d6817b2346cf54b45e2",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/outputs/verification.json",
+      "source_sha256": "a77f795ebc075f4a9b2cb03c6b2b4592c6c58af587bf6bc18e09e474fc686253",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/outputs/verification_completed_gate.json",
+      "source_sha256": "5f068d18d71413a216dc56bef152d95bb40f422dffc0e73f2571bb3ecf6a76e4",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/outputs/verification_gate.json",
+      "source_sha256": "a18c6836a020fd367b363e275a8f7300b82ce410df310ad4640dd5848669b33b",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r32_1102/outputs/verification_initial.json",
+      "source_sha256": "7d008fbe0eab9d61def66ef6a47fffc603873d24275b8aa73f1456db8b8323db",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/REPORT.md",
+      "source_sha256": "fe689700a0f62bb7e6ffdb84efd185f36b0c9c94809075d58ae266e473ba7f83",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/PROTOCOL.md",
+      "source_sha256": "e2c1f3cc8c47e9ae2af5d122788145f8d33f196d709ef9df74fb6b333f24d623",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/verify.py",
+      "source_sha256": "b412e0df3a822987b25036d58b5570a2d4547ccd5322215ea75140ed3e38ce3b",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/PLAN.json",
+      "source_sha256": "5de97a72a5b26a9017310a34e9f5b0d5015bb79c5df8d51940e367be168d2d60",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/SUPPLEMENT_PROTOCOL.md",
+      "source_sha256": "8ccdf1198a75585a4e9a3eeb328e935463e8c37ab2eb58d03a353225ed28df14",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/freeze_commit.txt",
+      "source_sha256": "3d250c2b230c9f049dbfecd957938c4244642bf096eea9fb686d73491757f3fd",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/prediction_commit.txt",
+      "source_sha256": "21668ff853ab72943f2acb4f8564b3c3e0a865eb7ea547d25fa44589ae0e6abd",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/supplement_commit.txt",
+      "source_sha256": "ddfa238d09a74425b67da7e77089caf4de31bdd029da67d29d93476ce89983ee",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/outputs/EB_TESS.json",
+      "source_sha256": "d0900ccffd3a51f621d6c82e091989eb9cd38f5f392a84762c7e47b8a81c140a",
+      "scrubbed": true
+    },
+    {
+      "file": "planets_r36_1102/outputs/EB_TESS_s0014_events.json",
+      "source_sha256": "c20ce99220ece84c099a2c6c2fb80fa05ffa796828f7a449e460bcb99bb54d4a",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/outputs/EB_TESS_s0015_events.json",
+      "source_sha256": "5f8ebb240a398e530233e66908a5b084747639536d62b3dff7cdb65eeffe2918",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/outputs/E_injections.json",
+      "source_sha256": "6976fb78adce2d4687d6d462976cb952b21cda36943c9840f20b7ecbfe6e72c8",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/outputs/E_supplement.json",
+      "source_sha256": "0d3c3a815fdaf41776b1350772547f24f2ec6b25247f01a6aa529795614729a5",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/outputs/R.json",
+      "source_sha256": "07344ebd739b910479d815afa279347bbfcdd08a0168cf042cc2391cc2c006bd",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/outputs/R_events.json",
+      "source_sha256": "ebbd5611d75fd1f87bd5d36fcfff3c7e59e73ee64c87da2a299fa21739ae0daa",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/outputs/R_supplement.json",
+      "source_sha256": "625c7a11ad197eb1dd883671f967bb1d3d36cbac5f72a66a0b5928296b4f0f92",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/outputs/S_real_events.json",
+      "source_sha256": "e90f2ca711a7c86c66caa34ba4562f3cde9c39324f1943cafcc8158332487f8f",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/outputs/acceptance.json",
+      "source_sha256": "21db862fcff89375354992c3ff7e5265705a2048612a0e70e9cebbb6a0b32c7b",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/outputs/first_flux.json",
+      "source_sha256": "76978d1f3c3d2049b9288f14b18a070e0f16730a8001ad175ebd5ff862e7dcd4",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/outputs/kepler_events.json",
+      "source_sha256": "19abd4f1be5c08814cb99fd89fb9fa9d1a859ac153fcb43cd3d1a09f5dc0a506",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/outputs/kepler_summary.json",
+      "source_sha256": "3a49056739cf794b5af14efe2b22372878838606bfb8ae0da584befe94774947",
+      "scrubbed": true
+    },
+    {
+      "file": "planets_r36_1102/outputs/phases.json",
+      "source_sha256": "3294202e0c102b6b27e11fbe4184fbae072ca649648b90c2f245adbf9b265d86",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/outputs/real.json",
+      "source_sha256": "d26f197521618bc64b05365ea4391f9f9bd923fa9d1bec723540c941591828d8",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/outputs/stars.json",
+      "source_sha256": "9737907aad3ade311d49b57bf5b066e7949767ec43d18743af5d5c2c122f3ad1",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/outputs/supplement_phases.json",
+      "source_sha256": "6763e0783c9122072fb9adef7c48c80895cc72a4e8112be1691fd30ce282aa5b",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/outputs/synthetic.json",
+      "source_sha256": "fbbba6440fd0cf1f3945015095c6567daa925cbef289262ad42456f6c588b0bd",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r36_1102/outputs/verification.json",
+      "source_sha256": "46e559ba29c719459b2389b7cd40db80cba0fbeb56b790a2df4c0104ee7cc20b",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r37_1102/REPORT.md",
+      "source_sha256": "0889dae0707d1e50fd059c05d1c27d7546b1e3957fed7a1e31b5fa09561a455b",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r37_1102/PROTOCOL.md",
+      "source_sha256": "a91916d15b7bbf2dc38ad2f4fbd73864bcce8d05a15f54782b4fd460a402d892",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r37_1102/verify.py",
+      "source_sha256": "0bf85af768e9a839e8fca44b48165a348034624d59fa5cf5a904d1a48cb92c16",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r37_1102/DESIGN.json",
+      "source_sha256": "0712c029d3f8c6d711e16dba3ef98a738cf3a7042e6ad1b787c13b2858976d59",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r37_1102/freeze_commit.txt",
+      "source_sha256": "47e6a5385cbed517a551df4692b46d4675876821a5bfcb0249fbecabc24da0ad",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r37_1102/design_commit.txt",
+      "source_sha256": "9a0782214da7ec036f99f5ac82a1639e81a5167ce4485b2e22ad65ab358b202d",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r37_1102/outputs/acceptance.json",
+      "source_sha256": "9ee8ed40c0a083bf718145068532caeb8204febef0b1624692289b15bdb8744e",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r37_1102/outputs/baseline.json",
+      "source_sha256": "be5600bf067d324f06092403bde541dcdaa7a01e8274c45700f0a7d84db14751",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r37_1102/outputs/completed.json",
+      "source_sha256": "124ded1b60b36bb46bd3db48a0528e00cfef54032d796889a6cf089b7e947a6d",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r37_1102/outputs/first_flux.json",
+      "source_sha256": "499903e12bd063ebaf8873e34e514f988067d0764b0f4d845d00bd7704853575",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r37_1102/outputs/real.json",
+      "source_sha256": "b7d3295c5f8b4bcebf91971b7755b0a21484add5a0e649277717e9a96bd07904",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r37_1102/outputs/synthetic.json",
+      "source_sha256": "37beb14a22165490d449140dceaddcaf8b97945c4fdfbaef09e133edadd9fa32",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r37_1102/outputs/verification.json",
+      "source_sha256": "24e91746e7247ed965560d0bc768e22fc5614ab305db7f4ad44a686f346ef413",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r38_1102/REPORT.md",
+      "source_sha256": "3fabafb3fa7edab9d526aa6485e44a710cf2819731c92d8f9de5744f4432bcc6",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r38_1102/PROTOCOL.md",
+      "source_sha256": "409715eb729c1e35ef3fc94a97357e74e3abe8ab1147f1aed18cc36a4e8277e7",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r38_1102/verify.py",
+      "source_sha256": "2255f2994f5a38423c1c6842d59204d886ac785d4bdef0ad018d2806e909f706",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r38_1102/DESIGN.json",
+      "source_sha256": "0cc724258f971e1c10e1cd7d2a68a01da48e8c1fec5aacab052586d912b75704",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r38_1102/freeze_commit.txt",
+      "source_sha256": "9051aa98f3734f8bf741d09fd04fecfb31f75e1598cd8e9f07dd99ee69556b10",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r38_1102/design_commit.txt",
+      "source_sha256": "842b0c6b8f1b51e0013187961836e3207852bb09cbcf4f101d7a26fe25da6dda",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r38_1102/outputs/acceptance.json",
+      "source_sha256": "e929f056b511df34a1fda9a2997c472ff5306b95a61b8a9d0947aaf8a785430d",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r38_1102/outputs/baseline.json",
+      "source_sha256": "e276fc6f58fe5e6afc72b9215c07f786d1155d4f64c9ae553a3d91a6c2dc7b8e",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r38_1102/outputs/completed.json",
+      "source_sha256": "0083fddd9748640b0f379c3d6368c754ae9200b7cbe1fa8705af09316ab90094",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r38_1102/outputs/first_numeric_lc1.json",
+      "source_sha256": "8bd9423c252bc98c92f252510a5e89ccc26b02557afc28866243ba4edfb0ba07",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r38_1102/outputs/real.json",
+      "source_sha256": "df0744581e75ecad4eec90f4b2836266b31d5a8ff5f3331c742c7c37dc779fd5",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r38_1102/outputs/synthetic.json",
+      "source_sha256": "3178d0d62a9b2a83d555e0829e282ccd52baefa179d8dd7978d85dfd2f2ff985",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r38_1102/outputs/verification.json",
+      "source_sha256": "3b81052bed7873a1bfc923900b06ec3d3bb49c61e2136b9bea8be6ca4b2de96c",
+      "scrubbed": false
+    },
+    {
+      "file": "planets_r37_1102/outputs/injections_summary.json",
+      "source_sha256": "dfb924f22cec55414e8d00f38b5242e19a916971996add10e2c7aa710d576e2f",
+      "projection": "All original keys and values except trials/*/*/events; original exceeded size limit."
+    },
+    {
+      "file": "planets_r38_1102/outputs/injections_summary.json",
+      "source_sha256": "4164636b19a32f602095934ff4141ef9ae56e721ac282afbeb4aed63f9bff1b1",
+      "projection": "All original keys and values except trials/*/*/events; original exceeded size limit."
+    }
+  ],
+  "excluded_oversized_json": [
+    {
+      "job": "planets_r36_1102",
+      "file": "outputs/R_supplement_events.json",
+      "bytes": 4010270,
+      "sha256": "999858e06990bc589016c1454234c094f7817d059723d26912c1fc01ec08d3f6",
+      "reason": "at or above the per-file size limit"
+    },
+    {
+      "job": "planets_r37_1102",
+      "file": "outputs/injections.json",
+      "bytes": 2104165,
+      "sha256": "dfb924f22cec55414e8d00f38b5242e19a916971996add10e2c7aa710d576e2f",
+      "reason": "at or above the per-file size limit"
+    },
+    {
+      "job": "planets_r38_1102",
+      "file": "outputs/injections.json",
+      "bytes": 2005637,
+      "sha256": "4164636b19a32f602095934ff4141ef9ae56e721ac282afbeb4aed63f9bff1b1",
+      "reason": "at or above the per-file size limit"
+    }
+  ],
+  "missing_original_files": {
+    "planets_r29_1102": [
+      "PROTOCOL.md",
+      "verify.py"
+    ]
+  },
+  "omissions": "FITS, downloaded source data, caches, logs, environments, binary arrays and original job git histories are not bundled."
+}

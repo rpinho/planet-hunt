@@ -1,0 +1,17 @@
+{
+  "python": "3.12.13 (main, Jun 23 2026, 15:44:24) [Clang 22.1.3 ]",
+  "executable": "../planets_r30_1102/.venv/bin/python",
+  "platform": "macOS-26.7.2-arm64-arm-64bit",
+  "numpy": "2.5.4",
+  "scipy": "1.18.1",
+  "numpy_path": "../.venv/lib/python3.12/site-packages/numpy/__init__.py",
+  "scipy_path": "../.venv/lib/python3.12/site-packages/scipy/__init__.py",
+  "threads": {
+    "OPENBLAS_NUM_THREADS": "1",
+    "OMP_NUM_THREADS": "1",
+    "MKL_NUM_THREADS": "1",
+    "VECLIB_MAXIMUM_THREADS": "1"
+  },
+  "pid": 64002,
+  "nice": 20
+}

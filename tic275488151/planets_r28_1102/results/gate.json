@@ -1,0 +1,128 @@
+{
+  "utc": "2026-11-02T10:48:57.423671+00:00",
+  "per_target": [
+    {
+      "ctoi": "27233531.01",
+      "controls_available": 50,
+      "controls_expected": 50,
+      "recalled": 90,
+      "trials": 100,
+      "recall": 0.9,
+      "gate_pass": true,
+      "errors": []
+    },
+    {
+      "ctoi": "63069576.01",
+      "controls_available": 50,
+      "controls_expected": 50,
+      "recalled": 96,
+      "trials": 100,
+      "recall": 0.96,
+      "gate_pass": true,
+      "errors": []
+    },
+    {
+      "ctoi": "63120478.01",
+      "controls_available": 50,
+      "controls_expected": 50,
+      "recalled": 95,
+      "trials": 100,
+      "recall": 0.95,
+      "gate_pass": true,
+      "errors": []
+    },
+    {
+      "ctoi": "120355606.01",
+      "controls_available": 50,
+      "controls_expected": 50,
+      "recalled": 90,
+      "trials": 100,
+      "recall": 0.9,
+      "gate_pass": true,
+      "errors": []
+    },
+    {
+      "ctoi": "120963388.01",
+      "controls_available": 50,
+      "controls_expected": 50,
+      "recalled": 77,
+      "trials": 100,
+      "recall": 0.77,
+      "gate_pass": false,
+      "errors": []
+    },
+    {
+      "ctoi": "122673562.01",
+      "controls_available": 50,
+      "controls_expected": 50,
+      "recalled": 76,
+      "trials": 100,
+      "recall": 0.76,
+      "gate_pass": false,
+      "errors": []
+    },
+    {
+      "ctoi": "123125197.01",
+      "controls_available": 50,
+      "controls_expected": 50,
+      "recalled": 86,
+      "trials": 100,
+      "recall": 0.86,
+      "gate_pass": false,
+      "errors": []
+    },
+    {
+      "ctoi": "158984285.01",
+      "controls_available": 50,
+      "controls_expected": 50,
+      "recalled": 60,
+      "trials": 100,
+      "recall": 0.6,
+      "gate_pass": false,
+      "errors": []
+    },
+    {
+      "ctoi": "185336364.01",
+      "controls_available": 50,
+      "controls_expected": 50,
+      "recalled": 64,
+      "trials": 100,
+      "recall": 0.64,
+      "gate_pass": false,
+      "errors": []
+    },
+    {
+      "ctoi": "275488151.01",
+      "controls_available": 50,
+      "controls_expected": 50,
+      "recalled": 74,
+      "trials": 100,
+      "recall": 0.74,
+      "gate_pass": false,
+      "errors": []
+    },
+    {
+      "ctoi": "351189201.01",
+      "controls_available": 50,
+      "controls_expected": 50,
+      "recalled": 94,
+      "trials": 100,
+      "recall": 0.94,
+      "gate_pass": true,
+      "errors": []
+    },
+    {
+      "ctoi": "399793914.01",
+      "controls_available": 50,
+      "controls_expected": 50,
+      "recalled": 52,
+      "trials": 100,
+      "recall": 0.52,
+      "gate_pass": false,
+      "errors": []
+    }
+  ],
+  "known_recovered": 5,
+  "known_total": 5,
+  "known_gate_pass": true
+}

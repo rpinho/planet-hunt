@@ -1,0 +1,721 @@
+{
+  "utc": "2026-11-02T14:13:13.594515+00:00",
+  "DIAmante_flux_read": false,
+  "protocol_sha256": "e2c1f3cc8c47e9ae2af5d122788145f8d33f196d709ef9df74fb6b333f24d623",
+  "flux_columns_1based": [
+    6,
+    13,
+    20,
+    27
+  ],
+  "error_columns_1based": [
+    7,
+    14,
+    21,
+    28
+  ],
+  "quality_columns_1based": [
+    8,
+    15,
+    22,
+    29
+  ],
+  "EB": {
+    "period": 3.0305267,
+    "epoch_BJD": 2454967.124438
+  },
+  "CTOI": {
+    "period": 3.02553,
+    "epoch_BJD": 2458682.5504
+  },
+  "sectors": [
+    {
+      "sector": 14,
+      "time_count": 1241,
+      "target_xy": [
+        7.79354471453542,
+        7.874874018684224
+      ],
+      "eb_xy": [
+        5.436730018592442,
+        11.056671830636386
+      ],
+      "separation": 3.9595975587370438,
+      "aperture_flat": [
+        [
+          113,
+          127,
+          128
+        ],
+        [
+          98,
+          111,
+          112,
+          113,
+          114,
+          126,
+          127,
+          128,
+          129,
+          142,
+          143,
+          144
+        ],
+        [
+          82,
+          83,
+          96,
+          97,
+          98,
+          99,
+          100,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          141,
+          142,
+          143,
+          144,
+          145,
+          156,
+          157,
+          158,
+          159
+        ],
+        [
+          67,
+          68,
+          81,
+          82,
+          83,
+          84,
+          85,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          161,
+          171,
+          172,
+          173,
+          174,
+          175
+        ]
+      ],
+      "scene_flux_relative_target": [
+        0.7482397128552423,
+        1.4769518249550488,
+        2.114956436336382,
+        3.0663691626514233
+      ],
+      "target_flux_fraction": [
+        0.7318627198927298,
+        0.5744440133236971,
+        0.44906798212644333,
+        0.31978402915642834
+      ],
+      "eb_flux_fraction": [
+        0.00022805635319398556,
+        0.0008428308609472404,
+        0.004888222185802367,
+        0.012235107367516413
+      ],
+      "L": [
+        0.00010136114805584611,
+        0.0003746017266611387,
+        0.002172602542159972,
+        0.005437974044525374
+      ],
+      "secondary": [
+        4.4951951542079516e-05,
+        0.00016612951794086958,
+        0.0009635124114968133,
+        0.0024116493392706
+      ],
+      "target_throughput": [
+        0.5476087513819927,
+        0.8484261338129369,
+        0.9497592191509127,
+        0.9805758857136955
+      ],
+      "prf_files": [
+        {
+          "file": "sources/prfs/tess2019107181901-prf-2-4-row1025-col0045.fits",
+          "weight": 0.402223264689238,
+          "row": 1025,
+          "col": 45,
+          "header": {
+            "SIMPLE": true,
+            "BITPIX": -64,
+            "NAXIS": 2,
+            "NAXIS1": 117,
+            "NAXIS2": 117,
+            "EXTEND": true,
+            "ORIGIN": "MIT",
+            "DATE": "01-May-2019",
+            "DATATYPE": "PRF",
+            "TELESCOP": "TESS",
+            "VERSION": "UPDATED_2.0",
+            "CAM": 2.0,
+            "CCD": 4.0,
+            "CCD_RREF": 1025.0,
+            "CCD_CREF": 45.0,
+            "NSAMP": 9.0,
+            "PRF_RES": 2.35,
+            "WCSNAMEP": "PHYSICAL",
+            "WCSAXESP": 2.0,
+            "CTYPE1P": "RAWX",
+            "CUNIT1P": "PIXEL",
+            "CRPIX1P": 59.0,
+            "CRVAL1P": 45.0,
+            "CDELT1P": 0.111111111111111,
+            "CTYPE2P": "RAWY",
+            "CUNIT2P": "PIXEL",
+            "CRPIX2P": 59.0,
+            "CRVAL2P": 1025.0,
+            "CDELT2P": 0.111111111111111
+          }
+        },
+        {
+          "file": "sources/prfs/tess2019107181901-prf-2-4-row1025-col0557.fits",
+          "weight": 0.49625940655141904,
+          "row": 1025,
+          "col": 557,
+          "header": {
+            "SIMPLE": true,
+            "BITPIX": -64,
+            "NAXIS": 2,
+            "NAXIS1": 117,
+            "NAXIS2": 117,
+            "EXTEND": true,
+            "ORIGIN": "MIT",
+            "DATE": "01-May-2019",
+            "DATATYPE": "PRF",
+            "TELESCOP": "TESS",
+            "VERSION": "UPDATED_2.0",
+            "CAM": 2.0,
+            "CCD": 4.0,
+            "CCD_RREF": 1025.0,
+            "CCD_CREF": 557.0,
+            "NSAMP": 9.0,
+            "PRF_RES": 2.35,
+            "WCSNAMEP": "PHYSICAL",
+            "WCSAXESP": 2.0,
+            "CTYPE1P": "RAWX",
+            "CUNIT1P": "PIXEL",
+            "CRPIX1P": 59.0,
+            "CRVAL1P": 557.0,
+            "CDELT1P": 0.111111111111111,
+            "CTYPE2P": "RAWY",
+            "CUNIT2P": "PIXEL",
+            "CRPIX2P": 59.0,
+            "CRVAL2P": 1025.0,
+            "CDELT2P": 0.111111111111111
+          }
+        },
+        {
+          "file": "sources/prfs/tess2019107181901-prf-2-4-row1536-col0045.fits",
+          "weight": 0.04544620915140241,
+          "row": 1536,
+          "col": 45,
+          "header": {
+            "SIMPLE": true,
+            "BITPIX": -64,
+            "NAXIS": 2,
+            "NAXIS1": 117,
+            "NAXIS2": 117,
+            "EXTEND": true,
+            "ORIGIN": "MIT",
+            "DATE": "01-May-2019",
+            "DATATYPE": "PRF",
+            "TELESCOP": "TESS",
+            "VERSION": "UPDATED_2.0",
+            "CAM": 2.0,
+            "CCD": 4.0,
+            "CCD_RREF": 1536.0,
+            "CCD_CREF": 45.0,
+            "NSAMP": 9.0,
+            "PRF_RES": 2.35,
+            "WCSNAMEP": "PHYSICAL",
+            "WCSAXESP": 2.0,
+            "CTYPE1P": "RAWX",
+            "CUNIT1P": "PIXEL",
+            "CRPIX1P": 59.0,
+            "CRVAL1P": 45.0,
+            "CDELT1P": 0.111111111111111,
+            "CTYPE2P": "RAWY",
+            "CUNIT2P": "PIXEL",
+            "CRPIX2P": 59.0,
+            "CRVAL2P": 1536.0,
+            "CDELT2P": 0.111111111111111
+          }
+        },
+        {
+          "file": "sources/prfs/tess2019107181901-prf-2-4-row1536-col0557.fits",
+          "weight": 0.05607111960794064,
+          "row": 1536,
+          "col": 557,
+          "header": {
+            "SIMPLE": true,
+            "BITPIX": -64,
+            "NAXIS": 2,
+            "NAXIS1": 117,
+            "NAXIS2": 117,
+            "EXTEND": true,
+            "ORIGIN": "MIT",
+            "DATE": "01-May-2019",
+            "DATATYPE": "PRF",
+            "TELESCOP": "TESS",
+            "VERSION": "UPDATED_2.0",
+            "CAM": 2.0,
+            "CCD": 4.0,
+            "CCD_RREF": 1536.0,
+            "CCD_CREF": 557.0,
+            "NSAMP": 9.0,
+            "PRF_RES": 2.35,
+            "WCSNAMEP": "PHYSICAL",
+            "WCSAXESP": 2.0,
+            "CTYPE1P": "RAWX",
+            "CUNIT1P": "PIXEL",
+            "CRPIX1P": 59.0,
+            "CRVAL1P": 557.0,
+            "CDELT1P": 0.111111111111111,
+            "CTYPE2P": "RAWY",
+            "CUNIT2P": "PIXEL",
+            "CRPIX2P": 59.0,
+            "CRVAL2P": 1536.0,
+            "CDELT2P": 0.111111111111111
+          }
+        }
+      ]
+    },
+    {
+      "sector": 15,
+      "time_count": 1197,
+      "target_xy": [
+        7.57626665299292,
+        7.855059797122994
+      ],
+      "eb_xy": [
+        6.803049122135389,
+        11.750054667610023
+      ],
+      "separation": 3.9710011824659137,
+      "aperture_flat": [
+        [
+          113,
+          127,
+          128
+        ],
+        [
+          97,
+          98,
+          111,
+          112,
+          113,
+          114,
+          126,
+          127,
+          128,
+          129,
+          141,
+          142,
+          143,
+          144
+        ],
+        [
+          82,
+          83,
+          96,
+          97,
+          98,
+          99,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          156,
+          157,
+          158,
+          159
+        ],
+        [
+          67,
+          68,
+          80,
+          81,
+          82,
+          83,
+          84,
+          85,
+          95,
+          96,
+          97,
+          98,
+          99,
+          100,
+          101,
+          109,
+          110,
+          111,
+          112,
+          113,
+          114,
+          115,
+          116,
+          124,
+          125,
+          126,
+          127,
+          128,
+          129,
+          130,
+          131,
+          139,
+          140,
+          141,
+          142,
+          143,
+          144,
+          145,
+          146,
+          155,
+          156,
+          157,
+          158,
+          159,
+          160,
+          171,
+          172,
+          173,
+          174,
+          175
+        ]
+      ],
+      "scene_flux_relative_target": [
+        0.5986850616318616,
+        1.5471063918352073,
+        2.0494295638365423,
+        2.957052489724589
+      ],
+      "target_flux_fraction": [
+        0.7592495610276772,
+        0.5306347441211228,
+        0.4495169167202101,
+        0.3281484842360132
+      ],
+      "eb_flux_fraction": [
+        0.00010988661695750745,
+        0.0006171791134181029,
+        0.0031511746605687994,
+        0.010407812777813172
+      ],
+      "L": [
+        4.883983057166463e-05,
+        0.000274309321428709,
+        0.0014005603301393504,
+        0.004625820930373756
+      ],
+      "secondary": [
+        2.165963724060461e-05,
+        0.00012165153573053725,
+        0.0006211247731477505,
+        0.0020514731955278507
+      ],
+      "target_throughput": [
+        0.4545513702378188,
+        0.8209484043596287,
+        0.9212532585710475,
+        0.970352292309453
+      ],
+      "prf_files": [
+        {
+          "file": "sources/prfs/tess2019107181901-prf-2-3-row1025-col0557.fits",
+          "weight": 0.3029552428514645,
+          "row": 1025,
+          "col": 557,
+          "header": {
+            "SIMPLE": true,
+            "BITPIX": -64,
+            "NAXIS": 2,
+            "NAXIS1": 117,
+            "NAXIS2": 117,
+            "EXTEND": true,
+            "ORIGIN": "MIT",
+            "DATE": "01-May-2019",
+            "DATATYPE": "PRF",
+            "TELESCOP": "TESS",
+            "VERSION": "UPDATED_2.0",
+            "CAM": 2.0,
+            "CCD": 3.0,
+            "CCD_RREF": 1025.0,
+            "CCD_CREF": 557.0,
+            "NSAMP": 9.0,
+            "PRF_RES": 2.35,
+            "WCSNAMEP": "PHYSICAL",
+            "WCSAXESP": 2.0,
+            "CTYPE1P": "RAWX",
+            "CUNIT1P": "PIXEL",
+            "CRPIX1P": 59.0,
+            "CRVAL1P": 557.0,
+            "CDELT1P": 0.111111111111111,
+            "CTYPE2P": "RAWY",
+            "CUNIT2P": "PIXEL",
+            "CRPIX2P": 59.0,
+            "CRVAL2P": 1025.0,
+            "CDELT2P": 0.111111111111111
+          }
+        },
+        {
+          "file": "sources/prfs/tess2019107181901-prf-2-3-row1025-col1069.fits",
+          "weight": 0.14351102280896716,
+          "row": 1025,
+          "col": 1069,
+          "header": {
+            "SIMPLE": true,
+            "BITPIX": -64,
+            "NAXIS": 2,
+            "NAXIS1": 117,
+            "NAXIS2": 117,
+            "EXTEND": true,
+            "ORIGIN": "MIT",
+            "DATE": "01-May-2019",
+            "DATATYPE": "PRF",
+            "TELESCOP": "TESS",
+            "VERSION": "UPDATED_2.0",
+            "CAM": 2.0,
+            "CCD": 3.0,
+            "CCD_RREF": 1025.0,
+            "CCD_CREF": 1069.0,
+            "NSAMP": 9.0,
+            "PRF_RES": 2.35,
+            "WCSNAMEP": "PHYSICAL",
+            "WCSAXESP": 2.0,
+            "CTYPE1P": "RAWX",
+            "CUNIT1P": "PIXEL",
+            "CRPIX1P": 59.0,
+            "CRVAL1P": 1069.0,
+            "CDELT1P": 0.111111111111111,
+            "CTYPE2P": "RAWY",
+            "CUNIT2P": "PIXEL",
+            "CRPIX2P": 59.0,
+            "CRVAL2P": 1025.0,
+            "CDELT2P": 0.111111111111111
+          }
+        },
+        {
+          "file": "sources/prfs/tess2019107181901-prf-2-3-row1536-col0557.fits",
+          "weight": 0.37560720666153596,
+          "row": 1536,
+          "col": 557,
+          "header": {
+            "SIMPLE": true,
+            "BITPIX": -64,
+            "NAXIS": 2,
+            "NAXIS1": 117,
+            "NAXIS2": 117,
+            "EXTEND": true,
+            "ORIGIN": "MIT",
+            "DATE": "01-May-2019",
+            "DATATYPE": "PRF",
+            "TELESCOP": "TESS",
+            "VERSION": "UPDATED_2.0",
+            "CAM": 2.0,
+            "CCD": 3.0,
+            "CCD_RREF": 1536.0,
+            "CCD_CREF": 557.0,
+            "NSAMP": 9.0,
+            "PRF_RES": 2.35,
+            "WCSNAMEP": "PHYSICAL",
+            "WCSAXESP": 2.0,
+            "CTYPE1P": "RAWX",
+            "CUNIT1P": "PIXEL",
+            "CRPIX1P": 59.0,
+            "CRVAL1P": 557.0,
+            "CDELT1P": 0.111111111111111,
+            "CTYPE2P": "RAWY",
+            "CUNIT2P": "PIXEL",
+            "CRPIX2P": 59.0,
+            "CRVAL2P": 1536.0,
+            "CDELT2P": 0.111111111111111
+          }
+        },
+        {
+          "file": "sources/prfs/tess2019107181901-prf-2-3-row1536-col1069.fits",
+          "weight": 0.17792652767803235,
+          "row": 1536,
+          "col": 1069,
+          "header": {
+            "SIMPLE": true,
+            "BITPIX": -64,
+            "NAXIS": 2,
+            "NAXIS1": 117,
+            "NAXIS2": 117,
+            "EXTEND": true,
+            "ORIGIN": "MIT",
+            "DATE": "01-May-2019",
+            "DATATYPE": "PRF",
+            "TELESCOP": "TESS",
+            "VERSION": "UPDATED_2.0",
+            "CAM": 2.0,
+            "CCD": 3.0,
+            "CCD_RREF": 1536.0,
+            "CCD_CREF": 1069.0,
+            "NSAMP": 9.0,
+            "PRF_RES": 2.35,
+            "WCSNAMEP": "PHYSICAL",
+            "WCSAXESP": 2.0,
+            "CTYPE1P": "RAWX",
+            "CUNIT1P": "PIXEL",
+            "CRPIX1P": 59.0,
+            "CRVAL1P": 1069.0,
+            "CDELT1P": 0.111111111111111,
+            "CTYPE2P": "RAWY",
+            "CUNIT2P": "PIXEL",
+            "CRPIX2P": 59.0,
+            "CRVAL2P": 1536.0,
+            "CDELT2P": 0.111111111111111
+          }
+        }
+      ]
+    }
+  ],
+  "sector_weights": [
+    0.5090237899917965,
+    0.49097621000820346
+  ],
+  "L": [
+    7.55744306528251e-05,
+    0.0003253605416475134,
+    0.0017935481829357374,
+    0.005039226186592852
+  ],
+  "T": [
+    0.0007521365955518444,
+    0.000558,
+    0.00045340421624645805,
+    0.0003268578594885963
+  ],
+  "secondary": [
+    3.3515979344021495e-05,
+    0.00014429188680642832,
+    0.0007954082264665311,
+    0.002234811421280415
+  ],
+  "L_R41": 66.67898313044687,
+  "T_R41": 0.4345724718377516,
+  "kepler": {
+    "primary": {
+      "n_events": 418,
+      "depth": [
+        0.4444565855599206
+      ],
+      "covariance": [
+        [
+          1.2329286793534286e-05
+        ]
+      ],
+      "formal_covariance": [
+        [
+          9.140381879825826e-09
+        ]
+      ],
+      "chi2": [
+        562483.3470307662
+      ],
+      "inflation": [
+        1348.8809281313338
+      ],
+      "error": [
+        0.0035113084161796848
+      ]
+    },
+    "secondary": {
+      "n_events": 416,
+      "depth": [
+        0.19710896413327816
+      ],
+      "covariance": [
+        [
+          5.752424503452903e-07
+        ]
+      ],
+      "formal_covariance": [
+        [
+          3.9818969748168255e-08
+        ]
+      ],
+      "chi2": [
+        5995.273569434259
+      ],
+      "inflation": [
+        14.446442335986166
+      ],
+      "error": [
+        0.000758447394580066
+      ]
+    }
+  },
+  "predictions_assumptions": [
+    "Tmag flux weighting of all retained field stars with Tmag",
+    "Kepler mean-window eclipse contrast transferred without color correction",
+    "Pixel-centre circular aperture; no DIAmante pipeline transfer calibration",
+    "S14/S15 time-count weighting before quality or flux access"
+  ]
+}

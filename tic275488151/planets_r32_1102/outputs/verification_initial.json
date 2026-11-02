@@ -1,0 +1,55 @@
+{
+  "utc": "2026-11-02T12:49:45.619532+00:00",
+  "verified": true,
+  "precision_digits": 70,
+  "thresholds": "exact rational squared inequalities from 70-digit reconstructed stack",
+  "gate_counts": {
+    "injection": 200,
+    "null": 200
+  },
+  "gate_denominators": {
+    "injection": 200,
+    "null": 200
+  },
+  "gate_pass": true,
+  "gate_events": 163245,
+  "bar_K": true,
+  "claim_permitted": true,
+  "freeze_commit": "4d44f169b675842e113db3adcc807d794527aa9e",
+  "phases_regenerated": 400,
+  "input_LLC_hashes": 17,
+  "gate_sha256": "ac2086e7922b8c76b4a85e1f290097fa0c166d20c764a1b6138f986f38826e51",
+  "verifier_sha256": "cd905d2521a3a9c1bc42a94d64ea0892aee0dc6d752ccafa90b42854fed88e4d",
+  "real": {
+    "primary": {
+      "n": 421,
+      "d": 6.858991211132649e-08,
+      "v": 6.633193773109765e-12,
+      "chi": 1141.1590336119825,
+      "infl": 2.717045318123768,
+      "upper": 7.145497415251566e-06,
+      "z": 0.02663170087289979
+    },
+    "secondary": {
+      "n": 414,
+      "d": 1.6241167570995062e-06,
+      "v": 6.4229649126544024e-12,
+      "chi": 1045.5352402233623,
+      "infl": 2.5315623249960346,
+      "upper": 8.587975479708912e-06,
+      "z": 0.6408397945320605
+    }
+  },
+  "real_events": 835,
+  "real_sha256": "35840c63d502b047f8fa81c8ed5ccfb1d48e5a25e83214ed558d756179e885e4",
+  "geometry_network": {
+    "quarters": 17,
+    "seasons": 4,
+    "target_inside": 17,
+    "eb_outside": 17,
+    "eb_distance_min_px": 16.833026828656745,
+    "eb_distance_max_px": 18.557129274916782,
+    "public_GET_attempts": 56,
+    "minimum_start_spacing_s": 5.000828981399536
+  }
+}

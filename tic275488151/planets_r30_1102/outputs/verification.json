@@ -1,0 +1,22 @@
+{
+  "verified": true,
+  "utc": "2026-11-02T12:12:34.575004+00:00",
+  "freeze_commit": "f991d095689455bd69b9461578970d1b8c0feae6",
+  "aperture_sha256": "b31f3ff290244fa4744158c9e0127f0d62508a0c09255af945d54d7be67d0566",
+  "bar_A": false,
+  "z_EB": "1.679567220446364190787742496998343591742548840238082565998055772296811",
+  "z_CTOI": "0.2884021181126864588340422380097655614309151749572857421588065490818672",
+  "delta_z": "1.391165102333677731953700258988578030311633665280796823839249223214944",
+  "gate_counts": {
+    "target": 0,
+    "eb": 14
+  },
+  "gate_denominator_each": 20,
+  "gate_pass": false,
+  "bar_B": "UNSCORED",
+  "attributed": false,
+  "event_rows_checked_including_descriptive": 287,
+  "injection_trials_checked": 40,
+  "sealed_files_checked": 160,
+  "limits": "Saved-output arithmetic and hashes only; does not independently reproduce FITS extraction or PRF model."
+}

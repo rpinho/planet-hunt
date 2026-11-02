@@ -1,0 +1,9 @@
+{
+  "status": "STOPPED",
+  "utc": "2026-11-02T11:15:36.661327+00:00",
+  "process_check": "ps -axo pid,ppid,pcpu,command; ps -eo pid,ppid,stat,args",
+  "remaining_job_workers": [],
+  "pod_left_running": true,
+  "pod_lifecycle_action_taken": false,
+  "archive_sha256": "132455cb1231227eff49ed72ab3f957f6a199dd865adb40a67fe75f0641cd8fc"
+}

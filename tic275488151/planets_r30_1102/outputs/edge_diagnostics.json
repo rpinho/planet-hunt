@@ -1,0 +1,60 @@
+[
+  {
+    "sector": 41,
+    "detector_target_xy": [
+      2101.788791306421,
+      1062.7553625178525
+    ],
+    "quality0_finite_count": 3658,
+    "median_raw_aperture_counts_per_s": 0.02973621408455074,
+    "median_four_pixel_border_counts_per_s": 0.029194255359470844,
+    "median_background_subtracted_counts_per_s": 0.002906381880166009,
+    "positive_background_subtracted_fraction": 0.5112083105522143,
+    "ffi_edge_metadata": {
+      "NAXIS": 2,
+      "NAXIS1": 2136,
+      "NAXIS2": 2078,
+      "SCICOLHA": true,
+      "SCICOLHB": false,
+      "SCICOLHC": true,
+      "SCICOLHD": false,
+      "SCIROWS": 1,
+      "SCIROWE": 2048,
+      "VROWS": 2069,
+      "VROWE": 2078,
+      "SMROWS": 2059,
+      "SMROWE": 2068,
+      "BFROWS": 2049,
+      "BFROWE": 2058
+    }
+  },
+  {
+    "sector": 82,
+    "detector_target_xy": [
+      962.5747292945515,
+      2051.0575839342278
+    ],
+    "quality0_finite_count": 10872,
+    "median_raw_aperture_counts_per_s": 0.0,
+    "median_four_pixel_border_counts_per_s": 0.0,
+    "median_background_subtracted_counts_per_s": 0.0,
+    "positive_background_subtracted_fraction": 0.0,
+    "ffi_edge_metadata": {
+      "NAXIS": 2,
+      "NAXIS1": 2136,
+      "NAXIS2": 2078,
+      "SCICOLHA": true,
+      "SCICOLHB": false,
+      "SCICOLHC": true,
+      "SCICOLHD": false,
+      "SCIROWS": 1,
+      "SCIROWE": 2048,
+      "VROWS": 2069,
+      "VROWE": 2078,
+      "SMROWS": 2059,
+      "SMROWE": 2068,
+      "BFROWS": 2049,
+      "BFROWE": 2058
+    }
+  }
+]

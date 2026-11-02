@@ -1,0 +1,690 @@
+{
+  "utc": "2026-11-02T09:53:30.889923+00:00",
+  "description": "Synthetic raw PDCSAP-like signals, not CTOI data; period off nominal within old interval. Original old code except workspace path.",
+  "rows": [
+    {
+      "ctoi": "27233531.01",
+      "truth": {
+        "period": 13.61775399,
+        "epoch": 600.123,
+        "depth": 2003.5308463739998
+      },
+      "old_exact_truth": {
+        "z": 885.9365643267814,
+        "depth": 2005.0387981400966,
+        "sigma": 2.2631855133597685,
+        "epoch_bkjd": 600.123,
+        "period_days": 13.61775399,
+        "norm": 0.19523590545066444
+      },
+      "old_exact_nearest_period": {
+        "z": 879.7158252561385,
+        "depth": 1990.7464806568323,
+        "sigma": 2.2629426725126898,
+        "epoch_bkjd": 600.123,
+        "period_days": 13.617872830188679,
+        "norm": 0.19527781000011094
+      },
+      "old_selected": {
+        "z": 822.2690779023751,
+        "depth": 1860.9038749537704,
+        "sigma": 2.263132501225722,
+        "epoch_bkjd": 858.8748494904611,
+        "period_days": 13.617520188679245,
+        "norm": 0.19524505205891976
+      },
+      "old_selected_depth_gate": false,
+      "old_best": {
+        "z": 822.2690779023751,
+        "depth": 1860.9038749537704,
+        "sigma": 2.263132501225722,
+        "epoch_bkjd": 858.8748494904611,
+        "period_days": 13.617520188679245,
+        "norm": 0.19524505205891976
+      },
+      "old_matches": 0,
+      "allphase_selected": {
+        "z": 822.2690779023751,
+        "depth": 1860.9038749537704,
+        "sigma": 2.263132501225722,
+        "epoch_bkjd": 858.8748494904611,
+        "period_days": 13.617520188679245,
+        "norm": 0.19524505205891976
+      },
+      "allphase_matches": 0,
+      "old_phase_step_max_days": 0.038,
+      "duration_days": 0.152,
+      "sg_window_days": 2.02293135,
+      "old_period_n": 107,
+      "capped": false,
+      "no_noise_model_changed": true
+    },
+    {
+      "ctoi": "63069576.01",
+      "truth": {
+        "period": 1.61754102,
+        "epoch": 600.123,
+        "depth": 4064.0767721199995
+      },
+      "old_exact_truth": {
+        "z": 444.6505542741844,
+        "depth": 4063.0812695623445,
+        "sigma": 9.137695276675469,
+        "epoch_bkjd": 600.123,
+        "period_days": 1.61754102,
+        "norm": 0.011976410069487147
+      },
+      "old_exact_nearest_period": {
+        "z": 444.23305628306315,
+        "depth": 4059.2588486367563,
+        "sigma": 9.137678502813209,
+        "epoch_bkjd": 600.123,
+        "period_days": 1.6175368421052632,
+        "norm": 0.011976454039262886
+      },
+      "old_selected": {
+        "z": 421.04851773351584,
+        "depth": 3847.6079409778367,
+        "sigma": 9.13815814312642,
+        "epoch_bkjd": 862.1557348120301,
+        "period_days": 1.6175652631578947,
+        "norm": 0.011975196840750482
+      },
+      "old_selected_depth_gate": false,
+      "old_best": {
+        "z": 421.04851773351584,
+        "depth": 3847.6079409778367,
+        "sigma": 9.13815814312642,
+        "epoch_bkjd": 862.1557348120301,
+        "period_days": 1.6175652631578947,
+        "norm": 0.011975196840750482
+      },
+      "old_matches": 0,
+      "allphase_selected": {
+        "z": 421.04851773351584,
+        "depth": 3847.6079409778367,
+        "sigma": 9.13815814312642,
+        "epoch_bkjd": 862.1557348120301,
+        "period_days": 1.6175652631578947,
+        "norm": 0.011975196840750482
+      },
+      "allphase_matches": 0,
+      "old_phase_step_max_days": 0.026,
+      "duration_days": 0.104,
+      "sg_window_days": 2.02293135,
+      "old_period_n": 115,
+      "capped": false,
+      "no_noise_model_changed": true
+    },
+    {
+      "ctoi": "63120478.01",
+      "truth": {
+        "period": 2.17876368,
+        "epoch": 600.123,
+        "depth": 2344.8682504999997
+      },
+      "old_exact_truth": {
+        "z": 542.1256848493016,
+        "depth": 2343.3414677446294,
+        "sigma": 4.322505893436914,
+        "epoch_bkjd": 600.123,
+        "period_days": 2.17876368,
+        "norm": 0.05352156597253375
+      },
+      "old_exact_nearest_period": {
+        "z": 541.4356061243902,
+        "depth": 2340.312586877481,
+        "sigma": 4.3224209128570195,
+        "epoch_bkjd": 600.123,
+        "period_days": 2.17875875,
+        "norm": 0.05352367050539418
+      },
+      "old_selected": {
+        "z": 523.9343900456303,
+        "depth": 2264.800177452765,
+        "sigma": 4.322678985159802,
+        "epoch_bkjd": 863.7482598039215,
+        "period_days": 2.1787799999999997,
+        "norm": 0.053517279762700876
+      },
+      "old_selected_depth_gate": false,
+      "old_best": {
+        "z": 523.9343900456303,
+        "depth": 2264.800177452765,
+        "sigma": 4.322678985159802,
+        "epoch_bkjd": 863.7482598039215,
+        "period_days": 2.1787799999999997,
+        "norm": 0.053517279762700876
+      },
+      "old_matches": 0,
+      "allphase_selected": {
+        "z": 523.9343900456303,
+        "depth": 2264.800177452765,
+        "sigma": 4.322678985159802,
+        "epoch_bkjd": 863.7482598039215,
+        "period_days": 2.1787799999999997,
+        "norm": 0.053517279762700876
+      },
+      "allphase_matches": 0,
+      "old_phase_step_max_days": 0.01425,
+      "duration_days": 0.057,
+      "sg_window_days": 2.02293135,
+      "old_period_n": 385,
+      "capped": false,
+      "no_noise_model_changed": true
+    },
+    {
+      "ctoi": "120355606.01",
+      "truth": {
+        "period": 4.643751300000001,
+        "epoch": 600.123,
+        "depth": 738.77228088
+      },
+      "old_exact_truth": {
+        "z": 349.45479575773146,
+        "depth": 737.7612424751617,
+        "sigma": 2.1111779017811325,
+        "epoch_bkjd": 600.123,
+        "period_days": 4.643751300000001,
+        "norm": 0.22436253445462437
+      },
+      "old_exact_nearest_period": {
+        "z": 346.78339965529875,
+        "depth": 732.1922283491919,
+        "sigma": 2.111382001205905,
+        "epoch_bkjd": 600.123,
+        "period_days": 4.643715,
+        "norm": 0.22431915997202215
+      },
+      "old_selected": {
+        "z": 330.1522937368005,
+        "depth": 697.0510595309931,
+        "sigma": 2.1113015803751667,
+        "epoch_bkjd": 600.123,
+        "period_days": 4.64364,
+        "norm": 0.22433624921871195
+      },
+      "old_selected_depth_gate": false,
+      "old_best": {
+        "z": 330.1522937368005,
+        "depth": 697.0510595309931,
+        "sigma": 2.1113015803751667,
+        "epoch_bkjd": 600.123,
+        "period_days": 4.64364,
+        "norm": 0.22433624921871195
+      },
+      "old_matches": 0,
+      "allphase_selected": {
+        "z": 330.1522937368005,
+        "depth": 697.0510595309931,
+        "sigma": 2.1113015803751667,
+        "epoch_bkjd": 600.123,
+        "period_days": 4.64364,
+        "norm": 0.22433624921871195
+      },
+      "allphase_matches": 0,
+      "old_phase_step_max_days": 0.02825,
+      "duration_days": 0.113,
+      "sg_window_days": 2.02293135,
+      "old_period_n": 9,
+      "capped": false,
+      "no_noise_model_changed": true
+    },
+    {
+      "ctoi": "120963388.01",
+      "truth": {
+        "period": 2.7684451,
+        "epoch": 600.123,
+        "depth": 1290.3678031596949
+      },
+      "old_exact_truth": {
+        "z": 198.90268310470253,
+        "depth": 1290.774984289685,
+        "sigma": 6.489480001686152,
+        "epoch_bkjd": 600.123,
+        "period_days": 2.7684451,
+        "norm": 0.0237454390012051
+      },
+      "old_exact_nearest_period": {
+        "z": 196.5326715241609,
+        "depth": 1275.572009095151,
+        "sigma": 6.490381467889106,
+        "epoch_bkjd": 600.123,
+        "period_days": 2.7684061971830984,
+        "norm": 0.02373884332596105
+      },
+      "old_selected": {
+        "z": 179.37905447049417,
+        "depth": 1164.2615386609118,
+        "sigma": 6.4905099544519,
+        "epoch_bkjd": 863.102334148806,
+        "period_days": 2.7685202816901406,
+        "norm": 0.023737903463850112
+      },
+      "old_selected_depth_gate": false,
+      "old_best": {
+        "z": 179.37905447049417,
+        "depth": 1164.2615386609118,
+        "sigma": 6.4905099544519,
+        "epoch_bkjd": 863.102334148806,
+        "period_days": 2.7685202816901406,
+        "norm": 0.023737903463850112
+      },
+      "old_matches": 0,
+      "allphase_selected": {
+        "z": 179.37905447049417,
+        "depth": 1164.2615386609118,
+        "sigma": 6.4905099544519,
+        "epoch_bkjd": 863.102334148806,
+        "period_days": 2.7685202816901406,
+        "norm": 0.023737903463850112
+      },
+      "allphase_matches": 0,
+      "old_phase_step_max_days": 0.0605,
+      "duration_days": 0.242,
+      "sg_window_days": 2.02293135,
+      "old_period_n": 143,
+      "capped": false,
+      "no_noise_model_changed": true
+    },
+    {
+      "ctoi": "122673562.01",
+      "truth": {
+        "period": 1.2156,
+        "epoch": 600.123,
+        "depth": 1199.293349730848
+      },
+      "old_exact_truth": {
+        "z": 174.2204511166146,
+        "depth": 1199.4769994366063,
+        "sigma": 6.884823175172102,
+        "epoch_bkjd": 600.123,
+        "period_days": 1.2156,
+        "norm": 0.021096694733654112
+      },
+      "old_exact_nearest_period": {
+        "z": 174.2204511166146,
+        "depth": 1199.4769994366063,
+        "sigma": 6.884823175172102,
+        "epoch_bkjd": 600.123,
+        "period_days": 1.2156,
+        "norm": 0.021096694733654112
+      },
+      "old_selected": {
+        "z": 174.2204511166146,
+        "depth": 1199.4769994366063,
+        "sigma": 6.884823175172102,
+        "epoch_bkjd": 600.123,
+        "period_days": 1.2156,
+        "norm": 0.021096694733654112
+      },
+      "old_selected_depth_gate": true,
+      "old_best": {
+        "z": 174.2204511166146,
+        "depth": 1199.4769994366063,
+        "sigma": 6.884823175172102,
+        "epoch_bkjd": 600.123,
+        "period_days": 1.2156,
+        "norm": 0.021096694733654112
+      },
+      "old_matches": 1,
+      "allphase_selected": {
+        "z": 174.2204511166146,
+        "depth": 1199.4769994366063,
+        "sigma": 6.884823175172102,
+        "epoch_bkjd": 600.123,
+        "period_days": 1.2156,
+        "norm": 0.021096694733654112
+      },
+      "allphase_matches": 1,
+      "old_phase_step_max_days": 0.0825,
+      "duration_days": 0.33,
+      "sg_window_days": 2.02293135,
+      "old_period_n": 1,
+      "capped": false,
+      "no_noise_model_changed": true
+    },
+    {
+      "ctoi": "123125197.01",
+      "truth": {
+        "period": 13.211234860000001,
+        "epoch": 600.123,
+        "depth": 1328.097664881
+      },
+      "old_exact_truth": {
+        "z": 749.5113157166102,
+        "depth": 1328.6335583585326,
+        "sigma": 1.772666443452187,
+        "epoch_bkjd": 600.123,
+        "period_days": 13.211234860000001,
+        "norm": 0.3182335421521225
+      },
+      "old_exact_nearest_period": {
+        "z": 747.246326608704,
+        "depth": 1324.7919414799303,
+        "sigma": 1.772898566785004,
+        "epoch_bkjd": 600.123,
+        "period_days": 13.21132,
+        "norm": 0.3181502157893091
+      },
+      "old_selected": {
+        "z": 734.9752487233162,
+        "depth": 1302.9263153065817,
+        "sigma": 1.7727485620363694,
+        "epoch_bkjd": 600.123,
+        "period_days": 13.21099,
+        "norm": 0.3182040599308905
+      },
+      "old_selected_depth_gate": false,
+      "old_best": {
+        "z": 734.9752487233162,
+        "depth": 1302.9263153065817,
+        "sigma": 1.7727485620363694,
+        "epoch_bkjd": 600.123,
+        "period_days": 13.21099,
+        "norm": 0.3182040599308905
+      },
+      "old_matches": 0,
+      "allphase_selected": {
+        "z": 734.9752487233162,
+        "depth": 1302.9263153065817,
+        "sigma": 1.7727485620363694,
+        "epoch_bkjd": 600.123,
+        "period_days": 13.21099,
+        "norm": 0.3182040599308905
+      },
+      "allphase_matches": 0,
+      "old_phase_step_max_days": 0.06175,
+      "duration_days": 0.247,
+      "sg_window_days": 2.02293135,
+      "old_period_n": 5,
+      "capped": false,
+      "no_noise_model_changed": true
+    },
+    {
+      "ctoi": "158984285.01",
+      "truth": {
+        "period": 0.89894633,
+        "epoch": 600.123,
+        "depth": 1466.264852310654
+      },
+      "old_exact_truth": {
+        "z": 1048.0356917971494,
+        "depth": 1465.8899898235438,
+        "sigma": 1.398702354601938,
+        "epoch_bkjd": 600.123,
+        "period_days": 0.89894633,
+        "norm": 0.5111512039295213
+      },
+      "old_exact_nearest_period": {
+        "z": 1040.5997627870868,
+        "depth": 1456.1053605406503,
+        "sigma": 1.3992943421788753,
+        "epoch_bkjd": 600.123,
+        "period_days": 0.8989387837837838,
+        "norm": 0.5107187986158421
+      },
+      "old_selected": {
+        "z": 995.2431033191018,
+        "depth": 1392.4802973207643,
+        "sigma": 1.3991358419635262,
+        "epoch_bkjd": 862.6043578419329,
+        "period_days": 0.8989554054054054,
+        "norm": 0.5108345180796221
+      },
+      "old_selected_depth_gate": false,
+      "old_best": {
+        "z": 995.2431033191018,
+        "depth": 1392.4802973207643,
+        "sigma": 1.3991358419635262,
+        "epoch_bkjd": 862.6043578419329,
+        "period_days": 0.8989554054054054,
+        "norm": 0.5108345180796221
+      },
+      "old_matches": 0,
+      "allphase_selected": {
+        "z": 995.2431033191018,
+        "depth": 1392.4802973207643,
+        "sigma": 1.3991358419635262,
+        "epoch_bkjd": 862.6043578419329,
+        "period_days": 0.8989554054054054,
+        "norm": 0.5108345180796221
+      },
+      "allphase_matches": 0,
+      "old_phase_step_max_days": 0.02725,
+      "duration_days": 0.109,
+      "sg_window_days": 2.02293135,
+      "old_period_n": 149,
+      "capped": false,
+      "no_noise_model_changed": true
+    },
+    {
+      "ctoi": "185336364.01",
+      "truth": {
+        "period": 4.316,
+        "epoch": 600.123,
+        "depth": 17828.5937535
+      },
+      "old_exact_truth": {
+        "z": 420.35910557468253,
+        "depth": 17829.057114447223,
+        "sigma": 42.413871563630615,
+        "epoch_bkjd": 600.123,
+        "period_days": 4.316,
+        "norm": 0.0005558839900325201
+      },
+      "old_exact_nearest_period": {
+        "z": 420.35910557468253,
+        "depth": 17829.057114447223,
+        "sigma": 42.413871563630615,
+        "epoch_bkjd": 600.123,
+        "period_days": 4.316,
+        "norm": 0.0005558839900325201
+      },
+      "old_selected": {
+        "z": 420.35910557468253,
+        "depth": 17829.057114447223,
+        "sigma": 42.413871563630615,
+        "epoch_bkjd": 600.123,
+        "period_days": 4.316,
+        "norm": 0.0005558839900325201
+      },
+      "old_selected_depth_gate": true,
+      "old_best": {
+        "z": 420.35910557468253,
+        "depth": 17829.057114447223,
+        "sigma": 42.413871563630615,
+        "epoch_bkjd": 600.123,
+        "period_days": 4.316,
+        "norm": 0.0005558839900325201
+      },
+      "old_matches": 1,
+      "allphase_selected": {
+        "z": 420.35910557468253,
+        "depth": 17829.057114447223,
+        "sigma": 42.413871563630615,
+        "epoch_bkjd": 600.123,
+        "period_days": 4.316,
+        "norm": 0.0005558839900325201
+      },
+      "allphase_matches": 1,
+      "old_phase_step_max_days": 0.0825,
+      "duration_days": 0.33,
+      "sg_window_days": 2.02293135,
+      "old_period_n": 1,
+      "capped": false,
+      "no_noise_model_changed": true
+    },
+    {
+      "ctoi": "275488151.01",
+      "truth": {
+        "period": 3.02685447,
+        "epoch": 600.123,
+        "depth": 872.975120994
+      },
+      "old_exact_truth": {
+        "z": 222.20841898948524,
+        "depth": 873.824706450983,
+        "sigma": 3.932455441719028,
+        "epoch_bkjd": 600.123,
+        "period_days": 3.02685447,
+        "norm": 0.0646654611857601
+      },
+      "old_exact_nearest_period": {
+        "z": 220.98855234910482,
+        "depth": 869.0703295864862,
+        "sigma": 3.932648638801795,
+        "epoch_bkjd": 600.123,
+        "period_days": 3.0268281818181815,
+        "norm": 0.06465910777220527
+      },
+      "old_selected": {
+        "z": 202.52151199812468,
+        "depth": 796.5432054802169,
+        "sigma": 3.933128869231397,
+        "epoch_bkjd": 863.4403693573668,
+        "period_days": 3.0269363636363633,
+        "norm": 0.06464331913345299
+      },
+      "old_selected_depth_gate": false,
+      "old_best": {
+        "z": 202.52151199812468,
+        "depth": 796.5432054802169,
+        "sigma": 3.933128869231397,
+        "epoch_bkjd": 863.4403693573668,
+        "period_days": 3.0269363636363633,
+        "norm": 0.06464331913345299
+      },
+      "old_matches": 0,
+      "allphase_selected": {
+        "z": 202.52151199812468,
+        "depth": 796.5432054802169,
+        "sigma": 3.933128869231397,
+        "epoch_bkjd": 863.4403693573668,
+        "period_days": 3.0269363636363633,
+        "norm": 0.06464331913345299
+      },
+      "allphase_matches": 0,
+      "old_phase_step_max_days": 0.0525,
+      "duration_days": 0.21,
+      "sg_window_days": 2.02293135,
+      "old_period_n": 67,
+      "capped": false,
+      "no_noise_model_changed": true
+    },
+    {
+      "ctoi": "351189201.01",
+      "truth": {
+        "period": 0.6947413,
+        "epoch": 600.123,
+        "depth": 692.172161222991
+      },
+      "old_exact_truth": {
+        "z": 764.9502304640661,
+        "depth": 691.8350686202824,
+        "sigma": 0.9044184066727746,
+        "epoch_bkjd": 600.123,
+        "period_days": 0.6947413,
+        "norm": 1.2225347567650744
+      },
+      "old_exact_nearest_period": {
+        "z": 764.8591720422239,
+        "depth": 693.2953017238406,
+        "sigma": 0.9064352328712969,
+        "epoch_bkjd": 600.123,
+        "period_days": 0.6947408695652173,
+        "norm": 1.217100508400765
+      },
+      "old_selected": {
+        "z": 738.8994705584405,
+        "depth": 689.7852280063291,
+        "sigma": 0.933530548458788,
+        "epoch_bkjd": 862.0359552728047,
+        "period_days": 0.6947473913043478,
+        "norm": 1.1474742054346496
+      },
+      "old_selected_depth_gate": true,
+      "old_best": {
+        "z": 740.1849654138272,
+        "depth": 678.6670415717879,
+        "sigma": 0.916888444488135,
+        "epoch_bkjd": 861.3499259036658,
+        "period_days": 0.6947343478260869,
+        "norm": 1.18950699768307
+      },
+      "old_matches": 1,
+      "allphase_selected": {
+        "z": 738.8994705584405,
+        "depth": 689.7852280063291,
+        "sigma": 0.933530548458788,
+        "epoch_bkjd": 862.0359552728047,
+        "period_days": 0.6947473913043478,
+        "norm": 1.1474742054346496
+      },
+      "allphase_matches": 1,
+      "old_phase_step_max_days": 0.01375,
+      "duration_days": 0.055,
+      "sg_window_days": 2.02293135,
+      "old_period_n": 93,
+      "capped": false,
+      "no_noise_model_changed": true
+    },
+    {
+      "ctoi": "399793914.01",
+      "truth": {
+        "period": 2.1976390400000003,
+        "epoch": 600.123,
+        "depth": 153.6080986444425
+      },
+      "old_exact_truth": {
+        "z": 140.4090748325866,
+        "depth": 152.62988484736042,
+        "sigma": 1.087037180676142,
+        "epoch_bkjd": 600.123,
+        "period_days": 2.1976390400000003,
+        "norm": 0.8462743976881951
+      },
+      "old_exact_nearest_period": {
+        "z": 138.46827818137197,
+        "depth": 150.51897321862657,
+        "sigma": 1.0870285613104111,
+        "epoch_bkjd": 600.123,
+        "period_days": 2.19761,
+        "norm": 0.8462878184532446
+      },
+      "old_selected": {
+        "z": 129.05394696190433,
+        "depth": 140.28990702220412,
+        "sigma": 1.0870640559611597,
+        "epoch_bkjd": 600.123,
+        "period_days": 2.19755,
+        "norm": 0.8462325536324192
+      },
+      "old_selected_depth_gate": false,
+      "old_best": {
+        "z": 129.05394696190433,
+        "depth": 140.28990702220412,
+        "sigma": 1.0870640559611597,
+        "epoch_bkjd": 600.123,
+        "period_days": 2.19755,
+        "norm": 0.8462325536324192
+      },
+      "old_matches": 0,
+      "allphase_selected": {
+        "z": 129.05394696190433,
+        "depth": 140.28990702220412,
+        "sigma": 1.0870640559611597,
+        "epoch_bkjd": 600.123,
+        "period_days": 2.19755,
+        "norm": 0.8462325536324192
+      },
+      "allphase_matches": 0,
+      "old_phase_step_max_days": 0.044000000000000004,
+      "duration_days": 0.17600000000000002,
+      "sg_window_days": 2.02293135,
+      "old_period_n": 9,
+      "capped": false,
+      "no_noise_model_changed": true
+    }
+  ]
+}

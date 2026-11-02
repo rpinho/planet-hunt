@@ -1,0 +1,11 @@
+{
+  "commit": "f9cd2d9",
+  "implementation_commit": "b8f07cb",
+  "plan_sha256": "e016d9d16ed1aa8dc2a2e7722c2a04b469c27d544af4d7d904ec6c2fae7396e1",
+  "frozen_before_first_flux": true,
+  "freeze_utc": "2026-11-02T09:02:00+00:00",
+  "first_superseded_flux_utc": "2026-11-02T09:02:50.886758+00:00",
+  "resume_utc": "2026-11-02T09:12:18.849895+00:00",
+  "superseded_outputs_never_scored": true,
+  "superseded_flux_not_reused": true
+}

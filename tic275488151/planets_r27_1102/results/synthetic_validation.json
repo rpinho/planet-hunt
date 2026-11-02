@@ -1,0 +1,72 @@
+{
+  "status": "PASS",
+  "checks": [
+    {
+      "duration_hours": 4.7,
+      "period_days": null,
+      "measurement": {
+        "z": 536.162739894579,
+        "depth": 3993.0761086140606,
+        "sigma": 7.447507652992045,
+        "epoch_bkjd": 180.14230382500256,
+        "period_days": null,
+        "norm": 0.018029267552856568
+      },
+      "phase_error": 0.0006961749974436771
+    },
+    {
+      "duration_hours": 3.648,
+      "period_days": 13.61082,
+      "measurement": {
+        "z": 1125.4948734640427,
+        "depth": 3985.9205482348625,
+        "sigma": 3.5414826332944687,
+        "epoch_bkjd": 180.14300000015646,
+        "period_days": 13.61082,
+        "norm": 0.07973146924696248
+      },
+      "phase_error": 1.5646151041437406e-10
+    },
+    {
+      "duration_hours": 1.32,
+      "period_days": 0.69463,
+      "measurement": {
+        "z": 910.8350053865015,
+        "depth": 3985.4900930102503,
+        "sigma": 4.3756444025985335,
+        "epoch_bkjd": 180.14300000015646,
+        "period_days": 0.69463,
+        "norm": 0.052229510845492044
+      },
+      "phase_error": 1.5646151041437406e-10
+    },
+    {
+      "duration_hours": 5.808,
+      "period_days": 2.76544,
+      "measurement": {
+        "z": 52.988356013485024,
+        "depth": 3987.429764739944,
+        "sigma": 75.25105635897029,
+        "epoch_bkjd": 180.14300000015646,
+        "period_days": 2.76544,
+        "norm": 0.00017659353421799114
+      },
+      "phase_error": 1.5646151041437406e-10
+    },
+    {
+      "duration_hours": 7.92,
+      "period_days": 4.316,
+      "measurement": {
+        "z": 112.43033550941732,
+        "depth": 3987.3225982301833,
+        "sigma": 35.46482877742724,
+        "epoch_bkjd": 180.14300000015646,
+        "period_days": 4.316,
+        "norm": 0.0007950679832668573
+      },
+      "phase_error": 1.5646151041437406e-10
+    }
+  ],
+  "coverage_gap_check": true,
+  "zero_curve_check": true
+}

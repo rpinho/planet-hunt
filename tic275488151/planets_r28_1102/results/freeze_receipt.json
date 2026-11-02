@@ -1,0 +1,22 @@
+{
+  "observed_utc": "2026-11-02T10:58:11.409366+00:00",
+  "freeze_commit": "949cd501952ce059f963cb671f7d1f671e344938",
+  "plan_sha256": "2979f756cc01766e1c378bf282b2f664379a0a1e328dfe23f5b925ab71aadcd0",
+  "method_sha256": "6e431fb3a6b1f4a9ed0816ec62b37d50759e1315667a1921b2b67056a5ce08fb",
+  "target_products_before_stage2": {
+    "11768756": 0,
+    "10274090": 0,
+    "7118558": 0,
+    "3934997": 0,
+    "2695129": 0,
+    "1718360": 0,
+    "7254760": 0,
+    "10528564": 0,
+    "8462852": 0,
+    "10014894": 0,
+    "10873968": 0,
+    "3424541": 0
+  },
+  "existing_target_measurements": 0,
+  "status_first_line": "FROZEN"
+}

@@ -1,0 +1,87 @@
+{
+  "status": "PASS",
+  "utc": "2026-11-02T09:34:49.060564+00:00",
+  "plan_sha256": "e016d9d16ed1aa8dc2a2e7722c2a04b469c27d544af4d7d904ec6c2fae7396e1",
+  "measurement_code_imported": false,
+  "targets_checked": 13,
+  "checks": [
+    {
+      "ctoi": "27233531.01",
+      "coverage_sha256": "ec59d99603d47e38f5bd49e4fdbe9a392555aa1c3b063d1552afbb0b57ce744e",
+      "covered": 87,
+      "total": 108
+    },
+    {
+      "ctoi": "63069576.01",
+      "coverage_sha256": "33247671ce27d0d4eb297e4e5e326000df8d3af122b047c9a27ee81ff9423812",
+      "covered": 737,
+      "total": 903
+    },
+    {
+      "ctoi": "63120478.01",
+      "coverage_sha256": "86fdccd4bd38e47e7185e35af86c596af19c004814bf4a57fdc7945c4ffacffc",
+      "covered": 575,
+      "total": 670
+    },
+    {
+      "ctoi": "120355606.01",
+      "coverage_sha256": "93205030d681ec029b4a40a21639de04d81dd04c96de72512c3e579b92519a0a",
+      "covered": 278,
+      "total": 314
+    },
+    {
+      "ctoi": "120963388.01",
+      "coverage_sha256": "62845c15c5f806586be1b5851ed221fa4ec16ffcac6d9033019933b2ed238ab7",
+      "covered": 460,
+      "total": 528
+    },
+    {
+      "ctoi": "122673562.01",
+      "coverage_sha256": "f1fe2e207d1230cf08f05a736c3e416a6a5d263e4a151a3ce3d663b50fd6c845",
+      "covered": 1065,
+      "total": 1201
+    },
+    {
+      "ctoi": "123125197.01",
+      "coverage_sha256": "042ba71d191d8a644cba7a93ee08f6969c7e9d543121529a0c5211f5f9fd3f46",
+      "covered": 100,
+      "total": 110
+    },
+    {
+      "ctoi": "158984285.01",
+      "coverage_sha256": "0c5a62ae42e6b953aa36446a073533c57492dfc540f84dc61707ef792a8ccd39",
+      "covered": 1449,
+      "total": 1624
+    },
+    {
+      "ctoi": "185336364.01",
+      "coverage_sha256": "3e5496f8ae36f2d08d061716d8847bcc40dd9fe7b0e68805f174a271b5db205e",
+      "covered": 301,
+      "total": 339
+    },
+    {
+      "ctoi": "269033446.01",
+      "coverage_sha256": "65239a9f844659c9fa190e34dd1cd7bb9bcdd2b1f5fef82fb190b188211e8aef",
+      "covered": 94314,
+      "total": 100000
+    },
+    {
+      "ctoi": "275488151.01",
+      "coverage_sha256": "20792d7ed9998e65b5e4bfd27f35e1214a01d0eaea949a6683c1a465e9d4b19c",
+      "covered": 417,
+      "total": 482
+    },
+    {
+      "ctoi": "351189201.01",
+      "coverage_sha256": "1b2fb5af05497655d9f7f0af7efba73309cad0530185727b4c785dc4f01aaf17",
+      "covered": 1432,
+      "total": 2101
+    },
+    {
+      "ctoi": "399793914.01",
+      "coverage_sha256": "204696d7a881611a368b9417479972db02dac00827468650992b1f9dc81dbe8f",
+      "covered": 593,
+      "total": 664
+    }
+  ]
+}

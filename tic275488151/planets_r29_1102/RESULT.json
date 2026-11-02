@@ -1,0 +1,185 @@
+{
+ "n_eb": 2920,
+ "n_eb_no_position": 27,
+ "n_null_positions": 700,
+ "mean_eb_within_R_null": 0.09428571428571429,
+ "targets": [
+  {
+   "ctoi": "27233531.01",
+   "kic": 11768756,
+   "P_ctoi": 13.61082,
+   "target_in_eb_catalogue": false,
+   "self_P_eb": [],
+   "eb_within_R": [],
+   "matches": [],
+   "period_match_fraction": 0.0013698630136986301,
+   "lambda": 0.00012915851272015657,
+   "chance": 0.00012915017211856394,
+   "blend_attributed": false
+  },
+  {
+   "ctoi": "63069576.01",
+   "kic": 10274090,
+   "P_ctoi": 1.61694,
+   "target_in_eb_catalogue": false,
+   "self_P_eb": [],
+   "eb_within_R": [],
+   "matches": [],
+   "period_match_fraction": 0.0010273972602739725,
+   "lambda": 9.686888454011742e-05,
+   "chance": 9.686419290122483e-05,
+   "blend_attributed": false
+  },
+  {
+   "ctoi": "63120478.01",
+   "kic": 7118558,
+   "P_ctoi": 2.17725,
+   "target_in_eb_catalogue": false,
+   "self_P_eb": [],
+   "eb_within_R": [
+    {
+     "kic": 7118545,
+     "sep_arcsec": 88.3,
+     "P_eb": 14.7972189
+    }
+   ],
+   "matches": [],
+   "period_match_fraction": 0.0017123287671232876,
+   "lambda": 0.0001614481409001957,
+   "chance": 0.00016143510885047174,
+   "blend_attributed": false
+  },
+  {
+   "ctoi": "120355606.01",
+   "kic": 3934997,
+   "P_ctoi": 4.64364,
+   "target_in_eb_catalogue": false,
+   "self_P_eb": [],
+   "eb_within_R": [],
+   "matches": [],
+   "period_match_fraction": 0.0017123287671232876,
+   "lambda": 0.0001614481409001957,
+   "chance": 0.00016143510885047174,
+   "blend_attributed": false
+  },
+  {
+   "ctoi": "120963388.01",
+   "kic": 2695129,
+   "P_ctoi": 2.76544,
+   "target_in_eb_catalogue": false,
+   "self_P_eb": [],
+   "eb_within_R": [],
+   "matches": [],
+   "period_match_fraction": 0.0010273972602739725,
+   "lambda": 9.686888454011742e-05,
+   "chance": 9.686419290122483e-05,
+   "blend_attributed": false
+  },
+  {
+   "ctoi": "122673562.01",
+   "kic": 1718360,
+   "P_ctoi": 1.2156,
+   "target_in_eb_catalogue": false,
+   "self_P_eb": [],
+   "eb_within_R": [],
+   "matches": [],
+   "period_match_fraction": 0.0010273972602739725,
+   "lambda": 9.686888454011742e-05,
+   "chance": 9.686419290122483e-05,
+   "blend_attributed": false
+  },
+  {
+   "ctoi": "123125197.01",
+   "kic": 7254760,
+   "P_ctoi": 13.21099,
+   "target_in_eb_catalogue": false,
+   "self_P_eb": [],
+   "eb_within_R": [],
+   "matches": [],
+   "period_match_fraction": 0.0,
+   "lambda": 0.0,
+   "chance": 0.0,
+   "blend_attributed": false
+  },
+  {
+   "ctoi": "158984285.01",
+   "kic": 10528564,
+   "P_ctoi": 0.89849,
+   "target_in_eb_catalogue": false,
+   "self_P_eb": [],
+   "eb_within_R": [],
+   "matches": [],
+   "period_match_fraction": 0.0017123287671232876,
+   "lambda": 0.0001614481409001957,
+   "chance": 0.00016143510885047174,
+   "blend_attributed": false
+  },
+  {
+   "ctoi": "185336364.01",
+   "kic": 8462852,
+   "P_ctoi": 4.316,
+   "target_in_eb_catalogue": false,
+   "self_P_eb": [],
+   "eb_within_R": [],
+   "matches": [],
+   "period_match_fraction": 0.0010273972602739725,
+   "lambda": 9.686888454011742e-05,
+   "chance": 9.686419290122483e-05,
+   "blend_attributed": false
+  },
+  {
+   "ctoi": "275488151.01",
+   "kic": 10014894,
+   "P_ctoi": 3.02553,
+   "target_in_eb_catalogue": false,
+   "self_P_eb": [],
+   "eb_within_R": [
+    {
+     "kic": 10014830,
+     "sep_arcsec": 82.7,
+     "P_eb": 3.0305267
+    }
+   ],
+   "matches": [],
+   "period_match_fraction": 0.0010273972602739725,
+   "lambda": 9.686888454011742e-05,
+   "chance": 9.686419290122483e-05,
+   "blend_attributed": false
+  },
+  {
+   "ctoi": "351189201.01",
+   "kic": 10873968,
+   "P_ctoi": 0.69463,
+   "target_in_eb_catalogue": false,
+   "self_P_eb": [],
+   "eb_within_R": [
+    {
+     "kic": 10873904,
+     "sep_arcsec": 119.6,
+     "P_eb": 9.8856332
+    }
+   ],
+   "matches": [],
+   "period_match_fraction": 0.002054794520547945,
+   "lambda": 0.00019373776908023483,
+   "chance": 0.00019371900313058799,
+   "blend_attributed": false
+  },
+  {
+   "ctoi": "399793914.01",
+   "kic": 3424541,
+   "P_ctoi": 2.19755,
+   "target_in_eb_catalogue": false,
+   "self_P_eb": [],
+   "eb_within_R": [],
+   "matches": [],
+   "period_match_fraction": 0.0013698630136986301,
+   "lambda": 0.00012915851272015657,
+   "chance": 0.00012915017211856394,
+   "blend_attributed": false
+  }
+ ],
+ "attributed_12": 0,
+ "attributed_high5": 0,
+ "self_in_catalogue": []
+}

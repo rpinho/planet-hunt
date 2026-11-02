@@ -1,0 +1,105 @@
+{
+  "utc": "2026-11-02T12:48:16.166641+00:00",
+  "light_curve": {
+    "url": "https://exofop.ipac.caltech.edu/tess/get_file.php?id=887179",
+    "filename": "TIC275488151L-mm20221020.txt",
+    "sha256": "a762f968e4a5a5c7653b83062f48a0f5481cd3386bd0f76d30731ac82e5778f7",
+    "rows": 2438,
+    "columns": 39,
+    "btjd_start": 1683.3671387,
+    "btjd_end": 1737.387918385,
+    "headers": {
+      "OBJECT": "'TIC 275488151' / TESS source identifier",
+      "TICID": "' 275488151'         / Unique tess target identifier",
+      "TICVER": "'8'           / TIC Version",
+      "TELESCOP": "'TESS'           / Telescope",
+      "INSTRUME": "'TESS Photometer'    / Detector type",
+      "TSTART": "58682.85461950535 / observation start time in MJD",
+      "TSTOP": "58736.87542933691 / observation stop time in MJD",
+      "BJDREFI": "2457000 / integer part of BTJD reference date",
+      "BJDREFF": "0.0 / fraction of the day in BTJD reference date",
+      "RADESYS": "'ICRS'           / reference frame of celestial coordinates",
+      "FILTER": "'TESS'           / Photometric bandpass filter",
+      "RA_OBJ": "293.20375798 / [deg] Right Ascension (ICRS) at epoch 2015.5",
+      "DEC_OBJ": "46.90940771   / [deg] Declination (ICRS) at epoch 2015.5",
+      "EQUINOX": "2000.0 / equinox of celestial coordinate system",
+      "AP1SIZE": "1 / AP1 aperture radius in pixels",
+      "AP2SIZE": "2 / AP2 aperture radius in pixels",
+      "AP3SIZE": "3 / AP3 aperture radius in pixels",
+      "AP4SIZE": "4 / AP4 aperture radius in pixels"
+    },
+    "aperture_radii_pixels": [
+      1,
+      2,
+      3,
+      4
+    ],
+    "centroid_columns_1based": [
+      31,
+      32,
+      33,
+      34,
+      35,
+      36,
+      37,
+      38
+    ],
+    "nonzero_centroid_rows_by_column": [
+      2227,
+      2227,
+      2227,
+      2227,
+      2227,
+      2227,
+      2227,
+      2227
+    ],
+    "zero_flag_rows_per_aperture": [
+      2227,
+      2227,
+      2227,
+      2227
+    ],
+    "description": "Four aperture light curves, three processing levels and errors/quality, sky, flux-weighted RA/Dec centroids, and parent FFI names; header has no narrative blend attribution."
+  },
+  "dv": {
+    "url": "https://exofop.ipac.caltech.edu/tess/get_file.php?id=887180",
+    "filename": "TIC275488151O-mm20221020.pdf",
+    "sha256": "b378b061795d9743f4829a105ed7ce111ead1dd78d0cb689bfd8bb7e6f863682",
+    "pages": 2,
+    "review_method": "Both pages rendered and visually inspected; PDF content is raster and text extraction is almost empty. Values below are manual transcription, not OCR-derived measurements.",
+    "page1": {
+      "selected_aperture_pixels": 2,
+      "apstat": 4.33,
+      "TIC_contamination_ratio": 0.5645,
+      "duration_days": 0.21,
+      "duration_error_days": 0.012,
+      "period_days": 3.025346,
+      "T0_BTJD": 1682.547196,
+      "T0_error_days": 0.007509,
+      "N_transits": 17
+    },
+    "page2": {
+      "aperture_radii_pixels": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "Mahalanobis_ranks": [
+        1,
+        1,
+        1,
+        0
+      ],
+      "description": "Gaia stellar field with four dotted aperture circles and aperture-dependent centroid-motion ellipses. Ellipses have different positions, most conspicuously the 4-pixel ellipse. No text identifies KIC 10014830 as the source or certifies absence of contamination."
+    },
+    "single_short_quote": "Aperture=2 pix"
+  },
+  "interpretation": "The 2020 DIAmante method defines Mahalanobis rank 1 when the target is the nearest Gaia source to that aperture centroid-motion distribution, and 0 when another source is selected. Thus the public DV already has a non-target 4-pixel centroid association, with target associations in the smaller three apertures. It does not name the selected other star as KIC 10014830. Montalto 2022 defines the adjacent-aperture depth statistic and used a cutoff apstat<5; this target's 4.33 is below that cut. These are pre-existing aperture/centroid diagnostics, not a new r32 attribution or an FPP.",
+  "primary_reference_interpretation": {
+    "rank_definition": "arXiv:2008.09832, section 4 centroid analysis",
+    "apstat_cutoff": "arXiv:2210.14559, equation 2 and adjacent text",
+    "apstat_cutoff_value": 5
+  }
+}

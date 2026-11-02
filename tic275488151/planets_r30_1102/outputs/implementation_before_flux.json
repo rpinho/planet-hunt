@@ -1,0 +1,11 @@
+{
+  "utc": "2026-11-02T11:59:15.099238+00:00",
+  "nice": 10,
+  "sha256": {
+    "fits_local.py": "71c735dc67a666b8563932444c5a1c01dec71874878987dd0a2fc0d861bc68ac",
+    "prf.py": "05e267f7e411d3621935c7b5a510db1313374bfb975979b1dab3352e0ee4182d",
+    "measure.py": "6590671a2a31bc105c6dcde940e8108c0802975c99ad761f5fc6753fc3de3cd7",
+    "prepare.py": "1414b4638e03786d68145451edd7ca5e8d33b09d42a8ab38f03f760e0ff0eabf",
+    "kepler_compare.py": "de01a0035e78eaa8b6af0e3fd8e346c8903f4d2995bcfbea5f4507974309b5ab"
+  }
+}

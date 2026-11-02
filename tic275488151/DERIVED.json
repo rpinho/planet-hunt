@@ -1,0 +1,41 @@
+{
+  "tmag_difference": 2.6224999999999987,
+  "kepler_primary_percent": 42.712322107786775,
+  "catalogue_primary_width_hours": 11.128094042399999,
+  "ctoi_duration_days": 0.21,
+  "kepler_start_year": 2009,
+  "kepler_end_year": 2013,
+  "planned_period_tolerance_percent": 0.1,
+  "period_difference_percent": 0.16487893012129273,
+  "period_difference_sigma": 4.19890756302518,
+  "tess_to_kepler_primary_depth_ratio": 1.192281453668666,
+  "boundary_timing_hours": {
+    "start": 0.8850947063572481,
+    "end": -1.2560888603113922
+  },
+  "midpoint_cycle_timing_hours": {
+    "14": 0.3178632025144142,
+    "15": -0.7614239974855783
+  },
+  "leak_fraction_percent": 58.30834079704541,
+  "other_stars_light_percent": 36.08065263479197,
+  "later_sectors": [
+    40,
+    41,
+    54,
+    55,
+    74,
+    75,
+    81,
+    82
+  ],
+  "later_sector_count": 8,
+  "off_science_sector_count": 2,
+  "sector40_ctoi_cycle": 239,
+  "sector40_epoch_sigma_days": 0.2846715442400241,
+  "lc2_eb_injection_count": 200,
+  "lc2_eb_valid_fit_count": 199,
+  "lc2_eb_injections_at_least_as_negative_as_real": 0,
+  "lc2_eb_minimum_delta_chi2": -5.643231045490747,
+  "lc2_real_delta_chi2": -17.894316088547043
+}
