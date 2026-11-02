@@ -1,0 +1,158 @@
+{
+  "name": "A_E1_317300777_2.8211",
+  "signal": {
+    "key": "round8",
+    "tic": 317300777,
+    "P": 2.8210766304506065,
+    "t0": 1629.8027806560926,
+    "duration": 1.4369743309039473,
+    "mask": []
+  },
+  "idx": 15,
+  "method_key": "tic101",
+  "sectors": [
+    94
+  ],
+  "raw_manifest": [
+    {
+      "sector": 94,
+      "source": "evidence/raw/317300777/hlsp_qlp_tess_ffi_s0094-0000000317300777_tess_v01_llc.fits",
+      "sha256": "8ca933dc39c6ac70de695c68a3da4a0125d41045efa205620a6a0a54fc39a156",
+      "product": "QLP"
+    }
+  ],
+  "cases": {
+    "unmasked": {
+      "depth_ppm": 631.2249669652743,
+      "err_ppm": 198.17865556442015,
+      "z_scatter": 3.1851309373732617,
+      "n_cadences": 7838,
+      "sector_beta": {
+        "94": 1.0
+      },
+      "per_transit": [
+        {
+          "sector": 94,
+          "epoch": 790,
+          "depth_ppm": 889.2503535660588,
+          "err_ppm": 495.6187736138261,
+          "edgeA_fraction": 1.0,
+          "edgeB_fraction": 1.0
+        },
+        {
+          "sector": 94,
+          "epoch": 791,
+          "depth_ppm": 444.3363987249349,
+          "err_ppm": 511.37662695471687,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        },
+        {
+          "sector": 94,
+          "epoch": 792,
+          "depth_ppm": -11.553609831817914,
+          "err_ppm": 496.1081993897357,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        },
+        {
+          "sector": 94,
+          "epoch": 793,
+          "depth_ppm": 863.8788603965857,
+          "err_ppm": 495.1382899588353,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 1.0
+        },
+        {
+          "sector": 94,
+          "epoch": 795,
+          "depth_ppm": 1003.3393587205633,
+          "err_ppm": 495.1382899588353,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        },
+        {
+          "sector": 94,
+          "epoch": 796,
+          "depth_ppm": -921.4428182618695,
+          "err_ppm": 887.3569866417063,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        },
+        {
+          "sector": 94,
+          "epoch": 797,
+          "depth_ppm": 1073.6988352543224,
+          "err_ppm": 495.6187736138261,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        }
+      ],
+      "edge_share": {
+        "A": 0.19052608820793723,
+        "B": 0.37068449134384146
+      },
+      "arrays": "results/A_E1_317300777_2.8211_unmasked.npz",
+      "sha256": "9f8d77182310df470b57b7b1c09ea98c018334e369f25d4b573e705bf7ad542f"
+    },
+    "A": {
+      "depth_ppm": 587.300662780004,
+      "err_ppm": 213.89272936112303,
+      "z_scatter": 2.7457719789457755,
+      "n_cadences": 6583,
+      "sector_beta": {
+        "94": 1.0
+      },
+      "null": {
+        "n": 2000,
+        "attempts": 2231,
+        "mean_ppm": -2.1850161144546796,
+        "std_ppm": 202.81195623672423,
+        "q025_975_ppm": [
+          -408.3056167763951,
+          384.87166627574106
+        ],
+        "clean_cadences": 6360,
+        "removed_real_transit_cadences": 223
+      },
+      "z_null": 2.8957891520680397,
+      "null_seed": 20276031,
+      "exceedances": 4,
+      "p": 0.0024987506246876563,
+      "arrays": "results/A_E1_317300777_2.8211_A.npz",
+      "sha256": "de87755b1d869bc2277788fa2e077d93e86301bd6c5a9f92bbbdbcc1c109bf5e"
+    },
+    "B": {
+      "depth_ppm": 505.3580402144971,
+      "err_ppm": 238.09718989369662,
+      "z_scatter": 2.1224863697052645,
+      "n_cadences": 5734,
+      "sector_beta": {
+        "94": 1.0
+      },
+      "null": {
+        "n": 2000,
+        "attempts": 2241,
+        "mean_ppm": 2.835200453832059,
+        "std_ppm": 225.6538993158601,
+        "q025_975_ppm": [
+          -444.31862707376933,
+          429.8392214251418
+        ],
+        "clean_cadences": 5553,
+        "removed_real_transit_cadences": 181
+      },
+      "z_null": 2.2395271774458454,
+      "null_seed": 20276032,
+      "exceedances": 21,
+      "p": 0.010994502748625687,
+      "arrays": "results/A_E1_317300777_2.8211_B.npz",
+      "sha256": "38ae6312a4ee1301f52a1c6070462d723c63fb267a07076bb251c03970d4efd6"
+    }
+  },
+  "complete": true,
+  "bar_stays": true,
+  "holdout_supported": false,
+  "input_id": "E1_317300777_2.8211",
+  "input_sha256": "e84a1863cbe2650f26413d62fe0fd842aa7718f2fd85fe01ad38071a64fe742f"
+}

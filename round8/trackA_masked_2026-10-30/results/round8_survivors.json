@@ -1,0 +1,3781 @@
+[
+  {
+    "id": "C4_47393760_1.8317",
+    "tic": 47393760,
+    "row": {
+      "tic": 47393760,
+      "period": 1.8317223,
+      "t0_btjd": 1469.50724,
+      "dur_h": NaN,
+      "snr_src": 11.04,
+      "n_sec_src": 6.0,
+      "sde": NaN,
+      "rho": NaN,
+      "depth_ppm": 452.6,
+      "stream": "C4",
+      "src_file": "registry/scanned_targets.jsonl",
+      "src_row": "failed=g4 loeo_mean_z=3.81",
+      "rule": "explicit",
+      "max_sec_src": NaN,
+      "MES": NaN,
+      "author": "Thomas Marchand (open-exoplanet-hunt; source commit 19e5e9e)",
+      "src_sectors": "[6, 32, 43, 44, 71, 98]",
+      "mode": "fixed",
+      "excluded": NaN,
+      "prio": 5,
+      "also_in": NaN,
+      "n_avail": 7,
+      "n_theirs": 6,
+      "n_new": 1,
+      "inventoried": true,
+      "snr_rank": 11.04,
+      "E_hold": 4.507061126721047,
+      "E_full": 11.924562885070465,
+      "teff": 3660.0,
+      "rstar": 0.57653,
+      "mstar": 0.568503,
+      "tmag": 10.5167,
+      "ra": 80.9937148824589,
+      "dec": 12.4318407399854,
+      "d": 51.6000366,
+      "contratio": 0.206288189,
+      "logg": 4.67116,
+      "GAIA": 3.3875331684126525e+18,
+      "score": 15.595902793274089,
+      "star_rank": 396
+    },
+    "sectors": [
+      {
+        "sector": 6,
+        "prov": "SPOC-2min",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 32,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 43,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 44,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 45,
+        "prov": "TESS-SPOC",
+        "his": false,
+        "empty_err": false
+      },
+      {
+        "sector": 71,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 98,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      }
+    ],
+    "n_his_sectors": 6,
+    "n_new_sectors": 1,
+    "his_span_d": 2577.329334783715,
+    "mode": "fixed",
+    "n_qlp_timing": 0,
+    "rotation": {
+      "active": false,
+      "P_rot": 11.819879297654099
+    },
+    "known_masked": [],
+    "null": {
+      "n": 300,
+      "p_z": 0.0,
+      "rate_z25_cons": 0.0033333333333333335,
+      "z_std": 1.0051566378142223,
+      "z_mean": 0.034538116835637754
+    },
+    "real": {
+      "his": {
+        "P": 1.8317291077466848,
+        "t0": 1469.503791294134,
+        "dur": 0.03613947954652419,
+        "bls_snr": 10.033046511136265,
+        "n_periods": 2397,
+        "depth_ppm": 429.12586271415256,
+        "err_ppm": 49.134163331380385,
+        "snr": 8.73375740256238,
+        "n_tr": 78
+      },
+      "hold": {
+        "depth_ppm": 444.9320455112149,
+        "err_ppm": 124.6234497195868,
+        "z": 3.5702112765482683,
+        "n_tr": 12,
+        "consistency_sigma": 0.11799217562114657
+      },
+      "full": {
+        "P": 1.8317138193037763,
+        "t0": 1470.019908236408,
+        "dur": 0.05195050184812852,
+        "bls_snr": 10.63623535282516,
+        "n_periods": 2397,
+        "depth_ppm": 319.1094439863873,
+        "depth_err_ppm": 36.216578164507986,
+        "snr": 8.811142856646587,
+        "snr_white": 10.481683327323577,
+        "beta_med": 1.2820917184024143,
+        "n_transits": 82,
+        "oe_sigma": 0.09810801696191125,
+        "sec_sigma": -6.535029488970797,
+        "sec_any_sigma": 7.864688513935728,
+        "season_chi2_p": 0.004400221496400871,
+        "tr_chi2_p": 0.8461672363328137,
+        "rp_earth": 1.1246208679814045,
+        "dur_ratio": 0.7908148566018781,
+        "sin_ratio": 0.01735902935616482,
+        "shape": 0.5252404016383956,
+        "tr_max_over_mean": 2.6797587212222376,
+        "season_depths": [
+          {
+            "season": 1,
+            "t_mid": 1480.1545807294679,
+            "depth_ppm": 246.0110738637944,
+            "err_ppm": 110.82515016698454
+          },
+          {
+            "season": 2,
+            "t_mid": 2188.3564723510403,
+            "depth_ppm": 407.59032837822673,
+            "err_ppm": 97.91241692447349
+          },
+          {
+            "season": 3,
+            "t_mid": 2510.8439133907054,
+            "depth_ppm": 187.38868259837727,
+            "err_ppm": 49.18673072118768
+          },
+          {
+            "season": 4,
+            "t_mid": 3246.0128513960226,
+            "depth_ppm": 256.142038859708,
+            "err_ppm": 130.9000293913124
+          },
+          {
+            "season": 5,
+            "t_mid": 4015.692188434284,
+            "depth_ppm": 585.3907794529656,
+            "err_ppm": 97.60009097233146
+          }
+        ]
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "mode": "fixed"
+    },
+    "inverted": {
+      "his": {
+        "P": 1.8317061751459933,
+        "t0": 1468.9447587198988,
+        "dur": 0.07002024162139062,
+        "bls_snr": 9.013158984487067,
+        "n_periods": 2397,
+        "depth_ppm": 202.17028361624313,
+        "err_ppm": 36.59494605060806,
+        "snr": 5.524541102934181,
+        "n_tr": 77
+      },
+      "hold": {
+        "depth_ppm": 41.3706585975504,
+        "err_ppm": 90.02859637787053,
+        "z": 0.4595279751325715,
+        "n_tr": 11,
+        "consistency_sigma": -1.6546237940293826
+      },
+      "pass": {
+        "z_hold": false,
+        "consistent": true,
+        "snr_full": false,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": false
+      },
+      "full_snr": 7.568028627709752
+    },
+    "elapsed_s": 1.7113690376281738
+  },
+  {
+    "id": "E1_101653309_0.7034",
+    "tic": 101653309,
+    "row": {
+      "tic": 101653309,
+      "period": 0.7034423361016776,
+      "t0_btjd": 1658.973947021478,
+      "dur_h": 0.96,
+      "snr_src": 8.08452097299385,
+      "n_sec_src": 4.0,
+      "sde": 12.06110624356017,
+      "rho": 4.71385,
+      "depth_ppm": 539.4998811506,
+      "stream": "E1",
+      "src_file": "results_public/all_signals_faint_t1.csv.gz",
+      "src_row": "rank 2",
+      "rule": "eum_early",
+      "max_sec_src": 105.0,
+      "MES": NaN,
+      "author": "[source username redacted] (exoplanets)",
+      "src_sectors": NaN,
+      "mode": "fixed",
+      "excluded": NaN,
+      "prio": 0,
+      "also_in": NaN,
+      "n_avail": 5,
+      "n_theirs": 4,
+      "n_new": 1,
+      "inventoried": true,
+      "snr_rank": 8.08452097299385,
+      "E_hold": 4.042260486496925,
+      "E_full": 9.038769230568496,
+      "teff": 3627.0,
+      "rstar": 0.459143,
+      "mstar": 0.456268,
+      "tmag": 11.942,
+      "ra": 302.689290007055,
+      "dec": -49.2953480878173,
+      "d": 60.301,
+      "contratio": 0.07235749,
+      "logg": 4.77339,
+      "GAIA": NaN,
+      "score": 12.165889421198656,
+      "star_rank": 1814
+    },
+    "sectors": [
+      {
+        "sector": 13,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 27,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 67,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 94,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      },
+      {
+        "sector": 104,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      }
+    ],
+    "n_his_sectors": 4,
+    "n_new_sectors": 1,
+    "his_span_d": 2545.1292241199417,
+    "mode": "fixed",
+    "n_qlp_timing": 1,
+    "rotation": {
+      "active": false,
+      "P_rot": 6.972159014039244
+    },
+    "known_masked": [],
+    "null": {
+      "n": 300,
+      "p_z": 0.0,
+      "rate_z25_cons": 0.01,
+      "z_std": 1.089589510485792,
+      "z_mean": -1.4933541340826177e-05
+    },
+    "real": {
+      "his": {
+        "P": 0.7034399053390048,
+        "t0": 1659.6855207456247,
+        "dur": 0.04376306094509293,
+        "bls_snr": 8.618286696345251,
+        "n_periods": 3787,
+        "depth_ppm": 483.06757744864814,
+        "err_ppm": 66.64417385792814,
+        "snr": 7.248459234837995,
+        "n_tr": 107
+      },
+      "hold": {
+        "depth_ppm": 546.149969843368,
+        "err_ppm": 112.30723261512219,
+        "z": 4.862999088536252,
+        "n_tr": 31,
+        "consistency_sigma": 0.4830481656579652
+      },
+      "full": {
+        "P": 0.7034399053390048,
+        "t0": 1659.6855207456247,
+        "dur": 0.04376306094509293,
+        "bls_snr": 10.253096031021622,
+        "n_periods": 3787,
+        "depth_ppm": 498.95290932355783,
+        "depth_err_ppm": 51.413833519527444,
+        "snr": 9.704643189737077,
+        "snr_white": 10.245193290132995,
+        "beta_med": 1.0736087417830922,
+        "n_transits": 131,
+        "oe_sigma": 0.19651047863997348,
+        "sec_sigma": -0.31254085594442865,
+        "sec_any_sigma": 1.1422137497829103,
+        "season_chi2_p": 0.5014734033727886,
+        "tr_chi2_p": 0.2859031245172932,
+        "rp_earth": 1.1199332673565203,
+        "dur_ratio": 1.0610320092518906,
+        "sin_ratio": 0.2936648916829384,
+        "shape": 0.778239570080605,
+        "tr_max_over_mean": 5.589534359897144,
+        "season_depths": [
+          {
+            "season": 1,
+            "t_mid": 1670.338800787627,
+            "depth_ppm": 530.5316617421063,
+            "err_ppm": 172.32433363061816
+          },
+          {
+            "season": 2,
+            "t_mid": 2049.4220449748696,
+            "depth_ppm": 556.6155163241326,
+            "err_ppm": 132.59101333670586
+          },
+          {
+            "season": 3,
+            "t_mid": 3140.8324728049556,
+            "depth_ppm": 621.4166292646262,
+            "err_ppm": 114.11072140276131
+          },
+          {
+            "season": 4,
+            "t_mid": 3866.938419414556,
+            "depth_ppm": 521.9014769003438,
+            "err_ppm": 99.2413722594851
+          },
+          {
+            "season": 5,
+            "t_mid": 4189.604342987361,
+            "depth_ppm": 366.2840254083921,
+            "err_ppm": 95.60104009944777
+          }
+        ]
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "mode": "fixed"
+    },
+    "inverted": {
+      "his": {
+        "P": 0.7021093956678908,
+        "t0": 1659.2641248200728,
+        "dur": 0.014117116433900944,
+        "bls_snr": 5.284296524755574,
+        "n_periods": 3787,
+        "depth_ppm": 397.9670142169045,
+        "err_ppm": 121.33564559066056,
+        "snr": 3.279885414377659,
+        "n_tr": 93
+      },
+      "hold": {
+        "depth_ppm": 121.48547658141773,
+        "err_ppm": 185.2767628094481,
+        "z": 0.6556973186451994,
+        "n_tr": 30,
+        "consistency_sigma": -1.2483818249080183
+      },
+      "pass": {
+        "z_hold": false,
+        "consistent": true,
+        "snr_full": false,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": false
+      },
+      "full_snr": 5.02639139056721
+    },
+    "elapsed_s": 1.7245290279388428
+  },
+  {
+    "id": "E1_189827896_0.9972",
+    "tic": 189827896,
+    "row": {
+      "tic": 189827896,
+      "period": 0.997178486070887,
+      "t0_btjd": 1630.0242943301805,
+      "dur_h": 0.4,
+      "snr_src": 8.82159699641551,
+      "n_sec_src": 4.0,
+      "sde": 9.300655045554285,
+      "rho": 3.68114,
+      "depth_ppm": 8643.1847230435,
+      "stream": "E1",
+      "src_file": "results_public/all_signals_faint_t2.csv.gz",
+      "src_row": "rank 3",
+      "rule": "eum_early",
+      "max_sec_src": 105.0,
+      "MES": NaN,
+      "author": "[source username redacted] (exoplanets)",
+      "src_sectors": NaN,
+      "mode": "fixed",
+      "excluded": NaN,
+      "prio": 0,
+      "also_in": NaN,
+      "n_avail": 5,
+      "n_theirs": 4,
+      "n_new": 1,
+      "inventoried": true,
+      "snr_rank": 8.82159699641551,
+      "E_hold": 4.410798498207755,
+      "E_full": 9.862845277046524,
+      "teff": 3796.0,
+      "rstar": 0.519937,
+      "mstar": 0.51741,
+      "tmag": 13.163,
+      "ra": 234.846004851278,
+      "dec": -49.5578058492133,
+      "d": 130.584,
+      "contratio": 0.329570323,
+      "logg": 4.72,
+      "GAIA": NaN,
+      "score": 13.275068978765445,
+      "star_rank": 1103
+    },
+    "sectors": [
+      {
+        "sector": 12,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 38,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 65,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 102,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 103,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      }
+    ],
+    "n_his_sectors": 4,
+    "n_new_sectors": 1,
+    "his_span_d": 2520.9368143766033,
+    "mode": "fixed",
+    "n_qlp_timing": 2,
+    "rotation": {
+      "active": false,
+      "P_rot": 0.1991633743899605
+    },
+    "known_masked": [],
+    "null": {
+      "n": 300,
+      "p_z": 0.0033333333333333335,
+      "rate_z25_cons": 0.0,
+      "z_std": 1.059933139328025,
+      "z_mean": -0.028815939678835972
+    },
+    "real": {
+      "his": {
+        "P": 0.997345728044974,
+        "t0": 1630.7935729854216,
+        "dur": 0.05330952108895097,
+        "bls_snr": 7.84905581178564,
+        "n_periods": 3079,
+        "depth_ppm": 3873.184821871156,
+        "err_ppm": 468.47755089420014,
+        "snr": 8.267599620255586,
+        "n_tr": 79
+      },
+      "hold": {
+        "depth_ppm": 2359.2196441170054,
+        "err_ppm": 637.3436518175184,
+        "z": 3.7016445325676317,
+        "n_tr": 20,
+        "consistency_sigma": -1.9139932116842475
+      },
+      "full": {
+        "P": 0.9962351303849719,
+        "t0": 1630.8107696051277,
+        "dur": 0.07394546473628684,
+        "bls_snr": 10.295885634035212,
+        "n_periods": 3111,
+        "depth_ppm": 2446.2396516360395,
+        "depth_err_ppm": 299.3222938172404,
+        "snr": 8.172594230918396,
+        "snr_white": 9.624068352906134,
+        "beta_med": 1.1843719634114795,
+        "n_transits": 91,
+        "oe_sigma": 0.9606567740307779,
+        "sec_sigma": -6.568627503597494,
+        "sec_any_sigma": 6.204862502580698,
+        "season_chi2_p": 0.21087247737535916,
+        "tr_chi2_p": 0.9997676593404652,
+        "rp_earth": 2.8081132777326157,
+        "dur_ratio": 1.433929297966339,
+        "sin_ratio": 0.016043552820370954,
+        "shape": 0.780880535863234,
+        "tr_max_over_mean": 10.309971393790727,
+        "season_depths": [
+          {
+            "season": 1,
+            "t_mid": 1637.1930227433602,
+            "depth_ppm": 3891.5429924872847,
+            "err_ppm": 1187.2750316536165
+          },
+          {
+            "season": 2,
+            "t_mid": 2347.9843030296847,
+            "depth_ppm": 1570.534597229889,
+            "err_ppm": 2511.0983308683485
+          },
+          {
+            "season": 3,
+            "t_mid": 3079.9469833561975,
+            "depth_ppm": 3622.181270709457,
+            "err_ppm": 838.3042451855906
+          },
+          {
+            "season": 4,
+            "t_mid": 4154.191182631974,
+            "depth_ppm": 2117.9861632054653,
+            "err_ppm": 335.7574808398022
+          }
+        ]
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "mode": "fixed"
+    },
+    "inverted": {
+      "his": {
+        "P": 0.9960638218064818,
+        "t0": 1630.955221210659,
+        "dur": 0.07394546473628684,
+        "bls_snr": 7.146137112431307,
+        "n_periods": 3079,
+        "depth_ppm": 2367.6656813843565,
+        "err_ppm": 414.5690778148474,
+        "snr": 5.711148776131805,
+        "n_tr": 79
+      },
+      "hold": {
+        "depth_ppm": 881.0696625118908,
+        "err_ppm": 555.3668366852993,
+        "z": 1.586464304873775,
+        "n_tr": 20,
+        "consistency_sigma": -2.1450466562279638
+      },
+      "pass": {
+        "z_hold": false,
+        "consistent": true,
+        "snr_full": false,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": false
+      },
+      "full_snr": 7.362731095208917
+    },
+    "elapsed_s": 1.2534940242767334
+  },
+  {
+    "id": "E1_201752790_2.5127",
+    "tic": 201752790,
+    "row": {
+      "tic": 201752790,
+      "period": 2.512660196883481,
+      "t0_btjd": 1354.9997884054608,
+      "dur_h": 1.1301327293715628,
+      "snr_src": 6.78910224883695,
+      "n_sec_src": 5.0,
+      "sde": 11.424770798096866,
+      "rho": 3.9,
+      "depth_ppm": 1106.9021360724998,
+      "stream": "E1",
+      "src_file": "results_public/all_signals_faint_t2.csv.gz",
+      "src_row": "rank 1",
+      "rule": "eum_early",
+      "max_sec_src": 105.0,
+      "MES": NaN,
+      "author": "[source username redacted] (exoplanets)",
+      "src_sectors": NaN,
+      "mode": "fixed",
+      "excluded": NaN,
+      "prio": 0,
+      "also_in": NaN,
+      "n_avail": 7,
+      "n_theirs": 5,
+      "n_new": 2,
+      "inventoried": true,
+      "snr_rank": 6.78910224883695,
+      "E_hold": 4.293805274819198,
+      "E_full": 8.032974111948084,
+      "teff": 3517.0,
+      "rstar": 0.505351,
+      "mstar": 0.50332,
+      "tmag": 13.0417,
+      "ra": 33.1304629979859,
+      "dec": -57.6217083407201,
+      "d": 104.666,
+      "contratio": 0.002536951,
+      "logg": 4.73273,
+      "GAIA": 4.73926658314259e+18,
+      "score": 11.197864424293453,
+      "star_rank": 2859
+    },
+    "sectors": [
+      {
+        "sector": 2,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 3,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 29,
+        "prov": "SPOC-2min",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 30,
+        "prov": "SPOC-2min",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 69,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 96,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      },
+      {
+        "sector": 97,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      }
+    ],
+    "n_his_sectors": 5,
+    "n_new_sectors": 2,
+    "his_span_d": 1852.4715529668022,
+    "mode": "fixed",
+    "n_qlp_timing": 0,
+    "rotation": {
+      "active": false,
+      "P_rot": 0.3321050553457113
+    },
+    "known_masked": [],
+    "null": {
+      "n": 300,
+      "p_z": 0.0,
+      "rate_z25_cons": 0.0033333333333333335,
+      "z_std": 1.0561288229847714,
+      "z_mean": -0.011281040696054451
+    },
+    "real": {
+      "his": {
+        "P": 2.512650570870438,
+        "t0": 1354.9972930468562,
+        "dur": 0.03662162272879156,
+        "bls_snr": 7.299663953219854,
+        "n_periods": 1700,
+        "depth_ppm": 1492.3183387887118,
+        "err_ppm": 210.09643545634057,
+        "snr": 7.1030159819100085,
+        "n_tr": 44
+      },
+      "hold": {
+        "depth_ppm": 1012.1394381829018,
+        "err_ppm": 260.97732591264685,
+        "z": 3.8782658019941576,
+        "n_tr": 21,
+        "consistency_sigma": -1.4332122887549017
+      },
+      "full": {
+        "P": 2.5126571425312205,
+        "t0": 1355.000726323987,
+        "dur": 0.05264358267263787,
+        "bls_snr": 8.368800982513854,
+        "n_periods": 2417,
+        "depth_ppm": 1013.5566107286609,
+        "depth_err_ppm": 123.59613522909156,
+        "snr": 8.20055262124486,
+        "snr_white": 8.351224424239701,
+        "beta_med": 1.0,
+        "n_transits": 65,
+        "oe_sigma": 0.8937404314306182,
+        "sec_sigma": 2.5559162307163534,
+        "sec_any_sigma": 3.291604826360048,
+        "season_chi2_p": 0.2659394436890767,
+        "tr_chi2_p": 0.5116662791576828,
+        "rp_earth": 1.7568372574518747,
+        "dur_ratio": 0.7801063592886032,
+        "sin_ratio": 0.013133413767713398,
+        "shape": 0.683038821662111,
+        "tr_max_over_mean": 4.471712676519105,
+        "season_depths": [
+          {
+            "season": 1,
+            "t_mid": 1377.4927786234966,
+            "depth_ppm": 918.7087592429366,
+            "err_ppm": 236.65683551168254
+          },
+          {
+            "season": 2,
+            "t_mid": 2116.918790730593,
+            "depth_ppm": 1003.6862572424532,
+            "err_ppm": 240.41325790998016
+          },
+          {
+            "season": 3,
+            "t_mid": 3196.6088700560576,
+            "depth_ppm": 1984.3281729139405,
+            "err_ppm": 510.33810018889966
+          },
+          {
+            "season": 4,
+            "t_mid": 3945.38255759781,
+            "depth_ppm": 931.1583136212275,
+            "err_ppm": 194.38191102105128
+          }
+        ]
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "mode": "fixed"
+    },
+    "inverted": {
+      "his": {
+        "P": 2.501830559490551,
+        "t0": 1356.5033572815778,
+        "dur": 0.022888514205494724,
+        "bls_snr": 4.98239412475338,
+        "n_periods": 1700,
+        "depth_ppm": 1014.8508331855321,
+        "err_ppm": 270.4682125965927,
+        "snr": 3.752200021742285,
+        "n_tr": 42
+      },
+      "hold": {
+        "depth_ppm": 287.79534301137664,
+        "err_ppm": 346.1215303310233,
+        "z": 0.8314863936263523,
+        "n_tr": 19,
+        "consistency_sigma": -1.6551661722746285
+      },
+      "pass": {
+        "z_hold": false,
+        "consistent": true,
+        "snr_full": false,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": false
+      },
+      "full_snr": 4.534890705695365
+    },
+    "elapsed_s": 2.339033842086792
+  },
+  {
+    "id": "E1_262843927_24.1087",
+    "tic": 262843927,
+    "row": {
+      "tic": 262843927,
+      "period": 24.10874003167486,
+      "t0_btjd": 1332.7860005014406,
+      "dur_h": 3.0197616133743437,
+      "snr_src": 8.530176607200449,
+      "n_sec_src": 12.0,
+      "sde": 18.03452751227061,
+      "rho": 3.105,
+      "depth_ppm": 825.1054501795,
+      "stream": "E1",
+      "src_file": "results_public/all_signals_faint_t1.csv.gz",
+      "src_row": "rank 2",
+      "rule": "eum_early",
+      "max_sec_src": 105.0,
+      "MES": NaN,
+      "author": "[source username redacted] (exoplanets)",
+      "src_sectors": NaN,
+      "mode": "fixed",
+      "excluded": NaN,
+      "prio": 0,
+      "also_in": NaN,
+      "n_avail": 15,
+      "n_theirs": 12,
+      "n_new": 3,
+      "inventoried": true,
+      "snr_rank": 8.530176607200449,
+      "E_hold": 4.2650883036002245,
+      "E_full": 9.537027376889364,
+      "teff": 3725.0,
+      "rstar": 0.564296,
+      "mstar": 0.557933,
+      "tmag": 11.9833,
+      "ra": 52.5732109675974,
+      "dec": -63.501800044551,
+      "d": 83.3353,
+      "contratio": 0.00147634919,
+      "logg": 4.68164,
+      "GAIA": NaN,
+      "score": 11.669571528689476,
+      "star_rank": 2322
+    },
+    "sectors": [
+      {
+        "sector": 1,
+        "prov": "SPOC-2min",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 2,
+        "prov": "SPOC-2min",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 3,
+        "prov": "SPOC-2min",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 4,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 28,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 29,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 30,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 34,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 61,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 64,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 68,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 69,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 95,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      },
+      {
+        "sector": 96,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      },
+      {
+        "sector": 97,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      }
+    ],
+    "n_his_sectors": 12,
+    "n_new_sectors": 3,
+    "his_span_d": 1880.407133120084,
+    "mode": "fixed",
+    "n_qlp_timing": 0,
+    "rotation": {
+      "active": false,
+      "P_rot": 0.5350124086605931
+    },
+    "known_masked": [],
+    "null": {
+      "n": 300,
+      "p_z": 0.0,
+      "rate_z25_cons": 0.016666666666666666,
+      "z_std": 1.0377142344772594,
+      "z_mean": 0.0021894326178044862
+    },
+    "real": {
+      "his": {
+        "P": 24.108771213642704,
+        "t0": 1332.7862983660812,
+        "dur": 0.12056940897153487,
+        "bls_snr": 9.876888344876864,
+        "n_periods": 754,
+        "depth_ppm": 1130.1987737371012,
+        "err_ppm": 119.98627115229492,
+        "snr": 9.419400760463455,
+        "n_tr": 12
+      },
+      "hold": {
+        "depth_ppm": 719.9721310918727,
+        "err_ppm": 219.12036313151935,
+        "z": 3.2857381249397375,
+        "n_tr": 2,
+        "consistency_sigma": -1.64208352808966
+      },
+      "full": {
+        "P": 24.1089377127166,
+        "t0": 1332.7862983660812,
+        "dur": 0.12056940897153487,
+        "bls_snr": 10.514397920307193,
+        "n_periods": 1067,
+        "depth_ppm": 956.6373073096602,
+        "depth_err_ppm": 94.69004538554272,
+        "snr": 10.102828691385543,
+        "snr_white": 10.621247284383632,
+        "beta_med": 1.040535858315018,
+        "n_transits": 13,
+        "oe_sigma": 1.165766955278735,
+        "sec_sigma": 0.6791165029954732,
+        "sec_any_sigma": 3.117421260453573,
+        "season_chi2_p": 0.7273971249342988,
+        "tr_chi2_p": 0.7288119537569957,
+        "rp_earth": 1.9058776926954926,
+        "dur_ratio": 0.7808434499736597,
+        "sin_ratio": 0.0068746831150067675,
+        "shape": 0.9385554030869865,
+        "tr_max_over_mean": 1.6872371423807957,
+        "season_depths": [
+          {
+            "season": 1,
+            "t_mid": 1363.423641179263,
+            "depth_ppm": 854.1811668187904,
+            "err_ppm": 158.74502861952337
+          },
+          {
+            "season": 2,
+            "t_mid": 2103.6233545983655,
+            "depth_ppm": 1187.6647134981822,
+            "err_ppm": 251.69799109798362
+          },
+          {
+            "season": 3,
+            "t_mid": 2240.797739941666,
+            "depth_ppm": 597.300422993996,
+            "err_ppm": 353.4504033941299
+          },
+          {
+            "season": 4,
+            "t_mid": 3044.2472483579636,
+            "depth_ppm": 1037.752867900532,
+            "err_ppm": 244.64815917862745
+          },
+          {
+            "season": 5,
+            "t_mid": 3178.826430592482,
+            "depth_ppm": 1129.694924554947,
+            "err_ppm": 378.90278116576576
+          },
+          {
+            "season": 6,
+            "t_mid": 3932.5470906957216,
+            "depth_ppm": 841.4700818214493,
+            "err_ppm": 202.50725459476055
+          }
+        ]
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "mode": "fixed"
+    },
+    "inverted": {
+      "his": {
+        "P": 24.081267951125962,
+        "t0": 1334.2567209407123,
+        "dur": 0.0524214821615369,
+        "bls_snr": 5.795249265126962,
+        "n_periods": 754,
+        "depth_ppm": 854.9397935403435,
+        "err_ppm": 195.67373128877247,
+        "snr": 4.369210869079998,
+        "n_tr": 9
+      },
+      "hold": {
+        "depth_ppm": 342.8895388140063,
+        "err_ppm": 234.71979930109188,
+        "z": 1.4608462508702018,
+        "n_tr": 4,
+        "consistency_sigma": -1.6756447364905078
+      },
+      "pass": {
+        "z_hold": false,
+        "consistent": true,
+        "snr_full": false,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": false
+      },
+      "full_snr": 4.980080219473364
+    },
+    "elapsed_s": 3.6328771114349365
+  },
+  {
+    "id": "E1_317300777_2.8211",
+    "tic": 317300777,
+    "row": {
+      "tic": 317300777,
+      "period": 2.821077953136708,
+      "t0_btjd": 1629.8018629323549,
+      "dur_h": 1.499573723584794,
+      "snr_src": 8.11747000917172,
+      "n_sec_src": 9.0,
+      "sde": 21.353292698627683,
+      "rho": 2.97651,
+      "depth_ppm": 455.6898333733,
+      "stream": "E1",
+      "src_file": "results_public/all_signals_faint_t1.csv.gz",
+      "src_row": "rank 1",
+      "rule": "eum_early",
+      "max_sec_src": 105.0,
+      "MES": NaN,
+      "author": "[source username redacted] (exoplanets)",
+      "src_sectors": NaN,
+      "mode": "fixed",
+      "excluded": NaN,
+      "prio": 0,
+      "also_in": NaN,
+      "n_avail": 10,
+      "n_theirs": 9,
+      "n_new": 1,
+      "inventoried": true,
+      "snr_rank": 8.11747000917172,
+      "E_hold": 2.7058233363905733,
+      "E_full": 8.55656468903018,
+      "teff": 3647.0,
+      "rstar": 0.575635,
+      "mstar": 0.567739,
+      "tmag": 11.996,
+      "ra": 124.900149306566,
+      "dec": -86.8641484928287,
+      "d": 81.2637,
+      "contratio": 0.06717258,
+      "logg": 4.67192,
+      "GAIA": NaN,
+      "score": 10.900423992948014,
+      "star_rank": 3260
+    },
+    "sectors": [
+      {
+        "sector": 12,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 13,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 27,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 38,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 39,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 65,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 66,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 67,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 93,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 94,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      }
+    ],
+    "n_his_sectors": 9,
+    "n_new_sectors": 1,
+    "his_span_d": 2226.576469773021,
+    "mode": "fixed",
+    "n_qlp_timing": 0,
+    "rotation": {
+      "active": false,
+      "P_rot": 7.714928732183047
+    },
+    "known_masked": [],
+    "null": {
+      "n": 300,
+      "p_z": 0.0,
+      "rate_z25_cons": 0.006666666666666667,
+      "z_std": 0.9445854724839522,
+      "z_mean": 0.05796279175306142
+    },
+    "real": {
+      "his": {
+        "P": 2.8210766304506065,
+        "t0": 1629.8027806560926,
+        "dur": 0.05987393045433114,
+        "bls_snr": 8.383029718078877,
+        "n_periods": 1797,
+        "depth_ppm": 552.5765713217945,
+        "err_ppm": 64.30770002296939,
+        "snr": 8.59269684850221,
+        "n_tr": 75
+      },
+      "hold": {
+        "depth_ppm": 630.7882418244981,
+        "err_ppm": 198.16524656870945,
+        "z": 3.1831426183288207,
+        "n_tr": 7,
+        "consistency_sigma": 0.3754066449833719
+      },
+      "full": {
+        "P": 2.821071566451826,
+        "t0": 1629.8053838704602,
+        "dur": 0.05987393045433114,
+        "bls_snr": 8.806664449781348,
+        "n_periods": 1817,
+        "depth_ppm": 479.7817992890918,
+        "depth_err_ppm": 54.813366441161435,
+        "snr": 8.75300734911267,
+        "snr_white": 8.75300734911267,
+        "beta_med": 1.0,
+        "n_transits": 80,
+        "oe_sigma": 1.1855009146010151,
+        "sec_sigma": 0.25701747835895017,
+        "sec_any_sigma": 2.059879465309421,
+        "season_chi2_p": 0.9122060702602902,
+        "tr_chi2_p": 0.8640579227822195,
+        "rp_earth": 1.3768400008368373,
+        "dur_ratio": 0.7877058764151067,
+        "sin_ratio": 0.008067577998076834,
+        "shape": 1.1457842350809173,
+        "tr_max_over_mean": 3.17594926505958,
+        "season_depths": [
+          {
+            "season": 1,
+            "t_mid": 1659.4400084626288,
+            "depth_ppm": 579.5379605314511,
+            "err_ppm": 124.9186519887004
+          },
+          {
+            "season": 2,
+            "t_mid": 2049.4152458638414,
+            "depth_ppm": 436.0699103886923,
+            "err_ppm": 206.24642692625048
+          },
+          {
+            "season": 3,
+            "t_mid": 2363.040314458761,
+            "depth_ppm": 434.6754122410701,
+            "err_ppm": 108.63990576758027
+          },
+          {
+            "season": 4,
+            "t_mid": 3105.717163525684,
+            "depth_ppm": 450.669858706676,
+            "err_ppm": 97.7697450020741
+          },
+          {
+            "season": 5,
+            "t_mid": 3853.235129443133,
+            "depth_ppm": 506.653605268248,
+            "err_ppm": 133.74969850541348
+          }
+        ]
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "mode": "fixed"
+    },
+    "inverted": {
+      "his": {
+        "P": 2.807955694663218,
+        "t0": 1631.0744508746552,
+        "dur": 0.02603214367579615,
+        "bls_snr": 5.19356304197829,
+        "n_periods": 1797,
+        "depth_ppm": 435.974419856322,
+        "err_ppm": 100.10677165331745,
+        "snr": 4.355094192490366,
+        "n_tr": 71
+      },
+      "hold": {
+        "depth_ppm": -2.1309243370959408,
+        "err_ppm": 290.95172437644965,
+        "z": -0.0073239790610033694,
+        "n_tr": 8,
+        "consistency_sigma": -1.423844508464149
+      },
+      "pass": {
+        "z_hold": false,
+        "consistent": true,
+        "snr_full": false,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": false
+      },
+      "full_snr": 5.180467673560144
+    },
+    "elapsed_s": 2.3776938915252686
+  },
+  {
+    "id": "E1_348760393_12.3887",
+    "tic": 348760393,
+    "row": {
+      "tic": 348760393,
+      "period": 12.388664835544636,
+      "t0_btjd": 1325.858370724592,
+      "dur_h": 1.9457388317576936,
+      "snr_src": 8.325753813258903,
+      "n_sec_src": 10.0,
+      "sde": 17.618996817968085,
+      "rho": 3.75679,
+      "depth_ppm": 1054.6528831196,
+      "stream": "E1",
+      "src_file": "results_public/all_signals_faint_t1.csv.gz",
+      "src_row": "rank 1",
+      "rule": "eum_early",
+      "max_sec_src": 105.0,
+      "MES": NaN,
+      "author": "[source username redacted] (exoplanets)",
+      "src_sectors": NaN,
+      "mode": "fixed",
+      "excluded": NaN,
+      "prio": 0,
+      "also_in": NaN,
+      "n_avail": 12,
+      "n_theirs": 10,
+      "n_new": 2,
+      "inventoried": true,
+      "snr_rank": 8.325753813258903,
+      "E_hold": 3.723390298074999,
+      "E_full": 9.12040634351311,
+      "teff": 3558.0,
+      "rstar": 0.514773,
+      "mstar": 0.512465,
+      "tmag": 12.3644,
+      "ra": 45.4053498620738,
+      "dec": -82.6412840794927,
+      "d": 83.4573,
+      "contratio": 0.00431064842,
+      "logg": 4.7245,
+      "GAIA": NaN,
+      "score": 10.98210149255061,
+      "star_rank": 3139
+    },
+    "sectors": [
+      {
+        "sector": 1,
+        "prov": "SPOC-2min",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 12,
+        "prov": "SPOC-2min",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 13,
+        "prov": "SPOC-2min",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 27,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 28,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 39,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 66,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 67,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 68,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 93,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 94,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      },
+      {
+        "sector": 95,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      }
+    ],
+    "n_his_sectors": 10,
+    "n_new_sectors": 2,
+    "his_span_d": 2529.7971221583284,
+    "mode": "fixed",
+    "n_qlp_timing": 0,
+    "rotation": {
+      "active": false,
+      "P_rot": 4.136165963888397
+    },
+    "known_masked": [],
+    "null": {
+      "n": 282,
+      "p_z": 0.0,
+      "rate_z25_cons": 0.0033333333333333335,
+      "z_std": 1.0130701738767203,
+      "z_mean": 0.003256477660256859
+    },
+    "real": {
+      "his": {
+        "P": 12.388635480281128,
+        "t0": 1325.857791124325,
+        "dur": 0.09063584015180158,
+        "bls_snr": 8.08244572853352,
+        "n_periods": 1349,
+        "depth_ppm": 1016.6855732290925,
+        "err_ppm": 137.9509566529864,
+        "snr": 7.369905928137563,
+        "n_tr": 20
+      },
+      "hold": {
+        "depth_ppm": 895.759260004847,
+        "err_ppm": 258.89150821601385,
+        "z": 3.4599793024398604,
+        "n_tr": 4,
+        "consistency_sigma": -0.4122228416142954
+      },
+      "full": {
+        "P": 12.388661417527516,
+        "t0": 1325.8499097469207,
+        "dur": 0.09063584015180158,
+        "bls_snr": 8.44326318444032,
+        "n_periods": 1376,
+        "depth_ppm": 882.4654211411209,
+        "depth_err_ppm": 108.12817277798797,
+        "snr": 8.161290424772327,
+        "snr_white": 8.6145933280414,
+        "beta_med": 1.0301831320178263,
+        "n_transits": 23,
+        "oe_sigma": 0.46557751606424186,
+        "sec_sigma": 0.9636815713233319,
+        "sec_any_sigma": 3.5168936524418717,
+        "season_chi2_p": 0.5399042734134198,
+        "tr_chi2_p": 0.5113646817696995,
+        "rp_earth": 1.6698559433210127,
+        "dur_ratio": 0.7817699686866357,
+        "sin_ratio": 0.00994079972969173,
+        "shape": 0.8629262984209828,
+        "tr_max_over_mean": 1.899335580749449,
+        "season_depths": [
+          {
+            "season": 1,
+            "t_mid": 1338.147370623548,
+            "depth_ppm": 633.5946287068239,
+            "err_ppm": 293.4080999450161
+          },
+          {
+            "season": 2,
+            "t_mid": 1659.3453351898727,
+            "depth_ppm": 724.8080589397077,
+            "err_ppm": 270.71659901124633
+          },
+          {
+            "season": 3,
+            "t_mid": 2059.074960622592,
+            "depth_ppm": 854.6490824393737,
+            "err_ppm": 284.4319627134878
+          },
+          {
+            "season": 4,
+            "t_mid": 2376.477516746034,
+            "depth_ppm": 1259.781148293837,
+            "err_ppm": 354.94047314219097
+          },
+          {
+            "season": 5,
+            "t_mid": 3141.4113904214023,
+            "depth_ppm": 1237.0724140616796,
+            "err_ppm": 260.7024809441927
+          },
+          {
+            "season": 6,
+            "t_mid": 3864.796299921,
+            "depth_ppm": 837.3992676938835,
+            "err_ppm": 198.97478220853844
+          }
+        ]
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "mode": "fixed"
+    },
+    "inverted": {
+      "his": {
+        "P": 12.391576586022309,
+        "t0": 1327.9246823486565,
+        "dur": 0.03940688702252243,
+        "bls_snr": 5.0990153952287285,
+        "n_periods": 1349,
+        "depth_ppm": 835.6131244637854,
+        "err_ppm": 209.4669615704797,
+        "snr": 3.989235907174914,
+        "n_tr": 18
+      },
+      "hold": {
+        "depth_ppm": 220.48822402731537,
+        "err_ppm": 461.0303986908785,
+        "z": 0.47825094538972696,
+        "n_tr": 3,
+        "consistency_sigma": -1.2147383874064648
+      },
+      "pass": {
+        "z_hold": false,
+        "consistent": true,
+        "snr_full": false,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": false
+      },
+      "full_snr": 4.8448303079208115
+    },
+    "elapsed_s": 3.5846362113952637
+  },
+  {
+    "id": "E1_410418450_6.8202",
+    "tic": 410418450,
+    "row": {
+      "tic": 410418450,
+      "period": 6.820246291979613,
+      "t0_btjd": 1629.7813519856006,
+      "dur_h": 2.391459939271258,
+      "snr_src": 8.925738511310284,
+      "n_sec_src": 9.0,
+      "sde": 15.68291008265317,
+      "rho": 2.89769,
+      "depth_ppm": 1810.4040796003,
+      "stream": "E1",
+      "src_file": "results_public/all_signals_faint_t2.csv.gz",
+      "src_row": "rank 2",
+      "rule": "eum_early",
+      "max_sec_src": 105.0,
+      "MES": NaN,
+      "author": "[source username redacted] (exoplanets)",
+      "src_sectors": NaN,
+      "mode": "fixed",
+      "excluded": NaN,
+      "prio": 0,
+      "also_in": NaN,
+      "n_avail": 10,
+      "n_theirs": 9,
+      "n_new": 1,
+      "inventoried": true,
+      "snr_rank": 8.925738511310284,
+      "E_hold": 2.975246170436761,
+      "E_full": 9.408554498273691,
+      "teff": 3482.0,
+      "rstar": 0.582905,
+      "mstar": 0.573912,
+      "tmag": 13.2257,
+      "ra": 82.6216028610011,
+      "dec": -84.1074529374004,
+      "d": 136.353,
+      "contratio": 0.003996569,
+      "logg": 4.66572,
+      "GAIA": NaN,
+      "score": 10.896177583492074,
+      "star_rank": 3266
+    },
+    "sectors": [
+      {
+        "sector": 12,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 13,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 27,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 38,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 39,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 65,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 66,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 67,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 93,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 94,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      }
+    ],
+    "n_his_sectors": 9,
+    "n_new_sectors": 1,
+    "his_span_d": 2228.271027984895,
+    "mode": "fixed",
+    "n_qlp_timing": 0,
+    "rotation": {
+      "active": false,
+      "P_rot": 0.6886760865197885
+    },
+    "known_masked": [],
+    "null": {
+      "n": 299,
+      "p_z": 0.0,
+      "rate_z25_cons": 0.0,
+      "z_std": 1.0151860957399403,
+      "z_mean": -0.05118451927541841
+    },
+    "real": {
+      "his": {
+        "P": 6.8202239655237875,
+        "t0": 1629.7819342548062,
+        "dur": 0.109196962759765,
+        "bls_snr": 10.363790345696303,
+        "n_periods": 1329,
+        "depth_ppm": 2259.1938500406973,
+        "err_ppm": 260.0024583646557,
+        "snr": 8.689124957703893,
+        "n_tr": 34
+      },
+      "hold": {
+        "depth_ppm": 2020.919241180752,
+        "err_ppm": 635.3013903046885,
+        "z": 3.1810401677407403,
+        "n_tr": 4,
+        "consistency_sigma": -0.3471130285092334
+      },
+      "full": {
+        "P": 6.82019257351859,
+        "t0": 1629.7889792201454,
+        "dur": 0.109196962759765,
+        "bls_snr": 11.223297393883223,
+        "n_periods": 1344,
+        "depth_ppm": 1946.4733813482349,
+        "depth_err_ppm": 209.4678801186965,
+        "snr": 9.292467084907011,
+        "snr_white": 11.375130586206637,
+        "beta_med": 1.1277603681394115,
+        "n_transits": 38,
+        "oe_sigma": 0.7900697163506321,
+        "sec_sigma": -0.20636880901411003,
+        "sec_any_sigma": 2.623972360780107,
+        "season_chi2_p": 0.9227055739360358,
+        "tr_chi2_p": 0.756246135275963,
+        "rp_earth": 2.8082541759197635,
+        "dur_ratio": 1.0391228527869667,
+        "sin_ratio": 0.010340055705018945,
+        "shape": 1.0268373149677625,
+        "tr_max_over_mean": 2.8404510982226547,
+        "season_depths": [
+          {
+            "season": 1,
+            "t_mid": 1658.960564703012,
+            "depth_ppm": 2276.450174328426,
+            "err_ppm": 514.5596570356233
+          },
+          {
+            "season": 2,
+            "t_mid": 2047.8630384254673,
+            "depth_ppm": 2150.8166479469182,
+            "err_ppm": 685.0456734210801
+          },
+          {
+            "season": 3,
+            "t_mid": 2363.1892532878783,
+            "depth_ppm": 2003.8256453324132,
+            "err_ppm": 504.1983359620371
+          },
+          {
+            "season": 4,
+            "t_mid": 3108.7828100637184,
+            "depth_ppm": 1890.4543287137087,
+            "err_ppm": 359.2358197357805
+          },
+          {
+            "season": 5,
+            "t_mid": 3853.2001135156383,
+            "depth_ppm": 1677.715410892011,
+            "err_ppm": 438.4958264626094
+          }
+        ]
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "mode": "fixed"
+    },
+    "inverted": {
+      "his": {
+        "P": 6.828907885676089,
+        "t0": 1633.6619489154475,
+        "dur": 0.03522482669669839,
+        "bls_snr": 6.7406587302771594,
+        "n_periods": 1329,
+        "depth_ppm": 1755.8605594792941,
+        "err_ppm": 442.18321841822365,
+        "snr": 3.970889184262471,
+        "n_tr": 33
+      },
+      "hold": {
+        "depth_ppm": 1570.3601726605455,
+        "err_ppm": 917.1112166341636,
+        "z": 1.7122897901345409,
+        "n_tr": 4,
+        "consistency_sigma": -0.18219449092755788
+      },
+      "pass": {
+        "z_hold": false,
+        "consistent": true,
+        "snr_full": false,
+        "oe": false,
+        "sec": true,
+        "season": true,
+        "all": false
+      },
+      "full_snr": 5.363161239794003
+    },
+    "elapsed_s": 2.279040575027466
+  },
+  {
+    "id": "E1_423840582_16.1678",
+    "tic": 423840582,
+    "row": {
+      "tic": 423840582,
+      "period": 16.16781806880728,
+      "t0_btjd": 1635.588335901381,
+      "dur_h": 2.9587108553154855,
+      "snr_src": 8.10264233964568,
+      "n_sec_src": 6.0,
+      "sde": 13.491810917920496,
+      "rho": 10.4697,
+      "depth_ppm": 940.5842192112,
+      "stream": "E1",
+      "src_file": "results_public/all_signals.csv.gz",
+      "src_row": "rank 1",
+      "rule": "eum_early",
+      "max_sec_src": 105.0,
+      "MES": NaN,
+      "author": "[source username redacted] (exoplanets)",
+      "src_sectors": NaN,
+      "mode": "fixed",
+      "excluded": NaN,
+      "prio": 0,
+      "also_in": NaN,
+      "n_avail": 7,
+      "n_theirs": 6,
+      "n_new": 1,
+      "inventoried": true,
+      "snr_rank": 8.10264233964568,
+      "E_hold": 3.307889883400464,
+      "E_full": 8.751853995864074,
+      "teff": 3383.0,
+      "rstar": 0.296331,
+      "mstar": 0.272437,
+      "tmag": 11.4623,
+      "ra": 235.656365965218,
+      "dec": -61.4747035797013,
+      "d": 24.7369,
+      "contratio": 1.09126437,
+      "logg": 4.92978,
+      "GAIA": NaN,
+      "score": 11.966668778198953,
+      "star_rank": 1993
+    },
+    "sectors": [
+      {
+        "sector": 12,
+        "prov": "SPOC-2min",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 39,
+        "prov": "SPOC-2min",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 65,
+        "prov": "SPOC-2min",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 100,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 101,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 102,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 103,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      }
+    ],
+    "n_his_sectors": 6,
+    "n_new_sectors": 1,
+    "his_span_d": 2522.222222796734,
+    "mode": "fixed",
+    "n_qlp_timing": 4,
+    "rotation": {
+      "active": false,
+      "P_rot": 4.103750997605747
+    },
+    "known_masked": [],
+    "null": {
+      "n": 243,
+      "p_z": 0.0033333333333333335,
+      "rate_z25_cons": 0.0033333333333333335,
+      "z_std": 1.1149964270030088,
+      "z_mean": -0.0019511930942685157
+    },
+    "real": {
+      "his": {
+        "P": 16.16750076129867,
+        "t0": 1635.6262870932517,
+        "dur": 0.13157462344860363,
+        "bls_snr": 9.435409973339068,
+        "n_periods": 1732,
+        "depth_ppm": 1375.859148355918,
+        "err_ppm": 141.74362568655323,
+        "snr": 9.706673874692916,
+        "n_tr": 9
+      },
+      "hold": {
+        "depth_ppm": 1399.6964611291407,
+        "err_ppm": 330.9592405031908,
+        "z": 4.229211001938005,
+        "n_tr": 2,
+        "consistency_sigma": 0.06620830212187649
+      },
+      "full": {
+        "P": 16.167403842950343,
+        "t0": 1635.6293469682155,
+        "dur": 0.13157462344860363,
+        "bls_snr": 10.661018767604261,
+        "n_periods": 1750,
+        "depth_ppm": 1032.8910089028032,
+        "depth_err_ppm": 112.89516471915086,
+        "snr": 9.149116452173347,
+        "snr_white": 10.410550912416909,
+        "beta_med": 1.0179622511608837,
+        "n_transits": 11,
+        "oe_sigma": 1.9001208335072086,
+        "sec_sigma": -0.04992676748579726,
+        "sec_any_sigma": 3.2811119721345956,
+        "season_chi2_p": 0.1477143949185531,
+        "tr_chi2_p": 0.22194891222796592,
+        "rp_earth": 1.0399650239404736,
+        "dur_ratio": 1.4581453407598224,
+        "sin_ratio": 0.007507407575855417,
+        "shape": 0.5457203981588433,
+        "tr_max_over_mean": 1.6899799010095824,
+        "season_depths": [
+          {
+            "season": 1,
+            "t_mid": 1638.8055821484797,
+            "depth_ppm": 399.149984280367,
+            "err_ppm": 487.6875157287307
+          },
+          {
+            "season": 2,
+            "t_mid": 2376.468404651465,
+            "depth_ppm": 740.452367493094,
+            "err_ppm": 246.93800094145772
+          },
+          {
+            "season": 3,
+            "t_mid": 3082.6354231428154,
+            "depth_ppm": 1249.3644448569041,
+            "err_ppm": 294.7864825092666
+          },
+          {
+            "season": 4,
+            "t_mid": 4124.846623142554,
+            "depth_ppm": 1240.5475811892995,
+            "err_ppm": 146.88611597815438
+          }
+        ]
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "mode": "fixed"
+    },
+    "inverted": {
+      "his": {
+        "P": 16.19648906374876,
+        "t0": 1637.3183979483,
+        "dur": 0.07037712417018333,
+        "bls_snr": 5.598352624291814,
+        "n_periods": 1732,
+        "depth_ppm": 752.4322177878684,
+        "err_ppm": 179.6576645204844,
+        "snr": 4.188144267577724,
+        "n_tr": 9
+      },
+      "hold": {
+        "depth_ppm": 1018.779488751842,
+        "err_ppm": 588.4414625124127,
+        "z": 1.7313183275734103,
+        "n_tr": 1,
+        "consistency_sigma": 0.43290462905890825
+      },
+      "pass": {
+        "z_hold": false,
+        "consistent": true,
+        "snr_full": false,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": false
+      },
+      "full_snr": 5.527821258603293
+    },
+    "elapsed_s": 3.532067060470581
+  },
+  {
+    "id": "E1_447558713_5.5577",
+    "tic": 447558713,
+    "row": {
+      "tic": 447558713,
+      "period": 5.557665088079782,
+      "t0_btjd": 1629.883338733987,
+      "dur_h": 1.9418404393716904,
+      "snr_src": 8.936403499504948,
+      "n_sec_src": 6.0,
+      "sde": 18.738342505198545,
+      "rho": 4.41056,
+      "depth_ppm": 1754.3873471611,
+      "stream": "E1",
+      "src_file": "results_public/all_signals_faint_t2.csv.gz",
+      "src_row": "rank 1",
+      "rule": "eum_early",
+      "max_sec_src": 105.0,
+      "MES": NaN,
+      "author": "[source username redacted] (exoplanets)",
+      "src_sectors": NaN,
+      "mode": "fixed",
+      "excluded": NaN,
+      "prio": 0,
+      "also_in": "E2:[source username redacted]",
+      "n_avail": 8,
+      "n_theirs": 6,
+      "n_new": 2,
+      "inventoried": true,
+      "snr_rank": 8.936403499504948,
+      "E_hold": 5.1594349660262955,
+      "E_full": 10.318869932052593,
+      "teff": 3808.0,
+      "rstar": 0.475064,
+      "mstar": 0.472879,
+      "tmag": 12.6536,
+      "ra": 253.605592668821,
+      "dec": -61.5696897866742,
+      "d": 91.6675,
+      "contratio": 0.517299056,
+      "logg": 4.75931,
+      "GAIA": NaN,
+      "score": 12.89858741506574,
+      "star_rank": 741
+    },
+    "sectors": [
+      {
+        "sector": 12,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 39,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 66,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 93,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 100,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 101,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      },
+      {
+        "sector": 102,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 103,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      }
+    ],
+    "n_his_sectors": 6,
+    "n_new_sectors": 2,
+    "his_span_d": 2522.187544552856,
+    "mode": "fixed",
+    "n_qlp_timing": 4,
+    "rotation": {
+      "active": false,
+      "P_rot": 0.12628166558198364
+    },
+    "known_masked": [],
+    "null": {
+      "n": 300,
+      "p_z": 0.0,
+      "rate_z25_cons": 0.01,
+      "z_std": 1.1634537495458726,
+      "z_mean": -0.027994482750325567
+    },
+    "real": {
+      "his": {
+        "P": 5.557604899603225,
+        "t0": 1629.8870429373346,
+        "dur": 0.08866651960397337,
+        "bls_snr": 8.615138544764509,
+        "n_periods": 1852,
+        "depth_ppm": 1902.3082412606973,
+        "err_ppm": 198.67064204421513,
+        "snr": 9.575185451091105,
+        "n_tr": 23
+      },
+      "hold": {
+        "depth_ppm": 2493.359445391974,
+        "err_ppm": 397.17092170700164,
+        "z": 6.27779957977729,
+        "n_tr": 7,
+        "consistency_sigma": 1.3309305477270508
+      },
+      "full": {
+        "P": 5.557553986215896,
+        "t0": 1629.9042041991934,
+        "dur": 0.08866651960397337,
+        "bls_snr": 10.690878682262852,
+        "n_periods": 1872,
+        "depth_ppm": 1557.2427700242254,
+        "depth_err_ppm": 156.8609870561386,
+        "snr": 9.92753392191079,
+        "snr_white": 10.790095671465576,
+        "beta_med": 1.008676728297044,
+        "n_transits": 30,
+        "oe_sigma": 1.0074277390174353,
+        "sec_sigma": 2.1638630412929265,
+        "sec_any_sigma": 2.9443820440276247,
+        "season_chi2_p": 0.11222733810339737,
+        "tr_chi2_p": 0.17613591545961335,
+        "rp_earth": 2.0471265036409743,
+        "dur_ratio": 1.0437863268278518,
+        "sin_ratio": 0.010108261796825311,
+        "shape": 0.8745883554730942,
+        "tr_max_over_mean": 2.5429892875190645,
+        "season_depths": [
+          {
+            "season": 1,
+            "t_mid": 1638.8591440461523,
+            "depth_ppm": 2546.162133345575,
+            "err_ppm": 455.321775631779
+          },
+          {
+            "season": 2,
+            "t_mid": 2376.4873426207964,
+            "depth_ppm": 1079.337220935339,
+            "err_ppm": 363.05912855320463
+          },
+          {
+            "season": 3,
+            "t_mid": 3112.575008120442,
+            "depth_ppm": 1074.938583473406,
+            "err_ppm": 589.2908312122954
+          },
+          {
+            "season": 4,
+            "t_mid": 3844.023523009163,
+            "depth_ppm": 1332.6084307807573,
+            "err_ppm": 624.1299482161008
+          },
+          {
+            "season": 5,
+            "t_mid": 4123.950040871733,
+            "depth_ppm": 1677.512312485252,
+            "err_ppm": 209.49743674392062
+          }
+        ]
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "mode": "fixed"
+    },
+    "inverted": {
+      "his": {
+        "P": 5.557574888178096,
+        "t0": 1630.0843974487111,
+        "dur": 0.12298904332164048,
+        "bls_snr": 5.886446636377133,
+        "n_periods": 1852,
+        "depth_ppm": 1001.4190639011655,
+        "err_ppm": 165.40832934426246,
+        "snr": 6.054223918899051,
+        "n_tr": 24
+      },
+      "hold": {
+        "depth_ppm": 452.0967306745893,
+        "err_ppm": 346.72828262267615,
+        "z": 1.3038934327909426,
+        "n_tr": 8,
+        "consistency_sigma": -1.4299237808214778
+      },
+      "pass": {
+        "z_hold": false,
+        "consistent": true,
+        "snr_full": false,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": false
+      },
+      "full_snr": 5.253447999018136
+    },
+    "elapsed_s": 2.6087679862976074
+  },
+  {
+    "id": "E2_254643343_0.6990",
+    "tic": 254643343,
+    "row": {
+      "tic": 254643343,
+      "period": 0.6990498676830916,
+      "t0_btjd": 1629.7809332228328,
+      "dur_h": 1.6,
+      "snr_src": 14.254918286471272,
+      "n_sec_src": 3.0,
+      "sde": 3.5112662008842244,
+      "rho": 8.14699,
+      "depth_ppm": 438.376762855,
+      "stream": "E2",
+      "src_file": "results_public/vetted_signals.csv.gz",
+      "src_row": "rank 1 fails=unphysical transit orbit",
+      "rule": "eum_early",
+      "max_sec_src": 105.0,
+      "MES": 13.348238546432391,
+      "author": "[source username redacted] (exoplanets)",
+      "src_sectors": NaN,
+      "mode": "fixed",
+      "excluded": NaN,
+      "prio": 1,
+      "also_in": NaN,
+      "n_avail": 4,
+      "n_theirs": 3,
+      "n_new": 1,
+      "inventoried": true,
+      "snr_rank": 14.254918286471272,
+      "E_hold": 8.230080909970306,
+      "E_full": 16.460161819940613,
+      "teff": 3381.0,
+      "rstar": 0.363097,
+      "mstar": 0.39,
+      "tmag": 10.6912,
+      "ra": 236.423359813469,
+      "dec": -43.5079024934295,
+      "d": 20.6481,
+      "contratio": NaN,
+      "logg": 4.90909,
+      "GAIA": 5.989551315565682e+18,
+      "score": 26.027630877781093,
+      "star_rank": 73
+    },
+    "sectors": [
+      {
+        "sector": 12,
+        "prov": "SPOC-2min",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 38,
+        "prov": "TESS-SPOC",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 65,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 103,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      }
+    ],
+    "n_his_sectors": 3,
+    "n_new_sectors": 1,
+    "his_span_d": 1464.4531250653101,
+    "mode": "fixed",
+    "n_qlp_timing": 1,
+    "rotation": {
+      "active": false,
+      "P_rot": 4.830428490956399
+    },
+    "known_masked": [],
+    "null": {
+      "n": 300,
+      "p_z": 0.0,
+      "rate_z25_cons": 0.0033333333333333335,
+      "z_std": 1.074100465218976,
+      "z_mean": -0.0006318505914619503
+    },
+    "real": {
+      "his": {
+        "P": 0.6997152308529201,
+        "t0": 1629.7982727499236,
+        "dur": 0.05004,
+        "bls_snr": 11.657711946512949,
+        "n_periods": 2625,
+        "depth_ppm": 362.3834442187945,
+        "err_ppm": 46.66669396652397,
+        "snr": 7.765354976265252,
+        "n_tr": 94
+      },
+      "hold": {
+        "depth_ppm": 239.85981282259593,
+        "err_ppm": 70.68368899301694,
+        "z": 3.393425219307561,
+        "n_tr": 31,
+        "consistency_sigma": -1.4465726744325864
+      },
+      "full": {
+        "P": 0.6997149166141842,
+        "t0": 1629.7982727499236,
+        "dur": 0.05004,
+        "bls_snr": 12.043725852585464,
+        "n_periods": 4565,
+        "depth_ppm": 383.9225180199968,
+        "depth_err_ppm": 34.94548568072049,
+        "snr": 10.986326575275152,
+        "snr_white": 13.455929946834555,
+        "beta_med": 1.2735913148286258,
+        "n_transits": 125,
+        "oe_sigma": 0.42709371688335357,
+        "sec_sigma": 2.169723470555431,
+        "sec_any_sigma": 3.248483227124746,
+        "season_chi2_p": 0.055283846788178395,
+        "tr_chi2_p": 0.7252768723037498,
+        "rp_earth": 0.7768887841119881,
+        "dur_ratio": 1.4649932608108227,
+        "sin_ratio": 1.736278969427282,
+        "shape": 1.2684180287471742,
+        "tr_max_over_mean": 4.270012376468404,
+        "season_depths": [
+          {
+            "season": 1,
+            "t_mid": 1638.7328311846493,
+            "depth_ppm": 513.4544830932564,
+            "err_ppm": 119.68814239084655
+          },
+          {
+            "season": 2,
+            "t_mid": 2348.1338662883245,
+            "depth_ppm": 479.07187256079897,
+            "err_ppm": 54.50126567426246
+          },
+          {
+            "season": 3,
+            "t_mid": 3079.9472633564546,
+            "depth_ppm": 375.3336207760194,
+            "err_ppm": 77.05610454143455
+          },
+          {
+            "season": 4,
+            "t_mid": 4163.240944541536,
+            "depth_ppm": 264.2942601467357,
+            "err_ppm": 64.01906002582722
+          }
+        ]
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "mode": "fixed"
+    },
+    "inverted": {
+      "his": {
+        "P": 0.7015857115735562,
+        "t0": 1630.2319527499237,
+        "dur": 0.05004,
+        "bls_snr": 9.106342332038034,
+        "n_periods": 2625,
+        "depth_ppm": 325.9846448437909,
+        "err_ppm": 47.05403032255026,
+        "snr": 6.927879346555471,
+        "n_tr": 91
+      },
+      "hold": {
+        "depth_ppm": 164.83520212207114,
+        "err_ppm": 71.84107920535862,
+        "z": 2.294442176333232,
+        "n_tr": 30,
+        "consistency_sigma": -1.8764683626364949
+      },
+      "pass": {
+        "z_hold": false,
+        "consistent": true,
+        "snr_full": false,
+        "oe": true,
+        "sec": false,
+        "season": false,
+        "all": false
+      },
+      "full_snr": 9.052617256192923
+    },
+    "elapsed_s": 1.5094671249389648
+  },
+  {
+    "id": "E2_261117566_0.6232",
+    "tic": 261117566,
+    "row": {
+      "tic": 261117566,
+      "period": 0.6231871778944391,
+      "t0_btjd": 1625.24563612433,
+      "dur_h": 1.4,
+      "snr_src": 10.781375308257363,
+      "n_sec_src": 7.0,
+      "sde": 22.154861017504068,
+      "rho": 2.85625,
+      "depth_ppm": 1815.1624609397,
+      "stream": "E2",
+      "src_file": "results_public/vetted_signals_faint_t2.csv.gz",
+      "src_row": "rank 1 fails=inconsistent transit SNRs",
+      "rule": "eum_early",
+      "max_sec_src": 105.0,
+      "MES": 11.675604908872204,
+      "author": "[source username redacted] (exoplanets)",
+      "src_sectors": NaN,
+      "mode": "fixed",
+      "excluded": NaN,
+      "prio": 1,
+      "also_in": NaN,
+      "n_avail": 8,
+      "n_theirs": 7,
+      "n_new": 1,
+      "inventoried": true,
+      "snr_rank": 10.781375308257363,
+      "E_hold": 4.074976836700189,
+      "E_full": 11.525775017635242,
+      "teff": 3832.0,
+      "rstar": 0.586829,
+      "mstar": 0.577207,
+      "tmag": 13.4372,
+      "ra": 226.514894004711,
+      "dec": -67.5339591336555,
+      "d": 176.217,
+      "contratio": 0.276795775,
+      "logg": 4.66238,
+      "GAIA": 5.800346190752578e+18,
+      "score": 14.919589779583871,
+      "star_rank": 511
+    },
+    "sectors": [
+      {
+        "sector": 12,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 38,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 39,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 65,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 99,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 100,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 101,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 102,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      }
+    ],
+    "n_his_sectors": 7,
+    "n_new_sectors": 1,
+    "his_span_d": 2499.7256964238486,
+    "mode": "fixed",
+    "n_qlp_timing": 4,
+    "rotation": {
+      "active": false,
+      "P_rot": 0.37965150620200827
+    },
+    "known_masked": [],
+    "null": {
+      "n": 300,
+      "p_z": 0.01,
+      "rate_z25_cons": 0.016666666666666666,
+      "z_std": 1.158191682710345,
+      "z_mean": 0.049793150861739174
+    },
+    "real": {
+      "his": {
+        "P": 0.6231819495303007,
+        "t0": 1625.259315884974,
+        "dur": 0.0691420667368113,
+        "bls_snr": 9.964694706713807,
+        "n_periods": 3265,
+        "depth_ppm": 1499.7181614951894,
+        "err_ppm": 162.55389969233877,
+        "snr": 9.225974672608064,
+        "n_tr": 230
+      },
+      "hold": {
+        "depth_ppm": 932.1119734568839,
+        "err_ppm": 315.15316813806396,
+        "z": 2.957647479680545,
+        "n_tr": 29,
+        "consistency_sigma": -1.6006679847085692
+      },
+      "full": {
+        "P": 0.6231838470663834,
+        "t0": 1625.259315884974,
+        "dur": 0.0691420667368113,
+        "bls_snr": 10.59975544423676,
+        "n_periods": 3299,
+        "depth_ppm": 1395.1157503836464,
+        "depth_err_ppm": 127.37776520924831,
+        "snr": 10.952584606048289,
+        "snr_white": 10.989332940186976,
+        "beta_med": 1.0,
+        "n_transits": 253,
+        "oe_sigma": 1.8165481228050404,
+        "sec_sigma": -0.5638879736216315,
+        "sec_any_sigma": 2.178524425738999,
+        "season_chi2_p": 0.005352697054797597,
+        "tr_chi2_p": 0.011446050106823117,
+        "rp_earth": 2.393487076603916,
+        "dur_ratio": 1.4498030725122826,
+        "sin_ratio": 0.378339104331151,
+        "shape": 0.5883412650596594,
+        "tr_max_over_mean": 9.819908095730153,
+        "season_depths": [
+          {
+            "season": 1,
+            "t_mid": 1634.5252512544841,
+            "depth_ppm": 1966.5823076028266,
+            "err_ppm": 760.9124172857274
+          },
+          {
+            "season": 2,
+            "t_mid": 2360.1568889220403,
+            "depth_ppm": 1496.5309016522488,
+            "err_ppm": 354.13516657056624
+          },
+          {
+            "season": 3,
+            "t_mid": 3080.8497747886527,
+            "depth_ppm": 2966.352273409467,
+            "err_ppm": 483.3519499283491
+          },
+          {
+            "season": 4,
+            "t_mid": 4102.469677397534,
+            "depth_ppm": 1218.944224556817,
+            "err_ppm": 144.86404363969487
+          }
+        ]
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "mode": "fixed"
+    },
+    "inverted": {
+      "his": {
+        "P": 0.6230884241199635,
+        "t0": 1625.539100062002,
+        "dur": 0.049846606252119764,
+        "bls_snr": 5.100250730094099,
+        "n_periods": 3265,
+        "depth_ppm": 897.8384119056049,
+        "err_ppm": 193.4910345294035,
+        "snr": 4.640206788336576,
+        "n_tr": 226
+      },
+      "hold": {
+        "depth_ppm": 355.4617379460945,
+        "err_ppm": 369.41727527398734,
+        "z": 0.9622228350919908,
+        "n_tr": 29,
+        "consistency_sigma": -1.3005927940123636
+      },
+      "pass": {
+        "z_hold": false,
+        "consistent": true,
+        "snr_full": false,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": false
+      },
+      "full_snr": 4.603205556636484
+    },
+    "elapsed_s": 2.376322031021118
+  },
+  {
+    "id": "E2_267546678_2.2325",
+    "tic": 267546678,
+    "row": {
+      "tic": 267546678,
+      "period": 2.232521076544648,
+      "t0_btjd": 1327.5388583241715,
+      "dur_h": 3.2119717879131864,
+      "snr_src": 18.651252433874127,
+      "n_sec_src": 5.0,
+      "sde": 12.98412327178364,
+      "rho": 3.2874,
+      "depth_ppm": 3628.6345133704,
+      "stream": "E2",
+      "src_file": "results_public/vetted_signals_faint_t2.csv.gz",
+      "src_row": "rank 1 fails=unphysical transit orbit",
+      "rule": "eum_early",
+      "max_sec_src": 105.0,
+      "MES": 33.4022968296131,
+      "author": "[source username redacted] (exoplanets)",
+      "src_sectors": NaN,
+      "mode": "fixed",
+      "excluded": NaN,
+      "prio": 1,
+      "also_in": NaN,
+      "n_avail": 6,
+      "n_theirs": 5,
+      "n_new": 1,
+      "inventoried": true,
+      "snr_rank": 15.0,
+      "E_hold": 6.7082039324993685,
+      "E_full": 16.431676725154983,
+      "teff": 3740.0,
+      "rstar": 0.549189,
+      "mstar": 0.544525,
+      "tmag": 13.1926,
+      "ra": 10.1363989931205,
+      "dec": -73.3468461408963,
+      "d": 128.48,
+      "contratio": 0.134861365,
+      "logg": 4.69464,
+      "GAIA": 4.688849989315486e+18,
+      "score": 21.764356560545135,
+      "star_rank": 121
+    },
+    "sectors": [
+      {
+        "sector": 1,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 27,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 28,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 67,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 68,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 95,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      }
+    ],
+    "n_his_sectors": 5,
+    "n_new_sectors": 1,
+    "his_span_d": 1854.3670954218287,
+    "mode": "fixed",
+    "n_qlp_timing": 0,
+    "rotation": {
+      "active": false,
+      "P_rot": 0.8365661252408869
+    },
+    "known_masked": [],
+    "null": {
+      "n": 300,
+      "p_z": 0.0,
+      "rate_z25_cons": 0.02,
+      "z_std": 1.2590222942279958,
+      "z_mean": -0.05825417075079585
+    },
+    "real": {
+      "his": {
+        "P": 2.2325561399863254,
+        "t0": 1327.5388368499907,
+        "dur": 0.10019875016358389,
+        "bls_snr": 15.760690521751059,
+        "n_periods": 1672,
+        "depth_ppm": 5227.127775336849,
+        "err_ppm": 342.96745433050796,
+        "snr": 15.240885714769934,
+        "n_tr": 51
+      },
+      "hold": {
+        "depth_ppm": 8498.009997728539,
+        "err_ppm": 2685.4403667693227,
+        "z": 3.1644754070454146,
+        "n_tr": 5,
+        "consistency_sigma": 1.2081924763276852
+      },
+      "full": {
+        "P": 2.232550784663852,
+        "t0": 1327.5434972569751,
+        "dur": 0.10019875016358389,
+        "bls_snr": 15.903078148390213,
+        "n_periods": 2327,
+        "depth_ppm": 3792.1133131317843,
+        "depth_err_ppm": 292.1089015711763,
+        "snr": 12.981847840771069,
+        "snr_white": 16.901358135008163,
+        "beta_med": 1.3149275461189556,
+        "n_transits": 56,
+        "oe_sigma": 0.4342325459004562,
+        "sec_sigma": 2.657859706341111,
+        "sec_any_sigma": 8.135594711257005,
+        "season_chi2_p": 0.22910680846663656,
+        "tr_chi2_p": 0.8578150839877114,
+        "rp_earth": 3.6929793674964064,
+        "dur_ratio": 1.417427417957411,
+        "sin_ratio": 0.008139078212034431,
+        "shape": 0.9659649994482238,
+        "tr_max_over_mean": 3.7699962567163148,
+        "season_depths": [
+          {
+            "season": 1,
+            "t_mid": 1336.919816636799,
+            "depth_ppm": 3251.9567043544084,
+            "err_ppm": 607.9213595670619
+          },
+          {
+            "season": 2,
+            "t_mid": 2060.409082017572,
+            "depth_ppm": 4149.399717638836,
+            "err_ppm": 497.959037216483
+          },
+          {
+            "season": 3,
+            "t_mid": 3152.3946941629565,
+            "depth_ppm": 3605.611388592611,
+            "err_ppm": 456.445001108556
+          },
+          {
+            "season": 4,
+            "t_mid": 3902.7424862246635,
+            "depth_ppm": 7760.073013236668,
+            "err_ppm": 2350.366733887178
+          }
+        ]
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "mode": "fixed"
+    },
+    "inverted": {
+      "his": {
+        "P": 2.2325694993764156,
+        "t0": 1327.7112719084118,
+        "dur": 0.10019875016358389,
+        "bls_snr": 21.927640144098152,
+        "n_periods": 1672,
+        "depth_ppm": 6627.268646533291,
+        "err_ppm": 341.4452183528769,
+        "snr": 19.409463920751524,
+        "n_tr": 52
+      },
+      "hold": {
+        "depth_ppm": 8535.778396026595,
+        "err_ppm": 2734.9147695261117,
+        "z": 3.121040001369263,
+        "n_tr": 5,
+        "consistency_sigma": 0.6924558387581751
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "full_snr": 18.571585486735454
+    },
+    "elapsed_s": 1.2265081405639648
+  },
+  {
+    "id": "E2_363119909_0.5538",
+    "tic": 363119909,
+    "row": {
+      "tic": 363119909,
+      "period": 0.5537650648420831,
+      "t0_btjd": 2361.8174962470684,
+      "dur_h": 0.96,
+      "snr_src": 27.86544927225242,
+      "n_sec_src": 3.0,
+      "sde": 104.36528195128648,
+      "rho": 3.24065,
+      "depth_ppm": 3530.4926207486,
+      "stream": "E2",
+      "src_file": "results_public/vetted_signals_faint_t1.csv.gz",
+      "src_row": "rank 1 fails=events not unique in phased light curve",
+      "rule": "eum_early",
+      "max_sec_src": 105.0,
+      "MES": 15.738421020750682,
+      "author": "[source username redacted] (exoplanets)",
+      "src_sectors": NaN,
+      "mode": "fixed",
+      "excluded": NaN,
+      "prio": 1,
+      "also_in": NaN,
+      "n_avail": 5,
+      "n_theirs": 3,
+      "n_new": 2,
+      "inventoried": true,
+      "snr_rank": 15.0,
+      "E_hold": 12.24744871391589,
+      "E_full": 19.364916731037084,
+      "teff": 3749.0,
+      "rstar": 0.552957,
+      "mstar": 0.547907,
+      "tmag": 12.2789,
+      "ra": 266.474643254464,
+      "dec": -52.6426965170173,
+      "d": 90.9918,
+      "contratio": 0.37614125,
+      "logg": 4.69139,
+      "GAIA": 5.945129430892077e+18,
+      "score": 28.037505196794537,
+      "star_rank": 53
+    },
+    "sectors": [
+      {
+        "sector": 39,
+        "prov": "SPOC-2min",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 66,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 93,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 103,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      },
+      {
+        "sector": 104,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      }
+    ],
+    "n_his_sectors": 3,
+    "n_new_sectors": 2,
+    "his_span_d": 1492.7024768185224,
+    "mode": "fixed",
+    "n_qlp_timing": 2,
+    "rotation": {
+      "active": false,
+      "P_rot": 1.1702040494862564
+    },
+    "known_masked": [],
+    "null": {
+      "n": 300,
+      "p_z": 0.0,
+      "rate_z25_cons": 0.0,
+      "z_std": 0.5807677379901419,
+      "z_mean": 0.038282996938831484
+    },
+    "real": {
+      "his": {
+        "P": 0.5537644772326115,
+        "t0": 2362.374012553438,
+        "dur": 0.03411360929991147,
+        "bls_snr": 27.770293192502667,
+        "n_periods": 2114,
+        "depth_ppm": 3313.6253552065177,
+        "err_ppm": 304.7071425626216,
+        "snr": 10.874787270618448,
+        "n_tr": 114
+      },
+      "hold": {
+        "depth_ppm": 2240.217716160009,
+        "err_ppm": 300.95613848330873,
+        "z": 7.443668460958318,
+        "n_tr": 73,
+        "consistency_sigma": -2.50634069581547
+      },
+      "full": {
+        "P": 0.5537639808067523,
+        "t0": 2362.3725293530338,
+        "dur": 0.03411360929991147,
+        "bls_snr": 33.87403658691022,
+        "n_periods": 2609,
+        "depth_ppm": 3366.841227736228,
+        "depth_err_ppm": 198.30530274271726,
+        "snr": 16.978069578423693,
+        "snr_white": 33.392002162080836,
+        "beta_med": 1.9510322376246216,
+        "n_transits": 184,
+        "oe_sigma": 0.1604549785677527,
+        "sec_sigma": -16.642523406160777,
+        "sec_any_sigma": 15.370343333838749,
+        "season_chi2_p": 0.08958680490805182,
+        "tr_chi2_p": 1.0,
+        "rp_earth": 3.5036206455764654,
+        "dur_ratio": 0.7599546516942265,
+        "sin_ratio": 0.0036164065670276214,
+        "shape": 0.7496395878586585,
+        "tr_max_over_mean": 2.129404161016725,
+        "season_depths": [
+          {
+            "season": 1,
+            "t_mid": 2374.321116197125,
+            "depth_ppm": 3670.1393046981725,
+            "err_ppm": 425.850784589611
+          },
+          {
+            "season": 2,
+            "t_mid": 3110.6970537155403,
+            "depth_ppm": 4249.115218062482,
+            "err_ppm": 606.6922563114169
+          },
+          {
+            "season": 3,
+            "t_mid": 3843.9361084881903,
+            "depth_ppm": 3785.169638583441,
+            "err_ppm": 512.1963959616467
+          },
+          {
+            "season": 4,
+            "t_mid": 4176.924963048232,
+            "depth_ppm": 2874.3574998638665,
+            "err_ppm": 273.3191245824934
+          }
+        ]
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "mode": "fixed"
+    },
+    "inverted": {
+      "his": {
+        "P": 0.5537042170590405,
+        "t0": 2362.0914628764103,
+        "dur": 0.023731206469503628,
+        "bls_snr": 34.09913488818536,
+        "n_periods": 2114,
+        "depth_ppm": 7941.823784160307,
+        "err_ppm": 369.42088122164745,
+        "snr": 21.49803703000568,
+        "n_tr": 118
+      },
+      "hold": {
+        "depth_ppm": -4670.245132218809,
+        "err_ppm": 365.6924162544712,
+        "z": -12.770965228245165,
+        "n_tr": 76,
+        "consistency_sigma": -24.262830724471204
+      },
+      "pass": {
+        "z_hold": false,
+        "consistent": false,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": false
+      },
+      "full_snr": 20.721907757404086
+    },
+    "elapsed_s": 1.1704802513122559
+  },
+  {
+    "id": "E2_421279377_2.0575",
+    "tic": 421279377,
+    "row": {
+      "tic": 421279377,
+      "period": 2.0575065331927895,
+      "t0_btjd": 1626.6565289269993,
+      "dur_h": 2.52,
+      "snr_src": 19.696757541363596,
+      "n_sec_src": 3.0,
+      "sde": 11.811781502770971,
+      "rho": 6.03799,
+      "depth_ppm": 14666.1737537899,
+      "stream": "E2",
+      "src_file": "results_public/vetted_signals_faint_t2.csv.gz",
+      "src_row": "rank 2 fails=unphysical transit orbit",
+      "rule": "eum_early",
+      "max_sec_src": 105.0,
+      "MES": 17.05752329967779,
+      "author": "[source username redacted] (exoplanets)",
+      "src_sectors": NaN,
+      "mode": "fixed",
+      "excluded": NaN,
+      "prio": 1,
+      "also_in": NaN,
+      "n_avail": 4,
+      "n_theirs": 3,
+      "n_new": 1,
+      "inventoried": true,
+      "snr_rank": 15.0,
+      "E_hold": 8.660254037844386,
+      "E_full": 17.32050807568877,
+      "teff": 3429.0,
+      "rstar": 0.402819,
+      "mstar": 0.394659,
+      "tmag": 13.0259,
+      "ra": 239.810064455339,
+      "dec": -54.6604639137773,
+      "d": 75.5137,
+      "contratio": 1.8211143,
+      "logg": 4.82407,
+      "GAIA": 5.836653817112051e+18,
+      "score": 27.388053394682867,
+      "star_rank": 56
+    },
+    "sectors": [
+      {
+        "sector": 12,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 39,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 65,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 103,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      }
+    ],
+    "n_his_sectors": 3,
+    "n_new_sectors": 1,
+    "his_span_d": 1469.034180129167,
+    "mode": "fixed",
+    "n_qlp_timing": 1,
+    "rotation": {
+      "active": false,
+      "P_rot": 0.37965150620200827
+    },
+    "known_masked": [],
+    "null": {
+      "n": 300,
+      "p_z": 0.0,
+      "rate_z25_cons": 0.0033333333333333335,
+      "z_std": 1.1879397247268912,
+      "z_mean": -0.0059698482760286355
+    },
+    "real": {
+      "his": {
+        "P": 2.057467986290972,
+        "t0": 1626.683206449941,
+        "dur": 0.07959164374958334,
+        "bls_snr": 11.465525667536046,
+        "n_periods": 1667,
+        "depth_ppm": 14749.68065428739,
+        "err_ppm": 1604.445391396609,
+        "snr": 9.193008832446674,
+        "n_tr": 32
+      },
+      "hold": {
+        "depth_ppm": 17232.8218626463,
+        "err_ppm": 2048.159256626981,
+        "z": 8.413809525254514,
+        "n_tr": 10,
+        "consistency_sigma": 0.9544049889903309
+      },
+      "full": {
+        "P": 2.057517999358534,
+        "t0": 1626.6535909545923,
+        "dur": 0.07959164374958334,
+        "bls_snr": 25.619588911926815,
+        "n_periods": 2896,
+        "depth_ppm": 14827.790764712745,
+        "depth_err_ppm": 1014.8302193297934,
+        "snr": 14.611104874769302,
+        "snr_white": 26.508756332042797,
+        "beta_med": 1.6495889305169886,
+        "n_transits": 42,
+        "oe_sigma": 0.9500701708536408,
+        "sec_sigma": 0.1571357372487884,
+        "sec_any_sigma": 3.3463917330535007,
+        "season_chi2_p": 0.004278529196995987,
+        "tr_chi2_p": 0.4812055888721961,
+        "rp_earth": 5.356271343007208,
+        "dur_ratio": 1.3412500982479167,
+        "sin_ratio": 0.004630852468349487,
+        "shape": 0.756739139057903,
+        "tr_max_over_mean": 1.8468862715869137,
+        "season_depths": [
+          {
+            "season": 1,
+            "t_mid": 1643.0678015619055,
+            "depth_ppm": 14263.314727303466,
+            "err_ppm": 2821.9871758841878
+          },
+          {
+            "season": 2,
+            "t_mid": 2372.945986026458,
+            "depth_ppm": 13139.505638202652,
+            "err_ppm": 2148.1925759190713
+          },
+          {
+            "season": 3,
+            "t_mid": 3080.830964139235,
+            "depth_ppm": 7718.319440847443,
+            "err_ppm": 2201.8669152113957
+          },
+          {
+            "season": 4,
+            "t_mid": 4163.302286209295,
+            "depth_ppm": 17393.298943551126,
+            "err_ppm": 1538.5403835311918
+          }
+        ]
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "mode": "fixed"
+    },
+    "inverted": {
+      "his": {
+        "P": 2.063590707535706,
+        "t0": 1626.3814985910765,
+        "dur": 0.07959164374958334,
+        "bls_snr": 8.409300541523079,
+        "n_periods": 1667,
+        "depth_ppm": 10669.062545817344,
+        "err_ppm": 1613.9653089551132,
+        "snr": 6.610465842493561,
+        "n_tr": 33
+      },
+      "hold": {
+        "depth_ppm": -1068.78992400794,
+        "err_ppm": 2064.7287429148323,
+        "z": -0.5176418101774963,
+        "n_tr": 10,
+        "consistency_sigma": -4.478925694325126
+      },
+      "pass": {
+        "z_hold": false,
+        "consistent": false,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": false
+      },
+      "full_snr": 8.306096752816634
+    },
+    "elapsed_s": 0.8769948482513428
+  },
+  {
+    "id": "E2_421279377_7.2268",
+    "tic": 421279377,
+    "row": {
+      "tic": 421279377,
+      "period": 7.226800944726957,
+      "t0_btjd": 1626.8674917883257,
+      "dur_h": 3.238730330824874,
+      "snr_src": 21.49024533504248,
+      "n_sec_src": 3.0,
+      "sde": 10.911601388114208,
+      "rho": 6.03799,
+      "depth_ppm": 26642.855560621298,
+      "stream": "E2",
+      "src_file": "results_public/vetted_signals_faint_t2.csv.gz",
+      "src_row": "rank 1 fails=unphysical transit orbit",
+      "rule": "eum_early",
+      "max_sec_src": 105.0,
+      "MES": 24.993053762287307,
+      "author": "[source username redacted] (exoplanets)",
+      "src_sectors": NaN,
+      "mode": "fixed",
+      "excluded": NaN,
+      "prio": 1,
+      "also_in": NaN,
+      "n_avail": 4,
+      "n_theirs": 3,
+      "n_new": 1,
+      "inventoried": true,
+      "snr_rank": 15.0,
+      "E_hold": 8.660254037844386,
+      "E_full": 17.32050807568877,
+      "teff": 3429.0,
+      "rstar": 0.402819,
+      "mstar": 0.394659,
+      "tmag": 13.0259,
+      "ra": 239.810064455339,
+      "dec": -54.6604639137773,
+      "d": 75.5137,
+      "contratio": 1.8211143,
+      "logg": 4.82407,
+      "GAIA": 5.836653817112051e+18,
+      "score": 24.898230358802603,
+      "star_rank": 56
+    },
+    "sectors": [
+      {
+        "sector": 12,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 39,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 65,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 103,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": true
+      }
+    ],
+    "n_his_sectors": 3,
+    "n_new_sectors": 1,
+    "his_span_d": 1469.034180129167,
+    "mode": "fixed",
+    "n_qlp_timing": 1,
+    "rotation": {
+      "active": false,
+      "P_rot": 0.37965150620200827
+    },
+    "known_masked": [],
+    "null": {
+      "n": 300,
+      "p_z": 0.01,
+      "rate_z25_cons": 0.02666666666666667,
+      "z_std": 1.2600178702379206,
+      "z_mean": -0.05713396716317583
+    },
+    "real": {
+      "his": {
+        "P": 7.226765599613811,
+        "t0": 1626.8732316617036,
+        "dur": 0.12087930054397202,
+        "bls_snr": 16.641047884520745,
+        "n_periods": 1098,
+        "depth_ppm": 23913.57551322948,
+        "err_ppm": 2146.4816697305423,
+        "snr": 11.140824471252746,
+        "n_tr": 12
+      },
+      "hold": {
+        "depth_ppm": 14278.144632275613,
+        "err_ppm": 4127.114532439314,
+        "z": 3.4595949591533572,
+        "n_tr": 3,
+        "consistency_sigma": -2.071275733699132
+      },
+      "full": {
+        "P": 7.226978742367402,
+        "t0": 1626.8535536360337,
+        "dur": 0.12087930054397202,
+        "bls_snr": 21.274655634311312,
+        "n_periods": 1907,
+        "depth_ppm": 18190.9084462748,
+        "depth_err_ppm": 1566.2023960743556,
+        "snr": 11.614660079610289,
+        "snr_white": 21.217032758714723,
+        "beta_med": 1.6187980359776015,
+        "n_transits": 14,
+        "oe_sigma": 0.14568160115377016,
+        "sec_sigma": -0.6555997873288615,
+        "sec_any_sigma": 3.0844669035573165,
+        "season_chi2_p": 0.8495170694010465,
+        "tr_chi2_p": 0.0005112496569280377,
+        "rp_earth": 5.932688408599856,
+        "dur_ratio": 1.3260502936224696,
+        "sin_ratio": 0.00729107762414237,
+        "shape": 0.5807824479581213,
+        "tr_max_over_mean": 2.2013998157769543,
+        "season_depths": [
+          {
+            "season": 1,
+            "t_mid": 1643.0053022499173,
+            "depth_ppm": 21275.457920079345,
+            "err_ppm": 3730.1980884169484
+          },
+          {
+            "season": 2,
+            "t_mid": 2372.945986026458,
+            "depth_ppm": 17475.176059374207,
+            "err_ppm": 2920.385700838154
+          },
+          {
+            "season": 3,
+            "t_mid": 3080.830964139235,
+            "depth_ppm": 19275.789483336746,
+            "err_ppm": 2647.518829915685
+          },
+          {
+            "season": 4,
+            "t_mid": 4163.305758429837,
+            "depth_ppm": 17535.261764893618,
+            "err_ppm": 3630.2633558797424
+          }
+        ]
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "mode": "fixed"
+    },
+    "inverted": {
+      "his": {
+        "P": 7.226897307816631,
+        "t0": 1626.9997332552962,
+        "dur": 0.08714554225263099,
+        "bls_snr": 8.347933234537699,
+        "n_periods": 1098,
+        "depth_ppm": 18336.83688159027,
+        "err_ppm": 2359.588316472499,
+        "snr": 7.77120176158661,
+        "n_tr": 12
+      },
+      "hold": {
+        "depth_ppm": 5810.278621295018,
+        "err_ppm": 4726.262474736247,
+        "z": 1.229360123851197,
+        "n_tr": 2,
+        "consistency_sigma": -2.3713141013534513
+      },
+      "pass": {
+        "z_hold": false,
+        "consistent": true,
+        "snr_full": false,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": false
+      },
+      "full_snr": 5.979061080606501
+    },
+    "elapsed_s": 0.8868858814239502
+  },
+  {
+    "id": "E3_198787224_0.6467",
+    "tic": 198787224,
+    "row": {
+      "tic": 198787224,
+      "period": 0.646728,
+      "t0_btjd": 1683.852990000043,
+      "dur_h": 1.17,
+      "snr_src": 50.1,
+      "n_sec_src": NaN,
+      "sde": NaN,
+      "rho": NaN,
+      "depth_ppm": 12720.0,
+      "stream": "E3",
+      "src_file": "results_public/candidates_allsky.csv",
+      "src_row": "tier C reason=RUWE > 1.4",
+      "rule": "eum_allsky",
+      "max_sec_src": 104.0,
+      "MES": 50.1,
+      "author": "[source username redacted] (exoplanets)",
+      "src_sectors": NaN,
+      "mode": "fixed",
+      "excluded": NaN,
+      "prio": 9,
+      "also_in": NaN,
+      "n_avail": 7,
+      "n_theirs": 6,
+      "n_new": 1,
+      "inventoried": true,
+      "snr_rank": 15.0,
+      "E_hold": 6.123724356957945,
+      "E_full": 16.201851746019653,
+      "teff": 4078.0,
+      "rstar": 0.784358,
+      "mstar": 0.638,
+      "tmag": 13.3344,
+      "ra": 284.787199603976,
+      "dec": 27.3607169503475,
+      "d": 233.252,
+      "contratio": NaN,
+      "logg": 4.45386,
+      "GAIA": 2.0371407885127708e+18,
+      "score": 16.95206825355879,
+      "star_rank": 243
+    },
+    "sectors": [
+      {
+        "sector": 14,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 40,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 53,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 54,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 74,
+        "prov": "QLP",
+        "his": false,
+        "empty_err": false
+      },
+      {
+        "sector": 80,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      },
+      {
+        "sector": 81,
+        "prov": "QLP",
+        "his": true,
+        "empty_err": false
+      }
+    ],
+    "n_his_sectors": 6,
+    "n_new_sectors": 1,
+    "his_span_d": 1849.2754800602188,
+    "mode": "fixed",
+    "n_qlp_timing": 0,
+    "rotation": {
+      "active": false,
+      "P_rot": 0.41151761130011116
+    },
+    "known_masked": [],
+    "null": {
+      "n": 300,
+      "p_z": 0.0,
+      "rate_z25_cons": 0.01,
+      "z_std": 1.0276703152402837,
+      "z_mean": 0.04173142327330378
+    },
+    "real": {
+      "his": {
+        "P": 0.6467256752614395,
+        "t0": 1683.8599622465497,
+        "dur": 0.033856308989665226,
+        "bls_snr": 44.10134254736027,
+        "n_periods": 1836,
+        "depth_ppm": 13555.772325446358,
+        "err_ppm": 426.8243638150703,
+        "snr": 31.75960295303024,
+        "n_tr": 182
+      },
+      "hold": {
+        "depth_ppm": 13163.849901285495,
+        "err_ppm": 830.0327924685354,
+        "z": 15.859433531699299,
+        "n_tr": 33,
+        "consistency_sigma": -0.41991149311783327
+      },
+      "full": {
+        "P": 0.6467256752614395,
+        "t0": 1683.8599622465497,
+        "dur": 0.033856308989665226,
+        "bls_snr": 49.17195887139569,
+        "n_periods": 1836,
+        "depth_ppm": 13316.853340626045,
+        "depth_err_ppm": 282.4076156975852,
+        "snr": 47.15472459101929,
+        "snr_white": 50.943394862406144,
+        "beta_med": 1.0891237345699734,
+        "n_transits": 191,
+        "oe_sigma": 1.3110358212991253,
+        "sec_sigma": 1.2721973101115354,
+        "sec_any_sigma": 4.3173995024564,
+        "season_chi2_p": 0.9277332659767534,
+        "tr_chi2_p": 0.6569422110497537,
+        "rp_earth": 9.88392718219046,
+        "dur_ratio": 0.5002267478923585,
+        "sin_ratio": 0.25039139213384887,
+        "shape": 0.6513695220097726,
+        "tr_max_over_mean": 1.94830099261731,
+        "season_depths": [
+          {
+            "season": 1,
+            "t_mid": 1696.1765066623016,
+            "depth_ppm": 13192.66564775734,
+            "err_ppm": 1089.8544867078085
+          },
+          {
+            "season": 2,
+            "t_mid": 2405.6983426981233,
+            "depth_ppm": 14040.08249531874,
+            "err_ppm": 978.3110763322799
+          },
+          {
+            "season": 3,
+            "t_mid": 2772.764171571763,
+            "depth_ppm": 13552.840715694958,
+            "err_ppm": 666.2202374655517
+          },
+          {
+            "season": 4,
+            "t_mid": 3326.2020944969267,
+            "depth_ppm": 13260.463691391444,
+            "err_ppm": 621.1089308562006
+          },
+          {
+            "season": 5,
+            "t_mid": 3507.429147498152,
+            "depth_ppm": 13138.587411360648,
+            "err_ppm": 414.990693419644
+          }
+        ]
+      },
+      "pass": {
+        "z_hold": true,
+        "consistent": true,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": true
+      },
+      "mode": "fixed"
+    },
+    "inverted": {
+      "his": {
+        "P": 0.6466974851206586,
+        "t0": 1684.0112576273473,
+        "dur": 0.0909888304097253,
+        "bls_snr": 10.370927217174097,
+        "n_periods": 1836,
+        "depth_ppm": 1671.059543522202,
+        "err_ppm": 248.63838588672533,
+        "snr": 6.720842952558031,
+        "n_tr": 183
+      },
+      "hold": {
+        "depth_ppm": -56.58969658073332,
+        "err_ppm": 492.7450553214759,
+        "z": -0.11484579290970899,
+        "n_tr": 35,
+        "consistency_sigma": -3.130237336563589
+      },
+      "pass": {
+        "z_hold": false,
+        "consistent": false,
+        "snr_full": true,
+        "oe": true,
+        "sec": true,
+        "season": true,
+        "all": false
+      },
+      "full_snr": 8.28318037121503
+    },
+    "elapsed_s": 2.380075216293335
+  }
+]

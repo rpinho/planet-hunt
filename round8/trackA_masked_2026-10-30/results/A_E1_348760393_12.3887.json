@@ -1,0 +1,144 @@
+{
+  "name": "A_E1_348760393_12.3887",
+  "signal": {
+    "key": "round8",
+    "tic": 348760393,
+    "P": 12.388635480281128,
+    "t0": 1325.857791124325,
+    "duration": 2.175260163643238,
+    "mask": []
+  },
+  "idx": 16,
+  "method_key": "tic101",
+  "sectors": [
+    94,
+    95
+  ],
+  "raw_manifest": [
+    {
+      "sector": 94,
+      "source": "evidence/raw/348760393/hlsp_qlp_tess_ffi_s0094-0000000348760393_tess_v01_llc.fits",
+      "sha256": "344fc290f41b99b7910ebbfa421c3f4a333160d441314e061c6d00e775d4028e",
+      "product": "QLP"
+    },
+    {
+      "sector": 95,
+      "source": "evidence/raw/348760393/hlsp_qlp_tess_ffi_s0095-0000000348760393_tess_v01_llc.fits",
+      "sha256": "76efdceebc8d9a76f48cad73a654c9f9836f9c255301051034a75d7cc29a2ea8",
+      "product": "QLP"
+    }
+  ],
+  "cases": {
+    "unmasked": {
+      "depth_ppm": 930.312970077289,
+      "err_ppm": 258.1456116662929,
+      "z_scatter": 3.6038302726598848,
+      "n_cadences": 15352,
+      "sector_beta": {
+        "94": 1.0,
+        "95": 1.100189614441162
+      },
+      "per_transit": [
+        {
+          "sector": 94,
+          "epoch": 205,
+          "depth_ppm": 988.297168175572,
+          "err_ppm": 494.9619224891966,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        },
+        {
+          "sector": 94,
+          "epoch": 206,
+          "depth_ppm": 1435.1947349337022,
+          "err_ppm": 489.98092712245096,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        },
+        {
+          "sector": 95,
+          "epoch": 207,
+          "depth_ppm": 1181.9179484047702,
+          "err_ppm": 544.1567685201125,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        },
+        {
+          "sector": 95,
+          "epoch": 208,
+          "depth_ppm": -18.924179910496164,
+          "err_ppm": 543.8029834436918,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        }
+      ],
+      "edge_share": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "arrays": "results/A_E1_348760393_12.3887_unmasked.npz",
+      "sha256": "e9f6104f97457244dc958a2831a8a4ad76a581549c551f03067910deb207f506"
+    },
+    "A": {
+      "depth_ppm": 908.300549446219,
+      "err_ppm": 249.80487954025065,
+      "z_scatter": 3.6360400610183676,
+      "n_cadences": 12827,
+      "sector_beta": {
+        "94": 1.0,
+        "95": 1.0243541520682262
+      },
+      "null": {
+        "n": 2000,
+        "attempts": 2563,
+        "mean_ppm": 15.241152616664793,
+        "std_ppm": 306.9429747398983,
+        "q025_975_ppm": [
+          -577.9996696195007,
+          603.9766960284772
+        ],
+        "clean_cadences": 12571,
+        "removed_real_transit_cadences": 256
+      },
+      "z_null": 2.9591833799614,
+      "null_seed": 20277031,
+      "exceedances": 9,
+      "p": 0.004997501249375313,
+      "arrays": "results/A_E1_348760393_12.3887_A.npz",
+      "sha256": "8c6fe14916ff1fe463af750a846de952fc3b809924994098e760cd56bff82e46"
+    },
+    "B": {
+      "depth_ppm": 901.5451937822537,
+      "err_ppm": 245.7259788103319,
+      "z_scatter": 3.6689046805186516,
+      "n_cadences": 11115,
+      "sector_beta": {
+        "94": 1.0,
+        "95": 1.0
+      },
+      "null": {
+        "n": 2000,
+        "attempts": 2603,
+        "mean_ppm": -3.890442142663015,
+        "std_ppm": 323.1365597563229,
+        "q025_975_ppm": [
+          -652.8190166195959,
+          620.489011513431
+        ],
+        "clean_cadences": 10859,
+        "removed_real_transit_cadences": 256
+      },
+      "z_null": 2.7899820263671447,
+      "null_seed": 20277032,
+      "exceedances": 11,
+      "p": 0.005997001499250375,
+      "arrays": "results/A_E1_348760393_12.3887_B.npz",
+      "sha256": "5d6265a942721e048f2ad8d038d231099388b8d293a00842db1318105b077749"
+    }
+  },
+  "complete": true,
+  "bar_stays": true,
+  "holdout_supported": false,
+  "input_id": "E1_348760393_12.3887",
+  "input_sha256": "37b843f0ab5c814b15b856068438cf63faa8f37790c71205b20fb1c5d603928e"
+}

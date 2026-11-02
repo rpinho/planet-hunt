@@ -1,0 +1,135 @@
+{
+  "key": "tic262_24",
+  "convention": "round8",
+  "signal": {
+    "key": "tic262_24",
+    "aas": "AAS82326",
+    "tic": 262843927,
+    "P": 24.108771213642704,
+    "Perr": 0.00036,
+    "t0": 1332.7862983660812,
+    "t0err": 0.015,
+    "depth": 957,
+    "deptherr": 95,
+    "duration": 2.8936658153168366,
+    "rstar": 0.564,
+    "mstar": 0.55,
+    "mask": [
+      [
+        14.51685,
+        2254.7418,
+        2.7
+      ]
+    ]
+  },
+  "input_id": "E1_262843927_24.1087",
+  "sectors": [
+    95,
+    96,
+    97
+  ],
+  "cases": {
+    "unmasked": {
+      "depth_ppm": 790.0002600683416,
+      "err_ppm": 219.2494303378239,
+      "z_scatter": 3.60320325052199,
+      "n_cadences": 28829,
+      "per_transit": [
+        {
+          "sector": 96,
+          "epoch": 107,
+          "depth_ppm": 942.8397440715008,
+          "err_ppm": 329.15076247981705,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        },
+        {
+          "sector": 97,
+          "epoch": 110,
+          "depth_ppm": 718.0185910371002,
+          "err_ppm": 315.135043371857,
+          "edgeA_fraction": 0.0,
+          "edgeB_fraction": 0.0
+        }
+      ],
+      "edge_share": {
+        "A": 0.0,
+        "B": 0.0
+      },
+      "arrays": "results/tic262_24_round8_unmasked.npz",
+      "sha256": "dea2b4ee806c7446f44f5fbd10d784004f9110ec42ca0d271daf76f89666dfe2"
+    },
+    "A": {
+      "depth_ppm": 793.6109158441054,
+      "err_ppm": 216.0784846109476,
+      "z_scatter": 3.6727900849222133,
+      "n_cadences": 23858,
+      "null": {
+        "n": 2000,
+        "attempts": 2468,
+        "mean_ppm": -1.1891353042215866,
+        "std_ppm": 231.73012817918925,
+        "q025_975_ppm": [
+          -401.261121183954,
+          441.2206713482557
+        ],
+        "clean_cadences": 23690,
+        "removed_real_transit_cadences": 168
+      },
+      "z_null": 3.4247204801545372,
+      "null_seed": 20263031,
+      "exceedances": 9,
+      "p": 0.004997501249375313,
+      "arrays": "results/tic262_24_round8_A.npz",
+      "sha256": "7c350947fdb2bbc12b4198450982c9fa2ee08dfe9b3608558651fa942860846a"
+    },
+    "B": {
+      "depth_ppm": 792.7238232304995,
+      "err_ppm": 214.09062231932091,
+      "z_scatter": 3.7027489324036544,
+      "n_cadences": 20736,
+      "null": {
+        "n": 2000,
+        "attempts": 2552,
+        "mean_ppm": -11.950620621392401,
+        "std_ppm": 236.56572682075287,
+        "q025_975_ppm": [
+          -474.43342191571037,
+          452.7933869773699
+        ],
+        "clean_cadences": 20568,
+        "removed_real_transit_cadences": 168
+      },
+      "z_null": 3.3509664898802125,
+      "null_seed": 20263032,
+      "exceedances": 7,
+      "p": 0.00399800099950025,
+      "arrays": "results/tic262_24_round8_B.npz",
+      "sha256": "12f065d94c2d59fb61209795cb298a37a414270d461096ae8e8c90a9398eb853"
+    }
+  },
+  "raw_manifest": [
+    {
+      "sector": 95,
+      "source": "../planets_audit_1030/evidence/raw/262843927/hlsp_qlp_tess_ffi_s0095-0000000262843927_tess_v01_llc.fits",
+      "sha256": "c463a7ba14e1de67c485a7aaf2c3bb71eb89233b5e5ec0a2c3a503fb7f918690",
+      "product": "QLP"
+    },
+    {
+      "sector": 96,
+      "source": "../planets_audit_1030/evidence/raw/262843927/hlsp_qlp_tess_ffi_s0096-0000000262843927_tess_v01_llc.fits",
+      "sha256": "9153e6ea4ffbcd6efd84f0dab8f12568d839cc4d5134da47cbfce5b73d042f0f",
+      "product": "QLP"
+    },
+    {
+      "sector": 97,
+      "source": "../planets_audit_1030/evidence/raw/262843927/hlsp_qlp_tess_ffi_s0097-0000000262843927_tess_v01_llc.fits",
+      "sha256": "f3f5ab199a2aacc8f27820b441f694e866456435d1b009f9c306e87bf0d3e057",
+      "product": "QLP"
+    }
+  ],
+  "complete": true,
+  "bar_stays": true,
+  "name": "A_E1_262843927_24.1087",
+  "source_control": "tic262_24_round8.json"
+}
