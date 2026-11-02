@@ -1,6 +1,6 @@
 Long version of the ExoFOP note on TIC 275488151.01 (2026-11-02).
 Candidate attribution, unrefereed.
-A short version is an ExoFOP-TESS comment on this target. The attribution is unresolved; no FPP was computed.
+Short form: ExoFOP-TESS comment
 
 TIC 275488151.01 (Montalto 2022) may be a nearby eclipsing binary. KIC 10014830 (TIC 275488133), a known Kepler EB with P = 3.0305267 d (Villanova Kepler EB Catalog: Prsa et al. 2011, Slawson et al. 2011, Kirk et al. 2016), is 83" (4 TESS pixels) from the target and 2.6 mag fainter (Tmag 13.8 vs 11.2). Its Kepler primary is about 43% deep (mean over the central +/- 0.126 d, our measurement) and about 11 h wide (catalogue), against the 0.210 d (5 h) CTOI duration. ExoFOP lists that 0.21 in hours, but the DIAmante value is in days.
 
