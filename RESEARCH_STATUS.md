@@ -1,20 +1,25 @@
-# Research status — 2026-10-26
+# Research status — 2026-11-05
 
 The main branch is the starter pipeline. Detailed candidate analyses and notes
 are already public on the round branches; the signals remain **candidates**,
-not confirmed planets. Existing Research Notes were submitted to RNAAS. The
-following public preprints provide a stable record while editorial review is
-pending in the project's status ledger:
+not confirmed planets. Four Research Notes were submitted to RNAAS between October 12 and 14, 2026.
+There is no editorial decision yet, and all four need corrections: a prior
+public report we did not credit, mixed cadences in one fold that our setup did
+not model correctly, and an AI-use statement that did not match what was
+actually checked. None is withdrawn. The corrected TOI-6000 c note is out; the
+other three corrections are in progress. The public preprints below are the
+stable record:
 
 | Note | Public preprint | Public branch |
 | --- | --- | --- |
-| TOI-6000 c candidate | [Zenodo 23483521](https://doi.org/10.5281/zenodo.23483521) | [round4-tic259233660](https://github.com/rpinho/planet-hunt/tree/round4-tic259233660) |
+| TOI-6000 c candidate (corrected: [Zenodo 23822096](https://doi.org/10.5281/zenodo.23822096)) | [Zenodo 23483521](https://doi.org/10.5281/zenodo.23483521) | [round4-tic259233660](https://github.com/rpinho/planet-hunt/tree/round4-tic259233660) |
 | TOI-4342 third candidate | [Zenodo 23483527](https://doi.org/10.5281/zenodo.23483527) | [round6-toi4342](https://github.com/rpinho/planet-hunt/tree/round6-toi4342) |
 | TIC 144439305 candidate | [Zenodo 23483530](https://doi.org/10.5281/zenodo.23483530) | [round7-rnaas](https://github.com/rpinho/planet-hunt/tree/round7-rnaas) |
 | Combined candidate note | [Zenodo 23483533](https://doi.org/10.5281/zenodo.23483533) | [round8-p1](https://github.com/rpinho/planet-hunt/tree/round8-p1), [round8-crowd](https://github.com/rpinho/planet-hunt/tree/round8-crowd) |
 
-The TOI-4342 signal was first reported publicly by Eumemic, credited in the
-analysis. An uncatalogued signal or low statistical false-positive probability
+The TOI-4342 and TOI-6000 c signals were first reported publicly by Eumemic,
+and the 14.52-day signal on TIC 262843927 by Kunimoto et al. (2025); the first
+versions of those notes did not credit them, and the corrections do. An uncatalogued signal or low statistical false-positive probability
 alone does not establish novelty, on-target origin or planetary status.
 
 ## Later search: no candidate cleared the complete procedure

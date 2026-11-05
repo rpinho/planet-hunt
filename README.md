@@ -8,7 +8,10 @@ It is built to be read and extended, not to compete with the TESS team's
 pipelines (SPOC, QLP). Every step is a plain function in `planet_hunt/`.
 
 For current candidate-note links and the later search outcome, see
-[research status](RESEARCH_STATUS.md) (updated October 26, 2026).
+[research status](RESEARCH_STATUS.md) (updated November 5, 2026). All four
+Research Notes sent to RNAAS need corrections and none has a decision yet. The
+corrected TOI-6000 c note is at [Zenodo 23822096](https://doi.org/10.5281/zenodo.23822096);
+the other three corrections are in progress.
 
 Start with the [short retro](RETRO.md): what we did, what broke, what I would do differently and where I think this is going.
 
@@ -75,12 +78,12 @@ Check catalog coverage with `cache/catalogs/toi.csv` (`Sectors` column).
 
 ## How the search and vetting work
 
-- **Cleaning** (`data.py`): PDCSAP flux with the default quality mask, normalised. 0.25 d is trimmed after every gap longer than 0.5 d (thermal ramps). A 1-day Savitzky-Golay flatten removes variability, and outliers more than 4 sigma *above* the trend are clipped. Once a signal is found, the star is re-flattened with its transits masked so the filter does not eat the depth.
-- **Search** (`search.py`): astropy `BoxLeastSquares` on 10-min bins, with periods from 0.5 d to half the baseline on a frequency-uniform grid. At each period only physically plausible durations are tried (up to 2x a central transit across a Sun-like star).
+- **Cleaning** (`planet_hunt/data.py`): PDCSAP flux with the default quality mask, normalised. 0.25 d is trimmed after every gap longer than 0.5 d (thermal ramps). A 1-day Savitzky-Golay flatten removes variability, and outliers more than 4 sigma *above* the trend are clipped. Once a signal is found, the star is re-flattened with its transits masked so the filter does not eat the depth.
+- **Search** (`planet_hunt/search.py`): astropy `BoxLeastSquares` on 10-min bins, with periods from 0.5 d to half the baseline on a frequency-uniform grid. At each period only physically plausible durations are tried (up to 2x a central transit across a Sun-like star).
 - **Threshold**: SNR >= 7.1, taking the lower of the white-noise and red-noise estimates, plus >= 2 transits and periodogram SDE >= 7.
 - **Red flags** (probably not a planet): depth > 3%; implied radius > 2 RJup; odd/even depth difference > 3 sigma; secondary eclipse at phase 0.5; V-shape; mostly sinusoidal signal (spots, pulsation, contact binary); the same period coming back after masking; transits at data-gap edges; transit times shared with other stars (spacecraft systematic).
 - **Amber flags**: duration implausible for the star, period near TESS's 13.7-d orbit, a modest periodogram peak.
-- **Catalogs** (`catalogs.py`): ExoFOP TOI list, ExoFOP CTOI list and NASA Exoplanet Archive `pscomppars`. Matching uses the TIC ID plus the period, including 2x, 1/2, 3x, 1/3 and 1/4 aliases. All are public and cached for 3 days.
+- **Catalogs** (`planet_hunt/catalogs.py`): ExoFOP TOI list, ExoFOP CTOI list and NASA Exoplanet Archive `pscomppars`. Matching uses the TIC ID plus the period, including 2x, 1/2, 3x, 1/3 and 1/4 aliases. All are public and cached for 3 days.
 
 ## Results so far
 
@@ -237,7 +240,7 @@ year-long orbits that TESS cannot reach.
 
 ## Ideas for extending it (with Claude)
 
-- Use Transit Least Squares (`transitleastsquares` is installed) for better small-planet sensitivity.
+- Use Transit Least Squares (`transitleastsquares` is in requirements.txt, not used by default) for better small-planet sensitivity.
 - Add a single-transit search for long-period planets.
 - Add centroid / difference-image vetting from target pixel files (`lk.search_targetpixelfile`).
 - Model stellar activity in the RVs with a Gaussian process instead of rejecting by indicator.
