@@ -1,4 +1,4 @@
-# Research status — 2026-11-05
+# Research status, 2026-11-05
 
 The main branch is the starter pipeline. Detailed candidate analyses and notes
 are already public on the round branches; the signals remain **candidates**,
@@ -19,7 +19,8 @@ stable record:
 
 The TOI-4342 and TOI-6000 c signals were first reported publicly by Eumemic,
 and the 14.52-day signal on TIC 262843927 by Kunimoto et al. (2025); the first
-versions of those notes did not credit them, and the corrections do. An uncatalogued signal or low statistical false-positive probability
+versions of those notes did not credit them; the published TOI-6000 c correction does,
+and the other corrections will. An uncatalogued signal or low statistical false-positive probability
 alone does not establish novelty, on-target origin or planetary status.
 
 ## Later search: no candidate cleared the complete procedure
