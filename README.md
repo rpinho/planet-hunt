@@ -246,3 +246,15 @@ year-long orbits that TESS cannot reach.
 - Model stellar activity in the RVs with a Gaussian process instead of rejecting by indicator.
 - Add newer public HARPS / ESPRESSO data (ESO archive, after 2018) to the RV stars.
 - Run on the newest sector, ahead of the TOI alerts.
+
+## References
+
+The kit is glue around other people's tools and archives:
+
+- [lightkurve](https://lightkurve.github.io/lightkurve/) — TESS light-curve download, flattening and folding.
+- [astropy](https://www.astropy.org/) and its [BoxLeastSquares](https://docs.astropy.org/en/stable/api/astropy.timeseries.BoxLeastSquares.html) — the transit search itself: BLS periodogram, depth, duration.
+- [astroquery](https://astroquery.readthedocs.io/) against [MAST](https://archive.stsci.edu/) — light curves, TESScut FFI cutouts and TIC catalog queries.
+- [transitleastsquares](https://github.com/hippke/tls) — optional alternative search; installed, not used by default.
+- [ExoFOP-TESS](https://exofop.ipac.caltech.edu/tess/) TOI and CTOI tables, the [NASA Exoplanet Archive](https://exoplanetarchive.ipac.caltech.edu/) and [exoplanet.eu](http://exoplanet.eu/) — the known-object cross-match behind every "is this new?" check.
+- Method A (faint red dwarfs in full-frame images) follows [Mehran Jalali's thread](https://x.com/mehran__jalali/status/2108339123669111033), which also pointed at Method B.
+- Method B data: Trifonov et al. 2020, the HARPS RVBank ([arXiv:2001.05942](https://arxiv.org/abs/2001.05942); CDS J/A+A/636/A74) — SERVAL velocities of every public HARPS spectrum, nightly-zero-point corrected, with activity indicators — plus Perdelwitz et al. 2024 Ca II H&K R'HK ([arXiv:2311.12438](https://arxiv.org/abs/2311.12438)), fetched through VizieR.
