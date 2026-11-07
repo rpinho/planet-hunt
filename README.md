@@ -1,5 +1,8 @@
 # planet-hunt: a TESS transit-search starter kit
 
+Part of my AI-for-science work: [biology](https://github.com/rpinho/ai-biology) ·
+[math](https://github.com/rpinho/math-certificates) · [physics](https://github.com/rpinho/ai-physics)
+
 A small, readable pipeline that searches public NASA TESS light curves for
 transiting planets, vets what it finds, checks it against the catalogs of known
 objects and writes one self-contained HTML report.
