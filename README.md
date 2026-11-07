@@ -251,6 +251,8 @@ year-long orbits that TESS cannot reach.
 
 The kit is glue around other people's tools and archives:
 
+- [Eumemic](https://github.com/eumemic/exoplanets) (@dysmemic) — the open multi-sector TESS search over 4.04M stars and its public candidate table. Our overlap checks and novelty cross-match were done against it.
+- Pavel Rabtsevich (@p_rabtsevich) — the TIC 4206066 search that started the citizen-search wave ([preprint](https://doi.org/10.5281/zenodo.22967456)).
 - [lightkurve](https://lightkurve.github.io/lightkurve/) — TESS light-curve download, flattening and folding.
 - [astropy](https://www.astropy.org/) and its [BoxLeastSquares](https://docs.astropy.org/en/stable/api/astropy.timeseries.BoxLeastSquares.html) — the transit search itself: BLS periodogram, depth, duration.
 - [astroquery](https://astroquery.readthedocs.io/) against [MAST](https://archive.stsci.edu/) — light curves, TESScut FFI cutouts and TIC catalog queries.
