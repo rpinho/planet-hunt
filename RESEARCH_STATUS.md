@@ -1,26 +1,25 @@
-# Research status, 2026-11-05
+# Research status, 2026-11-13
 
 The main branch is the starter pipeline. Detailed candidate analyses and notes
 are already public on the round branches; the signals remain **candidates**,
 not confirmed planets. Four Research Notes were submitted to RNAAS between October 12 and 14, 2026.
-There is no editorial decision yet, and all four need corrections: a prior
+There is no editorial decision yet. All four needed corrections: a prior
 public report we did not credit, mixed cadences in one fold that our setup did
 not model correctly, and an AI-use statement that did not match what was
-actually checked. None is withdrawn. The corrected TOI-6000 c note is out; the
-other three corrections are in progress. The public preprints below are the
-stable record:
+actually checked. None is withdrawn. All four corrections went to AAS on
+October 30; the corrected TOI-6000 c and combined notes were resubmitted on
+November 2. The corrected versions below are the stable record:
 
-| Note | Public preprint | Public branch |
-| --- | --- | --- |
-| TOI-6000 c candidate (corrected: [Zenodo 23822096](https://doi.org/10.5281/zenodo.23822096)) | [Zenodo 23483521](https://doi.org/10.5281/zenodo.23483521) | [round4-tic259233660](https://github.com/rpinho/planet-hunt/tree/round4-tic259233660) |
-| TOI-4342 third candidate | [Zenodo 23483527](https://doi.org/10.5281/zenodo.23483527) | [round6-toi4342](https://github.com/rpinho/planet-hunt/tree/round6-toi4342) |
-| TIC 144439305 candidate | [Zenodo 23483530](https://doi.org/10.5281/zenodo.23483530) | [round7-rnaas](https://github.com/rpinho/planet-hunt/tree/round7-rnaas) |
-| Combined candidate note | [Zenodo 23483533](https://doi.org/10.5281/zenodo.23483533) | [round8-p1](https://github.com/rpinho/planet-hunt/tree/round8-p1), [round8-crowd](https://github.com/rpinho/planet-hunt/tree/round8-crowd) |
+| Note | Corrected version | First version | Public branch |
+| --- | --- | --- | --- |
+| TOI-6000 c candidate | [Zenodo 23895484](https://doi.org/10.5281/zenodo.23895484) | [Zenodo 23483521](https://doi.org/10.5281/zenodo.23483521) | [round4-tic259233660](https://github.com/rpinho/planet-hunt/tree/round4-tic259233660) |
+| TOI-4342 third candidate | [Zenodo 23824790](https://doi.org/10.5281/zenodo.23824790) | [Zenodo 23483527](https://doi.org/10.5281/zenodo.23483527) | [round6-toi4342](https://github.com/rpinho/planet-hunt/tree/round6-toi4342) |
+| TIC 144439305 candidate | [Zenodo 23836131](https://doi.org/10.5281/zenodo.23836131) | [Zenodo 23483530](https://doi.org/10.5281/zenodo.23483530) | [round7-rnaas](https://github.com/rpinho/planet-hunt/tree/round7-rnaas) |
+| Combined candidate note | [Zenodo 23895440](https://doi.org/10.5281/zenodo.23895440) | [Zenodo 23483533](https://doi.org/10.5281/zenodo.23483533) | [round8-p1](https://github.com/rpinho/planet-hunt/tree/round8-p1), [round8-crowd](https://github.com/rpinho/planet-hunt/tree/round8-crowd) |
 
 The TOI-4342 and TOI-6000 c signals were first reported publicly by Eumemic,
 and the 14.52-day signal on TIC 262843927 by Kunimoto et al. (2025); the first
-versions of those notes did not credit them; the published TOI-6000 c correction does,
-and the other corrections will. An uncatalogued signal or low statistical false-positive probability
+versions of those notes did not credit them; the corrected versions do. An uncatalogued signal or low statistical false-positive probability
 alone does not establish novelty, on-target origin or planetary status.
 
 ## Later search: no candidate cleared the complete procedure

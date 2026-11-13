@@ -11,10 +11,13 @@ It is built to be read and extended, not to compete with the TESS team's
 pipelines (SPOC, QLP). Every step is a plain function in `planet_hunt/`.
 
 For current candidate-note links and the later search outcome, see
-[research status](RESEARCH_STATUS.md) (updated November 5, 2026). All four
-Research Notes sent to RNAAS need corrections and none has a decision yet. The
-corrected TOI-6000 c note is at [Zenodo 23822096](https://doi.org/10.5281/zenodo.23822096);
-the other three corrections are in progress.
+[research status](RESEARCH_STATUS.md) (updated November 13, 2026). All four
+Research Notes sent to RNAAS needed corrections and none has a decision yet. All four
+corrections went to AAS on October 30, and the corrected versions are public:
+TOI-6000 c ([Zenodo 23895484](https://doi.org/10.5281/zenodo.23895484)),
+TOI-4342 ([Zenodo 23824790](https://doi.org/10.5281/zenodo.23824790)),
+TIC 144439305 ([Zenodo 23836131](https://doi.org/10.5281/zenodo.23836131)) and the
+combined note ([Zenodo 23895440](https://doi.org/10.5281/zenodo.23895440)).
 
 Start with the [short retro](RETRO.md): what we did, what broke, what I would do differently and where I think this is going.
 
