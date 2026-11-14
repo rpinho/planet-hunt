@@ -12,7 +12,9 @@ pipelines (SPOC, QLP). Every step is a plain function in `planet_hunt/`.
 
 For current candidate-note links and the later search outcome, see
 [research status](RESEARCH_STATUS.md) (updated November 13, 2026). All four
-Research Notes sent to RNAAS needed corrections and none has a decision yet. All four
+Research Notes sent to RNAAS needed corrections. On November 14 RNAAS declined the TOI-6000 c note under a
+[new policy](https://doi.org/10.3847/2515-5172/aeba86) for notes on transits in small numbers of sources; the other
+three fall under the same policy. All four
 corrections went to AAS on October 30, and the corrected versions are public:
 TOI-6000 c ([Zenodo 23895484](https://doi.org/10.5281/zenodo.23895484)),
 TOI-4342 ([Zenodo 23824790](https://doi.org/10.5281/zenodo.23824790)),
