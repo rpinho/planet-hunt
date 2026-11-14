@@ -1,6 +1,6 @@
 # Retro
 
-Written October 30, 2026. Everything here is a candidate or a negative result. Nothing is a confirmed planet, and
+Written October 30, 2026, and updated November 13. Everything here is a candidate or a negative result. Nothing is a confirmed planet, and
 none of our notes has been peer reviewed.
 
 ## What we did
@@ -68,13 +68,52 @@ candidates, so we audited every number and reran the probabilities. Three stars 
 our setup did not model correctly. TIC 101653309 nearly doubled. Even if the 5.9-arcsecond star next to it is ruled
 out, it only reaches 0.016. The re-tests also ran without an orbit-edge mask Eumemic documented on October 14. With
 the mask all six still pass, but the 14.52-day signal rests on one sector. The TOI-6000 note also said I verified
-the analysis. I did not, and the correction says what I actually did. The TOI-6000 c correction is
-[out](https://doi.org/10.5281/zenodo.23822096). The other three are in progress.
+the analysis. I did not, and the correction says what I actually did. All four corrections went to AAS on
+October 30, and the corrected versions are public:
+TOI-6000 c ([Zenodo 23895484](https://doi.org/10.5281/zenodo.23895484)),
+TOI-4342 ([Zenodo 23824790](https://doi.org/10.5281/zenodo.23824790)),
+TIC 144439305 ([Zenodo 23836131](https://doi.org/10.5281/zenodo.23836131)) and the combined note
+([Zenodo 23895440](https://doi.org/10.5281/zenodo.23895440)).
 
 **The MOLUSC numbers depend on a setting.** MOLUSC limits bound companions. TRICERATOPS zero-pads that list to the
 draw count, so the draw count changes the prior. The same inputs give 0.0044 or 0.021 for TIC 144439305, and 0.011
 or 0.028 for TOI-4405. So I would not call either of those below the 0.015 bar. That bar was also calibrated on 2-minute
 data, and TIC 144439305 is 200-second data.
+
+## After the first notes (November 1 to 13)
+
+We kept searching, and most of what we learned is about where the methods stop working.
+
+**Active M dwarfs are hard to search honestly.** A transit search that models the star's rotation with a Gaussian
+process ([TLS](https://github.com/hippke/tls) 2.2) beat our older pipeline on simulated active M dwarfs, by 22 points
+of recovery at the same false-alarm rate. On real data it fell apart at the null. We re-searched 10,188 sectors of
+1,704 rotating M dwarfs from [Fetherolf et al. (2023)](https://doi.org/10.3847/1538-4365/acdee5). The usual way to
+estimate false alarms is to flip the light curve upside down, or shuffle it, and search again. On these stars small
+flares become dips when you flip the light curve, so the flipped null runs hot on flaring stars and cold on quiet
+ones. Set the threshold where it allows about 3 false alarms in 10,139 searches, and no injected transit at
+signal-to-noise 10 survives (0 of 680). Kepler's team
+[warned](https://doi.org/10.3847/1538-4365/aab4f9) that inversion only works for false alarms that are symmetric
+under it. Flares are not. I think a real search here needs a null built for flaring stars, and I don't know of one
+that has been shown to work.
+
+**Gaia's DR3 transit periods are mostly not the planet's period.** Gaia DR3 published 214 transit candidates
+([Panahi et al. 2022](https://doi.org/10.1051/0004-6361/202243497)). 184 of them are known planets or TOIs. Gaia's
+transit depths match those planets well, but only 18 of the 184 periods match within 0.1%, plus 8 simple aliases.
+For Gaia DR4 in December, we will treat Gaia periods as labels, not ephemerides, unless DR4's known planets show they
+got much better.
+
+**A published result did not reproduce for us.** [Binnenfeld et al. (2026)](https://arxiv.org/abs/2611.08282) report a
+54-day scanning-law peak in 8 of 9 sources of the Gaia DR4 pre-release. Our implementation finds it in none of
+them. [ExoPlanetLab](https://arxiv.org/abs/2611.13770) (David Hobbs), a separate public code, also finds no
+scan-angle term in those nine sources. So the difference is probably in the inputs, and it is still open.
+
+**Our own published number did reproduce.** The 46% injection pass rate in the TIC 144439305 note came out at 55 of
+120 again on freshly downloaded data, with all 120 pass/fail decisions the same.
+
+We also froze two tests before the data exists: the transit windows that
+[Pagés Navarrete (2026)](https://arxiv.org/abs/2611.03019)'s resolved periods predict for TESS sectors after 107, and
+Eumemic's catalogue as of October 28, before any QLP data from sector 105 on. The first window, in sector 108, came
+out unclear.
 
 ## What I would do differently
 
@@ -103,7 +142,7 @@ Thank you to:
   the route: preregistered transit times, then a DDT request.
 - [Eumemic](https://github.com/eumemic/exoplanets), who searched 4 million stars and published every signal. Three
   of our four notes build on or credit those tables. The TOI-6000 c note should have and did not.
-  [The corrected version](https://doi.org/10.5281/zenodo.23822096) does.
+  [The corrected version](https://doi.org/10.5281/zenodo.23895484) does.
 - [Kunimoto et al. (2025)](https://doi.org/10.3847/1538-3881/ae070a), whose catalogue already had our 14.52-day
   signal.
 - Carl Ziegler, who sent the numerical SOAR speckle curve for TOI-4405.
@@ -118,6 +157,11 @@ Thank you to:
   when the pixels pointed at neighbours.
 - The [Planet Hunters TESS](https://www.zooniverse.org/projects/nora-dot-eisner/planet-hunters-tess/talk/2110)
   volunteers, who vet these posts for free.
+
+- [Avraham Binnenfeld](https://arxiv.org/abs/2611.08282) and co-authors, [David Hobbs](https://github.com/hobbsSe/ExoPlanetLab)
+  for ExoPlanetLab, and [Berry Holl](https://doi.org/10.1051/0004-6361/202245353) and co-authors, for the Gaia
+  scan-angle work we leaned on.
+- [Aviad Panahi](https://doi.org/10.1051/0004-6361/202243497) and co-authors, for the Gaia DR3 transit candidates.
 
 And machine learning on transit data is not new.
 [Shallue and Vanderburg (2018)](https://arxiv.org/abs/1712.05044) found Kepler-90i with a neural network.
@@ -154,3 +198,6 @@ helps is making each claim cheap to check.
 - Whether Pavel's predicted transits show up when TESS observes his star from October 31 to November 26. That is a
   public test of a preregistered AI-assisted prediction.
 - Single transits, long periods and the 41 stars whose rotation swamped our search are still unsearched.
+- A null for transit searches of flaring M dwarfs that holds up on real data.
+- Why our reading of the Gaia DR4 pre-release shows no 54-day feature where Binnenfeld et al. find one.
+- How good Gaia DR4's transit periods are, once it is out in December.
