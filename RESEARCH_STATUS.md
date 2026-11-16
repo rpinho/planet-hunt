@@ -6,7 +6,8 @@ not confirmed planets. Four Research Notes were submitted to RNAAS between Octob
 On November 14 RNAAS declined the TOI-6000 c note under a
 [new policy](https://doi.org/10.3847/2515-5172/aeba86): it no longer takes notes on transits in a single source
 or a small number of sources unless they come from a systematic, validated search. The other three notes fall
-under the same policy. All four needed corrections: a prior
+under the same policy. On November 16 an [ExoFOP observing note](https://exofop.ipac.caltech.edu/tess/edit_obsnotes.php?id=259233660)
+on TOI-6000 (TIC 259233660) pointed TESS follow-up observers to the corrected TOI-6000 c version. All four needed corrections: a prior
 public report we did not credit, mixed cadences in one fold that our setup did
 not model correctly, and an AI-use statement that did not match what was
 actually checked. None is withdrawn. All four corrections went to AAS on
