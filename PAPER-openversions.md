@@ -10,11 +10,11 @@ What was easy, what was hard, and what is still open: [RETRO.md](RETRO.md). Curr
 
 Sister hubs: [AI for biology](https://github.com/rpinho/ai-biology) · [math](https://github.com/rpinho/math-certificates) · [physics](https://github.com/rpinho/ai-physics)
 
-This version leaves out the TOI-4342 section, which is in review at RNAAS. It also leaves out the round-8 novelty table and caveats under TOI-4405, because they cover TOI-4342 too. The full file is [PAPER.md](PAPER.md).
+This version leaves out one candidate whose note is in review at a journal. Under TOI-4405 it also leaves out the round-8 method, novelty table and caveats, because they discuss that candidate too. The full file is [PAPER.md](PAPER.md).
 
 ## What this is, and what it isn't
 
-None of our notes has been peer reviewed. Four Research Notes were sent to RNAAS in October 2026. RNAAS declined three of them under a [new policy](https://doi.org/10.3847/2515-5172/aeba86) for notes on transits in a single source or a small number of sources; the TOI-4342 note is still in review. The corrected versions on Zenodo are the stable record.
+None of our notes has been peer reviewed. Four Research Notes were sent to RNAAS in October 2026. RNAAS declined three of them under a [new policy](https://doi.org/10.3847/2515-5172/aeba86) for notes on transits in a single source or a small number of sources. The corrected versions on Zenodo are the stable record.
 
 An uncatalogued signal or low statistical false-positive probability alone does not establish novelty, on-target origin or planetary status.
 
@@ -276,56 +276,6 @@ Candidate, in the combined note. RNAAS declined the combined note on November 16
 ## Claim, method and verdict
 
 _Source: [round8-p1/runs/round8_p1_report.md](https://github.com/rpinho/planet-hunt/blob/round8-p1/runs/round8_p1_report.md)_
-
-#### Method (pre-registered before any new data was loaded)
-
-- **Ephemerides** are the discovery values in `round8/targets.py`, committed before any download (`3274f53`). Nothing was re-fitted before the hold-out depth was measured.
-- **Data:** every TESS product on MAST as of 2026-10-13 (`round8/inventory.py`; tables in `runs/round8_p1/inventory.json`):
-  - SPOC 2-min PDCSAP, TESS-SPOC, QLP;
-  - TGLC / eleanor-lite where nothing else exists;
-  - 11×11 TESScut cutouts for every sector (own fixed-aperture photometry with per-cadence sky subtraction, since S105+ cutouts have none).
-  - **No light-curve product or cutout after S108 exists for any of the seven stars.**
-  - **Hold-out data** = sectors the discovery search never saw:
-    - round-5 hosts: FFI-only sectors and anything after S107;
-    - TIC 350522259: everything except the 27 TESS-SPOC sectors round 5 used;
-    - TIC 11528365: everything except S107.
-  - FFI products of sectors that also have 2-min data share photons, so they were used only as product checks.
-- **Estimator** (`round8/lcgate.py`):
-  - per sector and product, a wotan biweight with candidate and known transits masked;
-  - the depth is the weighted least-squares amplitude of a box whose per-cadence value is the exposure fraction inside transit, so 2-min, 200-s, 10-min and 30-min data measure the same quantity;
-  - errors are robust scatter × a red-noise β at the transit duration.
-- **Hold-out verdicts:**
-  - "reproduced" = z_hold ≥ 2.5 and within 3σ of the discovery depth;
-  - "refuted" = more than 3σ below it;
-  - "no power" = expected z < 2.5.
-- **Checks:**
-  - odd/even; phase 0.5 (P/2); phases 1/3 and 2/3 (P/3); 3P residue classes;
-  - an any-phase secondary scan;
-  - a fine period scan (is the fixed P the local optimum?);
-  - per-epoch, per-sector, per-year and per-half consistency;
-  - 2,000 random-ephemeris nulls, on all the data and on the hold-out;
-  - batman + emcee fits, free and with a TIC-density prior (R★ error propagated);
-  - product depth ratios against the host's known planet as an on-target control.
-- **Look-elsewhere for stars with no hold-out** (`round8/scramble.py`):
-  - The identical round-5 search (0.5-30 d) is run on null copies of each star's 2-min data.
-  - Every known and candidate transit cadence is removed, then the remaining flux is circularly shifted by a random lag inside each sector, which keeps the noise and systematics and destroys coherence.
-  - The strongest signal that passes the round-5 automatic triage is recorded.
-  - A first version inverted the flux, but that turns flares into "transits"; it is kept separately and not used.
-- **Pixels:**
-  - `deep_vet.py` (TESScut PSF-scene difference-image localisation against Gaia DR3), every sector, with the host's known planet as control.
-  - A 2-min-TPF template-shift test (`round8/tpfloc.py`, the round-6 method generalised) works on TOI-4342 (T = 11.0). At T ≈ 12.3 it fails its own control (the known planets' difference images reach only SNR 1-3 per sector), so it was **not** used for TOI-6008 or TOI-4405.
-- **FPP:**
-  - TRICERATOPS (`round6/run_tri.py`, 3 runs × 10⁶ draws each);
-  - SPOC 2-min apertures;
-  - every machine-readable ExoFOP contrast curve (and the digitised SOAR curve for TOI-4405);
-  - MOLUSC (Gaia contrast + RUWE + the deepest AO curve, 5×10⁵ companions);
-  - neighbours excluded by the pixels set to zero depth.
-  - A bug fix: MOLUSC's CLI parsed a negative declination as an option; it is now passed after `--`.
-- **Other checks:**
-  - Gaia DR3 RV summary statistics against the K that a 0.08 M☉ eclipsing companion would induce;
-  - SPOCK for multis;
-  - every public SG1 ground light curve on ExoFOP, scanned for chance coverage of a candidate transit (`round8/ground.py`).
-- **Novelty:** a separate read-only pass (section 3).
 
 ##### 2.1 TOI-4405 (TIC 177254988), 3.6008 d: STRONG CANDIDATE
 
