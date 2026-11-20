@@ -197,6 +197,16 @@ imaging and, ultimately, radial velocities. The real routes for a citizen
 scientist are Planet Hunters TESS (Zooniverse) and, for a well-vetted
 signal, an ExoFOP CTOI submission.
 
+## Claudestronomy
+
+[Claudestronomy](https://claudestronomy.com), a macrogrants program for people using AI agents on public sky data, lists some things they care about. The searches here do each of them:
+
+- Recover known objects first: the "Known re-found" column in [Results so far](#results-so-far).
+- Inject synthetic sources: completeness comes from injections at other periods ([PAPER.md](PAPER.md)).
+- Write down thresholds before new data: the hold-out tests are pre-registered ([PAPER.md](PAPER.md)).
+- Have a fresh agent challenge the analysis: one agent searches, a separate one referees.
+- Publish code and nulls: the code is here, and the hold-out nulls are in [PAPER.md](PAPER.md).
+
 ## Where to search: a 2×2
 
 The TESS team's pipelines (SPOC, QLP) already search every 2-min and FFI light
