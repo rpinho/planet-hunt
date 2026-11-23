@@ -39,7 +39,10 @@ trials, including unavailable cases. The two period arms share photons and
 correlated controls; they are not independent surveys. Recovery is limited to
 the tested statistical procedure and does not measure occurrence completeness.
 This is an observational negative with limited sensitivity, not evidence that
-these stars have no planets. This update makes an aggregate summary public;
+these stars have no planets. On an outside benchmark (200 injections by
+M. V. Prizmic, [Zenodo 24454447](https://doi.org/10.5281/zenodo.24454447)), this procedure recovered 32 of 77
+injected transit signals with expected S/N >= 10 on stars that met its
+sector-coverage rule, at its frozen thresholds. This update makes an aggregate summary public;
 the separate campaign's complete code, photon arrays and audit bundle are not
 included in this starter repository or independently reproduced by this update.
 
